@@ -427,6 +427,7 @@ def main():
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n'
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
           + "\n".join(entries) + "\n</urlset>\n")
+    write("CNAME", BASE_URL.split("://", 1)[1] + "\n")  # GitHub Pages custom domain
     write("robots.txt", f"User-agent: *\nAllow: /\nDisallow: /site/\n\nSitemap: {BASE_URL}/sitemap.xml\n")
     write("404.html", page("en", content["en"], "404.html", "Muffle", content["en"]["meta"]["home_description"],
                            '<main class="article wrap narrow"><h1>404</h1><p><a href="{HOME}">Muffle</a></p></main>', [], languages,
