@@ -252,6 +252,7 @@ def home_page(lang, c, languages):
 <figure>{img_tag("{REL}", lang, "reminder", c['features']['image_reminder_alt'], cls="")}</figure>
 <figure>{img_tag("{REL}", lang, "pills", c['features']['image_pills_alt'], cls="")}</figure>
 <figure>{img_tag("{REL}", lang, "automation", c['features']['image_automation_alt'], cls="")}</figure>
+<figure>{img_tag("{REL}", lang, "suggestion", c['features']['image_suggestion_alt'], cls="")}</figure>
 </div>
 </div></section>
 <section class="how"><div class="wrap">
@@ -308,6 +309,7 @@ GUIDE_IMAGE = {
     "airpods-mute-not-working-on-mac": "panel-muted",
     "mute-webex-on-mac": "pills",
     "mute-slack-huddles": "pills",
+    "airpods-sound-quality-mac-calls": "suggestion",
 }
 
 

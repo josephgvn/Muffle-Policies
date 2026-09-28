@@ -80,11 +80,28 @@
       {
         "title": "Phím tắt và Trung tâm điều khiển",
         "text": "Tắt tiếng từ ứng dụng Phím tắt, Siri, Stream Deck, Raycast hoặc nút bấm trong Trung tâm điều khiển."
+      },
+      {
+        "title": "Nhấn để nói chuyện hoặc nhấn để tắt tiếng",
+        "text": "Chọn cách phím tắt hoạt động: chạm để chuyển đổi, giữ để nói chuyện hoặc giữ để tắt tiếng khi ho. Thêm các phím tắt và bật tiếng riêng biệt, hoặc giữ một phím như ⌥ bên phải hay nút chuột phụ."
+      },
+      {
+        "title": "Tắt tiếng lại khi bạn im lặng",
+        "text": "Bật tiếng để phát biểu nhanh? Nếu sau đó bạn giữ im lặng trong khoảng thời gian đã chọn, Muffle sẽ tắt tiếng bạn trở lại."
+      },
+      {
+        "title": "Micrô tốt nhất cho căn phòng",
+        "text": "Khi dùng AirPods trong phòng yên tĩnh, Muffle gợi ý micrô của Mac để AirPods phát cuộc gọi ở chất lượng đầy đủ. Khi xung quanh ồn ào, ứng dụng sẽ gợi ý micrô của AirPods."
+      },
+      {
+        "title": "Không bao giờ bỏ sót",
+        "text": "Viền màn hình phát sáng xanh lá hoặc đỏ, biểu tượng thanh menu có màu, âm thanh thông báo và nút nổi. Bạn có thể bật bất kỳ mục nào mình thích."
       }
     ],
     "image_reminder_alt": "Thông báo nhắc nhở “Bạn đang tắt tiếng” ở cuối màn hình",
     "image_pills_alt": "Bộ điều khiển thu nhỏ dạng nổi ở trạng thái tắt tiếng và đang bật",
-    "image_automation_alt": "Cài đặt Muffle để bắt đầu cuộc gọi ở chế độ tắt tiếng và các tính năng tự động hóa cuộc gọi khác"
+    "image_automation_alt": "Cài đặt Muffle để bắt đầu cuộc gọi ở chế độ tắt tiếng và các tính năng tự động hóa cuộc gọi khác",
+    "image_suggestion_alt": "Muffle gợi ý dùng micrô của Mac vì căn phòng đang yên tĩnh"
   },
   "how": {
     "title": "Thiết lập chỉ trong một phút",
@@ -132,6 +149,14 @@
       {
         "q": "Những phiên bản macOS nào được hỗ trợ?",
         "a": "macOS 14 Sonoma trở lên. Nút bấm trong Trung tâm điều khiển yêu cầu macOS 26 trở lên."
+      },
+      {
+        "q": "Muffle có tính năng nhấn để nói chuyện không?",
+        "a": "Có. Chọn “Nhấn để nói chuyện” trong Cài đặt và giữ phím tắt của bạn để nói. Bạn cũng có thể giữ một phím đơn như ⌥ bên phải hoặc fn, hoặc một nút chuột phụ."
+      },
+      {
+        "q": "Tại sao AirPods nghe tệ hơn trong cuộc gọi?",
+        "a": "Khi cuộc gọi dùng micrô AirPods, AirPods sẽ chuyển sang chế độ cuộc gọi khiến âm thanh phát ra có chất lượng thấp hơn. Trong phòng yên tĩnh, Muffle sẽ gợi ý micrô của Mac để AirPods tiếp tục phát ở chất lượng đầy đủ."
       }
     ]
   },
@@ -444,22 +469,22 @@
     {
       "slug": "push-to-talk-on-mac",
       "title": "Nhấn để nói (Push to Talk) trên Mac cho mọi ứng dụng",
-      "description": "Dùng push to talk trên Mac trong Zoom, Google Meet, Teams, Discord. Giữ phím để nói chuyện, thả tay để tắt tiếng micrô khi họp trực tuyến.",
+      "description": "Dùng tính năng nhấn để nói chuyện trên Mac trong Zoom, Google Meet, Teams, Discord và mọi ứng dụng khác. Giữ phím để nói, thả ra để tắt tiếng.",
       "h1": "Nhấn để nói trên Mac, trong mọi ứng dụng",
       "intro": [
         "Tính năng nhấn để nói luôn giữ bạn ở chế độ tắt tiếng cho đến khi nhấn giữ một phím. Đây là cách thuận tiện nhất để giữ yên lặng trong các cuộc họp đông người hoặc phòng ồn ào, nhưng rất ít ứng dụng hỗ trợ tính năng này, và mỗi ứng dụng lại dùng một phím khác nhau.",
-        "Muffle mang tính năng nhấn để nói lên mọi ứng dụng trên Mac. Bạn chỉ cần giữ chế độ tắt tiếng, nhấn giữ phím tắt để nói chuyện, rồi thả tay ra để tắt tiếng trở lại."
+        "Muffle mang tính năng nhấn để nói chuyện đến mọi ứng dụng trên Mac. Hãy chọn “Nhấn để nói chuyện” trong Cài đặt, giữ phím tắt để nói và thả ra để tắt tiếng trở lại."
       ],
       "steps_title": "Cách dùng tính năng nhấn để nói",
       "steps": [
         "Cài đặt Muffle.",
-        "Tắt tiếng bằng Control-Option-M hoặc nhấn AirPods của bạn.",
+        "Trong Cài đặt Muffle, đặt “Chế độ phím tắt” thành “Nhấn để nói chuyện”.",
         "Nhấn giữ Control-Option-M trong khi nói.",
         "Thả tay ra. Bạn đang tắt tiếng trở lại."
       ],
       "tips": [
-        "Nhấn nhanh phím tắt vẫn dùng để chuyển đổi tắt tiếng. Giữ phím tắt chính là tính năng nhấn để nói.",
-        "Hãy chọn một phím thuận tay trong Cài đặt Muffle, ví dụ như một phím F."
+        "Bạn thích dùng một phím đơn hơn? Hãy thiết lập phím nói trong Cài đặt: ⌥ bên phải, fn hoặc một nút chuột phụ.",
+        "Hãy chọn một phím tắt thuận tay trong Cài đặt Muffle, ví dụ như một phím F."
       ],
       "faq": [
         {
@@ -468,7 +493,7 @@
         },
         {
           "q": "Ứng dụng có tính năng nhấn để tắt tiếng tạm thời không?",
-          "a": "Có. Khi bạn đang bật tiếng, nhấn giữ phím tắt sẽ tắt tiếng tạm thời cho đến khi bạn thả tay ra."
+          "a": "Có. Hãy chọn “Nhấn để tắt tiếng” và giữ phím tắt để tắt tiếng trong giây lát, như một nút hắng giọng."
         }
       ]
     },
@@ -561,6 +586,37 @@
         {
           "q": "Âm thanh của tôi có bị ghi âm không?",
           "a": "Không. Muffle chỉ đo mức âm lượng và không bao giờ lưu trữ hay gửi bất kỳ âm thanh nào đi."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-sound-quality-mac-calls",
+      "title": "Tại sao AirPods nghe kém hơn khi gọi trên Mac và cách sửa",
+      "description": "AirPods giảm chất lượng âm thanh khi cuộc gọi trên Mac dùng mic tai nghe. Tìm hiểu lý do và cách giữ âm thanh trọn vẹn trong Meet, Zoom và Teams.",
+      "h1": "Tại sao AirPods nghe kém hơn trong các cuộc gọi trên Mac",
+      "intro": [
+        "Khi tham gia cuộc gọi bằng AirPods, âm thanh bỗng trở nên bí và nghẹt. Đây không phải lỗi. Khi một ứng dụng dùng micrô của AirPods, kết nối Bluetooth sẽ chuyển AirPods sang chế độ cuộc gọi và phát mọi thứ ở chất lượng thấp hơn nhiều.",
+        "Cách khắc phục là nói vào micrô của Mac và để AirPods chỉ nhận nhiệm vụ phát âm thanh. Trong phòng yên tĩnh, micrô của Mac nghe cũng tốt tương đương và cuộc gọi sẽ phát lại ở chất lượng đầy đủ. Muffle nhận biết khi phòng yên tĩnh và gợi ý bạn chuyển đổi."
+      ],
+      "steps_title": "Giữ chất lượng âm thanh đầy đủ trong cuộc gọi",
+      "steps": [
+        "Cài đặt Muffle và giữ tùy chọn “Gợi ý micrô tốt nhất cho căn phòng” ở trạng thái bật.",
+        "Tham gia cuộc gọi bằng AirPods như bình thường.",
+        "Khi Muffle thông báo phòng của bạn đang yên tĩnh, hãy nhấp vào “Chuyển đổi”.",
+        "Nếu sau đó xung quanh trở nên ồn ào, Muffle sẽ gợi ý dùng lại micrô AirPods."
+      ],
+      "tips": [
+        "Việc chuyển đổi hoạt động khi ứng dụng cuộc gọi sử dụng micrô mặc định của hệ thống. Trong Google Meet, Zoom và Teams, hãy chọn tùy chọn mặc định hoặc giống hệ thống.",
+        "Hãy ngồi gần Mac khi dùng micrô của máy. Muffle chỉ gợi ý khi micrô có thể nghe rõ giọng bạn."
+      ],
+      "faq": [
+        {
+          "q": "Tại sao âm thanh AirPods bị tệ đi trong các cuộc gọi trên Mac?",
+          "a": "Bluetooth không thể truyền tải đồng thời âm thanh stereo chất lượng cao cùng giọng nói của bạn, vì vậy AirPods phải giảm xuống chế độ cuộc gọi khi micrô của tai nghe đang hoạt động."
+        },
+        {
+          "q": "Muffle có tự ý chuyển đổi micrô không?",
+          "a": "Không. Muffle chỉ gợi ý micrô tốt hơn. Không có gì thay đổi cho đến khi bạn nhấp vào “Chuyển đổi”."
         }
       ]
     }

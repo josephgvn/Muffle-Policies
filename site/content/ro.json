@@ -80,11 +80,28 @@
       {
         "title": "Comenzi rapide și Centrul de control",
         "text": "Dezactivați microfonul din aplicația Comenzi rapide, prin Siri, Stream Deck, Raycast sau cu un buton în Centrul de control."
+      },
+      {
+        "title": "Apăsați pentru a vorbi sau apăsați pentru a dezactiva",
+        "text": "Alegeți cum funcționează combinația de taste: atingeți pentru a comuta, țineți apăsat ca să vorbiți sau țineți apăsat pentru a dezactiva când tușiți. Adăugați taste separate pentru dezactivare și activare sau țineți apăsată o singură tastă precum ⌥ dreapta ori un buton suplimentar de mouse."
+      },
+      {
+        "title": "Din nou pe mut când nu mai vorbiți",
+        "text": "Ați activat microfonul doar ca să spuneți ceva? Dacă apoi nu mai vorbiți în intervalul ales, Muffle vă dezactivează din nou microfonul."
+      },
+      {
+        "title": "Cel mai bun microfon pentru încăpere",
+        "text": "Cu AirPods într-o încăpere liniștită, Muffle sugerează microfonul Mac-ului, astfel încât căștile AirPods să redea apelul la calitate maximă. Când se face zgomot, sugerează microfonul AirPods."
+      },
+      {
+        "title": "Imposibil de ratat",
+        "text": "O lumină verde sau roșie în jurul ecranului, o pictogramă colorată în bara de meniu, un sunet și un buton plutitor. Activați-le pe cele pe care le doriți."
       }
     ],
     "image_reminder_alt": "Mementoul „Sunteți pe mut” în partea de jos a ecranului",
     "image_pills_alt": "Mini controlerul plutitor în stările mut și activ",
-    "image_automation_alt": "Configurări Muffle pentru începerea apelurilor pe mut și alte automatizări"
+    "image_automation_alt": "Configurări Muffle pentru începerea apelurilor pe mut și alte automatizări",
+    "image_suggestion_alt": "Muffle sugerează microfonul Mac-ului deoarece în încăpere este liniște"
   },
   "how": {
     "title": "Configurare într-un minut",
@@ -132,6 +149,14 @@
       {
         "q": "Ce versiuni de macOS sunt acceptate?",
         "a": "macOS 14 Sonoma și versiunile ulterioare. Butonul pentru Centrul de control necesită macOS 26 sau o versiune ulterioară."
+      },
+      {
+        "q": "Are Muffle funcție de apăsare pentru a vorbi?",
+        "a": "Da. Alegeți „Apăsați pentru a vorbi” în Configurări și țineți apăsată combinația de taste pentru a vorbi. Puteți ține apăsată și o singură tastă, precum ⌥ dreapta sau fn, ori un buton suplimentar de mouse."
+      },
+      {
+        "q": "De ce se aud căștile AirPods mai slab în timpul apelurilor?",
+        "a": "Când un apel utilizează microfonul AirPods, căștile AirPods comută la modul de apel, care redă sunetul la o calitate mai scăzută. Într-o încăpere liniștită, Muffle sugerează în schimb microfonul Mac-ului, astfel încât căștile AirPods continuă să redea la calitate maximă."
       }
     ]
   },
@@ -444,22 +469,22 @@
     {
       "slug": "push-to-talk-on-mac",
       "title": "Push to Talk pe Mac pentru orice aplicație de apeluri",
-      "description": "Folosiți push to talk pe Mac în Zoom, Google Meet, Teams, Discord și alte aplicații. Țineți apăsată o tastă ca să vorbiți, eliberați pentru mut.",
+      "description": "Folosiți apăsarea pentru a vorbi pe Mac în Zoom, Google Meet, Teams sau Discord. Țineți apăsată o tastă sau un buton de mouse pentru a vorbi și eliberați.",
       "h1": "Push to talk pe Mac, în orice aplicație",
       "intro": [
         "Funcția push to talk vă ține pe mut până când apăsați o tastă. Este cel mai simplu mod de a păstra liniștea în conferințe mari sau spații zgomotoase, însă doar câteva aplicații o au și fiecare folosește o tastă diferită.",
-        "Muffle adaugă push to talk în fiecare aplicație de pe Mac. Rămâneți pe mut, țineți apăsată combinația ca să vorbiți și eliberați pentru a reveni pe mut."
+        "Muffle adaugă funcția de apăsare pentru a vorbi în fiecare aplicație de pe Mac. Alegeți „Apăsați pentru a vorbi” în Configurări, țineți apăsată combinația de taste ca să vorbiți și eliberați pentru a dezactiva din nou."
       ],
       "steps_title": "Cum folosiți push to talk",
       "steps": [
         "Instalați Muffle.",
-        "Dezactivați microfonul cu Control-Opțiune-M sau cu căștile AirPods.",
+        "În Configurări Muffle, setați Mod combinație de taste la „Apăsați pentru a vorbi”.",
         "Țineți apăsat Control-Opțiune-M în timp ce vorbiți.",
         "Eliberați. Sunteți din nou pe mut."
       ],
       "tips": [
-        "O apăsare scurtă pe combinație comută starea microfonului. O apăsare lungă activează push to talk.",
-        "Alegeți o tastă comodă în Configurări Muffle, de exemplu o tastă F."
+        "Preferați o singură tastă? Configurați o tastă pentru vorbire în Configurări: ⌥ dreapta, fn sau un buton suplimentar de mouse.",
+        "Alegeți o combinație comodă de taste în Configurări Muffle, de exemplu o tastă F."
       ],
       "faq": [
         {
@@ -468,7 +493,7 @@
         },
         {
           "q": "Există și opțiunea push to mute?",
-          "a": "Da. Când microfonul este activat, dacă țineți apăsată combinația de taste, microfonul rămâne dezactivat până când eliberați."
+          "a": "Da. Alegeți „Apăsați pentru a dezactiva” și țineți apăsată combinația de taste pentru a dezactiva microfonul temporar, ca un buton pentru tuse."
         }
       ]
     },
@@ -561,6 +586,37 @@
         {
           "q": "Îmi este înregistrat sunetul?",
           "a": "Nu. Muffle măsoară doar nivelul volumului și nu păstrează și nu trimite niciodată sunet."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-sound-quality-mac-calls",
+      "title": "De ce se aud AirPods mai slab în apeluri pe Mac și soluția",
+      "description": "AirPods comută la modul de apel de calitate scăzută când se folosește microfonul lor. Iată de ce și cum păstrați calitatea maximă în Meet, Zoom și Teams.",
+      "h1": "De ce se aud căștile AirPods mai slab în apelurile de pe Mac",
+      "intro": [
+        "Intrați într-un apel cu AirPods și sunetul devine dintr-odată plat și înfundat. Nu este un defect. Cât timp o aplicație utilizează microfonul AirPods, Bluetooth comută căștile la un mod de apel care redă totul la o calitate mult mai scăzută.",
+        "Soluția este să vorbiți la microfonul Mac-ului și să lăsați căștile AirPods doar să redea sunetul. Într-o încăpere liniștită, microfonul Mac-ului sună la fel de bine, iar apelul se aude din nou la calitate maximă. Muffle sesizează când este liniște în cameră și sugerează comutarea."
+      ],
+      "steps_title": "Păstrați calitatea maximă în apeluri",
+      "steps": [
+        "Instalați Muffle și lăsați activată opțiunea „Sugerează cel mai bun microfon pentru încăpere”.",
+        "Intrați în apel cu AirPods ca de obicei.",
+        "Când Muffle indică faptul că este liniște în cameră, faceți clic pe Comută.",
+        "Dacă devine zgomotos mai târziu, Muffle sugerează din nou microfonul AirPods."
+      ],
+      "tips": [
+        "Comutarea funcționează când aplicația de apel utilizează microfonul implicit de sistem. În Google Meet, Zoom și Teams, alegeți opțiunea implicită sau identică cu sistemul.",
+        "Rămâneți aproape de Mac în timp ce îi folosiți microfonul. Muffle îl sugerează doar atunci când vă poate auzi clar."
+      ],
+      "faq": [
+        {
+          "q": "De ce se aud căștile AirPods slab în apelurile de pe Mac?",
+          "a": "Bluetooth nu poate transmite simultan sunet stereo de înaltă calitate și vocea dvs., astfel că AirPods trec la modul de apel cât timp microfonul lor este utilizat."
+        },
+        {
+          "q": "Comută Muffle microfoanele de la sine?",
+          "a": "Nu. Muffle doar sugerează microfonul mai bun. Nimic nu se modifică până când nu faceți clic pe Comută."
         }
       ]
     }

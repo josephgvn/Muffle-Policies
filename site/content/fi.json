@@ -80,11 +80,28 @@
       {
         "title": "Pikakomennot ja Ohjauskeskus",
         "text": "Mykistä Pikakomennot-sovelluksesta, Sirillä, Stream Deckillä, Raycastilla tai Ohjauskeskuksen painikkeella."
+      },
+      {
+        "title": "Paina puhuaksesi tai paina mykistääksesi",
+        "text": "Valitse, miten pikanäppäin toimii: napauta vaihtaaksesi tilaa, pidä painettuna puhuaksesi tai pidä painettuna mykistääksesi yskän ajaksi. Lisää erilliset näppäimet mykistykselle ja sen poistolle tai pidä painettuna yhtä näppäintä, kuten Oikea ⌥ -näppäintä tai hiiren lisäpainiketta."
+      },
+      {
+        "title": "Mykistetty uudelleen, kun hiljenet",
+        "text": "Poistitko mykistyksen sanoaksesi yhden asian? Jos olet sen jälkeen hiljaa valitsemasi ajan, Muffle mykistää sinut uudelleen."
+      },
+      {
+        "title": "Paras mikrofoni huoneeseen",
+        "text": "Kun käytät AirPods-kuulokkeita hiljaisessa huoneessa, Muffle ehdottaa Macin mikrofonia, jotta AirPods toistaa puhelun täydellä äänenlaadulla. Kun ympäristö muuttuu meluisaksi, se ehdottaa AirPodsin mikrofonia."
+      },
+      {
+        "title": "Mahdoton olla huomaamatta",
+        "text": "Vihreä tai punainen hehku näytön reunoilla, värillinen valikkorivin kuvake, äänimerkki ja kelluva painike. Ota käyttöön haluamasi."
       }
     ],
     "image_reminder_alt": "”Olet mykistetty” -muistutus näytön alareunassa",
     "image_pills_alt": "Leijuva minisäädin mykistetyssä ja aktiivisessa tilassa",
-    "image_automation_alt": "Mufflen asetukset puheluiden aloittamiseksi mykistettynä ja muut puheluautomaatiot"
+    "image_automation_alt": "Mufflen asetukset puheluiden aloittamiseksi mykistettynä ja muut puheluautomaatiot",
+    "image_suggestion_alt": "Muffle ehdottaa Macin mikrofonia, koska huoneessa on hiljaista"
   },
   "how": {
     "title": "Käyttökunnossa minuutissa",
@@ -132,6 +149,14 @@
       {
         "q": "Mitä macOS-versioita tuetaan?",
         "a": "macOS 14 Sonomaa ja uudempia. Ohjauskeskuksen painike vaatii macOS 26:n tai uudemman."
+      },
+      {
+        "q": "Onko Mufflessa push to talk -toiminto?",
+        "a": "Kyllä. Valitse Asetuksista ”Paina puhuaksesi” ja pidä pikanäppäintä painettuna puhuaksesi. Voit myös pitää painettuna yhtä näppäintä, kuten Oikea ⌥ tai fn, tai hiiren lisäpainiketta."
+      },
+      {
+        "q": "Miksi AirPods-kuulokkeet kuulostavat huonommilta puheluissa?",
+        "a": "Kun puhelu käyttää AirPodsin mikrofonia, AirPods siirtyy puhelutilaan, joka toistaa äänen heikommalla laadulla. Hiljaisessa huoneessa Muffle ehdottaa tilalle Macin mikrofonia, jolloin AirPods toistaa äänen edelleen täydellä laadulla."
       }
     ]
   },
@@ -444,22 +469,22 @@
     {
       "slug": "push-to-talk-on-mac",
       "title": "Push to talk Macille: toimi kaikissa sovelluksissa",
-      "description": "Käytä push to talk -toimintoa Macilla Zoomissa, Google Meetissä ja Teamsissa. Pidä näppäintä painettuna puhuaksesi, vapauta mykistääksesi.",
+      "description": "Käytä push to talk -toimintoa Macilla Zoomissa, Meetissä ja Teamsissa. Puhu pitämällä näppäintä painettuna ja mykistä mikrofoni vapauttamalla.",
       "h1": "Push to talk Macilla, kaikissa sovelluksissa",
       "intro": [
         "Push to talk pitää sinut mykistettynä, kunnes pidät näppäintä painettuna. Se on helpoin tapa pysyä hiljaa suurissa kokouksissa tai meluisissa tiloissa, mutta vain harvoissa sovelluksissa on tämä toiminto, ja jokainen käyttää eri näppäintä.",
-        "Muffle tuo push to talk -toiminnon Macin jokaiseen sovellukseen. Pysy mykistettynä, puhu pitämällä pikanäppäintä painettuna ja mykistä taas vapauttamalla se."
+        "Muffle tuo push to talk -toiminnon Macin jokaiseen sovellukseen. Valitse Asetuksista ”Paina puhuaksesi”, pidä pikanäppäintä painettuna puhuaksesi ja vapauta se mykistääksesi itsesi uudelleen."
       ],
       "steps_title": "Näin käytät push to talk -toimintoa",
       "steps": [
         "Asenna Muffle.",
-        "Mykistä painamalla Control-Option-M tai käyttämällä AirPods-kuulokkeita.",
+        "Aseta Muffle-asetuksissa Pikanäppäintila-vaihtoehdoksi ”Paina puhuaksesi”.",
         "Pidä näppäinyhdistelmää Control-Option-M painettuna, kun puhut.",
         "Vapauta näppäimet. Olet taas mykistetty."
       ],
       "tips": [
-        "Pikanäppäimen nopea painallus kytkee mykistyksen päälle tai pois. Sen pitäminen painettuna toimii push to talk -toimintona.",
-        "Valitse itsellesi mukava näppäin kohdassa Muffle-asetukset, esimerkiksi jokin F-näppäin."
+        "Haluatko mieluummin käyttää yhtä näppäintä? Määritä Asetuksissa puhenäppäin: Oikea ⌥, fn tai hiiren lisäpainike.",
+        "Valitse Muffle-asetuksissa kätevä pikanäppäin, esimerkiksi jokin F-näppäin."
       ],
       "faq": [
         {
@@ -468,7 +493,7 @@
         },
         {
           "q": "Onko sovelluksessa push to mute -toimintoa?",
-          "a": "Kyllä. Kun mykistys on pois päältä, pikanäppäimen pitäminen painettuna mykistää sinut vapauttamiseen asti."
+          "a": "Kyllä. Valitse ”Paina mykistääksesi” ja pidä pikanäppäintä painettuna mykistääksesi hetkeksi yskänpainikkeen tavoin."
         }
       ]
     },
@@ -561,6 +586,37 @@
         {
           "q": "Tallennetaanko ääntäni?",
           "a": "Ei. Muffle mittaa vain äänenvoimakkuutta eikä koskaan säilytä tai lähetä ääntä."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-sound-quality-mac-calls",
+      "title": "Miksi AirPods kuulostaa huonolta Mac-puheluissa ja korjaus",
+      "description": "AirPods siirtyy heikkolaatuiseen puhelutilaan, kun Mac käyttää sen mikrofonia. Katso syy ja ohjeet täyden äänenlaadun säilyttämiseen Meetissä ja Zoomissa.",
+      "h1": "Miksi AirPods kuulostaa huonommalta Mac-puheluiden aikana",
+      "intro": [
+        "Kun liityt puheluun AirPods-kuulokkeilla, ääni muuttuu yhtäkkiä latteaksi ja tukahtuneeksi. Kyseessä ei ole vika. Kun sovellus käyttää AirPodsin mikrofonia, Bluetooth kytkee kuulokkeet puhelutilaan, joka toistaa kaiken huomattavasti heikommalla laadulla.",
+        "Ratkaisu on puhua Macin mikrofoniin ja antaa AirPodsin vain toistaa ääntä. Hiljaisessa huoneessa Macin mikrofoni kuulostaa aivan yhtä hyvältä, ja puhelu toistuu jälleen täydellä äänenlaadulla. Muffle huomaa, kun huoneessasi on hiljaista, ja ehdottaa vaihtoa."
+      ],
+      "steps_title": "Säilytä täysi äänenlaatu puheluissa",
+      "steps": [
+        "Asenna Muffle ja jätä asetus ”Ehdota huoneeseen parasta mikrofonia” päälle.",
+        "Liity puheluun AirPods-kuulokkeilla tavalliseen tapaan.",
+        "Kun Muffle ilmoittaa, että huoneessasi on hiljaista, napsauta Vaihda.",
+        "Jos ympäristö muuttuu myöhemmin meluisaksi, Muffle ehdottaa AirPodsin mikrofonia uudelleen."
+      ],
+      "tips": [
+        "Vaihto toimii, kun puhelusovellus käyttää järjestelmän oletusmikrofonia. Valitse Google Meetissä, Zoomissa ja Teamsissa oletusvaihtoehto tai järjestelmän mukainen asetus.",
+        "Pysy Macin lähellä, kun käytät sen mikrofonia. Muffle ehdottaa sitä vain silloin, kun se kuulee sinut selkeästi."
+      ],
+      "faq": [
+        {
+          "q": "Miksi AirPods kuulostaa huonolta Mac-puheluissa?",
+          "a": "Bluetooth ei pysty siirtämään laadukasta stereoääntä ja ääntäsi samanaikaisesti, joten AirPods siirtyy puhelutilaan aina, kun sen mikrofoni on käytössä."
+        },
+        {
+          "q": "Vaihtaako Muffle mikrofonin itsestään?",
+          "a": "Ei. Muffle vain ehdottaa parempaa mikrofonia. Mikään ei muutu, ennen kuin napsautat Vaihda."
         }
       ]
     }

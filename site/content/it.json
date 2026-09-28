@@ -80,11 +80,28 @@
       {
         "title": "Comandi Rapidi e Centro di Controllo",
         "text": "Disattiva il microfono dall'app Comandi Rapidi, con Siri, da Stream Deck, Raycast oppure con un pulsante nel Centro di Controllo."
+      },
+      {
+        "title": "Premi per parlare o premi per disattivare",
+        "text": "Scegli come far funzionare la scorciatoia: premi per attivare/disattivare, tieni premuto per parlare o tieni premuto per disattivare e tossire. Aggiungi tasti separati per attivare e disattivare, oppure tieni premuto un solo tasto come ⌥ destro o un pulsante extra del mouse."
+      },
+      {
+        "title": "Di nuovo muto se non parli",
+        "text": "Hai attivato il microfono solo per dire una cosa? Se poi non parli per il tempo che hai scelto, Muffle ti disattiva di nuovo."
+      },
+      {
+        "title": "Il microfono migliore per la stanza",
+        "text": "Con gli AirPods in una stanza silenziosa, Muffle consiglia il microfono del Mac: così gli AirPods riproducono la chiamata alla massima qualità. Se la stanza diventa rumorosa, ti suggerisce il microfono degli AirPods."
+      },
+      {
+        "title": "Impossibile non notarlo",
+        "text": "Una luce verde o rossa sui bordi dello schermo, un'icona colorata nella barra dei menu, un suono e un pulsante mobile. Attiva le notifiche che preferisci."
       }
     ],
     "image_reminder_alt": "Il promemoria “Sei muto” nella parte inferiore dello schermo",
     "image_pills_alt": "Il mini controller fluttuante con microfono disattivato e attivo",
-    "image_automation_alt": "Impostazioni di Muffle per avviare le chiamate da muto e altre automazioni"
+    "image_automation_alt": "Impostazioni di Muffle per avviare le chiamate da muto e altre automazioni",
+    "image_suggestion_alt": "Muffle suggerisce il microfono del Mac perché la stanza è silenziosa"
   },
   "how": {
     "title": "Pronto in un minuto",
@@ -132,6 +149,14 @@
       {
         "q": "Quali versioni di macOS sono supportate?",
         "a": "macOS 14 Sonoma e versioni successive. Il pulsante dedicato nel Centro di Controllo richiede macOS 26 o successivo."
+      },
+      {
+        "q": "Muffle ha la funzione premi per parlare?",
+        "a": "Sì. Scegli \"Premi per parlare\" nelle impostazioni e tieni premuta la scorciatoia per parlare. Puoi anche tenere premuto un singolo tasto come ⌥ destro o fn, oppure un pulsante aggiuntivo del mouse."
+      },
+      {
+        "q": "Perché gli AirPods si sentono peggio durante le chiamate?",
+        "a": "Quando una chiamata usa il microfono degli AirPods, le cuffie passano alla modalità chiamata, che riproduce l'audio a una qualità inferiore. In una stanza silenziosa Muffle ti consiglia invece il microfono del Mac, così gli AirPods continuano a farti ascoltare l'audio alla massima qualità."
       }
     ]
   },
@@ -444,22 +469,22 @@
     {
       "slug": "push-to-talk-on-mac",
       "title": "Push to talk su Mac per ogni app e videochiamata",
-      "description": "Usa il push to talk su Mac in Zoom, Google Meet, Teams e Discord. Tieni premuto un tasto per parlare e rilascialo per disattivare il microfono.",
+      "description": "Usa premi per parlare su Mac con Zoom, Google Meet e Teams. Tieni premuto un tasto o il mouse per parlare e rilascialo per disattivare il microfono.",
       "h1": "Push to talk su Mac, in qualsiasi app",
       "intro": [
         "Il push to talk ti tiene muto finché non premi un tasto. È il modo più comodo per non fare rumore in riunione o in stanze rumorose, ma poche app lo offrono e ognuna usa un tasto diverso.",
-        "Muffle aggiunge il push to talk a ogni app sul tuo Mac. Resta muto, tieni premuta la scorciatoia per parlare e rilasciala per disattivare di nuovo il microfono."
+        "Muffle aggiunge la funzione premi per parlare a ogni app sul Mac. Scegli \"Premi per parlare\" nelle impostazioni, tieni premuta la scorciatoia per parlare e rilasciala per tornare muto."
       ],
       "steps_title": "Come usare il push to talk",
       "steps": [
         "Installa Muffle.",
-        "Disattiva il microfono con Control-Opzione-M o con i tuoi AirPods.",
+        "Nelle impostazioni di Muffle imposta \"Modalità scorciatoia\" su \"Premi per parlare\".",
         "Tieni premuto Control-Opzione-M mentre parli.",
         "Rilascia il tasto: sei di nuovo muto."
       ],
       "tips": [
-        "Premere brevemente la scorciatoia attiva o disattiva il microfono. Tenerla premuta attiva il push to talk.",
-        "Scegli un tasto comodo nelle Impostazioni di Muffle, ad esempio un tasto funzione F."
+        "Preferisci un solo tasto? Imposta un tasto per parlare nelle impostazioni: ⌥ destro, fn o un pulsante extra del mouse.",
+        "Scegli una scorciatoia comoda nelle impostazioni di Muffle, per esempio un tasto funzione F."
       ],
       "faq": [
         {
@@ -468,7 +493,7 @@
         },
         {
           "q": "Esiste anche il push to mute?",
-          "a": "Sì. Quando il microfono è attivo, tenere premuta la scorciatoia ti disattiva finché non la rilasci."
+          "a": "Sì. Scegli \"Premi per disattivare\" e tieni premuta la scorciatoia per disattivare un attimo il microfono, come un pulsante tosse."
         }
       ]
     },
@@ -561,6 +586,37 @@
         {
           "q": "Il mio audio viene registrato?",
           "a": "No. Muffle misura soltanto il livello sonoro e non memorizza né invia mai alcun audio."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-sound-quality-mac-calls",
+      "title": "Perché gli AirPods si sentono peggio su Mac e come risolvere",
+      "description": "Gli AirPods riducono la qualità audio se una chiamata su Mac usa il loro microfono. Ecco come mantenere la qualità massima su Meet, Zoom e Teams.",
+      "h1": "Perché gli AirPods si sentono peggio durante le chiamate su Mac",
+      "intro": [
+        "Entri in chiamata con gli AirPods e l'audio diventa subito piatto e ovattato. Non è un difetto. Quando un'app usa il microfono degli AirPods, il Bluetooth li imposta in una modalità chiamata che riproduce qualsiasi suono a una qualità molto più bassa.",
+        "La soluzione è parlare nel microfono del Mac e usare gli AirPods solo per ascoltare. In una stanza silenziosa il microfono del Mac funziona altrettanto bene e l'audio della chiamata torna alla qualità massima. Muffle rileva quando la stanza è silenziosa e ti suggerisce di cambiare."
+      ],
+      "steps_title": "Mantieni la qualità massima nelle chiamate",
+      "steps": [
+        "Installa Muffle e lascia attiva l'opzione \"Suggerisci il microfono migliore per la stanza\".",
+        "Partecipa alla riunione con gli AirPods come fai sempre.",
+        "Quando Muffle ti avvisa che la stanza è silenziosa, clicca su \"Cambia\".",
+        "Se la stanza diventa rumorosa, Muffle ti suggerirà di nuovo il microfono degli AirPods."
+      ],
+      "tips": [
+        "Il passaggio funziona se l'app della chiamata usa il microfono predefinito di sistema. In Google Meet, Zoom e Teams scegli l'opzione di default o uguale al sistema.",
+        "Resta vicino al Mac mentre usi il suo microfono. Muffle te lo consiglia solo se riesce a sentire chiaramente la tua voce."
+      ],
+      "faq": [
+        {
+          "q": "Perché gli AirPods si sentono male durante le chiamate su Mac?",
+          "a": "Il Bluetooth non può trasmettere l'audio stereo in alta qualità e la tua voce contemporaneamente, quindi gli AirPods passano alla modalità chiamata appena il loro microfono entra in funzione."
+        },
+        {
+          "q": "Muffle cambia i microfoni da solo?",
+          "a": "No. Muffle si limita a suggerire il microfono più adatto. Nulla cambia finché non clicchi su \"Cambia\"."
         }
       ]
     }

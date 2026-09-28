@@ -80,11 +80,28 @@
       {
         "title": "Skratky a Ovládacie centrum",
         "text": "Stlmte mikrofón z aplikácie Skratky, cez Siri, Stream Deck, Raycast alebo tlačidlom v Ovládacom centre."
+      },
+      {
+        "title": "Stlačením hovoriť alebo stlačením stlmiť",
+        "text": "Vyberte si, ako má skratka fungovať: stlačením prepnúť, podržaním hovoriť alebo podržaním stlmiť na odkašľanie. Pridajte samostatné klávesy na stlmenie a zapnutie, alebo podržte jeden kláves, napríklad Pravý ⌥ či ďalšie tlačidlo myši."
+      },
+      {
+        "title": "Znova stlmené, keď stíchnete",
+        "text": "Zapli ste mikrofón, aby ste niečo povedali? Ak potom zostanete ticho po zvolený čas, Muffle vás znova stlmí."
+      },
+      {
+        "title": "Najlepší mikrofón pre miestnosť",
+        "text": "S AirPods v tichej miestnosti Muffle navrhne mikrofón Macu, aby AirPods prehrávali hovor v plnej kvalite. Keď je v okolí hluk, navrhne mikrofón AirPods."
+      },
+      {
+        "title": "Nemožno prehliadnuť",
+        "text": "Zelené alebo červené rozsvietenie okrajov obrazovky, farebná ikona v lište s ponukami, zvuk a plávajúce tlačidlo. Zapnite si tie, ktoré vám vyhovujú."
       }
     ],
     "image_reminder_alt": "Pripomienka „Máte stlmený mikrofón“ v spodnej časti obrazovky",
     "image_pills_alt": "Plávajúci mini ovládač v stave stlmenia a zapnutia",
-    "image_automation_alt": "Nastavenia Muffle pre začínanie hovorov so stlmeným mikrofónom a ďalšie automatizácie hovorov"
+    "image_automation_alt": "Nastavenia Muffle pre začínanie hovorov so stlmeným mikrofónom a ďalšie automatizácie hovorov",
+    "image_suggestion_alt": "Muffle navrhuje mikrofón Macu, pretože v miestnosti je ticho"
   },
   "how": {
     "title": "Nastavenie za minútu",
@@ -132,6 +149,14 @@
       {
         "q": "Ktoré verzie macOS sú podporované?",
         "a": "macOS 14 Sonoma a novší. Tlačidlo v Ovládacom centre vyžaduje macOS 26 alebo novší."
+      },
+      {
+        "q": "Má Muffle funkciu push to talk?",
+        "a": "Áno. V Nastaveniach vyberte Stlačením hovoriť a podržaním skratky rozprávajte. Môžete tiež podržať samostatný kláves, napríklad Pravý ⌥ alebo fn, prípadne ďalšie tlačidlo myši."
+      },
+      {
+        "q": "Prečo majú AirPods počas hovorov horší zvuk?",
+        "a": "Keď hovor používa mikrofón AirPods, AirPods sa prepnú do režimu hovoru, ktorý prehráva zvuk v nižšej kvalite. V tichej miestnosti Muffle namiesto toho navrhne mikrofón Macu, takže AirPods naďalej prehrávajú v plnej kvalite."
       }
     ]
   },
@@ -444,22 +469,22 @@
     {
       "slug": "push-to-talk-on-mac",
       "title": "Push to talk na Macu pre každú aplikáciu",
-      "description": "Používajte push to talk na Macu v Zoom, Google Meet, Teams, Discord a ďalších. Podržte kláves a hovorte, po uvoľnení mikrofón stlmte.",
+      "description": "Používajte push to talk na Macu v aplikáciách Zoom, Google Meet, Teams či Discord. Podržte kláves na hovorenie a uvoľnením mikrofón stlmte.",
       "h1": "Push to talk na Macu v každej aplikácii",
       "intro": [
         "Funkcia push to talk vás necháva stlmených, kým nepodržíte kláves. Je to najjednoduchší spôsob, ako nevydávať nežiaduce zvuky na veľkých stretnutiach alebo v hlučných miestnostiach, no podporuje ju len málo aplikácií a každá používa iný kláves.",
-        "Muffle pridáva funkciu push to talk do každej aplikácie na Macu. Zostaňte stlmení, podržaním skratky hovorte a po uvoľnení sa mikrofón znova stlmí."
+        "Muffle pridáva funkciu push to talk do každej aplikácie na Macu. V Nastaveniach vyberte „Stlačením hovoriť“, podržaním skratky hovorte a jej uvoľnením sa znova stlmíte."
       ],
       "steps_title": "Ako používať push to talk",
       "steps": [
         "Nainštalujte si Muffle.",
-        "Stlmte mikrofón pomocou Control-Option-M alebo cez AirPods.",
+        "V Nastaveniach Muffle nastavte Režim skratky na „Stlačením hovoriť“.",
         "Počas hovorenia držte stlačené Control-Option-M.",
         "Uvoľnite klávesy a mikrofón je znova stlmený."
       ],
       "tips": [
-        "Krátkym stlačením skratky mikrofón prepínate. Jej podržanie slúži ako push to talk.",
-        "V ponuke Nastavenia Muffle si vyberte pohodlný kláves, napríklad funkčný kláves F."
+        "Uprednostňujete jeden kláves? V Nastaveniach nastavte kláves na hovorenie: Pravý ⌥, fn alebo ďalšie tlačidlo myši.",
+        "V Nastaveniach Muffle si vyberte pohodlnú skratku, napríklad funkčný kláves F."
       ],
       "faq": [
         {
@@ -468,7 +493,7 @@
         },
         {
           "q": "Existuje aj funkcia push to mute?",
-          "a": "Áno. Keď je mikrofón zapnutý, podržaním skratky ho stlmíte, kým ju neuvoľníte."
+          "a": "Áno. Vyberte „Stlačením stlmiť“ a podržaním skratky sa na chvíľu stlmíte, ako pri tlačidle na odkašľanie."
         }
       ]
     },
@@ -561,6 +586,37 @@
         {
           "q": "Nahráva sa môj zvuk?",
           "a": "Nie. Muffle meria iba úroveň hlasitosti a zvuk nikdy neukladá ani neodosiela."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-sound-quality-mac-calls",
+      "title": "Prečo majú AirPods v hovoroch na Macu horší zvuk a riešenie",
+      "description": "AirPods sa prepnú do režimu hovoru s nižšou kvalitou, keď hovor používa ich mikrofón. Zistite prečo a ako udržať plnú kvalitu v Meet, Zoom aj Teams.",
+      "h1": "Prečo majú AirPods počas hovorov na Macu horší zvuk",
+      "intro": [
+        "Pripojíte sa do hovoru s AirPods a zvuk je zrazu plochý a zastretý. Nie je to chyba. Kým aplikácia používa mikrofón AirPods, Bluetooth prepne AirPods do režimu hovoru, ktorý prehráva všetko vo výrazne nižšej kvalite.",
+        "Riešením je hovoriť do mikrofónu Macu a AirPods nechať iba prehrávať zvuk. V tichej miestnosti znie mikrofón Macu rovnako dobre a hovor sa znova prehráva v plnej kvalite. Muffle rozpozná, keď je v miestnosti ticho, a navrhne prepnutie."
+      ],
+      "steps_title": "Udržte si plnú kvalitu zvuku v hovoroch",
+      "steps": [
+        "Nainštalujte Muffle a nechajte možnosť „Navrhnúť najlepší mikrofón pre miestnosť“ zapnutú.",
+        "Pripojte sa k hovoru s AirPods ako zvyčajne.",
+        "Keď Muffle oznámi, že v miestnosti je ticho, kliknite na Prepnúť.",
+        "Ak sa neskôr v okolí objaví hluk, Muffle znova navrhne mikrofón AirPods."
+      ],
+      "tips": [
+        "Prepnutie funguje, keď aplikácia na hovory používa predvolený mikrofón systému. V Google Meet, Zoom a Teams vyberte možnosť predvoleného mikrofónu alebo podľa systému.",
+        "Kým používate mikrofón Macu, zostaňte v jeho blízkosti. Muffle ho navrhne iba vtedy, keď vás zreteľne počuje."
+      ],
+      "faq": [
+        {
+          "q": "Prečo majú AirPods zlý zvuk pri hovoroch na Macu?",
+          "a": "Bluetooth nedokáže súčasne prenášať vysokokvalitné stereo a váš hlas, takže AirPods počas používania ich mikrofónu prepnú do režimu hovoru."
+        },
+        {
+          "q": "Prepína Muffle mikrofóny automaticky?",
+          "a": "Nie. Muffle lepší mikrofón iba navrhuje. Nič sa nezmení, kým nekliknete na Prepnúť."
         }
       ]
     }

@@ -36,7 +36,8 @@ section h2{font-size:clamp(30px,4.2vw,50px);letter-spacing:-.02em;line-height:1.
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:34px 44px}
 .feature h3{font-size:21px;line-height:1.25;margin:0 0 8px;letter-spacing:-.01em}
 .feature p{margin:0;color:var(--muted)}
-.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px;margin-top:60px}
+.gallery{display:grid;grid-template-columns:1fr;gap:22px;margin-top:60px}
+@media (min-width:720px){.gallery{grid-template-columns:repeat(2,1fr)}}
 .gallery figure{margin:0;background:var(--bg2);border-radius:24px;padding:22px;display:flex;justify-content:center;align-items:center;min-height:260px}
 .steps-home{list-style:none;counter-reset:s;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px}
 .steps-home li{counter-increment:s;background:var(--card);border-radius:20px;padding:26px;font-size:18px}

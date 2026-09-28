@@ -80,11 +80,28 @@
       {
         "title": "Kestirmeler ve Denetim Merkezi",
         "text": "Kestirmeler uygulamasından, Siri'den, Stream Deck'ten, Raycast'ten veya Denetim Merkezi'ndeki bir düğmeyle sustur."
+      },
+      {
+        "title": "Bas-konuş ya da bas-sustur",
+        "text": "Kısayolunun nasıl çalışacağını seç: basınca aç/kapat, basılı tutunca konuş ya da öksürürken basılı tutarak sustur. Ayrı susturma ve açma tuşları ekle ya da Sağ ⌥ veya fazladan bir fare düğmesi gibi tek bir tuşu basılı tut."
+      },
+      {
+        "title": "Sessiz kalınca tekrar susturma",
+        "text": "Tek bir şey söylemek için sesi açtın mı? Belirlediğin süre boyunca sessiz kalırsan Muffle seni tekrar susturur."
+      },
+      {
+        "title": "Ortama en uygun mikrofon",
+        "text": "Sessiz bir odada AirPods kullanırken Muffle, kulaklığın görüşmeyi tam kalitede çalabilmesi için Mac'inin mikrofonunu önerir. Ortam gürültülü olduğunda ise AirPods mikrofonunu önerir."
+      },
+      {
+        "title": "Gözden kaçırmak imkansız",
+        "text": "Ekran etrafında yeşil veya kırmızı bir ışıma, renkli menü çubuğu simgesi, sesli uyarı ve kayan bir düğme. Dilediklerini aç."
       }
     ],
     "image_reminder_alt": "Ekranın altındaki “Sessizdesin” hatırlatması",
     "image_pills_alt": "Sessizde ve açık durumlarında ekranda duran mini kumanda",
-    "image_automation_alt": "Görüşmelere sessiz başlama ve diğer görüşme otomasyonları için Muffle ayarları"
+    "image_automation_alt": "Görüşmelere sessiz başlama ve diğer görüşme otomasyonları için Muffle ayarları",
+    "image_suggestion_alt": "Oda sessiz olduğu için Muffle'ın Mac mikrofonunu önerdiği an"
   },
   "how": {
     "title": "Bir dakikada kur",
@@ -132,6 +149,14 @@
       {
         "q": "Hangi macOS sürümleri destekleniyor?",
         "a": "macOS 14 Sonoma ve daha yenisi. Denetim Merkezi düğmesi için macOS 26 veya daha yenisi gerekir."
+      },
+      {
+        "q": "Muffle'da bas-konuş özelliği var mı?",
+        "a": "Evet. Ayarlar'da Bas-konuş seçeneğini belirle ve konuşmak için kısayolu basılı tut. Sağ ⌥, fn ya da fazladan bir fare düğmesi gibi tek bir tuşu da basılı tutabilirsin."
+      },
+      {
+        "q": "Görüşmeler sırasında AirPods ses kalitesi neden düşüyor?",
+        "a": "Bir görüşme AirPods mikrofonunu kullandığında AirPods, sesi daha düşük kalitede çalan arama moduna geçer. Muffle sessiz bir odada bunun yerine Mac'inin mikrofonunu önerir; böylece AirPods görüşmeyi tam kalitede çalmaya devam eder."
       }
     ]
   },
@@ -444,22 +469,22 @@
     {
       "slug": "push-to-talk-on-mac",
       "title": "Mac İçin Bas Konuş Özelliği: Tüm Uygulamalarda",
-      "description": "Mac üzerinde Zoom, Google Meet, Teams, Discord ve diğer uygulamalarda bas konuş kullan. Bir tuşa basılı tutarak konuş, bırakınca sus.",
+      "description": "Mac'te Zoom, Google Meet, Teams, Discord ve tüm uygulamalarda bas-konuş kullan. Konuşmak için bir tuşu ya da fare düğmesini basılı tut, susmak için bırak.",
       "h1": "Mac için bas konuş: Her uygulamada geçerli",
       "intro": [
         "Bas konuş özelliği bir tuşa basılı tutana kadar seni sessizde tutar. Kalabalık bir toplantı veya gürültülü bir ortamda sessiz kalmanın en kolay yoludur. Ancak çok az uygulamada bulunur ve her biri farklı bir tuş kullanır.",
-        "Muffle, Mac üzerindeki her uygulamaya bas konuş desteği getirir. Sessizde kal, konuşmak için kısayolu basılı tut, bırakınca tekrar sessize geç."
+        "Muffle, Mac'indeki her uygulamaya bas-konuş özelliği kazandırır. Ayarlar'da Bas-konuş seçeneğini belirle, konuşmak için kısayola basılı tut, susmak için bırak."
       ],
       "steps_title": "Bas konuş özelliğini kullan",
       "steps": [
         "Muffle uygulamasını yükle.",
-        "Control-Option-M kısayoluyla ya da AirPods kulaklığınla mikrofonu sustur.",
+        "Muffle Ayarları'nda Kısayol modu ayarını “Bas-konuş” olarak ayarla.",
         "Konuşurken Control-Option-M kısayolunu basılı tut.",
         "Tuşu bırak. Yeniden sessizdesin."
       ],
       "tips": [
-        "Kısayola bir kez basmak susturma durumunu değiştirir. Tuşu basılı tutmak ise bas konuş özelliğini çalıştırır.",
-        "Muffle Ayarları içinden kullanımı rahat bir tuş seçebilirsin, örneğin bir F tuşu."
+        "Tek bir tuş mu tercih edersin? Ayarlar'da bir konuşma tuşu belirle: Sağ ⌥, fn veya fazladan bir fare düğmesi.",
+        "Muffle Ayarları'nda rahat kullanabileceğin bir kısayol seç, örneğin bir F tuşu."
       ],
       "faq": [
         {
@@ -467,8 +492,8 @@
           "a": "Evet. Muffle doğrudan mikrofonu susturur, bu yüzden bas konuş Google Meet, Zoom, Teams, Discord ve diğer her uygulamada çalışır."
         },
         {
-          "q": "Bas sus özelliği var mı?",
-          "a": "Evet. Mikrofon açıkken kısayolu basılı tutarsan tuşu bırakana kadar seni susturur."
+          "q": "Bas-sustur özelliği var mı?",
+          "a": "Evet. “Bas-sustur” seçeneğini belirleyip kısayolu basılı tutarak, öksürük düğmesi gibi bir anlığına mikrofonunu susturabilirsin."
         }
       ]
     },
@@ -561,6 +586,37 @@
         {
           "q": "Sesim kaydediliyor mu?",
           "a": "Hayır. Muffle yalnızca ses seviyesini ölçer; hiçbir sesi asla saklamaz veya göndermez."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-sound-quality-mac-calls",
+      "title": "Mac Görüşmelerinde AirPods Sesi Neden Bozulur ve Çözümü",
+      "description": "AirPods, Mac aramalarında mikrofonu kullanıldığında düşük kaliteli arama moduna geçer. Nedenini ve Meet, Zoom, Teams'te tam kaliteyi korumayı öğren.",
+      "h1": "AirPods Mac görüşmelerinde neden daha kötü ses verir?",
+      "intro": [
+        "AirPods ile bir toplantıya katıldığında ses birden boğuk ve cansız gelebilir. Bu bir arıza değil. Bir uygulama AirPods mikrofonunu kullandığı sırada Bluetooth, AirPods'u her şeyi çok daha düşük kalitede çalan bir görüşme moduna geçirir.",
+        "Çözüm, konuşurken Mac'inin mikrofonunu kullanıp AirPods'un yalnızca sesi çalmasını sağlamaktır. Sessiz bir odada Mac'inin mikrofonu da aynı kalitede ses verir ve görüşme sesini yeniden tam kalitede duyarsın. Muffle odan sessiz olduğunda bunu fark eder ve geçiş yapmanı önerir."
+      ],
+      "steps_title": "Görüşmelerde tam ses kalitesini koru",
+      "steps": [
+        "Muffle'ı yükle ve “Ortama en uygun mikrofonu öner” ayarını açık bırak.",
+        "Görüşmene her zamanki gibi AirPods ile katıl.",
+        "Muffle odanın sessiz olduğunu söylediğinde Değiştir düğmesine tıkla.",
+        "Ortam sonradan gürültülü olursa Muffle tekrar AirPods mikrofonunu önerir."
+      ],
+      "tips": [
+        "Mikrofon geçişi, görüşme uygulaman sistemin saptanmış mikrofonunu kullandığında çalışır. Google Meet, Zoom ve Teams içinde saptanmış ya da sistemle aynı seçeneğini belirle.",
+        "Mac'inin mikrofonunu kullanırken bilgisayarına yakın kal. Muffle bu öneriyi sadece seni net duyabildiğinde yapar."
+      ],
+      "faq": [
+        {
+          "q": "Mac görüşmelerinde AirPods sesi neden kötü geliyor?",
+          "a": "Bluetooth aynı anda hem yüksek kaliteli stereo sesi hem de sesini taşıyamaz; bu yüzden mikrofon kullanılırken AirPods görüşme moduna geçer."
+        },
+        {
+          "q": "Muffle mikrofonu kendi kendine değiştirir mi?",
+          "a": "Hayır. Muffle sadece daha uygun mikrofonu önerir. Sen Değiştir'e tıklamadıkça hiçbir şey değişmez."
         }
       ]
     }

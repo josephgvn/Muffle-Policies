@@ -80,11 +80,28 @@
       {
         "title": "Raccourcis et Centre de contrôle",
         "text": "Coupez votre micro depuis l'app Raccourcis, avec Siri, un Stream Deck, Raycast ou directement avec un bouton dans le Centre de contrôle."
+      },
+      {
+        "title": "Maintenir pour parler ou pour couper",
+        "text": "Choisissez le fonctionnement de votre raccourci : appuyer pour basculer, maintenir pour parler, ou maintenir pour couper lors d'une quinte de toux. Ajoutez des touches distinctes pour couper et activer, ou maintenez une seule touche comme ⌥ droite ou un bouton de souris supplémentaire."
+      },
+      {
+        "title": "À nouveau coupé quand vous ne parlez plus",
+        "text": "Vous avez réactivé le micro pour dire un mot ? Si vous ne parlez plus pendant la durée choisie, Muffle coupe à nouveau votre micro."
+      },
+      {
+        "title": "Le meilleur micro pour la pièce",
+        "text": "Avec des AirPods dans une pièce calme, Muffle suggère le micro de votre Mac pour que les AirPods diffusent l'appel en pleine qualité. S'il y a du bruit, il suggère le micro des AirPods."
+      },
+      {
+        "title": "Impossible à manquer",
+        "text": "Une lueur verte ou rouge sur les bords de l'écran, une icône colorée dans la barre des menus, un son et un bouton flottant. Activez les options de votre choix."
       }
     ],
     "image_reminder_alt": "Le rappel « Vous êtes en sourdine » affiché en bas de l'écran",
     "image_pills_alt": "Le mini-contrôleur flottant avec le micro coupé et le micro activé",
-    "image_automation_alt": "Réglages de Muffle pour couper le micro au début de chaque appel et gérer les automatisations"
+    "image_automation_alt": "Réglages de Muffle pour couper le micro au début de chaque appel et gérer les automatisations",
+    "image_suggestion_alt": "Muffle suggérant le micro du Mac car la pièce est calme"
   },
   "how": {
     "title": "Prêt en une minute",
@@ -132,6 +149,14 @@
       {
         "q": "Quelles versions de macOS sont compatibles ?",
         "a": "macOS 14 Sonoma et versions ultérieures. Le bouton dans le Centre de contrôle requiert macOS 26 ou une version plus récente."
+      },
+      {
+        "q": "Muffle propose-t-il une fonction maintenir pour parler ?",
+        "a": "Oui. Choisissez Maintenir pour parler dans les Réglages et maintenez votre raccourci pour parler. Vous pouvez aussi maintenir une touche unique comme ⌥ droite ou fn, ou un bouton de souris supplémentaire."
+      },
+      {
+        "q": "Pourquoi le son de mes AirPods se dégrade-t-il en appel ?",
+        "a": "Quand un appel utilise le micro des AirPods, ceux-ci basculent en mode appel, ce qui diffuse le son dans une qualité inférieure. Dans une pièce calme, Muffle vous suggère plutôt le micro de votre Mac, afin que les AirPods continuent de diffuser en pleine qualité."
       }
     ]
   },
@@ -444,22 +469,22 @@
     {
       "slug": "push-to-talk-on-mac",
       "title": "Push-to-talk sur Mac pour toutes vos apps d'appel",
-      "description": "Utilisez le push-to-talk sur Mac dans Zoom, Google Meet, Teams et Discord. Maintenez une touche pour parler en réunion, relâchez pour couper le son.",
+      "description": "Utilisez la fonction maintenir pour parler sur Mac dans Zoom, Google Meet, Teams et Discord. Maintenez une touche ou un bouton de souris pour parler.",
       "h1": "Le push-to-talk sur Mac, dans toutes vos applications",
       "intro": [
         "Le push-to-talk vous laisse en sourdine jusqu'à ce que vous mainteniez une touche. C'est le moyen le plus simple de garder le silence lors de grandes réunions ou dans des pièces bruyantes, pourtant peu d'apps le proposent, et chacune utilise une touche différente.",
-        "Muffle ajoute le push-to-talk à chaque app sur votre Mac. Restez en sourdine, maintenez le raccourci pour parler et relâchez pour couper à nouveau le son."
+        "Muffle ajoute la fonction maintenir pour parler à toutes les apps sur votre Mac. Choisissez Maintenir pour parler dans les Réglages, maintenez le raccourci pour parler, et relâchez pour couper à nouveau le son."
       ],
       "steps_title": "Utiliser le push-to-talk",
       "steps": [
         "Installez Muffle.",
-        "Coupez le micro avec Contrôle-Option-M ou vos AirPods.",
+        "Dans les Réglages de Muffle, réglez le « Mode de raccourci » sur « Maintenir pour parler ».",
         "Maintenez Contrôle-Option-M enfoncé pendant que vous parlez.",
         "Relâchez la touche. Vous êtes de nouveau en sourdine."
       ],
       "tips": [
-        "Appuyer brièvement sur le raccourci coupe ou active le micro. Le maintenir enfoncé active le push-to-talk.",
-        "Choisissez une touche pratique dans les Réglages de Muffle, par exemple une touche F."
+        "Vous préférez une seule touche ? Définissez une touche pour parler dans les Réglages : ⌥ droite, fn ou un bouton de souris supplémentaire.",
+        "Choisissez un raccourci pratique dans les Réglages de Muffle, par exemple une touche de fonction F."
       ],
       "faq": [
         {
@@ -468,7 +493,7 @@
         },
         {
           "q": "Existe-t-il une option pour couper temporairement le micro ?",
-          "a": "Oui. Lorsque votre micro est activé, maintenir le raccourci coupe votre son jusqu'à ce que vous relâchiez la touche."
+          "a": "Oui. Choisissez « Maintenir pour couper » et maintenez le raccourci pour couper un instant, comme un bouton de toux."
         }
       ]
     },
@@ -561,6 +586,37 @@
         {
           "q": "Mon audio est-il enregistré ?",
           "a": "Non. Muffle mesure uniquement le niveau sonore et ne conserve ni ne transmet jamais aucun son."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-sound-quality-mac-calls",
+      "title": "AirPods et son dégradé en appel sur Mac : la solution",
+      "description": "Les AirPods basculent en mode appel basse qualité dès qu'un appel utilise leur micro. Voici pourquoi et comment garder une qualité maximale dans Meet et Zoom.",
+      "h1": "Pourquoi le son des AirPods se dégrade lors des appels sur Mac",
+      "intro": [
+        "Rejoignez un appel avec des AirPods et le son devient soudain plat et étouffé. Ce n'est pas un défaut. Dès qu'une app utilise le micro des AirPods, le Bluetooth fait basculer les AirPods dans un mode appel qui diffuse l'audio en qualité bien inférieure.",
+        "La solution consiste à parler dans le micro de votre Mac et à laisser les AirPods uniquement diffuser le son. Dans une pièce calme, le micro de votre Mac est tout aussi bon, et l'appel est à nouveau diffusé en pleine qualité. Muffle détecte quand votre pièce est calme et vous suggère de changer."
+      ],
+      "steps_title": "Conserver une qualité audio maximale en appel",
+      "steps": [
+        "Installez Muffle et laissez l'option « Suggérer le meilleur micro pour la pièce » activée.",
+        "Rejoignez votre appel avec vos AirPods comme d'habitude.",
+        "Quand Muffle vous indique que votre pièce est calme, cliquez sur Changer.",
+        "S'il y a du bruit plus tard, Muffle vous suggère à nouveau le micro des AirPods."
+      ],
+      "tips": [
+        "Le changement fonctionne quand votre app d'appel utilise le micro par défaut du système. Dans Google Meet, Zoom et Teams, choisissez l'option par défaut ou identique au système.",
+        "Restez près de votre Mac quand vous utilisez son micro. Muffle ne le suggère que s'il peut vous entendre distinctement."
+      ],
+      "faq": [
+        {
+          "q": "Pourquoi les AirPods ont-ils un mauvais son lors des appels sur Mac ?",
+          "a": "Le Bluetooth ne peut pas transmettre simultanément la stéréo haute qualité et votre voix. Les AirPods basculent donc en mode appel tant que leur micro est utilisé."
+        },
+        {
+          "q": "Muffle change-t-il de micro tout seul ?",
+          "a": "Non. Muffle ne fait que vous suggérer un meilleur micro. Rien ne change tant que vous ne cliquez pas sur Changer."
         }
       ]
     }

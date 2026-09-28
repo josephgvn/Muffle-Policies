@@ -80,11 +80,28 @@
       {
         "title": "Parancsikonok és Vezérlőközpont",
         "text": "Némítson a Parancsikonok alkalmazásból, a Siri segítségével, Stream Deckről, Raycastből vagy a Vezérlőközpont egyetlen gombjával."
+      },
+      {
+        "title": "Gombnyomásra beszéd vagy gombnyomásra némítás",
+        "text": "Válassza ki a billentyűparancs működését: érintse meg az átváltáshoz, tartsa lenyomva a beszédhez, vagy köhögéshez némítsa el lenyomva tartva. Adjon meg külön billentyűt a némításhoz és a visszakapcsoláshoz, vagy tartson lenyomva egyetlen billentyűt, például a Jobb Optiont vagy egy extra egérgombot."
+      },
+      {
+        "title": "Újranémítás, ha elcsendesedik",
+        "text": "Csak egyetlen mondatra kapcsolta vissza a mikrofont? Ha a megadott ideig csendben marad, a Muffle automatikusan újra elnémítja."
+      },
+      {
+        "title": "A szobához legmegfelelőbb mikrofon",
+        "text": "Csendes szobában az AirPods használatakor a Muffle a Mac mikrofonját javasolja, így az AirPods teljes minőségben játssza le a hívást. Ha zajos lesz a környezet, visszajavasolja az AirPods mikrofonját."
+      },
+      {
+        "title": "Lehetetlen eltéveszteni",
+        "text": "Zöld vagy piros fény a képernyő szélein, színes menüsorikon, hangjelzés és lebegő gomb. Kapcsolja be azokat, amelyeket szeretne."
       }
     ],
     "image_reminder_alt": "A „Némítva van” emlékeztető a képernyő alján",
     "image_pills_alt": "A lebegő mini vezérlő némított és élő állapotban",
-    "image_automation_alt": "Muffle beállítások a hívások némított indításához és az automatizáláshoz"
+    "image_automation_alt": "Muffle beállítások a hívások némított indításához és az automatizáláshoz",
+    "image_suggestion_alt": "A Muffle a Mac mikrofonját javasolja, mert a szoba csendes"
   },
   "how": {
     "title": "Beállítás egy perc alatt",
@@ -132,6 +149,14 @@
       {
         "q": "Melyik macOS verziók támogatottak?",
         "a": "A macOS 14 Sonoma és újabb verziók. A Vezérlőközpont gombhoz macOS 26 vagy újabb verzió szükséges."
+      },
+      {
+        "q": "Van a Muffle-ben gombnyomásra beszéd funkció?",
+        "a": "Igen. Válassza a Beállításokban a „Gombnyomásra beszéd” lehetőséget, és tartsa lenyomva a billentyűparancsot a beszédhez. Egyetlen billentyűt is lenyomva tarthat, például a Jobb Optiont vagy az fn billentyűt, illetve egy extra egérgombot."
+      },
+      {
+        "q": "Miért szól rosszabbul az AirPods hívások közben?",
+        "a": "Amikor egy hívás az AirPods mikrofonját használja, az AirPods hívás módra vált, amely gyengébb minőségben játssza le a hangot. Csendes szobában a Muffle inkább a Mac mikrofonját javasolja, így az AirPods teljes minőségben szólal meg."
       }
     ]
   },
@@ -444,22 +469,22 @@
     {
       "slug": "push-to-talk-on-mac",
       "title": "Push-to-talk funkció Macen minden alkalmazáshoz",
-      "description": "Használjon push-to-talk funkciót Macen a Zoom, Google Meet, Teams, Discord és más appokban. Tartsa lenyomva a gombot a beszédhez.",
+      "description": "Használjon gombnyomásra beszédet a Macen Zoom, Google Meet, Teams és Discord hívásokban. Tartsa lenyomva a billentyűt a beszédhez, engedje el a némításhoz.",
       "h1": "Push-to-talk Macen, minden alkalmazásban",
       "intro": [
         "A push-to-talk funkció némítva tartja a mikrofont, amíg le nem nyom egy billentyűt. Ez a legkényelmesebb megoldás nagy értekezleteken vagy zajos szobákban, mégis kevés alkalmazás támogatja, és mindegyik más gombot használ.",
-        "A Muffle push-to-talk funkciót ad a Mac összes alkalmazásához. Maradjon némítva, tartsa lenyomva a billentyűparancsot a beszédhez, majd engedje el a némításhoz."
+        "A Muffle a Mac összes alkalmazásához hozzáadja a gombnyomásra beszéd funkciót. Válassza a Beállításokban a „Gombnyomásra beszéd” lehetőséget, tartsa lenyomva a billentyűparancsot a beszédhez, és engedje el az újbóli némításhoz."
       ],
       "steps_title": "A push-to-talk használata",
       "steps": [
         "Telepítse a Muffle alkalmazást.",
-        "Némítsa el a mikrofont a Control-Option-M kombinációval vagy az AirPods megnyomásával.",
+        "A Muffle beállításaiban állítsa a „Billentyűparancs módja” beállítást „Gombnyomásra beszéd” értékre.",
         "Beszéd közben tartsa lenyomva a Control-Option-M billentyűparancsot.",
         "Engedje el a gombot, és a mikrofon újra némítva lesz."
       ],
       "tips": [
-        "A billentyűparancs egyszeri megnyomása átkapcsolja a némítást. A lenyomva tartása pedig a push-to-talk.",
-        "Válasszon egy kényelmes gombot a Muffle beállításaiban, például az egyik F billentyűt."
+        "Jobban szeretne egyetlen billentyűt használni? Állítson be egy beszédbillentyűt a Beállításokban: a Jobb Optiont, az fn billentyűt vagy egy extra egérgombot.",
+        "Válasszon egy kényelmes billentyűparancsot a Muffle beállításaiban, például egy F billentyűt."
       ],
       "faq": [
         {
@@ -468,7 +493,7 @@
         },
         {
           "q": "Létezik push-to-mute funkció is?",
-          "a": "Igen. Ha a mikrofon be van kapcsolva, a billentyűparancs lenyomva tartása elnémítja a mikrofont, amíg el nem engedi."
+          "a": "Igen. Válassza a „Gombnyomásra némítás” lehetőséget, és tartsa lenyomva a billentyűparancsot egy pillanatnyi némításhoz, mintha köhögés gomb lenne."
         }
       ]
     },
@@ -561,6 +586,37 @@
         {
           "q": "Rögzítésre kerül a hangom?",
           "a": "Nem. A Muffle kizárólag a hangerőt méri, és soha nem tárol vagy küld el semmilyen hanganyagot."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-sound-quality-mac-calls",
+      "title": "Miért rosszabb az AirPods hangja Mac hívásokban? Megoldás",
+      "description": "Az AirPods gyenge hívás módra vált, ha a mikrofonját használja egy hívás a Macen. Így őrizheti meg a teljes hangminőséget Meet, Zoom és Teams alatt.",
+      "h1": "Miért szól rosszabbul az AirPods hívások közben a Macen",
+      "intro": [
+        "Bekapcsolódik egy hívásba az AirPodsszal, és a hang hirtelen tompa és dobozszerű lesz. Ez nem hiba. Amíg egy alkalmazás az AirPods mikrofonját használja, a Bluetooth olyan hívás módra kapcsolja az AirPodsot, amely sokkal rosszabb minőségben játszik le mindent.",
+        "A megoldás az, hogy a Mac mikrofonjába beszél, és az AirPodsot csak hanglejátszásra használja. Csendes szobában a Mac mikrofonja ugyanolyan jól szól, a hívás pedig újra teljes minőségben hallható. A Muffle észreveszi, ha a szoba csendes, és felajánlja az átváltást."
+      ],
+      "steps_title": "Teljes minőség megőrzése a hívásokban",
+      "steps": [
+        "Telepítse a Muffle-t, és hagyja bekapcsolva „A szobához legmegfelelőbb mikrofon javaslása” beállítást.",
+        "Csatlakozzon a híváshoz az AirPodsszal a megszokott módon.",
+        "Amikor a Muffle jelzi, hogy csendes a szoba, kattintson az Átváltás gombra.",
+        "Ha később zajosabbá válik a környezet, a Muffle újra az AirPods mikrofonját javasolja."
+      ],
+      "tips": [
+        "Az átváltás akkor működik, ha a hívásalkalmazás a rendszer alapértelmezett mikrofonját használja. A Google Meet, a Zoom és a Teams beállításaiban válassza az alapértelmezett vagy a rendszerrel megegyező lehetőséget.",
+        "Maradjon a Mac közelében, amíg a mikrofonját használja. A Muffle csak akkor javasolja, ha tisztán hallja Önt."
+      ],
+      "faq": [
+        {
+          "q": "Miért szól rosszul az AirPods a Mac hívásokban?",
+          "a": "A Bluetooth nem tud egyszerre kiváló minőségű sztereó hangot és beszédet továbbítani, ezért az AirPods hívás módra vált, amíg a mikrofonja használatban van."
+        },
+        {
+          "q": "A Muffle magától átváltja a mikrofonokat?",
+          "a": "Nem. A Muffle csak javaslatot tesz a jobb mikrofonra. Semmi sem változik meg, amíg nem kattint az Átváltás gombra."
         }
       ]
     }

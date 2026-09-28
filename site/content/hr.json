@@ -80,11 +80,28 @@
       {
         "title": "Prečaci i Kontrolni centar",
         "text": "Utišajte zvuk iz aplikacije Prečaci, putem Siri, uređaja Stream Deck, aplikacije Raycast ili gumbom u Kontrolnom centru."
+      },
+      {
+        "title": "Pritisni za govor ili pritisni za utišavanje",
+        "text": "Odaberite kako vaš tipkovni prečac radi: dodirnite za prebacivanje, držite za govor ili držite da biste utišali mikrofon pri kašljanju. Dodajte zasebne tipke za utišavanje i uključivanje ili držite jednu tipku kao što je Desni ⌥ ili dodatna tipka miša."
+      },
+      {
+        "title": "Ponovno utišavanje kada prestanete govoriti",
+        "text": "Uključili ste mikrofon kako biste rekli jednu stvar? Ako nakon toga ostanete tihi onoliko dugo koliko odaberete, Muffle vas ponovno utišava."
+      },
+      {
+        "title": "Najbolji mikrofon za prostoriju",
+        "text": "Uz AirPods u tihoj prostoriji Muffle predlaže mikrofon vašeg Maca kako bi AirPods reproducirale poziv u punoj kvaliteti. Kada postane bučno, predlaže mikrofon AirPods slušalica."
+      },
+      {
+        "title": "Nemoguće je ne primijetiti",
+        "text": "Zeleni ili crveni sjaj oko zaslona, obojena ikona u traci s izbornicima, zvuk i plutajući gumb. Uključite one koje želite."
       }
     ],
     "image_reminder_alt": "Podsjetnik „Utišani ste” pri dnu zaslona",
     "image_pills_alt": "Plutajući mini kontroler u utišanom i uključenom stanju",
-    "image_automation_alt": "Postavke za Muffle za pokretanje poziva s utišanim mikrofonom i druge automatizacije poziva"
+    "image_automation_alt": "Postavke za Muffle za pokretanje poziva s utišanim mikrofonom i druge automatizacije poziva",
+    "image_suggestion_alt": "Muffle predlaže mikrofon Maca jer je prostorija tiha"
   },
   "how": {
     "title": "Postavljanje u jednoj minuti",
@@ -132,6 +149,14 @@
       {
         "q": "Koje su verzije sustava macOS podržane?",
         "a": "macOS 14 Sonoma i novije verzije. Za gumb u Kontrolnom centru potreban je macOS 26 ili noviji."
+      },
+      {
+        "q": "Ima li Muffle opciju pritisni za govor?",
+        "a": "Da. Odaberite „Pritisni za govor” u postavkama i držite prečac za govor. Također možete držati jednu tipku kao što je Desni ⌥ ili fn, ili dodatnu tipku miša."
+      },
+      {
+        "q": "Zašto AirPods zvuče lošije tijekom poziva?",
+        "a": "Kada poziv upotrebljava mikrofon AirPods slušalica, AirPods se prebacuju u način rada za poziv koji reproducira zvuk u nižoj kvaliteti. U tihoj prostoriji Muffle umjesto toga predlaže mikrofon vašeg Maca, pa AirPods nastavljaju reproducirati zvuk u punoj kvaliteti."
       }
     ]
   },
@@ -444,22 +469,22 @@
     {
       "slug": "push-to-talk-on-mac",
       "title": "Push to talk na Macu za svaku aplikaciju",
-      "description": "Upotrijebite push to talk na Macu u aplikacijama Zoom, Google Meet, Teams, Discord i drugima. Držite tipku za govor, otpustite za utišavanje.",
+      "description": "Upotrijebite pritisak za govor na Macu u Zoom, Google Meet, Teams, Discord i drugim aplikacijama. Držite tipku za govor, otpustite za utišavanje.",
       "h1": "Push to talk na Macu, u svakoj aplikaciji",
       "intro": [
         "Push to talk drži mikrofon utišanim sve dok držite tipku. To je najlakši način da ostanete tihi na velikim sastancima ili u bučnim prostorijama, no rijetke aplikacije to nude i svaka rabi drukčiju tipku.",
-        "Muffle donosi push to talk u svaku aplikaciju na Macu. Ostanite utišani, držite prečac za govor i otpustite ga da biste se ponovno utišali."
+        "Muffle dodaje funkciju pritiska za govor u svaku aplikaciju na Macu. Odaberite „Pritisni za govor” u postavkama, držite prečac dok govorite i otpustite ga za ponovno utišavanje."
       ],
       "steps_title": "Upotrijebite push to talk",
       "steps": [
         "Instalirajte Muffle.",
-        "Utišajte mikrofon kombinacijom Control-Option-M ili putem AirPods slušalica.",
+        "U izborniku Postavke Muffle postavite Način prečaca na „Pritisni za govor”.",
         "Držite Control-Option-M dok govorite.",
         "Otpustite tipku i ponovno ste utišani."
       ],
       "tips": [
-        "Pritisak na prečac i dalje uključuje ili isključuje mikrofon. Držanje prečaca služi za push to talk.",
-        "Odaberite prikladnu tipku u Postavkama Muffle, primjerice neku od tipki F."
+        "Draža vam je jedna tipka? Postavite tipku za govor u postavkama: Desni ⌥, fn ili dodatna tipka miša.",
+        "Odaberite praktičan tipkovni prečac u izborniku Postavke Muffle, primjerice funkcijsku tipku F."
       ],
       "faq": [
         {
@@ -468,7 +493,7 @@
         },
         {
           "q": "Postoji li opcija pritiska za utišavanje?",
-          "a": "Da. Kada mikrofon nije utišan, držanje prečaca utišava vas dok ga ne otpustite."
+          "a": "Da. Odaberite „Pritisni za utišavanje” i držite prečac kako biste ga nakratko utišali, poput tipke za kašalj."
         }
       ]
     },
@@ -561,6 +586,37 @@
         {
           "q": "Snima li se moj zvuk?",
           "a": "Ne. Muffle mjeri samo glasnoću i nikada ne pohranjuje niti šalje zvuk."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-sound-quality-mac-calls",
+      "title": "Zašto AirPods zvuče lošije u pozivima na Macu i rješenje",
+      "description": "AirPods prelaze u način poziva niske kvalitete kad poziv na Macu rabi mikrofon. Saznajte zašto i kako zadržati punu kvalitetu u Meet, Zoom i Teams.",
+      "h1": "Zašto AirPods zvuče lošije tijekom poziva na Macu",
+      "intro": [
+        "Pridružite se pozivu uz AirPods i zvuk odjednom postane ravan i prigušen. To nije kvar. Dok aplikacija upotrebljava mikrofon AirPods slušalica, Bluetooth prebacuje AirPods u način poziva koji sve reproducira u znatno nižoj kvaliteti.",
+        "Rješenje je govoriti u mikrofon vašeg Maca i prepustiti AirPods slušalicama samo reprodukciju zvuka. U tihoj prostoriji mikrofon vašeg Maca zvuči jednako dobro, a poziv se ponovno reproducira u punoj kvaliteti. Muffle prepoznaje kada je vaša prostorija tiha i predlaže promjenu."
+      ],
+      "steps_title": "Zadržite punu kvalitetu u pozivima",
+      "steps": [
+        "Instalirajte Muffle i ostavite uključenu opciju „Predloži najbolji mikrofon za prostoriju”.",
+        "Pridružite se pozivu uz AirPods kao i obično.",
+        "Kada Muffle javi da je vaša prostorija tiha, kliknite Promijeni.",
+        "Ako kasnije postane bučno, Muffle ponovno predlaže mikrofon AirPods slušalica."
+      ],
+      "tips": [
+        "Prebacivanje radi kada vaša aplikacija za poziv upotrebljava zadani mikrofon sustava. U aplikacijama Google Meet, Zoom i Teams odaberite zadani mikrofon ili opciju istu kao i sustav.",
+        "Ostanite u blizini svog Maca dok upotrebljavate njegov mikrofon. Muffle ga predlaže samo kada vas može jasno čuti."
+      ],
+      "faq": [
+        {
+          "q": "Zašto AirPods zvuče loše u pozivima na Macu?",
+          "a": "Bluetooth ne može istovremeno prenositi visokokvalitetni stereo zvuk i vaš glas, pa AirPods prelaze u način poziva dok je njihov mikrofon u upotrebi."
+        },
+        {
+          "q": "Mijenja li Muffle mikrofone samostalno?",
+          "a": "Ne. Muffle samo predlaže bolji mikrofon. Ništa se ne mijenja dok ne kliknete Promijeni."
         }
       ]
     }

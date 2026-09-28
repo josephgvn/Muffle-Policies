@@ -80,11 +80,28 @@
       {
         "title": "Atalhos e Central de controlo",
         "text": "Silencia através da app Atalhos, da Siri, de uma Stream Deck, do Raycast ou de um botão na Central de controlo."
+      },
+      {
+        "title": "Premir para falar ou premir para silenciar",
+        "text": "Escolhe como funciona o teu atalho: toca para silenciar ou ativar, mantém premido para falar ou mantém premido para silenciar uma tosse. Adiciona teclas separadas para silenciar e ativar, ou mantém premida uma tecla como ⌥ direita ou um botão adicional do rato."
+      },
+      {
+        "title": "Silenciado novamente quando ficas em silêncio",
+        "text": "Ativaste o microfone para dizer apenas uma coisa? Se ficares em silêncio durante o tempo que escolheres, o Muffle silencia-te novamente."
+      },
+      {
+        "title": "O melhor microfone para a sala",
+        "text": "Com AirPods numa sala silenciosa, o Muffle sugere o microfone do teu Mac para que os AirPods reproduzam a chamada com qualidade máxima. Quando há barulho, sugere o microfone dos AirPods."
+      },
+      {
+        "title": "Impossível não reparar",
+        "text": "Um brilho verde ou vermelho à volta do ecrã, um ícone colorido na barra de menus, um som e um botão flutuante. Ativa os que preferires."
       }
     ],
     "image_reminder_alt": "O aviso «Estás silenciado» na parte inferior do ecrã",
     "image_pills_alt": "O minicontrolador flutuante nos estados silenciado e ativo",
-    "image_automation_alt": "Definições do Muffle para iniciar chamadas silenciado e outras automatizações de chamadas"
+    "image_automation_alt": "Definições do Muffle para iniciar chamadas silenciado e outras automatizações de chamadas",
+    "image_suggestion_alt": "O Muffle a sugerir o microfone do Mac porque a sala está silenciosa"
   },
   "how": {
     "title": "Configuração num minuto",
@@ -132,6 +149,14 @@
       {
         "q": "Que versões do macOS são compatíveis?",
         "a": "macOS 14 Sonoma e posterior. O botão na Central de controlo exige o macOS 26 ou posterior."
+      },
+      {
+        "q": "O Muffle tem a funcionalidade premir para falar?",
+        "a": "Sim. Escolhe Premir para falar nas Definições e mantém o teu atalho premido para falar. Também podes manter premida uma tecla individual como ⌥ direita ou fn, ou um botão adicional do rato."
+      },
+      {
+        "q": "Porque é que o som dos meus AirPods piora durante as chamadas?",
+        "a": "Quando uma chamada utiliza o microfone dos AirPods, os AirPods mudam para o modo de chamada, que reproduz áudio com qualidade inferior. Numa sala silenciosa, o Muffle sugere antes o microfone do teu Mac, para que os AirPods continuem a tocar com qualidade máxima."
       }
     ]
   },
@@ -444,22 +469,22 @@
     {
       "slug": "push-to-talk-on-mac",
       "title": "Premir para falar no Mac em qualquer app | Push to talk",
-      "description": "Usa a função de premir para falar no Mac no Zoom, Google Meet, Teams ou Discord. Mantém uma tecla para falar na reunião e larga para silenciar.",
+      "description": "Usa o premir para falar no Mac no Zoom, Google Meet, Teams ou Discord. Mantém uma tecla ou botão do rato premido para falar e solta para silenciar o microfone.",
       "h1": "Premir para falar no Mac, em qualquer app",
       "intro": [
         "O modo de premir para falar mantém-te silenciado até manteres uma tecla premida. É a forma mais fácil de manter o silêncio em reuniões grandes ou locais barulhentos no teletrabalho, mas poucas apps oferecem esta opção e cada uma usa uma tecla diferente.",
-        "O Muffle adiciona a função de premir para falar a qualquer app no Mac. Fica silenciado, mantém o atalho premido para falar e larga para silenciar novamente."
+        "O Muffle adiciona o premir para falar a qualquer app no Mac. Escolhe Premir para falar nas Definições, mantém o atalho premido para falar e solta para voltar a silenciar."
       ],
       "steps_title": "Utilizar o premir para falar",
       "steps": [
         "Instala o Muffle.",
-        "Silencia o microfone com Controlo-Opção-M ou através dos teus AirPods.",
+        "Nas Definições do Muffle, define Modo do atalho para «Premir para falar».",
         "Mantém Controlo-Opção-M premido enquanto falas.",
         "Larga a tecla. Estás silenciado novamente."
       ],
       "tips": [
-        "Tocar rapidamente no atalho continua a silenciar ou ativar. Manter premido ativa a função de premir para falar.",
-        "Escolhe uma tecla confortável nas Definições do Muffle, por exemplo uma tecla F."
+        "Preferes uma tecla individual? Define uma tecla para falar nas Definições: ⌥ direita, fn ou um botão adicional do rato.",
+        "Escolhe um atalho prático nas Definições do Muffle, por exemplo uma tecla F."
       ],
       "faq": [
         {
@@ -468,7 +493,7 @@
         },
         {
           "q": "Existe a opção de premir para silenciar?",
-          "a": "Sim. Quando o microfone está ativo, manter o atalho premido silencia a tua voz até largares a tecla."
+          "a": "Sim. Escolhe «Premir para silenciar» e mantém o atalho premido para silenciar momentaneamente, como um botão para a tosse."
         }
       ]
     },
@@ -561,6 +586,37 @@
         {
           "q": "O meu áudio é gravado?",
           "a": "Não. O Muffle apenas mede o nível de volume e nunca guarda nem envia qualquer áudio."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-sound-quality-mac-calls",
+      "title": "Porque os AirPods soam pior em chamadas no Mac e a solução",
+      "description": "Os AirPods mudam para o modo de chamada ao usar o microfone no Mac. Descobre o motivo e como manter a qualidade máxima no Meet, Zoom e Teams.",
+      "h1": "Porque é que os AirPods têm pior som em chamadas no Mac",
+      "intro": [
+        "Entras numa chamada com AirPods e o som fica logo abafado e sem detalhe. Não é avaria. Enquanto uma app utiliza o microfone dos AirPods, o Bluetooth muda os AirPods para um modo de chamada que reproduz tudo com qualidade muito inferior.",
+        "A solução é falar para o microfone do teu Mac e deixar os AirPods apenas a reproduzir som. Numa sala silenciosa, o microfone do teu Mac tem uma qualidade semelhante e a chamada volta a tocar com qualidade máxima. O Muffle deteta quando a sala está silenciosa e sugere a mudança."
+      ],
+      "steps_title": "Mantém a qualidade máxima nas chamadas",
+      "steps": [
+        "Instala o Muffle e deixa «Sugerir o melhor microfone para a sala» ativado.",
+        "Entra na tua chamada com os AirPods como habitual.",
+        "Quando o Muffle indicar que a tua sala está silenciosa, clica em Mudar.",
+        "Se houver barulho mais tarde, o Muffle sugere o microfone dos AirPods novamente."
+      ],
+      "tips": [
+        "A mudança funciona se a app da chamada usar o microfone predefinido do sistema. No Google Meet, Zoom e Teams, escolhe a opção predefinida ou igual ao sistema.",
+        "Fica perto do teu Mac enquanto usas o microfone incorporado. O Muffle só o sugere quando te consegue ouvir com nitidez."
+      ],
+      "faq": [
+        {
+          "q": "Porque é que os AirPods têm som mau em chamadas no Mac?",
+          "a": "O Bluetooth não consegue transmitir estéreo de alta qualidade e a tua voz ao mesmo tempo, pelo que os AirPods passam para o modo de chamada quando o microfone está a ser usado."
+        },
+        {
+          "q": "O Muffle muda de microfone sozinho?",
+          "a": "Não. O Muffle apenas sugere o melhor microfone. Nada muda até clicares em Mudar."
         }
       ]
     }

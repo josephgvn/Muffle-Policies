@@ -80,11 +80,28 @@
       {
         "title": "Pintasan dan Pusat Kawalan",
         "text": "Redam daripada app Pintasan, Siri, Stream Deck, Raycast, atau butang dalam Pusat Kawalan."
+      },
+      {
+        "title": "Tekan untuk bercakap atau tekan untuk meredam",
+        "text": "Pilih cara pintasan anda berfungsi: ketik untuk menogol, tahan untuk bercakap atau tahan untuk meredam ketika batuk. Tambah kekunci redam dan nyahredam berasingan, atau tahan satu kekunci seperti ⌥ Kanan atau butang tetikus tambahan."
+      },
+      {
+        "title": "Diredam semula apabila anda senyap",
+        "text": "Nyahredam untuk bercakap seketika? Jika anda kemudian kekal senyap selama tempoh yang anda pilih, Muffle meredam anda semula."
+      },
+      {
+        "title": "Mik terbaik untuk bilik",
+        "text": "Dengan AirPods di dalam bilik yang sunyi, Muffle mencadangkan mik Mac anda supaya AirPods memainkan panggilan dalam kualiti penuh. Apabila keadaan menjadi bising, ia mencadangkan mik AirPods."
+      },
+      {
+        "title": "Pasti tidak terlepas pandang",
+        "text": "Kilauan hijau atau merah di sekeliling skrin, ikon bar menu berwarna, bunyi dan butang terapung. Aktifkan mana-mana yang anda suka."
       }
     ],
     "image_reminder_alt": "Peringatan “Anda diredam” di bahagian bawah skrin",
     "image_pills_alt": "Pengawal mini terapung dalam keadaan diredam dan aktif",
-    "image_automation_alt": "Tetapan Muffle untuk memulakan panggilan dalam keadaan diredam dan automasi panggilan lain"
+    "image_automation_alt": "Tetapan Muffle untuk memulakan panggilan dalam keadaan diredam dan automasi panggilan lain",
+    "image_suggestion_alt": "Muffle mencadangkan mikrofon Mac kerana bilik sunyi"
   },
   "how": {
     "title": "Sediakan dalam masa seminit",
@@ -132,6 +149,14 @@
       {
         "q": "Versi macOS manakah yang disokong?",
         "a": "macOS 14 Sonoma dan lebih baharu. Butang Pusat Kawalan memerlukan macOS 26 atau lebih baharu."
+      },
+      {
+        "q": "Adakah Muffle mempunyai fungsi push to talk?",
+        "a": "Ya. Pilih “Tekan untuk bercakap” dalam Tetapan dan tahan pintasan anda untuk bercakap. Anda juga boleh menahan satu kekunci seperti ⌥ Kanan atau fn, atau butang tetikus tambahan."
+      },
+      {
+        "q": "Mengapa bunyi AirPods saya kurang baik semasa panggilan?",
+        "a": "Apabila panggilan menggunakan mik AirPods, AirPods bertukar ke mod panggilan yang memainkan bunyi dalam kualiti lebih rendah. Di dalam bilik yang sunyi, Muffle sebaliknya mencadangkan mik Mac anda supaya AirPods terus bermain dalam kualiti penuh."
       }
     ]
   },
@@ -444,22 +469,22 @@
     {
       "slug": "push-to-talk-on-mac",
       "title": "Push to Talk pada Mac untuk Semua Aplikasi Panggilan",
-      "description": "Gunakan push to talk pada Mac dalam Zoom, Google Meet, Teams, Discord dan aplikasi lain. Tahan satu kekunci untuk bercakap, lepas untuk redam.",
+      "description": "Gunakan push to talk pada Mac anda dalam Zoom, Google Meet, Teams, Discord dan aplikasi lain. Tahan kekunci untuk bercakap, lepaskan untuk redam.",
       "h1": "Push to talk pada Mac, dalam setiap aplikasi",
       "intro": [
         "Push to talk memastikan anda kekal diredam sehingga anda menahan kekunci. Ini cara paling mudah untuk kekal senyap dalam mesyuarat besar atau bilik bising, tetapi hanya segelintir aplikasi menyokongnya, dan masing-masing menggunakan kekunci berbeza.",
-        "Muffle membawakan push to talk ke setiap aplikasi pada Mac anda. Kekal diredam, tahan pintasan untuk bercakap dan lepaskan untuk meredam semula."
+        "Muffle menambah fungsi push to talk pada setiap aplikasi di Mac anda. Pilih “Tekan untuk bercakap” dalam Tetapan, tahan pintasan untuk bercakap dan lepaskan untuk meredam semula."
       ],
       "steps_title": "Gunakan push to talk",
       "steps": [
         "Pasang Muffle.",
-        "Redam dengan Kawalan-Pilihan-M atau AirPods anda.",
+        "Dalam Tetapan Muffle, tetapkan Mod pintasan kepada “Tekan untuk bercakap”.",
         "Tahan Kawalan-Pilihan-M semasa anda bercakap.",
         "Lepaskan. Anda diredam semula."
       ],
       "tips": [
-        "Mengetik pintasan masih menogol redam. Menahannya ialah push to talk.",
-        "Pilih kekunci yang mudah dalam Tetapan Muffle, contohnya kekunci F."
+        "Lebih suka satu kekunci sahaja? Tetapkan kekunci bercakap dalam Tetapan: ⌥ Kanan, fn atau butang tetikus tambahan.",
+        "Pilih pintasan yang mudah digunakan dalam Tetapan Muffle, contohnya kekunci F."
       ],
       "faq": [
         {
@@ -468,7 +493,7 @@
         },
         {
           "q": "Adakah terdapat push to mute?",
-          "a": "Ya. Apabila anda dinyahredam, menahan pintasan akan meredam anda sehingga anda melepaskannya."
+          "a": "Ya. Pilih “Tekan untuk meredam” dan tahan pintasan untuk meredam seketika, seperti butang batuk."
         }
       ]
     },
@@ -561,6 +586,37 @@
         {
           "q": "Adakah audio saya dirakam?",
           "a": "Tidak. Muffle hanya mengukur tahap kelantangan dan tidak pernah menyimpan atau menghantar sebarang audio."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-sound-quality-mac-calls",
+      "title": "Mengapa Bunyi AirPods Kurang Baik di Mac dan Cara Membaikinya",
+      "description": "AirPods bertukar ke mod panggilan berkualiti rendah semasa panggilan Mac. Ketahui sebabnya dan cara kekalkan kualiti penuh dalam Meet, Zoom dan Teams.",
+      "h1": "Mengapa bunyi AirPods kurang baik semasa panggilan di Mac",
+      "intro": [
+        "Sertai panggilan dengan AirPods dan bunyi tiba-tiba menjadi mendap serta tidak jelas. Ini bukan kerosakan. Semasa aplikasi menggunakan mikrofon AirPods, Bluetooth menukar AirPods ke mod panggilan yang memainkan audio dalam kualiti yang jauh lebih rendah.",
+        "Penyelesaiannya ialah bercakap menggunakan mikrofon Mac anda dan membiarkan AirPods hanya memainkan audio. Di dalam bilik yang sunyi, mik Mac anda kedengaran sama baiknya dan panggilan dimainkan dalam kualiti penuh semula. Muffle menyedari apabila bilik anda sunyi dan mencadangkan pertukaran tersebut."
+      ],
+      "steps_title": "Kekalkan kualiti penuh dalam panggilan",
+      "steps": [
+        "Pasang Muffle dan biarkan “Cadangkan mik terbaik untuk bilik” diaktifkan.",
+        "Sertai panggilan anda dengan AirPods seperti biasa.",
+        "Apabila Muffle memaklumkan bilik anda sunyi, klik Tukar.",
+        "Jika keadaan menjadi bising kemudian, Muffle akan mencadangkan mik AirPods semula."
+      ],
+      "tips": [
+        "Pertukaran ini berfungsi apabila aplikasi panggilan anda menggunakan mikrofon lalai sistem. Dalam Google Meet, Zoom dan Teams, pilih pilihan lalai atau sama seperti sistem.",
+        "Duduk berdekatan dengan Mac anda semasa menggunakan miknya. Muffle hanya mencadangkannya apabila ia boleh mendengar anda dengan jelas."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa bunyi AirPods kurang baik semasa panggilan Mac?",
+          "a": "Bluetooth tidak boleh menghantar stereo berkualiti tinggi dan suara anda pada masa yang sama, jadi AirPods beralih ke mod panggilan semasa miknya digunakan."
+        },
+        {
+          "q": "Adakah Muffle menukar mikrofon dengan sendiri?",
+          "a": "Tidak. Muffle hanya mencadangkan mikrofon yang lebih baik. Tiada apa-apa yang berubah sehingga anda mengklik Tukar."
         }
       ]
     }

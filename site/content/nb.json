@@ -80,11 +80,28 @@
       {
         "title": "Snarveier og Kontrollsenter",
         "text": "Demp fra appen Snarveier, Siri, en Stream Deck, Raycast eller en knapp i Kontrollsenter."
+      },
+      {
+        "title": "Trykk for å snakke eller trykk for å dempe",
+        "text": "Velg hvordan snarveien din skal fungere: trykk for å dempe eller slå på, hold inne for å snakke, eller hold inne for å dempe ved et host. Legg til egne taster for å dempe og slå på, eller hold inne én tast som Høyre ⌥ eller en ekstra museknapp."
+      },
+      {
+        "title": "Dempet igjen når du blir stille",
+        "text": "Slo du på mikrofonen for å si én ting? Hvis du forblir stille så lenge som du har valgt, demper Muffle deg igjen."
+      },
+      {
+        "title": "Den beste mikrofonen for rommet",
+        "text": "Med AirPods i et stille rom foreslår Muffle mikrofonen på Mac-en din så AirPods-ene spiller samtalen i full kvalitet. Når det blir støy, foreslår den AirPods-mikrofonen."
+      },
+      {
+        "title": "Umulig å gå glipp av",
+        "text": "Et grønt eller rødt lys langs skjermkantene, et farget menylinjeikon, en lyd og en flytende knapp. Slå på det du ønsker."
       }
     ],
     "image_reminder_alt": "Påminnelsen «Du er dempet» nederst på skjermen",
     "image_pills_alt": "Den flytende minikontrolleren i dempet og aktiv tilstand",
-    "image_automation_alt": "Muffle-innstillinger for å starte samtaler dempet og andre samtaleautomatiseringer"
+    "image_automation_alt": "Muffle-innstillinger for å starte samtaler dempet og andre samtaleautomatiseringer",
+    "image_suggestion_alt": "Muffle foreslår Mac-ens mikrofon fordi rommet er stille"
   },
   "how": {
     "title": "Klar på ett minutt",
@@ -132,6 +149,14 @@
       {
         "q": "Hvilke macOS-versjoner støttes?",
         "a": "macOS 14 Sonoma og nyere. Knappen i Kontrollsenter krever macOS 26 eller nyere."
+      },
+      {
+        "q": "Har Muffle trykk for å snakke?",
+        "a": "Ja. Velg Trykk for å snakke i Innstillinger og hold inne snarveien for å snakke. Du kan også holde inne en enkelttast som Høyre ⌥ eller fn, eller en ekstra museknapp."
+      },
+      {
+        "q": "Hvorfor høres AirPods verre ut under samtaler?",
+        "a": "Når en samtale bruker AirPods-mikrofonen, bytter AirPods til samtalemodus, som spiller av lyd i lavere kvalitet. I et stille rom foreslår Muffle mikrofonen på Mac-en din i stedet, slik at AirPods fortsetter å spille i full kvalitet."
       }
     ]
   },
@@ -444,22 +469,22 @@
     {
       "slug": "push-to-talk-on-mac",
       "title": "Push to talk på Mac for alle apper og videomøter",
-      "description": "Bruk push to talk på Mac i Zoom, Google Meet, Teams og Discord. Hold inne én tast for å snakke, og slipp for å dempe.",
+      "description": "Bruk trykk for å snakke på Mac i Zoom, Google Meet, Teams og Discord. Hold inne en tast eller museknapp for å snakke, slipp for å dempe.",
       "h1": "Push to talk på Mac, i alle apper",
       "intro": [
         "Push to talk holder deg dempet til du holder inne en tast. Det er den enkleste måten å være stille på i store møter eller støyende rom. Likevel har bare noen få apper denne funksjonen, og hver app bruker en ulik tast.",
-        "Muffle gir deg push to talk i alle apper på Mac-en din. Forbli dempet, hold inne snarveien for å snakke, og slipp for å dempe igjen."
+        "Muffle gir deg trykk for å snakke i alle apper på Mac-en din. Velg Trykk for å snakke i Innstillinger, hold inne snarveien for å snakke, og slipp for å dempe igjen."
       ],
       "steps_title": "Bruk push to talk",
       "steps": [
         "Installer Muffle.",
-        "Demp med Control-Tilvalg-M eller AirPods-ene dine.",
+        "I Muffle-innstillinger setter du Snarveimodus til «Trykk for å snakke».",
         "Hold inne Control-Tilvalg-M mens du snakker.",
         "Slipp tasten. Du er dempet igjen."
       ],
       "tips": [
-        "Et raskt trykk på snarveien demper eller slår på mikrofonen som før. Å holde den inne fungerer som push to talk.",
-        "Velg en tast som er behagelig å nå i Muffle-innstillinger, for eksempel en F-tast."
+        "Foretrekker du en enkelttast? Angi en snakketast i Innstillinger: Høyre ⌥, fn eller en ekstra museknapp.",
+        "Velg en behagelig snarvei i Muffle-innstillinger, for eksempel en F-tast."
       ],
       "faq": [
         {
@@ -468,7 +493,7 @@
         },
         {
           "q": "Finnes det push to mute?",
-          "a": "Ja. Når mikrofonen er på, vil du dempes så lenge du holder snarveien inne, helt til du slipper."
+          "a": "Ja. Velg «Trykk for å dempe» og hold inne snarveien for å dempe et øyeblikk, som en hosteknapp."
         }
       ]
     },
@@ -561,6 +586,37 @@
         {
           "q": "Blir lyden min tatt opp?",
           "a": "Nei. Muffle måler bare lydnivået og lagrer eller sender aldri noe lyd."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-sound-quality-mac-calls",
+      "title": "Hvorfor AirPods høres verre ut i Mac-samtaler, og løsningen",
+      "description": "AirPods bytter til samtalemodus med lav kvalitet når Mac-en bruker mikrofonen. Her ser du hvorfor, og hvordan du beholder full kvalitet.",
+      "h1": "Hvorfor AirPods høres verre ut under samtaler på en Mac",
+      "intro": [
+        "Bli med i et møte med AirPods, og lyden blir plutselig flat og ullen. Det er ingen feil. Mens en app bruker AirPods-mikrofonen, bytter Bluetooth over til en samtalemodus som spiller alt i mye lavere kvalitet.",
+        "Løsningen er å snakke inn i mikrofonen på Mac-en din og la AirPods-ene bare spille av lyd. I et stille rom høres Mac-mikrofonen like bra ut, og samtalen spilles av i full kvalitet igjen. Muffle merker når rommet er stille, og foreslår byttet."
+      ],
+      "steps_title": "Behold full kvalitet i samtaler",
+      "steps": [
+        "Installer Muffle og la «Foreslå den beste mikrofonen for rommet» stå på.",
+        "Bli med i samtalen med AirPods som vanlig.",
+        "Når Muffle sier at rommet ditt er stille, klikker du på Bytt.",
+        "Hvis det blir støy senere, foreslår Muffle AirPods-mikrofonen igjen."
+      ],
+      "tips": [
+        "Byttet fungerer når samtaleappen din bruker systemets standardmikrofon. I Google Meet, Zoom og Teams velger du standarden eller samme som systemet.",
+        "Hold deg i nærheten av Mac-en når du bruker mikrofonen på den. Muffle foreslår den bare når den hører deg tydelig."
+      ],
+      "faq": [
+        {
+          "q": "Hvorfor har AirPods dårlig lyd i Mac-samtaler?",
+          "a": "Bluetooth kan ikke overføre stereolyd i høy kvalitet og stemmen din samtidig. Derfor går AirPods over til samtalemodus mens mikrofonen deres er i bruk."
+        },
+        {
+          "q": "Bytter Muffle mikrofon av seg selv?",
+          "a": "Nei. Muffle foreslår bare den beste mikrofonen. Ingenting endres før du klikker på Bytt."
         }
       ]
     }

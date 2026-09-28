@@ -80,11 +80,28 @@
       {
         "title": "Dreceres i Centre de control",
         "text": "Silencia des de l'app Dreceres, Siri, un Stream Deck, Raycast o un botó al Centre de control."
+      },
+      {
+        "title": "Prémer per parlar o prémer per silenciar",
+        "text": "Tria com funciona la drecera: toca per canviar, mantén premut per parlar o mantén premut per silenciar un cop de tos. Afegeix tecles separades per silenciar i activar el so, o mantén premuda una sola tecla com ara ⌥ dreta o un botó addicional del ratolí."
+      },
+      {
+        "title": "Silenciat de nou quan et quedes en silenci",
+        "text": "Has activat el so per dir una sola cosa? Si després et mantens en silenci durant el temps que triïs, Muffle et torna a silenciar."
+      },
+      {
+        "title": "El millor micròfon per a l'habitació",
+        "text": "Amb els AirPods en una habitació tranquil·la, Muffle suggereix el micròfon del Mac perquè els AirPods reprodueixin la trucada amb màxima qualitat. Quan hi ha soroll, suggereix el micròfon dels AirPods."
+      },
+      {
+        "title": "Impossible de passar per alt",
+        "text": "Una resplendor verda o vermella a les vores de la pantalla, una icona de color a la barra de menús, un so i un botó flotant. Activa els que prefereixis."
       }
     ],
     "image_reminder_alt": "L'avís d'«Estàs silenciat» a la part inferior de la pantalla",
     "image_pills_alt": "El mini controlador flotant en estat silenciat i activat",
-    "image_automation_alt": "Configuració de Muffle per iniciar trucades silenciades i altres automatitzacions"
+    "image_automation_alt": "Configuració de Muffle per iniciar trucades silenciades i altres automatitzacions",
+    "image_suggestion_alt": "Muffle suggerint el micròfon del Mac perquè l'habitació és tranquil·la"
   },
   "how": {
     "title": "A punt en un minut",
@@ -132,6 +149,14 @@
       {
         "q": "Quines versions de macOS són compatibles?",
         "a": "macOS 14 Sonoma i posterior. El botó del Centre de control requereix macOS 26 o posterior."
+      },
+      {
+        "q": "Muffle té la funció de prémer per parlar?",
+        "a": "Sí. Tria «Prémer per parlar» a la configuració i mantén premuda la drecera per parlar. També pots mantenir premuda una sola tecla com ara ⌥ dreta o fn, o un botó addicional del ratolí."
+      },
+      {
+        "q": "Per què els AirPods sonen pitjor durant les trucades?",
+        "a": "Quan una trucada utilitza el micròfon dels AirPods, els AirPods canvien al mode de trucada, que reprodueix el so amb menys qualitat. En una habitació tranquil·la, Muffle suggereix utilitzar el micròfon del Mac perquè els AirPods continuïn reproduint amb màxima qualitat."
       }
     ]
   },
@@ -444,22 +469,22 @@
     {
       "slug": "push-to-talk-on-mac",
       "title": "Prem per parlar al Mac a qualsevol app",
-      "description": "Fes servir el push to talk al Mac a Zoom, Google Meet, Teams i Discord. Mantén premuda una tecla per parlar i deixa-la anar per silenciar.",
+      "description": "Fes servir prémer per parlar al Mac a Zoom, Google Meet, Teams, Discord i qualsevol altra app. Mantén premuda una tecla o botó del ratolí per parlar.",
       "h1": "Prem per parlar al Mac a qualsevol app",
       "intro": [
         "La funció de prémer per parlar et manté silenciat fins que mantens premuda una tecla. És la manera més senzilla de mantenir el silenci en reunions grans o llocs sorollosos, però molt poques apps la tenen i cadascuna fa servir una tecla diferent.",
-        "Muffle afegeix la funció de prémer per parlar a totes les apps del teu Mac. Queda't en silenci, mantén premuda la drecera per parlar i deixa-la anar per tornar a silenciar."
+        "Muffle afegeix l'opció de prémer per parlar a totes les apps del Mac. Tria «Prémer per parlar» a la configuració, mantén premuda la drecera per parlar i deixa-la anar per tornar a silenciar."
       ],
       "steps_title": "Fes servir la funció de prémer per parlar",
       "steps": [
         "Instal·la Muffle.",
-        "Silencia amb Control-Opció-M o amb els AirPods.",
+        "A la Configuració de Muffle, defineix «Mode de drecera» com a «Prémer per parlar».",
         "Mantén premut Control-Opció-M mentre parles.",
         "Deixa anar la tecla. Tornes a estar silenciat."
       ],
       "tips": [
-        "Prémer la drecera una vegada canvia l'estat del micròfon. Mantenir-la premuda és per parlar.",
-        "Tria una tecla còmoda a la Configuració de Muffle, com ara una tecla F."
+        "Prefereixes una sola tecla? Configura una tecla per parlar a la configuració: ⌥ dreta, fn o un botó addicional del ratolí.",
+        "Tria una drecera còmoda a la Configuració de Muffle, per exemple una tecla de funció F."
       ],
       "faq": [
         {
@@ -468,7 +493,7 @@
         },
         {
           "q": "Hi ha una opció de prémer per silenciar?",
-          "a": "Sí. Quan tinguis el so activat, mantenir premuda la drecera et silencia fins que la deixis anar."
+          "a": "Sí. Tria «Prémer per silenciar» i mantén premuda la drecera per silenciar un moment, com un botó de tossina."
         }
       ]
     },
@@ -561,6 +586,37 @@
         {
           "q": "S'enregistra el meu àudio?",
           "a": "No. Muffle només mesura el nivell de volum i mai enregistra, emmagatzema ni envia cap àudio."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-sound-quality-mac-calls",
+      "title": "Per què els AirPods sonen pitjor al Mac i com solucionar-ho",
+      "description": "Els AirPods perden qualitat en trucades al Mac si s'usa el seu micròfon. Descobreix per què i com mantenir la màxima qualitat a Meet, Zoom i Teams.",
+      "h1": "Per què els AirPods sonen pitjor durant les trucades en un Mac",
+      "intro": [
+        "Entres a una trucada amb els AirPods i de sobte el so se sent apagat i sense claredat. No és cap defecte. Mentre una app utilitza el micròfon dels AirPods, el Bluetooth activa un mode de trucada que reprodueix tot l'àudio amb molta menys qualitat.",
+        "La solució és parlar pel micròfon del Mac i deixar que els AirPods només reprodueixin el so. En una habitació tranquil·la, el micròfon del Mac sona igual de bé i la trucada torna a reproduir-se amb màxima qualitat. Muffle detecta quan l'habitació és tranquil·la i et suggereix fer el canvi."
+      ],
+      "steps_title": "Mantingues la màxima qualitat a les trucades",
+      "steps": [
+        "Instal·la Muffle i deixa activada l'opció «Suggereix el millor micròfon per a l'habitació».",
+        "Entra a la trucada amb els AirPods com fas habitualment.",
+        "Quan Muffle indiqui que l'habitació és tranquil·la, fes clic a «Canvia».",
+        "Si després hi ha soroll, Muffle et tornarà a suggerir el micròfon dels AirPods."
+      ],
+      "tips": [
+        "El canvi funciona quan l'app de la trucada utilitza el micròfon per omissió del sistema. A Google Meet, Zoom i Teams, tria l'opció per omissió o la mateixa que el sistema.",
+        "Queda't a prop del Mac mentre en facis servir el micròfon. Muffle només el suggereix quan et pot sentir clarament."
+      ],
+      "faq": [
+        {
+          "q": "Per què els AirPods sonen malament a les trucades del Mac?",
+          "a": "El Bluetooth no pot transmetre so estèreo d'alta qualitat i la teva veu alhora, de manera que els AirPods passen al mode de trucada mentre s'utilitza el seu micròfon."
+        },
+        {
+          "q": "Muffle canvia de micròfon pel seu compte?",
+          "a": "No. Muffle només suggereix el millor micròfon. No canvia res fins que fas clic a «Canvia»."
         }
       ]
     }

@@ -80,11 +80,28 @@
       {
         "title": "Opdrachten en Bedieningspaneel",
         "text": "Demp via de app Opdrachten, Siri, een Stream Deck, Raycast of met een handige knop in het Bedieningspaneel."
+      },
+      {
+        "title": "Push to talk of push to mute",
+        "text": "Kies hoe je sneltoets werkt: tik om in of uit te schakelen, houd ingedrukt om te praten of houd ingedrukt om te dempen bij een hoestje. Voeg aparte toetsen toe voor dempen en inschakelen, of houd één toets ingedrukt zoals Rechter-⌥ of een extra muisknop."
+      },
+      {
+        "title": "Opnieuw gedempt zodra je stil wordt",
+        "text": "Microfoon ingeschakeld om even iets te zeggen? Als je daarna stil blijft gedurende de gekozen tijd, dempt Muffle je weer."
+      },
+      {
+        "title": "De beste microfoon voor de ruimte",
+        "text": "Met AirPods in een rustige ruimte stelt Muffle de microfoon van je Mac voor, zodat de AirPods het gesprek in volledige kwaliteit afspelen. Als het luid wordt, stelt Muffle de microfoon van de AirPods voor."
+      },
+      {
+        "title": "Niet te missen",
+        "text": "Een groene of rode gloed rond het scherm, een gekleurd menubalkpictogram, een geluid en een zwevende knop. Schakel in wat je prettig vindt."
       }
     ],
     "image_reminder_alt": "De herinnering “Je bent gedempt” onder in het scherm",
     "image_pills_alt": "De zwevende mini-controller in gedempte en actieve toestand",
-    "image_automation_alt": "Muffle-instellingen voor het gedempt starten van gesprekken en andere automatiseringen"
+    "image_automation_alt": "Muffle-instellingen voor het gedempt starten van gesprekken en andere automatiseringen",
+    "image_suggestion_alt": "Muffle stelt de microfoon van de Mac voor omdat de ruimte rustig is"
   },
   "how": {
     "title": "Binnen één minuut ingesteld",
@@ -132,6 +149,14 @@
       {
         "q": "Welke versies van macOS worden ondersteund?",
         "a": "macOS 14 Sonoma en nieuwer. De knop in het Bedieningspaneel vereist macOS 26 of nieuwer."
+      },
+      {
+        "q": "Heeft Muffle push to talk?",
+        "a": "Ja. Kies 'Push to talk' in de instellingen en houd je sneltoets ingedrukt om te praten. Je kunt ook één toets ingedrukt houden zoals Rechter-⌥ of fn, of een extra muisknop."
+      },
+      {
+        "q": "Waarom klinken mijn AirPods slechter tijdens gesprekken?",
+        "a": "Wanneer een gesprek de microfoon van de AirPods gebruikt, schakelen de AirPods over naar een gespreksmodus met een lagere geluidskwaliteit. In een rustige ruimte stelt Muffle in plaats daarvan de microfoon van je Mac voor, zodat de AirPods blijven afspelen in volledige kwaliteit."
       }
     ]
   },
@@ -444,22 +469,22 @@
     {
       "slug": "push-to-talk-on-mac",
       "title": "Push-to-talk op de Mac voor elke app",
-      "description": "Gebruik push-to-talk op je Mac in Zoom, Google Meet, Teams en Discord. Houd één toets ingedrukt om te praten, laat los om te dempen.",
+      "description": "Gebruik push to talk op je Mac in Zoom, Google Meet, Teams en Discord. Houd een toets of muisknop ingedrukt om te praten en laat los om te dempen.",
       "h1": "Push-to-talk op een Mac, in elke app",
       "intro": [
         "Push-to-talk houdt je gedempt totdat je een toets ingedrukt houdt. Het is de eenvoudigste manier om stil te blijven in grote vergaderingen of drukke ruimtes, maar slechts enkele apps bieden het en elk gebruikt een andere toets.",
-        "Muffle voegt push-to-talk toe aan elke app op je Mac. Blijf gedempt, houd de sneltoets ingedrukt om te spreken en laat los om weer te dempen."
+        "Muffle voegt push to talk toe aan elke app op je Mac. Kies 'Push to talk' in de instellingen, houd de sneltoets ingedrukt om te praten en laat los om weer te dempen."
       ],
       "steps_title": "Push-to-talk gebruiken",
       "steps": [
         "Installeer Muffle.",
-        "Demp met Control-Option-M of je AirPods.",
+        "Zet in de Muffle-instellingen 'Sneltoetsmodus' op 'Push to talk'.",
         "Houd Control-Option-M ingedrukt terwijl je spreekt.",
         "Laat los. Je bent weer gedempt."
       ],
       "tips": [
-        "Door op de sneltoets te tikken schakel je nog steeds dempen in of uit. Ingedrukt houden is push-to-talk.",
-        "Kies een handige toets in Muffle-instellingen, bijvoorbeeld een F-toets."
+        "Gebruik je liever één enkele toets? Stel in de instellingen een spreektoets in: Rechter-⌥, fn of een extra muisknop.",
+        "Kies een handige sneltoets in de Muffle-instellingen, bijvoorbeeld een F-toets."
       ],
       "faq": [
         {
@@ -468,7 +493,7 @@
         },
         {
           "q": "Is er ook push-to-mute?",
-          "a": "Ja. Wanneer je niet gedempt bent, dempt het ingedrukt houden van de sneltoets je totdat je loslaat."
+          "a": "Ja. Kies 'Push to mute' en houd de sneltoets ingedrukt om even te dempen, zoals een hoestknop."
         }
       ]
     },
@@ -561,6 +586,37 @@
         {
           "q": "Wordt mijn audio opgenomen?",
           "a": "Nee. Muffle meet alleen het geluidsniveau en zal nooit audio opnemen, opslaan of verzenden."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-sound-quality-mac-calls",
+      "title": "Waarom AirPods slechter klinken op de Mac, en de oplossing",
+      "description": "AirPods schakelen over naar een gespreksmodus met lage kwaliteit bij Mac-gesprekken. Ontdek waarom en behoud de beste kwaliteit in Meet, Zoom en Teams.",
+      "h1": "Waarom AirPods slechter klinken tijdens gesprekken op een Mac",
+      "intro": [
+        "Neem deel aan een gesprek met AirPods en het geluid klinkt ineens dof en blikkerig. Het is geen fout. Zodra een app de microfoon van de AirPods gebruikt, schakelt Bluetooth de AirPods naar een gespreksmodus die alles in veel lagere kwaliteit afspeelt.",
+        "De oplossing is om via de microfoon van je Mac te praten en de AirPods alleen geluid te laten afspelen. In een rustige ruimte klinkt de microfoon van je Mac net zo goed en hoor je het gesprek weer in volledige kwaliteit. Muffle merkt wanneer je ruimte rustig is en stelt de wissel voor."
+      ],
+      "steps_title": "Behoud volledige kwaliteit in gesprekken",
+      "steps": [
+        "Installeer Muffle en laat 'Stel de beste microfoon voor de ruimte voor' aanstaan.",
+        "Neem zoals gewoonlijk deel aan je gesprek met AirPods.",
+        "Wanneer Muffle meldt dat je ruimte rustig is, klik je op 'Wissel'.",
+        "Wordt het later luid, dan stelt Muffle de microfoon van de AirPods weer voor."
+      ],
+      "tips": [
+        "Het overschakelen werkt wanneer je gespreks-app de standaardmicrofoon van het systeem gebruikt. Kies in Google Meet, Zoom en Teams voor de standaardoptie of gelijk aan het systeem.",
+        "Blijf dicht bij je Mac terwijl je de microfoon gebruikt. Muffle stelt dit alleen voor wanneer je duidelijk te horen bent."
+      ],
+      "faq": [
+        {
+          "q": "Waarom klinken AirPods slecht tijdens Mac-gesprekken?",
+          "a": "Bluetooth kan niet tegelijkertijd stereogeluid in hoge kwaliteit en je stem versturen. Daarom schakelen AirPods over naar de gespreksmodus zolang hun microfoon in gebruik is."
+        },
+        {
+          "q": "Schakelt Muffle vanzelf over tussen microfoons?",
+          "a": "Nee. Muffle stelt alleen de betere microfoon voor. Er verandert niets totdat je op 'Wissel' klikt."
         }
       ]
     }

@@ -80,11 +80,28 @@
       {
         "title": "Skróty i Centrum sterowania",
         "text": "Wyciszaj z aplikacji Skróty, przez Siri, ze Stream Decka, z Raycast lub za pomocą przycisku w Centrum sterowania."
+      },
+      {
+        "title": "Przytrzymaj, aby mówić lub przytrzymaj, aby wyciszyć",
+        "text": "Wybierz sposób działania skrótu: naciśnij, aby przełączyć, przytrzymaj, aby mówić, lub przytrzymaj, aby wyciszyć kaszel. Dodaj osobne klawisze wyciszania i włączania albo przytrzymaj jeden klawisz, taki jak prawy ⌥ lub dodatkowy przycisk myszy."
+      },
+      {
+        "title": "Ponowne wyciszenie, gdy przestajesz mówić",
+        "text": "Włączasz mikrofon, aby powiedzieć jedno zdanie? Jeśli przez wybrany czas nic nie powiesz, Muffle ponownie go wyciszy."
+      },
+      {
+        "title": "Najlepszy mikrofon dla Twojego otoczenia",
+        "text": "Gdy używasz AirPods w cichym pomieszczeniu, Muffle sugeruje mikrofon Maca, dzięki czemu AirPods odtwarzają połączenie w pełnej jakości. Gdy zrobi się głośno, proponuje mikrofon AirPods."
+      },
+      {
+        "title": "Nie sposób tego przeoczyć",
+        "text": "Zielona lub czerwona poświata na krawędziach ekranu, kolorowa ikona na pasku menu, dźwięk i pływający przycisk. Włącz te wskaźniki, które najbardziej Ci odpowiadają."
       }
     ],
     "image_reminder_alt": "Przypomnienie „Masz wyciszony mikrofon” na dole ekranu",
     "image_pills_alt": "Ruchomy ministerownik w stanie wyciszonym i aktywnym",
-    "image_automation_alt": "Ustawienia Muffle dotyczące rozpoczynania połączeń z wyciszonym mikrofonem i innych automatyzacji"
+    "image_automation_alt": "Ustawienia Muffle dotyczące rozpoczynania połączeń z wyciszonym mikrofonem i innych automatyzacji",
+    "image_suggestion_alt": "Muffle sugeruje mikrofon Maca, ponieważ w otoczeniu jest cicho"
   },
   "how": {
     "title": "Konfiguracja w minutę",
@@ -132,6 +149,14 @@
       {
         "q": "Które wersje systemu macOS są obsługiwane?",
         "a": "macOS 14 Sonoma i nowsze. Przycisk w Centrum sterowania wymaga systemu macOS 26 lub nowszego."
+      },
+      {
+        "q": "Czy Muffle ma funkcję push to talk?",
+        "a": "Tak. Wybierz opcję „Przytrzymaj, aby mówić” w Ustawieniach i przytrzymaj skrót klawiszowy, aby zabrać głos. Możesz też przytrzymać pojedynczy klawisz, taki jak prawy ⌥ lub fn, albo dodatkowy przycisk myszy."
+      },
+      {
+        "q": "Dlaczego słuchawki AirPods brzmią gorzej podczas połączeń?",
+        "a": "Gdy aplikacja korzysta z mikrofonu AirPods, słuchawki przełączają się w tryb połączenia, który odtwarza dźwięk w niższej jakości. W cichym pomieszczeniu Muffle sugeruje mikrofon Maca, dzięki czemu AirPods zachowują pełną jakość dźwięku."
       }
     ]
   },
@@ -444,22 +469,22 @@
     {
       "slug": "push-to-talk-on-mac",
       "title": "Push to talk na Maca dla każdej aplikacji do rozmów",
-      "description": "Funkcja push to talk na Macu w Zoom, Google Meet, Teams i Discordzie. Przytrzymaj klawisz, aby mówić, puść, aby wyciszyć.",
+      "description": "Włącz push to talk na Macu w Zoom, Google Meet, Teams i Discord. Przytrzymaj klawisz lub przycisk myszy, aby mówić, i puść, aby wyciszyć mikrofon.",
       "h1": "Push to talk na Macu w każdej aplikacji",
       "intro": [
         "Funkcja push to talk utrzymuje mikrofon wyciszony, dopóki nie przytrzymasz klawisza. To najwygodniejszy sposób na ciszę podczas dużych spotkań lub w hałaśliwych miejscach, ale ma go tylko kilka aplikacji i każda wymaga innego klawisza.",
-        "Muffle wprowadza push to talk do każdej aplikacji na Macu. Zachowaj wyciszenie, przytrzymaj skrót, aby zabrać głos, i puść go, aby natychmiast znowu się wyciszyć."
+        "Muffle dodaje tryb push to talk do każdej aplikacji na Macu. Wybierz opcję „Przytrzymaj, aby mówić” w Ustawieniach, przytrzymaj skrót, aby zabrać głos, i puść, aby ponownie wyciszyć mikrofon."
       ],
       "steps_title": "Jak korzystać z push to talk",
       "steps": [
         "Zainstaluj Muffle.",
-        "Wycisz mikrofon za pomocą skrótu Control-Option-M lub słuchawek AirPods.",
+        "W oknie Ustawienia Muffle ustaw opcję „Tryb skrótu” na „Przytrzymaj, aby mówić”.",
         "Przytrzymaj Control-Option-M, kiedy mówisz.",
         "Puść klawisze. Twój mikrofon znów jest wyciszony."
       ],
       "tips": [
-        "Zwykłe naciśnięcie skrótu nadal przełącza wyciszenie. Jego przytrzymanie działa jak push to talk.",
-        "Wybierz wygodny klawisz w Ustawieniach Muffle, na przykład jeden z klawiszy F."
+        "Wolisz pojedynczy klawisz? Skonfiguruj klawisz mówienia w Ustawieniach: prawy ⌥, fn lub dodatkowy przycisk myszy.",
+        "Wybierz wygodny skrót klawiszowy w Ustawieniach Muffle, na przykład jeden z klawiszy F."
       ],
       "faq": [
         {
@@ -468,7 +493,7 @@
         },
         {
           "q": "Czy jest dostępna funkcja push to mute?",
-          "a": "Tak. Gdy mikrofon jest włączony, przytrzymanie skrótu wycisza Cię do momentu zwolnienia klawiszy."
+          "a": "Tak. Wybierz opcję „Przytrzymaj, aby wyciszyć” i przytrzymaj skrót, aby wyciszyć mikrofon na chwilę, jak przyciskiem kaszlu."
         }
       ]
     },
@@ -561,6 +586,37 @@
         {
           "q": "Czy mój dźwięk jest nagrywany?",
           "a": "Nie. Muffle mierzy wyłącznie poziom głośności i nigdy nie przechowuje ani nie wysyła żadnego dźwięku."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-sound-quality-mac-calls",
+      "title": "Dlaczego AirPods brzmią gorzej na Macu i jak to naprawić",
+      "description": "AirPods przełączają się w tryb gorszej jakości, gdy rozmowa na Macu używa mikrofonu. Zobacz dlaczego i zachowaj pełną jakość w Google Meet, Zoom i Teams.",
+      "h1": "Dlaczego AirPods brzmią gorzej podczas połączeń na Macu",
+      "intro": [
+        "Dołączasz do spotkania przez AirPods i dźwięk nagle staje się płaski oraz przytłumiony. To nie usterka. Gdy aplikacja korzysta z mikrofonu AirPods, Bluetooth przełącza słuchawki w tryb połączenia, który odtwarza dźwięk w znacznie niższej jakości.",
+        "Rozwiązaniem jest mówienie do mikrofonu Maca, podczas gdy AirPods tylko odtwarzają dźwięk. W cichym pomieszczeniu mikrofon Maca brzmi równie dobrze, a rozmowa jest ponownie słyszalna w pełnej jakości. Muffle zauważa, kiedy w Twoim otoczeniu jest cicho, i proponuje przełączenie."
+      ],
+      "steps_title": "Zachowaj pełną jakość dźwięku podczas połączeń",
+      "steps": [
+        "Zainstaluj Muffle i pozostaw włączoną opcję „Sugeruj najlepszy mikrofon dla otoczenia”.",
+        "Dołącz do połączenia przez AirPods tak jak zwykle.",
+        "Gdy Muffle powiadomi, że w Twoim otoczeniu jest cicho, kliknij Przełącz.",
+        "Jeśli później zrobi się głośno, Muffle ponownie zasugeruje mikrofon AirPods."
+      ],
+      "tips": [
+        "Przełączenie działa, gdy aplikacja do rozmów korzysta z domyślnego mikrofonu systemowego. W Google Meet, Zoom i Teams wybierz mikrofon domyślny lub zgodny z systemem.",
+        "Bądź blisko Maca, gdy korzystasz z jego mikrofonu. Muffle proponuje tę zmianę tylko wtedy, gdy wyraźnie Cię słyszy."
+      ],
+      "faq": [
+        {
+          "q": "Dlaczego AirPods brzmią słabo podczas połączeń na Macu?",
+          "a": "Łączność Bluetooth nie jest w stanie przesyłać jednocześnie dźwięku stereo wysokiej jakości oraz głosu, dlatego AirPods przełączają się w tryb połączenia, gdy ich mikrofon jest aktywny."
+        },
+        {
+          "q": "Czy Muffle automatycznie przełącza mikrofony?",
+          "a": "Nie. Muffle jedynie sugeruje lepszy mikrofon. Nic się nie zmieni, dopóki nie klikniesz Przełącz."
         }
       ]
     }

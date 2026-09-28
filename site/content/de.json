@@ -80,11 +80,28 @@
       {
         "title": "Kurzbefehle und Kontrollzentrum",
         "text": "Stummschalten über die App Kurzbefehle, Siri, ein Stream Deck, Raycast oder eine Taste im Kontrollzentrum."
+      },
+      {
+        "title": "Drücken zum Sprechen oder Drücken zum Stummschalten",
+        "text": "Wähle, wie dein Tastenkürzel funktioniert: Tippen zum Umschalten, Halten zum Sprechen oder Halten zum Stummschalten beim Husten. Lege separate Tasten zum Stumm- und Aktivschalten fest, oder halte eine Taste wie die Rechte ⌥ oder eine zusätzliche Maustaste gedrückt."
+      },
+      {
+        "title": "Wieder stummgeschaltet, wenn du still bist",
+        "text": "Kurz aktiviert, um etwas zu sagen? Wenn du danach für die gewählte Zeit still bist, schaltet Muffle dich automatisch wieder stumm."
+      },
+      {
+        "title": "Das beste Mikrofon für den Raum",
+        "text": "Mit AirPods in einem ruhigen Raum schlägt Muffle das Mikrofon deines Mac vor, damit die AirPods den Anruf in voller Qualität wiedergeben. Wenn es laut wird, schlägt es das AirPods-Mikrofon vor."
+      },
+      {
+        "title": "Nicht zu übersehen",
+        "text": "Ein grünes oder rotes Leuchten am Bildschirmrand, ein farbiges Menüleistensymbol, ein Ton und ein frei schwebender Button. Aktiviere einfach, was dir gefällt."
       }
     ],
     "image_reminder_alt": "Die Erinnerung „Du bist stummgeschaltet“ am unteren Bildschirmrand",
     "image_pills_alt": "Der schwebende Mini-Controller im stummgeschalteten und aktiven Zustand",
-    "image_automation_alt": "Muffle-Einstellungen für automatische Stummschaltung bei Anrufen"
+    "image_automation_alt": "Muffle-Einstellungen für automatische Stummschaltung bei Anrufen",
+    "image_suggestion_alt": "Muffle schlägt das Mikrofon des Mac vor, weil es im Raum ruhig ist"
   },
   "how": {
     "title": "In einer Minute eingerichtet",
@@ -132,6 +149,14 @@
       {
         "q": "Welche macOS-Versionen werden unterstützt?",
         "a": "macOS 14 Sonoma und neuer. Für die Taste im Kontrollzentrum ist macOS 26 oder neuer erforderlich."
+      },
+      {
+        "q": "Unterstützt Muffle Push-to-Talk?",
+        "a": "Ja. Wähle „Drücken zum Sprechen“ in den Einstellungen und halte dein Tastenkürzel zum Sprechen gedrückt. Du kannst auch eine einzelne Taste wie die Rechte ⌥ oder fn oder eine zusätzliche Maustaste gedrückt halten."
+      },
+      {
+        "q": "Warum klingen meine AirPods während Anrufen schlechter?",
+        "a": "Wenn ein Anruf das AirPods-Mikrofon verwendet, wechseln die AirPods in den Anrufmodus, der Ton in geringerer Qualität wiedergibt. In einem ruhigen Raum schlägt Muffle stattdessen das Mikrofon deines Mac vor, damit die AirPods den Ton weiter in voller Qualität abspielen."
       }
     ]
   },
@@ -444,22 +469,22 @@
     {
       "slug": "push-to-talk-on-mac",
       "title": "Push-to-Talk am Mac für alle Konferenzen und Apps",
-      "description": "Nutze Push-to-Talk am Mac in Zoom, Google Meet, Teams und Discord. Taste gedrückt halten zum Sprechen, loslassen zum Stummschalten.",
+      "description": "Nutze Push-to-Talk auf dem Mac in Zoom, Google Meet, Teams und Discord. Taste zum Sprechen halten und zum Stummschalten loslassen.",
       "h1": "Push-to-Talk am Mac, in jeder App",
       "intro": [
         "Mit Push-to-Talk bleibst du stummgeschaltet, bis du eine Taste gedrückt hältst. Das ist ideal für große Meetings oder laute Umgebungen im Homeoffice, wird aber nur von wenigen Apps unterstützt und jede nutzt eine andere Taste.",
-        "Muffle rüstet Push-to-Talk für jede App auf deinem Mac nach. Bleib stumm, halte dein Tastenkürzel zum Sprechen gedrückt und lass einfach los, um wieder stumm zu sein."
+        "Muffle bringt Push-to-Talk in jede App auf deinem Mac. Wähle „Drücken zum Sprechen“ in den Einstellungen, halte das Kürzel zum Sprechen gedrückt und lass los, um wieder stummzuschalten."
       ],
       "steps_title": "So nutzt du Push-to-Talk",
       "steps": [
         "Installiere Muffle.",
-        "Schalte dein Mikrofon mit Control-Wahltaste-M oder über deine AirPods stumm.",
+        "Setze in den Muffle-Einstellungen den Kürzel-Modus auf „Drücken zum Sprechen“.",
         "Halte Control-Wahltaste-M gedrückt, während du sprichst.",
         "Lass die Tasten los. Dein Mikrofon ist sofort wieder stummgeschaltet."
       ],
       "tips": [
-        "Ein kurzes Antippen schaltet das Mikrofon um. Gedrückt halten aktiviert Push-to-Talk.",
-        "Wähle in den Muffle-Einstellungen eine Taste, die für dich angenehm erreichbar ist, zum Beispiel eine F-Taste."
+        "Lieber eine einzelne Taste? Richte in den Einstellungen eine Sprechtaste ein: Rechte ⌥, fn oder eine zusätzliche Maustaste.",
+        "Wähle in den Muffle-Einstellungen ein bequemes Tastenkürzel, zum Beispiel eine F-Taste."
       ],
       "faq": [
         {
@@ -468,7 +493,7 @@
         },
         {
           "q": "Gibt es auch Push-to-Mute?",
-          "a": "Ja. Wenn dein Mikrofon aktiv ist, wirst du durch Gedrückthalten des Kürzels stummgeschaltet, bis du wieder loslässt."
+          "a": "Ja. Wähle „Drücken zum Stummschalten“ und halte das Kürzel gedrückt, um kurz stummzuschalten, wie bei einer Hustentaste."
         }
       ]
     },
@@ -561,6 +586,37 @@
         {
           "q": "Wird mein Audio aufgezeichnet?",
           "a": "Nein. Muffle misst ausschließlich die Lautstärke und speichert oder überträgt zu keinem Zeitpunkt Audiodaten."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-sound-quality-mac-calls",
+      "title": "Warum AirPods bei Mac-Anrufen schlechter klingen: Die Lösung",
+      "description": "AirPods wechseln in den Anrufmodus mit geringer Qualität, wenn ihr Mikrofon aktiv ist. So behältst du in Google Meet, Zoom und Teams volle Audioqualität.",
+      "h1": "Warum AirPods bei Anrufen auf dem Mac schlechter klingen",
+      "intro": [
+        "Du trittst einem Anruf mit AirPods bei und der Ton klingt plötzlich blechern und dumpf. Das ist kein Defekt. Sobald eine App das AirPods-Mikrofon verwendet, schaltet Bluetooth die AirPods in einen Anrufmodus, der alles in deutlich schlechterer Qualität wiedergibt.",
+        "Die Lösung ist einfach: Sprich in das Mikrofon deines Mac und nutze die AirPods nur für die Tonausgabe. In einem ruhigen Raum klingt das Mac-Mikrofon genauso gut und der Anruf wird wieder in voller Qualität wiedergegeben. Muffle erkennt, wenn es im Raum ruhig ist, und schlägt den Wechsel vor."
+      ],
+      "steps_title": "Volle Audioqualität in Anrufen behalten",
+      "steps": [
+        "Installiere Muffle und lass „Bestes Mikrofon für den Raum vorschlagen“ aktiviert.",
+        "Tritt deinem Anruf wie gewohnt mit AirPods bei.",
+        "Wenn Muffle anzeigt, dass dein Raum ruhig ist, klicke auf „Wechseln“.",
+        "Wenn es später laut wird, schlägt Muffle wieder das AirPods-Mikrofon vor."
+      ],
+      "tips": [
+        "Der Wechsel funktioniert, wenn deine Anruf-App das Standardmikrofon des Systems verwendet. Wähle in Google Meet, Zoom und Teams die Option für das Standardmikrofon oder wie im System.",
+        "Bleibe in der Nähe deines Mac, während du dessen Mikrofon nutzt. Muffle schlägt es nur vor, wenn es dich klar hören kann."
+      ],
+      "faq": [
+        {
+          "q": "Warum klingen AirPods bei Mac-Anrufen schlecht?",
+          "a": "Bluetooth kann nicht gleichzeitig hochwertiges Stereo-Audio und deine Stimme übertragen. Deshalb wechseln AirPods in den Anrufmodus, solange ihr Mikrofon genutzt wird."
+        },
+        {
+          "q": "Wechselt Muffle Mikrofone von selbst?",
+          "a": "Nein. Muffle schlägt das bessere Mikrofon nur vor. Es ändert sich nichts, bis du auf „Wechseln“ klickst."
         }
       ]
     }
