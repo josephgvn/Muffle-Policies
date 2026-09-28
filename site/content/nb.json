@@ -1,0 +1,643 @@
+{
+  "meta": {
+    "home_title": "Muffle: Demp Mac-mikrofonen med AirPods eller snarvei",
+    "home_description": "Demp mikrofonen i Google Meet, Zoom, Teams, Slack og alle andre apper på Mac. Trykk på AirPods eller bruk en snarvei. Gratis i 3 dager.",
+    "og_title": "Demp mikrofonen på Mac uansett hvor du er.",
+    "og_subtitle": "Trykk på AirPods-ene eller bruk en snarvei. Fungerer i alle apper."
+  },
+  "nav": {
+    "features": "Funksjoner",
+    "guides": "Guider",
+    "support": "Kundestøtte",
+    "download": "Få Muffle",
+    "home": "Hjem",
+    "menu": "Meny"
+  },
+  "cta": {
+    "download": "Last ned fra Mac App Store",
+    "coming_soon": "Kommer snart til Mac App Store",
+    "trial": "Gratis i 3 dager. Deretter én betaling, ikke noe abonnement.",
+    "requirements": "For macOS 14 Sonoma og nyere."
+  },
+  "hero": {
+    "title": "Demp Mac-mikrofonen uansett hvor du er.",
+    "subtitle": "Trykk på AirPods-ene eller én tastatursnarvei. Muffle slår av selve mikrofonen, slik at Google Meet, Zoom, Teams, Slack og alle andre apper bare hører stillhet.",
+    "image_alt": "Muffle-panelet i menylinjen på Mac under en Google Meet-samtale i Chrome"
+  },
+  "works_with": {
+    "title": "Fungerer med alle apper som bruker mikrofonen",
+    "apps": [
+      "Google Meet",
+      "Zoom",
+      "Microsoft Teams",
+      "Slack",
+      "Discord",
+      "FaceTime",
+      "Webex",
+      "WhatsApp",
+      "Skype",
+      "SoWork",
+      "Gather",
+      "Chrome",
+      "Safari",
+      "Arc",
+      "Edge",
+      "Firefox"
+    ],
+    "note": "Muffle demper mikrofonen på maskinvarenivå, så det spiller ingen rolle hvilken app, nettleser eller fane som bruker den."
+  },
+  "features": {
+    "title": "Alt Mac-en din burde gjøre under en samtale",
+    "items": [
+      {
+        "title": "Trykk på AirPods-ene for å dempe",
+        "text": "I enhver samtale kan du trykke én gang på stilken for å dempe, og trykke igjen for å slå på. Det fungerer også i Chrome, der Google Meet og andre nettsamtaler ignorerer trykk på AirPods."
+      },
+      {
+        "title": "Én snarvei for alle apper",
+        "text": "Control-Tilvalg-M demper deg overalt, selv når samtalen er i en fane i bakgrunnen. Hold inne for å snakke mens du er dempet, og slipp for å dempe igjen."
+      },
+      {
+        "title": "En «Du er dempet»-påminnelse",
+        "text": "Begynner du å snakke mens du er dempet, gir Muffle deg beskjed før du forklarer hele ideen din til ingen."
+      },
+      {
+        "title": "Samtaler på autopilot",
+        "text": "Start hver samtale dempet, slå på mikrofonen igjen når en samtale avsluttes, og demp når du låser Mac-en."
+      },
+      {
+        "title": "Vit alltid om du er på lufta",
+        "text": "En liten flytende knapp viser mikrofonstatusen under samtaler. Klikk på den for å dempe eller slå på."
+      },
+      {
+        "title": "Mikrofonnivået forblir låst",
+        "text": "Chrome, Zoom og Teams endrer mikrofonnivået på egen hånd. Lås det, så setter Muffle det tilbake."
+      },
+      {
+        "title": "Trygt når AirPods-ene går tomme for strøm",
+        "text": "Hvis hodetelefonene kobles fra midt i en samtale, demper Muffle før samtalen bytter til Mac-ens mikrofon og sender ut lyden fra hele rommet."
+      },
+      {
+        "title": "Snarveier og Kontrollsenter",
+        "text": "Demp fra appen Snarveier, Siri, en Stream Deck, Raycast eller en knapp i Kontrollsenter."
+      }
+    ],
+    "image_reminder_alt": "Påminnelsen «Du er dempet» nederst på skjermen",
+    "image_pills_alt": "Den flytende minikontrolleren i dempet og aktiv tilstand",
+    "image_automation_alt": "Muffle-innstillinger for å starte samtaler dempet og andre samtaleautomatiseringer"
+  },
+  "how": {
+    "title": "Klar på ett minutt",
+    "steps": [
+      "Installer Muffle fra Mac App Store og gi mikrofontilgang.",
+      "Bli med i en samtale i en hvilken som helst app, akkurat som vanlig.",
+      "Trykk på AirPods-ene, trykk Control-Tilvalg-M, eller klikk på ikonet i menylinjen for å dempe."
+    ]
+  },
+  "privacy": {
+    "title": "Innebygd personvern",
+    "text": "Muffle tar aldri opp, lagrer eller sender lyd. Appen bare slår mikrofonen av og på og leser lydstyrken. Ingen kontoer, ingen analyse, ingen sporing."
+  },
+  "faq": {
+    "title": "Spørsmål og svar",
+    "items": [
+      {
+        "q": "Fungerer Muffle med Google Meet i Chrome?",
+        "a": "Ja. Chrome sender ikke trykket for å dempe på AirPods videre til nettsamtaler, så Muffle fanger det opp og demper selve mikrofonen. Det samme gjelder for alle samtaler i en nettleserfane."
+      },
+      {
+        "q": "Vil andre se at jeg er dempet?",
+        "a": "Samtaleappen viser kanskje fortsatt at mikrofonen er på, fordi Muffle slår av selve mikrofonen i stedet for knappen i appen. De andre hører stillhet uansett. Muffle-ikonet i menylinjen blir rødt mens du er dempet."
+      },
+      {
+        "q": "Hvilke AirPods fungerer?",
+        "a": "AirPods Pro, AirPods 3 og nyere, samt AirPods Max, i tillegg til Beats-modeller med samtalekontroller. Tastatursnarveien og menylinjen fungerer med alle mikrofoner."
+      },
+      {
+        "q": "Fungerer den med Zoom, Teams, Slack og Discord?",
+        "a": "Ja. Muffle fungerer med alle apper på Mac-en din som bruker mikrofonen, både skrivebordsapper og samtaler i nettleseren."
+      },
+      {
+        "q": "Er det et abonnement?",
+        "a": "Nei. Prøv alle funksjoner gratis i 3 dager, og lås deretter opp Muffle med et engangskjøp."
+      },
+      {
+        "q": "Hvorfor krever Muffle mikrofontilgang?",
+        "a": "macOS sender bare trykk på AirPods videre til apper som bruker mikrofonen, så Muffle holder en stille forbindelse åpen under samtaler. Ingenting blir tatt opp."
+      },
+      {
+        "q": "Hva skjer hvis jeg avslutter Muffle mens jeg er dempet?",
+        "a": "Muffle slår på mikrofonen igjen når appen avsluttes, så du blir aldri sittende fast uten lyd."
+      },
+      {
+        "q": "Hvilke macOS-versjoner støttes?",
+        "a": "macOS 14 Sonoma og nyere. Knappen i Kontrollsenter krever macOS 26 eller nyere."
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Slutt å lete etter dempeknappen.",
+    "text": "Muffle er gratis å prøve i 3 dager."
+  },
+  "footer": {
+    "guides": "Guider",
+    "product": "Muffle",
+    "support": "Kundestøtte",
+    "privacy": "Personvernerklæring",
+    "language": "Språk",
+    "contact": "Kontakt",
+    "copyright": "© 2026 Muffle. AirPods og Mac er varemerker for Apple Inc."
+  },
+  "guides_index": {
+    "title": "Muffle-guider: Demp Meet, Zoom og Teams på Mac",
+    "description": "Trinnvise veiledninger for å dempe Google Meet, Zoom, Microsoft Teams, Slack og nettsamtaler på Mac med AirPods eller snarvei.",
+    "h1": "Guider",
+    "intro": "Korte, praktiske svar for å dempe mikrofonen på Mac, i alle apper."
+  },
+  "guide_labels": {
+    "on_this_page": "På denne siden",
+    "faq": "Spørsmål og svar",
+    "related": "Flere guider",
+    "try": "Prøv Muffle gratis i 3 dager",
+    "read": "Les veiledningen"
+  },
+  "guides": [
+    {
+      "slug": "mute-google-meet-with-airpods",
+      "title": "Slik demper du Google Meet med AirPods på Mac",
+      "description": "Trykk på AirPods demper ikke Google Meet i Chrome på Mac. Slik demper du Meet med AirPods, en snarvei eller fra menylinjen i alle faner.",
+      "h1": "Slik demper du Google Meet med AirPods på Mac",
+      "intro": [
+        "På iPhone demper et trykk på AirPods-stilken samtalen. På Mac kjører Google Meet i Chrome, og Chrome sender ikke dette trykket videre til nettsider. Du trykker, hører en feillyd, og Meet fortsetter å sende stemmen din.",
+        "Muffle ordner dette for alle samtaler i Meet. Appen fanger opp trykket på AirPods-ene selv og demper Mac-mikrofonen, slik at Meet bare hører stillhet selv når fanen ligger i bakgrunnen."
+      ],
+      "steps_title": "Demp Google Meet med AirPods",
+      "steps": [
+        "Installer Muffle og gi mikrofontilgang når du blir spurt.",
+        "Bli med i Google Meet-møtet i Chrome, Safari, Arc eller Edge.",
+        "Trykk én gang på AirPods-stilken for å dempe. Muffle-ikonet blir rødt.",
+        "Trykk igjen for å slå på mikrofonen. Du kan også trykke Control-Tilvalg-M fra en hvilken som helst app."
+      ],
+      "tips": [
+        "Meet kan fortsatt vise mikrofonen som på, fordi Muffle demper selve mikrofonen i stedet for knappen i Meet. Alle hører stillhet så lenge Muffle-ikonet er rødt.",
+        "Slå på «Start hver samtale dempet» for å bli med i alle Meet-møter dempet."
+      ],
+      "faq": [
+        {
+          "q": "Hvorfor demper ikke et trykk på AirPods Google Meet?",
+          "a": "Chrome støtter ikke dempebevegelsen for AirPods i macOS for nettsamtaler, så macOS har ingen app å sende trykket til. Muffle blir den appen."
+        },
+        {
+          "q": "Holder det ikke med snarveien i Meet?",
+          "a": "Snarveien Kommando-D i Meet fungerer bare når Meet-fanen er aktiv foran deg. Snarveien og AirPods-trykket i Muffle fungerer fra alle apper."
+        }
+      ]
+    },
+    {
+      "slug": "mute-zoom-with-airpods",
+      "title": "Slik demper du Zoom med AirPods eller snarvei på Mac",
+      "description": "Demp Zoom på Mac med et trykk på AirPods eller en global snarvei, selv når Zoom ikke er aktivt. Fungerer i Zoom-appen og i nettleseren.",
+      "h1": "Slik demper du Zoom med AirPods eller en snarvei på Mac",
+      "intro": [
+        "Zooms egen snarvei, Kommando-Skift-A, fungerer bare når Zoom er det aktive programmet foran deg. Når du tar notater eller deler et annet vindu, koster det deg noen klønete sekunder å finne dempeknappen.",
+        "Muffle gir deg én felles dempekontroll for Zoom og alle andre apper: dine AirPods, en global snarvei eller menylinjen. Den demper selve mikrofonen, så den fungerer både i Zoom-appen og i videomøter i nettleseren."
+      ],
+      "steps_title": "Demp Zoom uansett hvor du er",
+      "steps": [
+        "Installer Muffle og gi mikrofontilgang.",
+        "Bli med i Zoom-møtet ditt som vanlig.",
+        "Trykk på AirPods-stilken eller Control-Tilvalg-M for å dempe, uansett hvilken app du er i.",
+        "Hold inne Control-Tilvalg-M mens du er dempet for å snakke, og slipp for å dempe igjen."
+      ],
+      "tips": [
+        "Hvis Zoom selv fanger opp AirPods-trykket på din Mac, vil snarveien og menylinjen fortsatt dempe deg via Muffle.",
+        "Zoom kan vise deg som ikke-dempet mens Muffle har slått av mikrofonen. Deltakerne hører likevel bare stillhet."
+      ],
+      "faq": [
+        {
+          "q": "Erstatter Muffle dempeknappen i Zoom?",
+          "a": "Den fungerer ved siden av den. Muffle slår av mikrofonen for alle apper, så du kan dempe Zoom uten å bytte vindu."
+        },
+        {
+          "q": "Kan jeg bruke trykk-for-å-snakke i Zoom?",
+          "a": "Ja. Mens du er dempet, holder du bare inne snarveien i Muffle for å snakke. Dette fungerer i Zoom og i alle andre apper."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microsoft-teams-with-airpods",
+      "title": "Slik demper du Microsoft Teams med AirPods på Mac",
+      "description": "Demp Microsoft Teams på Mac med AirPods, en global snarvei eller fra menylinjen. Fungerer i Teams-appen og i nettleseren.",
+      "h1": "Slik demper du Microsoft Teams med AirPods på Mac",
+      "intro": [
+        "Teams-snarveien Kommando-Skift-M fungerer bare når Teams-vinduet er aktivt. I et møte holder du som regel på med noe annet: et dokument, en nettleser eller en delt skjerm.",
+        "Muffle demper mikrofonen din uansett hvor du er, både i Teams-appen og Teams på nettet. Trykk på dine AirPods, trykk én snarvei, eller klikk i menylinjen."
+      ],
+      "steps_title": "Demp Teams uansett hvor du er",
+      "steps": [
+        "Installer Muffle og gi mikrofontilgang.",
+        "Bli med i Teams-møtet ditt.",
+        "Trykk på Control-Tilvalg-M eller AirPods-stilken for å dempe. Ikonet i menylinjen blir rødt.",
+        "Trykk igjen for å slå på mikrofonen, eller hold inne snarveien for å snakke mens du er dempet."
+      ],
+      "tips": [
+        "Teams i en nettleserfane får samme AirPods-støtte som Google Meet gjennom Muffle.",
+        "Slå på «Demp når skjermen låses» slik at du aldri glemmer mikrofonen på når du forlater Mac-en på hjemmekontor."
+      ],
+      "faq": [
+        {
+          "q": "Fungerer AirPods-trykket i Teams-appen?",
+          "a": "Det avhenger av Teams-versjonen din, siden Teams kan håndtere trykket selv. Snarveien og knappen i menylinjen fra Muffle fungerer uansett."
+        },
+        {
+          "q": "Viser Teams at jeg er dempet?",
+          "a": "Ikke alltid. Muffle demper selve mikrofonen, så Teams kan fremdeles vise mikrofonen som på, mens de andre i samtalen bare hører stillhet."
+        }
+      ]
+    },
+    {
+      "slug": "mute-slack-huddles",
+      "title": "Slik demper du Slack-huddles med snarvei på Mac",
+      "description": "Demp samtaler i Slack på Mac fra alle apper med en global snarvei eller AirPods. Du slipper å lete frem huddle-vinduet.",
+      "h1": "Slik demper du en Slack-huddle fra alle apper på Mac",
+      "intro": [
+        "Kontrollene for Slack-huddles ligger i et lite vindu som lett forsvinner bak alt annet du jobber med, og dempesnarveien fungerer bare når Slack er det aktive vinduet.",
+        "Muffle demper mikrofonen din for Slack og alle andre apper med én snarvei eller et trykk på dine AirPods, uansett hvor du befinner deg på Mac-en."
+      ],
+      "steps_title": "Demp en huddle uansett hvor du er",
+      "steps": [
+        "Installer Muffle og gi mikrofontilgang.",
+        "Start eller bli med i en huddle i Slack.",
+        "Trykk på Control-Tilvalg-M eller AirPods-stilken for å dempe.",
+        "Kast et blikk på menylinjen: rødt betyr at ingen kan høre deg."
+      ],
+      "tips": [
+        "Den flytende minikontrolleren viser mikrofonstatusen din under hver eneste huddle.",
+        "Hold inne snarveien for å si noe raskt, mens du forblir dempet resten av tiden."
+      ],
+      "faq": [
+        {
+          "q": "Fungerer det både med Slack-appen og Slack i nettleseren?",
+          "a": "Ja. Muffle demper selve mikrofonen, så det fungerer i begge."
+        },
+        {
+          "q": "Ser kollegene mine at jeg er dempet?",
+          "a": "Slack kan fortsatt vise mikrofonen din som på. De hører stillhet så lenge Muffle holder deg dempet."
+        }
+      ]
+    },
+    {
+      "slug": "mute-discord-on-mac",
+      "title": "Discord: Snarvei for push-to-talk og demp mikrofon på Mac",
+      "description": "Bruk én felles snarvei for push-to-talk og demping i Discord på Mac, eller demp med AirPods. Fungerer i Discord-appen og i nettleseren.",
+      "h1": "Push-to-talk og en global snarvei for Discord på Mac",
+      "intro": [
+        "Discords push-to-talk krever ekstra tillatelser på Mac og fungerer ikke for Discord i nettleseren. Hvis du også er i møte i Meet eller Zoom, ender du opp med ulike taster for hver app.",
+        "Muffle gir deg én tast for alt. Trykk for å dempe, hold inne for å snakke, eller trykk på AirPods-ene dine."
+      ],
+      "steps_title": "Konfigurer push-to-talk for Discord",
+      "steps": [
+        "Installer Muffle og gi mikrofontilgang.",
+        "Bli med i en talekanal på Discord.",
+        "Trykk Kontroll-Tilvalg-M for å dempe eller slå på. Hold inne for å snakke mens du er dempet.",
+        "Velg din egen tast under Muffle-innstillinger, for eksempel en F-tast."
+      ],
+      "tips": [
+        "Snarveien til Muffle krever ingen tilgang til Tilgjengelighet.",
+        "Lås mikrofonnivået slik at Discords automatiske volumkontroll ikke endrer det hele tiden."
+      ],
+      "faq": [
+        {
+          "q": "Fungerer dette på samme måte som Discords push-to-talk?",
+          "a": "Det fungerer på samme måte, men for alle apper samtidig. Muffle demper selve mikrofonen, så Discord hører bare stillhet inntil du holder tasten inne."
+        },
+        {
+          "q": "Kan jeg dempe Discord med AirPods?",
+          "a": "Ja. Trykk på stilken under en samtale for å dempe eller slå på."
+        }
+      ]
+    },
+    {
+      "slug": "mute-webex-on-mac",
+      "title": "Slik demper du Webex fra enhver app på Mac",
+      "description": "Demp Webex-møter på Mac med én global snarvei eller AirPods, selv når Webex ikke er det aktive vinduet.",
+      "h1": "Slik demper du Webex fra enhver app på Mac",
+      "intro": [
+        "Tastatursnarveien i Webex fungerer bare når Webex er i forgrunnen, og kontrollene forsvinner når du deler skjerm.",
+        "Muffle demper mikrofonen din uansett hvor du er på Mac-en, slik at du kan dempe et Webex-møte uten å forlate det du holder på med."
+      ],
+      "steps_title": "Demp Webex fra hvor som helst",
+      "steps": [
+        "Installer Muffle og gi mikrofontilgang.",
+        "Bli med i Webex-møtet ditt.",
+        "Trykk Kontroll-Tilvalg-M eller på stilken på AirPods-ene for å dempe.",
+        "Bruk den flytende minikontrolleren til å se mikrofonstatusen mens du deler skjerm."
+      ],
+      "tips": [
+        "Webex viser kanskje fortsatt at du ikke er dempet. Deltakerne hører bare stillhet når Muffle-ikonet er rødt.",
+        "Slå på «Start hver samtale dempet» for store videomøter."
+      ],
+      "faq": [
+        {
+          "q": "Fungerer Muffle med Webex i nettleseren?",
+          "a": "Ja. Den demper mikrofonen, så den fungerer med alle Webex-klienter."
+        },
+        {
+          "q": "Kan jeg dempe Webex med AirPods?",
+          "a": "Ja, trykk på stilken under møtet. Tastatursnarveien fungerer med alle hodetelefoner."
+        }
+      ]
+    },
+    {
+      "slug": "mute-browser-calls",
+      "title": "Demp samtaler i Chrome, Safari og Arc på Mac",
+      "description": "Demp samtaler i Chrome, Safari og Edge med AirPods eller en snarvei. Fungerer for Google Meet, SoWork, Gather, Whereby og mer.",
+      "h1": "Slik demper du samtaler i enhver nettleserfane på Mac",
+      "intro": [
+        "Stadig flere samtaler foregår i nettleseren: Google Meet, Teams på nett, virtuelle kontorer som SoWork og Gather, Whereby og Jitsi. Alle har sin egen dempeknapp og snarvei, og de fungerer bare når fanen er i forgrunnen.",
+        "Nettlesere ignorerer også dempetrykket på AirPods på Mac. Muffle fanger opp trykket, eller en global snarvei, og demper mikrofonen for alle faner samtidig."
+      ],
+      "steps_title": "Demp enhver samtale på nett",
+      "steps": [
+        "Installer Muffle og gi mikrofontilgang.",
+        "Åpne samtalen din i en hvilken som helst nettleserfane.",
+        "Trykk på stilken på AirPods-ene eller Kontroll-Tilvalg-M for å dempe, fra enhver app eller fane.",
+        "Følg med på ikonet i menylinjen: rødt betyr at mikrofonen er slått av."
+      ],
+      "tips": [
+        "Virtuelle kontorer holder mikrofonen åpen i timevis på hjemmekontor. Slå på den flytende minikontrolleren for alltid å se statusen din.",
+        "Påminnelsen «Du er dempet» varsler deg hvis du begynner å snakke mens du er dempet."
+      ],
+      "faq": [
+        {
+          "q": "Hvorfor fungerer ikke trykk på AirPods i Chrome?",
+          "a": "Chrome støtter ikke macOS-bevegelsen for å dempe AirPods på nettsider. Muffle fanger opp trykket i stedet og demper selve mikrofonen."
+        },
+        {
+          "q": "Fungerer det i SoWork og Gather?",
+          "a": "Ja. Alle nettsteder som bruker mikrofonen din, blir dempet når Muffle slår av mikrofonen."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-mute-not-working-on-mac",
+      "title": "Fungerer ikke AirPods-demping på Mac? Slik fikser du det",
+      "description": "Hører du en feillyd når du trykker på AirPods i en samtale? Se hvorfor det skjer på Mac, og hvordan du demper alle apper med AirPods.",
+      "h1": "Fungerer ikke AirPods-demping på Mac? Her er løsningen",
+      "intro": [
+        "macOS lar deg dempe en samtale ved å trykke på stilken på AirPods-ene, men bare hvis samtaleappen støtter det. Mange gjør ikke det, inkludert Chrome og nettmøter i nettleseren. Du trykker, hører en kort feillyd, ser meldingen «Kan ikke kontrollere mikrofon», og de andre i samtalen hører deg fortsatt.",
+        "Muffle legger til støtte for alle apper. Appen fanger opp trykket, demper mikrofonen på Mac-en og spiller av den vanlige dempelyden."
+      ],
+      "steps_title": "Få trykket på AirPods til å dempe alle apper",
+      "steps": [
+        "Installer Muffle og gi mikrofontilgang. macOS sender bare trykk på AirPods videre til apper som kan bruke mikrofonen.",
+        "Kontroller at «Demp og slå på med et trykk på AirPods-ene» er slått på under Muffle-innstillinger.",
+        "Bli med i en samtale. Trykket demper bare når en app faktisk bruker mikrofonen.",
+        "Trykk én gang på stilken for å dempe, og trykk igjen for å slå på."
+      ],
+      "tips": [
+        "Utenom samtaler fungerer trykket som vanlig for å spille av og sette musikk på pause.",
+        "Hvis AirPods-ene dine bruker et annet trykk for samtalekontroller, kan du sjekke AirPods-innstillingene under Systeminnstillinger."
+      ],
+      "faq": [
+        {
+          "q": "Hvorfor spiller Mac-en min en feillyd når jeg trykker på AirPods-ene?",
+          "a": "Appen du ringer fra støtter ikke dempetrykket på AirPods, så macOS avviser det. Når Muffle kjører, demper trykket mikrofonen i stedet."
+        },
+        {
+          "q": "Hvilke AirPods støtter trykk for å dempe?",
+          "a": "AirPods Pro, AirPods 3 og nyere samt AirPods Max, i tillegg til Beats-modeller med samtalekontroller."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-keyboard-shortcut-mac",
+      "title": "Demp mikrofonen på Mac med en snarvei",
+      "description": "Sett opp én global snarvei for å dempe mikrofonen på Mac i alle apper. Ingen tilgang til Tilgjengelighet kreves.",
+      "h1": "Slik demper du mikrofonen på Mac med en snarvei",
+      "intro": [
+        "macOS har en tast for diktering, men ingen for å dempe mikrofonen. Hver samtaleapp har sin egen snarvei, og den fungerer bare når appen er i forgrunnen.",
+        "Muffle legger til én snarvei som demper selve mikrofonen i alle apper samtidig. Standarden er Control-Tilvalg-M, og du kan velge hvilken tastekombinasjon du vil."
+      ],
+      "steps_title": "Demp med én snarvei",
+      "steps": [
+        "Installer Muffle.",
+        "Trykk på Control-Tilvalg-M for å dempe. Ikonet i menylinjen blir rødt, og en liten bekreftelse med «Dempet» vises.",
+        "Trykk igjen for å slå mikrofonen på.",
+        "Hvis du vil endre den, åpner du Muffle-innstillinger, klikker på snarveien og trykker inn en ny."
+      ],
+      "tips": [
+        "Hold snarveien inne mens du er dempet for å snakke, og slipp for å dempe igjen.",
+        "Høyreklikk på Muffle-ikonet i menylinjen for å dempe umiddelbart med musen."
+      ],
+      "faq": [
+        {
+          "q": "Fungerer snarveien når en samtaleapp ikke er i forgrunnen?",
+          "a": "Ja. Den fungerer fra alle apper, også i fullskjermvisning."
+        },
+        {
+          "q": "Kan jeg bruke en enkelt tast, som F5?",
+          "a": "Ja. Funksjonstaster fungerer alene. Andre taster krever Control, Tilvalg eller Kommando."
+        }
+      ]
+    },
+    {
+      "slug": "push-to-talk-on-mac",
+      "title": "Push to talk på Mac for alle apper og videomøter",
+      "description": "Bruk push to talk på Mac i Zoom, Google Meet, Teams og Discord. Hold inne én tast for å snakke, og slipp for å dempe.",
+      "h1": "Push to talk på Mac, i alle apper",
+      "intro": [
+        "Push to talk holder deg dempet til du holder inne en tast. Det er den enkleste måten å være stille på i store møter eller støyende rom. Likevel har bare noen få apper denne funksjonen, og hver app bruker en ulik tast.",
+        "Muffle gir deg push to talk i alle apper på Mac-en din. Forbli dempet, hold inne snarveien for å snakke, og slipp for å dempe igjen."
+      ],
+      "steps_title": "Bruk push to talk",
+      "steps": [
+        "Installer Muffle.",
+        "Demp med Control-Tilvalg-M eller AirPods-ene dine.",
+        "Hold inne Control-Tilvalg-M mens du snakker.",
+        "Slipp tasten. Du er dempet igjen."
+      ],
+      "tips": [
+        "Et raskt trykk på snarveien demper eller slår på mikrofonen som før. Å holde den inne fungerer som push to talk.",
+        "Velg en tast som er behagelig å nå i Muffle-innstillinger, for eksempel en F-tast."
+      ],
+      "faq": [
+        {
+          "q": "Fungerer push to talk i Google Meet?",
+          "a": "Ja. Muffle demper selve mikrofonen, så push to talk fungerer i Google Meet, Zoom, Teams, Discord og alle andre apper."
+        },
+        {
+          "q": "Finnes det push to mute?",
+          "a": "Ja. Når mikrofonen er på, vil du dempes så lenge du holder snarveien inne, helt til du slipper."
+        }
+      ]
+    },
+    {
+      "slug": "stop-apps-changing-mic-volume",
+      "title": "Stopp apper fra å endre mikrofonvolum på Mac",
+      "description": "Google Meet, Chrome, Zoom og Teams endrer ofte mikrofonnivået på Mac. Lås mikrofonvolumet slik at ingen apper kan endre det.",
+      "h1": "Slik hindrer du at apper endrer mikrofonvolumet på Mac",
+      "intro": [
+        "Mange samtaleapper justerer inndatanivået ditt automatisk. Du stiller inn et passende nivå i Systeminnstillinger, blir med i en samtale i Google Meet, og noen minutter senere har glidebryteren flyttet seg slik at andre hører deg for lavt eller forvrengt.",
+        "Muffle kan låse mikrofonnivået ditt. Hvis en app endrer det, setter Muffle det umiddelbart tilbake."
+      ],
+      "steps_title": "Lås mikrofonnivået",
+      "steps": [
+        "Installer Muffle.",
+        "Klikk på Muffle-ikonet i menylinjen og still inn nivået med mikrofonbryteren.",
+        "Klikk på låsen ved siden av glidebryteren.",
+        "Bli med i samtalene dine. Nivået holder seg akkurat der du satte det."
+      ],
+      "tips": [
+        "Muffle varsler deg i panelet hvis nivået ditt er for lavt under en samtale.",
+        "Låsen husker nivået for hver enkelt mikrofon, slik at AirPods og den innebygde mikrofonen på Mac-en beholder hvert sitt nivå."
+      ],
+      "faq": [
+        {
+          "q": "Hvorfor endrer mikrofonvolumet på Mac-en seg hele tiden?",
+          "a": "Apper som Chrome, Zoom og Teams justerer volumet automatisk og endrer inndatanivået i systemet mens du snakker."
+        },
+        {
+          "q": "Kan jeg fortsatt endre nivået selv?",
+          "a": "Ja. Bruk glidebryteren i Muffle-panelet, så oppdateres det låste nivået."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-on-mac",
+      "title": "Demp mikrofon på Mac: 4 måter som fungerer",
+      "description": "Fire måter å dempe mikrofonen på Mac: i samtaleappen, i Systeminnstillinger, med en global snarvei og med AirPods.",
+      "h1": "Slik demper du mikrofonen på en Mac",
+      "intro": [
+        "Det finnes ingen egen tast for å dempe mikrofonen på en Mac. Avhengig av situasjonen og appen du bruker, har du noen alternativer, men bare enkelte av dem fungerer overalt."
+      ],
+      "steps_title": "Alternativene dine",
+      "steps": [
+        "Samtaleappens egen knapp eller snarvei. Den fungerer bare i den aktuelle appen, og bare når appen er i forgrunnen.",
+        "Systeminnstillinger, Lyd, Inndata. Å dra inndatanivået til null er ikke en ekte demping på alle mikrofoner, og apper kan skru det opp igjen.",
+        "En global snarvei med Muffle. Én tast demper selve mikrofonen i alle apper.",
+        "AirPods-ene dine. Med Muffle kan du trykke på stilken for å dempe enhver samtale, inkludert Google Meet i Chrome."
+      ],
+      "tips": [
+        "Muffle-ikonet i menylinjen blir rødt når mikrofonen er slått av, uansett hvilken app du er i.",
+        "Hvis du avslutter Muffle, slås mikrofonen alltid på igjen."
+      ],
+      "faq": [
+        {
+          "q": "Finnes det en innebygd måte å dempe mikrofonen på på Mac?",
+          "a": "Ikke for hele systemet. macOS demper bare mikrofonen i apper som støtter det. Muffle legger til en ekte demping for hele systemet."
+        },
+        {
+          "q": "Demper Muffle mikrofonen i alle apper?",
+          "a": "Ja. Muffle slår av alle mikrofoner på maskinvarenivå, slik at ingen apper kan høre deg før du slår den på igjen."
+        }
+      ]
+    },
+    {
+      "slug": "youre-muted-reminder",
+      "title": "Få en «Du er dempet»-påminnelse i alle apper på Mac",
+      "description": "Snakker du mens du er dempet? Muffle oppdager det og viser en «Du er dempet»-påminnelse i Google Meet, Zoom, Teams, Slack og andre apper på Mac.",
+      "h1": "En «Du er dempet»-påminnelse for alle samtaleapper",
+      "intro": [
+        "Zoom varsler deg når du snakker mens du er dempet. De fleste andre apper gjør ikke det, og videomøter i nettleseren gjør det nesten aldri. Du forklarer noe i et minutt, og så oppdager du at alle sitter og venter.",
+        "Muffle følger med på tale mens du er dempet og viser en påminnelse, i alle apper. Når samtalen bruker AirPods eller hodetelefoner, lytter den til Mac-ens egen mikrofon, og bare til lydnivået. Ingenting blir tatt opp."
+      ],
+      "steps_title": "Slå på påminnelsen",
+      "steps": [
+        "Installer Muffle og gi mikrofontilgang.",
+        "Pass på at «Minn meg på det når jeg snakker mens jeg er dempet» er slått på i Muffle-innstillinger.",
+        "Bli med i en samtale med AirPods eller hodetelefoner, og demp.",
+        "Begynn å snakke. En «Du er dempet»-påminnelse dukker opp."
+      ],
+      "tips": [
+        "Går du inn i en samtale mens du fortsatt er dempet fra forrige møte? Muffle minner deg på det når samtalen starter.",
+        "Tasting på tastaturet utløser ikke påminnelsen. Bare tydelig tale gjør det."
+      ],
+      "faq": [
+        {
+          "q": "Fungerer påminnelsen med den innebygde mikrofonen på Mac-en?",
+          "a": "Den fungerer når samtalen bruker AirPods eller hodetelefoner. Hvis samtalen bruker Mac-ens egen mikrofon, er den mikrofonen dempet og kan ikke høre deg."
+        },
+        {
+          "q": "Blir lyden min tatt opp?",
+          "a": "Nei. Muffle måler bare lydnivået og lagrer eller sender aldri noe lyd."
+        }
+      ]
+    }
+  ],
+  "support": {
+    "title": "Muffle kundestøtte",
+    "description": "Hjelp med Muffle for Mac: oppsett av trykk på AirPods, tastatursnarvei, kjøp og mer.",
+    "h1": "Kundestøtte",
+    "sections": [
+      {
+        "h": "Kom i gang",
+        "items": [
+          "Muffle bor i menylinjen din. Klikk på mikrofonikonet for kontroller, eller høyreklikk på det for å dempe umiddelbart.",
+          "Trykk på stilken under en samtale for å dempe, og trykk igjen for å slå på.",
+          "Standardsnarveien er Control-Tilvalg-M. Trykk for å dempe eller slå på. Mens den er dempet, kan du holde inne for å snakke og slippe for å dempe igjen."
+        ]
+      },
+      {
+        "h": "Trykk på AirPods demper ikke",
+        "items": [
+          "Det fungerer bare under en samtale, mens en app bruker mikrofonen din.",
+          "Gi mikrofontilgang til Muffle i Systeminnstillinger > Personvern og sikkerhet > Mikrofon.",
+          "Sjekk at «Demp og slå på med et trykk på AirPods-ene» er slått på i Muffle-innstillinger.",
+          "AirPods-ene dine må støtte samtalekontroller: AirPods Pro, AirPods 3 og nyere eller AirPods Max."
+        ]
+      },
+      {
+        "h": "Samtaleappen viser fortsatt at mikrofonen er på",
+        "items": [
+          "Dette er forventet. Muffle slår av selve mikrofonen, så alle apper mottar stillhet selv om de tror mikrofonen er på. Stol på Muffle-ikonet i menylinjen: rødt betyr at ingen kan høre deg."
+        ]
+      },
+      {
+        "h": "Kjøp",
+        "items": [
+          "Muffle er gratis å prøve i 3 dager. Deretter låser du den opp med et engangskjøp. Det er ikke noe abonnement.",
+          "For å gjenopprette et kjøp på en annen Mac åpner du Muffle-innstillinger og velger «Gjenopprett kjøp»."
+        ]
+      }
+    ],
+    "contact_title": "Kontakt",
+    "contact_text": "Send e-post til oss på"
+  },
+  "privacy_page": {
+    "title": "Muffle personvernerklæring",
+    "description": "Muffle tar aldri opp, lagrer eller sender lyd, og samler ikke inn data. Les hvordan Muffle bruker mikrofonen din.",
+    "h1": "Personvernerklæring",
+    "updated": "Sist oppdatert 29. september 2026.",
+    "intro": "Muffle demper mikrofonen på Mac-en din. Appen er bygget slik at ingenting du sier noensinne forlater Mac-en.",
+    "sections": [
+      {
+        "h": "Hva Muffle gjør med mikrofonen din",
+        "p": [
+          "Under samtaler holder Muffle en stille forbindelse til mikrofonen din. macOS sender bare trykk på AirPods videre til apper som bruker mikrofonen, så denne forbindelsen er det som gjør at AirPods-trykket fungerer.",
+          "Hvis du slår på påminnelsen for å snakke mens du er dempet, måler Muffle også lydstyrken på den innebygde mikrofonen i Mac-en mens du er dempet, for å oppdage at du begynte å snakke.",
+          "Muffle ser bare på tall for lydstyrke. Appen tar aldri opp, lagrer, transkriberer eller sender lyd."
+        ]
+      },
+      {
+        "h": "Data vi samler inn",
+        "p": [
+          "Ingen. Muffle har ingen brukerkontoer, ingen analyser, ingen reklame og ingen sporing. Appen kontakter aldri noen servere hos oss."
+        ]
+      },
+      {
+        "h": "Kjøp",
+        "p": [
+          "Den gratis prøveperioden og engangskjøpet går gjennom Apples App Store. Apple håndterer betalingsopplysninger; vi ser dem aldri. Apples personvernerklæring gjelder for disse kjøpene."
+        ]
+      },
+      {
+        "h": "Innstillinger lagret på Mac-en din",
+        "p": [
+          "Innstillingene dine, som tastatursnarveien din, blir værende på Mac-en din i Muffles eget lagringsområde. Sletter du Muffle, slettes også disse."
+        ]
+      }
+    ],
+    "contact": "Spørsmål om personvern:"
+  }
+}

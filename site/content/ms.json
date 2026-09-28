@@ -1,0 +1,643 @@
+{
+  "meta": {
+    "home_title": "Muffle: Redam Mik Mac dengan AirPods atau Pintasan",
+    "home_description": "Redam mikrofon anda dalam Google Meet, Zoom, Teams, Slack, Discord dan setiap aplikasi pada Mac. Tekan AirPods atau guna pintasan. Percuma 3 hari.",
+    "og_title": "Redam mikrofon Mac anda dari mana-mana sahaja.",
+    "og_subtitle": "Tekan AirPods anda atau guna satu pintasan. Berfungsi dalam semua aplikasi."
+  },
+  "nav": {
+    "features": "Ciri",
+    "guides": "Panduan",
+    "support": "Sokongan",
+    "download": "Dapatkan Muffle",
+    "home": "Utama",
+    "menu": "Menu"
+  },
+  "cta": {
+    "download": "Muat Turun di Mac App Store",
+    "coming_soon": "Akan datang ke Mac App Store",
+    "trial": "Percuma selama 3 hari. Kemudian bayar sekali, tiada langganan.",
+    "requirements": "Untuk macOS 14 Sonoma dan lebih baharu."
+  },
+  "hero": {
+    "title": "Redam mikrofon Mac anda dari mana-mana sahaja.",
+    "subtitle": "Tekan AirPods anda atau gunakan satu pintasan papan kekunci. Muffle mematikan mikrofon itu sendiri, jadi Google Meet, Zoom, Teams, Slack dan semua aplikasi lain hanya mendengar kesenyapan.",
+    "image_alt": "Panel Muffle di bar menu Mac semasa panggilan Google Meet dalam Chrome"
+  },
+  "works_with": {
+    "title": "Berfungsi dengan semua aplikasi yang menggunakan mikrofon anda",
+    "apps": [
+      "Google Meet",
+      "Zoom",
+      "Microsoft Teams",
+      "Slack",
+      "Discord",
+      "FaceTime",
+      "Webex",
+      "WhatsApp",
+      "Skype",
+      "SoWork",
+      "Gather",
+      "Chrome",
+      "Safari",
+      "Arc",
+      "Edge",
+      "Firefox"
+    ],
+    "note": "Muffle meredam mikrofon pada peringkat perkakasan, jadi tidak kira aplikasi, pelayar atau tab mana yang sedang menggunakannya."
+  },
+  "features": {
+    "title": "Semua yang sepatutnya Mac anda lakukan dalam panggilan",
+    "items": [
+      {
+        "title": "Tekan AirPods anda untuk meredam",
+        "text": "Semasa sebarang panggilan, tekan tangkai sekali untuk meredam dan sekali lagi untuk nyahredam. Ia juga berfungsi dalam Chrome, di mana Google Meet dan panggilan web lain mengabaikan tekanan AirPods."
+      },
+      {
+        "title": "Satu pintasan untuk setiap aplikasi",
+        "text": "Control-Option-M meredam anda di mana-mana, walaupun panggilan berada dalam tab latar belakang. Tahan untuk bercakap semasa diredam, lepaskan untuk meredam semula."
+      },
+      {
+        "title": "Peringatan “Anda diredam”",
+        "text": "Mula bercakap semasa diredam dan Muffle akan memberitahu anda, sebelum anda menerangkan seluruh idea anda tanpa didengari sesiapa."
+      },
+      {
+        "title": "Panggilan secara automatik",
+        "text": "Mulakan setiap panggilan dalam keadaan diredam, aktifkan semula mik apabila panggilan tamat, dan redam setiap kali anda mengunci Mac anda."
+      },
+      {
+        "title": "Sentiasa tahu jika anda aktif",
+        "text": "Butang terapung kecil menunjukkan status mik anda semasa panggilan. Klik untuk meredam atau nyahredam."
+      },
+      {
+        "title": "Tahap mik anda kekal tidak berubah",
+        "text": "Chrome, Zoom dan Teams menukar tahap mik anda secara automatik. Kuncikannya dan Muffle akan mengembalikannya."
+      },
+      {
+        "title": "Selamat apabila AirPods anda terputus",
+        "text": "Jika fon kepala anda terputus sambungan semasa panggilan, Muffle akan meredam sebelum panggilan bertukar kepada mik Mac anda dan menyiarkan seluruh bilik."
+      },
+      {
+        "title": "Pintasan dan Pusat Kawalan",
+        "text": "Redam daripada app Pintasan, Siri, Stream Deck, Raycast, atau butang dalam Pusat Kawalan."
+      }
+    ],
+    "image_reminder_alt": "Peringatan “Anda diredam” di bahagian bawah skrin",
+    "image_pills_alt": "Pengawal mini terapung dalam keadaan diredam dan aktif",
+    "image_automation_alt": "Tetapan Muffle untuk memulakan panggilan dalam keadaan diredam dan automasi panggilan lain"
+  },
+  "how": {
+    "title": "Sediakan dalam masa seminit",
+    "steps": [
+      "Pasang Muffle daripada Mac App Store dan benarkan akses mikrofon.",
+      "Sertai panggilan dalam mana-mana aplikasi, seperti biasa.",
+      "Tekan AirPods anda, tekan Control-Option-M, atau klik ikon bar menu untuk meredam."
+    ]
+  },
+  "privacy": {
+    "title": "Peribadi mengikut reka bentuk",
+    "text": "Muffle tidak pernah merakam, menyimpan atau menghantar audio. Ia hanya menghidupkan dan mematikan mikrofon anda serta membaca kelantangannya. Tiada akaun, tiada analitik, tiada penjejakan."
+  },
+  "faq": {
+    "title": "Soalan lazim",
+    "items": [
+      {
+        "q": "Adakah Muffle berfungsi dengan Google Meet dalam Chrome?",
+        "a": "Ya. Chrome tidak menghantar tekanan redam AirPods kepada panggilan web, jadi Muffle menerimanya dan meredam mikrofon itu sendiri. Hal yang sama berlaku untuk sebarang panggilan dalam tab pelayar."
+      },
+      {
+        "q": "Adakah orang lain akan melihat saya diredam?",
+        "a": "Aplikasi panggilan anda mungkin masih menunjukkan mik anda aktif, kerana Muffle mematikan mikrofon perkakasan dan bukannya butang aplikasi. Orang lain tetap mendengar kesenyapan. Ikon Muffle di bar menu bertukar menjadi merah semasa anda diredam."
+      },
+      {
+        "q": "Model AirPods manakah yang berfungsi?",
+        "a": "AirPods Pro, AirPods 3 dan lebih baharu, serta AirPods Max, bersama model Beats yang menyokong kawalan panggilan. Pintasan papan kekunci dan bar menu berfungsi dengan mana-mana mikrofon."
+      },
+      {
+        "q": "Adakah ia berfungsi dengan Zoom, Teams, Slack dan Discord?",
+        "a": "Ya. Muffle berfungsi dengan setiap aplikasi pada Mac anda yang menggunakan mikrofon, sama ada aplikasi desktop mahupun panggilan pelayar."
+      },
+      {
+        "q": "Adakah terdapat langganan?",
+        "a": "Tidak. Cuba semua ciri secara percuma selama 3 hari, kemudian buka kunci Muffle dengan sekali pembelian."
+      },
+      {
+        "q": "Mengapakah Muffle memerlukan akses mikrofon?",
+        "a": "macOS hanya menghantar tekanan AirPods kepada aplikasi yang boleh menggunakan mikrofon, jadi Muffle mengekalkan sambungan senyap terbuka semasa panggilan. Tiada apa yang dirakam."
+      },
+      {
+        "q": "Apakah yang berlaku jika saya keluar daripada Muffle semasa diredam?",
+        "a": "Muffle mengaktifkan semula mikrofon anda apabila ia ditutup, jadi anda tidak akan terperangkap dalam keadaan senyap."
+      },
+      {
+        "q": "Versi macOS manakah yang disokong?",
+        "a": "macOS 14 Sonoma dan lebih baharu. Butang Pusat Kawalan memerlukan macOS 26 atau lebih baharu."
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Berhenti tercari-cari butang redam.",
+    "text": "Muffle percuma untuk dicuba selama 3 hari."
+  },
+  "footer": {
+    "guides": "Panduan",
+    "product": "Muffle",
+    "support": "Sokongan",
+    "privacy": "Dasar Privasi",
+    "language": "Bahasa",
+    "contact": "Hubungi",
+    "copyright": "© 2026 Muffle. AirPods dan Mac ialah tanda dagangan Apple Inc."
+  },
+  "guides_index": {
+    "title": "Panduan Muffle: Redam Meet, Zoom, Teams di Mac",
+    "description": "Panduan langkah demi langkah untuk meredam Google Meet, Zoom, Teams, Slack dan panggilan web pada Mac dengan AirPods atau pintasan papan kekunci.",
+    "h1": "Panduan",
+    "intro": "Jawapan ringkas dan praktikal untuk meredam mikrofon anda pada Mac, dalam setiap aplikasi."
+  },
+  "guide_labels": {
+    "on_this_page": "Pada halaman ini",
+    "faq": "Soalan lazim",
+    "related": "Lagi panduan",
+    "try": "Cuba Muffle percuma selama 3 hari",
+    "read": "Baca panduan"
+  },
+  "guides": [
+    {
+      "slug": "mute-google-meet-with-airpods",
+      "title": "Cara Redam Google Meet Guna AirPods di Mac",
+      "description": "Tekanan AirPods tidak meredam Google Meet dalam Chrome di Mac. Ini cara redam Meet guna AirPods, pintasan atau bar menu dalam mana-mana tab.",
+      "h1": "Cara redam Google Meet guna AirPods di Mac",
+      "intro": [
+        "Pada iPhone, menekan tangkai AirPods anda meredam panggilan. Pada Mac, Google Meet berjalan dalam Chrome, dan Chrome tidak menghantar tekanan itu ke halaman web. Anda menekan, mendengar nada ralat, dan Meet terus menghantar suara anda.",
+        "Muffle membetulkan perkara ini untuk setiap panggilan Meet. Ia menerima tekanan AirPods itu sendiri dan meredam mikrofon Mac anda, jadi Meet mendengar kesenyapan walaupun tab berada di latar belakang."
+      ],
+      "steps_title": "Redam Google Meet dengan AirPods anda",
+      "steps": [
+        "Pasang Muffle dan benarkan akses mikrofon apabila diminta.",
+        "Sertai panggilan Google Meet anda dalam Chrome, Safari, Arc atau Edge.",
+        "Tekan tangkai AirPods sekali untuk meredam. Ikon Muffle bertukar merah.",
+        "Tekan sekali lagi untuk nyahredam. Anda juga boleh menekan Control-Option-M dari mana-mana aplikasi."
+      ],
+      "tips": [
+        "Meet mungkin masih menunjukkan mik anda aktif, kerana Muffle meredam mikrofon dan bukannya butang Meet. Semua orang mendengar kesenyapan semasa ikon Muffle berwarna merah.",
+        "Aktifkan “Mulakan setiap panggilan dalam keadaan diredam” untuk menyertai setiap panggilan Meet dalam keadaan diredam."
+      ],
+      "faq": [
+        {
+          "q": "Mengapakah tekanan AirPods saya tidak meredam Google Meet?",
+          "a": "Chrome tidak menyokong gerak isyarat redam AirPods macOS untuk panggilan web, jadi macOS tiada aplikasi untuk menerima tekanan tersebut. Muffle menjadi aplikasi tersebut."
+        },
+        {
+          "q": "Tidakkah pintasan Meet sendiri sudah mencukupi?",
+          "a": "Pintasan Command-D Meet hanya berfungsi semasa tab Meet berada di hadapan. Pintasan Muffle dan tekanan AirPods berfungsi dari mana-mana aplikasi."
+        }
+      ]
+    },
+    {
+      "slug": "mute-zoom-with-airpods",
+      "title": "Cara Redam Zoom Guna AirPods atau Pintasan di Mac",
+      "description": "Redam Zoom di Mac dengan tekanan AirPods atau satu pintasan global, walaupun Zoom bukan tetingkap aktif. Berfungsi dalam aplikasi Zoom dan pelayar.",
+      "h1": "Cara redam Zoom guna AirPods atau pintasan di Mac",
+      "intro": [
+        "Pintasan Zoom sendiri, Command-Shift-A, hanya berfungsi semasa Zoom ialah aplikasi di hadapan. Apabila anda sedang mencatat nota atau berkongsi tetingkap lain, mencari butang redam mengambil masa beberapa saat yang janggal.",
+        "Muffle memberikan anda satu kawalan redam untuk Zoom dan setiap aplikasi lain: AirPods anda, pintasan global, atau bar menu. Ia meredam mikrofon itu sendiri, jadi ia berfungsi dalam aplikasi Zoom dan dalam panggilan Zoom pada pelayar."
+      ],
+      "steps_title": "Redam Zoom dari mana-mana sahaja",
+      "steps": [
+        "Pasang Muffle dan benarkan akses mikrofon.",
+        "Sertai mesyuarat Zoom anda seperti biasa.",
+        "Tekan tangkai AirPods anda atau Control-Option-M untuk meredam, dari mana-mana aplikasi.",
+        "Tahan Control-Option-M semasa diredam untuk bercakap, dan lepaskan untuk meredam semula."
+      ],
+      "tips": [
+        "Jika Zoom menerima tekanan AirPods itu sendiri pada Mac anda, pintasan dan bar menu masih boleh meredam anda melalui Muffle.",
+        "Zoom mungkin menunjukkan anda sebagai dinyahredam semasa Muffle mematikan mik. Peserta mendengar kesenyapan."
+      ],
+      "faq": [
+        {
+          "q": "Adakah Muffle menggantikan butang redam Zoom?",
+          "a": "Ia berfungsi seiring dengannya. Muffle mematikan mikrofon untuk setiap aplikasi, jadi anda boleh meredam Zoom tanpa perlu beralih kepadanya."
+        },
+        {
+          "q": "Bolehkah saya menggunakan push to talk dalam Zoom?",
+          "a": "Boleh. Semasa diredam, tahan pintasan Muffle untuk bercakap. Ini berfungsi dalam Zoom dan dalam setiap aplikasi lain."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microsoft-teams-with-airpods",
+      "title": "Cara Redam Microsoft Teams Guna AirPods di Mac",
+      "description": "Redam Microsoft Teams di Mac dengan AirPods, pintasan global atau bar menu. Berfungsi dalam aplikasi Teams dan Teams pada pelayar web.",
+      "h1": "Cara redam Microsoft Teams guna AirPods di Mac",
+      "intro": [
+        "Pintasan Teams, Command-Shift-M, hanya berfungsi apabila tetingkap Teams aktif. Dalam mesyuarat anda biasanya berada di tempat lain: dokumen, pelayar, skrin yang dikongsi.",
+        "Muffle meredam mikrofon anda dari mana-mana sahaja, dalam aplikasi Teams dan Teams pada web. Tekan AirPods anda, tekan satu pintasan, atau klik bar menu."
+      ],
+      "steps_title": "Redam Teams dari mana-mana sahaja",
+      "steps": [
+        "Pasang Muffle dan benarkan akses mikrofon.",
+        "Sertai mesyuarat Teams anda.",
+        "Tekan Control-Option-M atau tangkai AirPods anda untuk meredam. Ikon bar menu bertukar merah.",
+        "Tekan sekali lagi untuk nyahredam, atau tahan pintasan untuk bercakap semasa diredam."
+      ],
+      "tips": [
+        "Teams dalam tab pelayar mendapat sokongan AirPods yang sama seperti Google Meet melalui Muffle.",
+        "Aktifkan “Redam apabila skrin dikunci” supaya apabila anda beredar, mik anda tidak dibiarkan aktif."
+      ],
+      "faq": [
+        {
+          "q": "Adakah tekanan AirPods berfungsi dalam aplikasi Teams?",
+          "a": "Ia bergantung pada versi Teams anda, kerana Teams boleh menerima tekanan itu sendiri. Pintasan dan butang bar menu Muffle berfungsi dalam setiap keadaan."
+        },
+        {
+          "q": "Adakah Teams akan menunjukkan saya sebagai diredam?",
+          "a": "Tidak semestinya. Muffle meredam mikrofon, jadi Teams mungkin masih menunjukkan mik aktif sedangkan semua orang mendengar kesenyapan."
+        }
+      ]
+    },
+    {
+      "slug": "mute-slack-huddles",
+      "title": "Cara Redam Slack Huddle Guna Pintasan di Mac",
+      "description": "Redam Slack huddle di Mac dari mana-mana aplikasi dengan satu pintasan global atau AirPods anda. Tidak perlu mencari tetingkap huddle.",
+      "h1": "Cara redam Slack huddle dari mana-mana aplikasi di Mac",
+      "intro": [
+        "Kawalan huddle Slack berada dalam tetingkap kecil yang mudah hilang di sebalik kerja anda, dan pintasan redamnya hanya berfungsi semasa Slack berada di hadapan.",
+        "Muffle meredam mikrofon anda untuk Slack dan setiap aplikasi lain dengan satu pintasan atau tekanan AirPods, di mana-mana sahaja anda berada pada Mac anda."
+      ],
+      "steps_title": "Redam huddle dari mana-mana sahaja",
+      "steps": [
+        "Pasang Muffle dan benarkan akses mikrofon.",
+        "Mulakan atau sertai huddle dalam Slack.",
+        "Tekan Control-Option-M atau tangkai AirPods anda untuk meredam.",
+        "Lihat bar menu sekilas pandang: merah bermakna tiada sesiapa mendengar anda."
+      ],
+      "tips": [
+        "Pengawal mini terapung menunjukkan status mik anda sepanjang setiap huddle.",
+        "Tahan pintasan untuk bercakap sesuatu dengan cepat sambil kekal diredam pada waktu lain."
+      ],
+      "faq": [
+        {
+          "q": "Adakah ia berfungsi dengan aplikasi Slack dan Slack dalam pelayar?",
+          "a": "Ya. Muffle meredam mikrofon itu sendiri, jadi ia berfungsi dalam kedua-duanya."
+        },
+        {
+          "q": "Adakah rakan sepasukan akan nampak saya diredam?",
+          "a": "Slack mungkin masih menunjukkan mik anda aktif. Mereka mendengar kesenyapan semasa Muffle meredam anda."
+        }
+      ]
+    },
+    {
+      "slug": "mute-discord-on-mac",
+      "title": "Push to Talk Discord & Pintasan Redam Mikrofon di Mac",
+      "description": "Gunakan satu pintasan redam dan push to talk untuk Discord di Mac, atau redam dengan AirPods. Berfungsi dalam aplikasi Discord dan pelayar web.",
+      "h1": "Push to talk dan pintasan redam sejagat untuk Discord di Mac",
+      "intro": [
+        "Fungsi push to talk Discord memerlukan kebenaran tambahan pada Mac dan tidak berfungsi untuk Discord dalam pelayar web. Jika anda turut menyertai panggilan Meet atau Zoom, anda terpaksa menggunakan kekunci redam yang berbeza bagi setiap aplikasi.",
+        "Muffle memberikan satu kekunci untuk kesemuanya. Ketik untuk meredam, tahan untuk bercakap, atau tekan AirPods anda."
+      ],
+      "steps_title": "Sediakan push to talk untuk Discord",
+      "steps": [
+        "Pasang Muffle dan benarkan akses mikrofon.",
+        "Sertai saluran suara Discord.",
+        "Ketik Control-Option-M untuk meredam atau nyahredam. Tahan semasa diredam untuk bercakap.",
+        "Pilih kekunci anda sendiri dalam Tetapan Muffle, contohnya kekunci F."
+      ],
+      "tips": [
+        "Pintasan Muffle tidak memerlukan kebenaran Kebolehcapaian.",
+        "Kunci tahap mik anda supaya gandaan automatik Discord tidak mengubahnya secara berterusan."
+      ],
+      "faq": [
+        {
+          "q": "Adakah ini sama seperti push to talk Discord?",
+          "a": "Ia berfungsi dengan cara yang sama, tetapi untuk semua aplikasi serentak. Muffle meredam mikrofon itu sendiri, jadi Discord hanya mendengar kesenyapan sehingga anda menahan kekunci."
+        },
+        {
+          "q": "Bolehkah saya meredam Discord dengan AirPods?",
+          "a": "Ya. Semasa panggilan suara, tekan tangkai AirPods untuk meredam atau nyahredam."
+        }
+      ]
+    },
+    {
+      "slug": "mute-webex-on-mac",
+      "title": "Cara Redam Webex daripada Mana-mana Aplikasi di Mac",
+      "description": "Redam mesyuarat Webex di Mac dengan satu pintasan sejagat atau AirPods anda, walaupun tetingkap Webex tidak aktif.",
+      "h1": "Cara meredam Webex daripada mana-mana aplikasi pada Mac",
+      "intro": [
+        "Pintasan redam Webex hanya berfungsi semasa tetingkap Webex berada di hadapan, dan kawalannya tersembunyi apabila anda berkongsi skrin.",
+        "Muffle meredam mikrofon anda dari mana-mana sahaja pada Mac, membolehkan anda meredam mesyuarat atau persidangan Webex tanpa meninggalkan tugasan yang sedang dibuat."
+      ],
+      "steps_title": "Redam Webex dari mana-mana sahaja",
+      "steps": [
+        "Pasang Muffle dan benarkan akses mikrofon.",
+        "Sertai mesyuarat Webex anda.",
+        "Tekan Control-Option-M atau tangkai AirPods anda untuk meredam.",
+        "Gunakan pengawal mini terapung untuk melihat status mik anda semasa berkongsi skrin."
+      ],
+      "tips": [
+        "Webex mungkin masih menunjukkan anda dinyahredam. Para peserta hanya mendengar kesenyapan selagi ikon Muffle berwarna merah.",
+        "Hidupkan “Mulakan setiap panggilan dalam keadaan diredam” untuk mesyuarat besar."
+      ],
+      "faq": [
+        {
+          "q": "Adakah Muffle berfungsi dengan Webex dalam pelayar web?",
+          "a": "Ya. Ia meredam mikrofon itu sendiri, jadi ia berfungsi dengan mana-mana klien Webex."
+        },
+        {
+          "q": "Bolehkah saya meredam Webex dengan AirPods?",
+          "a": "Ya, tekan tangkai fon kepala semasa mesyuarat. Pintasan papan kekunci berfungsi dengan sebarang set kepala."
+        }
+      ]
+    },
+    {
+      "slug": "mute-browser-calls",
+      "title": "Redam Panggilan Web dalam Chrome, Safari & Arc di Mac",
+      "description": "Redam panggilan dalam Chrome, Safari, Arc, Edge dan Firefox dengan AirPods atau satu pintasan. Sesuai untuk Google Meet, SoWork, Gather dan lain-lain.",
+      "h1": "Cara meredam panggilan dalam sebarang tab pelayar pada Mac",
+      "intro": [
+        "Semakin banyak panggilan dibuat dalam pelayar web: Google Meet, Teams di web, pejabat maya seperti SoWork dan Gather, Whereby, Jitsi. Setiap satunya mempunyai butang dan pintasan redam tersendiri, dan ia hanya berfungsi apabila tab tersebut berada di hadapan.",
+        "Pelayar web juga mengabaikan tindakan menekan AirPods untuk meredam pada Mac. Muffle menerima tekanan tersebut, atau satu pintasan sejagat, dan meredam mikrofon bagi semua tab serentak."
+      ],
+      "steps_title": "Redam sebarang panggilan web",
+      "steps": [
+        "Pasang Muffle dan benarkan akses mikrofon.",
+        "Buka panggilan anda dalam mana-mana tab pelayar.",
+        "Tekan tangkai AirPods anda atau Control-Option-M untuk meredam, daripada mana-mana aplikasi atau tab.",
+        "Perhatikan ikon bar menu: merah bermakna mik dimatikan."
+      ],
+      "tips": [
+        "Pejabat maya membiarkan mik anda terbuka berjam-jam. Hidupkan pengawal mini terapung untuk sentiasa melihat status anda.",
+        "Peringatan “Anda diredam” memberitahu anda apabila anda mula bercakap semasa diredam."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa tindakan menekan AirPods tidak berfungsi dalam Chrome?",
+          "a": "Chrome tidak menyokong gerak isyarat redam AirPods macOS untuk laman web. Muffle menerima tekanan tersebut dan meredam mik itu sendiri."
+        },
+        {
+          "q": "Adakah ia berfungsi dalam SoWork dan Gather?",
+          "a": "Ya. Mana-mana laman yang menggunakan mikrofon anda akan diredam apabila Muffle mematikan mik."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-mute-not-working-on-mac",
+      "title": "AirPods Gagal Redam di Mac? Baiki “Cannot Control Mic”",
+      "description": "Tekan tangkai AirPods tetapi keluar bunyi ralat dan gagal redam panggilan? Ketahui puncanya di Mac dan cara meredam mikrofon dalam mana-mana aplikasi.",
+      "h1": "Tekanan redam AirPods tidak berfungsi pada Mac? Ini penyelesaiannya",
+      "intro": [
+        "macOS membolehkan anda meredam panggilan dengan menekan tangkai AirPods, tetapi hanya jika aplikasi panggilan menyokongnya. Banyak yang tidak menyokong, termasuk Chrome dan panggilan web di dalamnya. Anda menekan, mendengar bunyi ralat pendek, melihat mesej “Cannot Control Mic”, dan panggilan masih mendengar suara anda.",
+        "Muffle menambah sokongan itu kepada semua aplikasi. Ia menerima tekanan tersebut, meredam mikrofon Mac anda dan memainkan bunyi redam biasa."
+      ],
+      "steps_title": "Jadikan tekanan AirPods meredam mana-mana aplikasi",
+      "steps": [
+        "Pasang Muffle dan benarkan akses mikrofon. macOS hanya menghantar tekanan kepada aplikasi yang boleh menggunakan mik.",
+        "Pastikan “Redam dan nyahredam dengan tekanan AirPods” dihidupkan dalam Tetapan Muffle.",
+        "Sertai panggilan. Tekanan hanya meredam semasa aplikasi sedang menggunakan mikrofon.",
+        "Tekan tangkai sekali untuk meredam dan tekan sekali lagi untuk nyahredam."
+      ],
+      "tips": [
+        "Di luar waktu panggilan, tekanan tersebut tetap memainkan dan menjeda muzik seperti biasa.",
+        "Jika AirPods anda menggunakan tekanan berbeza untuk kawalan panggilan, semak tetapan AirPods anda dalam Tetapan Sistem."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa Mac saya memainkan bunyi ralat apabila saya menekan AirPods?",
+          "a": "Aplikasi panggilan yang anda gunakan tidak menyokong tekanan redam AirPods, jadi macOS menolaknya. Dengan menjalankan Muffle, tekanan tersebut akan meredam mik anda."
+        },
+        {
+          "q": "Model AirPods manakah yang menyokong tekanan redam?",
+          "a": "AirPods Pro, AirPods 3 dan lebih baharu, serta AirPods Max, termasuk model Beats yang mempunyai kawalan panggilan."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-keyboard-shortcut-mac",
+      "title": "Redam Mikrofon Mac Anda dengan Pintasan Papan Kekunci",
+      "description": "Tetapkan satu pintasan papan kekunci untuk redam dan nyahredam mikrofon Mac dalam semua aplikasi. Tiada izin Kebolehcapaian diperlukan.",
+      "h1": "Cara meredam mikrofon pada Mac dengan pintasan papan kekunci",
+      "intro": [
+        "macOS mempunyai kekunci untuk imlak tetapi tiada untuk meredam mik anda. Setiap aplikasi panggilan mempunyai pintasan tersendiri, dan setiap satunya hanya berfungsi apabila aplikasi itu berada di hadapan.",
+        "Muffle menambah satu pintasan yang meredam mikrofon itu sendiri, dalam semua aplikasi sekali gus. Lalai ialah Kawalan-Pilihan-M, dan anda boleh memilih sebarang kombinasi."
+      ],
+      "steps_title": "Redam dengan satu pintasan",
+      "steps": [
+        "Pasang Muffle.",
+        "Tekan Kawalan-Pilihan-M untuk meredam. Ikon bar menu bertukar menjadi merah dan pengesahan kecil “Diredam” dipaparkan.",
+        "Tekan sekali lagi untuk nyahredam.",
+        "Untuk menukarnya, buka Tetapan Muffle, klik pintasan dan tekan pintasan baharu."
+      ],
+      "tips": [
+        "Tahan pintasan semasa diredam untuk bercakap, dan lepaskan untuk meredam semula.",
+        "Klik kanan ikon bar menu Muffle untuk terus meredam dengan tetikus."
+      ],
+      "faq": [
+        {
+          "q": "Adakah pintasan ini berfungsi apabila aplikasi panggilan tidak berada di hadapan?",
+          "a": "Ya. Ia berfungsi dari mana-mana aplikasi, termasuk aplikasi skrin penuh."
+        },
+        {
+          "q": "Bolehkah saya menggunakan satu kekunci sahaja, seperti F5?",
+          "a": "Ya. Kekunci fungsi berfungsi dengan sendirinya; kekunci lain memerlukan Kawalan, Pilihan atau Perintah."
+        }
+      ]
+    },
+    {
+      "slug": "push-to-talk-on-mac",
+      "title": "Push to Talk pada Mac untuk Semua Aplikasi Panggilan",
+      "description": "Gunakan push to talk pada Mac dalam Zoom, Google Meet, Teams, Discord dan aplikasi lain. Tahan satu kekunci untuk bercakap, lepas untuk redam.",
+      "h1": "Push to talk pada Mac, dalam setiap aplikasi",
+      "intro": [
+        "Push to talk memastikan anda kekal diredam sehingga anda menahan kekunci. Ini cara paling mudah untuk kekal senyap dalam mesyuarat besar atau bilik bising, tetapi hanya segelintir aplikasi menyokongnya, dan masing-masing menggunakan kekunci berbeza.",
+        "Muffle membawakan push to talk ke setiap aplikasi pada Mac anda. Kekal diredam, tahan pintasan untuk bercakap dan lepaskan untuk meredam semula."
+      ],
+      "steps_title": "Gunakan push to talk",
+      "steps": [
+        "Pasang Muffle.",
+        "Redam dengan Kawalan-Pilihan-M atau AirPods anda.",
+        "Tahan Kawalan-Pilihan-M semasa anda bercakap.",
+        "Lepaskan. Anda diredam semula."
+      ],
+      "tips": [
+        "Mengetik pintasan masih menogol redam. Menahannya ialah push to talk.",
+        "Pilih kekunci yang mudah dalam Tetapan Muffle, contohnya kekunci F."
+      ],
+      "faq": [
+        {
+          "q": "Adakah push to talk berfungsi dalam Google Meet?",
+          "a": "Ya. Muffle meredam mikrofon itu sendiri, jadi push to talk berfungsi dalam Meet, Zoom, Teams, Discord dan mana-mana aplikasi lain."
+        },
+        {
+          "q": "Adakah terdapat push to mute?",
+          "a": "Ya. Apabila anda dinyahredam, menahan pintasan akan meredam anda sehingga anda melepaskannya."
+        }
+      ]
+    },
+    {
+      "slug": "stop-apps-changing-mic-volume",
+      "title": "Halang Chrome & Zoom Ubah Volum Mikrofon pada Mac",
+      "description": "Google Meet, Chrome, Zoom dan Teams kerap mengubah tahap mikrofon Mac. Kunci volum mik anda supaya tiada aplikasi yang boleh mengubahnya.",
+      "h1": "Cara menghalang aplikasi mengubah volum mik pada Mac",
+      "intro": [
+        "Banyak aplikasi panggilan melaraskan tahap input sendiri menerusi ciri kawalan gandaan automatik. Anda telah menetapkan tahap yang baik dalam Tetapan Sistem, menyertai panggilan Google Meet, dan beberapa minit kemudian peluncur beralih lalu orang lain mendengar suara anda terlalu perlahan atau herot.",
+        "Muffle boleh mengunci tahap mik anda. Apabila mana-mana aplikasi mengubahnya, Muffle mengembalikannya serta-merta."
+      ],
+      "steps_title": "Kunci tahap mik anda",
+      "steps": [
+        "Pasang Muffle.",
+        "Klik ikon Muffle di bar menu dan tetapkan tahap anda dengan peluncur mik.",
+        "Klik ikon kunci di sebelah peluncur.",
+        "Sertai panggilan anda. Tahap anda kekal seperti yang anda tetapkan."
+      ],
+      "tips": [
+        "Muffle memberi amaran dalam panel apabila tahap anda terlalu rendah semasa panggilan.",
+        "Kunci ini mengingati tahap bagi setiap mikrofon, jadi AirPods dan mik Mac anda masing-masing mengekalkan tahap tersendiri."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa volum mik Mac saya kerap berubah?",
+          "a": "Aplikasi seperti Chrome, Zoom dan Teams menggunakan kawalan gandaan automatik dan mengubah tahap input sistem semasa anda bercakap."
+        },
+        {
+          "q": "Bolehkah saya mengubah tahap itu sendiri?",
+          "a": "Ya. Gunakan peluncur dalam panel Muffle; ia mengemas kini tahap yang dikunci."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-on-mac",
+      "title": "Cara Redam Mikrofon pada Mac: 4 Kaedah Mudah",
+      "description": "Empat cara redam mikrofon Mac: butang aplikasi panggilan, Tetapan Sistem, pintasan global dan AirPods anda, serta cara yang berfungsi dalam semua aplikasi.",
+      "h1": "Cara meredam mikrofon anda pada Mac",
+      "intro": [
+        "Tiada kekunci redam untuk mikrofon pada Mac. Bergantung pada aplikasi dan situasi, anda mempunyai beberapa pilihan, dan hanya sebahagian daripadanya berfungsi di mana-mana."
+      ],
+      "steps_title": "Pilihan anda",
+      "steps": [
+        "Butang atau pintasan aplikasi panggilan itu sendiri. Ia hanya berfungsi dalam aplikasi tersebut, dan hanya apabila aplikasi itu berada di hadapan.",
+        "Tetapan Sistem, Bunyi, Input. Menyeret tahap input ke sifar bukanlah redam sebenar pada semua mik, dan aplikasi boleh menaikkannya semula.",
+        "Pintasan global dengan Muffle. Satu kekunci meredam mikrofon itu sendiri, dalam setiap aplikasi.",
+        "AirPods anda. Dengan Muffle, menekan tangkai meredam sebarang panggilan persidangan, termasuk Google Meet dalam Chrome."
+      ],
+      "tips": [
+        "Ikon bar menu Muffle bertukar menjadi merah semasa mik dimatikan, tidak kira aplikasi apa yang anda gunakan.",
+        "Keluar daripada Muffle sentiasa mengaktifkan semula mikrofon anda."
+      ],
+      "faq": [
+        {
+          "q": "Adakah terdapat fungsi redam mikrofon terbina dalam pada Mac?",
+          "a": "Bukan untuk seluruh sistem. macOS hanya meredam mik dalam aplikasi yang menyokongnya. Muffle menambah fungsi redam menyeluruh sistem yang sebenar."
+        },
+        {
+          "q": "Adakah meredam dalam Muffle meredam semua aplikasi?",
+          "a": "Ya. Muffle mematikan setiap mikrofon pada peringkat perkakasan, jadi tiada aplikasi yang boleh mendengar anda sehingga anda nyahredam."
+        }
+      ]
+    },
+    {
+      "slug": "youre-muted-reminder",
+      "title": "Dapatkan Peringatan “Anda diredam” dalam Setiap Aplikasi Mac",
+      "description": "Bercakap semasa mikrofon diredam? Muffle mengesan dan menunjukkan peringatan “Anda diredam” dalam Google Meet, Zoom, Teams, Slack dan panggilan lain di Mac.",
+      "h1": "Peringatan “Anda diredam” untuk setiap aplikasi panggilan",
+      "intro": [
+        "Zoom memberi amaran apabila anda bercakap semasa diredam. Kebanyakan aplikasi lain tidak berbuat demikian, dan panggilan web hampir tidak pernah mengingatkan anda. Anda mungkin bercakap panjang lebar selama seminit sebelum menyedari semua orang masih menunggu.",
+        "Muffle mengesan pertuturan semasa anda diredam dan memaparkan peringatan, dalam mana-mana aplikasi. Apabila panggilan menggunakan AirPods atau fon kepala, ia mendengar mik terbina dalam Mac anda, dan hanya mengukur tahap kekuatannya. Tiada apa yang dirakam."
+      ],
+      "steps_title": "Hidupkan peringatan",
+      "steps": [
+        "Pasang Muffle dan benarkan akses mikrofon.",
+        "Pastikan “Ingatkan saya apabila saya bercakap semasa diredam” dihidupkan dalam Tetapan Muffle.",
+        "Sertai panggilan dengan AirPods atau fon kepala dan redam.",
+        "Mula bercakap. Peringatan “Anda diredam” akan muncul."
+      ],
+      "tips": [
+        "Menyertai panggilan baharu semasa mikrofon masih diredam dari panggilan lepas? Muffle mengingatkan anda sebaik sahaja panggilan bermula.",
+        "Bunyi menaip tidak akan mencetuskan peringatan ini. Hanya pertuturan berterusan yang dikesan."
+      ],
+      "faq": [
+        {
+          "q": "Adakah peringatan ini berfungsi dengan mik terbina dalam Mac?",
+          "a": "Ia berfungsi apabila panggilan menggunakan AirPods atau fon kepala. Jika panggilan menggunakan mik Mac itu sendiri, mik tersebut telah diredam dan tidak dapat mendengar anda."
+        },
+        {
+          "q": "Adakah audio saya dirakam?",
+          "a": "Tidak. Muffle hanya mengukur tahap kelantangan dan tidak pernah menyimpan atau menghantar sebarang audio."
+        }
+      ]
+    }
+  ],
+  "support": {
+    "title": "Sokongan Muffle",
+    "description": "Bantuan untuk Muffle pada Mac: menyediakan tekanan AirPods, pintasan papan kekunci, pembelian dan banyak lagi.",
+    "h1": "Sokongan",
+    "sections": [
+      {
+        "h": "Bermula",
+        "items": [
+          "Muffle berada di bar menu anda. Klik ikon mikrofon untuk kawalan, atau klik kanan untuk terus meredam.",
+          "Semasa panggilan, tekan tangkai AirPods anda untuk meredam dan tekan sekali lagi untuk nyahredam.",
+          "Pintasan lalai ialah Control-Option-M. Ketik untuk meredam atau nyahredam. Semasa diredam, tahan untuk bercakap."
+        ]
+      },
+      {
+        "h": "Tekanan AirPods tidak meredam",
+        "items": [
+          "Ia hanya berfungsi semasa panggilan, apabila aplikasi sedang menggunakan mikrofon anda.",
+          "Benarkan akses mikrofon untuk Muffle dalam Tetapan Sistem, Privasi & Keselamatan, Mikrofon.",
+          "Pastikan “Redam dan nyahredam dengan tekanan AirPods” diaktifkan dalam Tetapan Muffle.",
+          "AirPods anda memerlukan kawalan panggilan: AirPods Pro, AirPods 3 dan lebih baharu, atau AirPods Max."
+        ]
+      },
+      {
+        "h": "Aplikasi panggilan masih menunjukkan mik saya aktif",
+        "items": [
+          "Itu perkara biasa. Muffle mematikan mikrofon itu sendiri, jadi setiap aplikasi menerima kesenyapan walaupun ia masih menganggap mik aktif. Percayai ikon Muffle di bar menu: merah bermakna tiada siapa boleh mendengar anda."
+        ]
+      },
+      {
+        "h": "Pembelian",
+        "items": [
+          "Muffle percuma untuk dicuba selama 3 hari. Selepas itu, buka kuncinya dengan pembelian sekali sahaja. Tiada langganan.",
+          "Untuk memulihkan pembelian pada Mac lain, buka Tetapan Muffle dan pilih Pulihkan Pembelian."
+        ]
+      }
+    ],
+    "contact_title": "Hubungi",
+    "contact_text": "E-mel kami di"
+  },
+  "privacy_page": {
+    "title": "Dasar Privasi Muffle",
+    "description": "Muffle tidak pernah merakam, menyimpan atau menghantar audio dan tidak mengumpul data. Ketahui cara Muffle menggunakan mikrofon anda.",
+    "h1": "Dasar Privasi",
+    "updated": "Kemas kini terakhir pada 29 September 2026.",
+    "intro": "Muffle meredam mikrofon Mac anda. Ia dibina supaya tiada apa yang anda katakan akan keluar dari Mac anda.",
+    "sections": [
+      {
+        "h": "Perkara yang dilakukan oleh Muffle dengan mikrofon anda",
+        "p": [
+          "Semasa panggilan, Muffle mengekalkan sambungan senyap ke mikrofon anda. macOS hanya menghantar tekanan redam AirPods kepada aplikasi yang boleh menggunakan mikrofon, jadi sambungan ini memastikan tekanan AirPods berfungsi.",
+          "Jika anda mengaktifkan peringatan “bercakap semasa diredam”, Muffle juga mengukur kelantangan mikrofon terbina dalam Mac anda semasa anda diredam, untuk mengesan bahawa anda mula bercakap.",
+          "Muffle hanya melihat angka kelantangan. Ia tidak pernah merakam, menyimpan, menyalin teks atau menghantar audio."
+        ]
+      },
+      {
+        "h": "Data yang kami kumpulkan",
+        "p": [
+          "Tiada. Muffle tidak mempunyai akaun, analitik, pengiklanan dan penjejakan. Ia tidak menghubungi mana-mana pelayan kami."
+        ]
+      },
+      {
+        "h": "Pembelian",
+        "p": [
+          "Percubaan percuma dan pembelian sekali sahaja dibuat melalui App Store Apple. Apple mengendalikan butiran pembayaran; kami tidak pernah melihatnya. Dasar privasi Apple terpakai untuk pembelian tersebut."
+        ]
+      },
+      {
+        "h": "Tetapan yang disimpan pada Mac anda",
+        "p": [
+          "Pilihan anda, seperti pintasan papan kekunci anda, kekal pada Mac anda dalam storan Muffle sendiri. Memadam Muffle akan memadamkannya juga."
+        ]
+      }
+    ],
+    "contact": "Soalan tentang privasi:"
+  }
+}

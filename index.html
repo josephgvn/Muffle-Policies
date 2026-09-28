@@ -1,41 +1,212 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Muffle Support</title>
-<link rel="stylesheet" href="style.css">
+<title>Muffle: Mute Your Mac Mic with AirPods or a Shortcut</title>
+<meta name="description" content="Mute your microphone in Google Meet, Zoom, Teams, Slack, Discord and every other app on your Mac. Press your AirPods or one shortcut. Free for 3 days.">
+<link rel="canonical" href="https://muffle.spendryapp.com/">
+<link rel="alternate" hreflang="en" href="https://muffle.spendryapp.com/">
+<link rel="alternate" hreflang="ar" href="https://muffle.spendryapp.com/ar/">
+<link rel="alternate" hreflang="ca" href="https://muffle.spendryapp.com/ca/">
+<link rel="alternate" hreflang="cs" href="https://muffle.spendryapp.com/cs/">
+<link rel="alternate" hreflang="da" href="https://muffle.spendryapp.com/da/">
+<link rel="alternate" hreflang="de" href="https://muffle.spendryapp.com/de/">
+<link rel="alternate" hreflang="el" href="https://muffle.spendryapp.com/el/">
+<link rel="alternate" hreflang="es" href="https://muffle.spendryapp.com/es/">
+<link rel="alternate" hreflang="fi" href="https://muffle.spendryapp.com/fi/">
+<link rel="alternate" hreflang="fr" href="https://muffle.spendryapp.com/fr/">
+<link rel="alternate" hreflang="he" href="https://muffle.spendryapp.com/he/">
+<link rel="alternate" hreflang="hi" href="https://muffle.spendryapp.com/hi/">
+<link rel="alternate" hreflang="hr" href="https://muffle.spendryapp.com/hr/">
+<link rel="alternate" hreflang="hu" href="https://muffle.spendryapp.com/hu/">
+<link rel="alternate" hreflang="id" href="https://muffle.spendryapp.com/id/">
+<link rel="alternate" hreflang="it" href="https://muffle.spendryapp.com/it/">
+<link rel="alternate" hreflang="ja" href="https://muffle.spendryapp.com/ja/">
+<link rel="alternate" hreflang="ko" href="https://muffle.spendryapp.com/ko/">
+<link rel="alternate" hreflang="ms" href="https://muffle.spendryapp.com/ms/">
+<link rel="alternate" hreflang="nb" href="https://muffle.spendryapp.com/nb/">
+<link rel="alternate" hreflang="nl" href="https://muffle.spendryapp.com/nl/">
+<link rel="alternate" hreflang="pl" href="https://muffle.spendryapp.com/pl/">
+<link rel="alternate" hreflang="pt-BR" href="https://muffle.spendryapp.com/pt-br/">
+<link rel="alternate" hreflang="pt-PT" href="https://muffle.spendryapp.com/pt-pt/">
+<link rel="alternate" hreflang="ro" href="https://muffle.spendryapp.com/ro/">
+<link rel="alternate" hreflang="ru" href="https://muffle.spendryapp.com/ru/">
+<link rel="alternate" hreflang="sk" href="https://muffle.spendryapp.com/sk/">
+<link rel="alternate" hreflang="sv" href="https://muffle.spendryapp.com/sv/">
+<link rel="alternate" hreflang="th" href="https://muffle.spendryapp.com/th/">
+<link rel="alternate" hreflang="tr" href="https://muffle.spendryapp.com/tr/">
+<link rel="alternate" hreflang="uk" href="https://muffle.spendryapp.com/uk/">
+<link rel="alternate" hreflang="vi" href="https://muffle.spendryapp.com/vi/">
+<link rel="alternate" hreflang="zh-Hans" href="https://muffle.spendryapp.com/zh-hans/">
+<link rel="alternate" hreflang="zh-Hant" href="https://muffle.spendryapp.com/zh-hant/">
+<link rel="alternate" hreflang="x-default" href="https://muffle.spendryapp.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Muffle">
+<meta property="og:title" content="Muffle: Mute Your Mac Mic with AirPods or a Shortcut">
+<meta property="og:description" content="Mute your microphone in Google Meet, Zoom, Teams, Slack, Discord and every other app on your Mac. Press your AirPods or one shortcut. Free for 3 days.">
+<meta property="og:url" content="https://muffle.spendryapp.com/">
+<meta property="og:image" content="https://muffle.spendryapp.com/assets/img/en/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ar_AR">
+<meta property="og:locale:alternate" content="ca_ES">
+<meta property="og:locale:alternate" content="cs_CZ">
+<meta property="og:locale:alternate" content="da_DK">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="el_GR">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="fi_FI">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="he_IL">
+<meta property="og:locale:alternate" content="hi_IN">
+<meta property="og:locale:alternate" content="hr_HR">
+<meta property="og:locale:alternate" content="hu_HU">
+<meta property="og:locale:alternate" content="id_ID">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="ms_MY">
+<meta property="og:locale:alternate" content="nb_NO">
+<meta property="og:locale:alternate" content="nl_NL">
+<meta property="og:locale:alternate" content="pl_PL">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="pt_PT">
+<meta property="og:locale:alternate" content="ro_RO">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta property="og:locale:alternate" content="sk_SK">
+<meta property="og:locale:alternate" content="sv_SE">
+<meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="tr_TR">
+<meta property="og:locale:alternate" content="uk_UA">
+<meta property="og:locale:alternate" content="vi_VN">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="zh_TW">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/icon-64.png">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<link rel="stylesheet" href="assets/site.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Muffle", "operatingSystem": "macOS 14 or later", "applicationCategory": "UtilitiesApplication", "description": "Mute your microphone in Google Meet, Zoom, Teams, Slack, Discord and every other app on your Mac. Press your AirPods or one shortcut. Free for 3 days.", "url": "https://muffle.spendryapp.com/", "image": "https://muffle.spendryapp.com/assets/img/en/og.png", "inLanguage": "en", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Does Muffle work with Google Meet in Chrome?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Chrome doesn't pass the AirPods mute press to web calls, so Muffle takes it and mutes the microphone itself. The same goes for any call in a browser tab."}}, {"@type": "Question", "name": "Will other people see me as muted?", "acceptedAnswer": {"@type": "Answer", "text": "Your call app may still show your mic as on, because Muffle switches off the microphone rather than the app's button. People hear silence either way. The Muffle icon in the menu bar turns red while you're muted."}}, {"@type": "Question", "name": "Which AirPods work?", "acceptedAnswer": {"@type": "Answer", "text": "AirPods Pro, AirPods 3 and later, and AirPods Max, plus Beats models with call controls. The keyboard shortcut and the menu bar work with any microphone."}}, {"@type": "Question", "name": "Does it work with Zoom, Teams, Slack and Discord?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Muffle works with every app on your Mac that uses the microphone, desktop apps and browser calls alike."}}, {"@type": "Question", "name": "Is there a subscription?", "acceptedAnswer": {"@type": "Answer", "text": "No. Try every feature free for 3 days, then unlock Muffle with a single purchase."}}, {"@type": "Question", "name": "Why does Muffle need microphone access?", "acceptedAnswer": {"@type": "Answer", "text": "macOS only passes the AirPods press to apps that are using the microphone, so Muffle keeps a silent connection open during calls. Nothing is recorded."}}, {"@type": "Question", "name": "What happens if I quit Muffle while muted?", "acceptedAnswer": {"@type": "Answer", "text": "Muffle turns your microphone back on when it quits, so you're never stuck silent."}}, {"@type": "Question", "name": "Which macOS versions are supported?", "acceptedAnswer": {"@type": "Answer", "text": "macOS 14 Sonoma and later. The Control Center button needs macOS 26 or later."}}]}</script>
 </head>
 <body>
+<header class="nav"><div class="wrap">
+<a class="brand" href=""><img src="assets/icon-64.png" alt="" width="28" height="28">Muffle</a>
+<nav aria-label="Menu"><a href="#features">Features</a><a href="guides/">Guides</a><a href="support/">Support</a></nav>
+<span class="btn small disabled">Get Muffle</span>
+</div></header>
 <main>
-<header><img src="icon.png" alt=""><h1>Muffle</h1></header>
-<p>Mute your Mac's microphone from anywhere, with a press of your AirPods or a keyboard shortcut.</p>
-
-<h2>Getting started</h2>
-<ul>
-<li>Muffle lives in the menu bar. Click the microphone icon for controls, right-click it to mute instantly.</li>
-<li>During a call, press your AirPods stem to mute and press again to unmute.</li>
-<li>The default shortcut is Control-Option-M. Tap it to mute or unmute. While muted, hold it to talk.</li>
-</ul>
-
-<h2>The AirPods press doesn't work</h2>
-<ul>
-<li>It only works during a call, while an app is using your microphone.</li>
-<li>Allow microphone access for Muffle in System Settings › Privacy &amp; Security › Microphone.</li>
-<li>Check that "Mute and unmute with an AirPods press" is on in Muffle Settings.</li>
-<li>Your AirPods need to support call controls. AirPods Pro, AirPods 3 and later, and AirPods Max do.</li>
-</ul>
-
-<h2>The call app still shows my mic as on</h2>
-<p>That's expected. Muffle turns the microphone itself off, so every app receives silence while it still thinks the mic is on. Trust the Muffle icon in the menu bar: red means nobody hears you.</p>
-
-<h2>Purchases</h2>
-<p>Muffle is free to try for 3 days. After that, unlock it with a one-time purchase. There is no subscription. To restore a purchase on another Mac, open Muffle Settings and choose Restore Purchase.</p>
-
-<h2>Contact</h2>
-<p>Email <a href="mailto:hello@spendryapp.com">hello@spendryapp.com</a>.</p>
-<hr>
-<p class="muted"><a href="privacy.html">Privacy Policy</a></p>
+<section class="hero"><div class="wrap">
+<h1>Mute your Mac&#x27;s mic from anywhere.</h1>
+<p class="lead">Press your AirPods or one keyboard shortcut. Muffle turns the microphone itself off, so Google Meet, Zoom, Teams, Slack and every other app hear silence.</p>
+<div class="cta"><span class="btn disabled">Coming soon to the Mac App Store</span><p class="fine">Free for 3 days. Then one payment, no subscription. For macOS 14 Sonoma and later.</p></div>
+<img class="shot" src="assets/img/en/panel.png" alt="The Muffle panel in the Mac menu bar during a Google Meet call in Chrome" width="388" height="580" fetchpriority="high">
+</div></section>
+<section class="works"><div class="wrap">
+<h2>Works with every app that uses your mic</h2>
+<ul class="apps"><li>Google Meet</li><li>Zoom</li><li>Microsoft Teams</li><li>Slack</li><li>Discord</li><li>FaceTime</li><li>Webex</li><li>WhatsApp</li><li>Skype</li><li>SoWork</li><li>Gather</li><li>Chrome</li><li>Safari</li><li>Arc</li><li>Edge</li><li>Firefox</li></ul>
+<p class="note">Muffle mutes the microphone at the hardware level, so it doesn&#x27;t matter which app, browser or tab is using it.</p>
+</div></section>
+<section id="features"><div class="wrap">
+<h2>Everything your Mac should do in a call</h2>
+<div class="grid"><div class="feature"><h3>Press your AirPods to mute</h3><p>During any call, press the stem once to mute and again to unmute. It even works in Chrome, where Google Meet and other web calls ignore the AirPods press.</p></div>
+<div class="feature"><h3>One shortcut for every app</h3><p>Control-Option-M mutes you everywhere, even when the call is in a background tab. Hold it to talk while muted, let go to mute again.</p></div>
+<div class="feature"><h3>A “You&#x27;re muted” reminder</h3><p>Start talking while muted and Muffle tells you, before you explain your whole idea to nobody.</p></div>
+<div class="feature"><h3>Calls on autopilot</h3><p>Start every call muted, turn the mic back on when a call ends, and mute whenever you lock your Mac.</p></div>
+<div class="feature"><h3>Always know if you&#x27;re live</h3><p>A small floating button shows your mic state during calls. Click it to mute or unmute.</p></div>
+<div class="feature"><h3>Your mic level stays put</h3><p>Chrome, Zoom and Teams change your mic level on their own. Lock it and Muffle puts it back.</p></div>
+<div class="feature"><h3>Safe when your AirPods die</h3><p>If your headset disconnects mid-call, Muffle mutes before the call switches to your Mac&#x27;s mic and sends the whole room.</p></div>
+<div class="feature"><h3>Shortcuts and Control Center</h3><p>Mute from the Shortcuts app, Siri, a Stream Deck, Raycast, or a button in Control Center.</p></div></div>
+<div class="gallery">
+<figure><img class="" src="assets/img/en/reminder.png" alt="The “You&#x27;re muted” reminder at the bottom of the screen" width="422" height="164" loading="lazy" decoding="async"></figure>
+<figure><img class="" src="assets/img/en/pills.png" alt="The floating mini controller in its muted and live states" width="324" height="114" loading="lazy" decoding="async"></figure>
+<figure><img class="" src="assets/img/en/automation.png" alt="Muffle settings for starting calls muted and other call automations" width="528" height="387" loading="lazy" decoding="async"></figure>
+</div>
+</div></section>
+<section class="how"><div class="wrap">
+<h2>Set up in a minute</h2>
+<ol class="steps-home"><li>Install Muffle from the Mac App Store and allow microphone access.</li><li>Join a call in any app, as usual.</li><li>Press your AirPods, press Control-Option-M, or click the menu bar icon to mute.</li></ol>
+</div></section>
+<section class="privacy-block"><div class="wrap">
+<h2>Private by design</h2>
+<p>Muffle never records, stores or sends audio. It only switches your microphone on and off and reads its loudness. No accounts, no analytics, no tracking.</p>
+</div></section>
+<section class="faq"><div class="wrap narrow">
+<h2>Questions</h2>
+<details><summary>Does Muffle work with Google Meet in Chrome?</summary><p>Yes. Chrome doesn&#x27;t pass the AirPods mute press to web calls, so Muffle takes it and mutes the microphone itself. The same goes for any call in a browser tab.</p></details>
+<details><summary>Will other people see me as muted?</summary><p>Your call app may still show your mic as on, because Muffle switches off the microphone rather than the app&#x27;s button. People hear silence either way. The Muffle icon in the menu bar turns red while you&#x27;re muted.</p></details>
+<details><summary>Which AirPods work?</summary><p>AirPods Pro, AirPods 3 and later, and AirPods Max, plus Beats models with call controls. The keyboard shortcut and the menu bar work with any microphone.</p></details>
+<details><summary>Does it work with Zoom, Teams, Slack and Discord?</summary><p>Yes. Muffle works with every app on your Mac that uses the microphone, desktop apps and browser calls alike.</p></details>
+<details><summary>Is there a subscription?</summary><p>No. Try every feature free for 3 days, then unlock Muffle with a single purchase.</p></details>
+<details><summary>Why does Muffle need microphone access?</summary><p>macOS only passes the AirPods press to apps that are using the microphone, so Muffle keeps a silent connection open during calls. Nothing is recorded.</p></details>
+<details><summary>What happens if I quit Muffle while muted?</summary><p>Muffle turns your microphone back on when it quits, so you&#x27;re never stuck silent.</p></details>
+<details><summary>Which macOS versions are supported?</summary><p>macOS 14 Sonoma and later. The Control Center button needs macOS 26 or later.</p></details>
+</div></section>
+<section class="more"><div class="wrap">
+<h2>Guides</h2>
+<ul class="guide-list"><li><a href="guides/mute-google-meet-with-airpods/"><strong>How to mute Google Meet with AirPods on a Mac</strong><span>The AirPods press doesn&#x27;t mute Google Meet in Chrome on a Mac. Here&#x27;s how to mute Meet with your AirPods, a shortcut or the menu bar, in any tab.</span></a></li>
+<li><a href="guides/mute-zoom-with-airpods/"><strong>How to mute Zoom with AirPods or a shortcut on a Mac</strong><span>Mute Zoom on your Mac with an AirPods press or one global shortcut, even when Zoom isn&#x27;t the active window. Works in the Zoom app and in the browser.</span></a></li>
+<li><a href="guides/mute-microsoft-teams-with-airpods/"><strong>How to mute Microsoft Teams with AirPods on a Mac</strong><span>Mute Microsoft Teams on your Mac with your AirPods, a global shortcut or the menu bar. Works in the Teams app and in Teams in the browser.</span></a></li>
+<li><a href="guides/mute-slack-huddles/"><strong>How to mute a Slack huddle from any app on a Mac</strong><span>Mute Slack huddles on your Mac from any app with one global shortcut or your AirPods. No need to find the huddle window.</span></a></li>
+<li><a href="guides/mute-discord-on-mac/"><strong>Push to talk and a global mute shortcut for Discord on a Mac</strong><span>Use one global push to talk and mute shortcut for Discord on your Mac, or mute with your AirPods. Works in the Discord app and in the browser.</span></a></li>
+<li><a href="guides/mute-webex-on-mac/"><strong>How to mute Webex from any app on a Mac</strong><span>Mute Webex meetings on your Mac with one global shortcut or your AirPods, even when Webex isn&#x27;t the active window.</span></a></li></ul>
+<p class="center"><a href="guides/">Short, practical answers for muting your microphone on a Mac, in every app.</a></p>
+</div></section>
+<section class="final"><div class="wrap">
+<h2>Stop hunting for the mute button.</h2>
+<p class="lead">Muffle is free to try for 3 days.</p>
+<span class="btn disabled">Coming soon to the Mac App Store</span>
+</div></section>
 </main>
+<footer><div class="wrap">
+<div class="cols">
+<div><h4>Muffle</h4><ul><li><a href="">Home</a></li><li><a href="guides/">Guides</a></li><li><a href="support/">Support</a></li><li><a href="privacy/">Privacy Policy</a></li><li><a href="mailto:hello@spendryapp.com">Contact</a></li></ul></div>
+<div><h4>Guides</h4><ul><li><a href="guides/mute-google-meet-with-airpods/">How to mute Google Meet with AirPods on a Mac</a></li>
+<li><a href="guides/mute-zoom-with-airpods/">How to mute Zoom with AirPods or a shortcut on a Mac</a></li>
+<li><a href="guides/mute-microsoft-teams-with-airpods/">How to mute Microsoft Teams with AirPods on a Mac</a></li>
+<li><a href="guides/mute-slack-huddles/">How to mute a Slack huddle from any app on a Mac</a></li>
+<li><a href="guides/mute-discord-on-mac/">Push to talk and a global mute shortcut for Discord on a Mac</a></li>
+<li><a href="guides/mute-webex-on-mac/">How to mute Webex from any app on a Mac</a></li>
+<li><a href="guides/mute-browser-calls/">How to mute calls in any browser tab on a Mac</a></li></ul></div>
+<div class="wide"><h4>Language</h4><div class="langs"><a href="" hreflang="en" lang="en" aria-current="page">English</a>
+<a href="ar/" hreflang="ar" lang="ar">العربية</a>
+<a href="ca/" hreflang="ca" lang="ca">Català</a>
+<a href="cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="da/" hreflang="da" lang="da">Dansk</a>
+<a href="de/" hreflang="de" lang="de">Deutsch</a>
+<a href="el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="es/" hreflang="es" lang="es">Español</a>
+<a href="fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="fr/" hreflang="fr" lang="fr">Français</a>
+<a href="he/" hreflang="he" lang="he">עברית</a>
+<a href="hi/" hreflang="hi" lang="hi">हिन्दी</a>
+<a href="hr/" hreflang="hr" lang="hr">Hrvatski</a>
+<a href="hu/" hreflang="hu" lang="hu">Magyar</a>
+<a href="id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="it/" hreflang="it" lang="it">Italiano</a>
+<a href="ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="ko/" hreflang="ko" lang="ko">한국어</a>
+<a href="ms/" hreflang="ms" lang="ms">Bahasa Melayu</a>
+<a href="nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="pt-br/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="pt-pt/" hreflang="pt-PT" lang="pt-PT">Português (Portugal)</a>
+<a href="ro/" hreflang="ro" lang="ro">Română</a>
+<a href="ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="sk/" hreflang="sk" lang="sk">Slovenčina</a>
+<a href="sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="th/" hreflang="th" lang="th">ไทย</a>
+<a href="tr/" hreflang="tr" lang="tr">Türkçe</a>
+<a href="uk/" hreflang="uk" lang="uk">Українська</a>
+<a href="vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="zh-hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="zh-hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></div></div>
+</div>
+<p class="copy">© 2026 Muffle. AirPods and Mac are trademarks of Apple Inc.</p>
+</div></footer>
 </body>
 </html>

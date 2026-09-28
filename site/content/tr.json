@@ -1,0 +1,643 @@
+{
+  "meta": {
+    "home_title": "Muffle: AirPods veya Kısayolla Mac Mikrofonunu Sustur",
+    "home_description": "Google Meet, Zoom, Teams, Slack, Discord ve Mac'teki her uygulamada mikrofonunu sustur. AirPods sapına veya kısayola bas. 3 gün ücretsiz.",
+    "og_title": "Mac'inin mikrofonunu her yerden sustur.",
+    "og_subtitle": "AirPods sapına bas veya tek bir kısayol kullan. Her uygulamada çalışır."
+  },
+  "nav": {
+    "features": "Özellikler",
+    "guides": "Rehberler",
+    "support": "Destek",
+    "download": "Muffle'ı İndir",
+    "home": "Ana Sayfa",
+    "menu": "Menü"
+  },
+  "cta": {
+    "download": "Mac App Store'dan İndir",
+    "coming_soon": "Yakında Mac App Store'da",
+    "trial": "3 gün boyunca ücretsiz. Sonra tek ödeme, abonelik yok.",
+    "requirements": "macOS 14 Sonoma ve daha yenisi için."
+  },
+  "hero": {
+    "title": "Mac'inin mikrofonunu her yerden sustur.",
+    "subtitle": "AirPods sapına bas veya tek bir klavye kısayolu kullan. Muffle doğrudan mikrofonu kapattığı için Google Meet, Zoom, Teams, Slack ve diğer her uygulama yalnızca sessizlik duyar.",
+    "image_alt": "Chrome'daki bir Google Meet görüşmesi sırasında Mac menü çubuğundaki Muffle paneli"
+  },
+  "works_with": {
+    "title": "Mikrofonunu kullanan her uygulamayla çalışır",
+    "apps": [
+      "Google Meet",
+      "Zoom",
+      "Microsoft Teams",
+      "Slack",
+      "Discord",
+      "FaceTime",
+      "Webex",
+      "WhatsApp",
+      "Skype",
+      "SoWork",
+      "Gather",
+      "Chrome",
+      "Safari",
+      "Arc",
+      "Edge",
+      "Firefox"
+    ],
+    "note": "Muffle mikrofonu donanım seviyesinde susturur; bu yüzden hangi uygulamanın, tarayıcının veya sekmenin kullandığı fark etmez."
+  },
+  "features": {
+    "title": "Bir görüşmede Mac'inin yapması gereken her şey",
+    "items": [
+      {
+        "title": "Susturmak için AirPods'una bas",
+        "text": "Herhangi bir görüşme sırasında susturmak için sapa bir kez bas, açmak için tekrar bas. Google Meet ve diğer web görüşmelerinin AirPods basışını yok saydığı Chrome'da bile çalışır."
+      },
+      {
+        "title": "Her uygulama için tek kısayol",
+        "text": "Control-Option-M seni her yerde susturur, görüşme arka plandaki bir sekmede olsa bile. Sessizdeyken konuşmak için basılı tut, tekrar susmak için bırak."
+      },
+      {
+        "title": "“Sessizdesin” hatırlatması",
+        "text": "Sessizdeyken konuşmaya başlarsan Muffle seni uyarır; böylece bütün fikrini kimse duymadan anlatıp durmazsın."
+      },
+      {
+        "title": "Görüşmeler otomatik pilotta",
+        "text": "Her görüşmeye sessiz başla, görüşme bittiğinde mikrofonu geri aç ve Mac'ini kilitlediğinde mikrofonu sustur."
+      },
+      {
+        "title": "Yayında olup olmadığını hep bil",
+        "text": "Küçük ve ekranda duran bir düğme görüşme sırasında mikrofon durumunu gösterir. Susturmak ya da açmak için tıkla."
+      },
+      {
+        "title": "Mikrofon seviyen sabit kalır",
+        "text": "Chrome, Zoom ve Teams mikrofon seviyeni kendiliğinden değiştirir. Seviyeyi kilitle, Muffle onu eski haline getirsin."
+      },
+      {
+        "title": "AirPods'unun şarjı bitse de güvendesin",
+        "text": "Görüşmenin ortasında kulaklığının bağlantısı kesilirse, ses Mac'inin mikrofonuna geçip tüm odayı yayına vermeden önce Muffle susturur."
+      },
+      {
+        "title": "Kestirmeler ve Denetim Merkezi",
+        "text": "Kestirmeler uygulamasından, Siri'den, Stream Deck'ten, Raycast'ten veya Denetim Merkezi'ndeki bir düğmeyle sustur."
+      }
+    ],
+    "image_reminder_alt": "Ekranın altındaki “Sessizdesin” hatırlatması",
+    "image_pills_alt": "Sessizde ve açık durumlarında ekranda duran mini kumanda",
+    "image_automation_alt": "Görüşmelere sessiz başlama ve diğer görüşme otomasyonları için Muffle ayarları"
+  },
+  "how": {
+    "title": "Bir dakikada kur",
+    "steps": [
+      "Muffle'ı Mac App Store'dan yükle ve mikrofon iznini ver.",
+      "Her zamanki gibi herhangi bir uygulamada görüşmeye katıl.",
+      "Susturmak için AirPods sapına bas, Control-Option-M kısayoluna bas veya menü çubuğundaki ikona tıkla."
+    ]
+  },
+  "privacy": {
+    "title": "Tasarımı gereği gizli",
+    "text": "Muffle hiçbir sesi kaydetmez, saklamaz ya da göndermez. Yalnızca mikrofonunu açıp kapatır ve ses şiddetini okur. Hesap yok, analiz yok, takip yok."
+  },
+  "faq": {
+    "title": "Sorular",
+    "items": [
+      {
+        "q": "Muffle, Chrome'daki Google Meet ile çalışır mı?",
+        "a": "Evet. Chrome, AirPods susturma basışını web görüşmelerine iletmez; bu yüzden Muffle bu basışı alır ve doğrudan mikrofonu susturur. Aynı durum tarayıcı sekmesindeki her görüşme için geçerlidir."
+      },
+      {
+        "q": "Diğer insanlar beni sessizde görür mü?",
+        "a": "Görüşme uygulaman mikrofonunu hâlâ açık gösterebilir; çünkü Muffle uygulamanın düğmesini değil, mikrofonun kendisini kapatır. İnsanlar her iki durumda da sessizlik duyar. Menü çubuğundaki Muffle ikonu sen sessizdeyken kırmızıya döner."
+      },
+      {
+        "q": "Hangi AirPods modelleri çalışır?",
+        "a": "AirPods Pro, AirPods 3 ve daha yenisi, AirPods Max ve arama kontrollerini destekleyen Beats modelleri. Klavye kısayolu ve menü çubuğu ise her mikrofonla çalışır."
+      },
+      {
+        "q": "Zoom, Teams, Slack ve Discord ile çalışır mı?",
+        "a": "Evet. Muffle, Mac'inde mikrofonu kullanan her uygulamayla çalışır; masaüstü uygulamaları ve tarayıcı görüşmeleri buna dahildir."
+      },
+      {
+        "q": "Abonelik var mı?",
+        "a": "Hayır. Her özelliği 3 gün boyunca ücretsiz dene, sonrasında tek bir satın almayla Muffle'ın kilidini aç."
+      },
+      {
+        "q": "Muffle neden mikrofon iznine ihtiyaç duyuyor?",
+        "a": "macOS, AirPods basışlarını sadece mikrofonu kullanan uygulamalara iletir; bu yüzden Muffle görüşmeler sırasında sessiz bir bağlantı açık tutar. Hiçbir şey kaydedilmez."
+      },
+      {
+        "q": "Sessizdeyken Muffle'dan çıkarsam ne olur?",
+        "a": "Muffle kapandığında mikrofonunu geri açar, bu sayede asla sessizde takılı kalmazsın."
+      },
+      {
+        "q": "Hangi macOS sürümleri destekleniyor?",
+        "a": "macOS 14 Sonoma ve daha yenisi. Denetim Merkezi düğmesi için macOS 26 veya daha yenisi gerekir."
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Susturma düğmesini aramaktan kurtul.",
+    "text": "Muffle'ı 3 gün boyunca ücretsiz dene."
+  },
+  "footer": {
+    "guides": "Rehberler",
+    "product": "Muffle",
+    "support": "Destek",
+    "privacy": "Gizlilik Politikası",
+    "language": "Dil",
+    "contact": "İletişim",
+    "copyright": "© 2026 Muffle. AirPods ve Mac, Apple Inc. şirketinin ticari markalarıdır."
+  },
+  "guides_index": {
+    "title": "Muffle Rehberleri: Mac'te Meet, Zoom ve Teams Susturma",
+    "description": "Mac'te Google Meet, Zoom, Microsoft Teams, Slack, Discord ve web görüşmelerini AirPods veya kısayolla susturmak için adım adım rehberler.",
+    "h1": "Rehberler",
+    "intro": "Her uygulamada, Mac'inde mikrofonunu susturman için kısa ve pratik yanıtlar."
+  },
+  "guide_labels": {
+    "on_this_page": "Bu sayfada",
+    "faq": "Sorular",
+    "related": "Diğer rehberler",
+    "try": "Muffle'ı 3 gün ücretsiz dene",
+    "read": "Rehberi oku"
+  },
+  "guides": [
+    {
+      "slug": "mute-google-meet-with-airpods",
+      "title": "Mac'te AirPods ile Google Meet Nasıl Susturulur?",
+      "description": "Mac Chrome'da AirPods sapına basınca Google Meet susmaz. Muffle ile Meet görüşmesini AirPods, kısayol veya menü çubuğundan susturma rehberi.",
+      "h1": "Mac'te AirPods ile Google Meet nasıl susturulur?",
+      "intro": [
+        "iPhone kullanırken AirPods sapına bastığında görüşme sessize alınır. Mac'te ise Google Meet Chrome içinde çalışır ve Chrome bu basışı web sayfalarına iletmez. Sapa basarsın, hata sesi duyarsın ama Meet sesini göndermeye devam eder.",
+        "Muffle her Meet görüşmesinde bu sorunu çözer. AirPods basışını kendisi yakalar ve Mac'inin mikrofonunu susturur. Böylece sekme arka planda kalsa bile Meet'e sadece sessizlik gider."
+      ],
+      "steps_title": "AirPods ile Google Meet'i sustur",
+      "steps": [
+        "Muffle uygulamasını yükle ve istendiğinde mikrofon izni ver.",
+        "Chrome, Safari, Arc veya Edge üzerinden Google Meet toplantına katıl.",
+        "Susturmak için AirPods sapına bir kez bas. Muffle ikonu kırmızıya döner.",
+        "Açmak için tekrar bas. İstediğin uygulamadayken Control-Option-M kısayolunu da kullanabilirsin."
+      ],
+      "tips": [
+        "Muffle, Meet düğmesini değiştirmek yerine doğrudan mikrofonu susturduğu için Meet mikrofonunu açık gösterebilir. Muffle ikonu kırmızı olduğu sürece toplantıdaki herkes yalnızca sessizlik duyar.",
+        "Her Meet görüşmesine mikrofonun kapalı girmek için “Her görüşmeye sessiz başla” ayarını aç."
+      ],
+      "faq": [
+        {
+          "q": "AirPods sapına basınca Google Meet neden sessize alınmıyor?",
+          "a": "Chrome, web görüşmelerinde macOS AirPods susturma hareketini desteklemez. Bu nedenle macOS basışı iletecek bir uygulama bulamaz. Muffle bu görevi devralır."
+        },
+        {
+          "q": "Meet'in kendi kısayolu yeterli değil mi?",
+          "a": "Meet'in Command-D kısayolu yalnızca Meet sekmesi en öndeyken çalışır. Muffle kısayolu ve AirPods basışı ise her uygulamada çalışır."
+        }
+      ]
+    },
+    {
+      "slug": "mute-zoom-with-airpods",
+      "title": "Mac'te AirPods veya Kısayolla Zoom Nasıl Susturulur?",
+      "description": "Zoom penceresi arka plandayken bile AirPods sapı veya tek bir kısayolla Zoom'u sustur. Uygulamada ve tarayıcıda çalışan pratik susturma çözümü.",
+      "h1": "Mac'te AirPods veya bir kısayolla Zoom nasıl susturulur?",
+      "intro": [
+        "Zoom'un kendi kısayolu olan Command-Shift-A, yalnızca Zoom penceresi en öndeyken çalışır. Not alırken ya da başka bir ekranı paylaşırken mikrofon susturma düğmesini aramak saniyeler kaybettirir.",
+        "Muffle sana Zoom ve diğer tüm uygulamalar için tek bir susturma denetimi sunar: AirPods sapı, genel bir kısayol veya menü çubuğu. Doğrudan mikrofonu susturduğu için hem Zoom uygulamasında hem de tarayıcıdaki Zoom aramalarında çalışır."
+      ],
+      "steps_title": "Zoom'u her yerden sustur",
+      "steps": [
+        "Muffle uygulamasını yükle ve mikrofon izni ver.",
+        "Zoom toplantına her zamanki gibi katıl.",
+        "Herhangi bir uygulamadayken susturmak için AirPods sapına veya Control-Option-M tuşlarına bas.",
+        "Sessizdeyken bas konuş yapmak için Control-Option-M kısayolunu basılı tut, bırakınca tekrar susar."
+      ],
+      "tips": [
+        "Zoom, Mac'inde AirPods basışını kendisi yakalasa bile kısayol ve menü çubuğu Muffle üzerinden mikrofonu susturmaya devam eder.",
+        "Muffle mikrofonu kapattığında Zoom seni açık gösterebilir. Toplantıdakiler sadece sessizlik duyar."
+      ],
+      "faq": [
+        {
+          "q": "Muffle, Zoom'un susturma düğmesinin yerini mi alır?",
+          "a": "Onunla birlikte çalışır. Muffle mikrofonu tüm uygulamalar için kapattığından, Zoom penceresine geçmeden mikrofonu kapatabilirsin."
+        },
+        {
+          "q": "Zoom'da bas konuş özelliğini kullanabilir miyim?",
+          "a": "Evet. Mikrofon sessizdeyken konuşmak için Muffle kısayolunu basılı tut. Bu özellik Zoom'da ve diğer tüm uygulamalarda çalışır."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microsoft-teams-with-airpods",
+      "title": "Mac'te AirPods ile Microsoft Teams Nasıl Susturulur?",
+      "description": "Mac'te Teams toplantılarını AirPods, genel kısayol veya menü çubuğundan sustur. Hem Teams uygulamasında hem de web sürümünde mikrofondan susturma.",
+      "h1": "Mac'te AirPods ile Microsoft Teams nasıl susturulur?",
+      "intro": [
+        "Teams kısayolu olan Command-Shift-M, yalnızca Teams penceresi etkinken çalışır. Toplantı anında genelde başka bir yerdesindir: belgede, tarayıcıda ya da paylaşılan bir ekranda.",
+        "Muffle hem Teams uygulamasında hem de web üzerindeki Teams görüşmelerinde mikrofonunu her yerden susturur. AirPods sapına bas, tek bir kısayola tıkla ya da menü çubuğunu kullan."
+      ],
+      "steps_title": "Teams görüşmesini her yerden sustur",
+      "steps": [
+        "Muffle uygulamasını yükle ve mikrofon izni ver.",
+        "Teams toplantına katıl.",
+        "Susturmak için Control-Option-M tuşlarına veya AirPods sapına bas. Menü çubuğu ikonu kırmızıya döner.",
+        "Mikrofonu açmak için tekrar bas ya da sessizdeyken konuşmak için kısayolu basılı tut."
+      ],
+      "tips": [
+        "Tarayıcı sekmesindeki Teams toplantıları, Muffle sayesinde tıpkı Google Meet gibi AirPods desteğine kavuşur.",
+        "Bilgisayar başından kalktığında mikrofonunun açık kalmaması için “Ekran kilitlenince sustur” seçeneğini etkinleştir."
+      ],
+      "faq": [
+        {
+          "q": "Teams uygulamasında AirPods basışı çalışır mı?",
+          "a": "Teams sürümüne göre değişir, çünkü Teams bazen basışı kendisi alabilir. Muffle kısayolu ve menü çubuğu düğmesi ise her durumda çalışır."
+        },
+        {
+          "q": "Teams beni sessizde olarak gösterir mi?",
+          "a": "Her zaman değil. Muffle doğrudan donanım mikrofonunu susturur; bu yüzden görüşmedekiler sessizlik duysa da Teams mikrofonu açık gösterebilir."
+        }
+      ]
+    },
+    {
+      "slug": "mute-slack-huddles",
+      "title": "Mac'te Kısayolla Slack Huddle Nasıl Susturulur?",
+      "description": "Slack huddle görüşmelerini tek bir kısayol veya AirPods ile herhangi bir uygulamadan sessize al. Huddle penceresini aramak zorunda kalma.",
+      "h1": "Mac'te herhangi bir uygulamadayken Slack huddle nasıl susturulur?",
+      "intro": [
+        "Slack'in huddle denetimleri diğer pencerelerin arkasında kolayca kaybolan ufak bir paneldedir ve susturma kısayolu yalnızca Slack en öndeyken çalışır.",
+        "Muffle, Mac'inde nerede olursan ol tek bir kısayol veya AirPods basışıyla Slack ve diğer tüm uygulamalar için mikrofonunu anında susturur."
+      ],
+      "steps_title": "Huddle görüşmesini her yerden sustur",
+      "steps": [
+        "Muffle uygulamasını yükle ve mikrofon izni ver.",
+        "Slack'te bir huddle başlat ya da katıl.",
+        "Susturmak için Control-Option-M tuşlarına veya AirPods sapına bas.",
+        "Menü çubuğuna bak: kırmızı ikon kimsenin seni duymadığını gösterir."
+      ],
+      "tips": [
+        "Ekranda duran mini kumanda, her huddle sırasında mikrofon durumunu gösterir.",
+        "Mikrofonu açmadan hızlıca bir şey söylemek için kısayolu basılı tutarak bas konuş yapabilirsin."
+      ],
+      "faq": [
+        {
+          "q": "Slack uygulaması ve tarayıcıdaki Slack ile çalışır mı?",
+          "a": "Evet. Muffle doğrudan mikrofonun kendisini susturduğu için her iki ortamda da sorunsuz çalışır."
+        },
+        {
+          "q": "Ekip arkadaşlarım sessizde olduğumu görebilir mi?",
+          "a": "Slack mikrofonunu açık göstermeye devam edebilir. Muffle seni susturduğu sürece karşı tarafa yalnızca sessizlik gider."
+        }
+      ]
+    },
+    {
+      "slug": "mute-discord-on-mac",
+      "title": "Mac'te Discord Bas Konuş ve Mikrofon Susturma Kısayolu",
+      "description": "Mac'inde Discord için tek bir bas konuş ve susturma kısayolu kullan veya AirPods ile sustur. Hem Discord uygulamasında hem tarayıcıda çalışır.",
+      "h1": "Mac'te Discord için bas konuş ve genel susturma kısayolu",
+      "intro": [
+        "Discord'un bas konuş özelliği Mac'te ek izinler gerektirir ve tarayıcıdaki Discord'da çalışmaz. Meet veya Zoom görüşmelerine de katılıyorsan her uygulama için farklı bir susturma tuşuna alışmak zorunda kalırsın.",
+        "Muffle tümü için tek bir tuş verir. Susturmak için bas, konuşmak için basılı tut veya AirPods sapına bas."
+      ],
+      "steps_title": "Discord için bas konuş özelliğini ayarla",
+      "steps": [
+        "Muffle'ı yükle ve mikrofon izni ver.",
+        "Bir Discord ses kanalına katıl.",
+        "Susturmak veya açmak için Control-Option-M kısayoluna bas. Sessizdeyken konuşmak için basılı tut.",
+        "Muffle Ayarları içinden kendi tuşunu belirle, örneğin bir F tuşu seç."
+      ],
+      "tips": [
+        "Muffle kısayolu Erişilebilirlik iznine ihtiyaç duymaz.",
+        "Discord'un otomatik ses kazancının seviyeyi sürekli değiştirmemesi için mikrofon seviyeni kilitle."
+      ],
+      "faq": [
+        {
+          "q": "Bu Discord'un bas konuş özelliğiyle aynı mı?",
+          "a": "Aynı şekilde çalışır ancak tüm uygulamalarda birden geçerlidir. Muffle doğrudan mikrofonu susturur; böylece sen tuşa basılı tutana kadar Discord hiçbir ses duymaz."
+        },
+        {
+          "q": "Discord'u AirPods ile susturabilir miyim?",
+          "a": "Evet. Sesli görüşme sırasında susturmak veya açmak için AirPods sapına bas."
+        }
+      ]
+    },
+    {
+      "slug": "mute-webex-on-mac",
+      "title": "Mac'te Webex Herhangi Bir Uygulamadan Nasıl Susturulur?",
+      "description": "Webex penceresinde olmasan bile Mac'inde tek bir kısayol veya AirPods ile Webex toplantılarını sustur. Ekran paylaşırken bile tam kontrol sağla.",
+      "h1": "Mac'te Webex herhangi bir uygulamadan nasıl susturulur?",
+      "intro": [
+        "Webex susturma kısayolu yalnızca Webex penceresi öndeyken çalışır ve ekranını paylaştığında kontroller gizlenir.",
+        "Muffle mikrofonunu Mac'inin her yerinden susturur; böylece yaptığın işi bırakmadan bir Webex toplantısını susturabilirsin."
+      ],
+      "steps_title": "Webex'i her yerden sustur",
+      "steps": [
+        "Muffle'ı yükle ve mikrofon izni ver.",
+        "Webex toplantına katıl.",
+        "Susturmak için Control-Option-M kısayoluna veya AirPods sapına bas.",
+        "Ekran paylaşırken mikrofon durumunu görmek için kayan mini kumandayı kullan."
+      ],
+      "tips": [
+        "Webex seni hâlâ sessizde değilmişsin gibi gösterebilir. Muffle simgesi kırmızı olduğu sürece katılımcılar hiçbir ses duymaz.",
+        "Kalabalık toplantılar için “Her görüşmeye sessiz başla” seçeneğini aç."
+      ],
+      "faq": [
+        {
+          "q": "Muffle tarayıcıdaki Webex ile çalışır mı?",
+          "a": "Evet. Doğrudan mikrofonu susturduğu için her Webex istemcisinde çalışır."
+        },
+        {
+          "q": "Webex'i AirPods ile susturabilir miyim?",
+          "a": "Evet, toplantı sırasında sapa bas. Klavye kısayolu ise her kulaklıkla çalışır."
+        }
+      ]
+    },
+    {
+      "slug": "mute-browser-calls",
+      "title": "Mac'te Chrome, Safari ve Arc Web Görüşmelerini Sustur",
+      "description": "Chrome, Safari, Arc, Edge ve Firefox görüşmelerini AirPods veya tek kısayolla sustur. Google Meet, SoWork, Gather, Whereby ve Jitsi ile çalışır.",
+      "h1": "Mac'te herhangi bir tarayıcı sekmesindeki aramalar nasıl susturulur?",
+      "intro": [
+        "Artık giderek daha fazla görüşme tarayıcıda yapılıyor: Google Meet, web üzerinde Teams, SoWork ve Gather gibi sanal ofisler, Whereby, Jitsi. Her birinin kendi susturma düğmesi ve kısayolu var ve bunlar yalnızca ilgili sekme öndeyken çalışıyor.",
+        "Tarayıcılar ayrıca Mac'te AirPods susturma basışını da yok sayar. Muffle bu basışı veya tek bir genel kısayolu yakalar ve tüm sekmeler için mikrofonu aynı anda susturur."
+      ],
+      "steps_title": "Herhangi bir web görüşmesini sustur",
+      "steps": [
+        "Muffle'ı yükle ve mikrofon izni ver.",
+        "Görüşmeni herhangi bir tarayıcı sekmesinde aç.",
+        "Herhangi bir uygulamadan veya sekmeden susturmak için AirPods sapına veya Control-Option-M kısayoluna bas.",
+        "Menü çubuğu simgesine dikkat et: kırmızı renk mikrofonun kapalı olduğu anlamına gelir."
+      ],
+      "tips": [
+        "Sanal ofisler mikrofonunu saatlerce açık tutar. Durumunu her zaman görmek için kayan mini kumandayı aç.",
+        "“Sessizdesin” hatırlatması, mikrofon kapalıyken konuşmaya başladığında seni uyarır."
+      ],
+      "faq": [
+        {
+          "q": "AirPods basışı Chrome'da neden çalışmıyor?",
+          "a": "Chrome, web sayfaları için macOS AirPods susturma hareketini desteklemez. Muffle bu basışı kendisi yakalar ve mikrofonu doğrudan susturur."
+        },
+        {
+          "q": "SoWork ve Gather içinde çalışır mı?",
+          "a": "Evet. Muffle mikrofonu kapattığında, mikrofonunu kullanan her web sitesi susturulur."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-mute-not-working-on-mac",
+      "title": "AirPods Susturma Mac'te Çalışmıyor mu? Mikrofon Çözümü",
+      "description": "AirPods sapına basınca hata sesi mi geliyor? Mac'te mikrofon denetlenemiyor hatasının nedenini ve her uygulamada susturmanın kolay yolunu öğren.",
+      "h1": "Mac'inde AirPods susturma çalışmıyor mu? İşte çözümü",
+      "intro": [
+        "macOS, AirPods sapına basarak görüşmeyi susturmana izin verir ancak yalnızca arama uygulaması bunu destekliyorsa. Chrome ve içindeki web görüşmeleri dahil birçok uygulama bunu desteklemez. Sapa basarsın, kısa bir hata sesi duyarsın, mikrofonun denetlenemediğini belirten bir uyarı alırsın ve görüşmedekiler seni duymaya devam eder.",
+        "Muffle bu desteği her uygulamaya kazandırır. Basışı yakalar, Mac'inin mikrofonunu susturur ve standart susturma sesini çalar."
+      ],
+      "steps_title": "AirPods basışının her uygulamayı susturmasını sağla",
+      "steps": [
+        "Muffle'ı yükle ve mikrofon izni ver. macOS, basışları yalnızca mikrofonu kullanabilen uygulamalara iletir.",
+        "Muffle Ayarları içinde “AirPods sapına basarak sustur ve aç” seçeneğinin açık olduğunu kontrol et.",
+        "Bir görüşmeye katıl. Basış yalnızca bir uygulama mikrofonu kullanırken susturur.",
+        "Susturmak için sapa bir kez bas, sesi geri açmak için tekrar bas."
+      ],
+      "tips": [
+        "Görüşmeler dışında bu basış, müziği her zamanki gibi çalmaya ve duraklatmaya devam eder.",
+        "AirPods modelin arama kontrolleri için farklı bir basış kullanıyorsa Sistem Ayarları içindeki AirPods ayarlarını kontrol et."
+      ],
+      "faq": [
+        {
+          "q": "AirPods'uma bastığımda Mac'im neden hata sesi çalıyor?",
+          "a": "Görüşme yaptığın uygulama AirPods susturma basışını desteklemediği için macOS bu komutu reddeder. Muffle çalışırken bu basış bunun yerine mikrofonunu susturur."
+        },
+        {
+          "q": "Hangi AirPods modelleri susturma basışını destekler?",
+          "a": "AirPods Pro, AirPods 3 ve daha yenileri ile AirPods Max ve arama kontrollerini destekleyen Beats modelleri."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-keyboard-shortcut-mac",
+      "title": "Mac Mikrofon Susturma Klavye Kısayolu",
+      "description": "Her uygulamada Mac mikrofonunu sustur ve aç. Tek bir genel klavye kısayolu tanımla, Erişilebilirlik iznine gerek yok.",
+      "h1": "Mac mikrofonunu klavye kısayolu ile susturma",
+      "intro": [
+        "macOS sisteminde dikte için bir tuş var ancak mikrofonu susturmak için bir tuş yok. Her toplantı uygulamasının kendi kısayolu bulunur ve bunlar sadece o uygulama en öndeyken çalışır.",
+        "Muffle doğrudan mikrofonun kendisini susturan tek bir kısayol ekler ve her uygulamada aynı anda çalışır. Saptanmış kısayol Control-Option-M kombinasyonudur ve istediğin tuşla değiştirebilirsin."
+      ],
+      "steps_title": "Tek bir kısayolla sustur",
+      "steps": [
+        "Muffle uygulamasını yükle.",
+        "Susturmak için Control-Option-M kısayoluna bas. Menü çubuğu ikonu kırmızıya döner ve ekranda küçük bir \"Sessizde\" onayı görünür.",
+        "Mikrofonu açmak için kısayola tekrar bas.",
+        "Kısayolu değiştirmek için Muffle Ayarları penceresini aç, kısayola tıkla ve yeni bir tuşa bas."
+      ],
+      "tips": [
+        "Sessizdeyken konuşmak için kısayolu basılı tut, susmak için tuşu bırak.",
+        "Fareyle anında susturmak için menü çubuğundaki Muffle ikonuna sağ tıkla."
+      ],
+      "faq": [
+        {
+          "q": "Görüşme uygulaması en önde değilken kısayol çalışır mı?",
+          "a": "Evet. Tam ekran uygulamalar dahil her yerden çalışır."
+        },
+        {
+          "q": "F5 gibi tek bir tuş kullanabilir miyim?",
+          "a": "Evet. Fonksiyon tuşları tek başına çalışır; diğer tuşlar için Control, Option veya Command gerekir."
+        }
+      ]
+    },
+    {
+      "slug": "push-to-talk-on-mac",
+      "title": "Mac İçin Bas Konuş Özelliği: Tüm Uygulamalarda",
+      "description": "Mac üzerinde Zoom, Google Meet, Teams, Discord ve diğer uygulamalarda bas konuş kullan. Bir tuşa basılı tutarak konuş, bırakınca sus.",
+      "h1": "Mac için bas konuş: Her uygulamada geçerli",
+      "intro": [
+        "Bas konuş özelliği bir tuşa basılı tutana kadar seni sessizde tutar. Kalabalık bir toplantı veya gürültülü bir ortamda sessiz kalmanın en kolay yoludur. Ancak çok az uygulamada bulunur ve her biri farklı bir tuş kullanır.",
+        "Muffle, Mac üzerindeki her uygulamaya bas konuş desteği getirir. Sessizde kal, konuşmak için kısayolu basılı tut, bırakınca tekrar sessize geç."
+      ],
+      "steps_title": "Bas konuş özelliğini kullan",
+      "steps": [
+        "Muffle uygulamasını yükle.",
+        "Control-Option-M kısayoluyla ya da AirPods kulaklığınla mikrofonu sustur.",
+        "Konuşurken Control-Option-M kısayolunu basılı tut.",
+        "Tuşu bırak. Yeniden sessizdesin."
+      ],
+      "tips": [
+        "Kısayola bir kez basmak susturma durumunu değiştirir. Tuşu basılı tutmak ise bas konuş özelliğini çalıştırır.",
+        "Muffle Ayarları içinden kullanımı rahat bir tuş seçebilirsin, örneğin bir F tuşu."
+      ],
+      "faq": [
+        {
+          "q": "Bas konuş Google Meet üzerinde çalışır mı?",
+          "a": "Evet. Muffle doğrudan mikrofonu susturur, bu yüzden bas konuş Google Meet, Zoom, Teams, Discord ve diğer her uygulamada çalışır."
+        },
+        {
+          "q": "Bas sus özelliği var mı?",
+          "a": "Evet. Mikrofon açıkken kısayolu basılı tutarsan tuşu bırakana kadar seni susturur."
+        }
+      ]
+    },
+    {
+      "slug": "stop-apps-changing-mic-volume",
+      "title": "Chrome ve Zoom Mac Mikrofon Sesini Değiştirmesin",
+      "description": "Google Meet, Chrome, Zoom ve Teams Mac mikrofon seviyesini değiştirmesin. Mikrofon ses düzeyini kilitle, hiçbir uygulama müdahale edemesin.",
+      "h1": "Uygulamaların Mac mikrofon seviyesini değiştirmesini engelleme",
+      "intro": [
+        "Birçok görüşme uygulaması giriş seviyeni kendiliğinden ayarlar. Buna otomatik kazanç kontrolü denir. Sistem Ayarları üzerinden iyi bir seviye belirlersin, bir Google Meet görüşmesine katılırsın ve birkaç dakika sonra sürgü kayar; insanlar sesinin kısıldığını ya da bozulduğunu söyler.",
+        "Muffle mikrofon seviyeni kilitleyebilir. Herhangi bir uygulama seviyeyi değiştirdiğinde Muffle onu hemen eski haline getirir."
+      ],
+      "steps_title": "Mikrofon seviyeni kilitle",
+      "steps": [
+        "Muffle uygulamasını yükle.",
+        "Menü çubuğundaki Muffle ikonuna tıkla ve mikrofon sürgüsüyle seviyeni ayarla.",
+        "Sürgünün yanındaki kilit simgesine tıkla.",
+        "Görüşmelerine katıl. Giriş seviyen tam ayarladığın yerde kalır."
+      ],
+      "tips": [
+        "Görüşme sırasında seviyen çok düşerse Muffle seni panelde uyarır.",
+        "Kilit özelliği her mikrofon için ayrı bir seviye hatırlar; AirPods ve Mac'inin dahili mikrofonu kendi ayarını korur."
+      ],
+      "faq": [
+        {
+          "q": "Mac mikrofon ses seviyem neden sürekli değişiyor?",
+          "a": "Chrome, Zoom ve Teams gibi uygulamalar otomatik kazanç kontrolü kullanır ve sen konuşurken sistem giriş seviyesini değiştirir."
+        },
+        {
+          "q": "Seviyeyi kendim yine de değiştirebilir miyim?",
+          "a": "Evet. Muffle panelindeki sürgüyü kullanabilirsin; bu işlem kilitli seviyeyi günceller."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-on-mac",
+      "title": "Mac Mikrofon Susturma: 4 Farklı Yol",
+      "description": "Mac mikrofonunu susturmanın 4 yolu: Uygulama düğmesi, Sistem Ayarları, genel kısayol ve AirPods. Hangisinin her uygulamada çalıştığını öğren.",
+      "h1": "Mac üzerinde mikrofon nasıl susturulur?",
+      "intro": [
+        "Mac klavyesinde mikrofonu kapatmak için özel bir tuş yoktur. Kullandığın uygulamaya ve duruma göre birkaç seçeneğin var, ancak bunların sadece bir kısmı her yerde çalışır."
+      ],
+      "steps_title": "Kullanabileceğin yollar",
+      "steps": [
+        "Görüşme uygulamasının kendi düğmesi ya da kısayolu. Sadece o uygulamada ve yalnızca uygulama en öndeyken çalışır.",
+        "Sistem Ayarları, Ses, Giriş bölümü. Giriş seviyesini sıfıra çekmek her mikrofonda tam susturma sağlamaz ve uygulamalar seviyeyi tekrar yükseltebilir.",
+        "Muffle ile genel bir kısayol. Tek bir tuş her uygulamada doğrudan mikrofonu susturur.",
+        "AirPods kulaklığın. Muffle sayesinde sapa basmak, Chrome içindeki Google Meet dahil her görüşmeyi susturur."
+      ],
+      "tips": [
+        "Hangi uygulamada olursan ol, mikrofon kapalıyken Muffle menü çubuğu ikonu kırmızıya döner.",
+        "Muffle uygulamasından çıkış yapmak mikrofonunu her zaman geri açar."
+      ],
+      "faq": [
+        {
+          "q": "Mac sisteminde yerleşik bir mikrofon susturma özelliği var mı?",
+          "a": "Tüm sistemi kapsayan bir özellik yok. macOS mikrofonu yalnızca bunu destekleyen uygulamaların içinde susturur. Muffle ise sistem genelinde çalışan gerçek bir susturma özelliği ekler."
+        },
+        {
+          "q": "Muffle ile susturmak her uygulamayı susturur mu?",
+          "a": "Evet. Muffle tüm mikrofonları donanım seviyesinde kapatır, böylece sen açana kadar hiçbir uygulama seni duyamaz."
+        }
+      ]
+    },
+    {
+      "slug": "youre-muted-reminder",
+      "title": "Mac'te Her Uygulamada “Sessizdesin” Uyarısı Al",
+      "description": "Sessizdeyken konuşuyor musun? Muffle bunu fark eder; Google Meet, Zoom, Teams, Slack ve Mac'indeki her uygulamada “Sessizdesin” hatırlatması gösterir.",
+      "h1": "Her görüşme uygulaması için “Sessizdesin” hatırlatması",
+      "intro": [
+        "Zoom sessizdeyken konuştuğunda seni uyarır. Diğer çoğu uygulama bunu yapmaz, web üzerinden yapılan görüşmeler ise neredeyse hiç yapmaz. Bir dakika boyunca bir şeyler anlatırsın, sonra herkesin seni beklediğini fark edersin.",
+        "Muffle, sen sessizdeyken konuşup konuşmadığını takip eder ve her uygulamada bir hatırlatma gösterir. Görüşmede AirPods veya bir kulaklık kullanıldığında Mac'in kendi mikrofonunu dinler, üstelik sadece ses seviyesine bakar. Hiçbir şey kaydedilmez."
+      ],
+      "steps_title": "Hatırlatmayı aç",
+      "steps": [
+        "Muffle'ı yükle ve mikrofon izni ver.",
+        "Muffle Ayarları içinde “Sessizdeyken konuşursam hatırlat” seçeneğinin açık olduğundan emin ol.",
+        "AirPods veya bir kulaklık ile görüşmeye katıl ve mikrofonu sustur.",
+        "Konuşmaya başla. Ekranda “Sessizdesin” hatırlatması görünür."
+      ],
+      "tips": [
+        "Bir önceki toplantıdan beri mikrofonun hâlâ sessizdeyken yeni bir görüşmeye mi katılıyorsun? Muffle görüşme başlar başlamaz sana hatırlatır.",
+        "Klavyede yazı yazmak hatırlatmayı tetiklemez. Yalnızca düzenli konuşma tetikler."
+      ],
+      "faq": [
+        {
+          "q": "Hatırlatma Mac'in dahili mikrofonuyla çalışır mı?",
+          "a": "Görüşmede AirPods veya bir kulaklık kullanıldığında çalışır. Görüşme Mac'in kendi mikrofonunu kullanıyorsa, o mikrofon susturulmuş olacağı için seni duyamaz."
+        },
+        {
+          "q": "Sesim kaydediliyor mu?",
+          "a": "Hayır. Muffle yalnızca ses seviyesini ölçer; hiçbir sesi asla saklamaz veya göndermez."
+        }
+      ]
+    }
+  ],
+  "support": {
+    "title": "Muffle Destek",
+    "description": "Mac için Muffle yardımı: AirPods ile susturma kurulumu, klavye kısayolu, satın alımlar ve daha fazlası.",
+    "h1": "Destek",
+    "sections": [
+      {
+        "h": "Başlarken",
+        "items": [
+          "Muffle menü çubuğunda duruyor. Kontroller için mikrofon ikonuna tıkla, anında susturmak için sağ tıkla.",
+          "Görüşme sırasında susturmak için AirPods sapına bas, açmak için tekrar bas.",
+          "Saptanmış kısayol Control-Option-M tuşlarıdır. Susturmak ya da açmak için bir kez bas. Sessizdeyken konuşmak için basılı tut."
+        ]
+      },
+      {
+        "h": "AirPods basışı susturmuyor",
+        "items": [
+          "Yalnızca bir görüşme sırasında, bir uygulama mikrofonunu kullanırken çalışır.",
+          "Sistem Ayarları > Gizlilik ve Güvenlik > Mikrofon bölümünden Muffle için mikrofon izni ver.",
+          "Muffle Ayarları içinde “AirPods sapına basarak sustur ve aç” seçeneğinin açık olduğunu kontrol et.",
+          "AirPods modelinin arama kontrollerini desteklemesi gerekir: AirPods Pro, AirPods 3 ve daha yenisi ya da AirPods Max."
+        ]
+      },
+      {
+        "h": "Görüşme uygulaması mikrofonumu hâlâ açık gösteriyor",
+        "items": [
+          "Bu beklenen bir durumdur. Muffle mikrofonun kendisini kapatır; bu yüzden uygulama açık olduğunu sansa bile sessizlik alır. Menü çubuğundaki Muffle ikonuna güven: Kırmızı ikon kimsenin seni duymadığını gösterir."
+        ]
+      },
+      {
+        "h": "Satın alımlar",
+        "items": [
+          "Muffle'ı 3 gün boyunca ücretsiz deneyebilirsin. Sonrasında tek seferlik bir satın alımla kilidini aç. Abonelik yoktur.",
+          "Satın alımı başka bir Mac'te geri yüklemek için Muffle Ayarları'nı aç ve Satın Almayı Geri Yükle'yi seç."
+        ]
+      }
+    ],
+    "contact_title": "İletişim",
+    "contact_text": "Bize e-posta gönder:"
+  },
+  "privacy_page": {
+    "title": "Muffle Gizlilik Politikası",
+    "description": "Muffle hiçbir sesi kaydetmez, saklamaz veya göndermez ve hiçbir veri toplamaz. Mikrofon kullanımını buradan incele.",
+    "h1": "Gizlilik Politikası",
+    "updated": "Son güncelleme: 29 Eylül 2026.",
+    "intro": "Muffle, Mac'inin mikrofonunu susturur. Söylediğin hiçbir şeyin Mac'inden asla çıkmaması üzerine kurulmuştur.",
+    "sections": [
+      {
+        "h": "Muffle mikrofonunla ne yapar?",
+        "p": [
+          "Görüşmeler sırasında Muffle, mikrofonunla sessiz bir bağlantı açık tutar. macOS, AirPods susturma basışını yalnızca mikrofonu kullanan uygulamalara ilettiği için AirPods basışının çalışmasını bu bağlantı sağlar.",
+          "Eğer “Sessizdeyken konuşursam hatırlat” ayarını açarsan Muffle, konuşmaya başladığını fark edebilmek için sen sessizdeyken Mac'inin dahili mikrofonunun ses şiddetini de ölçer.",
+          "Muffle yalnızca ses şiddeti sayılarına bakar. Sesleri hiçbir zaman kaydetmez, saklamaz, metne dökmez ya da göndermez."
+        ]
+      },
+      {
+        "h": "Topladığımız veriler",
+        "p": [
+          "Hiçbiri. Muffle'da hesap, analiz, reklam ve takip yoktur. Bizim hiçbir sunucumuzla bağlantı kurmaz."
+        ]
+      },
+      {
+        "h": "Satın alımlar",
+        "p": [
+          "Ücretsiz deneme ve tek seferlik satın alma işlemleri Apple'ın App Store mağazası üzerinden gerçekleşir. Ödeme bilgilerini Apple yönetir, biz bu bilgileri asla görmeyiz. Bu satın alımlarda Apple'ın gizlilik politikası geçerlidir."
+        ]
+      },
+      {
+        "h": "Mac'inde saklanan ayarlar",
+        "p": [
+          "Klavye kısayolun gibi tercihler Mac'inde, Muffle'ın kendi saklama alanında kalır. Muffle'ı silmek bu ayarları da siler."
+        ]
+      }
+    ],
+    "contact": "Gizlilik hakkında sorular:"
+  }
+}

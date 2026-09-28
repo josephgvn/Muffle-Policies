@@ -1,0 +1,643 @@
+{
+  "meta": {
+    "home_title": "Muffle: Demp je Mac-microfoon met AirPods of sneltoets",
+    "home_description": "Demp je microfoon in Google Meet, Zoom, Teams, Slack en elke andere app op je Mac. Druk op je AirPods of gebruik één sneltoets. 3 dagen gratis.",
+    "og_title": "Demp de microfoon van je Mac overal vandaan.",
+    "og_subtitle": "Druk op je AirPods of gebruik één sneltoets. Werkt in elke app."
+  },
+  "nav": {
+    "features": "Functies",
+    "guides": "Handleidingen",
+    "support": "Ondersteuning",
+    "download": "Download Muffle",
+    "home": "Home",
+    "menu": "Menu"
+  },
+  "cta": {
+    "download": "Download in de Mac App Store",
+    "coming_soon": "Binnenkort in de Mac App Store",
+    "trial": "3 dagen gratis. Daarna één betaling, geen abonnement.",
+    "requirements": "Voor macOS 14 Sonoma en nieuwer."
+  },
+  "hero": {
+    "title": "Demp de microfoon van je Mac overal vandaan.",
+    "subtitle": "Druk op je AirPods of gebruik één sneltoets. Muffle schakelt de microfoon zelf uit, zodat Google Meet, Zoom, Teams, Slack en elke andere app alleen stilte horen.",
+    "image_alt": "Het Muffle-venster in de Mac-menubalk tijdens een Google Meet-gesprek in Chrome"
+  },
+  "works_with": {
+    "title": "Werkt met elke app die je microfoon gebruikt",
+    "apps": [
+      "Google Meet",
+      "Zoom",
+      "Microsoft Teams",
+      "Slack",
+      "Discord",
+      "FaceTime",
+      "Webex",
+      "WhatsApp",
+      "Skype",
+      "SoWork",
+      "Gather",
+      "Chrome",
+      "Safari",
+      "Arc",
+      "Edge",
+      "Firefox"
+    ],
+    "note": "Muffle dempt de microfoon op hardwareniveau, dus het maakt niet uit welke app, browser of tabblad actief is."
+  },
+  "features": {
+    "title": "Alles wat je Mac zou moeten doen tijdens een gesprek",
+    "items": [
+      {
+        "title": "Druk op je AirPods om te dempen",
+        "text": "Druk tijdens elk gesprek eenmaal op het steeltje om te dempen en nogmaals om weer in te schakelen. Het werkt zelfs in Chrome, waar Google Meet en andere webgesprekken de AirPods negeren."
+      },
+      {
+        "title": "Eén sneltoets voor elke app",
+        "text": "Control-Option-M dempt je overal, zelfs wanneer het gesprek in een tabblad op de achtergrond staat. Houd de toets ingedrukt om tijdelijk te praten en laat los om weer te dempen."
+      },
+      {
+        "title": "Een herinnering wanneer je praat terwijl je gedempt bent",
+        "text": "Begin je te praten terwijl je gedempt bent? Muffle waarschuwt je meteen met “Je bent gedempt”, nog voordat je jouw hele verhaal voor niets vertelt."
+      },
+      {
+        "title": "Gesprekken op de automatische piloot",
+        "text": "Start elk gesprek gedempt, schakel de microfoon weer in zodra een gesprek eindigt en demp automatisch zodra je je Mac vergrendelt."
+      },
+      {
+        "title": "Zie altijd meteen of je live bent",
+        "text": "Een kleine zwevende knop toont de status van je microfoon tijdens gesprekken. Klik erop om direct te dempen of in te schakelen."
+      },
+      {
+        "title": "Je microfoonniveau blijft stabiel",
+        "text": "Chrome, Zoom en Teams passen je microfoonvolume vaak zomaar aan. Vergrendel het niveau en Muffle zet het direct weer terug."
+      },
+      {
+        "title": "Veilig als de batterij van je AirPods leeg raakt",
+        "text": "Als de verbinding met je koptelefoon midden in een vergadering wegvalt, dempt Muffle voordat de Mac overschakelt naar de interne microfoon en iedereen je kamer kan horen."
+      },
+      {
+        "title": "Opdrachten en Bedieningspaneel",
+        "text": "Demp via de app Opdrachten, Siri, een Stream Deck, Raycast of met een handige knop in het Bedieningspaneel."
+      }
+    ],
+    "image_reminder_alt": "De herinnering “Je bent gedempt” onder in het scherm",
+    "image_pills_alt": "De zwevende mini-controller in gedempte en actieve toestand",
+    "image_automation_alt": "Muffle-instellingen voor het gedempt starten van gesprekken en andere automatiseringen"
+  },
+  "how": {
+    "title": "Binnen één minuut ingesteld",
+    "steps": [
+      "Installeer Muffle vanuit de Mac App Store en geef microfoontoegang.",
+      "Neem deel aan een gesprek in een willekeurige app, zoals je gewend bent.",
+      "Druk op je AirPods, druk op Control-Option-M of klik op het icoon in de menubalk om te dempen."
+    ]
+  },
+  "privacy": {
+    "title": "Privacy voorop",
+    "text": "Muffle neemt nooit audio op, slaat niets op en verstuurt geen geluid. De app schakelt alleen je microfoon in of uit en meet het geluidsniveau. Geen accounts, geen statistieken en geen tracking."
+  },
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "items": [
+      {
+        "q": "Werkt Muffle met Google Meet in Chrome?",
+        "a": "Ja. Chrome geeft de dempdruk op je AirPods niet door aan webgesprekken. Muffle vangt dit signaal op en dempt de microfoon zelf. Dit geldt voor elk gesprek in een browsertabblad."
+      },
+      {
+        "q": "Zien anderen in het gesprek dat ik gedempt ben?",
+        "a": "Je vergader-app toont de microfoon mogelijk nog steeds als actief, omdat Muffle de microfoon zelf uitschakelt en niet de knop in de app. Anderen horen in beide gevallen niets. Het Muffle-icoon in de menubalk wordt rood zolang je gedempt bent."
+      },
+      {
+        "q": "Welke AirPods zijn geschikt?",
+        "a": "AirPods Pro, AirPods 3 en nieuwer, AirPods Max en Beats-modellen met gespreksbediening. De sneltoets op het toetsenbord en de bediening in de menubalk werken met elke microfoon."
+      },
+      {
+        "q": "Werkt het met Zoom, Teams, Slack en Discord?",
+        "a": "Ja. Muffle werkt met elke app op je Mac die de microfoon gebruikt, zowel desktopprogramma's als gesprekken in de browser."
+      },
+      {
+        "q": "Zit er een abonnement aan vast?",
+        "a": "Nee. Probeer elke functie 3 dagen gratis en ontgrendel Muffle daarna met een eenmalige aankoop."
+      },
+      {
+        "q": "Waarom heeft Muffle microfoontoegang nodig?",
+        "a": "macOS geeft een druk op de AirPods alleen door aan apps die de microfoon actief gebruiken. Daarom houdt Muffle tijdens gesprekken een stille verbinding open. Er wordt niets opgenomen."
+      },
+      {
+        "q": "Wat gebeurt er als ik Muffle afsluit terwijl ik gedempt ben?",
+        "a": "Muffle schakelt je microfoon automatisch weer in zodra je de app afsluit, zodat je nooit per ongeluk onhoorbaar blijft."
+      },
+      {
+        "q": "Welke versies van macOS worden ondersteund?",
+        "a": "macOS 14 Sonoma en nieuwer. De knop in het Bedieningspaneel vereist macOS 26 of nieuwer."
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Stop met zoeken naar de dempknop.",
+    "text": "Probeer Muffle 3 dagen gratis uit."
+  },
+  "footer": {
+    "guides": "Handleidingen",
+    "product": "Muffle",
+    "support": "Ondersteuning",
+    "privacy": "Privacybeleid",
+    "language": "Taal",
+    "contact": "Contact",
+    "copyright": "© 2026 Muffle. AirPods en Mac zijn handelsmerken van Apple Inc."
+  },
+  "guides_index": {
+    "title": "Muffle-handleidingen: Meet, Zoom en Teams dempen op Mac",
+    "description": "Stappenplannen voor het dempen van Google Meet, Zoom, Teams en webgesprekken op een Mac met je AirPods of een sneltoets.",
+    "h1": "Handleidingen",
+    "intro": "Korte, praktische antwoorden om je microfoon op een Mac in elke app snel te dempen."
+  },
+  "guide_labels": {
+    "on_this_page": "Op deze pagina",
+    "faq": "Veelgestelde vragen",
+    "related": "Meer handleidingen",
+    "try": "Probeer Muffle 3 dagen gratis",
+    "read": "Lees de handleiding"
+  },
+  "guides": [
+    {
+      "slug": "mute-google-meet-with-airpods",
+      "title": "Google Meet dempen met AirPods op de Mac | Muffle",
+      "description": "AirPods indrukken dempt Google Meet niet in Chrome op een Mac. Zo demp je Meet met je AirPods, sneltoets of menubalk in elk tabblad.",
+      "h1": "Google Meet dempen met AirPods op een Mac",
+      "intro": [
+        "Op een iPhone dempt een druk op het steeltje van je AirPods het gesprek. Op een Mac draait Google Meet in Chrome, en Chrome geeft die druk niet door aan webpagina's. Je drukt, hoort een fouttoon en Meet blijft je stem uitzenden.",
+        "Muffle lost dit op voor elk Meet-gesprek. Het vangt de druk op je AirPods zelf op en dempt de microfoon van je Mac, zodat Meet stilte hoort, zelfs wanneer het tabblad op de achtergrond staat."
+      ],
+      "steps_title": "Google Meet dempen met je AirPods",
+      "steps": [
+        "Installeer Muffle en geef microfoontoegang wanneer daarom wordt gevraagd.",
+        "Neem deel aan je Google Meet-vergadering in Chrome, Safari, Arc of Edge.",
+        "Druk eenmaal op het AirPods-steeltje om te dempen. Het Muffle-pictogram wordt rood.",
+        "Druk nogmaals om in te schakelen. Je kunt ook vanuit elke app op Control-Option-M drukken."
+      ],
+      "tips": [
+        "Meet toont je microfoon mogelijk nog steeds als ingeschakeld, omdat Muffle de microfoon zelf dempt en niet de knop in Meet. Iedereen hoort stilte zolang het Muffle-pictogram rood is.",
+        "Schakel „Start elk gesprek gedempt” in om altijd meteen gedempt aan elk Meet-gesprek deel te nemen."
+      ],
+      "faq": [
+        {
+          "q": "Waarom dempt een druk op mijn AirPods Google Meet niet?",
+          "a": "Chrome ondersteunt het AirPods-dempgebaar van macOS niet voor webgesprekken, waardoor macOS geen app heeft om de druk naartoe te sturen. Muffle wordt die app."
+        },
+        {
+          "q": "Is de eigen sneltoets van Meet niet voldoende?",
+          "a": "De sneltoets Command-D van Meet werkt alleen wanneer het Meet-tabblad op de voorgrond staat. De sneltoets en AirPods-druk van Muffle werken vanuit elke app."
+        }
+      ]
+    },
+    {
+      "slug": "mute-zoom-with-airpods",
+      "title": "Zoom dempen met AirPods of sneltoets op Mac | Muffle",
+      "description": "Demp Zoom op je Mac met je AirPods of één globale sneltoets, ook als Zoom op de achtergrond staat. Werkt in de Zoom-app en in de browser.",
+      "h1": "Zoom dempen met AirPods of een sneltoets op een Mac",
+      "intro": [
+        "Zooms eigen sneltoets, Command-Shift-A, werkt alleen wanneer Zoom het actieve venster is. Als je aantekeningen maakt of een ander venster deelt, kost het zoeken naar de dempknop een paar onhandige seconden.",
+        "Muffle geeft je één dempbediening voor Zoom en elke andere app: je AirPods, een globale sneltoets of de menubalk. Het dempt de microfoon zelf, dus het werkt in de Zoom-app en bij Zoom-gesprekken in de browser."
+      ],
+      "steps_title": "Zoom overal dempen",
+      "steps": [
+        "Installeer Muffle en geef microfoontoegang.",
+        "Neem zoals gewoonlijk deel aan je Zoom-vergadering.",
+        "Druk op je AirPods-steeltje of op Control-Option-M om te dempen, vanuit elke app.",
+        "Houd Control-Option-M ingedrukt terwijl je gedempt bent om te praten, en laat los om weer te dempen."
+      ],
+      "tips": [
+        "Als Zoom op je Mac zelf de druk op de AirPods opvangt, dempen de sneltoets en de menubalk je nog steeds via Muffle.",
+        "Zoom geeft je mogelijk weer als ingeschakeld terwijl Muffle de microfoon heeft uitgezet. Deelnemers horen stilte."
+      ],
+      "faq": [
+        {
+          "q": "Vervangt Muffle de dempknop van Zoom?",
+          "a": "Het werkt ernaast. Muffle schakelt de microfoon uit voor elke app, zodat je Zoom kunt dempen zonder naar het venster te wisselen."
+        },
+        {
+          "q": "Kan ik push-to-talk gebruiken in Zoom?",
+          "a": "Ja. Houd de Muffle-sneltoets ingedrukt om te praten terwijl je gedempt bent. Dit werkt in Zoom en in elke andere app."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microsoft-teams-with-airpods",
+      "title": "Microsoft Teams dempen met AirPods op Mac | Muffle",
+      "description": "Demp Microsoft Teams op je Mac met je AirPods, een globale sneltoets of de menubalk. Werkt in de Teams-app en in Teams in de browser.",
+      "h1": "Microsoft Teams dempen met AirPods op een Mac",
+      "intro": [
+        "De Teams-sneltoets, Command-Shift-M, werkt alleen wanneer het Teams-venster actief is. Tijdens een vergadering ben je meestal ergens anders bezig: in een document, een browser of op een gedeeld scherm.",
+        "Muffle dempt je microfoon vanuit elke app, zowel in de Teams-app als in Teams op het web. Druk op je AirPods, gebruik één sneltoets of klik in de menubalk."
+      ],
+      "steps_title": "Teams overal dempen",
+      "steps": [
+        "Installeer Muffle en geef microfoontoegang.",
+        "Neem deel aan je Teams-vergadering.",
+        "Druk op Control-Option-M of het steeltje van je AirPods om te dempen. Het pictogram in de menubalk wordt rood.",
+        "Druk nogmaals om in te schakelen, of houd de sneltoets ingedrukt om te praten terwijl je gedempt bent."
+      ],
+      "tips": [
+        "Teams in een browsertabblad krijgt via Muffle dezelfde AirPods-ondersteuning als Google Meet.",
+        "Schakel „Dempen wanneer het scherm wordt vergrendeld” in, zodat je microfoon nooit open blijft staan wanneer je even wegloopt."
+      ],
+      "faq": [
+        {
+          "q": "Werkt de druk op de AirPods in de Teams-app?",
+          "a": "Dat hangt af van je Teams-versie, omdat Teams de druk soms zelf opvangt. De sneltoets en de menubalkknop van Muffle werken in ieder geval altijd."
+        },
+        {
+          "q": "Geeft Teams aan dat ik gedempt ben?",
+          "a": "Niet altijd. Muffle dempt de microfoon, dus Teams toont de microfoon mogelijk nog als aan terwijl iedereen stilte hoort."
+        }
+      ]
+    },
+    {
+      "slug": "mute-slack-huddles",
+      "title": "Slack Huddles dempen met sneltoets op Mac | Muffle",
+      "description": "Demp Slack Huddles op je Mac vanuit elke app met één globale sneltoets of je AirPods. Nooit meer zoeken naar het huddle-venster.",
+      "h1": "Een Slack Huddle dempen vanuit elke app op een Mac",
+      "intro": [
+        "De knoppen van een Slack Huddle zitten in een klein venster dat snel achter je werk verdwijnt, en de dempsneltoets van Slack werkt alleen wanneer Slack op de voorgrond staat.",
+        "Muffle dempt je microfoon voor Slack en elke andere app met één sneltoets of een druk op je AirPods, waar je ook bent op je Mac."
+      ],
+      "steps_title": "Een huddle overal dempen",
+      "steps": [
+        "Installeer Muffle en geef microfoontoegang.",
+        "Start een huddle in Slack of neem eraan deel.",
+        "Druk op Control-Option-M of het steeltje van je AirPods om te dempen.",
+        "Kijk even naar de menubalk: rood betekent dat niemand je hoort."
+      ],
+      "tips": [
+        "De zwevende mini-controller toont je microfoonstatus tijdens elke huddle.",
+        "Houd de sneltoets ingedrukt om snel iets te zeggen terwijl je verder gedempt blijft."
+      ],
+      "faq": [
+        {
+          "q": "Werkt het met de Slack-app en Slack in de browser?",
+          "a": "Ja. Muffle dempt de microfoon zelf, dus het werkt in beide situaties."
+        },
+        {
+          "q": "Zien collega's dat ik gedempt ben?",
+          "a": "Slack toont je microfoon mogelijk nog steeds als aan. Ze horen stilte zolang Muffle je microfoon heeft gedempt."
+        }
+      ]
+    },
+    {
+      "slug": "mute-discord-on-mac",
+      "title": "Discord push-to-talk en sneltoets voor dempen op Mac",
+      "description": "Gebruik één push-to-talk en demp-sneltoets voor Discord op je Mac, of demp met je AirPods. Werkt in de Discord-app en in de browser.",
+      "h1": "Push-to-talk en een universele demp-sneltoets voor Discord op Mac",
+      "intro": [
+        "Push-to-talk in Discord vereist extra bevoegdheden op een Mac en werkt niet voor Discord in de browser. Als je ook deelneemt aan Meet- of Zoom-gesprekken, heb je voor elke app weer een andere sneltoets nodig.",
+        "Muffle geeft je één toets voor al je apps. Tik erop om te dempen, houd ingedrukt om te praten, of druk op je AirPods."
+      ],
+      "steps_title": "Push-to-talk instellen voor Discord",
+      "steps": [
+        "Installeer Muffle en kies Toegang toestaan voor de microfoon.",
+        "Neem deel aan een Discord-spraakskanaal.",
+        "Druk op Control-Option-M om te dempen of in te schakelen. Houd de toets ingedrukt terwijl je gedempt bent om te praten.",
+        "Kies je eigen toets in Muffle-instellingen, bijvoorbeeld een F-toets."
+      ],
+      "tips": [
+        "Voor de sneltoets van Muffle is geen toegang tot Toegankelijkheid nodig.",
+        "Vergrendel je microfoonniveau zodat de automatische versterking van Discord dit niet steeds aanpast."
+      ],
+      "faq": [
+        {
+          "q": "Is dit hetzelfde als de push-to-talk van Discord?",
+          "a": "Het werkt op dezelfde manier, maar dan voor elke app tegelijk. Muffle dempt de microfoon zelf, dus Discord hoort niets totdat je de toets ingedrukt houdt."
+        },
+        {
+          "q": "Kan ik Discord dempen met AirPods?",
+          "a": "Ja. Druk tijdens een spraakgesprek op het steeltje van je AirPods om te dempen of in te schakelen."
+        }
+      ]
+    },
+    {
+      "slug": "mute-webex-on-mac",
+      "title": "Webex dempen vanuit elke app op Mac",
+      "description": "Demp Webex-vergaderingen op je Mac met één universele sneltoets of je AirPods, zelfs als Webex niet het actieve venster is.",
+      "h1": "Webex dempen vanuit elke app op je Mac",
+      "intro": [
+        "De sneltoets voor dempen in Webex werkt alleen als Webex op de voorgrond staat, en de bediening verdwijnt zodra je je scherm deelt.",
+        "Muffle dempt je microfoon overal op je Mac, zodat je een Webex-vergadering kunt dempen zonder te wisselen van programma."
+      ],
+      "steps_title": "Webex overal dempen",
+      "steps": [
+        "Installeer Muffle en kies Toegang toestaan voor de microfoon.",
+        "Neem deel aan je Webex-vergadering.",
+        "Druk op Control-Option-M of op het steeltje van je AirPods om te dempen.",
+        "Gebruik de zwevende mini-controller om je microfoonstatus te zien tijdens het schermdelen."
+      ],
+      "tips": [
+        "Webex toont je mogelijk nog als niet-gedempt. Deelnemers horen stilte zolang het Muffle-pictogram rood is.",
+        "Schakel „Start elk gesprek gedempt” in voor grote vergaderingen."
+      ],
+      "faq": [
+        {
+          "q": "Werkt Muffle met Webex in de browser?",
+          "a": "Ja. Muffle dempt de microfoon op systeemniveau, dus het werkt met elke Webex-versie."
+        },
+        {
+          "q": "Kan ik Webex dempen met AirPods?",
+          "a": "Ja, druk tijdens de vergadering op het steeltje. De sneltoets op het toetsenbord werkt met elke koptelefoon."
+        }
+      ]
+    },
+    {
+      "slug": "mute-browser-calls",
+      "title": "Webgesprekken dempen in Chrome, Safari en Arc op Mac",
+      "description": "Demp gesprekken in Chrome, Safari, Arc, Edge en Firefox met AirPods of één sneltoets. Voor Google Meet, SoWork, Gather, Whereby en meer.",
+      "h1": "Gesprekken in elk browsertabblad dempen op een Mac",
+      "intro": [
+        "Steeds meer gesprekken vinden plaats in de browser: Google Meet, Teams op het web, virtuele kantoren zoals SoWork en Gather, Whereby of Jitsi. Elk platform heeft zijn eigen knoppen en sneltoetsen, die alleen werken als dat tabblad actief is.",
+        "Browsers negeren bovendien de AirPods-druk op een Mac. Muffle herkent deze druk, of één universele sneltoets, en dempt de microfoon meteen voor alle tabbladen tegelijk."
+      ],
+      "steps_title": "Elk webgesprek dempen",
+      "steps": [
+        "Installeer Muffle en kies Toegang toestaan voor de microfoon.",
+        "Open je gesprek in een willekeurig browsertabblad.",
+        "Druk op het steeltje van je AirPods of op Control-Option-M om te dempen, vanuit elke app of elk tabblad.",
+        "Kijk naar het menubalkpictogram: rood betekent dat de microfoon uit staat."
+      ],
+      "tips": [
+        "Virtuele kantoren houden je microfoon urenlang open. Schakel de zwevende mini-controller in om altijd je status te zien.",
+        "De herinnering „Je bent gedempt” waarschuwt je wanneer je begint te praten terwijl je microfoon uit staat."
+      ],
+      "faq": [
+        {
+          "q": "Waarom werkt de druk op AirPods niet in Chrome?",
+          "a": "Chrome ondersteunt de dempfunctie voor AirPods op macOS niet voor webpagina's. Muffle vangt de druk op en dempt direct de microfoon zelf."
+        },
+        {
+          "q": "Werkt het ook in SoWork en Gather?",
+          "a": "Ja. Elke website die je microfoon gebruikt, hoort stilte zodra Muffle de microfoon uitschakelt."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-mute-not-working-on-mac",
+      "title": "AirPods dempen werkt niet op Mac? Los de foutmelding op",
+      "description": "Geeft je AirPods-steeltje een fouttoon en dempt het je gesprek niet? Lees waarom dit gebeurt op een Mac en hoe je elke app direct dempt.",
+      "h1": "AirPods dempen werkt niet op je Mac? Dit is de oplossing",
+      "intro": [
+        "Met macOS kun je een gesprek dempen door op het steeltje van je AirPods te drukken, maar alleen als de app dit ondersteunt. Veel apps doen dat niet, waaronder Chrome en webgebaseerde vergaderingen daarin. Je drukt, hoort een fouttoontje, ziet een melding en het gesprek kan je nog steeds horen.",
+        "Muffle voegt deze ondersteuning toe aan elke app. De app ontvangt de druk, dempt de microfoon van je Mac en laat de normale demptoon horen."
+      ],
+      "steps_title": "Elke app dempen met een druk op je AirPods",
+      "steps": [
+        "Installeer Muffle en geef microfoontoegang. macOS stuurt de druk op het steeltje alleen door naar apps die de microfoon mogen gebruiken.",
+        "Controleer of „Dempen en inschakelen met een druk op je AirPods” aan staat in Muffle-instellingen.",
+        "Neem deel aan een gesprek. De druk dempt alleen wanneer een app daadwerkelijk de microfoon gebruikt.",
+        "Druk eenmaal op het steeltje om te dempen en nogmaals om weer in te schakelen."
+      ],
+      "tips": [
+        "Buiten gesprekken start en pauzeert de druk op het steeltje nog steeds je muziek zoals gewoonlijk.",
+        "Als je AirPods zijn ingesteld op een andere handeling voor gespreksbediening, controleer dan de instellingen van je AirPods in Systeeminstellingen."
+      ],
+      "faq": [
+        {
+          "q": "Waarom speelt mijn Mac een geluid af wanneer ik op mijn AirPods druk?",
+          "a": "De app waarmee je belt ondersteunt de dempactie van AirPods niet, waardoor macOS deze weigert. Met Muffle actief dempt de druk op het steeltje alsnog betrouwbaar je microfoon."
+        },
+        {
+          "q": "Welke AirPods ondersteunen de dempdruk?",
+          "a": "AirPods Pro, AirPods 3 en nieuwer, AirPods Max en Beats-modellen met ondersteuning voor gespreksbediening."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-keyboard-shortcut-mac",
+      "title": "Microfoon dempen op de Mac met een sneltoets",
+      "description": "Stel één algemene sneltoets in om je Mac-microfoon in elke app te dempen en in te schakelen. Geen toegankelijkheidstoegang vereist.",
+      "h1": "Hoe je je microfoon op een Mac dempt met een sneltoets",
+      "intro": [
+        "macOS heeft een toets voor dicteren, maar geen om je mic te dempen. Elke bel-app heeft een eigen sneltoets, en die werkt alleen zolang die app actief is.",
+        "Muffle voegt één sneltoets toe die de microfoon zelf dempt, in elke app tegelijk. De standaard is Control-Option-M, en je kunt elke combinatie kiezen."
+      ],
+      "steps_title": "Dempen met één sneltoets",
+      "steps": [
+        "Installeer Muffle.",
+        "Druk op Control-Option-M om te dempen. Het menubalkpictogram wordt rood en er verschijnt een kleine bevestiging „Gedempt”.",
+        "Druk er nogmaals op om in te schakelen.",
+        "Om dit te wijzigen, open je Muffle-instellingen, klik je op de sneltoets en druk je op een nieuwe combinatie."
+      ],
+      "tips": [
+        "Houd de sneltoets tijdens dempen ingedrukt om te praten en laat los om weer te dempen.",
+        "Klik met de rechtermuisknop op het Muffle-menubalkpictogram om direct met de muis te dempen."
+      ],
+      "faq": [
+        {
+          "q": "Werkt de sneltoets wanneer een bel-app niet actief is?",
+          "a": "Ja. De sneltoets werkt vanuit elke app, ook schermvullende apps."
+        },
+        {
+          "q": "Kan ik één enkele toets gebruiken, zoals F5?",
+          "a": "Ja. Functietoetsen werken los; voor andere toetsen heb je Control, Option of Command nodig."
+        }
+      ]
+    },
+    {
+      "slug": "push-to-talk-on-mac",
+      "title": "Push-to-talk op de Mac voor elke app",
+      "description": "Gebruik push-to-talk op je Mac in Zoom, Google Meet, Teams en Discord. Houd één toets ingedrukt om te praten, laat los om te dempen.",
+      "h1": "Push-to-talk op een Mac, in elke app",
+      "intro": [
+        "Push-to-talk houdt je gedempt totdat je een toets ingedrukt houdt. Het is de eenvoudigste manier om stil te blijven in grote vergaderingen of drukke ruimtes, maar slechts enkele apps bieden het en elk gebruikt een andere toets.",
+        "Muffle voegt push-to-talk toe aan elke app op je Mac. Blijf gedempt, houd de sneltoets ingedrukt om te spreken en laat los om weer te dempen."
+      ],
+      "steps_title": "Push-to-talk gebruiken",
+      "steps": [
+        "Installeer Muffle.",
+        "Demp met Control-Option-M of je AirPods.",
+        "Houd Control-Option-M ingedrukt terwijl je spreekt.",
+        "Laat los. Je bent weer gedempt."
+      ],
+      "tips": [
+        "Door op de sneltoets te tikken schakel je nog steeds dempen in of uit. Ingedrukt houden is push-to-talk.",
+        "Kies een handige toets in Muffle-instellingen, bijvoorbeeld een F-toets."
+      ],
+      "faq": [
+        {
+          "q": "Werkt push-to-talk in Google Meet?",
+          "a": "Ja. Muffle dempt de microfoon zelf, dus push-to-talk werkt in Meet, Zoom, Teams, Discord en elke andere app."
+        },
+        {
+          "q": "Is er ook push-to-mute?",
+          "a": "Ja. Wanneer je niet gedempt bent, dempt het ingedrukt houden van de sneltoets je totdat je loslaat."
+        }
+      ]
+    },
+    {
+      "slug": "stop-apps-changing-mic-volume",
+      "title": "Stop dat Chrome en Zoom je microfoonvolume op Mac wijzigen",
+      "description": "Google Meet, Chrome, Zoom en Teams passen steeds je microfoonniveau aan. Vergrendel je mic-volume zodat geen enkele app het kan wijzigen.",
+      "h1": "Hoe je voorkomt dat apps je microfoonvolume op een Mac wijzigen",
+      "intro": [
+        "Veel bel-apps passen je invoerniveau automatisch aan met automatische volumeregeling. Je stelt een goed niveau in via Systeeminstellingen, start een gesprek in Google Meet, en enkele minuten later is de schuifknop verplaatst en klink je zacht of vervormd.",
+        "Muffle kan je microfoonniveau vergrendelen. Zodra een app dit aanpast, zet Muffle het direct weer terug."
+      ],
+      "steps_title": "Vergrendel je microfoonniveau",
+      "steps": [
+        "Installeer Muffle.",
+        "Klik op het Muffle-pictogram in de menubalk en stel je niveau in met de microfoonschuifknop.",
+        "Klik op het slotje naast de schuifknop.",
+        "Neem deel aan je gesprekken. Je niveau blijft precies zoals je het hebt ingesteld."
+      ],
+      "tips": [
+        "Muffle waarschuwt je in het paneel wanneer je niveau tijdens een gesprek te laag is.",
+        "De vergrendeling onthoudt het niveau per microfoon, zodat je AirPods en de ingebouwde microfoon van je Mac elk hun eigen stand behouden."
+      ],
+      "faq": [
+        {
+          "q": "Waarom verandert het microfoonvolume van mijn Mac steeds?",
+          "a": "Apps zoals Chrome, Zoom en Teams gebruiken automatische volumeregeling en passen het systeeminvoerniveau aan terwijl je praat."
+        },
+        {
+          "q": "Kan ik het niveau nog steeds zelf aanpassen?",
+          "a": "Ja. Gebruik de schuifknop in het Muffle-paneel; dit werkt het vergrendelde niveau direct bij."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-on-mac",
+      "title": "Microfoon dempen op een Mac: 4 manieren",
+      "description": "Vier manieren om je Mac-microfoon te dempen: via de bel-app, Systeeminstellingen, een globale sneltoets of je AirPods, en welke overal werkt.",
+      "h1": "Hoe je je microfoon op een Mac dempt",
+      "intro": [
+        "Er is geen demptoets voor de microfoon op een Mac. Afhankelijk van de app en het moment heb je een paar opties, en slechts enkele werken overal."
+      ],
+      "steps_title": "Je opties",
+      "steps": [
+        "De eigen knop of sneltoets van de bel-app. Deze werkt alleen in die app en alleen wanneer die actief is.",
+        "Systeeminstellingen, Geluid, Invoer. Het invoerniveau naar nul slepen is niet bij elke microfoon een echte demping, en apps kunnen het weer verhogen.",
+        "Een algemene sneltoets met Muffle. Eén toets dempt de microfoon zelf, in elke app.",
+        "Je AirPods. Met Muffle dempt een druk op het steeltje elk gesprek, inclusief Google Meet in Chrome."
+      ],
+      "tips": [
+        "Het Muffle-menubalkpictogram wordt rood zolang de mic uit staat, in welke app je ook werkt.",
+        "Muffle afsluiten schakelt je microfoon altijd weer in."
+      ],
+      "faq": [
+        {
+          "q": "Zit er een ingebouwde microfoondemping op een Mac?",
+          "a": "Geen systeembrede functie. macOS dempt de mic alleen binnen apps die dit ondersteunen. Muffle voegt een echte systeembrede demping toe."
+        },
+        {
+          "q": "Dempt dempen in Muffle elke app?",
+          "a": "Ja. Muffle schakelt elke microfoon uit op hardwareniveau, dus geen enkele app kan je horen totdat je weer inschakelt."
+        }
+      ]
+    },
+    {
+      "slug": "youre-muted-reminder",
+      "title": "Krijg de herinnering “Je bent gedempt” in elke Mac-app",
+      "description": "Praat je terwijl je gedempt bent? Muffle herkent het en toont “Je bent gedempt” in Google Meet, Zoom, Teams, Slack en elke andere app op je Mac.",
+      "h1": "Een herinnering wanneer je praat terwijl je gedempt bent",
+      "intro": [
+        "Zoom waarschuwt je wanneer je praat terwijl je gedempt bent. De meeste andere apps doen dat niet, en videobellen in de browser bijna nooit. Je legt rustig een minuut lang iets uit, om er dan pas achter te komen dat iedereen op je wacht.",
+        "Muffle herkent spraak terwijl je gedempt bent en toont een herinnering, in elke app. Wanneer het gesprek AirPods of een headset gebruikt, luistert de app naar de eigen microfoon van je Mac, en alleen naar het geluidsniveau. Er wordt niets opgenomen."
+      ],
+      "steps_title": "Zet de herinnering aan",
+      "steps": [
+        "Installeer Muffle en kies “Microfoontoegang toestaan”.",
+        "Zorg dat “Herinner me wanneer ik praat terwijl ik gedempt ben” aanstaat in de Muffle-instellingen.",
+        "Start een gesprek of vergadering met AirPods of een headset en demp je microfoon.",
+        "Begin met praten. De melding “Je bent gedempt” verschijnt direct op je scherm."
+      ],
+      "tips": [
+        "Neem je deel aan een gesprek terwijl je nog gedempt bent van de vorige vergadering? Muffle herinnert je eraan zodra het gesprek begint.",
+        "Typen op je toetsenbord activeert de herinnering niet. Alleen duidelijke spraak doet dat."
+      ],
+      "faq": [
+        {
+          "q": "Werkt de herinnering met de ingebouwde microfoon van de Mac?",
+          "a": "Het werkt wanneer het gesprek AirPods of een koptelefoon gebruikt. Als het gesprek de eigen microfoon van de Mac gebruikt, is die microfoon zelf gedempt en kan hij je niet horen."
+        },
+        {
+          "q": "Wordt mijn audio opgenomen?",
+          "a": "Nee. Muffle meet alleen het geluidsniveau en zal nooit audio opnemen, opslaan of verzenden."
+        }
+      ]
+    }
+  ],
+  "support": {
+    "title": "Muffle Ondersteuning",
+    "description": "Hulp bij Muffle voor Mac: AirPods-bediening instellen, de sneltoets gebruiken, aankopen en meer.",
+    "h1": "Ondersteuning",
+    "sections": [
+      {
+        "h": "Aan de slag",
+        "items": [
+          "Muffle staat in je menubalk. Klik op het microfoonpictogram voor de bediening, of klik erop met de rechtermuisknop om direct te dempen.",
+          "Druk tijdens een gesprek op het steeltje van je AirPods om te dempen en nogmaals om weer in te schakelen.",
+          "De standaardsneltoets is Control-Option-M. Druk erop om te dempen of in te schakelen. Houd de toets tijdens dempen ingedrukt om direct te praten."
+        ]
+      },
+      {
+        "h": "De AirPods-druk dempt niet",
+        "items": [
+          "Dit werkt alleen tijdens een actief gesprek, wanneer een app je microfoon daadwerkelijk gebruikt.",
+          "Schakel microfoontoegang voor Muffle in via Systeeminstellingen > Privacy en beveiliging > Microfoon.",
+          "Controleer of “Dempen en inschakelen met een druk op je AirPods” aan staat in de Muffle-instellingen.",
+          "Je AirPods moeten gespreksbediening ondersteunen: AirPods Pro, AirPods 3 en nieuwer of AirPods Max."
+        ]
+      },
+      {
+        "h": "De app toont mijn microfoon nog steeds als actief",
+        "items": [
+          "Dat klopt. Muffle schakelt de microfoon op hardwareniveau uit. Elke app ontvangt dus stilte, ook al denkt de app zelf dat de microfoon nog aan staat. Vertrouw op het Muffle-icoon in de menubalk: rood betekent dat niemand je kan horen."
+        ]
+      },
+      {
+        "h": "Aankopen",
+        "items": [
+          "Muffle is 3 dagen gratis te proberen. Daarna ontgrendel je de app met een eenmalige aankoop. Er is geen abonnement.",
+          "Als je een aankoop op een andere Mac wilt herstellen, open je de Muffle-instellingen en kies je Aankoop herstellen."
+        ]
+      }
+    ],
+    "contact_title": "Contact",
+    "contact_text": "Stuur een e-mail naar"
+  },
+  "privacy_page": {
+    "title": "Muffle Privacybeleid",
+    "description": "Muffle neemt nooit audio op, bewaart niets en verzamelt geen gegevens. Lees hoe Muffle met je microfoon omgaat.",
+    "h1": "Privacybeleid",
+    "updated": "Laatst bijgewerkt op 29 september 2026.",
+    "intro": "Muffle dempt de microfoon van je Mac. De app is zo ontworpen dat niets van wat je zegt ooit je Mac verlaat.",
+    "sections": [
+      {
+        "h": "Wat Muffle met je microfoon doet",
+        "p": [
+          "Tijdens gesprekken houdt Muffle een stille verbinding met je microfoon open. macOS geeft de dempdruk op AirPods alleen door aan apps die de microfoon gebruiken; deze verbinding zorgt ervoor dat de AirPods-bediening werkt.",
+          "Als je de herinnering “Herinner me wanneer ik praat terwijl ik gedempt ben” inschakelt, meet Muffle hoe hard het signaal van de ingebouwde Mac-microfoon is terwijl je gedempt bent, om te merken dat je begint te praten.",
+          "Muffle kijkt uitsluitend naar geluidssterktegetallen. Er wordt nooit audio opgenomen, opgeslagen, omgezet in tekst of verzonden."
+        ]
+      },
+      {
+        "h": "Gegevens die we verzamelen",
+        "p": [
+          "Geen. Muffle gebruikt geen accounts, geen analyseprogramma's, geen advertenties en geen tracking. De app maakt geen verbinding met servers van ons."
+        ]
+      },
+      {
+        "h": "Aankopen",
+        "p": [
+          "De gratis proefperiode en de eenmalige aankoop verlopen via de Mac App Store van Apple. Apple verwerkt alle betalingsgegevens en wij krijgen deze nooit te zien. Het privacybeleid van Apple is van toepassing op deze aankopen."
+        ]
+      },
+      {
+        "h": "Instellingen die op je Mac worden bewaard",
+        "p": [
+          "Je voorkeuren, zoals je eigen sneltoets, blijven lokaal op je Mac in de opslag van Muffle bewaard. Als je Muffle verwijdert, worden deze instellingen ook gewist."
+        ]
+      }
+    ],
+    "contact": "Vragen over privacy:"
+  }
+}

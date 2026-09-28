@@ -1,0 +1,643 @@
+{
+  "meta": {
+    "home_title": "Muffle: Tắt tiếng micrô Mac bằng AirPods hoặc phím tắt",
+    "home_description": "Tắt tiếng micrô trong Google Meet, Zoom, Teams, Slack và mọi ứng dụng trên Mac khi họp trực tuyến. Nhấn AirPods hoặc một phím tắt. Dùng thử miễn phí 3 ngày.",
+    "og_title": "Tắt tiếng micrô trên Mac từ bất kỳ đâu.",
+    "og_subtitle": "Nhấn AirPods hoặc một phím tắt. Hoạt động trong mọi ứng dụng."
+  },
+  "nav": {
+    "features": "Tính năng",
+    "guides": "Hướng dẫn",
+    "support": "Hỗ trợ",
+    "download": "Tải Muffle",
+    "home": "Trang chủ",
+    "menu": "Menu"
+  },
+  "cta": {
+    "download": "Tải về trên Mac App Store",
+    "coming_soon": "Sắp có trên Mac App Store",
+    "trial": "Dùng thử miễn phí 3 ngày. Mua một lần, không đăng ký thuê bao.",
+    "requirements": "Dành cho macOS 14 Sonoma trở lên."
+  },
+  "hero": {
+    "title": "Tắt tiếng micrô trên Mac từ bất kỳ đâu.",
+    "subtitle": "Nhấn AirPods của bạn hoặc một phím tắt bàn phím. Muffle trực tiếp tắt tiếng micrô, giúp Google Meet, Zoom, Teams, Slack và mọi ứng dụng khác hoàn toàn im lặng.",
+    "image_alt": "Bảng điều khiển Muffle trên thanh menu của Mac trong cuộc gọi Google Meet trên Chrome"
+  },
+  "works_with": {
+    "title": "Hoạt động với mọi ứng dụng dùng micrô của bạn",
+    "apps": [
+      "Google Meet",
+      "Zoom",
+      "Microsoft Teams",
+      "Slack",
+      "Discord",
+      "FaceTime",
+      "Webex",
+      "WhatsApp",
+      "Skype",
+      "SoWork",
+      "Gather",
+      "Chrome",
+      "Safari",
+      "Arc",
+      "Edge",
+      "Firefox"
+    ],
+    "note": "Muffle tắt tiếng micrô ở cấp độ phần cứng, do đó ứng dụng, trình duyệt hay thẻ nào đang dùng micrô đều không quan trọng."
+  },
+  "features": {
+    "title": "Mọi thứ chiếc Mac của bạn cần có trong cuộc gọi",
+    "items": [
+      {
+        "title": "Nhấn AirPods của bạn để tắt tiếng",
+        "text": "Trong bất kỳ cuộc gọi nào, nhấn vào thân tai nghe một lần để tắt tiếng và nhấn lại để bật tiếng. Tính năng này hoạt động mượt mà ngay cả trên Chrome, nơi Google Meet và các cuộc gọi trên web thường bỏ qua thao tác nhấn AirPods."
+      },
+      {
+        "title": "Một phím tắt cho mọi ứng dụng",
+        "text": "Control-Option-M giúp bạn tắt tiếng ở mọi nơi, ngay cả khi cuộc họp trực tuyến đang nằm ở thẻ nền. Giữ để nói chuyện khi đang tắt tiếng, thả ra để tắt tiếng trở lại."
+      },
+      {
+        "title": "Nhắc nhở “Bạn đang tắt tiếng”",
+        "text": "Bắt đầu nói khi đang tắt tiếng và Muffle sẽ báo cho bạn ngay, trước khi bạn giải thích cả một ý tưởng dài mà không ai nghe thấy."
+      },
+      {
+        "title": "Cuộc gọi hoàn toàn tự động",
+        "text": "Bắt đầu mọi cuộc gọi ở chế độ tắt tiếng, bật lại mic khi cuộc gọi kết thúc và tắt tiếng mỗi khi bạn khóa màn hình Mac."
+      },
+      {
+        "title": "Luôn biết micrô có đang bật không",
+        "text": "Một nút nổi nhỏ hiển thị trạng thái micrô của bạn khi gọi video. Nhấp vào nút để tắt hoặc bật tiếng."
+      },
+      {
+        "title": "Mức micrô luôn cố định",
+        "text": "Chrome, Zoom và Teams thường tự ý thay đổi âm lượng micrô của bạn. Hãy khóa mức này lại và Muffle sẽ giữ nguyên cho bạn."
+      },
+      {
+        "title": "An toàn khi tai nghe hết pin",
+        "text": "Nếu tai nghe của bạn bị ngắt kết nối giữa cuộc gọi, Muffle sẽ tắt tiếng ngay trước khi cuộc gọi chuyển sang micrô tích hợp của Mac và làm lộ âm thanh cả phòng."
+      },
+      {
+        "title": "Phím tắt và Trung tâm điều khiển",
+        "text": "Tắt tiếng từ ứng dụng Phím tắt, Siri, Stream Deck, Raycast hoặc nút bấm trong Trung tâm điều khiển."
+      }
+    ],
+    "image_reminder_alt": "Thông báo nhắc nhở “Bạn đang tắt tiếng” ở cuối màn hình",
+    "image_pills_alt": "Bộ điều khiển thu nhỏ dạng nổi ở trạng thái tắt tiếng và đang bật",
+    "image_automation_alt": "Cài đặt Muffle để bắt đầu cuộc gọi ở chế độ tắt tiếng và các tính năng tự động hóa cuộc gọi khác"
+  },
+  "how": {
+    "title": "Thiết lập chỉ trong một phút",
+    "steps": [
+      "Cài đặt Muffle từ Mac App Store và cho phép truy cập micrô.",
+      "Tham gia cuộc gọi trong bất kỳ ứng dụng nào như bình thường.",
+      "Nhấn AirPods của bạn, nhấn Control-Option-M hoặc nhấp vào biểu tượng trên thanh menu để tắt tiếng."
+    ]
+  },
+  "privacy": {
+    "title": "Bảo mật ngay từ thiết kế",
+    "text": "Muffle không bao giờ ghi âm, lưu trữ hoặc gửi âm thanh. Ứng dụng chỉ bật tắt micrô của bạn và kiểm tra mức âm lượng. Không cần tài khoản, không theo dõi, không thu thập dữ liệu phân tích."
+  },
+  "faq": {
+    "title": "Câu hỏi thường gặp",
+    "items": [
+      {
+        "q": "Muffle có hoạt động với Google Meet trên Chrome không?",
+        "a": "Có. Chrome không gửi thao tác nhấn tắt tiếng trên AirPods đến cuộc gọi web, vì vậy Muffle sẽ nhận thao tác đó và trực tiếp tắt tiếng micrô. Mọi cuộc gọi khác trên thẻ trình duyệt cũng hoạt động tương tự."
+      },
+      {
+        "q": "Người khác có thấy tôi đang tắt tiếng không?",
+        "a": "Ứng dụng cuộc gọi của bạn có thể vẫn hiển thị micrô đang bật, vì Muffle tắt phần cứng micrô thay vì bấm nút trong ứng dụng. Dù thế nào thì mọi người cũng không nghe thấy bạn. Biểu tượng Muffle trên thanh menu sẽ chuyển sang màu đỏ khi bạn tắt tiếng."
+      },
+      {
+        "q": "Những dòng AirPods nào được hỗ trợ?",
+        "a": "AirPods Pro, AirPods 3 trở lên, AirPods Max, cùng các mẫu tai nghe Beats có hỗ trợ điều khiển cuộc gọi. Phím tắt bàn phím và thanh menu hoạt động với mọi micrô."
+      },
+      {
+        "q": "Ứng dụng có hoạt động với Zoom, Teams, Slack và Discord không?",
+        "a": "Có. Muffle hoạt động với mọi ứng dụng sử dụng micrô trên máy Mac của bạn, từ ứng dụng máy tính cho đến cuộc họp trên trình duyệt."
+      },
+      {
+        "q": "Có phải trả phí đăng ký thuê bao không?",
+        "a": "Không. Bạn có thể dùng thử miễn phí mọi tính năng trong 3 ngày, sau đó mở khóa Muffle bằng một lần mua duy nhất."
+      },
+      {
+        "q": "Tại sao Muffle cần quyền truy cập micrô?",
+        "a": "macOS chỉ chuyển thao tác nhấn AirPods đến những ứng dụng đang dùng micrô, nên Muffle sẽ duy trì một kết nối im lặng khi gọi. Ứng dụng hoàn toàn không ghi âm."
+      },
+      {
+        "q": "Điều gì xảy ra nếu tôi thoát Muffle khi đang tắt tiếng?",
+        "a": "Muffle sẽ tự động bật lại micrô khi thoát ứng dụng, nên bạn sẽ không bao giờ bị kẹt ở trạng thái tắt tiếng."
+      },
+      {
+        "q": "Những phiên bản macOS nào được hỗ trợ?",
+        "a": "macOS 14 Sonoma trở lên. Nút bấm trong Trung tâm điều khiển yêu cầu macOS 26 trở lên."
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Không còn phải vội vàng tìm nút tắt tiếng.",
+    "text": "Dùng thử Muffle miễn phí trong 3 ngày."
+  },
+  "footer": {
+    "guides": "Hướng dẫn",
+    "product": "Muffle",
+    "support": "Hỗ trợ",
+    "privacy": "Chính sách quyền riêng tư",
+    "language": "Ngôn ngữ",
+    "contact": "Liên hệ",
+    "copyright": "© 2026 Muffle. AirPods và Mac là thương hiệu của Apple Inc."
+  },
+  "guides_index": {
+    "title": "Hướng dẫn Muffle: Tắt tiếng Meet, Zoom, Teams trên Mac",
+    "description": "Hướng dẫn từng bước cách tắt tiếng Google Meet, Zoom, Microsoft Teams, Slack trên Mac bằng AirPods hoặc phím tắt khi họp trực tuyến và làm việc từ xa.",
+    "h1": "Hướng dẫn",
+    "intro": "Câu trả lời ngắn gọn, thực tế để tắt tiếng micrô trên Mac trong mọi ứng dụng."
+  },
+  "guide_labels": {
+    "on_this_page": "Trên trang này",
+    "faq": "Câu hỏi thường gặp",
+    "related": "Hướng dẫn khác",
+    "try": "Dùng thử Muffle miễn phí 3 ngày",
+    "read": "Đọc hướng dẫn"
+  },
+  "guides": [
+    {
+      "slug": "mute-google-meet-with-airpods",
+      "title": "Cách tắt tiếng Google Meet bằng AirPods trên Mac",
+      "description": "Nhấn AirPods không tắt tiếng Google Meet trong Chrome trên Mac. Tìm hiểu cách tắt tiếng micrô bằng AirPods, phím tắt hoặc thanh menu cho mọi cuộc họp.",
+      "h1": "Cách tắt tiếng Google Meet bằng AirPods trên Mac",
+      "intro": [
+        "Trên iPhone, bạn chỉ cần nhấn vào thân AirPods để tắt tiếng cuộc gọi. Nhưng trên Mac, Google Meet chạy trong Chrome và Chrome không chuyển thao tác nhấn đó vào trang web. Bạn nhấn tai nghe, chỉ nghe thấy âm báo lỗi và Meet vẫn tiếp tục thu tiếng.",
+        "Muffle khắc phục điều này cho mọi cuộc họp trên Meet. Ứng dụng sẽ trực tiếp nhận thao tác nhấn AirPods và tắt tiếng micrô trên Mac, giúp Meet hoàn toàn không thu âm dù tab đang chạy ngầm."
+      ],
+      "steps_title": "Tắt tiếng Google Meet bằng AirPods của bạn",
+      "steps": [
+        "Cài đặt Muffle và cho phép truy cập micrô khi được hỏi.",
+        "Tham gia cuộc họp Google Meet trong Chrome, Safari, Arc hoặc Edge.",
+        "Nhấn vào thân AirPods một lần để tắt tiếng. Biểu tượng Muffle sẽ chuyển sang màu đỏ.",
+        "Nhấn lại lần nữa để bật tiếng. Bạn cũng có thể nhấn Control-Option-M từ bất kỳ ứng dụng nào."
+      ],
+      "tips": [
+        "Meet có thể vẫn hiển thị micrô đang bật vì Muffle trực tiếp tắt tiếng micrô thay vì nút của Meet. Mọi người sẽ không nghe thấy gì khi biểu tượng Muffle có màu đỏ.",
+        "Bật “Bắt đầu mọi cuộc gọi ở chế độ tắt tiếng” để luôn tắt tiếng khi vào bất kỳ cuộc họp Meet nào."
+      ],
+      "faq": [
+        {
+          "q": "Vì sao nhấn AirPods lại không tắt tiếng được Google Meet?",
+          "a": "Chrome không hỗ trợ cử chỉ tắt tiếng bằng AirPods của macOS cho các cuộc gọi nền web, nên macOS không có ứng dụng nào để gửi thao tác nhấn đó. Muffle sẽ đóng vai trò là ứng dụng tiếp nhận."
+        },
+        {
+          "q": "Phím tắt riêng của Meet chưa đủ sao?",
+          "a": "Phím tắt Command-D của Meet chỉ hoạt động khi bạn đang ở đúng tab Meet. Phím tắt và thao tác nhấn AirPods của Muffle hoạt động từ bất kỳ ứng dụng nào."
+        }
+      ]
+    },
+    {
+      "slug": "mute-zoom-with-airpods",
+      "title": "Cách tắt tiếng Zoom bằng AirPods hoặc phím tắt trên Mac",
+      "description": "Tắt tiếng Zoom trên Mac bằng cách nhấn AirPods hoặc phím tắt toàn hệ thống, ngay cả khi không mở cửa sổ Zoom. Dùng tốt cho ứng dụng Zoom lẫn trình duyệt.",
+      "h1": "Cách tắt tiếng Zoom bằng AirPods hoặc phím tắt trên Mac",
+      "intro": [
+        "Phím tắt Command-Shift-A của Zoom chỉ hoạt động khi Zoom đang là cửa sổ trên cùng. Khi bạn đang ghi chú hoặc chia sẻ màn hình khác, việc tìm lại nút tắt tiếng sẽ khiến bạn lúng túng mất vài giây.",
+        "Muffle mang đến một cách tắt tiếng tiện lợi cho Zoom và mọi ứng dụng khác: qua AirPods, phím tắt toàn hệ thống hoặc thanh menu. Ứng dụng trực tiếp tắt tiếng micrô nên hoạt động tốt trên cả ứng dụng Zoom lẫn cuộc họp qua trình duyệt."
+      ],
+      "steps_title": "Tắt tiếng Zoom từ bất kỳ đâu",
+      "steps": [
+        "Cài đặt Muffle và cho phép truy cập micrô.",
+        "Tham gia cuộc họp Zoom như bình thường.",
+        "Nhấn vào thân AirPods hoặc phím tắt Control-Option-M để tắt tiếng từ bất kỳ ứng dụng nào.",
+        "Khi đang tắt tiếng, giữ Control-Option-M để nói chuyện và thả ra để tắt tiếng trở lại."
+      ],
+      "tips": [
+        "Nếu Zoom tự nhận thao tác nhấn AirPods trên Mac, bạn vẫn có thể dùng phím tắt và thanh menu để tắt tiếng thông qua Muffle.",
+        "Zoom có thể hiển thị bạn chưa tắt tiếng khi Muffle đã tắt micrô. Những người tham gia cuộc họp sẽ không nghe thấy gì."
+      ],
+      "faq": [
+        {
+          "q": "Muffle có thay thế nút tắt tiếng của Zoom không?",
+          "a": "Ứng dụng hoạt động song song với nút đó. Muffle tắt micrô cho mọi ứng dụng, giúp bạn tắt tiếng Zoom mà không cần chuyển về cửa sổ họp."
+        },
+        {
+          "q": "Tôi có thể dùng tính năng nhấn để nói trong Zoom không?",
+          "a": "Có. Khi đang tắt tiếng, bạn chỉ cần giữ phím tắt của Muffle để nói chuyện. Tính năng này hoạt động trong Zoom và mọi ứng dụng khác."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microsoft-teams-with-airpods",
+      "title": "Cách tắt tiếng Microsoft Teams bằng AirPods trên Mac",
+      "description": "Tắt tiếng Microsoft Teams trên Mac bằng AirPods, phím tắt toàn hệ thống hoặc thanh menu. Hoạt động trên ứng dụng Teams và Teams trên trình duyệt web.",
+      "h1": "Cách tắt tiếng Microsoft Teams bằng AirPods trên Mac",
+      "intro": [
+        "Phím tắt Command-Shift-M của Teams chỉ dùng được khi cửa sổ Teams đang hoạt động. Trong cuộc họp, bạn thường phải xem tài liệu, duyệt web hoặc chia sẻ màn hình khác.",
+        "Muffle giúp bạn tắt tiếng micrô từ bất kỳ đâu, áp dụng cho cả ứng dụng Teams lẫn Teams trên web. Hãy nhấn AirPods, dùng một phím tắt duy nhất hoặc nhấp vào thanh menu."
+      ],
+      "steps_title": "Tắt tiếng Teams từ bất kỳ đâu",
+      "steps": [
+        "Cài đặt Muffle và cho phép truy cập micrô.",
+        "Tham gia cuộc họp Teams của bạn.",
+        "Nhấn Control-Option-M hoặc thân AirPods để tắt tiếng. Biểu tượng trên thanh menu sẽ chuyển sang màu đỏ.",
+        "Nhấn lại lần nữa để bật tiếng, hoặc giữ phím tắt để nói chuyện khi đang tắt tiếng."
+      ],
+      "tips": [
+        "Teams trên tab trình duyệt cũng được hỗ trợ AirPods tương tự như Google Meet thông qua Muffle.",
+        "Bật “Tắt tiếng khi khóa màn hình” để micrô không bao giờ bị hở khi bạn rời khỏi máy tính."
+      ],
+      "faq": [
+        {
+          "q": "Thao tác nhấn AirPods có hoạt động trong ứng dụng Teams không?",
+          "a": "Điều này tùy thuộc vào phiên bản Teams, vì Teams có thể tự xử lý thao tác nhấn đó. Phím tắt và nút trên thanh menu của Muffle luôn hoạt động trong mọi trường hợp."
+        },
+        {
+          "q": "Teams có hiển thị là tôi đang tắt tiếng không?",
+          "a": "Không phải lúc nào cũng vậy. Muffle trực tiếp tắt tiếng micrô, nên Teams có thể vẫn hiển thị micrô đang bật dù mọi người đều không nghe thấy âm thanh nào."
+        }
+      ]
+    },
+    {
+      "slug": "mute-slack-huddles",
+      "title": "Cách tắt tiếng Slack huddle bằng phím tắt trên Mac",
+      "description": "Tắt tiếng cuộc gọi Slack huddle trên Mac từ mọi ứng dụng bằng phím tắt hoặc AirPods. Không cần mất công tìm cửa sổ cuộc gọi.",
+      "h1": "Cách tắt tiếng Slack huddle từ mọi ứng dụng trên Mac",
+      "intro": [
+        "Các nút điều khiển huddle của Slack nằm trong một cửa sổ nhỏ rất dễ bị che khuất sau các tài liệu làm việc, còn phím tắt tắt tiếng chỉ hoạt động khi Slack đang ở trên cùng.",
+        "Muffle giúp bạn tắt tiếng micrô cho Slack và mọi ứng dụng khác chỉ bằng một phím tắt hoặc thao tác nhấn AirPods, bất kể bạn đang ở đâu trên Mac."
+      ],
+      "steps_title": "Tắt tiếng huddle từ bất kỳ đâu",
+      "steps": [
+        "Cài đặt Muffle và cho phép truy cập micrô.",
+        "Bắt đầu hoặc tham gia một huddle trong Slack.",
+        "Nhấn Control-Option-M hoặc thân AirPods để tắt tiếng.",
+        "Nhìn nhanh lên thanh menu: màu đỏ có nghĩa là không ai nghe thấy bạn."
+      ],
+      "tips": [
+        "Bộ điều khiển thu nhỏ nổi trên màn hình sẽ hiển thị trạng thái micrô trong suốt cuộc gọi huddle.",
+        "Giữ phím tắt để nói nhanh điều gì đó mà vẫn tiếp tục tắt tiếng sau khi thả ra."
+      ],
+      "faq": [
+        {
+          "q": "Tính năng này có hoạt động với ứng dụng Slack và Slack trên trình duyệt không?",
+          "a": "Có. Muffle trực tiếp tắt tiếng micrô nên hoạt động hoàn hảo trên cả hai nền tảng."
+        },
+        {
+          "q": "Đồng nghiệp có thấy tôi đang tắt tiếng không?",
+          "a": "Slack có thể vẫn hiển thị micrô của bạn đang bật. Tuy nhiên họ hoàn toàn không nghe thấy gì khi Muffle đang tắt tiếng micrô."
+        }
+      ]
+    },
+    {
+      "slug": "mute-discord-on-mac",
+      "title": "Nhấn để nói và phím tắt tắt tiếng Discord trên Mac",
+      "description": "Dùng một phím tắt toàn hệ thống để nhấn để nói và tắt tiếng Discord trên Mac, hoặc tắt tiếng bằng AirPods. Hoạt động trên ứng dụng và trình duyệt.",
+      "h1": "Nhấn để nói và phím tắt tắt tiếng toàn hệ thống cho Discord trên Mac",
+      "intro": [
+        "Tính năng nhấn để nói của Discord cần thêm quyền trên Mac và không hoạt động với Discord trên trình duyệt. Nếu bạn cũng tham gia các cuộc họp trên Meet hoặc Zoom, bạn sẽ phải nhớ một phím tắt tắt tiếng riêng cho từng ứng dụng.",
+        "Muffle mang đến cho bạn một phím duy nhất cho tất cả ứng dụng. Nhấn để tắt tiếng, giữ để nói chuyện hoặc nhấn vào AirPods của bạn."
+      ],
+      "steps_title": "Thiết lập tính năng nhấn để nói cho Discord",
+      "steps": [
+        "Cài đặt Muffle và cho phép truy cập micrô.",
+        "Tham gia một kênh thoại Discord.",
+        "Nhấn Control-Option-M để tắt hoặc bật tiếng. Giữ phím khi đang tắt tiếng để nói chuyện.",
+        "Chọn phím bạn muốn trong Cài đặt Muffle, ví dụ như một phím F."
+      ],
+      "tips": [
+        "Phím tắt của Muffle không cần cấp quyền Trợ năng.",
+        "Khóa mức micrô của bạn để tính năng tự động tăng âm lượng của Discord không liên tục thay đổi mức này."
+      ],
+      "faq": [
+        {
+          "q": "Tính năng này có giống nhấn để nói của Discord không?",
+          "a": "Tính năng hoạt động tương tự, nhưng áp dụng cho mọi ứng dụng cùng lúc. Muffle sẽ trực tiếp tắt tiếng micrô, vì vậy Discord chỉ nhận được sự im lặng cho đến khi bạn giữ phím."
+        },
+        {
+          "q": "Tôi có thể tắt tiếng Discord bằng AirPods không?",
+          "a": "Có. Trong cuộc gọi thoại, nhấn vào thân tai nghe AirPods để chuyển đổi tắt tiếng."
+        }
+      ]
+    },
+    {
+      "slug": "mute-webex-on-mac",
+      "title": "Cách tắt tiếng Webex từ bất kỳ ứng dụng nào trên Mac",
+      "description": "Tắt tiếng cuộc họp Webex trên Mac bằng một phím tắt toàn hệ thống hoặc AirPods của bạn, ngay cả khi Webex không phải là cửa sổ đang mở.",
+      "h1": "Cách tắt tiếng Webex từ bất kỳ ứng dụng nào trên Mac",
+      "intro": [
+        "Phím tắt để tắt tiếng của Webex chỉ hoạt động khi cửa sổ Webex đang hiển thị ở phía trước, và các nút điều khiển sẽ ẩn đi khi bạn chia sẻ màn hình.",
+        "Muffle tắt tiếng micrô của bạn từ bất kỳ đâu trên Mac, giúp bạn có thể tắt tiếng cuộc họp Webex mà không cần rời khỏi công việc đang làm."
+      ],
+      "steps_title": "Tắt tiếng Webex từ bất kỳ đâu",
+      "steps": [
+        "Cài đặt Muffle và cho phép truy cập micrô.",
+        "Tham gia cuộc họp Webex của bạn.",
+        "Nhấn Control-Option-M hoặc nhấn vào thân tai nghe AirPods để tắt tiếng.",
+        "Sử dụng bộ điều khiển thu nhỏ dạng nổi để theo dõi trạng thái micrô trong khi chia sẻ màn hình."
+      ],
+      "tips": [
+        "Webex có thể vẫn hiển thị bạn chưa tắt tiếng. Nhưng người tham gia cuộc gọi sẽ không nghe thấy gì khi biểu tượng Muffle có màu đỏ.",
+        "Bật “Bắt đầu mọi cuộc gọi ở chế độ tắt tiếng” cho các cuộc họp lớn."
+      ],
+      "faq": [
+        {
+          "q": "Muffle có hoạt động với Webex trên trình duyệt không?",
+          "a": "Có. Muffle tắt tiếng micrô nên hoạt động được với mọi ứng dụng Webex cũng như phiên bản web."
+        },
+        {
+          "q": "Tôi có thể tắt tiếng Webex bằng AirPods không?",
+          "a": "Có, hãy nhấn vào thân tai nghe trong cuộc họp. Phím tắt bàn phím hoạt động với mọi tai nghe."
+        }
+      ]
+    },
+    {
+      "slug": "mute-browser-calls",
+      "title": "Tắt tiếng cuộc gọi web trên Chrome, Safari, Arc cho Mac",
+      "description": "Tắt tiếng cuộc gọi trên Chrome, Safari, Arc, Edge và Firefox bằng AirPods hoặc một phím tắt. Hỗ trợ Google Meet, SoWork, Gather, Whereby, Jitsi.",
+      "h1": "Cách tắt tiếng cuộc gọi trên bất kỳ tab trình duyệt nào trên Mac",
+      "intro": [
+        "Ngày càng có nhiều cuộc họp diễn ra trên trình duyệt: Google Meet, Teams trên web, các văn phòng ảo làm việc từ xa như SoWork và Gather, Whereby, Jitsi. Mỗi nền tảng lại có nút tắt tiếng và phím tắt riêng, và chúng chỉ hoạt động khi tab đó đang mở ở phía trước.",
+        "Các trình duyệt cũng bỏ qua thao tác nhấn tắt tiếng của AirPods trên Mac. Muffle sẽ tiếp nhận thao tác nhấn đó, hoặc dùng một phím tắt toàn hệ thống, để tắt tiếng micrô cho mọi tab cùng lúc."
+      ],
+      "steps_title": "Tắt tiếng bất kỳ cuộc gọi web nào",
+      "steps": [
+        "Cài đặt Muffle và cho phép truy cập micrô.",
+        "Mở cuộc gọi của bạn trong bất kỳ tab trình duyệt nào.",
+        "Nhấn vào thân tai nghe AirPods hoặc nhấn Control-Option-M để tắt tiếng từ bất kỳ ứng dụng hoặc tab nào.",
+        "Quan sát biểu tượng trên thanh menu: màu đỏ có nghĩa là micrô đã tắt."
+      ],
+      "tips": [
+        "Các văn phòng ảo duy trì kết nối micrô của bạn liên tục trong nhiều giờ. Hãy bật bộ điều khiển thu nhỏ dạng nổi để luôn nắm rõ trạng thái micrô.",
+        "Tính năng nhắc nhở “Bạn đang tắt tiếng” sẽ thông báo khi bạn bắt đầu nói chuyện lúc đang tắt tiếng."
+      ],
+      "faq": [
+        {
+          "q": "Tại sao thao tác nhấn AirPods không hoạt động trên Chrome?",
+          "a": "Chrome không hỗ trợ cử chỉ tắt tiếng bằng AirPods của macOS cho các trang web. Muffle sẽ nhận thao tác nhấn thay vì Chrome và trực tiếp tắt tiếng micrô."
+        },
+        {
+          "q": "Ứng dụng có hoạt động trong SoWork và Gather không?",
+          "a": "Có. Mọi trang web sử dụng micrô của bạn đều sẽ bị tắt tiếng khi Muffle tắt micrô."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-mute-not-working-on-mac",
+      "title": "AirPods không tắt tiếng trên Mac? Sửa lỗi “Cannot Control Mic”",
+      "description": "Nhấn vào thân tai nghe AirPods phát âm báo lỗi và không tắt tiếng cuộc gọi? Đây là nguyên nhân trên Mac và cách để thao tác nhấn tắt tiếng mọi ứng dụng.",
+      "h1": "AirPods không tắt tiếng trên Mac? Đây là cách khắc phục",
+      "intro": [
+        "macOS cho phép bạn tắt tiếng cuộc gọi bằng cách nhấn vào thân tai nghe AirPods, nhưng chỉ khi ứng dụng gọi hỗ trợ tính năng này. Rất nhiều ứng dụng không hỗ trợ, bao gồm Chrome và các cuộc gọi web bên trong. Bạn nhấn tai nghe, nghe thấy âm báo lỗi ngắn, thấy thông báo “Cannot Control Mic” và mọi người trong cuộc gọi vẫn nghe thấy bạn.",
+        "Muffle mang khả năng hỗ trợ đó đến mọi ứng dụng. Ứng dụng sẽ nhận thao tác nhấn, tắt tiếng micrô trên Mac của bạn và phát âm báo tắt tiếng thông thường."
+      ],
+      "steps_title": "Cách để thao tác nhấn AirPods tắt tiếng mọi ứng dụng",
+      "steps": [
+        "Cài đặt Muffle và cho phép truy cập micrô. macOS chỉ chuyển thao tác nhấn đến những ứng dụng có thể dùng micrô.",
+        "Kiểm tra xem tùy chọn “Tắt và bật tiếng bằng cách nhấn AirPods” đã được bật trong Cài đặt Muffle chưa.",
+        "Tham gia một cuộc gọi. Thao tác nhấn chỉ tắt tiếng khi có một ứng dụng đang sử dụng micrô.",
+        "Nhấn vào thân tai nghe một lần để tắt tiếng và nhấn lại để bật tiếng."
+      ],
+      "tips": [
+        "Ngoài cuộc gọi, thao tác nhấn vẫn dùng để phát và tạm dừng nhạc như bình thường.",
+        "Nếu AirPods của bạn dùng thao tác nhấn khác để điều khiển cuộc gọi, hãy kiểm tra cài đặt AirPods trong Cài đặt Hệ thống."
+      ],
+      "faq": [
+        {
+          "q": "Tại sao Mac phát âm thanh báo lỗi khi tôi nhấn vào AirPods?",
+          "a": "Ứng dụng bạn đang dùng để gọi không hỗ trợ thao tác nhấn tắt tiếng của AirPods, do đó macOS từ chối thao tác này. Khi Muffle đang chạy, thao tác nhấn sẽ tắt tiếng micrô của bạn."
+        },
+        {
+          "q": "Những mẫu AirPods nào hỗ trợ thao tác nhấn để tắt tiếng?",
+          "a": "AirPods Pro, AirPods 3 trở lên và AirPods Max, cùng các mẫu tai nghe Beats có hỗ trợ điều khiển cuộc gọi."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-keyboard-shortcut-mac",
+      "title": "Tắt tiếng micrô trên Mac bằng phím tắt bàn phím",
+      "description": "Cài một phím tắt duy nhất để tắt và bật tiếng micrô Mac trong mọi ứng dụng gọi video, cuộc họp. Không cần quyền Trợ năng.",
+      "h1": "Cách tắt tiếng micrô trên Mac bằng phím tắt bàn phím",
+      "intro": [
+        "macOS có sẵn phím đọc chính tả nhưng không có phím tắt tiếng micrô. Mỗi ứng dụng cuộc gọi lại có một phím tắt riêng, và chúng chỉ hoạt động khi bạn đang mở cửa sổ ứng dụng đó.",
+        "Muffle mang đến một phím tắt duy nhất để trực tiếp tắt tiếng micrô, tác dụng tức thì trên mọi ứng dụng. Phím tắt mặc định là Control-Option-M, và bạn có thể đổi sang tổ hợp phím tùy ý."
+      ],
+      "steps_title": "Tắt tiếng bằng một phím tắt",
+      "steps": [
+        "Cài đặt Muffle.",
+        "Nhấn Control-Option-M để tắt tiếng. Biểu tượng trên thanh menu sẽ chuyển sang màu đỏ và một thông báo nhỏ “Tắt tiếng” sẽ xuất hiện.",
+        "Nhấn lại lần nữa để bật tiếng.",
+        "Để đổi phím tắt, hãy mở Cài đặt Muffle, nhấp vào phím tắt rồi nhấn tổ hợp phím mới."
+      ],
+      "tips": [
+        "Khi đang tắt tiếng, giữ phím tắt để nói chuyện và thả ra để tắt tiếng trở lại.",
+        "Nhấp chuột phải vào biểu tượng thanh menu của Muffle để tắt tiếng ngay lập tức bằng chuột."
+      ],
+      "faq": [
+        {
+          "q": "Phím tắt có hoạt động khi ứng dụng cuộc gọi không hiển thị ở trên cùng không?",
+          "a": "Có. Phím tắt hoạt động từ bất kỳ ứng dụng nào, kể cả các ứng dụng đang chạy toàn màn hình."
+        },
+        {
+          "q": "Tôi có thể dùng một phím đơn lẻ, chẳng hạn như F5 không?",
+          "a": "Có. Các phím chức năng F có thể dùng độc lập; những phím khác cần kết hợp cùng Control, Option hoặc Command."
+        }
+      ]
+    },
+    {
+      "slug": "push-to-talk-on-mac",
+      "title": "Nhấn để nói (Push to Talk) trên Mac cho mọi ứng dụng",
+      "description": "Dùng push to talk trên Mac trong Zoom, Google Meet, Teams, Discord. Giữ phím để nói chuyện, thả tay để tắt tiếng micrô khi họp trực tuyến.",
+      "h1": "Nhấn để nói trên Mac, trong mọi ứng dụng",
+      "intro": [
+        "Tính năng nhấn để nói luôn giữ bạn ở chế độ tắt tiếng cho đến khi nhấn giữ một phím. Đây là cách thuận tiện nhất để giữ yên lặng trong các cuộc họp đông người hoặc phòng ồn ào, nhưng rất ít ứng dụng hỗ trợ tính năng này, và mỗi ứng dụng lại dùng một phím khác nhau.",
+        "Muffle mang tính năng nhấn để nói lên mọi ứng dụng trên Mac. Bạn chỉ cần giữ chế độ tắt tiếng, nhấn giữ phím tắt để nói chuyện, rồi thả tay ra để tắt tiếng trở lại."
+      ],
+      "steps_title": "Cách dùng tính năng nhấn để nói",
+      "steps": [
+        "Cài đặt Muffle.",
+        "Tắt tiếng bằng Control-Option-M hoặc nhấn AirPods của bạn.",
+        "Nhấn giữ Control-Option-M trong khi nói.",
+        "Thả tay ra. Bạn đang tắt tiếng trở lại."
+      ],
+      "tips": [
+        "Nhấn nhanh phím tắt vẫn dùng để chuyển đổi tắt tiếng. Giữ phím tắt chính là tính năng nhấn để nói.",
+        "Hãy chọn một phím thuận tay trong Cài đặt Muffle, ví dụ như một phím F."
+      ],
+      "faq": [
+        {
+          "q": "Tính năng nhấn để nói có hoạt động trong Google Meet không?",
+          "a": "Có. Muffle trực tiếp tắt tiếng micrô, vì vậy tính năng nhấn để nói hoạt động trơn tru trong Google Meet, Zoom, Teams, Discord và mọi ứng dụng khác."
+        },
+        {
+          "q": "Ứng dụng có tính năng nhấn để tắt tiếng tạm thời không?",
+          "a": "Có. Khi bạn đang bật tiếng, nhấn giữ phím tắt sẽ tắt tiếng tạm thời cho đến khi bạn thả tay ra."
+        }
+      ]
+    },
+    {
+      "slug": "stop-apps-changing-mic-volume",
+      "title": "Chặn Chrome và Zoom tự đổi âm lượng micrô trên Mac",
+      "description": "Google Meet, Chrome, Zoom và Teams tự ý đổi âm lượng micrô Mac? Khóa cố định mức micrô để không ứng dụng nào có thể can thiệp.",
+      "h1": "Cách chặn các ứng dụng tự thay đổi âm lượng micrô trên Mac",
+      "intro": [
+        "Nhiều ứng dụng cuộc gọi tự ý điều chỉnh mức đầu vào âm thanh của bạn qua tính năng tự động kiểm soát độ lợi (AGC). Bạn vừa chỉnh một mức vừa vặn trong Cài đặt Hệ thống, nhưng khi vào cuộc họp Google Meet, chỉ vài phút sau thanh trượt đã tự dịch chuyển khiến mọi người phản ánh giọng bạn quá nhỏ hoặc bị rè.",
+        "Muffle giúp bạn khóa cố định mức micrô. Ngay khi bất kỳ ứng dụng nào tìm cách thay đổi, Muffle sẽ đưa âm lượng về đúng mức ban đầu ngay lập tức."
+      ],
+      "steps_title": "Khóa mức micrô của bạn",
+      "steps": [
+        "Cài đặt Muffle.",
+        "Nhấp vào biểu tượng Muffle trên thanh menu rồi kéo thanh trượt mic để đặt mức âm lượng bạn muốn.",
+        "Nhấp vào biểu tượng ổ khóa bên cạnh thanh trượt.",
+        "Bắt đầu cuộc gọi của bạn. Mức micrô sẽ luôn giữ nguyên đúng vị trí bạn đã chọn."
+      ],
+      "tips": [
+        "Muffle sẽ cảnh báo ngay trong bảng điều khiển nếu mức micrô của bạn quá nhỏ trong cuộc gọi.",
+        "Tính năng khóa sẽ ghi nhớ mức riêng cho từng micrô, nên AirPods và micrô tích hợp của Mac đều duy trì cài đặt độc lập."
+      ],
+      "faq": [
+        {
+          "q": "Tại sao âm lượng micrô trên Mac của tôi cứ tự động thay đổi?",
+          "a": "Các ứng dụng như Chrome, Zoom và Teams dùng tính năng kiểm soát độ lợi tự động nên liên tục chỉnh mức đầu vào hệ thống khi bạn nói chuyện."
+        },
+        {
+          "q": "Tôi có thể tự điều chỉnh âm lượng sau khi đã khóa không?",
+          "a": "Có. Bạn chỉ cần chỉnh thanh trượt trong bảng điều khiển Muffle, mức khóa mới sẽ được cập nhật ngay."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-on-mac",
+      "title": "4 cách tắt tiếng micrô trên Mac nhanh và hiệu quả nhất",
+      "description": "Tổng hợp 4 cách tắt tiếng micrô trên Mac: nút cuộc gọi, Cài đặt Hệ thống, phím tắt toàn hệ thống và tai nghe AirPods. Tìm cách tối ưu nhất.",
+      "h1": "Cách tắt tiếng micrô trên máy Mac",
+      "intro": [
+        "Bàn phím Mac không có phím tắt tiếng riêng cho micrô. Tùy từng ứng dụng và trường hợp, bạn có một vài lựa chọn, nhưng chỉ số ít trong đó là hoạt động đồng bộ ở mọi nơi."
+      ],
+      "steps_title": "Các lựa chọn của bạn",
+      "steps": [
+        "Nút bấm hoặc phím tắt riêng của ứng dụng cuộc gọi. Cách này chỉ tác dụng trong chính ứng dụng đó và bắt buộc cửa sổ ứng dụng phải đang hiển thị trên cùng.",
+        "Mở Cài đặt Hệ thống, chọn Âm thanh, rồi chọn Đầu vào. Kéo mức đầu vào về 0 không phải là cách tắt tiếng thực sự trên mọi micrô, và các ứng dụng khác vẫn có thể tự đẩy âm lượng lên lại.",
+        "Dùng phím tắt toàn hệ thống với Muffle. Chỉ một phím bấm duy nhất để trực tiếp tắt tiếng micrô trong mọi ứng dụng.",
+        "Dùng tai nghe AirPods của bạn. Khi có Muffle, thao tác nhấn vào thân tai nghe sẽ tắt tiếng mọi cuộc gọi, kể cả Google Meet chạy trên Chrome."
+      ],
+      "tips": [
+        "Biểu tượng Muffle trên thanh menu sẽ chuyển sang màu đỏ khi micrô tắt, bất kể bạn đang dùng ứng dụng nào.",
+        "Mỗi khi bạn thoát Muffle, micrô sẽ luôn tự động được bật lại bình thường."
+      ],
+      "faq": [
+        {
+          "q": "Mac có tính năng tắt tiếng micrô tích hợp sẵn không?",
+          "a": "Không có tính năng tắt trên toàn hệ thống. macOS chỉ cho phép tắt micrô bên trong các ứng dụng có hỗ trợ. Muffle sẽ bổ sung tính năng tắt tiếng thực sự cho toàn hệ thống của bạn."
+        },
+        {
+          "q": "Tắt tiếng trong Muffle có tắt tiếng ở mọi ứng dụng không?",
+          "a": "Có. Muffle ngắt kết nối mọi micrô ở cấp độ phần cứng, vì vậy không ứng dụng nào có thể nghe thấy bạn cho đến khi bạn bật tiếng trở lại."
+        }
+      ]
+    },
+    {
+      "slug": "youre-muted-reminder",
+      "title": "Nhận lời nhắc “Bạn đang tắt tiếng” trong mọi ứng dụng trên Mac",
+      "description": "Nói khi đang tắt micrô? Muffle nhận biết và hiện lời nhắc “Bạn đang tắt tiếng” trong Google Meet, Zoom, Teams, Slack và mọi ứng dụng họp trực tuyến trên Mac.",
+      "h1": "Lời nhắc “Bạn đang tắt tiếng” cho mọi ứng dụng cuộc gọi",
+      "intro": [
+        "Zoom cảnh báo khi bạn nói chuyện lúc đang tắt tiếng. Phần lớn các ứng dụng khác không có tính năng này, còn cuộc gọi trên web thì gần như không bao giờ có. Bạn mải mê giải thích cả phút rồi mới nhận ra mọi người trong cuộc họp vẫn đang đợi.",
+        "Muffle nhận biết giọng nói khi bạn đang tắt tiếng và hiển thị lời nhắc trong bất kỳ ứng dụng nào. Khi cuộc gọi dùng AirPods hoặc tai nghe, ứng dụng sẽ lắng nghe micrô tích hợp của Mac và chỉ đo mức âm lượng. Không có gì được ghi âm."
+      ],
+      "steps_title": "Bật lời nhắc",
+      "steps": [
+        "Cài đặt Muffle và cho phép truy cập micrô.",
+        "Đảm bảo tùy chọn “Nhắc tôi khi nói chuyện lúc đang tắt tiếng” đã được bật trong Cài đặt Muffle.",
+        "Tham gia cuộc họp bằng AirPods hoặc tai nghe rồi tắt tiếng.",
+        "Bắt đầu nói chuyện. Lời nhắc “Bạn đang tắt tiếng” sẽ xuất hiện."
+      ],
+      "tips": [
+        "Tham gia cuộc gọi mới khi micrô vẫn đang tắt tiếng từ cuộc gọi trước? Muffle sẽ nhắc bạn ngay khi cuộc gọi bắt đầu.",
+        "Tiếng gõ bàn phím sẽ không kích hoạt lời nhắc. Chỉ giọng nói đều đặn mới kích hoạt."
+      ],
+      "faq": [
+        {
+          "q": "Lời nhắc có hoạt động với micrô tích hợp của Mac không?",
+          "a": "Tính năng này hoạt động khi cuộc gọi dùng AirPods hoặc tai nghe. Nếu cuộc gọi sử dụng micrô của Mac, micrô đó đã bị tắt tiếng nên không thể nghe thấy bạn."
+        },
+        {
+          "q": "Âm thanh của tôi có bị ghi âm không?",
+          "a": "Không. Muffle chỉ đo mức âm lượng và không bao giờ lưu trữ hay gửi bất kỳ âm thanh nào đi."
+        }
+      ]
+    }
+  ],
+  "support": {
+    "title": "Hỗ trợ Muffle",
+    "description": "Trợ giúp về Muffle cho Mac: cài đặt thao tác nhấn AirPods, phím tắt, giao dịch mua và nhiều nội dung khác.",
+    "h1": "Hỗ trợ",
+    "sections": [
+      {
+        "h": "Bắt đầu sử dụng",
+        "items": [
+          "Muffle nằm trong thanh menu. Nhấp vào biểu tượng micrô để mở bộ điều khiển, hoặc nhấp chuột phải để tắt tiếng ngay lập tức.",
+          "Trong cuộc gọi, nhấn vào thân tai nghe AirPods để tắt tiếng và nhấn lại để bật tiếng.",
+          "Phím tắt mặc định là Control-Option-M. Nhấn để chuyển đổi tắt tiếng. Khi đang tắt tiếng, giữ để nói chuyện."
+        ]
+      },
+      {
+        "h": "Thao tác nhấn AirPods không tắt tiếng",
+        "items": [
+          "Thao tác này chỉ hoạt động trong cuộc gọi, khi có ứng dụng đang sử dụng micrô của bạn.",
+          "Cho phép truy cập micrô cho Muffle trong Cài đặt Hệ thống, Quyền riêng tư & Bảo mật, Micrô.",
+          "Kiểm tra xem mục “Tắt và bật tiếng bằng cách nhấn AirPods” đã được bật trong Cài đặt Muffle chưa.",
+          "AirPods của bạn cần hỗ trợ điều khiển cuộc gọi: AirPods Pro, AirPods 3 trở lên hoặc AirPods Max."
+        ]
+      },
+      {
+        "h": "Ứng dụng cuộc gọi vẫn hiện micrô đang bật",
+        "items": [
+          "Đây là điều bình thường. Muffle trực tiếp tắt tiếng micrô, nên mọi ứng dụng chỉ nhận được sự im lặng dù vẫn hiển thị mic đang bật. Hãy tin tưởng biểu tượng Muffle trên thanh menu: màu đỏ có nghĩa là không ai nghe thấy bạn."
+        ]
+      },
+      {
+        "h": "Giao dịch mua",
+        "items": [
+          "Muffle miễn phí dùng thử trong 3 ngày. Sau đó, mở khóa bằng một lần mua duy nhất. Không cần đăng ký thuê bao.",
+          "Để khôi phục giao dịch mua trên một máy Mac khác, hãy mở Cài đặt Muffle và chọn Khôi phục giao dịch mua."
+        ]
+      }
+    ],
+    "contact_title": "Liên hệ",
+    "contact_text": "Gửi email cho chúng tôi tại"
+  },
+  "privacy_page": {
+    "title": "Chính sách quyền riêng tư của Muffle",
+    "description": "Muffle không bao giờ ghi âm, lưu trữ hay gửi âm thanh và không thu thập dữ liệu. Tìm hiểu cách Muffle sử dụng micrô của bạn.",
+    "h1": "Chính sách quyền riêng tư",
+    "updated": "Cập nhật lần cuối vào ngày 29 tháng 9 năm 2026.",
+    "intro": "Muffle tắt tiếng micrô trên máy Mac của bạn. Ứng dụng được xây dựng để không lời nào bạn nói có thể rời khỏi máy Mac.",
+    "sections": [
+      {
+        "h": "Cách Muffle sử dụng micrô của bạn",
+        "p": [
+          "Trong cuộc gọi, Muffle duy trì một kết nối im lặng đến micrô của bạn. macOS chỉ chuyển thao tác nhấn tắt tiếng AirPods đến các ứng dụng đang dùng micrô, nên kết nối này giúp thao tác nhấn AirPods hoạt động được.",
+          "Nếu bạn bật tính năng nhắc nhở khi nói lúc đang tắt tiếng, Muffle cũng sẽ đo âm lượng từ micrô tích hợp của Mac để nhận biết khi bạn bắt đầu nói.",
+          "Muffle chỉ đọc các chỉ số về âm lượng. Ứng dụng không bao giờ ghi âm, lưu trữ, chuyển âm thanh thành văn bản hoặc gửi đi."
+        ]
+      },
+      {
+        "h": "Dữ liệu chúng tôi thu thập",
+        "p": [
+          "Không có dữ liệu nào. Muffle không có tài khoản, không có công cụ phân tích, không quảng cáo và không theo dõi. Ứng dụng không liên hệ với bất kỳ máy chủ nào của chúng tôi."
+        ]
+      },
+      {
+        "h": "Giao dịch mua",
+        "p": [
+          "Bản dùng thử miễn phí và giao dịch mua một lần đều được xử lý qua App Store của Apple. Apple quản lý các thông tin thanh toán; chúng tôi không bao giờ nhìn thấy các thông tin này. Chính sách quyền riêng tư của Apple sẽ được áp dụng cho các giao dịch đó."
+        ]
+      },
+      {
+        "h": "Cài đặt được lưu trữ trên máy Mac của bạn",
+        "p": [
+          "Các tùy chọn của bạn, chẳng hạn như phím tắt bàn phím, được lưu trực tiếp trên máy Mac trong bộ nhớ riêng của Muffle. Việc xóa Muffle sẽ xóa toàn bộ các cài đặt này."
+        ]
+      }
+    ],
+    "contact": "Câu hỏi về quyền riêng tư:"
+  }
+}

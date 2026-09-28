@@ -1,0 +1,643 @@
+{
+  "meta": {
+    "home_title": "Muffle: disattiva il microfono del Mac con AirPods o tasto",
+    "home_description": "Disattiva il microfono in videochiamata su Google Meet, Zoom e Teams. Usa gli AirPods o una scorciatoia su Mac. Gratis per 3 giorni.",
+    "og_title": "Disattiva il microfono del Mac da qualsiasi app.",
+    "og_subtitle": "Premi i tuoi AirPods o una scorciatoia. Funziona ovunque."
+  },
+  "nav": {
+    "features": "Funzionalità",
+    "guides": "Guide",
+    "support": "Supporto",
+    "download": "Scarica Muffle",
+    "home": "Home",
+    "menu": "Menu"
+  },
+  "cta": {
+    "download": "Scarica dal Mac App Store",
+    "coming_soon": "In arrivo sul Mac App Store",
+    "trial": "Gratis per 3 giorni. Poi acquisto unico, nessun abbonamento.",
+    "requirements": "Per macOS 14 Sonoma e versioni successive."
+  },
+  "hero": {
+    "title": "Disattiva il microfono del Mac da qualsiasi app.",
+    "subtitle": "Premi i tuoi AirPods o usa una scorciatoia da tastiera. Muffle disattiva direttamente il microfono, così Google Meet, Zoom, Teams, Slack e qualsiasi altra app sentiranno solo silenzio.",
+    "image_alt": "Il pannello di Muffle nella barra dei menu del Mac durante una chiamata su Google Meet in Chrome"
+  },
+  "works_with": {
+    "title": "Funziona con ogni app che usa il microfono",
+    "apps": [
+      "Google Meet",
+      "Zoom",
+      "Microsoft Teams",
+      "Slack",
+      "Discord",
+      "FaceTime",
+      "Webex",
+      "WhatsApp",
+      "Skype",
+      "SoWork",
+      "Gather",
+      "Chrome",
+      "Safari",
+      "Arc",
+      "Edge",
+      "Firefox"
+    ],
+    "note": "Muffle disattiva il microfono a livello hardware, quindi non importa quale app, browser o scheda aperta tu stia usando."
+  },
+  "features": {
+    "title": "Tutto ciò che il tuo Mac dovrebbe fare in chiamata",
+    "items": [
+      {
+        "title": "Premi i tuoi AirPods per disattivare",
+        "text": "Durante qualsiasi chiamata, premi lo stelo una volta per disattivare il microfono e di nuovo per riattivarlo. Funziona anche su Chrome, dove Google Meet e altre chiamate web ignorano la pressione degli AirPods."
+      },
+      {
+        "title": "Una scorciatoia per ogni app",
+        "text": "Control-Opzione-M disattiva il microfono ovunque, anche quando la riunione è in una scheda in background. Tienilo premuto per parlare quando sei muto e rilascialo per disattivare di nuovo."
+      },
+      {
+        "title": "Un promemoria quando parli da muto",
+        "text": "Se inizi a parlare con il microfono disattivato, Muffle ti avvisa subito, prima che tu finisca di spiegare tutta la tua idea al silenzio."
+      },
+      {
+        "title": "Chiamate in automatico",
+        "text": "Avvia ogni chiamata da muto, riattiva il microfono quando la conversazione finisce e disattivalo automaticamente ogni volta che blocchi lo schermo del Mac."
+      },
+      {
+        "title": "Sai sempre se il microfono è attivo",
+        "text": "Un piccolo pulsante fluttuante mostra lo stato del microfono durante le chiamate. Cliccaci sopra per disattivare o riattivare l'audio."
+      },
+      {
+        "title": "Il livello del microfono non cambia più",
+        "text": "Chrome, Zoom e Teams modificano spesso il livello del microfono da soli. Con Muffle puoi bloccarlo al livello che preferisci e non si sposterà più."
+      },
+      {
+        "title": "Nessun rischio se le cuffie si spengono",
+        "text": "Se le tue cuffie si scollegano a metà conferenza, Muffle disattiva subito l'audio prima che la chiamata passi al microfono del Mac trasmettendo i rumori della stanza."
+      },
+      {
+        "title": "Comandi Rapidi e Centro di Controllo",
+        "text": "Disattiva il microfono dall'app Comandi Rapidi, con Siri, da Stream Deck, Raycast oppure con un pulsante nel Centro di Controllo."
+      }
+    ],
+    "image_reminder_alt": "Il promemoria “Sei muto” nella parte inferiore dello schermo",
+    "image_pills_alt": "Il mini controller fluttuante con microfono disattivato e attivo",
+    "image_automation_alt": "Impostazioni di Muffle per avviare le chiamate da muto e altre automazioni"
+  },
+  "how": {
+    "title": "Pronto in un minuto",
+    "steps": [
+      "Installa Muffle dal Mac App Store e consenti l'accesso al microfono.",
+      "Entra in chiamata da qualsiasi app, come fai sempre.",
+      "Premi i tuoi AirPods, usa Control-Opzione-M oppure clicca sull'icona nella barra dei menu per disattivare l'audio."
+    ]
+  },
+  "privacy": {
+    "title": "Privacy al primo posto",
+    "text": "Muffle non registra, non memorizza e non invia mai l'audio. Si limita ad attivare o disattivare il microfono e a leggerne il volume. Nessun account, nessuna statistica di utilizzo, nessun tracciamento."
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "items": [
+      {
+        "q": "Muffle funziona con Google Meet su Chrome?",
+        "a": "Sì. Chrome non trasmette la pressione degli AirPods alle chiamate web, perciò Muffle la intercetta e disattiva direttamente il microfono a monte. La stessa cosa vale per qualsiasi videochiamata aperta nel browser."
+      },
+      {
+        "q": "Gli altri partecipanti vedranno che ho il microfono disattivato?",
+        "a": "L'app della chiamata potrebbe mostrare il microfono ancora attivo, perché Muffle spegne l'hardware del microfono anziché premere il pulsante interno all'app. In ogni caso nessuno potrà sentirti. L'icona di Muffle nella barra dei menu diventa rossa quando sei muto."
+      },
+      {
+        "q": "Quali modelli di AirPods sono supportati?",
+        "a": "AirPods Pro, AirPods di terza generazione e successive, AirPods Max, oltre ai modelli Beats dotati di controlli per le chiamate. La scorciatoia da tastiera e l'icona nella barra dei menu funzionano con qualsiasi microfono."
+      },
+      {
+        "q": "Funziona con Zoom, Teams, Slack e Discord?",
+        "a": "Sì. Muffle funziona con qualsiasi app sul Mac che utilizzi il microfono, sia programmi installati che chiamate web nel browser."
+      },
+      {
+        "q": "È necessario un abbonamento?",
+        "a": "No. Puoi provare gratis tutte le funzioni per 3 giorni, poi potrai sbloccare Muffle per sempre con un unico acquisto."
+      },
+      {
+        "q": "Perché Muffle richiede l'accesso al microfono?",
+        "a": "macOS inoltra la pressione degli AirPods solo alle app autorizzate a usare il microfono. Durante le chiamate Muffle mantiene aperta una connessione silenziosa per ricevere il comando. Nessun suono viene registrato."
+      },
+      {
+        "q": "Cosa succede se chiudo Muffle mentre sono muto?",
+        "a": "Muffle riattiva automaticamente il microfono prima di chiudersi, così non rischierai mai di restare senza audio."
+      },
+      {
+        "q": "Quali versioni di macOS sono supportate?",
+        "a": "macOS 14 Sonoma e versioni successive. Il pulsante dedicato nel Centro di Controllo richiede macOS 26 o successivo."
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Basta cercare il tasto per disattivare il microfono.",
+    "text": "Prova Muffle gratis per 3 giorni."
+  },
+  "footer": {
+    "guides": "Guide",
+    "product": "Muffle",
+    "support": "Supporto",
+    "privacy": "Informativa sulla privacy",
+    "language": "Lingua",
+    "contact": "Contatti",
+    "copyright": "© 2026 Muffle. AirPods e Mac sono marchi registrati di Apple Inc."
+  },
+  "guides_index": {
+    "title": "Guide Muffle: disattiva microfono in chiamata su Mac",
+    "description": "Guide per disattivare il microfono su Mac in Google Meet, Zoom, Teams e Slack usando gli AirPods o una comoda scorciatoia da tastiera.",
+    "h1": "Guide",
+    "intro": "Risposte pratiche e veloci per gestire e disattivare il microfono del Mac in qualunque app di lavoro o conferenza."
+  },
+  "guide_labels": {
+    "on_this_page": "In questa pagina",
+    "faq": "Domande frequenti",
+    "related": "Altre guide",
+    "try": "Prova Muffle gratis per 3 giorni",
+    "read": "Leggi la guida"
+  },
+  "guides": [
+    {
+      "slug": "mute-google-meet-with-airpods",
+      "title": "Come disattivare Google Meet con gli AirPods su Mac",
+      "description": "La pressione degli AirPods non disattiva Google Meet su Chrome per Mac. Scopri come disattivare il microfono con le cuffie o una scorciatoia in ogni scheda.",
+      "h1": "Come disattivare Google Meet con gli AirPods su Mac",
+      "intro": [
+        "Su iPhone, premere lo stelo degli AirPods disattiva l'audio in chiamata. Su Mac, Google Meet funziona in Chrome, e Chrome non trasmette questo gesto alle pagine web. Premi, senti un suono di errore e Meet continua a trasmettere la tua voce.",
+        "Muffle risolve questo problema per ogni riunione su Meet. Riceve direttamente la pressione degli AirPods e disattiva il microfono del tuo Mac, così Meet riceve solo silenzio anche se la scheda è in secondo piano."
+      ],
+      "steps_title": "Disattiva Google Meet con i tuoi AirPods",
+      "steps": [
+        "Installa Muffle e consenti l'accesso al microfono quando richiesto.",
+        "Partecipa alla tua videochiamata su Google Meet in Chrome, Safari, Arc o Edge.",
+        "Premi una volta lo stelo degli AirPods per disattivare il microfono. L'icona di Muffle diventa rossa.",
+        "Premi di nuovo per riattivarlo. Puoi anche premere Control-Opzione-M da qualsiasi app."
+      ],
+      "tips": [
+        "Meet potrebbe mostrare il microfono ancora attivo, perché Muffle disattiva il microfono a livello di sistema e non il pulsante di Meet. Tutti sentono silenzio finché l'icona di Muffle è rossa.",
+        "Attiva “Avvia ogni chiamata da muto” per entrare in ogni riunione su Meet con il microfono disattivato."
+      ],
+      "faq": [
+        {
+          "q": "Perché premere gli AirPods non disattiva Google Meet?",
+          "a": "Chrome non supporta il gesto di disattivazione degli AirPods di macOS per le chiamate web, quindi macOS non sa a quale app inviare il comando. Muffle diventa quell'app."
+        },
+        {
+          "q": "La scorciatoia di Meet non è sufficiente?",
+          "a": "La scorciatoia Comando-D di Meet funziona solo se la scheda di Meet è in primo piano. La scorciatoia di Muffle e la pressione degli AirPods funzionano da qualsiasi app."
+        }
+      ]
+    },
+    {
+      "slug": "mute-zoom-with-airpods",
+      "title": "Disattivare Zoom con AirPods o scorciatoia su Mac",
+      "description": "Disattiva il microfono su Zoom da Mac con gli AirPods o una scorciatoia globale, anche se la finestra non è attiva. Funziona sia nell'app che nel browser.",
+      "h1": "Come disattivare Zoom con gli AirPods o una scorciatoia su Mac",
+      "intro": [
+        "La scorciatoia di Zoom, Comando-Maiuscole-A, funziona solo quando Zoom è in primo piano. Se stai prendendo appunti o condividendo un'altra finestra, cercare il pulsante del microfono ti fa perdere secondi preziosi.",
+        "Muffle ti offre un unico controllo per disattivare Zoom e qualsiasi altra app: i tuoi AirPods, una scorciatoia globale o la barra dei menu. Disattiva direttamente il microfono, funzionando sia nell'app Zoom che nelle videochiamate via browser."
+      ],
+      "steps_title": "Disattiva Zoom da qualsiasi schermata",
+      "steps": [
+        "Installa Muffle e consenti l'accesso al microfono.",
+        "Partecipa alla tua riunione su Zoom come fai di solito.",
+        "Premi lo stelo degli AirPods o Control-Opzione-M per disattivare il microfono, da qualsiasi app.",
+        "Quando hai il microfono disattivato, tieni premuto Control-Opzione-M per parlare e rilascialo per disattivarlo di nuovo."
+      ],
+      "tips": [
+        "Se Zoom gestisce autonomamente la pressione degli AirPods sul tuo Mac, puoi comunque usare la scorciatoia e la barra dei menu con Muffle.",
+        "Zoom potrebbe indicare che il microfono è attivo anche se Muffle lo ha disattivato. I partecipanti sentiranno solo silenzio."
+      ],
+      "faq": [
+        {
+          "q": "Muffle sostituisce il pulsante di disattivazione di Zoom?",
+          "a": "Funziona in parallelo. Muffle disattiva il microfono per ogni applicazione, permettendoti di silenziare Zoom senza dover passare alla sua finestra."
+        },
+        {
+          "q": "Posso usare la funzione premi per parlare su Zoom?",
+          "a": "Sì. Quando il microfono è disattivato, tieni premuta la scorciatoia di Muffle per parlare. Funziona su Zoom e in qualsiasi altra app."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microsoft-teams-with-airpods",
+      "title": "Disattivare Microsoft Teams con AirPods su Mac",
+      "description": "Disattiva Microsoft Teams su Mac con AirPods, una scorciatoia rapida o la barra dei menu. Funziona sia nell'app Teams che durante le chiamate nel browser.",
+      "h1": "Come disattivare Microsoft Teams con gli AirPods su Mac",
+      "intro": [
+        "La scorciatoia di Teams, Comando-Maiuscole-M, funziona solo se la finestra di Teams è attiva. Durante una riunione spesso ti trovi altrove: su un documento, nel browser o su uno schermo condiviso.",
+        "Muffle disattiva il microfono da qualsiasi posizione, sia nell'app Teams sia in Teams sul web. Premi i tuoi AirPods, premi una scorciatoia o fai clic sulla barra dei menu."
+      ],
+      "steps_title": "Disattiva Teams da qualsiasi schermata",
+      "steps": [
+        "Installa Muffle e consenti l'accesso al microfono.",
+        "Entra nella tua riunione su Teams.",
+        "Premi Control-Opzione-M o lo stelo degli AirPods per disattivare il microfono. L'icona nella barra dei menu diventa rossa.",
+        "Premi di nuovo per riattivarlo, oppure tieni premuta la scorciatoia per parlare mentre sei muto."
+      ],
+      "tips": [
+        "Grazie a Muffle, Teams aperto in una scheda del browser ottiene lo stesso supporto per AirPods di Google Meet.",
+        "Attiva “Disattiva al blocco dello schermo” per non lasciare mai il microfono aperto quando ti allontani dal Mac nello smart working."
+      ],
+      "faq": [
+        {
+          "q": "La pressione degli AirPods funziona nell'app Teams?",
+          "a": "Dipende dalla versione di Teams, poiché l'app può gestire direttamente la pressione. La scorciatoia di Muffle e l'icona nella barra dei menu funzionano in ogni situazione."
+        },
+        {
+          "q": "Teams mostrerà che ho il microfono disattivato?",
+          "a": "Non sempre. Muffle disattiva il microfono a livello hardware o di sistema, quindi Teams potrebbe mostrare il microfono ancora acceso mentre tutti sentono silenzio."
+        }
+      ]
+    },
+    {
+      "slug": "mute-slack-huddles",
+      "title": "Disattivare le riunioni Slack con scorciatoia su Mac",
+      "description": "Disattiva il microfono nelle riunioni rapide di Slack da qualsiasi app con una scorciatoia o con gli AirPods. Senza dover cercare la finestra di Slack.",
+      "h1": "Come disattivare una riunione rapida di Slack da qualsiasi app su Mac",
+      "intro": [
+        "I controlli delle riunioni rapide su Slack si trovano in una finestrella che si perde facilmente dietro al lavoro, e la sua scorciatoia di disattivazione funziona solo se Slack è in primo piano.",
+        "Muffle disattiva il microfono per Slack e qualsiasi altra app con una scorciatoia o una pressione degli AirPods, ovunque ti trovi sul tuo Mac."
+      ],
+      "steps_title": "Disattiva la riunione rapida da qualsiasi schermata",
+      "steps": [
+        "Installa Muffle e consenti l'accesso al microfono.",
+        "Avvia o partecipa a una riunione rapida su Slack.",
+        "Premi Control-Opzione-M o lo stelo degli AirPods per disattivare il microfono.",
+        "Dai un'occhiata alla barra dei menu: il colore rosso indica che nessuno può sentirti."
+      ],
+      "tips": [
+        "Il mini controller fluttuante mostra lo stato del microfono durante ogni riunione.",
+        "Tieni premuta la scorciatoia per dire qualcosa al volo, tornando subito muto non appena la rilasci."
+      ],
+      "faq": [
+        {
+          "q": "Funziona sia con l'app Slack sia con Slack nel browser?",
+          "a": "Sì. Muffle disattiva direttamente il microfono, quindi funziona in entrambi i casi."
+        },
+        {
+          "q": "I colleghi vedranno che ho il microfono disattivato?",
+          "a": "Slack potrebbe mostrare il microfono ancora acceso. Gli altri sentiranno silenzio finché Muffle mantiene il microfono disattivato."
+        }
+      ]
+    },
+    {
+      "slug": "mute-discord-on-mac",
+      "title": "Discord su Mac: Push to Talk e Scorciatoia Microfono",
+      "description": "Usa una scorciatoia globale per push to talk e disattiva microfono su Discord per Mac, o fallo con gli AirPods. Funziona sia nell'app che nel browser.",
+      "h1": "Push to talk e scorciatoia per disattivare il microfono su Discord per Mac",
+      "intro": [
+        "Su Mac, il push to talk di Discord richiede permessi speciali e non funziona se usi Discord nel browser. Se poi partecipi a chiamate su Meet o Zoom, finisci per avere un tasto diverso per ogni app.",
+        "Muffle ti offre un unico tasto per tutte le app. Premilo per disattivare il microfono, tienilo premuto per parlare oppure usa la pressione degli AirPods."
+      ],
+      "steps_title": "Configura il push to talk per Discord",
+      "steps": [
+        "Installa Muffle e consenti l'accesso al microfono.",
+        "Entra in un canale vocale di Discord.",
+        "Premi Control-Opzione-M per disattivare o attivare. Da muto, tienilo premuto per parlare.",
+        "Scegli il tuo tasto nelle Impostazioni di Muffle, ad esempio un tasto funzione."
+      ],
+      "tips": [
+        "La scorciatoia di Muffle non richiede permessi di Accessibilità.",
+        "Blocca il livello del microfono per evitare che la regolazione automatica di Discord lo modifichi di continuo."
+      ],
+      "faq": [
+        {
+          "q": "Funziona come il push to talk di Discord?",
+          "a": "Funziona allo stesso modo, ma per tutte le app contemporaneamente. Muffle disattiva direttamente il microfono, quindi Discord rileva solo silenzio finché non tieni premuto il tasto."
+        },
+        {
+          "q": "Posso disattivare Discord con gli AirPods?",
+          "a": "Sì. Durante una chiamata vocale, premi lo stelo degli AirPods per disattivare o attivare il microfono."
+        }
+      ]
+    },
+    {
+      "slug": "mute-webex-on-mac",
+      "title": "Come Disattivare il Microfono su Webex da Mac",
+      "description": "Disattiva il microfono nelle riunioni Webex su Mac con una scorciatoia o con gli AirPods, anche quando la finestra di Webex non è in primo piano.",
+      "h1": "Come disattivare Webex da qualsiasi app su Mac",
+      "intro": [
+        "La scorciatoia di Webex per disattivare l'audio funziona solo quando la finestra è in primo piano, e i comandi si nascondono quando condividi lo schermo.",
+        "Muffle disattiva il microfono da qualsiasi punto del tuo Mac, permettendoti di gestire la riunione Webex senza interrompere quello che stai facendo."
+      ],
+      "steps_title": "Disattiva Webex da qualsiasi punto",
+      "steps": [
+        "Installa Muffle e consenti l'accesso al microfono.",
+        "Partecipa alla riunione su Webex.",
+        "Premi Control-Opzione-M o lo stelo dei tuoi AirPods per disattivare.",
+        "Usa il mini controller mobile per verificare lo stato del microfono mentre condividi lo schermo."
+      ],
+      "tips": [
+        "Webex potrebbe mostrarti ancora come attivo. I partecipanti sentiranno solo silenzio finché l'icona di Muffle resta rossa.",
+        "Attiva «Avvia ogni chiamata da muto» per le conferenze più affollate."
+      ],
+      "faq": [
+        {
+          "q": "Muffle funziona con Webex nel browser?",
+          "a": "Sì. Disattiva direttamente il microfono, quindi funziona con qualsiasi versione di Webex."
+        },
+        {
+          "q": "Posso disattivare Webex con gli AirPods?",
+          "a": "Sì, premi lo stelo durante la videochiamata. La scorciatoia da tastiera funziona con qualsiasi modello di cuffie."
+        }
+      ]
+    },
+    {
+      "slug": "mute-browser-calls",
+      "title": "Disattivare il Microfono nei Browser su Mac: Chrome, Safari",
+      "description": "Disattiva il microfono su Chrome, Safari, Arc, Edge e Firefox con gli AirPods o una scorciatoia. Ideale per Google Meet, smart working e videochiamate.",
+      "h1": "Come disattivare il microfono in qualsiasi scheda del browser su Mac",
+      "intro": [
+        "Sempre più chiamate si svolgono nel browser: Google Meet, Teams sul web, uffici virtuali come SoWork e Gather, Whereby, Jitsi. Ognuno ha il proprio pulsante e la propria scorciatoia, che funzionano solo quando la scheda è in primo piano.",
+        "Inoltre, i browser su Mac ignorano la pressione degli AirPods per disattivare l'audio. Muffle rileva quella pressione, o una scorciatoia globale, e disattiva il microfono per ogni scheda contemporaneamente."
+      ],
+      "steps_title": "Disattiva qualsiasi chiamata web",
+      "steps": [
+        "Installa Muffle e consenti l'accesso al microfono.",
+        "Avvia la chiamata in una scheda qualsiasi del browser.",
+        "Premi lo stelo degli AirPods o Control-Opzione-M per disattivare il microfono, da qualsiasi app o scheda.",
+        "Controlla l'icona nella barra dei menu: quando è rossa, il microfono è spento."
+      ],
+      "tips": [
+        "Nello smart working gli uffici virtuali lasciano il microfono aperto per ore. Attiva il mini controller mobile per vedere sempre il tuo stato.",
+        "Il promemoria «Sei muto» ti avvisa se inizi a parlare quando il microfono è disattivato."
+      ],
+      "faq": [
+        {
+          "q": "Perché la pressione degli AirPods non funziona in Chrome?",
+          "a": "Chrome non supporta il gesto degli AirPods per disattivare l'audio sulle pagine web in macOS. Muffle intercetta la pressione e disattiva direttamente il microfono."
+        },
+        {
+          "q": "Funziona anche su SoWork e Gather?",
+          "a": "Sì. Qualsiasi sito che utilizza il microfono viene silenziato quando Muffle lo disattiva."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-mute-not-working-on-mac",
+      "title": "AirPods: Disattiva Microfono Non Funziona su Mac? Risolvi",
+      "description": "La pressione degli AirPods dà errore e non disattiva la chiamata su Mac? Scopri perché succede e come usare le cuffie per disattivare il microfono ovunque.",
+      "h1": "Disattivare il microfono con gli AirPods non funziona su Mac? La soluzione",
+      "intro": [
+        "macOS consente di disattivare una chiamata premendo lo stelo degli AirPods, ma solo se l'app supporta questa funzione. Molte app non lo fanno, compreso Chrome e le chiamate via browser. Premi, senti un suono di errore, vedi il messaggio «Impossibile controllare il microfono» e gli altri continuano a sentirti.",
+        "Muffle porta questo supporto in tutte le app. Riceve la pressione, disattiva il microfono del tuo Mac e riproduce il classico segnale acustico di disattivazione."
+      ],
+      "steps_title": "Usa la pressione degli AirPods per disattivare qualsiasi app",
+      "steps": [
+        "Installa Muffle e consenti l'accesso al microfono. macOS invia la pressione solo alle app che possono usare il microfono.",
+        "Verifica che «Disattiva e attiva con una pressione degli AirPods» sia attivo nelle Impostazioni di Muffle.",
+        "Partecipa a una chiamata. La pressione disattiva l'audio solo quando un'app sta usando il microfono.",
+        "Premi lo stelo una volta per disattivare e di nuovo per attivare."
+      ],
+      "tips": [
+        "Fuori dalle chiamate, la pressione riproduce o mette in pausa la musica come al solito.",
+        "Se i tuoi AirPods usano una pressione diversa per i controlli di chiamata, controlla le opzioni per gli AirPods in Impostazioni di Sistema."
+      ],
+      "faq": [
+        {
+          "q": "Perché il Mac emette un suono di errore quando premo gli AirPods?",
+          "a": "L'app usata per la chiamata non supporta la pressione degli AirPods per disattivare l'audio, quindi macOS la rifiuta. Con Muffle attivo, la pressione disattiva invece il tuo microfono."
+        },
+        {
+          "q": "Quali AirPods supportano la pressione per disattivare il microfono?",
+          "a": "AirPods Pro, AirPods di terza generazione e successive e AirPods Max, oltre ai modelli Beats con controlli per le chiamate."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-keyboard-shortcut-mac",
+      "title": "Disattiva il microfono su Mac con una scorciatoia",
+      "description": "Imposta una scorciatoia da tastiera per disattivare il microfono del Mac in ogni app durante chiamate e videochiamate. Senza permessi di accessibilità.",
+      "h1": "Come disattivare il microfono su Mac con una scorciatoia da tastiera",
+      "intro": [
+        "macOS ha un tasto per la dettatura, ma nessuno per disattivare il microfono. Ogni app per chiamate ha la propria scorciatoia, che funziona solo se l'app è in primo piano.",
+        "Muffle aggiunge un'unica scorciatoia che disattiva direttamente il microfono, in tutte le app contemporaneamente. La combinazione predefinita è Control-Opzione-M, ma puoi scegliere quella che preferisci."
+      ],
+      "steps_title": "Disattiva con una scorciatoia",
+      "steps": [
+        "Installa Muffle.",
+        "Premi Control-Opzione-M per disattivare. L'icona nella barra dei menu diventa rossa e compare la conferma “Muto”.",
+        "Premila di nuovo per attivare il microfono.",
+        "Per modificarla, apri le Impostazioni di Muffle, clicca sulla scorciatoia e premi la nuova combinazione."
+      ],
+      "tips": [
+        "Tieni premuta la scorciatoia da muto per parlare, poi rilasciala per disattivare di nuovo il microfono.",
+        "Fai clic con il tasto destro sull'icona di Muffle nella barra dei menu per disattivare all'istante con il mouse."
+      ],
+      "faq": [
+        {
+          "q": "La scorciatoia funziona anche se l'app della chiamata non è in primo piano?",
+          "a": "Sì. Funziona da qualsiasi app, anche a tutto schermo."
+        },
+        {
+          "q": "Posso usare un singolo tasto, come F5?",
+          "a": "Sì. I tasti funzione funzionano da soli; gli altri tasti richiedono Control, Opzione o Comando."
+        }
+      ]
+    },
+    {
+      "slug": "push-to-talk-on-mac",
+      "title": "Push to talk su Mac per ogni app e videochiamata",
+      "description": "Usa il push to talk su Mac in Zoom, Google Meet, Teams e Discord. Tieni premuto un tasto per parlare e rilascialo per disattivare il microfono.",
+      "h1": "Push to talk su Mac, in qualsiasi app",
+      "intro": [
+        "Il push to talk ti tiene muto finché non premi un tasto. È il modo più comodo per non fare rumore in riunione o in stanze rumorose, ma poche app lo offrono e ognuna usa un tasto diverso.",
+        "Muffle aggiunge il push to talk a ogni app sul tuo Mac. Resta muto, tieni premuta la scorciatoia per parlare e rilasciala per disattivare di nuovo il microfono."
+      ],
+      "steps_title": "Come usare il push to talk",
+      "steps": [
+        "Installa Muffle.",
+        "Disattiva il microfono con Control-Opzione-M o con i tuoi AirPods.",
+        "Tieni premuto Control-Opzione-M mentre parli.",
+        "Rilascia il tasto: sei di nuovo muto."
+      ],
+      "tips": [
+        "Premere brevemente la scorciatoia attiva o disattiva il microfono. Tenerla premuta attiva il push to talk.",
+        "Scegli un tasto comodo nelle Impostazioni di Muffle, ad esempio un tasto funzione F."
+      ],
+      "faq": [
+        {
+          "q": "Il push to talk funziona su Google Meet?",
+          "a": "Sì. Muffle disattiva direttamente il microfono, quindi il push to talk funziona su Google Meet, Zoom, Teams, Discord e qualsiasi altra app."
+        },
+        {
+          "q": "Esiste anche il push to mute?",
+          "a": "Sì. Quando il microfono è attivo, tenere premuta la scorciatoia ti disattiva finché non la rilasci."
+        }
+      ]
+    },
+    {
+      "slug": "stop-apps-changing-mic-volume",
+      "title": "Evita che Chrome e Zoom modifichino il microfono su Mac",
+      "description": "Google Meet, Chrome, Zoom e Teams cambiano il volume del microfono su Mac durante le chiamate? Blocca il livello audio per impedire modifiche.",
+      "h1": "Come impedire alle app di modificare il volume del microfono su Mac",
+      "intro": [
+        "Molte app per chiamate regolano da sole il livello di ingresso con il controllo automatico del guadagno. Imposti un buon volume in Impostazioni di Sistema, entri in una videochiamata su Google Meet e pochi minuti dopo il cursore si è spostato, facendoti risultare troppo basso o distorto.",
+        "Muffle può bloccare il livello del microfono. Se un'app lo modifica, Muffle lo ripristina all'istante."
+      ],
+      "steps_title": "Blocca il livello del microfono",
+      "steps": [
+        "Installa Muffle.",
+        "Clicca sull'icona di Muffle nella barra dei menu e imposta il tuo livello con il cursore del microfono.",
+        "Clicca sul lucchetto accanto al cursore.",
+        "Partecipa alle chiamate: il livello resterà esattamente dove lo hai impostato."
+      ],
+      "tips": [
+        "Muffle ti avvisa nel pannello se il livello è troppo basso durante una chiamata.",
+        "Il blocco memorizza il livello per ogni singolo microfono, così i tuoi AirPods e il microfono del Mac mantengono ciascuno la propria impostazione."
+      ],
+      "faq": [
+        {
+          "q": "Perché il volume del microfono del Mac continua a cambiare?",
+          "a": "App come Chrome, Zoom e Teams usano il controllo automatico del guadagno e modificano il livello di ingresso di sistema mentre parli."
+        },
+        {
+          "q": "Posso comunque modificare il livello manualmente?",
+          "a": "Sì. Usa il cursore nel pannello di Muffle: aggiornerà direttamente il livello bloccato."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-on-mac",
+      "title": "Come disattivare il microfono su Mac: 4 metodi efficaci",
+      "description": "Quattro modi per disattivare il microfono del Mac: app di chiamata, Impostazioni di Sistema, scorciatoia e AirPods. Scopri cosa funziona ovunque.",
+      "h1": "Come disattivare il microfono su Mac",
+      "intro": [
+        "Sul Mac non c'è un tasto per disattivare il microfono. In base all'app e alla situazione hai diverse opzioni, ma solo alcune funzionano ovunque."
+      ],
+      "steps_title": "Le opzioni disponibili",
+      "steps": [
+        "Il pulsante o la scorciatoia dell'app di chiamata. Funziona solo in quell'app e solo finché resta in primo piano.",
+        "Impostazioni di Sistema, Suono, Ingresso. Portare il volume di ingresso a zero non disattiva davvero tutti i microfoni e le app possono alzarlo di nuovo.",
+        "Una scorciatoia globale con Muffle. Un solo tasto disattiva direttamente il microfono, in ogni app.",
+        "I tuoi AirPods. Con Muffle, premere lo stelo disattiva qualsiasi chiamata o conferenza, anche su Google Meet in Chrome."
+      ],
+      "tips": [
+        "L'icona di Muffle nella barra dei menu diventa rossa quando il microfono è disattivato, qualunque sia l'app in uso.",
+        "Uscire da Muffle riattiva sempre il microfono."
+      ],
+      "faq": [
+        {
+          "q": "Esiste una funzione integrata per disattivare il microfono su Mac?",
+          "a": "Non a livello di sistema. macOS disattiva il microfono solo all'interno delle app che lo supportano. Muffle aggiunge una vera disattivazione per l'intero sistema."
+        },
+        {
+          "q": "Disattivare l'audio con Muffle silenzia ogni app?",
+          "a": "Sì. Muffle disattiva tutti i microfoni a livello hardware, quindi nessuna app può sentirti finché non riattivi l'audio."
+        }
+      ]
+    },
+    {
+      "slug": "youre-muted-reminder",
+      "title": "Avviso “Sei muto” su Mac in ogni chiamata e riunione",
+      "description": "Parli con il microfono disattivato? Muffle se ne accorge e mostra l'avviso “Sei muto” su Google Meet, Zoom, Teams, Slack e qualsiasi app sul tuo Mac.",
+      "h1": "Un promemoria “Sei muto” per ogni app di videochiamata",
+      "intro": [
+        "Zoom ti avvisa quando parli con il microfono disattivato. Molte altre app non lo fanno e le videochiamate via browser quasi mai. Ti capita di spiegare qualcosa per un minuto per poi accorgerti che tutti stanno aspettando.",
+        "Muffle rileva la voce quando sei muto e mostra un promemoria, in qualsiasi app. Quando la chiamata usa gli AirPods o delle cuffie, ascolta il microfono integrato del Mac, misurandone solo il volume. Non viene registrato nulla."
+      ],
+      "steps_title": "Attiva il promemoria",
+      "steps": [
+        "Installa Muffle e consenti l'accesso al microfono.",
+        "Assicurati che l'opzione “Avvisami quando parlo da muto” sia attiva in Impostazioni di Muffle.",
+        "Entra in una chiamata con AirPods o cuffie e disattiva il microfono.",
+        "Inizia a parlare. Apparirà il promemoria “Sei muto”."
+      ],
+      "tips": [
+        "Entri in una riunione con il microfono ancora disattivato dalla precedente? Muffle te lo ricorda appena inizia la chiamata.",
+        "Digitare sulla tastiera non attiva il promemoria. Viene attivato solo dal parlato continuo."
+      ],
+      "faq": [
+        {
+          "q": "Il promemoria funziona con il microfono integrato del Mac?",
+          "a": "Funziona quando la chiamata usa AirPods o delle cuffie. Se la chiamata usa il microfono integrato del Mac, quel microfono è disattivato e non può sentirti."
+        },
+        {
+          "q": "Il mio audio viene registrato?",
+          "a": "No. Muffle misura soltanto il livello sonoro e non memorizza né invia mai alcun audio."
+        }
+      ]
+    }
+  ],
+  "support": {
+    "title": "Supporto Muffle",
+    "description": "Assistenza per Muffle su Mac: configurazione degli AirPods, scorciatoie da tastiera, acquisti e risoluzione problemi.",
+    "h1": "Supporto",
+    "sections": [
+      {
+        "h": "Per iniziare",
+        "items": [
+          "Muffle si trova nella barra dei menu. Clicca sull'icona del microfono per i controlli, oppure clicca con il tasto destro per disattivarlo all'istante.",
+          "Durante una chiamata, premi lo stelo degli AirPods per disattivare il microfono e premilo di nuovo per riattivarlo.",
+          "La scorciatoia predefinita è Control-Opzione-M. Toccala per disattivare o attivare l'audio. Quando sei muto, tienila premuta per parlare."
+        ]
+      },
+      {
+        "h": "La pressione degli AirPods non disattiva il microfono",
+        "items": [
+          "Funziona solo durante una chiamata, quando un'app sta effettivamente usando il microfono.",
+          "Consenti l'accesso al microfono per Muffle in Impostazioni di Sistema, Privacy e sicurezza, Microfono.",
+          "Verifica che l'opzione “Disattiva e attiva con una pressione degli AirPods” sia abilitata nelle Impostazioni di Muffle.",
+          "I tuoi AirPods devono supportare i controlli per le chiamate: servono AirPods Pro, AirPods 3 o successivi, oppure AirPods Max."
+        ]
+      },
+      {
+        "h": "L'app della chiamata mostra ancora il microfono attivo",
+        "items": [
+          "È normale. Muffle disattiva il microfono a livello di sistema, quindi l'app riceve solo silenzio anche se pensa che il microfono sia ancora aperto. Fai riferimento all'icona di Muffle nella barra dei menu: se è rossa, nessuno può sentirti."
+        ]
+      },
+      {
+        "h": "Acquisti",
+        "items": [
+          "Puoi provare Muffle gratis per 3 giorni. Dopodiché potrai sbloccarlo con un acquisto una tantum. Non c'è alcun abbonamento.",
+          "Per ripristinare un acquisto precedente su un altro Mac, apri le Impostazioni di Muffle e scegli Ripristina acquisto."
+        ]
+      }
+    ],
+    "contact_title": "Contatti",
+    "contact_text": "Scrivici a"
+  },
+  "privacy_page": {
+    "title": "Informativa sulla privacy di Muffle",
+    "description": "Muffle non registra, non memorizza e non invia mai il tuo audio e non raccoglie dati personali. Scopri come gestisce il microfono.",
+    "h1": "Informativa sulla privacy",
+    "updated": "Ultimo aggiornamento: 29 settembre 2026.",
+    "intro": "Muffle disattiva il microfono del tuo Mac. L'app è progettata in modo che nessuna parola pronunciata lasci mai il tuo computer.",
+    "sections": [
+      {
+        "h": "Come Muffle usa il tuo microfono",
+        "p": [
+          "Durante le chiamate, Muffle mantiene aperta una connessione silenziosa con il microfono. Poiché macOS inoltra la pressione degli AirPods solo alle applicazioni che stanno usando il microfono, questo collegamento è indispensabile per rilevare il comando.",
+          "Se attivi il promemoria che ti avvisa quando parli da muto, Muffle misura anche l'intensità sonora del microfono integrato del Mac mentre l'audio è disattivato, per capire se hai iniziato a parlare.",
+          "Muffle analizza esclusivamente i livelli numerici del volume. Non registra, non salva, non trascrive e non trasmette mai alcun dato audio."
+        ]
+      },
+      {
+        "h": "Dati raccolti",
+        "p": [
+          "Nessuno. Muffle non richiede la creazione di account, non include strumenti di analisi o pubblicità e non effettua alcun tracciamento. Non comunica con nessun nostro server."
+        ]
+      },
+      {
+        "h": "Acquisti",
+        "p": [
+          "Il periodo di prova gratuita e l'acquisto una tantum vengono gestiti direttamente tramite l'App Store di Apple. Apple gestisce tutte le informazioni di pagamento in modo sicuro senza mai condividerle con noi. A queste transazioni si applica l'informativa sulla privacy di Apple."
+        ]
+      },
+      {
+        "h": "Impostazioni salvate sul Mac",
+        "p": [
+          "Tutte le preferenze personali, come la scorciatoia da tastiera scelta, rimangono memorizzate localmente sul tuo Mac nello spazio riservato all'applicazione. Se disinstalli Muffle, anche le impostazioni verranno eliminate."
+        ]
+      }
+    ],
+    "contact": "Domande sulla privacy:"
+  }
+}

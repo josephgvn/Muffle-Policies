@@ -1,0 +1,643 @@
+{
+  "meta": {
+    "home_title": "Muffle: Mykistä Macin mikrofoni AirPodsilla tai oikotiellä",
+    "home_description": "Mykistä mikrofoni sovelluksissa Google Meet, Zoom, Teams, Slack, Discord ja muissa Mac-sovelluksissa. Paina AirPodsia tai pikanäppäintä. 3 päivää ilmainen.",
+    "og_title": "Mykistä Macin mikrofoni missä tahansa.",
+    "og_subtitle": "Paina AirPodsia tai yhtä pikanäppäintä. Toimii kaikissa sovelluksissa."
+  },
+  "nav": {
+    "features": "Ominaisuudet",
+    "guides": "Oppaat",
+    "support": "Tuki",
+    "download": "Hanki Muffle",
+    "home": "Koti",
+    "menu": "Valikko"
+  },
+  "cta": {
+    "download": "Lataa Mac App Storesta",
+    "coming_soon": "Tulossa pian Mac App Storeen",
+    "trial": "Ilmainen 3 päivän ajan. Sen jälkeen kertamaksu, ei tilausta.",
+    "requirements": "macOS 14 Sonomaan ja uudempiin."
+  },
+  "hero": {
+    "title": "Mykistä Macin mikrofoni missä tahansa.",
+    "subtitle": "Paina AirPodsia tai yhtä pikanäppäintä. Muffle sammuttaa itse mikrofonin, joten Google Meet, Zoom, Teams, Slack ja kaikki muut sovellukset saavat pelkkää hiljaisuutta.",
+    "image_alt": "Muffle-paneeli Macin valikkorivillä Google Meet -puhelun aikana Chromessa"
+  },
+  "works_with": {
+    "title": "Toimii kaikkien mikrofonia käyttävien sovellusten kanssa",
+    "apps": [
+      "Google Meet",
+      "Zoom",
+      "Microsoft Teams",
+      "Slack",
+      "Discord",
+      "FaceTime",
+      "Webex",
+      "WhatsApp",
+      "Skype",
+      "SoWork",
+      "Gather",
+      "Chrome",
+      "Safari",
+      "Arc",
+      "Edge",
+      "Firefox"
+    ],
+    "note": "Muffle mykistää mikrofonin laitteistotasolla, joten ei ole väliä, mikä sovellus, selain tai välilehti sitä käyttää."
+  },
+  "features": {
+    "title": "Kaikki mitä Macin pitäisi osata puheluissa",
+    "items": [
+      {
+        "title": "Mykistä painamalla AirPodsia",
+        "text": "Paina puhelun aikana kuulokkeen vartta kerran mykistääksesi ja uudelleen poistaaksesi mykistyksen. Toimii myös Chromessa, jossa Google Meet ja muut verkkopuhelut eivät reagoi AirPodsin painallukseen."
+      },
+      {
+        "title": "Yksi pikanäppäin kaikille sovelluksille",
+        "text": "Control-Option-M mykistää sinut kaikkialla, vaikka puhelu olisi taustavälilehdellä. Pidä painettuna puhuaksesi mykistettynä ja vapauta mykistääksesi uudelleen."
+      },
+      {
+        "title": "Muistutus: ”Olet mykistetty”",
+        "text": "Jos alat puhua mykistettynä, Muffle huomauttaa siitä ennen kuin selität koko asiasi tyhjille seinille."
+      },
+      {
+        "title": "Puhelut automaattiohjauksella",
+        "text": "Aloita jokainen puhelu mykistettynä, kytke mikrofoni takaisin päälle puhelun päättyessä ja mykistä aina, kun lukitset Macisi."
+      },
+      {
+        "title": "Tiedä aina, kuuluuko äänesi",
+        "text": "Pieni leijuva painike näyttää mikrofonin tilan puheluiden aikana. Napsauta sitä mykistääksesi tai poistaaksesi mykistyksen."
+      },
+      {
+        "title": "Mikrofonin taso pysyy paikallaan",
+        "text": "Chrome, Zoom ja Teams muuttavat mikrofonin tasoa omin päin. Lukitse taso, niin Muffle palauttaa sen automaattisesti."
+      },
+      {
+        "title": "Turvallinen, kun AirPodseista loppuu akku",
+        "text": "Jos kuulokkeiden yhteys katkeaa kesken puhelun, Muffle mykistää äänen ennen kuin puhelu siirtyy Macin mikrofoniin ja koko huoneen äänet kuuluvat."
+      },
+      {
+        "title": "Pikakomennot ja Ohjauskeskus",
+        "text": "Mykistä Pikakomennot-sovelluksesta, Sirillä, Stream Deckillä, Raycastilla tai Ohjauskeskuksen painikkeella."
+      }
+    ],
+    "image_reminder_alt": "”Olet mykistetty” -muistutus näytön alareunassa",
+    "image_pills_alt": "Leijuva minisäädin mykistetyssä ja aktiivisessa tilassa",
+    "image_automation_alt": "Mufflen asetukset puheluiden aloittamiseksi mykistettynä ja muut puheluautomaatiot"
+  },
+  "how": {
+    "title": "Käyttökunnossa minuutissa",
+    "steps": [
+      "Asenna Muffle Mac App Storesta ja salli mikrofonin käyttöoikeus.",
+      "Liity puheluun missä tahansa sovelluksessa tuttuun tapaan.",
+      "Paina AirPodsia, paina Control-Option-M tai mykistä napsauttamalla valikkorivin kuvaketta."
+    ]
+  },
+  "privacy": {
+    "title": "Yksityinen jo suunnittelultaan",
+    "text": "Muffle ei koskaan tallenna, säilytä tai lähetä ääntä. Se vain kytkee mikrofonin päälle ja pois sekä mittaa sen äänenvoimakkuutta. Ei käyttäjätilejä, ei analytiikkaa, ei seurantaa."
+  },
+  "faq": {
+    "title": "Kysymyksiä ja vastauksia",
+    "items": [
+      {
+        "q": "Toimiiko Muffle Google Meetissä Chromessa?",
+        "a": "Kyllä. Chrome ei välitä AirPodsin mykistyspainallusta verkkopuheluille, joten Muffle ottaa sen vastaan ja mykistää itse mikrofonin. Sama koskee kaikkia selainvälilehdissä käytäviä puheluita."
+      },
+      {
+        "q": "Näkevätkö muut minut mykistettynä?",
+        "a": "Puhelusovelluksesi saattaa edelleen näyttää mikrofonin olevan päällä, koska Muffle sammuttaa itse mikrofonin sovelluksen oman painikkeen sijaan. Muut kuulevat joka tapauksessa vain hiljaisuutta. Valikkorivin Muffle-kuvake muuttuu punaiseksi, kun olet mykistettynä."
+      },
+      {
+        "q": "Mitkä AirPods-mallit toimivat?",
+        "a": "AirPods Pro, AirPods 3 ja uudemmat sekä AirPods Max, samoin puhelunhallintaa tukevat Beats-mallit. Pikanäppäin ja valikkorivi toimivat minkä tahansa mikrofonin kanssa."
+      },
+      {
+        "q": "Toimiiko se Zoomin, Teamsin, Slackin ja Discordiin kanssa?",
+        "a": "Kyllä. Muffle toimii kaikkien mikrofonia käyttävien Mac-sovellusten kanssa, niin työpöytäsovelluksissa kuin selainpuheluissakin."
+      },
+      {
+        "q": "Onko käytössä tilausmaksu?",
+        "a": "Ei. Kokeile kaikkia ominaisuuksia ilmaiseksi 3 päivän ajan ja avaa Muffle sen jälkeen käyttöösi kertamaksulla."
+      },
+      {
+        "q": "Miksi Muffle tarvitsee mikrofonin käyttöoikeuden?",
+        "a": "macOS välittää AirPodsin painalluksen vain sovelluksille, jotka käyttävät mikrofonia, joten Muffle pitää puheluiden aikana äänettömän yhteyden auki. Mitään ei tallenneta."
+      },
+      {
+        "q": "Mitä tapahtuu, jos lopetan Mufflen mykistettynä?",
+        "a": "Muffle kytkee mikrofonin takaisin päälle lopettaessaan, joten et koskaan jää jumiin mykistettynä."
+      },
+      {
+        "q": "Mitä macOS-versioita tuetaan?",
+        "a": "macOS 14 Sonomaa ja uudempia. Ohjauskeskuksen painike vaatii macOS 26:n tai uudemman."
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Lopeta mykistyspainikkeen etsiminen.",
+    "text": "Voit kokeilla Mufflea ilmaiseksi 3 päivän ajan."
+  },
+  "footer": {
+    "guides": "Oppaat",
+    "product": "Muffle",
+    "support": "Tuki",
+    "privacy": "Tietosuojakäytäntö",
+    "language": "Kieli",
+    "contact": "Ota yhteyttä",
+    "copyright": "© 2026 Muffle. AirPods ja Mac ovat Apple Inc:n tavaramerkkejä."
+  },
+  "guides_index": {
+    "title": "Muffle-oppaat: Mykistä Meet, Zoom, Teams ja muut Macilla",
+    "description": "Selkeät ohjeet Google Meetin, Zoomin, Microsoft Teamsin, Slackin ja Discord-puheluiden mykistämiseen Macilla AirPodsilla tai pikanäppäimellä.",
+    "h1": "Oppaat",
+    "intro": "Lyhyet, käytännölliset ohjeet mikrofonin mykistämiseen Macilla kaikissa sovelluksissa."
+  },
+  "guide_labels": {
+    "on_this_page": "Tällä sivulla",
+    "faq": "Kysymyksiä ja vastauksia",
+    "related": "Lisää oppaita",
+    "try": "Kokeile Mufflea ilmaiseksi 3 päivän ajan",
+    "read": "Lue opas"
+  },
+  "guides": [
+    {
+      "slug": "mute-google-meet-with-airpods",
+      "title": "Google Meetin mykistys AirPodsilla Macilla",
+      "description": "AirPodsin painallus ei mykistä Google Meetiä Macin Chromessa. Näin mykistät Meet-puhelun AirPods-kuulokkeilla, pikanäppäimellä tai valikkoriviltä missä vain.",
+      "h1": "Miten mykistää Google Meet AirPodsilla Macilla",
+      "intro": [
+        "iPhonessa AirPods-kuulokkeiden varren painallus mykistää puhelun. Macilla Google Meet toimii useimmiten Chromessa, eikä Chrome välitä tätä painallusta verkkosivuille. Kun painat vartta, kuulet vain virheäänen ja puheesi kuuluu edelleen Meet-kokouksessa.",
+        "Muffle korjaa tämän ongelman jokaiseen Meet-puheluun. Se ottaa AirPodsin painalluksen vastaan ja mykistää Macin mikrofonin, joten Meet vastaanottaa pelkkää hiljaisuutta myös silloin, kun välilehti on taustalla."
+      ],
+      "steps_title": "Mykistä Google Meet AirPods-kuulokkeillasi",
+      "steps": [
+        "Asenna Muffle ja salli mikrofonin käyttöoikeus kysyttäessä.",
+        "Liity Google Meet -kokoukseen Chromessa, Safarissa, Arcissa tai Edgessä.",
+        "Mykistä puhelu painamalla AirPods-kuulokkeiden vartta kerran. Mufflen kuvake muuttuu punaiseksi.",
+        "Poista mykistys painamalla uudelleen. Voit myös painaa Control-Option-M missä tahansa sovelluksessa."
+      ],
+      "tips": [
+        "Meet saattaa näyttää mikrofonisi olevan päällä, sillä Muffle mykistää itse mikrofonin eikä Meetin omaa virtuaalipainiketta. Kaikki kuulevat vain hiljaisuutta, kun Mufflen kuvake on punainen.",
+        "Ota käyttöön ”Aloita jokainen puhelu mykistettynä”, niin liityt jokaiseen Meet-kokoukseen automaattisesti mykistettynä."
+      ],
+      "faq": [
+        {
+          "q": "Miksi AirPodsin painallus ei mykistä Google Meetiä?",
+          "a": "Chrome ei tue macOS-järjestelmän AirPods-mykistyselettä verkkopuheluissa, joten järjestelmällä ei ole sovellusta, jolle painallus välitettäisiin. Muffle toimii tuona sovelluksena."
+        },
+        {
+          "q": "Eikö Meetin oma pikanäppäin riitä?",
+          "a": "Meetin oma näppäinyhdistelmä Komento-D toimii vain silloin, kun Meet-välilehti on aktiivisena edessä. Mufflen pikanäppäin ja AirPodsin painallus toimivat mistä tahansa sovelluksesta."
+        }
+      ]
+    },
+    {
+      "slug": "mute-zoom-with-airpods",
+      "title": "Zoomin mykistys AirPodsilla tai pikanäppäimellä Macilla",
+      "description": "Mykistä Zoom Macilla AirPodsia painamalla tai yhdellä pikanäppäimellä, vaikka ikkuna ei olisi aktiivinen. Toimii Zoom-sovelluksessa ja selaimessa.",
+      "h1": "Miten mykistää Zoom AirPodsilla tai pikanäppäimellä Macilla",
+      "intro": [
+        "Zoomin oma pikanäppäin Komento-Vaihto-A toimii vain, kun Zoom on aktiivisena päällimmäisenä. Kun teet muistiinpanoja tai jaat toista ikkunaa, mykistyspainikkeen etsiminen vie aina useita kiusallisia sekunteja.",
+        "Muffle tarjoaa yhden yhteisen mykistyksen Zoomille ja kaikille muille sovelluksille: AirPodsin kautta, yleisellä pikanäppäimellä tai valikkoriviltä. Se mykistää itse laitteistomikrofonin, joten se toimii niin Zoom-sovelluksessa kuin selaimen kautta käytettävissä Zoom-puheluissa."
+      ],
+      "steps_title": "Mykistä Zoom mistä tahansa",
+      "steps": [
+        "Asenna Muffle ja salli mikrofonin käyttöoikeus.",
+        "Liity Zoom-kokoukseesi tavalliseen tapaan.",
+        "Mykistä mikrofoni painamalla AirPods-kuulokkeiden vartta tai painamalla Control-Option-M mistä tahansa sovelluksesta.",
+        "Kun olet mykistettynä, puhu pitämällä Control-Option-M painettuna ja vapauta näppäimet mykistääksesi uudelleen."
+      ],
+      "tips": [
+        "Jos Zoom ottaa AirPodsin painalluksen vastaan itse omalla Macillasi, pikanäppäin ja valikkorivi mykistävät äänesi silti luotettavasti Mufflen kautta.",
+        "Zoom saattaa näyttää tilasi mykistämättömänä, vaikka Muffle on sulkenut mikrofonin. Osallistujat kuulevat silti vain hiljaisuutta."
+      ],
+      "faq": [
+        {
+          "q": "Korvaako Muffle Zoomin oman mykistyspainikkeen?",
+          "a": "Se toimii sen rinnalla. Muffle sammuttaa mikrofonin kaikilta sovelluksilta kerralla, joten voit mykistää Zoomin siirtymättä takaisin sen ikkunaan."
+        },
+        {
+          "q": "Voinko käyttää pikapuhetta (push-to-talk) Zoomissa?",
+          "a": "Kyllä. Kun mikrofoni on mykistetty, pidä Mufflen pikanäppäintä painettuna puhuaksesi. Tämä toimii Zoomissa ja kaikissa muissa sovelluksissa."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microsoft-teams-with-airpods",
+      "title": "Microsoft Teamsin mykistys AirPodsilla Macilla",
+      "description": "Mykistä Microsoft Teams Macilla AirPodsilla, pikanäppäimellä tai valikkoriviltä. Toimii Teams-sovelluksessa ja Teams-selainversiossa.",
+      "h1": "Miten mykistää Microsoft Teams AirPodsilla Macilla",
+      "intro": [
+        "Teamsin oma pikanäppäin Komento-Vaihto-M toimii ainoastaan silloin, kun Teams-ikkuna on aktiivinen. Kokouksen aikana käytät usein jotain muuta: dokumenttia, selainta tai jaettua näyttöä.",
+        "Muffle mykistää mikrofonisi kaikkialta, niin Teams-työpöytäsovelluksessa kuin Teamsin selainversiossa. Paina vain AirPods-kuulokkeitasi, käytä yhtä pikanäppäintä tai napsauta valikkoriviä."
+      ],
+      "steps_title": "Mykistä Teams mistä tahansa",
+      "steps": [
+        "Asenna Muffle ja salli mikrofonin käyttöoikeus.",
+        "Liity Teams-kokoukseesi.",
+        "Mykistä painamalla Control-Option-M tai AirPods-kuulokkeiden vartta. Valikkorivin kuvake muuttuu punaiseksi.",
+        "Poista mykistys painamalla uudelleen tai puhu mykistettynä pitämällä pikanäppäintä painettuna."
+      ],
+      "tips": [
+        "Selaimen välilehdessä pyörivä Teams saa Mufflen ansiosta saman kätevän AirPods-tuen kuin Google Meet.",
+        "Ota käyttöön ”Mykistä, kun näyttö lukittuu”, jotta mikrofoni ei vahingossakaan jää auki, kun poistut koneelta."
+      ],
+      "faq": [
+        {
+          "q": "Toimiiko AirPodsin painallus suoraan Teams-sovelluksessa?",
+          "a": "Se riippuu käytössä olevasta Teams-versiosta, sillä Teams voi käsitellä painalluksen itse. Mufflen pikanäppäin ja valikkorivipainike toimivat kaikissa tilanteissa."
+        },
+        {
+          "q": "Näkyykö Teamsissa, että olen mykistetty?",
+          "a": "Ei aina. Muffle mykistää fyysisen mikrofonin, joten Teams saattaa edelleen näyttää mikrofonin olevan auki, vaikka linjalle ei mene mitään ääntä."
+        }
+      ]
+    },
+    {
+      "slug": "mute-slack-huddles",
+      "title": "Slack-huddleiden mykistys pikanäppäimellä Macilla",
+      "description": "Mykistä Slack-huddle-puhelut Macilla mistä tahansa sovelluksesta pikanäppäimellä tai AirPodsilla. Huddle-ikkunaa ei tarvitse etsiä.",
+      "h1": "Miten mykistää Slack-huddle mistä tahansa sovelluksesta Macilla",
+      "intro": [
+        "Slackin huddle-säätimet sijaitsevat pienessä ikkunassa, joka hukkuu helposti muiden ikkunoiden taakse, ja sen oma mykistysnäppäin toimii vain Slackin ollessa päällimmäisenä.",
+        "Muffle mykistää mikrofonisi Slackille ja kaikille muille ohjelmille yhdellä pikanäppäimellä tai AirPods-painalluksella riippumatta siitä, mitä teet Macillasi."
+      ],
+      "steps_title": "Mykistä huddle mistä tahansa",
+      "steps": [
+        "Asenna Muffle ja salli mikrofonin käyttöoikeus.",
+        "Aloita huddle Slackissa tai liity siihen.",
+        "Mykistä mikrofoni painamalla Control-Option-M tai AirPods-kuulokkeiden vartta.",
+        "Vilkaise valikkoriviä: punainen väri tarkoittaa, että kukaan ei kuule sinua."
+      ],
+      "tips": [
+        "Kelluva minisäädin näyttää mikrofonisi tilan jokaisen huddle-keskustelun aikana.",
+        "Pidä pikanäppäintä painettuna sanoaksesi jotain nopeasti samalla kun mikrofoni pysyy muuten mykistettynä."
+      ],
+      "faq": [
+        {
+          "q": "Toimiiko tämä sekä Slack-sovelluksessa että selainversiossa?",
+          "a": "Kyllä. Muffle mykistää itse mikrofonin, joten se toimii moitteettomasti kummassakin."
+        },
+        {
+          "q": "Näkevätkö tiimikaverit, että olen mykistetty?",
+          "a": "Slack saattaa yhä näyttää mikrofonisi aktiivisena. Muut kuulevat kuitenkin pelkkää hiljaisuutta, kun Muffle pitää sinut mykistettynä."
+        }
+      ]
+    },
+    {
+      "slug": "mute-discord-on-mac",
+      "title": "Discordin push-to-talk ja mykistyksen pikanäppäin Macille",
+      "description": "Käytä Macilla yhtä pikanäppäintä Discordin push-to-talkiin tai mykistä puhelu AirPods-kuulokkeilla. Toimii Discord-sovelluksessa ja selaimessa.",
+      "h1": "Push-to-talk ja kätevä mykistyksen pikanäppäin Discordiin Macilla",
+      "intro": [
+        "Discordin push-to-talk vaatii Macilla erillisiä käyttöoikeuksia eikä toimi selaimessa. Jos osallistut myös Meet- tai Zoom-puheluihin, joudut muistamaan eri mykistysnäppäimen jokaiselle sovellukselle.",
+        "Muffle antaa yhden näppäimen niille kaikille. Napauta mykistääksesi, pidä painettuna puhuaksesi tai paina AirPods-kuulokkeitasi."
+      ],
+      "steps_title": "Ota push-to-talk käyttöön Discordissa",
+      "steps": [
+        "Asenna Muffle ja salli mikrofonin käyttöoikeus.",
+        "Liity Discordin puhekanavalle.",
+        "Mykistä tai poista mykistys painamalla Control-Optio-M. Puhu pitämällä sitä painettuna mykistyksen aikana.",
+        "Valitse haluamasi näppäin Muffle-asetuksista, esimerkiksi jokin F-näppäin."
+      ],
+      "tips": [
+        "Mufflen pikanäppäin ei vaadi Käyttöapu-käyttöoikeutta.",
+        "Lukitse mikrofonin taso, jotta Discordin automaattinen vahvistus ei muuta sitä jatkuvasti."
+      ],
+      "faq": [
+        {
+          "q": "Toimiiko tämä samalla tavalla kuin Discordin push-to-talk?",
+          "a": "Se toimii samalla periaatteella, mutta kaikissa sovelluksissa kerralla. Muffle mykistää itse mikrofonin, joten Discord kuulee pelkkää hiljaisuutta, kunnes pidät näppäintä painettuna."
+        },
+        {
+          "q": "Voiko Discordin mykistää AirPods-kuulokkeilla?",
+          "a": "Kyllä. Paina puhelun aikana AirPods-kuulokkeiden vartta mykistääksesi tai poistaaksesi mykistyksen."
+        }
+      ]
+    },
+    {
+      "slug": "mute-webex-on-mac",
+      "title": "Webexin mykistys mistä tahansa sovelluksesta Macilla",
+      "description": "Mykistä Webex-kokous Macilla pikanäppäimellä tai AirPods-kuulokkeilla, vaikka Webex ei olisi aktiivisena ikkunana. Kätevä apu etätyöhön.",
+      "h1": "Näin mykistät Webexin mistä tahansa Mac-sovelluksesta",
+      "intro": [
+        "Webexin oma mykistyksen pikanäppäin toimii vain, kun Webex on etualalla, ja säätimet piiloutuvat näytönjaon aikana.",
+        "Muffle mykistää mikrofonin mistä tahansa Macilla, joten voit mykistää Webex-kokouksen keskeyttämättä sitä, mitä olet tekemässä."
+      ],
+      "steps_title": "Mykistä Webex mistä tahansa",
+      "steps": [
+        "Asenna Muffle ja salli mikrofonin käyttöoikeus.",
+        "Liity Webex-kokoukseen.",
+        "Mykistä puhelu painamalla Control-Optio-M tai AirPods-kuulokkeiden vartta.",
+        "Tarkista mikrofonin tila kelluvasta minisäätimestä myös näytönjaon aikana."
+      ],
+      "tips": [
+        "Webex saattaa yhä näyttää, ettei sinua ole mykistetty. Osallistujat kuulevat kuitenkin vain hiljaisuutta, kun Mufflen kuvake on punainen.",
+        "Ota käyttöön ”Aloita jokainen puhelu mykistettynä” suuria kokouksia varten."
+      ],
+      "faq": [
+        {
+          "q": "Toimiiko Muffle selaimessa toimivan Webexin kanssa?",
+          "a": "Kyllä. Se mykistää mikrofonin suoraan, joten se toimii minkä tahansa Webex-version kanssa."
+        },
+        {
+          "q": "Voiko Webexin mykistää AirPods-kuulokkeilla?",
+          "a": "Kyllä, paina vartta kokouksen aikana. Pikanäppäin toimii minkä tahansa kuulokkeiden kanssa."
+        }
+      ]
+    },
+    {
+      "slug": "mute-browser-calls",
+      "title": "Selainpuheluiden mykistys Macilla: Chrome, Safari ja Arc",
+      "description": "Mykistä puhelut Chromessa, Safarissa ja Arcissa AirPodsilla tai pikanäppäimellä. Toimii sovelluksissa Google Meet, SoWork, Gather ja Whereby.",
+      "h1": "Puheluiden mykistys selaimen mistä tahansa välilehdestä Macilla",
+      "intro": [
+        "Yhä useampi videopuhelu käydään selaimessa: Google Meet, Teamsin selainversio, SoWorkin ja Gatherin kaltaiset virtuaalitoimistot, Whereby ja Jitsi. Jokaisella on oma mykistyspainike ja pikanäppäin, jotka toimivat vain kyseisen välilehden ollessa etualalla.",
+        "Selaimet myös jättävät huomiotta AirPods-kuulokkeiden mykistyspainalluksen Macilla. Muffle tunnistaa painalluksen tai yhteisen pikanäppäimen ja mykistää mikrofonin kaikilta välilehdiltä kerralla."
+      ],
+      "steps_title": "Mykistä mikä tahansa selainpuhelu",
+      "steps": [
+        "Asenna Muffle ja salli mikrofonin käyttöoikeus.",
+        "Avaa puhelu missä tahansa selaimen välilehdessä.",
+        "Mykistä mistä tahansa sovelluksesta tai välilehdestä painamalla AirPods-vartta tai Control-Optio-M.",
+        "Tarkista valikkorivin kuvake: punainen tarkoittaa, että mikrofoni on pois päältä."
+      ],
+      "tips": [
+        "Virtuaalisissa työtiloissa mikrofoni voi olla auki tuntikausia. Ota kelluva minisäädin käyttöön, jotta näet tilasi aina.",
+        "Muistutus ”Olet mykistetty” ilmoittaa heti, jos alat puhua mykistettynä."
+      ],
+      "faq": [
+        {
+          "q": "Miksi AirPodsin painallus ei toimi Chromessa?",
+          "a": "Chrome ei tue macOS:n AirPods-mykistyselettä verkkosivuilla. Muffle ottaa painalluksen vastaan sen sijaan ja mykistää itse mikrofonin."
+        },
+        {
+          "q": "Toimiiko se SoWorkissa ja Gatherissa?",
+          "a": "Kyllä. Kaikki mikrofonia käyttävät sivustot mykistyvät heti, kun Muffle kytkee mikrofonin pois päältä."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-mute-not-working-on-mac",
+      "title": "AirPods-mykistys ei toimi Macilla? Korjaa ongelma",
+      "description": "Kuuluuko AirPodsin varren painalluksesta virheääni eikä puhelu mykisty? Katso syy ongelmaan ja opi mykistämään mikä tahansa sovellus Macilla.",
+      "h1": "Eikö AirPods-mykistys toimi Macilla? Tässä on ratkaisu",
+      "intro": [
+        "macOS mahdollistaa puhelun mykistämisen AirPods-kuulokkeiden vartta painamalla, mutta vain jos puhelusovellus tukee sitä. Monet sovellukset eivät tue, kuten Chrome ja sen kautta käytettävät verkkopuhelut. Painat vartta, kuulet lyhyen virheäänen, näet ilmoituksen ”Ei voi ohjata mikrofonia” ja puhelun muut osapuolet kuulevat sinut edelleen.",
+        "Muffle tuo tämän tuen jokaiseen sovellukseen. Se ottaa painalluksen vastaan, mykistää Macin mikrofonin ja toistaa normaalin mykistysäänen."
+      ],
+      "steps_title": "Aseta AirPods-painallus mykistämään mikä tahansa sovellus",
+      "steps": [
+        "Asenna Muffle ja salli mikrofonin käyttöoikeus. macOS välittää painalluksen vain sovelluksille, jotka voivat käyttää mikrofonia.",
+        "Varmista, että asetus ”Mykistä ja poista mykistys AirPodsia painamalla” on päällä kohdassa Muffle-asetukset.",
+        "Liity puheluun. Painallus mykistää vain silloin, kun jokin sovellus käyttää mikrofonia.",
+        "Mykistä painamalla vartta kerran ja poista mykistys painamalla uudelleen."
+      ],
+      "tips": [
+        "Puheluiden ulkopuolella painallus käynnistää ja keskeyttää musiikin toiston tavalliseen tapaan.",
+        "Jos AirPods-kuulokkeissasi on määritetty eri painallus puhelunhallintaan, tarkista omat AirPods-asetuksesi kohdasta Järjestelmäasetukset."
+      ],
+      "faq": [
+        {
+          "q": "Miksi Mac toistaa virheäänen, kun painan AirPodsia?",
+          "a": "Sovellus, josta soitat, ei tue AirPodsin mykistyspainallusta, joten macOS hylkää sen. Kun Muffle on käynnissä, painallus mykistää mikrofonisi sen sijaan."
+        },
+        {
+          "q": "Mitkä AirPods-mallit tukevat mykistyspainallusta?",
+          "a": "AirPods Pro, AirPods 3 ja uudemmat sekä AirPods Max, samoin kuin Beats-mallit, joissa on puhelunhallinta."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-keyboard-shortcut-mac",
+      "title": "Mykistä Macin mikrofoni pikanäppäimellä",
+      "description": "Mykistä Macin mikrofoni kaikissa sovelluksissa yhdellä globaalilla pikanäppäimellä. Ei vaadi Käyttöapu-oikeuksia.",
+      "h1": "Macin mikrofonin mykistys pikanäppäimellä",
+      "intro": [
+        "macOS sisältää näppäimen sanelulle mutta ei mikrofonin mykistykselle. Jokaisella puhelusovelluksella on oma pikanäppäimensä, ja kukin toimii vain silloin, kun kyseinen sovellus on aktiivisena.",
+        "Muffle tuo yhden pikanäppäimen, joka mykistää itse mikrofonin kaikissa sovelluksissa kerralla. Oletus on Control-Option-M, ja voit valita minkä tahansa yhdistelmän."
+      ],
+      "steps_title": "Mykistä yhdellä pikanäppäimellä",
+      "steps": [
+        "Asenna Muffle.",
+        "Mykistä painamalla Control-Option-M. Valikkorivin kuvake muuttuu punaiseksi ja pieni vahvistus ”Mykistetty” tulee näkyviin.",
+        "Poista mykistys painamalla sitä uudelleen.",
+        "Jos haluat vaihtaa pikanäppäintä, avaa Muffle-asetukset, napsauta pikanäppäintä ja paina uutta."
+      ],
+      "tips": [
+        "Kun mikrofoni on mykistetty, voit puhua pitämällä pikanäppäintä painettuna ja mykistää taas vapauttamalla sen.",
+        "Napsauta Mufflen valikkorivikuvaketta hiiren kakkospainikkeella mykistääksesi heti hiirellä."
+      ],
+      "faq": [
+        {
+          "q": "Toimiiko pikanäppäin, kun puhelusovellus ei ole aktiivisena?",
+          "a": "Kyllä. Se toimii mistä tahansa sovelluksesta, myös koko näytön tilassa olevista sovelluksista."
+        },
+        {
+          "q": "Voinko käyttää yhtä yksittäistä näppäintä, kuten F5?",
+          "a": "Kyllä. Funktionäppäimet toimivat yksinään; muut näppäimet vaativat Control-, Option- tai Komento-näppäimen."
+        }
+      ]
+    },
+    {
+      "slug": "push-to-talk-on-mac",
+      "title": "Push to talk Macille: toimi kaikissa sovelluksissa",
+      "description": "Käytä push to talk -toimintoa Macilla Zoomissa, Google Meetissä ja Teamsissa. Pidä näppäintä painettuna puhuaksesi, vapauta mykistääksesi.",
+      "h1": "Push to talk Macilla, kaikissa sovelluksissa",
+      "intro": [
+        "Push to talk pitää sinut mykistettynä, kunnes pidät näppäintä painettuna. Se on helpoin tapa pysyä hiljaa suurissa kokouksissa tai meluisissa tiloissa, mutta vain harvoissa sovelluksissa on tämä toiminto, ja jokainen käyttää eri näppäintä.",
+        "Muffle tuo push to talk -toiminnon Macin jokaiseen sovellukseen. Pysy mykistettynä, puhu pitämällä pikanäppäintä painettuna ja mykistä taas vapauttamalla se."
+      ],
+      "steps_title": "Näin käytät push to talk -toimintoa",
+      "steps": [
+        "Asenna Muffle.",
+        "Mykistä painamalla Control-Option-M tai käyttämällä AirPods-kuulokkeita.",
+        "Pidä näppäinyhdistelmää Control-Option-M painettuna, kun puhut.",
+        "Vapauta näppäimet. Olet taas mykistetty."
+      ],
+      "tips": [
+        "Pikanäppäimen nopea painallus kytkee mykistyksen päälle tai pois. Sen pitäminen painettuna toimii push to talk -toimintona.",
+        "Valitse itsellesi mukava näppäin kohdassa Muffle-asetukset, esimerkiksi jokin F-näppäin."
+      ],
+      "faq": [
+        {
+          "q": "Toimiiko push to talk Google Meetissä?",
+          "a": "Kyllä. Muffle mykistää itse mikrofonin, joten push to talk toimii Meetissä, Zoomissa, Teamsissa, Discordissa ja missä tahansa muussa sovelluksessa."
+        },
+        {
+          "q": "Onko sovelluksessa push to mute -toimintoa?",
+          "a": "Kyllä. Kun mykistys on pois päältä, pikanäppäimen pitäminen painettuna mykistää sinut vapauttamiseen asti."
+        }
+      ]
+    },
+    {
+      "slug": "stop-apps-changing-mic-volume",
+      "title": "Estä sovelluksia muuttamasta mikrofonin äänenvoimakkuutta",
+      "description": "Google Meet, Chrome, Zoom ja Teams muuttavat Macin mikrofonin tasoa. Lukitse mikrofonin voimakkuus, jotta mikään sovellus ei muuta sitä.",
+      "h1": "Näin estät sovelluksia muuttamasta mikrofonin tasoa Macilla",
+      "intro": [
+        "Monet puhelusovellukset säätävät sisääntulotasoa itsestään automaattisen vahvistuksensäätimen avulla. Asetat hyvän tason Järjestelmäasetuksissa, liityt Google Meet -puheluun, ja muutamaa minuuttia myöhemmin liukusäädin on siirtynyt ja muut sanovat äänesi kuuluvan liian hiljaa tai säröytyvän.",
+        "Muffle voi lukita mikrofonin tason. Kun jokin sovellus muuttaa sitä, Muffle palauttaa sen heti ennalleen."
+      ],
+      "steps_title": "Lukitse mikrofonin taso",
+      "steps": [
+        "Asenna Muffle.",
+        "Napsauta Muffle-kuvaketta valikkorivillä ja aseta taso mikrofonin liukusäätimellä.",
+        "Napsauta lukkokuvaketta liukusäätimen vieressä.",
+        "Liity puheluihin. Tasosi pysyy juuri siinä, mihin sen asetit."
+      ],
+      "tips": [
+        "Muffle varoittaa paneelissa, jos tasosi on puhelun aikana liian matala.",
+        "Lukitus muistaa tason jokaiselle mikrofonille erikseen, joten AirPods ja Macin oma mikrofoni säilyttävät kumpikin oman tasonsa."
+      ],
+      "faq": [
+        {
+          "q": "Miksi Macin mikrofonin äänenvoimakkuus muuttuu koko ajan?",
+          "a": "Chromen, Zoomin ja Teamsin kaltaiset sovellukset käyttävät automaattista vahvistuksensäätöä ja muuttavat järjestelmän sisääntulotasoa puheen aikana."
+        },
+        {
+          "q": "Voinko edelleen säätää tasoa itse?",
+          "a": "Kyllä. Käytä Mufflen paneelin liukusäädintä; se päivittää lukitun tason."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-on-mac",
+      "title": "Macin mikrofonin mykistys: 4 eri tapaa",
+      "description": "Neljä tapaa mykistää Macin mikrofoni: puhelusovellus, Järjestelmäasetukset, pikanäppäin ja AirPods. Katso, mikä toimii kaikkialla.",
+      "h1": "Miten mykistää mikrofoni Macilla",
+      "intro": [
+        "Macissa ei ole erillistä näppäintä mikrofonin mykistämiseen. Sovelluksesta ja tilanteesta riippuen käytettävissä on muutama vaihtoehto, joista vain osa toimii kaikkialla."
+      ],
+      "steps_title": "Vaihtoehdot",
+      "steps": [
+        "Puhelusovelluksen oma painike tai pikanäppäin. Se toimii vain kyseisessä sovelluksessa ja vain silloin, kun sovellus on aktiivisena.",
+        "Järjestelmäasetukset, Ääni, Äänen sisääntulo. Sisääntulotason vetäminen nollaan ei tarkoita todellista mykistystä kaikilla mikrofoneilla, ja sovellukset voivat nostaa sitä uudelleen.",
+        "Globaali pikanäppäin Mufflen avulla. Yksi näppäin mykistää itse mikrofonin jokaisessa sovelluksessa.",
+        "AirPods-kuulokkeet. Mufflen avulla varren painallus mykistää minkä tahansa puhelun, mukaan lukien Google Meetin Chromessa."
+      ],
+      "tips": [
+        "Mufflen valikkorivikuvake muuttuu punaiseksi, kun mikrofoni on pois päältä, riippumatta siitä, missä sovelluksessa olet.",
+        "Mufflen lopettaminen kytkee mikrofonin aina takaisin päälle."
+      ],
+      "faq": [
+        {
+          "q": "Onko Macissa sisäänrakennettua mikrofonin mykistystä?",
+          "a": "Ei järjestelmänlaajuista. macOS mykistää mikrofonin vain sitä tukevissa sovelluksissa. Muffle lisää todellisen järjestelmänlaajuisen mykistyksen."
+        },
+        {
+          "q": "Mykistääkö Mufflella mykistäminen jokaisen sovelluksen?",
+          "a": "Kyllä. Muffle sammuttaa jokaisen mikrofonin laitteistotasolla, joten mikään sovellus ei kuule sinua ennen kuin poistat mykistyksen."
+        }
+      ]
+    },
+    {
+      "slug": "youre-muted-reminder",
+      "title": "”Olet mykistetty” -muistutus kaikkiin Mac-sovelluksiin",
+      "description": "Puhutko mikrofoni mykistettynä? Muffle huomaa sen ja näyttää ”Olet mykistetty” -muistutuksen Google Meetissä, Zoomissa, Teamsissa ja muissa Mac-sovelluksissa.",
+      "h1": "”Olet mykistetty” -muistutus jokaiseen puhelusovellukseen",
+      "intro": [
+        "Zoom varoittaa, jos puhut mikrofoni mykistettynä. Useimmat muut sovellukset eivät tee niin, ja selainpuhelut eivät lähes koskaan. Selität jotain minuutin ajan ja huomaat vasta sitten muiden odottavan.",
+        "Muffle havaitsee puheen ollessasi mykistettynä ja näyttää muistutuksen missä tahansa sovelluksessa. Kun puhelussa käytetään AirPodsia tai kuulokkeita, se kuuntelee Macin omaa mikrofonia ja pelkästään sen äänenvoimakkuutta. Mitään ei tallenneta."
+      ],
+      "steps_title": "Ota muistutus käyttöön",
+      "steps": [
+        "Asenna Muffle ja salli mikrofonin käyttöoikeus.",
+        "Varmista, että ”Muistuta, kun puhun mykistettynä” on päällä Muffle-asetuksissa.",
+        "Liity puheluun AirPodseilla tai kuulokkeilla ja mykistä mikrofoni.",
+        "Aloita puhuminen. ”Olet mykistetty” -muistutus tulee näkyviin."
+      ],
+      "tips": [
+        "Liitytkö puheluun mikrofoni mykistettynä edellisen jäljiltä? Muffle muistuttaa sinua puhelun alkaessa.",
+        "Näppäimistön naputtelu ei laukaise muistutusta, vaan ainoastaan selkeä puhe."
+      ],
+      "faq": [
+        {
+          "q": "Toimiiko muistutus Macin sisäisellä mikrofonilla?",
+          "a": "Se toimii, kun puhelussa käytetään AirPodsia tai kuulokkeita. Jos puhelu käyttää Macin omaa mikrofonia, kyseinen mikrofoni on mykistetty eikä voi kuulla sinua."
+        },
+        {
+          "q": "Tallennetaanko ääntäni?",
+          "a": "Ei. Muffle mittaa vain äänenvoimakkuutta eikä koskaan säilytä tai lähetä ääntä."
+        }
+      ]
+    }
+  ],
+  "support": {
+    "title": "Muffle-tuki",
+    "description": "Apua Macin Muffle-sovellukseen: AirPodsin painallus, pikanäppäin, ostokset ja paljon muuta.",
+    "h1": "Tuki",
+    "sections": [
+      {
+        "h": "Aloittaminen",
+        "items": [
+          "Muffle näkyy valikkorivillä. Napsauta mikrofonikuvaketta avataksesi säätimet tai napsauta sitä hiiren kakkospainikkeella mykistääksesi heti.",
+          "Mykistä puhelun aikana painamalla AirPods-kuulokkeiden vartta ja poista mykistys painamalla uudelleen.",
+          "Oletuspikanäppäin on Control-Option-M. Napauta mykistääksesi tai poistaaksesi mykistyksen. Kun se on mykistetty, puhu pitämällä sitä painettuna."
+        ]
+      },
+      {
+        "h": "AirPodsin painallus ei mykistä",
+        "items": [
+          "Se toimii vain puhelun aikana, kun jokin sovellus käyttää mikrofoniasi.",
+          "Salli Mufflelle mikrofonin käyttöoikeus kohdassa Järjestelmäasetukset, Tietosuoja ja suojaus, Mikrofoni.",
+          "Tarkista, että ”Mykistä ja poista mykistys AirPodsia painamalla” on päällä Muffle-asetuksissa.",
+          "AirPods-mallisi täytyy tukea puhelunhallintaa: AirPods Pro, AirPods 3 tai uudempi, tai AirPods Max."
+        ]
+      },
+      {
+        "h": "Puhelusovellus näyttää mikrofonin edelleen olevan päällä",
+        "items": [
+          "Tämä on aivan normaalia. Muffle sammuttaa itse mikrofonin, joten sovellus saa pelkkää hiljaisuutta, vaikka se luulee mikrofonin olevan päällä. Luota valikkorivin Muffle-kuvakkeeseen: punainen tarkoittaa, että kukaan ei kuule sinua."
+        ]
+      },
+      {
+        "h": "Ostokset",
+        "items": [
+          "Muffle on ilmainen kokeilla 3 päivän ajan. Sen jälkeen voit avata sen käyttöösi kertamaksulla. Tilausmaksua ei ole.",
+          "Jos haluat palauttaa ostoksen toisella Macilla, avaa Muffle-asetukset ja valitse Palauta ostos."
+        ]
+      }
+    ],
+    "contact_title": "Ota yhteyttä",
+    "contact_text": "Lähetä sähköpostia osoitteeseen"
+  },
+  "privacy_page": {
+    "title": "Mufflen tietosuojakäytäntö",
+    "description": "Muffle ei koskaan tallenna, säilytä tai lähetä ääntä eikä kerää tietoja. Lue, miten Muffle käyttää mikrofoniasi.",
+    "h1": "Tietosuojakäytäntö",
+    "updated": "Viimeksi päivitetty 29. syyskuuta 2026.",
+    "intro": "Muffle mykistää Macisi mikrofonin. Se on rakennettu niin, ettei mikään sanomasi koskaan poistu Maciltasi.",
+    "sections": [
+      {
+        "h": "Mitä Muffle tekee mikrofonillasi",
+        "p": [
+          "Muffle pitää puheluiden aikana äänettömän yhteyden mikrofoniisi. macOS välittää AirPodsin mykistyspainalluksen vain sovelluksille, jotka käyttävät mikrofonia, joten tämä yhteys saa AirPodsin painalluksen toimimaan.",
+          "Jos otat käyttöön ”Muistuta, kun puhun mykistettynä” -toiminnon, Muffle mittaa myös Macin sisäisen mikrofonin äänenvoimakkuutta mykistyksen aikana havaitakseen puheen.",
+          "Muffle tarkastelee ainoastaan äänenvoimakkuuden lukemia. Se ei koskaan tallenna, säilytä, litteroi tai lähetä ääntä."
+        ]
+      },
+      {
+        "h": "Keräämämme tiedot",
+        "p": [
+          "Emme kerää mitään tietoja. Muffle ei käytä käyttäjätilejä, analytiikkaa, mainontaa eikä seurantaa. Se ei ota yhteyttä mihinkään palvelimeemme."
+        ]
+      },
+      {
+        "h": "Ostokset",
+        "p": [
+          "Ilmainen kokeilujakso ja kertamaksu kulkevat Applen App Storen kautta. Apple käsittelee maksutiedot, emmekä me koskaan näe niitä. Ostoksiin sovelletaan Applen tietosuojakäytäntöä."
+        ]
+      },
+      {
+        "h": "Maciisi tallennetut asetukset",
+        "p": [
+          "Asetuksesi, kuten pikanäppäimesi, säilytetään Macissasi Mufflen omassa tallennustilassa. Mufflen poistaminen poistaa myös ne."
+        ]
+      }
+    ],
+    "contact": "Kysymyksiä tietosuojasta:"
+  }
+}

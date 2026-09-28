@@ -1,0 +1,643 @@
+{
+  "meta": {
+    "home_title": "Muffle: Bisukan Mikrofon Mac dengan AirPods atau Pintasan",
+    "home_description": "Bisukan mikrofon di Google Meet, Zoom, Teams, Slack, Discord, dan semua app di Mac. Cukup tekan AirPods atau satu pintasan. Gratis 3 hari.",
+    "og_title": "Bisukan mikrofon Mac Anda dari mana saja.",
+    "og_subtitle": "Tekan AirPods Anda atau satu pintasan. Berfungsi di semua app."
+  },
+  "nav": {
+    "features": "Fitur",
+    "guides": "Panduan",
+    "support": "Dukungan",
+    "download": "Dapatkan Muffle",
+    "home": "Beranda",
+    "menu": "Menu"
+  },
+  "cta": {
+    "download": "Unduh di Mac App Store",
+    "coming_soon": "Segera hadir di Mac App Store",
+    "trial": "Gratis selama 3 hari. Lalu satu kali pembayaran, tanpa langganan.",
+    "requirements": "Untuk macOS 14 Sonoma dan lebih baru."
+  },
+  "hero": {
+    "title": "Bisukan mikrofon Mac Anda dari mana saja.",
+    "subtitle": "Tekan AirPods Anda atau satu pintasan keyboard. Muffle mematikan mikrofon itu sendiri, sehingga Google Meet, Zoom, Teams, Slack, dan semua app lain hanya menerima hening.",
+    "image_alt": "Panel Muffle di bilah menu Mac saat panggilan Google Meet di Chrome"
+  },
+  "works_with": {
+    "title": "Berfungsi dengan setiap app yang menggunakan mikrofon Anda",
+    "apps": [
+      "Google Meet",
+      "Zoom",
+      "Microsoft Teams",
+      "Slack",
+      "Discord",
+      "FaceTime",
+      "Webex",
+      "WhatsApp",
+      "Skype",
+      "SoWork",
+      "Gather",
+      "Chrome",
+      "Safari",
+      "Arc",
+      "Edge",
+      "Firefox"
+    ],
+    "note": "Muffle membisukan mikrofon di tingkat perangkat keras, jadi tidak masalah app, browser, atau tab mana yang menggunakannya."
+  },
+  "features": {
+    "title": "Semua yang seharusnya bisa dilakukan Mac saat panggilan",
+    "items": [
+      {
+        "title": "Tekan AirPods Anda untuk membisukan",
+        "text": "Saat panggilan apa pun, tekan batang sekali untuk membisukan dan tekan lagi untuk mengaktifkan suara. Ini bahkan berfungsi di Chrome, tempat Google Meet dan panggilan web lainnya mengabaikan tekanan AirPods."
+      },
+      {
+        "title": "Satu pintasan untuk semua app",
+        "text": "Control-Option-M membisukan Anda di mana saja, bahkan saat panggilan berada di tab latar belakang. Tahan untuk berbicara saat dibisukan, lepaskan untuk membisukan lagi."
+      },
+      {
+        "title": "Pengingat “Anda dibisukan”",
+        "text": "Mulai berbicara saat dibisukan dan Muffle akan memberi tahu Anda, sebelum Anda menjelaskan seluruh ide tanpa ada yang mendengar."
+      },
+      {
+        "title": "Panggilan otomatis",
+        "text": "Mulai setiap panggilan dalam keadaan dibisukan, aktifkan kembali mik saat panggilan berakhir, dan bisukan kapan pun Anda mengunci Mac."
+      },
+      {
+        "title": "Selalu tahu apakah Anda aktif",
+        "text": "Tombol melayang kecil menampilkan status mik Anda saat panggilan. Klik untuk membisukan atau mengaktifkan suara."
+      },
+      {
+        "title": "Tingkat mikrofon Anda tetap stabil",
+        "text": "Chrome, Zoom, dan Teams mengubah tingkat mikrofon Anda sendiri. Kunci tingkatnya dan Muffle akan mengembalikannya."
+      },
+      {
+        "title": "Aman saat AirPods kehabisan daya",
+        "text": "Jika headphone Anda terputus di tengah panggilan, Muffle langsung membisukan sebelum panggilan beralih ke mikrofon Mac dan menyiarkan seluruh ruangan."
+      },
+      {
+        "title": "Pintasan dan Pusat Kendali",
+        "text": "Bisukan dari app Pintasan, Siri, Stream Deck, Raycast, atau tombol di Pusat Kendali."
+      }
+    ],
+    "image_reminder_alt": "Pengingat “Anda dibisukan” di bagian bawah layar",
+    "image_pills_alt": "Kontroler mini melayang dalam status dibisukan dan aktif",
+    "image_automation_alt": "Pengaturan Muffle untuk memulai panggilan dalam keadaan dibisukan dan otomatisasi panggilan lainnya"
+  },
+  "how": {
+    "title": "Atur dalam satu menit",
+    "steps": [
+      "Instal Muffle dari Mac App Store dan izinkan akses mikrofon.",
+      "Bergabunglah ke panggilan di app apa pun, seperti biasa.",
+      "Tekan AirPods Anda, tekan Control-Option-M, atau klik ikon bilah menu untuk membisukan."
+    ]
+  },
+  "privacy": {
+    "title": "Dirancang menjaga privasi",
+    "text": "Muffle tidak pernah merekam, menyimpan, atau mengirim audio. Muffle hanya menyalakan dan mematikan mikrofon Anda serta membaca tingkat suaranya. Tanpa akun, tanpa analitik, tanpa pelacakan."
+  },
+  "faq": {
+    "title": "Pertanyaan umum",
+    "items": [
+      {
+        "q": "Apakah Muffle berfungsi dengan Google Meet di Chrome?",
+        "a": "Ya. Chrome tidak meneruskan tekanan bisukan AirPods ke panggilan web, jadi Muffle menangkapnya dan membisukan mikrofon itu sendiri. Hal yang sama berlaku untuk panggilan apa pun di tab browser."
+      },
+      {
+        "q": "Apakah orang lain akan melihat saya dibisukan?",
+        "a": "App panggilan Anda mungkin masih menampilkan mik Anda aktif, karena Muffle mematikan mikrofon secara langsung dan bukan tombol app. Orang lain tetap mendengar hening. Ikon Muffle di bilah menu berubah menjadi merah saat Anda dibisukan."
+      },
+      {
+        "q": "Model AirPods mana yang berfungsi?",
+        "a": "AirPods Pro, AirPods 3 dan lebih baru, serta AirPods Max, ditambah model Beats dengan kontrol panggilan. Pintasan keyboard dan bilah menu berfungsi dengan mikrofon apa pun."
+      },
+      {
+        "q": "Apakah berfungsi dengan Zoom, Teams, Slack, dan Discord?",
+        "a": "Ya. Muffle berfungsi dengan setiap app di Mac Anda yang menggunakan mikrofon, baik app desktop maupun panggilan di browser."
+      },
+      {
+        "q": "Apakah ada biaya langganan?",
+        "a": "Tidak. Coba semua fitur gratis selama 3 hari, lalu buka kunci Muffle dengan sekali pembelian."
+      },
+      {
+        "q": "Mengapa Muffle memerlukan akses mikrofon?",
+        "a": "macOS hanya meneruskan tekanan AirPods ke app yang sedang menggunakan mikrofon, jadi Muffle menjaga koneksi diam tetap terbuka saat panggilan. Tidak ada yang direkam."
+      },
+      {
+        "q": "Apa yang terjadi jika saya keluar dari Muffle saat dibisukan?",
+        "a": "Muffle mengaktifkan kembali mikrofon Anda saat app ditutup, sehingga Anda tidak akan terjebak dalam keadaan bisu."
+      },
+      {
+        "q": "Versi macOS mana yang didukung?",
+        "a": "macOS 14 Sonoma dan lebih baru. Tombol Pusat Kendali memerlukan macOS 26 atau lebih baru."
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Tak perlu lagi mencari-cari tombol bisukan.",
+    "text": "Muffle gratis dicoba selama 3 hari."
+  },
+  "footer": {
+    "guides": "Panduan",
+    "product": "Muffle",
+    "support": "Dukungan",
+    "privacy": "Kebijakan Privasi",
+    "language": "Bahasa",
+    "contact": "Kontak",
+    "copyright": "© 2026 Muffle. AirPods dan Mac adalah merek dagang Apple Inc."
+  },
+  "guides_index": {
+    "title": "Panduan Muffle: Bisukan Meet, Zoom, Teams di Mac",
+    "description": "Panduan langkah demi langkah membisukan Google Meet, Zoom, Teams, Slack di Mac dengan AirPods atau pintasan keyboard saat rapat dan konferensi.",
+    "h1": "Panduan",
+    "intro": "Jawaban praktis dan ringkas untuk membisukan mikrofon Anda di Mac, di setiap app."
+  },
+  "guide_labels": {
+    "on_this_page": "Di halaman ini",
+    "faq": "Pertanyaan umum",
+    "related": "Panduan lainnya",
+    "try": "Coba Muffle gratis selama 3 hari",
+    "read": "Baca panduan"
+  },
+  "guides": [
+    {
+      "slug": "mute-google-meet-with-airpods",
+      "title": "Cara Bisukan Google Meet dengan AirPods di Mac",
+      "description": "Menekan AirPods tidak membisukan Google Meet di Chrome di Mac. Ini cara bisukan Meet dengan AirPods, pintasan, atau bilah menu di tab mana pun.",
+      "h1": "Cara membisukan Google Meet dengan AirPods di Mac",
+      "intro": [
+        "Di iPhone, menekan batang AirPods membisukan panggilan. Di Mac, Google Meet berjalan di Chrome, dan Chrome tidak meneruskan tekanan itu ke halaman web. Anda menekan batang, mendengar nada kesalahan, dan Meet tetap mengirimkan suara Anda.",
+        "Muffle memperbaiki masalah ini untuk setiap panggilan rapat Meet. Muffle menerima tekanan AirPods secara langsung dan membisukan mikrofon Mac Anda, sehingga Meet hanya menerima keheningan meskipun tab berada di latar belakang."
+      ],
+      "steps_title": "Bisukan Google Meet dengan AirPods Anda",
+      "steps": [
+        "Instal Muffle dan izinkan akses mikrofon saat diminta.",
+        "Bergabunglah ke panggilan Google Meet Anda di Chrome, Safari, Arc, atau Edge.",
+        "Tekan batang AirPods sekali untuk membisukan. Ikon Muffle akan berubah menjadi merah.",
+        "Tekan lagi untuk mengaktifkan suara. Anda juga bisa menekan Control-Option-M dari app mana pun."
+      ],
+      "tips": [
+        "Meet mungkin tetap menampilkan mik Anda aktif karena Muffle membisukan mikrofon secara langsung, bukan tombol di Meet. Semua orang tidak mendengar suara apa pun selama ikon Muffle berwarna merah.",
+        "Aktifkan “Mulai setiap panggilan dalam keadaan dibisukan” untuk bergabung ke setiap panggilan rapat Meet dalam keadaan bisu."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa menekan AirPods saya tidak membisukan Google Meet?",
+          "a": "Chrome tidak mendukung gestur bisukan AirPods di macOS untuk panggilan web, sehingga macOS tidak memiliki app untuk menerima tekanan tersebut. Muffle menjadi app perantara itu."
+        },
+        {
+          "q": "Bukankah pintasan bawaan Meet sudah cukup?",
+          "a": "Pintasan Command-D di Meet hanya berfungsi saat tab Meet berada di paling depan. Pintasan Muffle dan tekanan AirPods berfungsi dari app mana pun."
+        }
+      ]
+    },
+    {
+      "slug": "mute-zoom-with-airpods",
+      "title": "Cara Bisukan Zoom dengan AirPods atau Pintasan di Mac",
+      "description": "Bisukan mikrofon Zoom di Mac dengan AirPods atau pintasan global, bahkan saat jendela Zoom tidak aktif. Berfungsi di app Zoom dan di browser.",
+      "h1": "Cara membisukan Zoom dengan AirPods atau pintasan di Mac",
+      "intro": [
+        "Pintasan bawaan Zoom, Command-Shift-A, hanya berfungsi saat app Zoom berada di depan. Saat Anda membuat catatan atau membagikan jendela lain, mencari tombol bisukan menghabiskan waktu beberapa detik yang canggung.",
+        "Muffle memberi Anda satu kontrol bisukan untuk Zoom dan semua app lainnya: AirPods Anda, pintasan global, atau bilah menu. Muffle membisukan mikrofon itu sendiri, sehingga berfungsi di app Zoom dan panggilan video call Zoom di browser."
+      ],
+      "steps_title": "Bisukan Zoom dari mana saja",
+      "steps": [
+        "Instal Muffle dan izinkan akses mikrofon.",
+        "Bergabunglah ke rapat Zoom Anda seperti biasa.",
+        "Tekan batang AirPods Anda atau Control-Option-M untuk membisukan, dari app mana pun.",
+        "Tahan Control-Option-M saat dibisukan untuk berbicara, dan lepaskan untuk membisukan lagi."
+      ],
+      "tips": [
+        "Jika Zoom mengambil alih tekanan AirPods di Mac Anda, pintasan dan bilah menu tetap dapat membisukan mikrofon Anda melalui Muffle.",
+        "Zoom mungkin menampilkan status tidak dibisukan saat Muffle mematikan mik. Peserta rapat tetap tidak akan mendengar suara Anda."
+      ],
+      "faq": [
+        {
+          "q": "Apakah Muffle menggantikan tombol bisukan Zoom?",
+          "a": "Muffle bekerja berdampingan dengan Zoom. Muffle mematikan mikrofon untuk setiap app, jadi Anda bisa membisukan Zoom tanpa harus beralih ke jendela tersebut."
+        },
+        {
+          "q": "Bisakah saya menggunakan fitur push to talk di Zoom?",
+          "a": "Bisa. Saat dibisukan, tahan pintasan Muffle untuk berbicara. Fitur ini berfungsi di Zoom dan di semua app lainnya."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microsoft-teams-with-airpods",
+      "title": "Cara Bisukan Microsoft Teams dengan AirPods di Mac",
+      "description": "Bisukan Microsoft Teams di Mac dengan AirPods, pintasan global, atau bilah menu. Berfungsi di app Teams dan di Teams lewat browser.",
+      "h1": "Cara membisukan Microsoft Teams dengan AirPods di Mac",
+      "intro": [
+        "Pintasan Teams, Command-Shift-M, hanya berfungsi saat jendela Teams sedang aktif. Di tengah rapat konferensi Anda biasanya membuka hal lain: dokumen, browser, atau layar yang dibagikan.",
+        "Muffle membisukan mikrofon Anda dari mana saja, baik di app Teams maupun Teams di web. Cukup tekan AirPods Anda, tekan satu pintasan, atau klik bilah menu."
+      ],
+      "steps_title": "Bisukan Teams dari mana saja",
+      "steps": [
+        "Instal Muffle dan izinkan akses mikrofon.",
+        "Bergabunglah ke rapat Teams Anda.",
+        "Tekan Control-Option-M atau batang AirPods Anda untuk membisukan. Ikon bilah menu akan berubah menjadi merah.",
+        "Tekan lagi untuk mengaktifkan suara, atau tahan pintasan untuk berbicara saat dibisukan."
+      ],
+      "tips": [
+        "Teams di tab browser mendapatkan dukungan AirPods yang sama seperti Google Meet melalui Muffle.",
+        "Aktifkan “Bisukan saat layar terkunci” agar mikrofon Anda tidak tetap aktif saat Anda menjauh dari Mac."
+      ],
+      "faq": [
+        {
+          "q": "Apakah menekan AirPods berfungsi di app Teams?",
+          "a": "Hal ini bergantung pada versi Teams Anda, karena Teams bisa mengambil alih tekanan AirPods. Pintasan dan tombol bilah menu Muffle tetap berfungsi dalam situasi apa pun."
+        },
+        {
+          "q": "Apakah Teams akan menampilkan bahwa saya dibisukan?",
+          "a": "Tidak selalu. Muffle membisukan mikrofon perangkat keras, jadi Teams mungkin tetap menampilkan mik aktif meskipun orang lain tidak mendengar suara apa pun."
+        }
+      ]
+    },
+    {
+      "slug": "mute-slack-huddles",
+      "title": "Cara Bisukan Huddle Slack dengan Pintasan di Mac",
+      "description": "Bisukan huddle Slack di Mac dari app mana pun dengan pintasan global atau AirPods. Tidak perlu repot mencari jendela huddle.",
+      "h1": "Cara membisukan huddle Slack dari app mana pun di Mac",
+      "intro": [
+        "Kontrol huddle Slack berada di jendela kecil yang mudah tertutup oleh jendela kerja lain, dan pintasan bisukannya hanya berfungsi saat Slack berada di paling depan.",
+        "Muffle membisukan mikrofon Anda untuk Slack dan app lainnya dengan satu pintasan atau menekan headphone AirPods, di mana pun jendela Anda berada di Mac."
+      ],
+      "steps_title": "Bisukan huddle dari mana saja",
+      "steps": [
+        "Instal Muffle dan izinkan akses mikrofon.",
+        "Mulai atau bergabunglah ke huddle di Slack.",
+        "Tekan Control-Option-M atau batang AirPods Anda untuk membisukan.",
+        "Lihat bilah menu: warna merah berarti tidak ada yang bisa mendengar Anda."
+      ],
+      "tips": [
+        "Kontroler mini melayang menampilkan status mik Anda di setiap panggilan huddle.",
+        "Tahan pintasan untuk berbicara singkat dengan fitur push to talk, lalu otomatis kembali dibisukan saat dilepas."
+      ],
+      "faq": [
+        {
+          "q": "Apakah ini berfungsi dengan app Slack dan Slack di browser?",
+          "a": "Ya. Muffle membisukan mikrofon itu sendiri, sehingga berfungsi di keduanya."
+        },
+        {
+          "q": "Apakah rekan kerja akan melihat bahwa saya dibisukan?",
+          "a": "Slack mungkin masih menampilkan mik Anda aktif. Mereka tidak akan mendengar suara apa pun selama Muffle membisukan Anda."
+        }
+      ]
+    },
+    {
+      "slug": "mute-discord-on-mac",
+      "title": "Discord Push to Talk dan Pintasan Bisukan di Mac",
+      "description": "Gunakan satu pintasan global push to talk dan bisukan Discord di Mac, atau bisukan dengan AirPods. Berfungsi di app Discord dan browser.",
+      "h1": "Push to talk dan pintasan bisukan global untuk Discord di Mac",
+      "intro": [
+        "Push to talk di Discord memerlukan izin tambahan di Mac dan tidak berfungsi untuk Discord di browser. Jika Anda juga bergabung ke panggilan Meet atau Zoom, Anda akhirnya memakai tombol bisukan yang berbeda untuk setiap app.",
+        "Muffle memberi Anda satu tombol untuk semuanya. Ketuk untuk membisukan, tahan untuk berbicara, atau tekan AirPods Anda."
+      ],
+      "steps_title": "Atur push to talk untuk Discord",
+      "steps": [
+        "Instal Muffle dan izinkan akses mikrofon.",
+        "Bergabunglah ke saluran suara Discord.",
+        "Ketuk Control-Option-M untuk membisukan atau mengaktifkan suara. Tahan saat dibisukan untuk berbicara.",
+        "Pilih tombol Anda sendiri di Pengaturan Muffle, misalnya tombol F."
+      ],
+      "tips": [
+        "Pintasan Muffle tidak memerlukan izin Aksesibilitas.",
+        "Kunci tingkat mikrofon Anda agar gain otomatis Discord tidak terus mengubahnya."
+      ],
+      "faq": [
+        {
+          "q": "Apakah ini sama dengan push to talk di Discord?",
+          "a": "Cara kerjanya sama, tetapi berlaku untuk semua app sekaligus. Muffle membisukan mikrofon itu sendiri, sehingga Discord hanya menerima hening sampai Anda menahan tombol."
+        },
+        {
+          "q": "Bisakah saya membisukan Discord dengan AirPods?",
+          "a": "Bisa. Saat panggilan suara, tekan batang AirPods untuk membisukan atau mengaktifkan suara."
+        }
+      ]
+    },
+    {
+      "slug": "mute-webex-on-mac",
+      "title": "Cara Membisukan Webex dari App Mana Pun di Mac",
+      "description": "Bisukan rapat Webex di Mac dengan satu pintasan global atau AirPods Anda, bahkan saat Webex bukan jendela aktif.",
+      "h1": "Cara membisukan Webex dari app mana pun di Mac",
+      "intro": [
+        "Pintasan bisukan Webex hanya berfungsi saat Webex berada di depan, dan kontrolnya tersembunyi saat Anda membagikan layar.",
+        "Muffle membisukan mikrofon Anda dari mana saja di Mac, sehingga Anda bisa membisukan rapat Webex tanpa meninggalkan apa yang sedang Anda kerjakan."
+      ],
+      "steps_title": "Bisukan Webex dari mana saja",
+      "steps": [
+        "Instal Muffle dan izinkan akses mikrofon.",
+        "Bergabunglah ke rapat Webex Anda.",
+        "Tekan Control-Option-M atau batang AirPods Anda untuk membisukan.",
+        "Gunakan kontroler mini mengambang untuk melihat status mik Anda saat berbagi layar."
+      ],
+      "tips": [
+        "Webex mungkin masih menampilkan Anda sebagai bersuara. Peserta mendengar hening selama ikon Muffle berwarna merah.",
+        "Nyalakan “Mulai setiap panggilan dalam keadaan dibisukan” untuk rapat besar."
+      ],
+      "faq": [
+        {
+          "q": "Apakah Muffle berfungsi dengan Webex di browser?",
+          "a": "Ya. Muffle membisukan mikrofon, sehingga berfungsi dengan klien Webex mana pun."
+        },
+        {
+          "q": "Bisakah saya membisukan Webex dengan AirPods?",
+          "a": "Bisa, tekan batangnya selama rapat. Pintasan keyboard berfungsi dengan headphone apa pun."
+        }
+      ]
+    },
+    {
+      "slug": "mute-browser-calls",
+      "title": "Bisukan Panggilan Web di Chrome, Safari, dan Arc di Mac",
+      "description": "Bisukan panggilan di Chrome, Safari, Arc, Edge, dan Firefox dengan AirPods atau satu pintasan. Untuk Google Meet, SoWork, Gather, dan lainnya.",
+      "h1": "Cara membisukan panggilan di tab browser mana pun di Mac",
+      "intro": [
+        "Makin banyak panggilan berjalan di browser: Google Meet, Teams di web, kantor virtual seperti SoWork dan Gather, Whereby, Jitsi. Masing-masing memiliki tombol dan pintasan bisukan sendiri, dan itu hanya berfungsi saat tab tersebut berada di depan.",
+        "Browser juga mengabaikan tekanan bisukan AirPods di Mac. Muffle menerima tekanan tersebut, atau satu pintasan global, lalu membisukan mikrofon untuk setiap tab sekaligus."
+      ],
+      "steps_title": "Bisukan panggilan web apa pun",
+      "steps": [
+        "Instal Muffle dan izinkan akses mikrofon.",
+        "Buka panggilan Anda di tab browser mana pun.",
+        "Tekan batang AirPods Anda atau Control-Option-M untuk membisukan, dari app atau tab mana pun.",
+        "Perhatikan ikon bilah menu: merah berarti mik mati."
+      ],
+      "tips": [
+        "Kantor virtual membiarkan mik Anda aktif selama berjam-jam. Nyalakan kontroler mini mengambang untuk selalu melihat status Anda.",
+        "Pengingat “Anda dibisukan” memberi tahu Anda saat Anda mulai berbicara ketika dibisukan."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa menekan AirPods tidak berfungsi di Chrome?",
+          "a": "Chrome tidak mendukung gerakan bisukan AirPods macOS untuk halaman web. Muffle menerima tekanan tersebut dan membisukan mik itu sendiri."
+        },
+        {
+          "q": "Apakah ini berfungsi di SoWork dan Gather?",
+          "a": "Ya. Situs web apa pun yang menggunakan mikrofon Anda akan dibisukan saat Muffle mematikan mik."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-mute-not-working-on-mac",
+      "title": "AirPods Tidak Bisa Bisukan di Mac? Atasi Masalahnya",
+      "description": "Menekan batang AirPods berbunyi nada kesalahan dan tidak membisukan panggilan? Ini penyebabnya di Mac dan cara membisukan app apa pun.",
+      "h1": "Fitur bisukan AirPods tidak berfungsi di Mac? Ini solusinya",
+      "intro": [
+        "macOS memungkinkan Anda membisukan panggilan dengan menekan batang AirPods, tetapi hanya jika app panggilan mendukungnya. Banyak yang tidak, termasuk Chrome dan panggilan web di dalamnya. Anda menekan, mendengar nada kesalahan singkat, melihat pesan “Cannot Control Mic”, dan panggilan tetap mendengar suara Anda.",
+        "Muffle menambahkan dukungan itu ke setiap app. Muffle menerima tekanan tersebut, membisukan mikrofon Mac Anda, dan memutar nada bisukan yang biasa."
+      ],
+      "steps_title": "Buat tekanan AirPods membisukan app apa pun",
+      "steps": [
+        "Instal Muffle dan izinkan akses mikrofon. macOS hanya meneruskan tekanan ke app yang bisa menggunakan mik.",
+        "Pastikan “Bisukan dan aktifkan suara dengan menekan AirPods” aktif di Pengaturan Muffle.",
+        "Bergabunglah ke panggilan. Tekanan hanya membisukan saat ada app yang sedang menggunakan mikrofon.",
+        "Tekan batangnya sekali untuk membisukan dan tekan lagi untuk mengaktifkan suara."
+      ],
+      "tips": [
+        "Di luar panggilan, tekanan tetap memutar dan menjeda musik seperti biasa.",
+        "Jika AirPods Anda menggunakan tekanan berbeda untuk kontrol panggilan, periksa pengaturan AirPods Anda di Pengaturan Sistem."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa Mac saya memutar suara kesalahan saat saya menekan AirPods?",
+          "a": "App yang Anda gunakan untuk menelepon tidak mendukung tekanan bisukan AirPods, sehingga macOS menolaknya. Dengan Muffle berjalan, tekanan tersebut justru membisukan mik Anda."
+        },
+        {
+          "q": "AirPods mana yang mendukung tekanan bisukan?",
+          "a": "AirPods Pro, AirPods 3 dan lebih baru, serta AirPods Max, ditambah model Beats dengan kontrol panggilan."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-keyboard-shortcut-mac",
+      "title": "Bisukan Mikrofon di Mac dengan Pintasan Keyboard",
+      "description": "Atur satu pintasan keyboard global untuk bisukan mikrofon Mac di semua app panggilan atau konferensi. Tanpa izin Aksesibilitas.",
+      "h1": "Cara membisukan mikrofon di Mac dengan pintasan keyboard",
+      "intro": [
+        "macOS memiliki tombol untuk dikte, tetapi tidak ada tombol untuk membisukan mik Anda. Setiap app panggilan memiliki pintasannya sendiri, dan itu hanya berfungsi saat app tersebut sedang aktif di depan.",
+        "Muffle menambahkan satu pintasan yang membisukan mikrofon itu sendiri, di semua app sekaligus. Default-nya adalah Control-Option-M, dan Anda bisa memilih kombinasi apa pun."
+      ],
+      "steps_title": "Bisukan dengan satu pintasan",
+      "steps": [
+        "Pasang Muffle.",
+        "Tekan Control-Option-M untuk membisukan. Ikon bilah menu akan berubah merah dan konfirmasi kecil “Dibisukan” akan muncul.",
+        "Tekan lagi untuk mengaktifkan suara.",
+        "Untuk mengubahnya, buka Pengaturan Muffle, klik pintasan, lalu tekan kombinasi baru."
+      ],
+      "tips": [
+        "Tahan pintasan saat dibisukan untuk berbicara, lalu lepaskan untuk membisukan lagi.",
+        "Klik kanan ikon bilah menu Muffle untuk langsung membisukan dengan mouse."
+      ],
+      "faq": [
+        {
+          "q": "Apakah pintasan berfungsi saat app panggilan tidak berada di depan?",
+          "a": "Ya. Pintasan berfungsi dari app apa pun, termasuk app layar penuh."
+        },
+        {
+          "q": "Bisakah saya menggunakan satu tombol saja, seperti F5?",
+          "a": "Ya. Tombol fungsi dapat digunakan sendiri, sedangkan tombol lain membutuhkan Control, Option, atau Command."
+        }
+      ]
+    },
+    {
+      "slug": "push-to-talk-on-mac",
+      "title": "Push to Talk di Mac untuk Semua App Video Call",
+      "description": "Gunakan push to talk di Mac untuk Zoom, Google Meet, Teams, dan rapat lainnya. Tahan satu tombol untuk bicara, lepas untuk bisukan.",
+      "h1": "Push to talk di Mac, di semua app",
+      "intro": [
+        "Push to talk membuat Anda tetap dibisukan sampai Anda menahan tombol. Ini cara termudah untuk tetap hening dalam rapat besar atau ruangan bising, tetapi hanya sedikit app yang memilikinya, dan masing-masing menggunakan tombol berbeda.",
+        "Muffle menambahkan push to talk ke semua app di Mac Anda. Tetap dalam keadaan dibisukan, tahan pintasan untuk berbicara, dan lepaskan untuk membisukan lagi."
+      ],
+      "steps_title": "Gunakan push to talk",
+      "steps": [
+        "Pasang Muffle.",
+        "Bisukan dengan Control-Option-M atau AirPods Anda.",
+        "Tahan Control-Option-M saat Anda berbicara.",
+        "Lepaskan. Anda dibisukan kembali."
+      ],
+      "tips": [
+        "Mengetuk pintasan tetap mengalihkan bisukan. Menahannya berfungsi sebagai push to talk.",
+        "Pilih tombol yang nyaman di Pengaturan Muffle, misalnya tombol F."
+      ],
+      "faq": [
+        {
+          "q": "Apakah push to talk berfungsi di Google Meet?",
+          "a": "Ya. Muffle membisukan mikrofon itu sendiri, jadi push to talk berfungsi di Meet, Zoom, Teams, Discord, dan app lainnya."
+        },
+        {
+          "q": "Apakah ada fitur push to mute?",
+          "a": "Ya. Saat suara Anda aktif, menahan pintasan akan membisukan Anda sampai tombol dilepaskan."
+        }
+      ]
+    },
+    {
+      "slug": "stop-apps-changing-mic-volume",
+      "title": "Cegah Chrome dan Zoom Mengubah Volume Mik di Mac",
+      "description": "Google Meet, Chrome, Zoom, dan Teams sering mengubah volume mikrofon Mac. Kunci level mik Anda agar tidak bisa diubah app lain.",
+      "h1": "Cara mencegah app mengubah volume mik Anda di Mac",
+      "intro": [
+        "Banyak app panggilan menyesuaikan level input secara otomatis melalui fitur automatic gain control. Anda sudah mengatur tingkat yang pas di Pengaturan Sistem, bergabung ke panggilan Google Meet, dan beberapa menit kemudian penggeser bergeser sendiri hingga suara Anda terdengar kecil atau pecah.",
+        "Muffle dapat mengunci tingkat mikrofon Anda. Saat ada app yang mengubahnya, Muffle langsung mengembalikannya seperti semula."
+      ],
+      "steps_title": "Kunci tingkat mik Anda",
+      "steps": [
+        "Pasang Muffle.",
+        "Klik ikon Muffle di bilah menu dan atur level dengan penggeser mik.",
+        "Klik ikon gembok di sebelah penggeser.",
+        "Bergabunglah ke panggilan Anda. Tingkat mikrofon Anda akan tetap sesuai yang Anda tentukan."
+      ],
+      "tips": [
+        "Muffle memperingatkan Anda di panel saat level Anda terlalu rendah selama panggilan.",
+        "Kunci ini mengingat level untuk setiap mikrofon, sehingga AirPods dan mik Mac Anda masing-masing mempertahankan tingkatnya sendiri."
+      ],
+      "faq": [
+        {
+          "q": "Mengapa volume mik Mac saya terus berubah?",
+          "a": "App seperti Chrome, Zoom, dan Teams menggunakan automatic gain control dan mengubah tingkat input sistem saat Anda berbicara."
+        },
+        {
+          "q": "Apakah saya masih bisa mengubah levelnya sendiri?",
+          "a": "Ya. Gunakan penggeser di panel Muffle untuk memperbarui level yang terkunci."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-on-mac",
+      "title": "Cara Bisukan Mikrofon di Mac: 4 Metode Praktis",
+      "description": "Empat cara membisukan mikrofon Mac: tombol di app panggilan, Pengaturan Sistem, pintasan global, dan AirPods Anda di setiap app.",
+      "h1": "Cara membisukan mikrofon di Mac",
+      "intro": [
+        "Tidak ada tombol khusus untuk membisukan mikrofon di Mac. Tergantung app dan situasinya, Anda memiliki beberapa pilihan, dan hanya sebagian yang berfungsi di mana saja."
+      ],
+      "steps_title": "Pilihan Anda",
+      "steps": [
+        "Tombol atau pintasan bawaan app panggilan. Ini hanya berfungsi di app tersebut, dan hanya saat app tersebut berada di depan.",
+        "Pengaturan Sistem, Bunyi, Input. Menggeser tingkat input ke nol bukanlah pembisuan sebenarnya pada setiap mik, dan app lain bisa menaikkannya kembali.",
+        "Pintasan global dengan Muffle. Satu tombol membisukan mikrofon itu sendiri, di setiap app.",
+        "AirPods Anda. Dengan Muffle, menekan batang membisukan panggilan apa pun, termasuk Google Meet di Chrome."
+      ],
+      "tips": [
+        "Ikon bilah menu Muffle berubah merah saat mik mati, apa pun app yang sedang Anda buka.",
+        "Keluar dari Muffle selalu mengaktifkan kembali mikrofon Anda."
+      ],
+      "faq": [
+        {
+          "q": "Apakah ada fitur bawaan untuk membisukan mikrofon di Mac?",
+          "a": "Tidak ada yang berlaku di seluruh sistem. macOS hanya membisukan mik di dalam app yang mendukungnya. Muffle menambahkan fitur bisukan menyeluruh di tingkat sistem."
+        },
+        {
+          "q": "Apakah membisukan di Muffle akan membisukan semua app?",
+          "a": "Ya. Muffle mematikan setiap mikrofon di tingkat perangkat keras, sehingga tidak ada app yang dapat mendengar Anda sampai Anda mengaktifkan suara."
+        }
+      ]
+    },
+    {
+      "slug": "youre-muted-reminder",
+      "title": "Dapatkan Pengingat “Anda dibisukan” di Semua App di Mac",
+      "description": "Berbicara saat mikrofon dibisukan? Muffle menampilkan pengingat “Anda dibisukan” di Google Meet, Zoom, Teams, Slack, dan app panggilan lainnya di Mac Anda.",
+      "h1": "Pengingat “Anda dibisukan” untuk setiap app panggilan",
+      "intro": [
+        "Zoom memperingatkan Anda saat berbicara ketika dibisukan. Sebagian besar app lain tidak memilikinya, dan panggilan web hampir tidak pernah mengingatkannya. Anda sudah menjelaskan panjang lebar, lalu menyadari semua orang hanya menunggu.",
+        "Muffle mendeteksi suara bicara saat Anda dibisukan dan menampilkan pengingat di app apa pun. Saat panggilan menggunakan AirPods atau headset, Muffle mendengarkan mikrofon bawaan Mac Anda, dan hanya mengukur tingkat kenyaringannya. Tidak ada yang direkam."
+      ],
+      "steps_title": "Aktifkan pengingat",
+      "steps": [
+        "Pasang Muffle dan izinkan akses mikrofon.",
+        "Pastikan “Ingatkan saya saat berbicara ketika dibisukan” aktif di Pengaturan Muffle.",
+        "Bergabunglah ke panggilan dengan AirPods atau headset, lalu bisukan mik.",
+        "Mulailah berbicara. Pengingat “Anda dibisukan” akan muncul."
+      ],
+      "tips": [
+        "Masuk ke panggilan video call saat mik masih dibisukan dari rapat sebelumnya? Muffle langsung mengingatkan Anda begitu panggilan dimulai.",
+        "Suara mengetik keyboard tidak akan memicu pengingat. Hanya suara bicara yang jelas yang memicunya."
+      ],
+      "faq": [
+        {
+          "q": "Apakah pengingat berfungsi dengan mikrofon bawaan Mac?",
+          "a": "Fitur ini berfungsi saat panggilan menggunakan AirPods atau headset. Jika panggilan memakai mikrofon bawaan Mac itu sendiri, mikrofon tersebut sedang dibisukan sehingga tidak bisa mendengarkan Anda."
+        },
+        {
+          "q": "Apakah audio saya direkam?",
+          "a": "Tidak. Muffle hanya mengukur tingkat kenyaringan suara dan tidak pernah menyimpan atau mengirim audio apa pun."
+        }
+      ]
+    }
+  ],
+  "support": {
+    "title": "Dukungan Muffle",
+    "description": "Bantuan untuk Muffle di Mac: mengatur tekanan AirPods, pintasan keyboard, pembelian, dan lainnya.",
+    "h1": "Dukungan",
+    "sections": [
+      {
+        "h": "Memulai",
+        "items": [
+          "Muffle berada di bilah menu. Klik ikon mikrofon untuk kontrol, atau klik kanan untuk langsung membisukan.",
+          "Saat panggilan, tekan batang AirPods Anda untuk membisukan dan tekan lagi untuk mengaktifkan suara.",
+          "Pintasan default adalah Control-Option-M. Ketuk untuk membisukan atau mengaktifkan suara. Saat dibisukan, tahan untuk berbicara."
+        ]
+      },
+      {
+        "h": "Tekanan AirPods tidak membisukan",
+        "items": [
+          "Ini hanya berfungsi saat panggilan, ketika sebuah app sedang menggunakan mikrofon Anda.",
+          "Izinkan akses mikrofon untuk Muffle di Pengaturan Sistem, Privasi & Keamanan, Mikrofon.",
+          "Pastikan “Bisukan dan aktifkan suara dengan menekan AirPods” aktif di Pengaturan Muffle.",
+          "AirPods Anda memerlukan kontrol panggilan: AirPods Pro, AirPods 3 dan lebih baru, atau AirPods Max."
+        ]
+      },
+      {
+        "h": "App panggilan masih menampilkan mik saya aktif",
+        "items": [
+          "Itu normal. Muffle mematikan mikrofon itu sendiri, sehingga setiap app menerima hening meskipun app mengira mik masih aktif. Percayai ikon Muffle di bilah menu: warna merah berarti tidak ada yang bisa mendengar Anda."
+        ]
+      },
+      {
+        "h": "Pembelian",
+        "items": [
+          "Muffle gratis dicoba selama 3 hari. Setelah itu, buka kuncinya dengan pembelian sekali bayar. Tidak ada langganan.",
+          "Untuk memulihkan pembelian di Mac lain, buka Pengaturan Muffle lalu pilih Pulihkan Pembelian."
+        ]
+      }
+    ],
+    "contact_title": "Kontak",
+    "contact_text": "Kirim email kepada kami di"
+  },
+  "privacy_page": {
+    "title": "Kebijakan Privasi Muffle",
+    "description": "Muffle tidak pernah merekam, menyimpan, atau mengirim audio dan tidak mengumpulkan data. Pelajari cara Muffle menggunakan mikrofon Anda.",
+    "h1": "Kebijakan Privasi",
+    "updated": "Terakhir diperbarui pada 29 September 2026.",
+    "intro": "Muffle membisukan mikrofon Mac Anda. App ini dibuat agar apa pun yang Anda katakan tidak pernah meninggalkan Mac Anda.",
+    "sections": [
+      {
+        "h": "Apa yang dilakukan Muffle dengan mikrofon Anda",
+        "p": [
+          "Saat panggilan, Muffle menjaga koneksi diam ke mikrofon Anda. macOS hanya meneruskan tekanan bisukan AirPods ke app yang sedang menggunakan mikrofon, jadi koneksi inilah yang membuat penekanan AirPods berfungsi.",
+          "Jika Anda mengaktifkan pengingat berbicara saat dibisukan, Muffle juga mengukur tingkat kenyaringan mikrofon bawaan Mac Anda saat dibisukan untuk mendeteksi bahwa Anda mulai berbicara.",
+          "Muffle hanya melihat angka kenyaringan suara. Muffle tidak pernah merekam, menyimpan, menyalin, atau mengirim audio."
+        ]
+      },
+      {
+        "h": "Data yang kami kumpulkan",
+        "p": [
+          "Tidak ada. Muffle tidak memiliki akun, analitik, iklan, dan pelacakan. App ini tidak menghubungi server kami mana pun."
+        ]
+      },
+      {
+        "h": "Pembelian",
+        "p": [
+          "Uji coba gratis dan pembelian sekali bayar diproses melalui App Store milik Apple. Apple menangani detail pembayaran; kami tidak pernah melihatnya. Kebijakan privasi Apple berlaku untuk pembelian tersebut."
+        ]
+      },
+      {
+        "h": "Pengaturan yang disimpan di Mac Anda",
+        "p": [
+          "Preferensi Anda, seperti pintasan keyboard Anda, tetap tersimpan di Mac Anda dalam penyimpanan Muffle sendiri. Menghapus Muffle akan menghapusnya."
+        ]
+      }
+    ],
+    "contact": "Pertanyaan seputar privasi:"
+  }
+}

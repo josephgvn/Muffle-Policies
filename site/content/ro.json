@@ -1,0 +1,643 @@
+{
+  "meta": {
+    "home_title": "Muffle: Dezactivați microfonul pe Mac cu AirPods sau taste",
+    "home_description": "Dezactivați microfonul în Google Meet, Zoom, Teams, Slack sau orice apel pe Mac. Apăsați pe AirPods sau o scurtătură de tastatură. Gratuit 3 zile.",
+    "og_title": "Dezactivați microfonul pe Mac de oriunde.",
+    "og_subtitle": "Apăsați pe AirPods sau o combinație de taste. În orice apel."
+  },
+  "nav": {
+    "features": "Funcții",
+    "guides": "Ghiduri",
+    "support": "Asistență",
+    "download": "Obțineți Muffle",
+    "home": "Acasă",
+    "menu": "Meniu"
+  },
+  "cta": {
+    "download": "Descărcați din Mac App Store",
+    "coming_soon": "În curând în Mac App Store",
+    "trial": "Gratuit 3 zile. Apoi o singură plată, fără abonament.",
+    "requirements": "Pentru macOS 14 Sonoma și versiuni ulterioare."
+  },
+  "hero": {
+    "title": "Dezactivați microfonul pe Mac de oriunde.",
+    "subtitle": "Apăsați pe AirPods sau o combinație de taste. Muffle oprește chiar microfonul fizic, așa că Google Meet, Zoom, Teams, Slack și orice altă aplicație aud doar liniște.",
+    "image_alt": "Panoul Muffle în bara de meniu pe Mac în timpul unui apel Google Meet în Chrome"
+  },
+  "works_with": {
+    "title": "Funcționează cu orice aplicație care vă utilizează microfonul",
+    "apps": [
+      "Google Meet",
+      "Zoom",
+      "Microsoft Teams",
+      "Slack",
+      "Discord",
+      "FaceTime",
+      "Webex",
+      "WhatsApp",
+      "Skype",
+      "SoWork",
+      "Gather",
+      "Chrome",
+      "Safari",
+      "Arc",
+      "Edge",
+      "Firefox"
+    ],
+    "note": "Muffle dezactivează microfonul la nivel hardware, așa că nu contează ce aplicație, browser sau filă îl folosește."
+  },
+  "features": {
+    "title": "Tot ce ar trebui să facă Mac-ul într-un apel",
+    "items": [
+      {
+        "title": "Apăsați AirPods pentru a dezactiva microfonul",
+        "text": "În timpul oricărui apel, apăsați tija o dată pentru a dezactiva microfonul și încă o dată pentru a-l reactiva. Funcționează chiar și în Chrome, unde Google Meet și alte apeluri web ignoră apăsarea pe AirPods."
+      },
+      {
+        "title": "O singură combinație de taste pentru orice aplicație",
+        "text": "Control-Opțiune-M vă pune pe mut peste tot, chiar și când apelul este într-o filă din fundal. Țineți apăsat ca să vorbiți când sunteți pe mut și eliberați pentru a reveni la starea dezactivată."
+      },
+      {
+        "title": "Un memento „Sunteți pe mut”",
+        "text": "Începeți să vorbiți cu microfonul dezactivat și Muffle vă avertizează înainte de a explica întreaga idee de unul singur."
+      },
+      {
+        "title": "Apeluri pe pilot automat",
+        "text": "Începeți fiecare apel cu microfonul dezactivat, reactivați microfonul automat la încheierea apelului și opriți-l la blocarea ecranului Mac-ului."
+      },
+      {
+        "title": "Știți mereu dacă microfonul este activ",
+        "text": "Un buton plutitor discret arată starea microfonului în apeluri. Faceți clic pe el pentru a dezactiva sau reactiva sunetul."
+      },
+      {
+        "title": "Nivelul microfonului rămâne neschimbat",
+        "text": "Chrome, Zoom și Teams modifică nivelul microfonului de la sine. Blocați-l, iar Muffle îl readuce la valoarea dorită."
+      },
+      {
+        "title": "Siguranță când se descarcă căștile AirPods",
+        "text": "Dacă setul de căști se deconectează în mijlocul apelului, Muffle taie sunetul înainte ca apelul să comute pe microfonul Mac-ului și să transmită zgomotul din cameră."
+      },
+      {
+        "title": "Comenzi rapide și Centrul de control",
+        "text": "Dezactivați microfonul din aplicația Comenzi rapide, prin Siri, Stream Deck, Raycast sau cu un buton în Centrul de control."
+      }
+    ],
+    "image_reminder_alt": "Mementoul „Sunteți pe mut” în partea de jos a ecranului",
+    "image_pills_alt": "Mini controlerul plutitor în stările mut și activ",
+    "image_automation_alt": "Configurări Muffle pentru începerea apelurilor pe mut și alte automatizări"
+  },
+  "how": {
+    "title": "Configurare într-un minut",
+    "steps": [
+      "Instalați Muffle din Mac App Store și permiteți accesul la microfon.",
+      "Intrați într-o întâlnire sau conferință în orice aplicație, ca de obicei.",
+      "Apăsați pe AirPods, folosiți Control-Opțiune-M sau faceți clic pe iconița din bara de meniu pentru a dezactiva microfonul."
+    ]
+  },
+  "privacy": {
+    "title": "Gândit pentru confidențialitate",
+    "text": "Muffle nu înregistrează, nu stochează și nu trimite niciodată conținut audio. Doar activează sau dezactivează microfonul și citește nivelul volumului. Fără conturi, fără analitice, fără urmărire."
+  },
+  "faq": {
+    "title": "Întrebări frecvente",
+    "items": [
+      {
+        "q": "Funcționează Muffle cu Google Meet în Chrome?",
+        "a": "Da. Chrome nu transmite comanda de dezactivare de pe AirPods către apelurile web, așa că Muffle preia comanda și dezactivează chiar microfonul. Același lucru este valabil pentru orice apel dintr-o filă de browser."
+      },
+      {
+        "q": "Mă vor vedea ceilalți ca fiind pe mut?",
+        "a": "Aplicația de apel poate arăta în continuare microfonul pornit, deoarece Muffle oprește microfonul la nivel de sistem și nu butonul din aplicație. Ceilalți aud liniște în ambele cazuri. Iconița Muffle din bara de meniu devine roșie când microfonul este dezactivat."
+      },
+      {
+        "q": "Ce modele de AirPods sunt compatibile?",
+        "a": "AirPods Pro, AirPods 3 și versiunile ulterioare, precum și AirPods Max, plus modelele Beats cu control al apelurilor. Combinația de taste și bara de meniu funcționează cu orice microfon."
+      },
+      {
+        "q": "Funcționează cu Zoom, Teams, Slack și Discord?",
+        "a": "Da. Muffle funcționează cu orice aplicație de pe Mac care folosește microfonul, fie programe desktop, fie apeluri video în browser."
+      },
+      {
+        "q": "Există un abonament?",
+        "a": "Nu. Încercați toate funcțiile gratuit timp de 3 zile, apoi deblocați Muffle printr-o singură achiziție."
+      },
+      {
+        "q": "De ce are nevoie Muffle de acces la microfon?",
+        "a": "macOS transmite apăsarea pe AirPods doar aplicațiilor care utilizează microfonul, așadar Muffle menține o conexiune silențioasă în timpul apelurilor. Nimic nu este înregistrat."
+      },
+      {
+        "q": "Ce se întâmplă dacă închid Muffle cât timp microfonul este dezactivat?",
+        "a": "Muffle reactivează automat microfonul la ieșire, astfel încât să nu rămâneți blocat pe mut."
+      },
+      {
+        "q": "Ce versiuni de macOS sunt acceptate?",
+        "a": "macOS 14 Sonoma și versiunile ulterioare. Butonul pentru Centrul de control necesită macOS 26 sau o versiune ulterioară."
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Nu mai căutați butonul de microfon.",
+    "text": "Puteți încerca Muffle gratuit timp de 3 zile."
+  },
+  "footer": {
+    "guides": "Ghiduri",
+    "product": "Muffle",
+    "support": "Asistență",
+    "privacy": "Politica de confidențialitate",
+    "language": "Limbă",
+    "contact": "Contact",
+    "copyright": "© 2026 Muffle. AirPods și Mac sunt mărci comerciale ale Apple Inc."
+  },
+  "guides_index": {
+    "title": "Ghiduri Muffle: Microfon mut pe Meet, Zoom, Teams pe Mac",
+    "description": "Ghiduri pas cu pas pentru dezactivarea microfonului în Google Meet, Zoom, Teams, Slack pe Mac cu căștile AirPods sau o combinație de taste.",
+    "h1": "Ghiduri",
+    "intro": "Răspunsuri scurte și practice pentru dezactivarea microfonului pe Mac, în orice aplicație sau apel video."
+  },
+  "guide_labels": {
+    "on_this_page": "Pe această pagină",
+    "faq": "Întrebări frecvente",
+    "related": "Alte ghiduri",
+    "try": "Încercați Muffle gratuit 3 zile",
+    "read": "Citiți ghidul"
+  },
+  "guides": [
+    {
+      "slug": "mute-google-meet-with-airpods",
+      "title": "Cum dezactivați Google Meet cu AirPods pe Mac",
+      "description": "Apăsarea pe AirPods nu dezactivează Google Meet în Chrome pe Mac. Aflați cum puneți Meet pe mut din căști, dintr-o tastă sau din bara de meniu.",
+      "h1": "Cum dezactivați microfonul în Google Meet cu AirPods pe Mac",
+      "intro": [
+        "Pe un iPhone, apăsarea tijei căștilor AirPods dezactivează sunetul într-un apel. Pe Mac, Google Meet rulează în Chrome, iar Chrome nu transmite acea apăsare către paginile web. Apăsați, auziți un sunet de eroare, iar Meet continuă să vă transmită vocea.",
+        "Muffle rezolvă această problemă pentru fiecare apel Meet. Aplicația preia chiar ea apăsarea căștilor AirPods și dezactivează microfonul Mac-ului, astfel încât Meet recepționează doar liniște, chiar dacă fila este în fundal."
+      ],
+      "steps_title": "Dezactivați microfonul în Google Meet cu AirPods",
+      "steps": [
+        "Instalați Muffle și permiteți accesul la microfon atunci când vi se solicită.",
+        "Intrați în apelul Google Meet în Chrome, Safari, Arc sau Edge.",
+        "Apăsați tija căștilor AirPods o dată pentru dezactivare. Iconița Muffle devine roșie.",
+        "Apăsați din nou pentru reactivare. Puteți apăsa și Control-Opțiune-M din orice aplicație."
+      ],
+      "tips": [
+        "Meet ar putea afișa în continuare microfonul ca fiind pornit, deoarece Muffle dezactivează chiar microfonul, nu butonul din Meet. Toți ceilalți aud doar liniște cât timp iconița Muffle este roșie.",
+        "Activați „Începe fiecare apel cu microfonul dezactivat” pentru a intra pe mut în fiecare apel Meet."
+      ],
+      "faq": [
+        {
+          "q": "De ce apăsarea pe AirPods nu dezactivează sunetul în Google Meet?",
+          "a": "Chrome nu acceptă gestul de dezactivare de pe AirPods din macOS pentru apelurile web, așa că macOS nu are o aplicație căreia să îi transmită apăsarea. Muffle preia acest rol."
+        },
+        {
+          "q": "Nu este suficientă combinația de taste din Meet?",
+          "a": "Combinația Comandă-D din Meet funcționează doar când fila Meet se află în prim-plan. Combinația de taste Muffle și apăsarea pe AirPods funcționează din orice aplicație."
+        }
+      ]
+    },
+    {
+      "slug": "mute-zoom-with-airpods",
+      "title": "Cum dezactivați Zoom cu AirPods sau o comandă pe Mac",
+      "description": "Puneți Zoom pe mut pe Mac printr-o apăsare pe AirPods sau o comandă rapidă, chiar dacă fereastra nu este activă. Funcționează în aplicație și în browser.",
+      "h1": "Cum dezactivați microfonul în Zoom cu AirPods sau o combinație de taste pe Mac",
+      "intro": [
+        "Combinația de taste proprie din Zoom, Comandă-Shift-A, funcționează doar când Zoom se află în prim-plan. Când luați notițe sau partajați alt ecran, căutarea butonului de mut durează câteva secunde stânjenitoare.",
+        "Muffle vă oferă un singur control de dezactivare pentru Zoom și orice altă aplicație: căștile AirPods, o combinație globală de taste sau bara de meniu. Dezactivează chiar microfonul, așadar funcționează atât în aplicația Zoom, cât și în apelurile din browser."
+      ],
+      "steps_title": "Dezactivați microfonul în Zoom de oriunde",
+      "steps": [
+        "Instalați Muffle și permiteți accesul la microfon.",
+        "Intrați în întâlnirea Zoom ca de obicei.",
+        "Apăsați tija căștilor AirPods sau Control-Opțiune-M pentru dezactivare, din orice aplicație.",
+        "Cât timp microfonul este oprit, țineți apăsat Control-Opțiune-M ca să vorbiți, apoi eliberați pentru a reveni pe mut."
+      ],
+      "tips": [
+        "Dacă Zoom interceptează chiar el apăsarea pe AirPods pe Mac, combinația de taste și bara de meniu vă dezactivează în continuare prin Muffle.",
+        "Zoom vă poate arăta ca fiind activ în timp ce Muffle oprește microfonul. Participanții aud doar liniște."
+      ],
+      "faq": [
+        {
+          "q": "Înlocuiește Muffle butonul de mut din Zoom?",
+          "a": "Funcționează în paralel cu acesta. Muffle oprește microfonul pentru toate aplicațiile, astfel încât să puteți pune Zoom pe mut fără să comutați la fereastra lui."
+        },
+        {
+          "q": "Pot folosi funcția de apăsare pentru a vorbi în Zoom?",
+          "a": "Da. Cât timp microfonul este oprit, țineți apăsată combinația Muffle pentru a vorbi. Funcționează în Zoom și în orice altă aplicație."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microsoft-teams-with-airpods",
+      "title": "Cum dezactivați Microsoft Teams cu AirPods pe Mac",
+      "description": "Puneți Microsoft Teams pe mut pe Mac din căștile AirPods, o comandă rapidă sau bara de meniu. Funcționează în aplicație și în browser.",
+      "h1": "Cum dezactivați Microsoft Teams cu AirPods pe Mac",
+      "intro": [
+        "Combinația Teams, Comandă-Shift-M, funcționează doar când fereastra Teams este activă. Într-o ședință aveți adesea deschis altceva: un document, un browser sau un ecran partajat.",
+        "Muffle dezactivează microfonul de oriunde, în aplicația Teams și în Teams pe web. Apăsați pe AirPods, folosiți o combinație de taste sau faceți clic în bara de meniu."
+      ],
+      "steps_title": "Dezactivați Teams de oriunde",
+      "steps": [
+        "Instalați Muffle și permiteți accesul la microfon.",
+        "Intrați în ședința Teams.",
+        "Apăsați Control-Opțiune-M sau tija căștilor AirPods pentru dezactivare. Iconița din bara de meniu devine roșie.",
+        "Apăsați din nou pentru reactivare sau țineți apăsată combinația de taste pentru a vorbi cât timp sunteți pe mut."
+      ],
+      "tips": [
+        "Teams într-o filă de browser beneficiază de același suport pentru AirPods ca Google Meet prin Muffle.",
+        "Activați „Dezactivează la blocarea ecranului” pentru ca plecarea de la birou să nu vă lase niciodată microfonul pornit."
+      ],
+      "faq": [
+        {
+          "q": "Funcționează apăsarea pe AirPods în aplicația Teams?",
+          "a": "Depinde de versiunea Teams instalată, deoarece Teams poate prelua direct apăsarea. Combinația de taste Muffle și butonul din bara de meniu funcționează în toate cazurile."
+        },
+        {
+          "q": "Va afișa Teams că am microfonul dezactivat?",
+          "a": "Nu întotdeauna. Muffle dezactivează chiar microfonul fizic, așa că Teams poate indica în continuare că microfonul este pornit, deși ceilalți aud doar liniște."
+        }
+      ]
+    },
+    {
+      "slug": "mute-slack-huddles",
+      "title": "Cum dezactivați Slack Huddle cu o scurtătură pe Mac",
+      "description": "Puneți apelurile Slack Huddle pe mut din orice aplicație cu o comandă rapidă sau din AirPods. Nu mai căutați fereastra de apel.",
+      "h1": "Cum dezactivați un apel Slack Huddle din orice aplicație pe Mac",
+      "intro": [
+        "Comenzile pentru Slack Huddle se află într-o fereastră mică pe care o puteți pierde ușor în spatele altor ferestre, iar comanda de mut funcționează doar când Slack este în prim-plan.",
+        "Muffle dezactivează microfonul pentru Slack și orice altă aplicație printr-o singură combinație de taste sau o apăsare pe AirPods, oriunde vă aflați pe Mac."
+      ],
+      "steps_title": "Dezactivați un apel Huddle de oriunde",
+      "steps": [
+        "Instalați Muffle și permiteți accesul la microfon.",
+        "Porniți sau participați la un apel Huddle în Slack.",
+        "Apăsați Control-Opțiune-M sau tija căștilor AirPods pentru dezactivare.",
+        "Aruncați o privire în bara de meniu: roșu înseamnă că nu vă aude nimeni."
+      ],
+      "tips": [
+        "Mini controlerul plutitor afișează starea microfonului în timpul fiecărui apel.",
+        "Țineți apăsată combinația de taste pentru a spune ceva rapid, rămânând altfel pe mut."
+      ],
+      "faq": [
+        {
+          "q": "Funcționează atât cu aplicația Slack, cât și cu Slack în browser?",
+          "a": "Da. Muffle dezactivează chiar microfonul, așadar funcționează în ambele."
+        },
+        {
+          "q": "Vor vedea colegii că am microfonul dezactivat?",
+          "a": "Slack poate afișa în continuare microfonul ca activ. Colegii aud doar liniște cât timp Muffle vă ține pe mut."
+        }
+      ]
+    },
+    {
+      "slug": "mute-discord-on-mac",
+      "title": "Push to talk și dezactivare microfon Discord pe Mac",
+      "description": "Folosiți o singură tastă push to talk și dezactivare pentru Discord pe Mac sau din căști AirPods. Funcționează în aplicație și în browser.",
+      "h1": "Push to talk și o tastă globală de dezactivare pentru Discord pe Mac",
+      "intro": [
+        "Funcția push to talk din Discord necesită permisiuni suplimentare pe Mac și nu funcționează în browser. Dacă participați și la apeluri pe Google Meet sau Zoom, ajungeți să aveți o tastă de dezactivare diferită pentru fiecare aplicație.",
+        "Muffle vă oferă o singură tastă pentru toate. Apăsați scurt pentru a dezactiva microfonul, țineți apăsat pentru a vorbi sau apăsați pe căștile AirPods."
+      ],
+      "steps_title": "Configurați push to talk pentru Discord",
+      "steps": [
+        "Instalați Muffle și permiteți accesul la microfon.",
+        "Intrați pe un canal vocal în Discord.",
+        "Apăsați Control-Opțiune-M pentru a dezactiva sau activa microfonul. Cât timp este dezactivat, țineți apăsat ca să vorbiți.",
+        "Alegeți propria tastă în Configurări Muffle, de exemplu o tastă F."
+      ],
+      "tips": [
+        "Combinația de taste Muffle nu necesită permisiuni de accesibilitate.",
+        "Blocați nivelul microfonului pentru ca reglarea automată din Discord să nu îl modifice continuu."
+      ],
+      "faq": [
+        {
+          "q": "Este la fel ca funcția push to talk din Discord?",
+          "a": "Funcționează la fel, dar pentru toate aplicațiile simultan. Muffle dezactivează chiar microfonul, așa că Discord recepționează liniște până când țineți tasta apăsată."
+        },
+        {
+          "q": "Pot dezactiva microfonul în Discord folosind AirPods?",
+          "a": "Da. În timpul unui apel vocal, apăsați tija căștilor AirPods pentru a dezactiva sau activa microfonul."
+        }
+      ]
+    },
+    {
+      "slug": "mute-webex-on-mac",
+      "title": "Dezactivare microfon Webex din orice aplicație pe Mac",
+      "description": "Dezactivați microfonul în întâlniri Webex pe Mac printr-o tastă globală sau din AirPods, chiar dacă Webex nu este fereastra activă.",
+      "h1": "Cum să dezactivați Webex din orice aplicație pe Mac",
+      "intro": [
+        "Combinația de taste pentru dezactivare în Webex funcționează doar când Webex este în prim-plan, iar comenzile dispar la partajarea ecranului.",
+        "Muffle dezactivează microfonul de oriunde de pe Mac, permițându-vă să opriți sunetul într-o conferință Webex fără a părăsi ceea ce faceți."
+      ],
+      "steps_title": "Dezactivați Webex de oriunde",
+      "steps": [
+        "Instalați Muffle și permiteți accesul la microfon.",
+        "Alăturați-vă întâlnirii Webex.",
+        "Apăsați Control-Opțiune-M sau tija căștilor AirPods pentru dezactivare.",
+        "Folosiți mini controlerul flotant pentru a vedea starea microfonului în timp ce partajați ecranul."
+      ],
+      "tips": [
+        "Webex poate arăta în continuare că aveți microfonul pornit. Participanții aud doar liniște cât timp pictograma Muffle este roșie.",
+        "Activați opțiunea „Începe fiecare apel cu microfonul dezactivat” pentru întâlniri mari."
+      ],
+      "faq": [
+        {
+          "q": "Funcționează Muffle cu Webex în browser?",
+          "a": "Da. Dezactivează chiar microfonul, deci funcționează cu orice versiune de Webex."
+        },
+        {
+          "q": "Pot pune Webex pe mut folosind AirPods?",
+          "a": "Da, apăsați tija în timpul întâlnirii. Combinația de taste funcționează cu orice căști."
+        }
+      ]
+    },
+    {
+      "slug": "mute-browser-calls",
+      "title": "Dezactivare apeluri web în Chrome, Safari și Arc pe Mac",
+      "description": "Opriți microfonul în Chrome, Safari sau Arc cu AirPods ori o tastă rapidă. Pentru Google Meet, SoWork, Gather, Whereby, Jitsi și altele.",
+      "h1": "Cum să opriți microfonul în orice filă de browser pe Mac",
+      "intro": [
+        "Tot mai multe apeluri și conferințe au loc în browser: Google Meet, Teams pe web, birouri virtuale precum SoWork și Gather, Whereby sau Jitsi. Fiecare are propriul buton și comandă rapidă de dezactivare, care funcționează doar când fila respectivă este în prim-plan.",
+        "De asemenea, browserele ignoră apăsarea pe AirPods pentru dezactivare pe Mac. Muffle preia apăsarea sau combinația globală de taste și oprește microfonul pentru toate filele simultan."
+      ],
+      "steps_title": "Dezactivați orice apel web",
+      "steps": [
+        "Instalați Muffle și permiteți accesul la microfon.",
+        "Deschideți apelul în orice filă de browser.",
+        "Apăsați tija căștilor AirPods sau Control-Opțiune-M pentru dezactivare, din orice aplicație sau filă.",
+        "Urmăriți iconița din bara de meniu: culoarea roșie înseamnă că microfonul este oprit."
+      ],
+      "tips": [
+        "Birourile virtuale mențin microfonul deschis ore întregi la munca la distanță. Activați mini controlerul flotant pentru a vedea mereu starea microfonului.",
+        "Memento-ul „Sunteți pe mut” vă avertizează când începeți să vorbiți cu microfonul dezactivat."
+      ],
+      "faq": [
+        {
+          "q": "De ce nu funcționează apăsarea pe AirPods în Chrome?",
+          "a": "Chrome nu acceptă gestul macOS de dezactivare prin AirPods pentru paginile web. Muffle preia această apăsare și dezactivează direct microfonul."
+        },
+        {
+          "q": "Funcționează în SoWork și Gather?",
+          "a": "Da. Sunetul de pe orice site care utilizează microfonul este oprit atunci când Muffle dezactivează microfonul."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-mute-not-working-on-mac",
+      "title": "Nu merge oprirea din AirPods pe Mac? Rezolvare",
+      "description": "Apăsarea pe AirPods emite un semnal de eroare și nu oprește sunetul în apel? Aflați de ce se întâmplă pe Mac și cum puteți dezactiva orice aplicație.",
+      "h1": "Dezactivarea din AirPods nu funcționează pe Mac? Iată soluția",
+      "intro": [
+        "macOS vă permite să dezactivați un apel apăsând tija căștilor AirPods, dar numai dacă aplicația de apel acceptă funcția. Multe nu o acceptă, inclusiv Chrome și apelurile web deschise în el. Apăsați, se aude un sunet scurt de eroare, apare mesajul „Nu se poate controla microfonul”, iar participanții continuă să vă audă.",
+        "Muffle adaugă acest suport în orice aplicație. Preia apăsarea, dezactivează microfonul Mac-ului și redă semnalul sonor standard de dezactivare."
+      ],
+      "steps_title": "Configurați apăsarea AirPods pentru a dezactiva orice aplicație",
+      "steps": [
+        "Instalați Muffle și permiteți accesul la microfon. macOS trimite apăsarea doar aplicațiilor care pot utiliza microfonul.",
+        "Verificați dacă opțiunea „Dezactivați și activați cu o apăsare AirPods” este activată în Configurări Muffle.",
+        "Intrați într-un apel. Apăsarea dezactivează microfonul doar când o aplicație îl utilizează.",
+        "Apăsați tija o dată pentru a dezactiva microfonul și încă o dată pentru a-l activa."
+      ],
+      "tips": [
+        "În afara apelurilor, apăsarea redă și suspendă redarea muzicii ca de obicei.",
+        "Dacă pe căștile AirPods folosiți o altă apăsare pentru controlul apelurilor, verificați configurările căștilor în Configurări sistem."
+      ],
+      "faq": [
+        {
+          "q": "De ce Mac-ul redă un sunet de eroare când apăs pe AirPods?",
+          "a": "Aplicația în care vă aflați în apel nu acceptă apăsarea de dezactivare de pe AirPods, așa că macOS o respinge. Când Muffle rulează, apăsarea dezactivează direct microfonul."
+        },
+        {
+          "q": "Ce modele de AirPods acceptă apăsarea pentru dezactivare?",
+          "a": "AirPods Pro, AirPods 3 și versiunile ulterioare, precum și AirPods Max, plus modelele Beats cu control al apelurilor."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-keyboard-shortcut-mac",
+      "title": "Dezactivați microfonul pe Mac cu o combinație de taste",
+      "description": "Setați o combinație globală de taste pentru a activa și dezactiva microfonul pe Mac în orice apel. Fără permisiuni de accesibilitate.",
+      "h1": "Cum să dezactivați microfonul pe un Mac cu o combinație de taste",
+      "intro": [
+        "macOS are o tastă pentru dictare, dar niciuna pentru dezactivarea microfonului. Fiecare aplicație de apeluri are propria scurtătură, iar aceasta funcționează doar când aplicația este în prim-plan.",
+        "Muffle adaugă o combinație de taste care dezactivează chiar microfonul, în toate aplicațiile deodată. Combinația implicită este Control-Opțiune-M și puteți alege orice combinație doriți."
+      ],
+      "steps_title": "Dezactivare cu o singură combinație de taste",
+      "steps": [
+        "Instalați Muffle.",
+        "Apăsați Control-Opțiune-M pentru a dezactiva microfonul. Iconița din bara de meniu devine roșie și apare o mică confirmare „Mut”.",
+        "Apăsați din nou pentru a-l activa.",
+        "Pentru a o schimba, deschideți Configurări Muffle, faceți clic pe combinație și apăsați una nouă."
+      ],
+      "tips": [
+        "Cât timp microfonul este dezactivat, țineți apăsată combinația ca să vorbiți, apoi eliberați pentru a-l dezactiva din nou.",
+        "Faceți clic dreapta pe iconița Muffle din bara de meniu pentru a dezactiva microfonul instantaneu cu mouse-ul."
+      ],
+      "faq": [
+        {
+          "q": "Combinația de taste funcționează când aplicația de apel nu este în prim-plan?",
+          "a": "Da. Funcționează din orice aplicație, inclusiv din aplicațiile pe tot ecranul."
+        },
+        {
+          "q": "Pot folosi o singură tastă, cum ar fi F5?",
+          "a": "Da. Tastele funcționale merg singure; alte taste necesită Control, Opțiune sau Comandă."
+        }
+      ]
+    },
+    {
+      "slug": "push-to-talk-on-mac",
+      "title": "Push to Talk pe Mac pentru orice aplicație de apeluri",
+      "description": "Folosiți push to talk pe Mac în Zoom, Google Meet, Teams, Discord și alte aplicații. Țineți apăsată o tastă ca să vorbiți, eliberați pentru mut.",
+      "h1": "Push to talk pe Mac, în orice aplicație",
+      "intro": [
+        "Funcția push to talk vă ține pe mut până când apăsați o tastă. Este cel mai simplu mod de a păstra liniștea în conferințe mari sau spații zgomotoase, însă doar câteva aplicații o au și fiecare folosește o tastă diferită.",
+        "Muffle adaugă push to talk în fiecare aplicație de pe Mac. Rămâneți pe mut, țineți apăsată combinația ca să vorbiți și eliberați pentru a reveni pe mut."
+      ],
+      "steps_title": "Cum folosiți push to talk",
+      "steps": [
+        "Instalați Muffle.",
+        "Dezactivați microfonul cu Control-Opțiune-M sau cu căștile AirPods.",
+        "Țineți apăsat Control-Opțiune-M în timp ce vorbiți.",
+        "Eliberați. Sunteți din nou pe mut."
+      ],
+      "tips": [
+        "O apăsare scurtă pe combinație comută starea microfonului. O apăsare lungă activează push to talk.",
+        "Alegeți o tastă comodă în Configurări Muffle, de exemplu o tastă F."
+      ],
+      "faq": [
+        {
+          "q": "Funcționează push to talk în Google Meet?",
+          "a": "Da. Muffle dezactivează chiar microfonul, așa că funcția push to talk merge în Meet, Zoom, Teams, Discord și în orice altă aplicație."
+        },
+        {
+          "q": "Există și opțiunea push to mute?",
+          "a": "Da. Când microfonul este activat, dacă țineți apăsată combinația de taste, microfonul rămâne dezactivat până când eliberați."
+        }
+      ]
+    },
+    {
+      "slug": "stop-apps-changing-mic-volume",
+      "title": "Opriți Chrome și Zoom să modifice volumul pe Mac",
+      "description": "Google Meet, Chrome, Zoom și Teams modifică nivelul la microfon pe Mac. Blocați volumul microfonului ca nicio aplicație să nu-l poată schimba.",
+      "h1": "Cum să opriți aplicațiile să modifice volumul microfonului pe Mac",
+      "intro": [
+        "Multe aplicații de apeluri ajustează automat nivelul de intrare printr-o funcție numită control automat al amplificării. Setați un nivel bun în Configurări sistem, intrați într-o întâlnire Google Meet, iar câteva minute mai târziu glisorul s-a mutat și colegii vă spun că vă auziți prea încet sau distorsionat.",
+        "Muffle poate bloca nivelul microfonului. Când o aplicație îl modifică, Muffle îl readuce instantaneu la loc."
+      ],
+      "steps_title": "Blocați nivelul microfonului",
+      "steps": [
+        "Instalați Muffle.",
+        "Faceți clic pe iconița Muffle din bara de meniu și reglați nivelul cu glisorul pentru microfon.",
+        "Faceți clic pe lacătul de lângă glisor.",
+        "Intrați în apeluri. Nivelul rămâne exact așa cum l-ați stabilit."
+      ],
+      "tips": [
+        "Muffle vă avertizează în panou dacă nivelul este prea scăzut în timpul unui apel.",
+        "Blocarea reține un nivel pentru fiecare microfon, astfel încât căștile AirPods și microfonul Mac-ului îl păstrează fiecare pe al său."
+      ],
+      "faq": [
+        {
+          "q": "De ce se schimbă mereu volumul microfonului pe Mac?",
+          "a": "Aplicații precum Chrome, Zoom și Teams folosesc controlul automat al amplificării și modifică nivelul de intrare al sistemului în timp ce vorbiți."
+        },
+        {
+          "q": "Mai pot modifica nivelul manual?",
+          "a": "Da. Folosiți glisorul din panoul Muffle, iar acesta va actualiza nivelul blocat."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-on-mac",
+      "title": "Cum să dezactivați microfonul pe Mac: 4 metode simple",
+      "description": "Patru metode de a pune microfonul pe mut pe Mac: din aplicație, Configurări sistem, o scurtătură globală sau AirPods, și care funcționează peste tot.",
+      "h1": "Cum să dezactivați microfonul pe un Mac",
+      "intro": [
+        "Pe tastatura unui Mac nu există o tastă dedicată pentru mut. În funcție de aplicație și de situație, aveți la dispoziție câteva opțiuni, dar numai unele funcționează peste tot."
+      ],
+      "steps_title": "Opțiunile disponibile",
+      "steps": [
+        "Butonul sau scurtătura proprie a aplicației de apel. Funcționează doar în acea aplicație și numai când este în prim-plan.",
+        "Configurări sistem, Sunet, Intrare. Reducerea nivelului de intrare la zero nu dezactivează complet orice microfon, iar aplicațiile îl pot mări din nou.",
+        "O combinație globală de taste cu Muffle. O singură tastă dezactivează chiar microfonul, în toate aplicațiile.",
+        "Căștile AirPods. Cu Muffle, apăsarea tijei dezactivează microfonul în orice apel, inclusiv în Google Meet pe Chrome."
+      ],
+      "tips": [
+        "Iconița Muffle din bara de meniu devine roșie când microfonul este oprit, indiferent de aplicația în care vă aflați.",
+        "Ieșirea din Muffle reactivează întotdeauna microfonul."
+      ],
+      "faq": [
+        {
+          "q": "Există o funcție integrată de dezactivare a microfonului pe Mac?",
+          "a": "Nu la nivelul întregului sistem. macOS dezactivează microfonul doar în aplicațiile compatibile. Muffle adaugă o dezactivare reală pentru tot sistemul."
+        },
+        {
+          "q": "Dezactivarea în Muffle funcționează pentru toate aplicațiile?",
+          "a": "Da. Muffle oprește toate microfoanele la nivel de hardware, astfel încât nicio aplicație nu vă poate auzi până când nu reactivați sunetul."
+        }
+      ]
+    },
+    {
+      "slug": "youre-muted-reminder",
+      "title": "Memento „Sunteți pe mut” în orice aplicație pe Mac",
+      "description": "Vorbiți cu microfonul oprit? Muffle afișează mementoul „Sunteți pe mut” în Google Meet, Zoom, Teams, Slack și orice alt apel pe Mac.",
+      "h1": "Un memento „Sunteți pe mut” pentru orice aplicație de apel",
+      "intro": [
+        "Zoom vă avertizează când vorbiți cu microfonul dezactivat. Majoritatea celorlalte aplicații nu fac asta, iar apelurile web aproape niciodată. Explicați ceva timp de un minut, apoi observați că toată lumea așteaptă.",
+        "Muffle detectează vorbirea când aveți microfonul dezactivat și afișează un memento, în orice aplicație. Când apelul folosește AirPods sau căști, ascultă microfonul integrat al Mac-ului, exclusiv pentru volum. Nimic nu este înregistrat."
+      ],
+      "steps_title": "Activați mementoul",
+      "steps": [
+        "Instalați Muffle și permiteți accesul la microfon.",
+        "Asigurați-vă că opțiunea „Amintește-mi când vorbesc cu microfonul dezactivat” este activată în Configurări Muffle.",
+        "Intrați într-un apel folosind AirPods sau căști și dezactivați microfonul.",
+        "Începeți să vorbiți. Pe ecran apare mementoul „Sunteți pe mut”."
+      ],
+      "tips": [
+        "Intrați într-o conferință cu microfonul încă dezactivat de la ultimul apel? Muffle vă avertizează imediat ce începe apelul.",
+        "Tastarea nu declanșează mementoul. Doar vorbirea clară o face."
+      ],
+      "faq": [
+        {
+          "q": "Funcționează mementoul cu microfonul încorporat al Mac-ului?",
+          "a": "Funcționează atunci când apelul folosește AirPods sau o cască. Dacă apelul utilizează microfonul integrat al Mac-ului, acel microfon este dezactivat și nu vă poate auzi."
+        },
+        {
+          "q": "Îmi este înregistrat sunetul?",
+          "a": "Nu. Muffle măsoară doar nivelul volumului și nu păstrează și nu trimite niciodată sunet."
+        }
+      ]
+    }
+  ],
+  "support": {
+    "title": "Asistență Muffle",
+    "description": "Ajutor pentru Muffle pe Mac: configurarea apăsării pe AirPods, combinația de taste, achiziții și multe altele.",
+    "h1": "Asistență",
+    "sections": [
+      {
+        "h": "Primii pași",
+        "items": [
+          "Muffle se află în bara de meniu. Faceți clic pe iconița microfonului pentru comenzi sau faceți clic dreapta pe ea pentru a dezactiva microfonul instantaneu.",
+          "În timpul unui apel, apăsați tija pentru a dezactiva microfonul și apăsați din nou pentru a-l activa.",
+          "Combinația implicită este Control-Opțiune-M. Atingeți pentru a dezactiva sau activa microfonul. Cât timp este dezactivat, țineți apăsat ca să vorbiți."
+        ]
+      },
+      {
+        "h": "Apăsarea pe AirPods nu dezactivează microfonul",
+        "items": [
+          "Funcționează doar în timpul unui apel, cât timp o aplicație vă utilizează microfonul.",
+          "Permiteți accesul la microfon pentru Muffle în Configurări sistem, Intimitate și securitate, Microfon.",
+          "Verificați dacă opțiunea „Dezactivați și activați cu o apăsare AirPods” este activată în Configurări Muffle.",
+          "Căștile AirPods au nevoie de comenzi pentru apeluri: AirPods Pro, AirPods 3 și versiuni ulterioare sau AirPods Max."
+        ]
+      },
+      {
+        "h": "Aplicația de apel arată în continuare microfonul pornit",
+        "items": [
+          "Acest lucru este normal. Muffle dezactivează chiar microfonul, așa că fiecare aplicație primește liniște deși consideră că microfonul e activ. Urmăriți iconița Muffle din bara de meniu: culoarea roșie indică faptul că nimeni nu vă aude."
+        ]
+      },
+      {
+        "h": "Achiziții",
+        "items": [
+          "Muffle este gratuit timp de 3 zile. După aceea, deblocați aplicația cu o achiziție unică. Nu există abonament.",
+          "Pentru a restabili o achiziție pe un alt Mac, deschideți Configurări Muffle și alegeți Restabilește achiziția."
+        ]
+      }
+    ],
+    "contact_title": "Contact",
+    "contact_text": "Trimiteți un e-mail la"
+  },
+  "privacy_page": {
+    "title": "Politica de confidențialitate Muffle",
+    "description": "Muffle nu înregistrează, nu stochează și nu trimite date audio și nu colectează date. Aflați cum folosește microfonul.",
+    "h1": "Politica de confidențialitate",
+    "updated": "Ultima actualizare: 29 septembrie 2026.",
+    "intro": "Muffle dezactivează microfonul Mac-ului dumneavoastră. Aplicația este concepută astfel încât nimic din ce spuneți să nu părăsească vreodată Mac-ul.",
+    "sections": [
+      {
+        "h": "Ce face Muffle cu microfonul dumneavoastră",
+        "p": [
+          "În timpul apelurilor, Muffle menține o conexiune silențioasă la microfon. macOS transmite apăsarea de dezactivare de pe AirPods doar aplicațiilor care folosesc microfonul, așa că această conexiune face posibilă funcția.",
+          "Dacă activați mementoul când vorbiți cu microfonul dezactivat, Muffle măsoară și nivelul de intrare al microfonului încorporat al Mac-ului în timp ce sunteți pe mut, pentru a sesiza când începeți să vorbiți.",
+          "Muffle analizează exclusiv valorile numerice ale volumului. Nu înregistrează, nu stochează, nu transcrie și nu trimite niciodată sunet."
+        ]
+      },
+      {
+        "h": "Date pe care le colectăm",
+        "p": [
+          "Niciuna. Muffle nu utilizează conturi, analitice, publicitate și tehnologii de urmărire. Nu contactează niciun server de-al nostru."
+        ]
+      },
+      {
+        "h": "Achiziții",
+        "p": [
+          "Perioada de încercare gratuită și achiziția unică sunt procesate prin App Store de la Apple. Apple gestionează datele de plată; noi nu le vedem niciodată. Se aplică politica de confidențialitate a Apple."
+        ]
+      },
+      {
+        "h": "Configurări salvate pe Mac-ul dumneavoastră",
+        "p": [
+          "Preferințele dumneavoastră, precum combinația de taste aleasă, rămân stocate local pe Mac în fișierele Muffle. Ștergerea aplicației Muffle le elimină complet."
+        ]
+      }
+    ],
+    "contact": "Întrebări privind confidențialitatea:"
+  }
+}

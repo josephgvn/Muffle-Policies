@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "home_title": "Muffle: Mute Your Mac Mic with AirPods or a Shortcut",
+    "home_description": "Mute your microphone in Google Meet, Zoom, Teams, Slack, Discord and every other app on your Mac. Press your AirPods or one shortcut. Free for 3 days.",
+    "og_title": "Mute your Mac's mic from anywhere.",
+    "og_subtitle": "Press your AirPods or one shortcut. Works in every app."
+  },
+  "nav": {
+    "features": "Features",
+    "guides": "Guides",
+    "support": "Support",
+    "download": "Get Muffle",
+    "home": "Home",
+    "menu": "Menu"
+  },
+  "cta": {
+    "download": "Download on the Mac App Store",
+    "coming_soon": "Coming soon to the Mac App Store",
+    "trial": "Free for 3 days. Then one payment, no subscription.",
+    "requirements": "For macOS 14 Sonoma and later."
+  },
+  "hero": {
+    "title": "Mute your Mac's mic from anywhere.",
+    "subtitle": "Press your AirPods or one keyboard shortcut. Muffle turns the microphone itself off, so Google Meet, Zoom, Teams, Slack and every other app hear silence.",
+    "image_alt": "The Muffle panel in the Mac menu bar during a Google Meet call in Chrome"
+  },
+  "works_with": {
+    "title": "Works with every app that uses your mic",
+    "apps": ["Google Meet", "Zoom", "Microsoft Teams", "Slack", "Discord", "FaceTime", "Webex", "WhatsApp", "Skype", "SoWork", "Gather", "Chrome", "Safari", "Arc", "Edge", "Firefox"],
+    "note": "Muffle mutes the microphone at the hardware level, so it doesn't matter which app, browser or tab is using it."
+  },
+  "features": {
+    "title": "Everything your Mac should do in a call",
+    "items": [
+      {"title": "Press your AirPods to mute", "text": "During any call, press the stem once to mute and again to unmute. It even works in Chrome, where Google Meet and other web calls ignore the AirPods press."},
+      {"title": "One shortcut for every app", "text": "Control-Option-M mutes you everywhere, even when the call is in a background tab. Hold it to talk while muted, let go to mute again."},
+      {"title": "A “You're muted” reminder", "text": "Start talking while muted and Muffle tells you, before you explain your whole idea to nobody."},
+      {"title": "Calls on autopilot", "text": "Start every call muted, turn the mic back on when a call ends, and mute whenever you lock your Mac."},
+      {"title": "Always know if you're live", "text": "A small floating button shows your mic state during calls. Click it to mute or unmute."},
+      {"title": "Your mic level stays put", "text": "Chrome, Zoom and Teams change your mic level on their own. Lock it and Muffle puts it back."},
+      {"title": "Safe when your AirPods die", "text": "If your headset disconnects mid-call, Muffle mutes before the call switches to your Mac's mic and sends the whole room."},
+      {"title": "Shortcuts and Control Center", "text": "Mute from the Shortcuts app, Siri, a Stream Deck, Raycast, or a button in Control Center."}
+    ],
+    "image_reminder_alt": "The “You're muted” reminder at the bottom of the screen",
+    "image_pills_alt": "The floating mini controller in its muted and live states",
+    "image_automation_alt": "Muffle settings for starting calls muted and other call automations"
+  },
+  "how": {
+    "title": "Set up in a minute",
+    "steps": [
+      "Install Muffle from the Mac App Store and allow microphone access.",
+      "Join a call in any app, as usual.",
+      "Press your AirPods, press Control-Option-M, or click the menu bar icon to mute."
+    ]
+  },
+  "privacy": {
+    "title": "Private by design",
+    "text": "Muffle never records, stores or sends audio. It only switches your microphone on and off and reads its loudness. No accounts, no analytics, no tracking."
+  },
+  "faq": {
+    "title": "Questions",
+    "items": [
+      {"q": "Does Muffle work with Google Meet in Chrome?", "a": "Yes. Chrome doesn't pass the AirPods mute press to web calls, so Muffle takes it and mutes the microphone itself. The same goes for any call in a browser tab."},
+      {"q": "Will other people see me as muted?", "a": "Your call app may still show your mic as on, because Muffle switches off the microphone rather than the app's button. People hear silence either way. The Muffle icon in the menu bar turns red while you're muted."},
+      {"q": "Which AirPods work?", "a": "AirPods Pro, AirPods 3 and later, and AirPods Max, plus Beats models with call controls. The keyboard shortcut and the menu bar work with any microphone."},
+      {"q": "Does it work with Zoom, Teams, Slack and Discord?", "a": "Yes. Muffle works with every app on your Mac that uses the microphone, desktop apps and browser calls alike."},
+      {"q": "Is there a subscription?", "a": "No. Try every feature free for 3 days, then unlock Muffle with a single purchase."},
+      {"q": "Why does Muffle need microphone access?", "a": "macOS only passes the AirPods press to apps that are using the microphone, so Muffle keeps a silent connection open during calls. Nothing is recorded."},
+      {"q": "What happens if I quit Muffle while muted?", "a": "Muffle turns your microphone back on when it quits, so you're never stuck silent."},
+      {"q": "Which macOS versions are supported?", "a": "macOS 14 Sonoma and later. The Control Center button needs macOS 26 or later."}
+    ]
+  },
+  "final_cta": {
+    "title": "Stop hunting for the mute button.",
+    "text": "Muffle is free to try for 3 days."
+  },
+  "footer": {
+    "guides": "Guides",
+    "product": "Muffle",
+    "support": "Support",
+    "privacy": "Privacy Policy",
+    "language": "Language",
+    "contact": "Contact",
+    "copyright": "© 2026 Muffle. AirPods and Mac are trademarks of Apple Inc."
+  },
+  "guides_index": {
+    "title": "Muffle Guides: Mute Meet, Zoom, Teams and More on Mac",
+    "description": "Step-by-step guides for muting Google Meet, Zoom, Microsoft Teams, Slack, Discord and web calls on a Mac with your AirPods or a keyboard shortcut.",
+    "h1": "Guides",
+    "intro": "Short, practical answers for muting your microphone on a Mac, in every app."
+  },
+  "guide_labels": {
+    "on_this_page": "On this page",
+    "faq": "Questions",
+    "related": "More guides",
+    "try": "Try Muffle free for 3 days",
+    "read": "Read the guide"
+  },
+  "guides": [
+    {
+      "slug": "mute-google-meet-with-airpods",
+      "title": "How to Mute Google Meet with AirPods on Mac",
+      "description": "The AirPods press doesn't mute Google Meet in Chrome on a Mac. Here's how to mute Meet with your AirPods, a shortcut or the menu bar, in any tab.",
+      "h1": "How to mute Google Meet with AirPods on a Mac",
+      "intro": [
+        "On an iPhone, pressing your AirPods stem mutes a call. On a Mac, Google Meet runs in Chrome, and Chrome doesn't pass that press to web pages. You press, hear an error chime, and Meet keeps sending your voice.",
+        "Muffle fixes this for every Meet call. It receives the AirPods press itself and mutes your Mac's microphone, so Meet hears silence even when the tab is in the background."
+      ],
+      "steps_title": "Mute Google Meet with your AirPods",
+      "steps": [
+        "Install Muffle and allow microphone access when asked.",
+        "Join your Google Meet call in Chrome, Safari, Arc or Edge.",
+        "Press the AirPods stem once to mute. The Muffle icon turns red.",
+        "Press again to unmute. You can also press Control-Option-M from any app."
+      ],
+      "tips": [
+        "Meet may still show your mic as on, because Muffle mutes the microphone rather than Meet's button. Everyone hears silence while the Muffle icon is red.",
+        "Turn on “Start every call muted” to join every Meet call muted."
+      ],
+      "faq": [
+        {"q": "Why doesn't my AirPods press mute Google Meet?", "a": "Chrome doesn't support the macOS AirPods mute gesture for web calls, so macOS has no app to send the press to. Muffle becomes that app."},
+        {"q": "Isn't Meet's own shortcut enough?", "a": "Meet's Command-D shortcut only works while the Meet tab is in front. Muffle's shortcut and AirPods press work from any app."}
+      ]
+    },
+    {
+      "slug": "mute-zoom-with-airpods",
+      "title": "How to Mute Zoom with AirPods or a Shortcut on Mac",
+      "description": "Mute Zoom on your Mac with an AirPods press or one global shortcut, even when Zoom isn't the active window. Works in the Zoom app and in the browser.",
+      "h1": "How to mute Zoom with AirPods or a shortcut on a Mac",
+      "intro": [
+        "Zoom's own shortcut, Command-Shift-A, only works while Zoom is the app in front. When you're taking notes or sharing another window, finding the mute button costs you a few awkward seconds.",
+        "Muffle gives you one mute control for Zoom and every other app: your AirPods, a global shortcut, or the menu bar. It mutes the microphone itself, so it works in the Zoom app and in Zoom calls in the browser."
+      ],
+      "steps_title": "Mute Zoom from anywhere",
+      "steps": [
+        "Install Muffle and allow microphone access.",
+        "Join your Zoom meeting as usual.",
+        "Press your AirPods stem or Control-Option-M to mute, from any app.",
+        "Hold Control-Option-M while muted to talk, and let go to mute again."
+      ],
+      "tips": [
+        "If Zoom takes the AirPods press itself on your Mac, the shortcut and the menu bar still mute you through Muffle.",
+        "Zoom may show you as unmuted while Muffle has the mic off. Participants hear silence."
+      ],
+      "faq": [
+        {"q": "Does Muffle replace Zoom's mute button?", "a": "It works alongside it. Muffle turns off the microphone for every app, so you can mute Zoom without switching to it."},
+        {"q": "Can I use push to talk in Zoom?", "a": "Yes. While muted, hold the Muffle shortcut to talk. This works in Zoom and in every other app."}
+      ]
+    },
+    {
+      "slug": "mute-microsoft-teams-with-airpods",
+      "title": "How to Mute Microsoft Teams with AirPods on Mac",
+      "description": "Mute Microsoft Teams on your Mac with your AirPods, a global shortcut or the menu bar. Works in the Teams app and in Teams in the browser.",
+      "h1": "How to mute Microsoft Teams with AirPods on a Mac",
+      "intro": [
+        "The Teams shortcut, Command-Shift-M, works only when the Teams window is active. In a meeting you're usually somewhere else: a document, a browser, a shared screen.",
+        "Muffle mutes your microphone from anywhere, in the Teams app and in Teams on the web. Press your AirPods, press one shortcut, or click the menu bar."
+      ],
+      "steps_title": "Mute Teams from anywhere",
+      "steps": [
+        "Install Muffle and allow microphone access.",
+        "Join your Teams meeting.",
+        "Press Control-Option-M or your AirPods stem to mute. The menu bar icon turns red.",
+        "Press again to unmute, or hold the shortcut to talk while muted."
+      ],
+      "tips": [
+        "Teams in a browser tab gets the same AirPods support as Google Meet through Muffle.",
+        "Turn on “Mute when the screen locks” so stepping away never leaves your mic open."
+      ],
+      "faq": [
+        {"q": "Does the AirPods press work in the Teams app?", "a": "It depends on your Teams version, since Teams can take the press itself. Muffle's shortcut and menu bar button work in every case."},
+        {"q": "Will Teams show me as muted?", "a": "Not always. Muffle mutes the microphone, so Teams may still show the mic as on while everyone hears silence."}
+      ]
+    },
+    {
+      "slug": "mute-slack-huddles",
+      "title": "How to Mute Slack Huddles with a Shortcut on Mac",
+      "description": "Mute Slack huddles on your Mac from any app with one global shortcut or your AirPods. No need to find the huddle window.",
+      "h1": "How to mute a Slack huddle from any app on a Mac",
+      "intro": [
+        "Slack's huddle controls live in a small window that's easy to lose behind your work, and its mute shortcut only works while Slack is in front.",
+        "Muffle mutes your microphone for Slack and every other app with one shortcut or an AirPods press, wherever you are on your Mac."
+      ],
+      "steps_title": "Mute a huddle from anywhere",
+      "steps": [
+        "Install Muffle and allow microphone access.",
+        "Start or join a huddle in Slack.",
+        "Press Control-Option-M or your AirPods stem to mute.",
+        "Glance at the menu bar: red means nobody hears you."
+      ],
+      "tips": [
+        "The floating mini controller shows your mic state during every huddle.",
+        "Hold the shortcut to say something quickly while staying muted otherwise."
+      ],
+      "faq": [
+        {"q": "Does it work with the Slack app and Slack in the browser?", "a": "Yes. Muffle mutes the microphone itself, so it works in both."},
+        {"q": "Will teammates see that I'm muted?", "a": "Slack may still show your mic as on. They hear silence while Muffle has you muted."}
+      ]
+    },
+    {
+      "slug": "mute-discord-on-mac",
+      "title": "Discord Push to Talk and Mute Shortcut on Mac",
+      "description": "Use one global push to talk and mute shortcut for Discord on your Mac, or mute with your AirPods. Works in the Discord app and in the browser.",
+      "h1": "Push to talk and a global mute shortcut for Discord on a Mac",
+      "intro": [
+        "Discord's push to talk needs extra permissions on a Mac and doesn't work for Discord in the browser. If you also join Meet or Zoom calls, you end up with a different mute key for every app.",
+        "Muffle gives you one key for all of them. Tap it to mute, hold it to talk, or press your AirPods."
+      ],
+      "steps_title": "Set up push to talk for Discord",
+      "steps": [
+        "Install Muffle and allow microphone access.",
+        "Join a Discord voice channel.",
+        "Tap Control-Option-M to mute or unmute. Hold it while muted to talk.",
+        "Pick your own key in Muffle Settings, for example an F key."
+      ],
+      "tips": [
+        "Muffle's shortcut needs no Accessibility permission.",
+        "Lock your mic level so Discord's automatic gain doesn't keep changing it."
+      ],
+      "faq": [
+        {"q": "Is this the same as Discord's push to talk?", "a": "It works the same way, but for every app at once. Muffle mutes the microphone itself, so Discord hears silence until you hold the key."},
+        {"q": "Can I mute Discord with AirPods?", "a": "Yes. During a voice call, press the AirPods stem to mute or unmute."}
+      ]
+    },
+    {
+      "slug": "mute-webex-on-mac",
+      "title": "How to Mute Webex from Any App on Mac",
+      "description": "Mute Webex meetings on your Mac with one global shortcut or your AirPods, even when Webex isn't the active window.",
+      "h1": "How to mute Webex from any app on a Mac",
+      "intro": [
+        "The Webex mute shortcut only works while Webex is in front, and its controls hide when you share your screen.",
+        "Muffle mutes your microphone from anywhere on your Mac, so you can mute a Webex meeting without leaving what you're doing."
+      ],
+      "steps_title": "Mute Webex from anywhere",
+      "steps": [
+        "Install Muffle and allow microphone access.",
+        "Join your Webex meeting.",
+        "Press Control-Option-M or your AirPods stem to mute.",
+        "Use the floating mini controller to see your mic state while you share."
+      ],
+      "tips": [
+        "Webex may still show you as unmuted. Participants hear silence while the Muffle icon is red.",
+        "Turn on “Start every call muted” for large meetings."
+      ],
+      "faq": [
+        {"q": "Does Muffle work with Webex in the browser?", "a": "Yes. It mutes the microphone, so it works with any Webex client."},
+        {"q": "Can I mute Webex with AirPods?", "a": "Yes, press the stem during the meeting. The keyboard shortcut works with any headset."}
+      ]
+    },
+    {
+      "slug": "mute-browser-calls",
+      "title": "Mute Web Calls in Chrome, Safari and Arc on Mac",
+      "description": "Mute calls in Chrome, Safari, Arc, Edge and Firefox with your AirPods or one shortcut. Works for Google Meet, SoWork, Gather, Whereby, Jitsi and more.",
+      "h1": "How to mute calls in any browser tab on a Mac",
+      "intro": [
+        "More and more calls run in the browser: Google Meet, Teams on the web, virtual offices like SoWork and Gather, Whereby, Jitsi. Each has its own mute button and shortcut, and they only work while that tab is in front.",
+        "Browsers also ignore the AirPods mute press on a Mac. Muffle takes the press, or one global shortcut, and mutes the microphone for every tab at once."
+      ],
+      "steps_title": "Mute any web call",
+      "steps": [
+        "Install Muffle and allow microphone access.",
+        "Open your call in any browser tab.",
+        "Press your AirPods stem or Control-Option-M to mute, from any app or tab.",
+        "Watch the menu bar icon: red means the mic is off."
+      ],
+      "tips": [
+        "Virtual offices keep your mic open for hours. Turn on the floating mini controller to always see your state.",
+        "The “You're muted” reminder tells you when you start talking while muted."
+      ],
+      "faq": [
+        {"q": "Why doesn't the AirPods press work in Chrome?", "a": "Chrome doesn't support the macOS AirPods mute gesture for web pages. Muffle receives the press instead and mutes the mic itself."},
+        {"q": "Does it work in SoWork and Gather?", "a": "Yes. Any site that uses your microphone is muted when Muffle turns the mic off."}
+      ]
+    },
+    {
+      "slug": "airpods-mute-not-working-on-mac",
+      "title": "AirPods Mute Not Working on Mac? Fix “Cannot Control Mic”",
+      "description": "Pressing your AirPods stem plays an error chime and doesn't mute your call? Here's why it happens on a Mac and how to make the press mute any app.",
+      "h1": "AirPods mute not working on your Mac? Here's the fix",
+      "intro": [
+        "macOS lets you mute a call by pressing your AirPods stem, but only if the call app supports it. Many don't, including Chrome and the web calls inside it. You press, hear a short error chime, see a “Cannot Control Mic” message, and the call keeps hearing you.",
+        "Muffle adds that support to every app. It receives the press, mutes your Mac's microphone and plays the normal mute chime."
+      ],
+      "steps_title": "Make the AirPods press mute any app",
+      "steps": [
+        "Install Muffle and allow microphone access. macOS only sends the press to apps that can use the mic.",
+        "Check that “Mute and unmute with an AirPods press” is on in Muffle Settings.",
+        "Join a call. The press only mutes while an app is using the microphone.",
+        "Press the stem once to mute and again to unmute."
+      ],
+      "tips": [
+        "Outside calls, the press still plays and pauses music as usual.",
+        "If your AirPods use a different press for call controls, check your AirPods settings in System Settings."
+      ],
+      "faq": [
+        {"q": "Why does my Mac play an error sound when I press my AirPods?", "a": "The app you're calling from doesn't support the AirPods mute press, so macOS rejects it. With Muffle running, the press mutes your mic instead."},
+        {"q": "Which AirPods support the mute press?", "a": "AirPods Pro, AirPods 3 and later, and AirPods Max, plus Beats models with call controls."}
+      ]
+    },
+    {
+      "slug": "mute-microphone-keyboard-shortcut-mac",
+      "title": "Mute Your Microphone on Mac with a Keyboard Shortcut",
+      "description": "Set one global keyboard shortcut to mute and unmute your Mac's microphone in every app. No Accessibility permission needed.",
+      "h1": "How to mute your microphone on a Mac with a keyboard shortcut",
+      "intro": [
+        "macOS has a key for dictation but none for muting your mic. Every call app has its own shortcut, and each works only while that app is in front.",
+        "Muffle adds one shortcut that mutes the microphone itself, in every app at once. The default is Control-Option-M, and you can pick any combination."
+      ],
+      "steps_title": "Mute with one shortcut",
+      "steps": [
+        "Install Muffle.",
+        "Press Control-Option-M to mute. The menu bar icon turns red and a small “Muted” confirmation appears.",
+        "Press it again to unmute.",
+        "To change it, open Muffle Settings, click the shortcut and press a new one."
+      ],
+      "tips": [
+        "Hold the shortcut while muted to talk, and let go to mute again.",
+        "Right-click the Muffle menu bar icon to mute instantly with the mouse."
+      ],
+      "faq": [
+        {"q": "Does the shortcut work when a call app isn't in front?", "a": "Yes. It works from any app, including full-screen apps."},
+        {"q": "Can I use a single key, like F5?", "a": "Yes. Function keys work on their own; other keys need Control, Option or Command."}
+      ]
+    },
+    {
+      "slug": "push-to-talk-on-mac",
+      "title": "Push to Talk on Mac for Every App",
+      "description": "Use push to talk on your Mac in Zoom, Google Meet, Teams, Discord and every other app. Hold one key to talk, let go to mute.",
+      "h1": "Push to talk on a Mac, in every app",
+      "intro": [
+        "Push to talk keeps you muted until you hold a key. It's the easiest way to stay quiet in big meetings or noisy rooms, yet only a few apps have it, and each uses a different key.",
+        "Muffle adds push to talk to every app on your Mac. Stay muted, hold the shortcut to speak, and let go to mute again."
+      ],
+      "steps_title": "Use push to talk",
+      "steps": [
+        "Install Muffle.",
+        "Mute with Control-Option-M or your AirPods.",
+        "Hold Control-Option-M while you speak.",
+        "Let go. You're muted again."
+      ],
+      "tips": [
+        "Tapping the shortcut still toggles mute. Holding it is push to talk.",
+        "Pick a comfortable key in Muffle Settings, for example an F key."
+      ],
+      "faq": [
+        {"q": "Does push to talk work in Google Meet?", "a": "Yes. Muffle mutes the microphone itself, so push to talk works in Meet, Zoom, Teams, Discord and any other app."},
+        {"q": "Is there push to mute?", "a": "Yes. When you're unmuted, holding the shortcut mutes you until you let go."}
+      ]
+    },
+    {
+      "slug": "stop-apps-changing-mic-volume",
+      "title": "Stop Chrome and Zoom Changing Your Mic Volume on Mac",
+      "description": "Google Meet, Chrome, Zoom and Teams keep changing your Mac's microphone level. Lock your mic volume so no app can change it.",
+      "h1": "How to stop apps from changing your mic volume on a Mac",
+      "intro": [
+        "Many call apps adjust your input level on their own, a feature called automatic gain control. You set a good level in System Settings, join a Google Meet call, and a few minutes later the slider has moved and people say you sound quiet or distorted.",
+        "Muffle can lock your mic level. When any app changes it, Muffle puts it back right away."
+      ],
+      "steps_title": "Lock your mic level",
+      "steps": [
+        "Install Muffle.",
+        "Click the Muffle icon in the menu bar and set your level with the mic slider.",
+        "Click the lock next to the slider.",
+        "Join your calls. Your level stays where you set it."
+      ],
+      "tips": [
+        "Muffle warns you in the panel when your level is too low during a call.",
+        "The lock remembers a level for each microphone, so your AirPods and your Mac's mic each keep their own."
+      ],
+      "faq": [
+        {"q": "Why does my Mac mic volume keep changing?", "a": "Apps like Chrome, Zoom and Teams use automatic gain control and change the system input level while you talk."},
+        {"q": "Can I still change the level myself?", "a": "Yes. Use the slider in the Muffle panel; it updates the locked level."}
+      ]
+    },
+    {
+      "slug": "mute-microphone-on-mac",
+      "title": "How to Mute Your Microphone on a Mac: 4 Ways",
+      "description": "Four ways to mute your Mac's microphone: the call app's button, System Settings, a global shortcut and your AirPods, and which one works in every app.",
+      "h1": "How to mute your microphone on a Mac",
+      "intro": [
+        "There's no mute key for the microphone on a Mac. Depending on the app and the moment you have a few options, and only some of them work everywhere."
+      ],
+      "steps_title": "Your options",
+      "steps": [
+        "The call app's own button or shortcut. It works only in that app, and only while that app is in front.",
+        "System Settings, Sound, Input. Dragging the input level to zero isn't a real mute on every mic, and apps can raise it again.",
+        "A global shortcut with Muffle. One key mutes the microphone itself, in every app.",
+        "Your AirPods. With Muffle, pressing the stem mutes any call, including Google Meet in Chrome."
+      ],
+      "tips": [
+        "The Muffle menu bar icon turns red while the mic is off, whatever app you're in.",
+        "Quitting Muffle always turns your microphone back on."
+      ],
+      "faq": [
+        {"q": "Is there a built-in microphone mute on a Mac?", "a": "Not a system-wide one. macOS only mutes the mic inside apps that support it. Muffle adds a real system-wide mute."},
+        {"q": "Does muting in Muffle mute every app?", "a": "Yes. Muffle switches off every microphone at the hardware level, so no app can hear you until you unmute."}
+      ]
+    },
+    {
+      "slug": "youre-muted-reminder",
+      "title": "Get a “You're Muted” Reminder in Every App on Mac",
+      "description": "Talking while muted? Muffle notices and shows a “You're muted” reminder in Google Meet, Zoom, Teams, Slack and every other app on your Mac.",
+      "h1": "A “You're muted” reminder for every call app",
+      "intro": [
+        "Zoom warns you when you talk while muted. Most other apps don't, and web calls almost never do. You explain something for a minute, then notice everyone waiting.",
+        "Muffle watches for speech while you're muted and shows a reminder, in any app. When the call uses AirPods or a headset, it listens to your Mac's own mic, and only to its loudness. Nothing is recorded."
+      ],
+      "steps_title": "Turn on the reminder",
+      "steps": [
+        "Install Muffle and allow microphone access.",
+        "Make sure “Remind me when I talk while muted” is on in Muffle Settings.",
+        "Join a call with AirPods or a headset and mute.",
+        "Start talking. A “You're muted” reminder appears."
+      ],
+      "tips": [
+        "Joining a call while still muted from the last one? Muffle reminds you as the call starts.",
+        "Typing doesn't set off the reminder. Only steady speech does."
+      ],
+      "faq": [
+        {"q": "Does the reminder work with the Mac's built-in mic?", "a": "It works when the call uses AirPods or a headset. If the call uses the Mac's own mic, that mic is muted and can't hear you."},
+        {"q": "Is my audio recorded?", "a": "No. Muffle only measures loudness and never keeps or sends any audio."}
+      ]
+    }
+  ],
+  "support": {
+    "title": "Muffle Support",
+    "description": "Help with Muffle for Mac: setting up the AirPods press, the keyboard shortcut, purchases and more.",
+    "h1": "Support",
+    "sections": [
+      {"h": "Getting started", "items": [
+        "Muffle lives in the menu bar. Click the microphone icon for controls, or right-click it to mute instantly.",
+        "During a call, press your AirPods stem to mute and press again to unmute.",
+        "The default shortcut is Control-Option-M. Tap it to mute or unmute. While muted, hold it to talk."
+      ]},
+      {"h": "The AirPods press doesn't mute", "items": [
+        "It only works during a call, while an app is using your microphone.",
+        "Allow microphone access for Muffle in System Settings, Privacy & Security, Microphone.",
+        "Check that “Mute and unmute with an AirPods press” is on in Muffle Settings.",
+        "Your AirPods need call controls: AirPods Pro, AirPods 3 and later, or AirPods Max."
+      ]},
+      {"h": "The call app still shows my mic as on", "items": [
+        "That's expected. Muffle turns the microphone itself off, so every app receives silence while it still thinks the mic is on. Trust the Muffle icon in the menu bar: red means nobody hears you."
+      ]},
+      {"h": "Purchases", "items": [
+        "Muffle is free to try for 3 days. After that, unlock it with a one-time purchase. There is no subscription.",
+        "To restore a purchase on another Mac, open Muffle Settings and choose Restore Purchase."
+      ]}
+    ],
+    "contact_title": "Contact",
+    "contact_text": "Email us at"
+  },
+  "privacy_page": {
+    "title": "Muffle Privacy Policy",
+    "description": "Muffle never records, stores or sends audio and collects no data. Read how Muffle uses your microphone.",
+    "h1": "Privacy Policy",
+    "updated": "Last updated September 29, 2026.",
+    "intro": "Muffle mutes your Mac's microphone. It is built so that nothing you say ever leaves your Mac.",
+    "sections": [
+      {"h": "What Muffle does with your microphone", "p": [
+        "During calls, Muffle keeps a silent connection to your microphone. macOS only passes the AirPods mute press to apps that are using the microphone, so this connection is what makes the AirPods press work.",
+        "If you turn on the “talk while muted” reminder, Muffle also measures how loud your Mac's built-in microphone is while you are muted, to notice that you started talking.",
+        "Muffle only looks at loudness numbers. It never records, stores, transcribes or sends audio."
+      ]},
+      {"h": "Data we collect", "p": ["None. Muffle has no accounts, no analytics, no advertising and no tracking. It does not contact any server of ours."]},
+      {"h": "Purchases", "p": ["The free trial and the one-time purchase go through Apple's App Store. Apple handles payment details; we never see them. Apple's privacy policy applies to those purchases."]},
+      {"h": "Settings stored on your Mac", "p": ["Your preferences, such as your keyboard shortcut, stay on your Mac in Muffle's own storage. Deleting Muffle deletes them."]}
+    ],
+    "contact": "Questions about privacy:"
+  }
+}

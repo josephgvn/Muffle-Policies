@@ -1,0 +1,643 @@
+{
+  "meta": {
+    "home_title": "Muffle: Stlmte mikrofón na Macu cez AirPods alebo skratkou",
+    "home_description": "Stlmte mikrofón v Google Meet, Zoom, Teams, Slack, Discord a každej ďalšej aplikácii na Macu. Stlačte AirPods alebo klávesovú skratku. Na 3 dni zadarmo.",
+    "og_title": "Stlmte mikrofón na Macu odkiaľkoľvek.",
+    "og_subtitle": "Stlačte AirPods alebo jednu skratku. Funguje v každej aplikácii."
+  },
+  "nav": {
+    "features": "Funkcie",
+    "guides": "Návody",
+    "support": "Podpora",
+    "download": "Získať Muffle",
+    "home": "Domov",
+    "menu": "Ponuka"
+  },
+  "cta": {
+    "download": "Stiahnuť z Mac App Store",
+    "coming_soon": "Už čoskoro v Mac App Store",
+    "trial": "Na 3 dni zadarmo. Potom jedna platba, žiadne predplatné.",
+    "requirements": "Pre macOS 14 Sonoma a novší."
+  },
+  "hero": {
+    "title": "Stlmte mikrofón na Macu odkiaľkoľvek.",
+    "subtitle": "Stlačte stopku AirPods alebo jednu klávesovú skratku. Muffle vypína priamo mikrofón, takže Google Meet, Zoom, Teams, Slack aj každá iná aplikácia počujú len ticho.",
+    "image_alt": "Panel Muffle v lište s ponukami na Macu počas hovoru v Google Meet v prehliadači Chrome"
+  },
+  "works_with": {
+    "title": "Funguje s každou aplikáciou, ktorá používa váš mikrofón",
+    "apps": [
+      "Google Meet",
+      "Zoom",
+      "Microsoft Teams",
+      "Slack",
+      "Discord",
+      "FaceTime",
+      "Webex",
+      "WhatsApp",
+      "Skype",
+      "SoWork",
+      "Gather",
+      "Chrome",
+      "Safari",
+      "Arc",
+      "Edge",
+      "Firefox"
+    ],
+    "note": "Muffle vypína mikrofón na hardvérovej úrovni, takže nezáleží na tom, aká aplikácia, prehliadač alebo tab ho práve používa."
+  },
+  "features": {
+    "title": "Všetko, čo by mal váš Mac počas hovoru dokázať",
+    "items": [
+      {
+        "title": "Stlmenie stlačením AirPods",
+        "text": "Počas akéhokoľvek hovoru stlačte stopku raz na stlmenie a znova na zapnutie. Funguje to dokonca aj v prehliadači Chrome, kde Google Meet a ďalšie webové hovory stlačenie AirPods ignorujú."
+      },
+      {
+        "title": "Jedna skratka pre každú aplikáciu",
+        "text": "Control-Option-M vás stlmí všade, aj keď máte hovor v tabe na pozadí. Podržte a hovorte, aj keď je mikrofón stlmený, po uvoľnení sa znova stlmí."
+      },
+      {
+        "title": "Pripomienka „Máte stlmený mikrofón“",
+        "text": "Začnite hovoriť so stlmeným mikrofónom a Muffle vás upozorní skôr, než poviete celý nápad do prázdna."
+      },
+      {
+        "title": "Hovory na autopilota",
+        "text": "Začínajte každý hovor so stlmeným mikrofónom, po skončení hovoru mikrofón automaticky zapnite a stlmte ho pri každom uzamknutí Macu."
+      },
+      {
+        "title": "Majte vždy prehľad, či vás počuť",
+        "text": "Malé plávajúce tlačidlo zobrazuje stav mikrofónu počas hovorov. Kliknutím mikrofón stlmíte alebo zapnete."
+      },
+      {
+        "title": "Úroveň mikrofónu zostane nemenná",
+        "text": "Chrome, Zoom a Teams si samy menia úroveň mikrofónu. Uzamknite ju a Muffle ju okamžite vráti späť."
+      },
+      {
+        "title": "Bezpečie, keď sa vybijú AirPods",
+        "text": "Ak sa headset odpojí uprostred hovoru, Muffle mikrofón stlmí skôr, než hovor prepne na vstavaný mikrofón Macu a odvysiela celú miestnosť."
+      },
+      {
+        "title": "Skratky a Ovládacie centrum",
+        "text": "Stlmte mikrofón z aplikácie Skratky, cez Siri, Stream Deck, Raycast alebo tlačidlom v Ovládacom centre."
+      }
+    ],
+    "image_reminder_alt": "Pripomienka „Máte stlmený mikrofón“ v spodnej časti obrazovky",
+    "image_pills_alt": "Plávajúci mini ovládač v stave stlmenia a zapnutia",
+    "image_automation_alt": "Nastavenia Muffle pre začínanie hovorov so stlmeným mikrofónom a ďalšie automatizácie hovorov"
+  },
+  "how": {
+    "title": "Nastavenie za minútu",
+    "steps": [
+      "Nainštalujte Muffle z Mac App Store a povoľte prístup k mikrofónu.",
+      "Pripojte sa k hovoru v ľubovoľnej aplikácii ako zvyčajne.",
+      "Stlačte AirPods, stlačte Control-Option-M alebo kliknite na ikonu v lište s ponukami a stlmte mikrofón."
+    ]
+  },
+  "privacy": {
+    "title": "Súkromie na prvom mieste",
+    "text": "Muffle nikdy nenahráva, neukladá ani neodosiela zvuk. Iba zapína a vypína váš mikrofón a sleduje jeho hlasitosť. Žiadne účty, žiadna analytika, žiadne sledovanie."
+  },
+  "faq": {
+    "title": "Časté otázky",
+    "items": [
+      {
+        "q": "Funguje Muffle s Google Meet v prehliadači Chrome?",
+        "a": "Áno. Chrome neodovzdáva stlačenie AirPods webovým hovorom, takže Muffle zachytí stlačenie a stlmí priamo mikrofón. To isté platí pre akýkoľvek hovor v tabe prehliadača."
+      },
+      {
+        "q": "Uvidia ma ostatní ako stlmeného?",
+        "a": "Vaša aplikácia na hovory môže stále ukazovať zapnutý mikrofón, pretože Muffle vypína samotný mikrofón namiesto tlačidla v aplikácii. Ľudia tak či tak počujú len ticho. Ikona Muffle v lište s ponukami sa pri stlmení sfarbí načerveno."
+      },
+      {
+        "q": "Ktoré modely AirPods fungujú?",
+        "a": "AirPods Pro, AirPods 3 a novšie, AirPods Max a tiež modely Beats s ovládaním hovorov. Klávesová skratka a lišta s ponukami fungujú s akýmkoľvek mikrofónom."
+      },
+      {
+        "q": "Funguje to so Zoomom, Teams, Slackom a Discordom?",
+        "a": "Áno. Muffle funguje s každou aplikáciou na Macu, ktorá používa mikrofón, či už ide o samostatné aplikácie alebo hovory v prehliadači."
+      },
+      {
+        "q": "Je potrebné predplatné?",
+        "a": "Nie. Vyskúšajte všetky funkcie bezplatne počas 3 dní, potom Muffle odomknete jednorazovým nákupom."
+      },
+      {
+        "q": "Prečo Muffle potrebuje prístup k mikrofónu?",
+        "a": "macOS odovzdáva stlačenie AirPods len aplikáciám, ktoré mikrofón práve používajú, preto Muffle udržiava počas hovorov otvorené tiché spojenie. Nič sa nenahráva."
+      },
+      {
+        "q": "Čo sa stane, ak Muffle ukončím so stlmeným mikrofónom?",
+        "a": "Muffle pri svojom ukončení mikrofón znova zapne, takže nikdy nezostanete nechtiac ticho."
+      },
+      {
+        "q": "Ktoré verzie macOS sú podporované?",
+        "a": "macOS 14 Sonoma a novší. Tlačidlo v Ovládacom centre vyžaduje macOS 26 alebo novší."
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Už žiadne hľadanie tlačidla na stlmenie.",
+    "text": "Muffle si môžete bezplatne vyskúšať na 3 dni."
+  },
+  "footer": {
+    "guides": "Návody",
+    "product": "Muffle",
+    "support": "Podpora",
+    "privacy": "Zásady ochrany osobných údajov",
+    "language": "Jazyk",
+    "contact": "Kontakt",
+    "copyright": "© 2026 Muffle. AirPods a Mac sú ochranné známky spoločnosti Apple Inc."
+  },
+  "guides_index": {
+    "title": "Návody Muffle: Stlmenie Meet, Zoomu a Teams na Macu",
+    "description": "Podrobné návody, ako stlmiť mikrofón v Google Meet, Zoom, Microsoft Teams, Slack, Discord a webových hovoroch na Macu cez AirPods alebo klávesovú skratku.",
+    "h1": "Návody",
+    "intro": "Krátke a praktické odpovede, ako stlmiť mikrofón na Macu v každej aplikácii."
+  },
+  "guide_labels": {
+    "on_this_page": "Na tejto stránke",
+    "faq": "Časté otázky",
+    "related": "Ďalšie návody",
+    "try": "Vyskúšajte Muffle na 3 dni zadarmo",
+    "read": "Prečítať návod"
+  },
+  "guides": [
+    {
+      "slug": "mute-google-meet-with-airpods",
+      "title": "Ako stlmiť Google Meet cez AirPods na Macu",
+      "description": "Stlačenie AirPods v Chrome na Macu nestlmí Google Meet. Tu zistíte, ako stlmiť hovor cez AirPods, klávesovú skratku alebo lištu s ponukami.",
+      "h1": "Ako stlmiť Google Meet cez AirPods na Macu",
+      "intro": [
+        "Na iPhone stlačením stopky AirPods hovor stlmíte. Na Macu však Google Meet beží v prehliadači Chrome a ten toto stlačenie webovým stránkam neodovzdáva. Vy stlačíte stopku, zaznie chybový tón a Meet váš hlas vysiela ďalej.",
+        "Muffle to rieši pre každý hovor cez Meet. Sám zachytí stlačenie AirPods a stlmí mikrofón Macu, takže Meet nezachytí žiadny zvuk, aj keď je karta na pozadí."
+      ],
+      "steps_title": "Stlmenie Google Meet cez AirPods",
+      "steps": [
+        "Nainštalujte Muffle a po vyzvaní povoľte prístup k mikrofónu.",
+        "Pripojte sa k hovoru Google Meet v prehliadači Chrome, Safari, Arc alebo Edge.",
+        "Jedným stlačením stopky AirPods mikrofón stlmíte. Ikona Muffle sčervenie.",
+        "Opätovným stlačením ho zapnete. V ľubovoľnej aplikácii môžete stlačiť aj Control-Option-M."
+      ],
+      "tips": [
+        "Meet môže stále ukazovať zapnutý mikrofón, pretože Muffle vypína priamo mikrofón a nemení tlačidlo v aplikácii Meet. Kým je ikona Muffle červená, nikto v hovore vás nepočuje.",
+        "Zapnite voľbu „Začínať každý hovor so stlmeným mikrofónom“ a do každého hovoru Meet vstúpite so stlmeným mikrofónom."
+      ],
+      "faq": [
+        {
+          "q": "Prečo stlačenie AirPods nestlmí Google Meet?",
+          "a": "Chrome nepodporuje gesto stlmenia cez AirPods v macOS pre webové hovory, takže systém macOS nemá aplikáciu, ktorej by stlačenie odovzdal. Touto aplikáciou sa stane Muffle."
+        },
+        {
+          "q": "Nestačí vlastná klávesová skratka v aplikácii Meet?",
+          "a": "Skratka Command-D funguje iba vtedy, keď máte otvorenú kartu s Meetom. Klávesová skratka Muffle a stlačenie AirPods fungujú z akejkoľvek aplikácie."
+        }
+      ]
+    },
+    {
+      "slug": "mute-zoom-with-airpods",
+      "title": "Ako stlmiť Zoom cez AirPods alebo skratku na Macu",
+      "description": "Stlmte Zoom na Macu stlačením AirPods alebo globálnou skratkou, aj keď nie je v popredí. Funguje v aplikácii Zoom aj v prehliadači.",
+      "h1": "Ako stlmiť Zoom cez AirPods alebo klávesovú skratku na Macu",
+      "intro": [
+        "Vlastná skratka Zoomu Command-Shift-A funguje iba vtedy, keď je Zoom aktívnym oknom v popredí. Keď si robíte poznámky alebo zdieľate iné okno, hľadanie tlačidla na stlmenie vás stojí cenné sekundy.",
+        "Muffle vám dáva jedno ovládanie stlmenia pre Zoom aj každú ďalšiu aplikáciu: cez AirPods, globálnu klávesovú skratku alebo lištu s ponukami. Vypína priamo mikrofón, takže funguje v aplikácii Zoom aj pri hovoroch v prehliadači."
+      ],
+      "steps_title": "Stlmenie Zoomu odkiaľkoľvek",
+      "steps": [
+        "Nainštalujte Muffle a povoľte prístup k mikrofónu.",
+        "Pripojte sa k stretnutiu v Zoome ako zvyčajne.",
+        "Stlačte stopku AirPods alebo skratku Control-Option-M a mikrofón stlmíte z ľubovoľnej aplikácie.",
+        "Keď je mikrofón stlmený, podržaním skratky Control-Option-M môžete hovoriť a po jej uvoľnení sa znova stlmí."
+      ],
+      "tips": [
+        "Ak Zoom na vašom Macu zachytáva stlačenie AirPods sám, klávesová skratka a lišta s ponukami vás cez Muffle spoľahlivo stlmia.",
+        "Zoom môže ukazovať, že mikrofón je zapnutý, aj keď ho Muffle vypol. Účastníci vás vtedy nepočujú."
+      ],
+      "faq": [
+        {
+          "q": "Nahrádza Muffle tlačidlo na stlmenie v Zoome?",
+          "a": "Funguje popri ňom. Muffle vypína mikrofón pre všetky aplikácie, takže Zoom stlmíte bez toho, aby ste sa doň museli prepnúť."
+        },
+        {
+          "q": "Dá sa v Zoome použiť podržanie na hovorenie?",
+          "a": "Áno. Keď je mikrofón stlmený, podržte skratku Muffle a hovorte. Funguje to v Zoome aj v každej inej aplikácii."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microsoft-teams-with-airpods",
+      "title": "Ako stlmiť Microsoft Teams cez AirPods na Macu",
+      "description": "Stlmte Microsoft Teams na Macu cez AirPods, globálnu skratku alebo lištu s ponukami. Funguje v aplikácii Teams aj vo webovom prehliadači.",
+      "h1": "Ako stlmiť Microsoft Teams cez AirPods na Macu",
+      "intro": [
+        "Klávesová skratka aplikácie Teams Command-Shift-M funguje len vtedy, keď je okno Teams aktívne. Počas stretnutia však zvyčajne pracujete inde: v dokumente, prehliadači alebo na zdieľanej obrazovke.",
+        "Muffle stlmí mikrofón odkiaľkoľvek, či už používate aplikáciu Teams alebo Teams na webe. Stačí stlačiť AirPods, použiť skratku alebo kliknúť na lištu s ponukami."
+      ],
+      "steps_title": "Stlmenie aplikácie Teams odkiaľkoľvek",
+      "steps": [
+        "Nainštalujte Muffle a povoľte prístup k mikrofónu.",
+        "Pripojte sa k stretnutiu v Teams.",
+        "Stlačte Control-Option-M alebo stopku AirPods na stlmenie. Ikona v lište s ponukami sčervenie.",
+        "Opätovným stlačením mikrofón zapnete, prípadne podržte skratku a hovorte so stlmeným mikrofónom."
+      ],
+      "tips": [
+        "Teams na karte prehliadača získa vďaka Muffle rovnakú podporu AirPods ako Google Meet.",
+        "Zapnite funkciu „Stlmiť pri uzamknutí obrazovky“, aby po odchode od Macu nezostal mikrofón otvorený."
+      ],
+      "faq": [
+        {
+          "q": "Funguje stlačenie AirPods v aplikácii Teams?",
+          "a": "Závisí to od verzie Teams, keďže aplikácia môže zachytiť stlačenie sama. Klávesová skratka Muffle a tlačidlo v lište s ponukami fungujú v každom prípade."
+        },
+        {
+          "q": "Zobrazí ma Teams ako stlmeného?",
+          "a": "Nie vždy. Muffle vypína priamo mikrofón, takže Teams môže ukazovať mikrofón ako zapnutý, hoci vás ostatní nepočujú."
+        }
+      ]
+    },
+    {
+      "slug": "mute-slack-huddles",
+      "title": "Ako stlmiť Slack Huddles klávesovou skratkou na Macu",
+      "description": "Stlmte Slack Huddles na Macu z akejkoľvek aplikácie globálnou skratkou alebo cez AirPods. Už nemusíte hľadať okno hovoru.",
+      "h1": "Ako stlmiť Slack huddle z ľubovoľnej aplikácie na Macu",
+      "intro": [
+        "Ovládacie prvky pre Slack huddle sú v malom okne, ktoré sa ľahko stratí za inými aplikáciami, a skratka na stlmenie funguje len vtedy, keď je Slack v popredí.",
+        "Muffle stlmí mikrofón pre Slack aj každú ďalšiu aplikáciu jedinou skratkou alebo stlačením AirPods, nech už na Macu pracujete kdekoľvek."
+      ],
+      "steps_title": "Stlmenie hovoru huddle odkiaľkoľvek",
+      "steps": [
+        "Nainštalujte Muffle a povoľte prístup k mikrofónu.",
+        "Začnite alebo sa pripojte k hovoru huddle v aplikácii Slack.",
+        "Stlačte Control-Option-M alebo stopku AirPods na stlmenie mikrofónu.",
+        "Pozrite sa na lištu s ponukami: červená znamená, že vás nikto nepočuje."
+      ],
+      "tips": [
+        "Plávajúci mini ovládač zobrazuje stav mikrofónu počas každého hovoru.",
+        "Podržte skratku, ak chcete niečo rýchlo povedať, a mikrofón zostane inak stále stlmený."
+      ],
+      "faq": [
+        {
+          "q": "Funguje to s aplikáciou Slack aj so Slackom v prehliadači?",
+          "a": "Áno. Muffle vypína priamo mikrofón, takže funguje v oboch."
+        },
+        {
+          "q": "Uvidia kolegovia, že mám stlmený mikrofón?",
+          "a": "Slack môže stále ukazovať mikrofón ako zapnutý. Kým vás Muffle stlmuje, počujú ticho."
+        }
+      ]
+    },
+    {
+      "slug": "mute-discord-on-mac",
+      "title": "Discord Push to Talk a skratka na stlmenie na Macu",
+      "description": "Používajte pre Discord na Macu globálnu skratku na stlmenie mikrofónu či push to talk, alebo stlmte hovor cez AirPods. V aplikácii aj prehliadači.",
+      "h1": "Push to talk a globálna klávesová skratka pre Discord na Macu",
+      "intro": [
+        "Funkcia push to talk v aplikácii Discord vyžaduje na Macu dodatočné oprávnenia a v prehliadači nefunguje. Ak sa navyše pripájate na hovory cez Google Meet alebo Zoom, pre každú aplikáciu musíte používať inú klávesovú skratku.",
+        "Muffle vám dá jednu skratku pre všetky. Ťuknutím mikrofón stlmíte, podržaním hovoríte, alebo jednoducho stlačte svoje AirPods."
+      ],
+      "steps_title": "Nastavenie push to talk pre Discord",
+      "steps": [
+        "Nainštalujte Muffle a povoľte prístup k mikrofónu.",
+        "Pripojte sa do hlasového kanála v Discorde.",
+        "Stlačte Control-Option-M a mikrofón stlmíte alebo zapnete. Keď je stlmený, podržaním klávesov hovoríte.",
+        "V Nastaveniach Muffle si vyberte vlastný kláves, napríklad niektorý funkčný kláves F."
+      ],
+      "tips": [
+        "Klávesová skratka v Muffle nepotrebuje žiadne povolenie v systémovej časti Prístupnosť.",
+        "Zamknite si úroveň mikrofónu, aby ju automatické vyrovnávanie hlasitosti v Discorde neustále nemenilo."
+      ],
+      "faq": [
+        {
+          "q": "Je to to isté ako push to talk v Discorde?",
+          "a": "Funguje to rovnako, ale pre všetky aplikácie naraz. Muffle vypína priamo mikrofón, takže Discord prijíma len ticho, kým nepodržíte kláves."
+        },
+        {
+          "q": "Môžem stlmiť Discord cez AirPods?",
+          "a": "Áno. Počas hlasového hovoru stačí stlačiť stopku AirPods a mikrofón stlmíte alebo znova zapnete."
+        }
+      ]
+    },
+    {
+      "slug": "mute-webex-on-mac",
+      "title": "Ako stlmiť Webex z ľubovoľnej aplikácie na Macu",
+      "description": "Stlmte stretnutie vo Webex na Macu jednou globálnou skratkou alebo cez AirPods, aj keď Webex práve nie je aktívnym oknom.",
+      "h1": "Ako stlmiť Webex z ľubovoľnej aplikácie na Macu",
+      "intro": [
+        "Klávesová skratka na stlmenie vo Webex funguje len vtedy, keď je Webex v popredí, a pri zdieľaní obrazovky sa jeho ovládacie prvky skryjú.",
+        "Muffle stlmí váš mikrofón odkiaľkoľvek na Macu, takže videohovor alebo stretnutie vo Webex stlmíte bez prerušenia toho, na čom pracujete."
+      ],
+      "steps_title": "Stlmenie Webexu odkiaľkoľvek",
+      "steps": [
+        "Nainštalujte Muffle a povoľte prístup k mikrofónu.",
+        "Pripojte sa na stretnutie vo Webex.",
+        "Stlačením Control-Option-M alebo stopky AirPods mikrofón stlmíte.",
+        "Zapnite plávajúci mini ovládač, aby ste videli stav mikrofónu aj pri zdieľaní obrazovky."
+      ],
+      "tips": [
+        "Webex môže stále ukazovať, že mikrofón je zapnutý. Účastníci však počujú ticho, kým je ikona Muffle červená.",
+        "Pri veľkých konferenciách zapnite funkciu „Začínať každý hovor so stlmeným mikrofónom“."
+      ],
+      "faq": [
+        {
+          "q": "Funguje Muffle s Webexom v prehliadači?",
+          "a": "Áno. Vypína priamo mikrofón na hardvérovej úrovni, takže spoľahlivo funguje s akýmkoľvek klientom Webex."
+        },
+        {
+          "q": "Dá sa Webex stlmiť cez AirPods?",
+          "a": "Áno, počas stretnutia stačí stlačiť stopku. Klávesová skratka funguje s ľubovoľným headsetom."
+        }
+      ]
+    },
+    {
+      "slug": "mute-browser-calls",
+      "title": "Stlmenie hovorov v Chrome, Safari a Arc na Macu",
+      "description": "Stlmte hovory v Chrome, Safari, Arc, Edge aj Firefox cez AirPods alebo skratku. Pre Google Meet, SoWork, Gather, Whereby a Jitsi.",
+      "h1": "Ako stlmiť hovory v ľubovoľnej karte prehliadača na Macu",
+      "intro": [
+        "Čoraz viac hovorov prebieha v prehliadači: Google Meet, webový Microsoft Teams, virtuálne kancelárie ako SoWork a Gather, Whereby či Jitsi. Každá služba má vlastné tlačidlo a skratku, ktoré fungujú len vtedy, keď máte otvorenú danú kartu.",
+        "Prehliadače navyše na Macu ignorujú stlačenie AirPods na stlmenie. Muffle toto stlačenie zachytí, prípadne použijete globálnu skratku, a mikrofón sa stlmí pre všetky karty naraz."
+      ],
+      "steps_title": "Stlmenie ľubovoľného webového hovoru",
+      "steps": [
+        "Nainštalujte Muffle a povoľte prístup k mikrofónu.",
+        "Pripojte sa do hovoru v ľubovoľnej karte prehliadača.",
+        "Stlačte stopku AirPods alebo skratku Control-Option-M a hovor stlmíte z akejkoľvek aplikácie či karty.",
+        "Sledujte ikonu v lište s ponukami: červená farba znamená, že mikrofón je vypnutý."
+      ],
+      "tips": [
+        "Virtuálne kancelárie nechávajú mikrofón aktívny celé hodiny. Zapnite plávajúci mini ovládač, aby ste mali stav mikrofónu neustále na očiach.",
+        "Upozornenie „Máte stlmený mikrofón“ vám dá vedieť, keď začnete hovoriť so stlmeným mikrofónom."
+      ],
+      "faq": [
+        {
+          "q": "Prečo stlačenie AirPods nefunguje v Chrome?",
+          "a": "Chrome v systéme macOS nepodporuje gesto stlmenia cez AirPods pre webové stránky. Muffle toto stlačenie prevezme a mikrofón sám stlmí."
+        },
+        {
+          "q": "Funguje to aj v službách SoWork a Gather?",
+          "a": "Áno. Každá stránka, ktorá používa váš mikrofón, zostane bez zvuku, len čo Muffle mikrofón vypne."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-mute-not-working-on-mac",
+      "title": "Nefunguje stlmenie AirPods na Macu? Opravte chybu",
+      "description": "Zaznie pri stlačení stopky AirPods chybový tón a mikrofón sa nestlmí? Zistite, prečo sa to na Macu deje a ako stlmiť hovor v každej aplikácii.",
+      "h1": "Nefunguje stlmenie cez AirPods na Macu? Tu je riešenie",
+      "intro": [
+        "Systém macOS umožňuje stlmiť hovor stlačením stopky AirPods, ale iba vtedy, ak to aplikácia priamo podporuje. Mnohé aplikácie to nedokážu, vrátane prehliadača Chrome a hovorov v ňom. Vy stlačíte stopku, ozve sa chybový zvuk, zobrazí sa hlásenie „Cannot Control Mic“ a hovor vás naďalej počuje.",
+        "Muffle pridáva túto podporu do každej aplikácie. Prijme stlačenie, stlmí mikrofón Macu a prehrá bežný zvuk stlmenia."
+      ],
+      "steps_title": "Ako nastaviť stlmenie každej aplikácie stlačením AirPods",
+      "steps": [
+        "Nainštalujte Muffle a zvoľte Povoliť prístup k mikrofónu. macOS odovzdáva stlačenia len aplikáciám, ktoré môžu mikrofón používať.",
+        "Skontrolujte, či je v Nastaveniach Muffle zapnutá možnosť „Stlmujte a zapínajte stlačením AirPods“.",
+        "Pripojte sa do hovoru. Stlačenie stlmí mikrofón iba vtedy, keď nejaká aplikácia mikrofón skutočne používa.",
+        "Jedným stlačením stopky mikrofón stlmíte a ďalším stlačením ho znova zapnete."
+      ],
+      "tips": [
+        "Mimo hovorov stlačenie stopky naďalej spúšťa a pozastavuje prehrávanie hudby tak ako zvyčajne.",
+        "Ak vaše AirPods používajú iné nastavenie pre hovory, skontrolujte predvoľby pre AirPods v Systémových nastaveniach."
+      ],
+      "faq": [
+        {
+          "q": "Prečo Mac pri stlačení AirPods prehrá chybový zvuk?",
+          "a": "Aplikácia, cez ktorú telefonujete, nepodporuje stlmenie cez AirPods, takže macOS akciu zamietne. Keď beží Muffle, stlačenie namiesto toho priamo stlmí váš mikrofón."
+        },
+        {
+          "q": "Ktoré modely AirPods podporujú stlmenie stlačením?",
+          "a": "AirPods Pro, AirPods 3 a novšie, AirPods Max a tiež modely Beats, ktoré podporujú ovládanie hovorov."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-keyboard-shortcut-mac",
+      "title": "Ako stlmiť mikrofón na Macu klávesovou skratkou",
+      "description": "Nastavte si globálnu klávesovú skratku na stlmenie mikrofónu na Macu v každej aplikácii. Bez nutnosti povolenia prístupnosti.",
+      "h1": "Ako stlmiť mikrofón na Macu pomocou klávesovej skratky",
+      "intro": [
+        "macOS má kláves na diktovanie, no žiadny na stlmenie mikrofónu. Každá aplikácia na hovory má vlastnú skratku, ktorá funguje len vtedy, keď máte dané okno v popredí.",
+        "Muffle pridáva jednu klávesovú skratku, ktorá vypína priamo mikrofón vo všetkých aplikáciách naraz. Predvolená skratka je Control-Option-M a môžete si vybrať ľubovoľnú kombináciu."
+      ],
+      "steps_title": "Stlmenie jednou skratkou",
+      "steps": [
+        "Nainštalujte si Muffle.",
+        "Stlačením Control-Option-M mikrofón stlmíte. Ikona v lište s ponukami sa zafarbí načerveno a zobrazí sa potvrdenie „Stlmené“.",
+        "Opätovným stlačením mikrofón znova zapnete.",
+        "Ak ju chcete zmeniť, otvorte Nastavenia Muffle, kliknite na skratku a stlačte novú."
+      ],
+      "tips": [
+        "Keď je mikrofón stlmený, podržaním skratky môžete hovoriť a po jej uvoľnení sa znova stlmí.",
+        "Kliknutím pravým tlačidlom na ikonu Muffle v lište s ponukami stlmíte mikrofón okamžite myšou."
+      ],
+      "faq": [
+        {
+          "q": "Funguje skratka, aj keď aplikácia na hovor nie je v popredí?",
+          "a": "Áno. Funguje z akejkoľvek aplikácie vrátane aplikácií na celej obrazovke."
+        },
+        {
+          "q": "Môžem použiť jeden kláves, napríklad F5?",
+          "a": "Áno. Funkčné klávesy fungujú samostatne, ostatné klávesy vyžadujú Control, Option alebo Command."
+        }
+      ]
+    },
+    {
+      "slug": "push-to-talk-on-mac",
+      "title": "Push to talk na Macu pre každú aplikáciu",
+      "description": "Používajte push to talk na Macu v Zoom, Google Meet, Teams, Discord a ďalších. Podržte kláves a hovorte, po uvoľnení mikrofón stlmte.",
+      "h1": "Push to talk na Macu v každej aplikácii",
+      "intro": [
+        "Funkcia push to talk vás necháva stlmených, kým nepodržíte kláves. Je to najjednoduchší spôsob, ako nevydávať nežiaduce zvuky na veľkých stretnutiach alebo v hlučných miestnostiach, no podporuje ju len málo aplikácií a každá používa iný kláves.",
+        "Muffle pridáva funkciu push to talk do každej aplikácie na Macu. Zostaňte stlmení, podržaním skratky hovorte a po uvoľnení sa mikrofón znova stlmí."
+      ],
+      "steps_title": "Ako používať push to talk",
+      "steps": [
+        "Nainštalujte si Muffle.",
+        "Stlmte mikrofón pomocou Control-Option-M alebo cez AirPods.",
+        "Počas hovorenia držte stlačené Control-Option-M.",
+        "Uvoľnite klávesy a mikrofón je znova stlmený."
+      ],
+      "tips": [
+        "Krátkym stlačením skratky mikrofón prepínate. Jej podržanie slúži ako push to talk.",
+        "V ponuke Nastavenia Muffle si vyberte pohodlný kláves, napríklad funkčný kláves F."
+      ],
+      "faq": [
+        {
+          "q": "Funguje push to talk v službe Google Meet?",
+          "a": "Áno. Muffle vypína priamo mikrofón, takže push to talk funguje v Meet, Zoom, Teams, Discord a v akejkoľvek inej aplikácii."
+        },
+        {
+          "q": "Existuje aj funkcia push to mute?",
+          "a": "Áno. Keď je mikrofón zapnutý, podržaním skratky ho stlmíte, kým ju neuvoľníte."
+        }
+      ]
+    },
+    {
+      "slug": "stop-apps-changing-mic-volume",
+      "title": "Ako zabrániť aplikáciám meniť hlasitosť mikrofónu na Macu",
+      "description": "Google Meet, Chrome, Zoom a Teams neustále menia úroveň mikrofónu na Macu. Uzamknite hlasitosť mikrofónu, aby ju žiadna aplikácia nemenila.",
+      "h1": "Ako zabrániť aplikáciám meniť úroveň mikrofónu na Macu",
+      "intro": [
+        "Mnohé aplikácie na hovory samovoľne upravujú vstupnú úroveň pomocou automatického vyrovnávania hlasitosti. Nastavíte si optimálnu úroveň v Systémových nastaveniach, pripojíte sa na hovor v Google Meet a o pár minút je posuvník posunutý a ostatní vás počujú príliš potichu alebo skreslene.",
+        "Muffle dokáže úroveň mikrofónu uzamknúť. Ak ju akákoľvek aplikácia zmení, Muffle ju okamžite vráti späť."
+      ],
+      "steps_title": "Uzamknutie úrovne mikrofónu",
+      "steps": [
+        "Nainštalujte si Muffle.",
+        "Kliknite na ikonu Muffle v lište s ponukami a posuvníkom nastavte úroveň mikrofónu.",
+        "Kliknite na zámok vedľa posuvníka.",
+        "Pripojte sa k hovorom. Úroveň zostane presne tam, kde ste ju nastavili."
+      ],
+      "tips": [
+        "Muffle vás v paneli upozorní, ak je úroveň mikrofónu počas hovoru príliš nízka.",
+        "Zámok si pamätá úroveň pre každý mikrofón zvlášť, takže vaše AirPods aj mikrofón Macu si zachovajú vlastné nastavenie."
+      ],
+      "faq": [
+        {
+          "q": "Prečo sa hlasitosť mikrofónu na Macu stále mení?",
+          "a": "Aplikácie ako Chrome, Zoom a Teams používajú automatické vyrovnávanie zosilnenia a počas vášho rozprávania menia systémovú vstupnú úroveň."
+        },
+        {
+          "q": "Môžem úroveň stále meniť manuálne?",
+          "a": "Áno. Použite posuvník v paneli Muffle, čím uzamknutú úroveň zaktualizujete."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-on-mac",
+      "title": "Ako stlmiť mikrofón na Macu: 4 overené spôsoby",
+      "description": "Štyri spôsoby, ako stlmiť mikrofón na Macu: tlačidlo v aplikácii, Systémové nastavenia, globálna skratka a AirPods. Pozrite sa, čo funguje všade.",
+      "h1": "Ako stlmiť mikrofón na Macu",
+      "intro": [
+        "Na Macu neexistuje vyhradený kláves na stlmenie mikrofónu. V závislosti od aplikácie a situácie máte niekoľko možností, no len niektoré z nich fungujú všade."
+      ],
+      "steps_title": "Vaše možnosti",
+      "steps": [
+        "Tlačidlo alebo skratka priamo v aplikácii na hovor. Funguje len v danej aplikácii a iba vtedy, keď je jej okno v popredí.",
+        "Systémové nastavenia, Zvuk, Vstup. Stiahnutie vstupnej úrovne na nulu nepredstavuje skutočné stlmenie pri každom mikrofóne a aplikácie ju môžu znova zvýšiť.",
+        "Globálna klávesová skratka s Muffle. Jedna skratka vypne priamo mikrofón v každej aplikácii.",
+        "Vaše AirPods. Vďaka Muffle stlačením stopky stlmíte akýkoľvek hovor vrátane Google Meet v prehliadači Chrome."
+      ],
+      "tips": [
+        "Ikona Muffle v lište s ponukami sa zafarbí načerveno vždy, keď je mikrofón vypnutý, bez ohľadu na otvorenú aplikáciu.",
+        "Ukončením aplikácie Muffle sa mikrofón vždy znova zapne."
+      ],
+      "faq": [
+        {
+          "q": "Má Mac vstavané stlmenie mikrofónu?",
+          "a": "Nie v rámci celého systému. macOS stlmuje mikrofón iba v aplikáciách, ktoré to podporujú. Muffle pridáva skutočné systémové stlmenie."
+        },
+        {
+          "q": "Stlmí vypnutie v Muffle každú aplikáciu?",
+          "a": "Áno. Muffle vypína každý mikrofón na hardvérovej úrovni, takže vás žiadna aplikácia nebude počuť, kým mikrofón znova nezapnete."
+        }
+      ]
+    },
+    {
+      "slug": "youre-muted-reminder",
+      "title": "Pripomienka „Máte stlmený mikrofón“ v každej appke na Macu",
+      "description": "Hovoríte so stlmeným mikrofónom? Muffle zobrazí oznam „Máte stlmený mikrofón“ v Google Meet, Zoom, Teams, Slack aj ďalších aplikáciách na Macu.",
+      "h1": "Pripomienka „Máte stlmený mikrofón“ pre každú aplikáciu na hovory",
+      "intro": [
+        "Zoom vás upozorní, keď hovoríte so stlmeným mikrofónom. Väčšina ostatných aplikácií to nerobí a webové hovory takmer nikdy. Minútu niečo vysvetľujete a až potom si všimnete, že všetci len čakajú.",
+        "Muffle sleduje reč, keď máte stlmený mikrofón, a v ľubovoľnej aplikácii zobrazí pripomienku. Keď hovor prebieha cez AirPods alebo headset, počúva vstavaný mikrofón Macu a sleduje len jeho hlasitosť. Nič sa nenahráva."
+      ],
+      "steps_title": "Zapnutie pripomienky",
+      "steps": [
+        "Nainštalujte Muffle a povoľte prístup k mikrofónu.",
+        "Uistite sa, že v položke Nastavenia Muffle je zapnutá možnosť „Pripomenúť, keď hovorím so stlmeným mikrofónom“.",
+        "Pripojte sa k hovoru cez AirPods alebo headset a stlmte mikrofón.",
+        "Začnite hovoriť. Zobrazí sa pripomienka „Máte stlmený mikrofón“."
+      ],
+      "tips": [
+        "Pripájate sa k hovoru a mikrofón máte stále stlmený z predchádzajúceho? Muffle vás upozorní hneď pri začiatku hovoru.",
+        "Písanie na klávesnici pripomienku nespustí. Zareaguje len na súvislú reč."
+      ],
+      "faq": [
+        {
+          "q": "Funguje pripomienka so vstavaným mikrofónom Macu?",
+          "a": "Funguje, keď hovor prebieha cez AirPods alebo headset. Ak hovor využíva vstavaný mikrofón Macu, tento mikrofón je stlmený a nepočuje vás."
+        },
+        {
+          "q": "Nahráva sa môj zvuk?",
+          "a": "Nie. Muffle meria iba úroveň hlasitosti a zvuk nikdy neukladá ani neodosiela."
+        }
+      ]
+    }
+  ],
+  "support": {
+    "title": "Podpora Muffle",
+    "description": "Pomoc s aplikáciou Muffle pre Mac: nastavenie stlačenia AirPods, klávesová skratka, nákupy a ďalšie.",
+    "h1": "Podpora",
+    "sections": [
+      {
+        "h": "Začíname",
+        "items": [
+          "Muffle žije v lište s ponukami. Kliknutím na ikonu mikrofónu zobrazíte ovládanie, kliknutím pravým tlačidlom mikrofón okamžite stlmíte.",
+          "Počas hovoru stlačte stopku AirPods na stlmenie a stlačte ju znova na zapnutie.",
+          "Predvolená skratka je Control-Option-M. Ťuknutím mikrofón stlmíte alebo zapnete. Keď je stlmený, podržaním budete hovoriť."
+        ]
+      },
+      {
+        "h": "Stlačenie AirPods mikrofón nestlmí",
+        "items": [
+          "Funguje to iba počas hovoru, keď niektorá aplikácia používa mikrofón.",
+          "Povoľte prístup k mikrofónu pre Muffle v časti Systémové nastavenia, Súkromie a bezpečnosť, Mikrofón.",
+          "Skontrolujte, či je v Nastaveniach Muffle zapnutá možnosť „Stlmujte a zapínajte stlačením AirPods“.",
+          "Vaše AirPods musia podporovať ovládanie hovorov: AirPods Pro, AirPods 3 a novšie alebo AirPods Max."
+        ]
+      },
+      {
+        "h": "Aplikácia hovoru stále zobrazuje mikrofón ako zapnutý",
+        "items": [
+          "To je v poriadku. Muffle vypína priamo mikrofón, takže každá aplikácia dostáva ticho, aj keď si myslí, že mikrofón je zapnutý. Sledujte ikonu Muffle v lište s ponukami: červená znamená, že vás nikto nepočuje."
+        ]
+      },
+      {
+        "h": "Nákupy",
+        "items": [
+          "Muffle si môžete bezplatne vyskúšať na 3 dni. Potom ho odomknete jednorazovým nákupom. Neplatíte žiadne predplatné.",
+          "Ak chcete nákup obnoviť na inom Macu, otvorte Nastavenia Muffle a vyberte Obnoviť nákup."
+        ]
+      }
+    ],
+    "contact_title": "Kontakt",
+    "contact_text": "Napíšte nám na"
+  },
+  "privacy_page": {
+    "title": "Zásady ochrany osobných údajov Muffle",
+    "description": "Muffle nikdy nenahráva, neukladá ani neodosiela zvuk a nezbiera žiadne údaje. Zistite, ako Muffle pracuje s vaším mikrofónom.",
+    "h1": "Zásady ochrany osobných údajov",
+    "updated": "Posledná aktualizácia: 29. septembra 2026.",
+    "intro": "Muffle stlmuje mikrofón vášho Macu. Je navrhnutý tak, aby nič z toho, čo poviete, nikdy neopustilo váš Mac.",
+    "sections": [
+      {
+        "h": "Ako Muffle pracuje s vaším mikrofónom",
+        "p": [
+          "Počas hovorov udržiava Muffle tiché spojenie s vaším mikrofónom. macOS odovzdáva stlačenie AirPods na stlmenie iba aplikáciám, ktoré mikrofón práve používajú, takže toto spojenie zabezpečuje funkčnosť stlačenia AirPods.",
+          "Ak zapnete pripomienku, keď hovoríte so stlmeným mikrofónom, Muffle meria hlasitosť vstavaného mikrofónu Macu počas stlmenia, aby zaznamenal, že ste začali hovoriť.",
+          "Muffle vyhodnocuje iba čísla reprezentujúce hlasitosť. Nikdy nenahráva, neukladá, neprepisuje ani neodosiela žiadny zvuk."
+        ]
+      },
+      {
+        "h": "Aké údaje zbierame",
+        "p": [
+          "Žiadne. V Muffle nie sú žiadne používateľské účty, žiadna analytika, žiadne reklamy ani žiadne sledovanie. Aplikácia nekontaktuje žiadne naše servery."
+        ]
+      },
+      {
+        "h": "Nákupy",
+        "p": [
+          "Skúšobné obdobie a jednorazový nákup prebiehajú cez App Store od spoločnosti Apple. Apple spracováva platobné údaje, my k nim nemáme prístup. Na tieto nákupy sa vzťahujú zásady ochrany osobných údajov spoločnosti Apple."
+        ]
+      },
+      {
+        "h": "Nastavenia uložené vo vašom Macu",
+        "p": [
+          "Vaše predvoľby, ako napríklad klávesová skratka, zostávajú vo vašom Macu v úložisku aplikácie Muffle. Po vymazaní Muffle sa vymažú aj tieto nastavenia."
+        ]
+      }
+    ],
+    "contact": "Otázky týkajúce sa ochrany osobných údajov:"
+  }
+}

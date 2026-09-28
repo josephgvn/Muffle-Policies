@@ -1,0 +1,643 @@
+{
+  "meta": {
+    "home_title": "Muffle：用 AirPods 或快捷键一键将 Mac 麦克风静音",
+    "home_description": "在 Google Meet、Zoom、Teams、Slack、Discord 和所有 Mac App 中一键静音麦克风。按压 AirPods 或按下快捷键即可静音。免费试用 3 天。",
+    "og_title": "随时随地将 Mac 麦克风静音。",
+    "og_subtitle": "按压 AirPods 或使用一个快捷键，适用于所有 App。"
+  },
+  "nav": {
+    "features": "功能",
+    "guides": "使用指南",
+    "support": "技术支持",
+    "download": "获取 Muffle",
+    "home": "首页",
+    "menu": "菜单"
+  },
+  "cta": {
+    "download": "在 Mac App Store 下载",
+    "coming_soon": "即将上线 Mac App Store",
+    "trial": "免费试用 3 天，之后一次性购买，无需订阅。",
+    "requirements": "适用于 macOS 14 Sonoma 及更高版本。"
+  },
+  "hero": {
+    "title": "随时随地将 Mac 麦克风静音。",
+    "subtitle": "只需按压 AirPods 或按下键盘快捷键。Muffle 会在硬件层面直接关闭麦克风，让 Google Meet、Zoom、Teams、Slack 等所有 App 都听不到任何声音。",
+    "image_alt": "在 Chrome 中进行 Google Meet 视频会议时，Mac 菜单栏中的 Muffle 面板"
+  },
+  "works_with": {
+    "title": "适用于所有使用麦克风的 App",
+    "apps": [
+      "Google Meet",
+      "Zoom",
+      "Microsoft Teams",
+      "Slack",
+      "Discord",
+      "FaceTime",
+      "Webex",
+      "WhatsApp",
+      "Skype",
+      "SoWork",
+      "Gather",
+      "Chrome",
+      "Safari",
+      "Arc",
+      "Edge",
+      "Firefox"
+    ],
+    "note": "Muffle 会在硬件层面将麦克风静音，因此无论哪个 App、浏览器或网页标签页在使用话筒，都能彻底静音。"
+  },
+  "features": {
+    "title": "Mac 通话中你所需要的一切功能",
+    "items": [
+      {
+        "title": "按 AirPods 即可静音",
+        "text": "任何通话中按压耳机柄一次即可静音，再按一次取消静音。即使在 Chrome 中也同样好用，轻松解决 Google Meet 等网页版通话忽略 AirPods 按压的问题。"
+      },
+      {
+        "title": "一个快捷键，统管所有 App",
+        "text": "按下 Control-Option-M 即可随处静音，即使视频会议网页隐藏在后台标签页也能生效。静音时按住即可说话，松开后再次静音。"
+      },
+      {
+        "title": "“你已静音”提醒",
+        "text": "静音时说话会收到提醒，Muffle 会及时提示你，避免你滔滔不绝说了半天才发现无人听到。"
+      },
+      {
+        "title": "通话自动化管理",
+        "text": "每次通话开始时都静音，通话结束后自动重新开启麦克风，锁定 Mac 屏幕时也会自动静音。"
+      },
+      {
+        "title": "麦克风状态一目了然",
+        "text": "通话中显示迷你浮动控制器，直观展示话筒开启或静音状态。点按即可切换静音。"
+      },
+      {
+        "title": "锁定麦克风音量",
+        "text": "Chrome、Zoom 和 Teams 经常会自动调整麦克风音量。使用锁定功能后，Muffle 会自动恢复预设音量。"
+      },
+      {
+        "title": "耳机断开时的安全防漏音",
+        "text": "如果耳机在远程办公通话中突然断电，Muffle 会在切换到 Mac 内建麦克风前自动静音，防止室内声音意外传出。"
+      },
+      {
+        "title": "支持快捷指令与控制中心",
+        "text": "可通过“快捷指令” App、Siri、Stream Deck、Raycast 或控制中心按钮快速将麦克风静音。"
+      }
+    ],
+    "image_reminder_alt": "屏幕底部的“你已静音”提示",
+    "image_pills_alt": "处于静音和开启状态的浮动迷你控制器",
+    "image_automation_alt": "Muffle 中关于通话开始时静音及其他通话自动化的设置选项"
+  },
+  "how": {
+    "title": "一分钟完成设置",
+    "steps": [
+      "从 Mac App Store 安装 Muffle，并允许麦克风访问权限。",
+      "像平常一样在任意 App 中加入通话或视频会议。",
+      "按压 AirPods、按下 Control-Option-M 或点按菜单栏图标即可静音。"
+    ]
+  },
+  "privacy": {
+    "title": "注重隐私的设计",
+    "text": "Muffle 绝不会录制、存储或发送任何音频。它仅用于开关麦克风以及检测音量大小。无账号系统，无数据分析，无追踪行为。"
+  },
+  "faq": {
+    "title": "常见问题",
+    "items": [
+      {
+        "q": "Muffle 是否支持 Chrome 中的 Google Meet？",
+        "a": "支持。Chrome 本身不会将 AirPods 的静音按压操作传递给网页通话，而 Muffle 会截获该操作并直接将麦克风静音。浏览器标签页中的任何通话同样适用。"
+      },
+      {
+        "q": "其他人会看到我处于静音状态吗？",
+        "a": "你的通话 App 界面可能仍显示麦克风开启，因为 Muffle 关闭的是系统硬件麦克风，而不是软件内的静音按钮。无论如何，对方都听不到你的声音。静音时，菜单栏中的 Muffle 图标会变为红色。"
+      },
+      {
+        "q": "支持哪些 AirPods 机型？",
+        "a": "支持 AirPods Pro、AirPods 3 及更新机型、AirPods Max，以及带有通话控制功能的 Beats 机型。键盘快捷键和菜单栏控制则适用于所有麦克风。"
+      },
+      {
+        "q": "是否支持 Zoom、Teams、Slack 和 Discord？",
+        "a": "支持。Muffle 适用于 Mac 上所有使用麦克风的软件，无论是桌面客户端还是网页端通话均能完美兼容。"
+      },
+      {
+        "q": "需要订阅吗？",
+        "a": "不需要。你可以免费试用全部功能 3 天，之后只需一次性购买即可永久解锁 Muffle。"
+      },
+      {
+        "q": "为什么 Muffle 需要麦克风访问权限？",
+        "a": "macOS 只会将 AirPods 按压操作传递给正在使用麦克风的 App，因此 Muffle 需要在通话期间保持一条静音连接。此过程绝不会录制任何内容。"
+      },
+      {
+        "q": "如果在静音状态下退出 Muffle 会怎样？",
+        "a": "Muffle 在退出时会自动重新开启麦克风，确保你的话筒不会一直保持无声。"
+      },
+      {
+        "q": "支持哪些 macOS 版本？",
+        "a": "支持 macOS 14 Sonoma 及更高版本。控制中心按钮功能需要 macOS 26 或更高版本。"
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "开会时，别再手忙脚乱找静音按钮了。",
+    "text": "Muffle 提供 3 天免费试用。"
+  },
+  "footer": {
+    "guides": "使用指南",
+    "product": "Muffle",
+    "support": "技术支持",
+    "privacy": "隐私政策",
+    "language": "语言",
+    "contact": "联系我们",
+    "copyright": "© 2026 Muffle. AirPods 和 Mac 是 Apple Inc. 的商标。"
+  },
+  "guides_index": {
+    "title": "Muffle 使用指南：在 Mac 上为 Meet、Zoom、Teams 快速静音",
+    "description": "详细分步指南：教你如何在 Mac 上使用 AirPods 或键盘快捷键为 Google Meet、Zoom、Microsoft Teams、Slack 和网页视频会议一键静音。",
+    "h1": "使用指南",
+    "intro": "简明实用的操作说明，助你在 Mac 上的各类 App 中轻松静音麦克风。"
+  },
+  "guide_labels": {
+    "on_this_page": "本页导览",
+    "faq": "常见问题",
+    "related": "更多指南",
+    "try": "免费试用 Muffle 3 天",
+    "read": "阅读指南"
+  },
+  "guides": [
+    {
+      "slug": "mute-google-meet-with-airpods",
+      "title": "如何在 Mac 上用 AirPods 将 Google Meet 静音",
+      "description": "在 Mac 上的 Chrome 中，按压 AirPods 无法将 Google Meet 静音。了解如何用 AirPods 耳机柄、快捷键或菜单栏在任意标签页中静音麦克风。",
+      "h1": "如何在 Mac 上用 AirPods 将 Google Meet 静音",
+      "intro": [
+        "在 iPhone 上，按压 AirPods 耳机柄即可在通话中静音。但在 Mac 上，Google Meet 运行在 Chrome 中，而 Chrome 并不会将按压操作传递给网页。按压耳机后不仅会听到错误提示音，Meet 还会继续发送你的声音。",
+        "Muffle 为每场 Meet 视频会议解决了这个问题。它能直接接收 AirPods 的按压操作并将 Mac 麦克风静音，即使标签页处于后台，Meet 也接收不到任何声音。"
+      ],
+      "steps_title": "用 AirPods 将 Google Meet 静音",
+      "steps": [
+        "安装 Muffle，并在系统提示时允许访问麦克风。",
+        "在 Chrome、Safari、Arc 或 Edge 中加入 Google Meet 通话。",
+        "按一下 AirPods 耳机柄即可静音，Muffle 图标会变为红色。",
+        "再按一次取消静音。你也可以在任何 App 中按下 Control-Option-M。"
+      ],
+      "tips": [
+        "Meet 界面上可能仍显示麦克风开启，因为 Muffle 静音的是麦克风本身，而不是点击 Meet 的网页按钮。只要 Muffle 图标是红色的，通话中的其他人就听不到任何声音。",
+        "开启“每次通话开始时都静音”，加入每场 Meet 会议时麦克风都会默认静音。"
+      ],
+      "faq": [
+        {
+          "q": "为什么按压 AirPods 无法将 Google Meet 静音？",
+          "a": "Chrome 不支持针对网页通话的 macOS AirPods 静音手势，因此 macOS 没有可以接收该按压操作的 App。Muffle 正好承担了这个角色。"
+        },
+        {
+          "q": "只用 Meet 自带的快捷键不够吗？",
+          "a": "Meet 自带的 Command-D 快捷键只有在 Meet 标签页处于最前台时才有效。Muffle 的快捷键和 AirPods 按压手势则可以在任何 App 中使用。"
+        }
+      ]
+    },
+    {
+      "slug": "mute-zoom-with-airpods",
+      "title": "如何在 Mac 上用 AirPods 或快捷键将 Zoom 静音",
+      "description": "无论 Zoom 窗口是否处于前台，都能通过按压 AirPods 或全局快捷键在 Mac 上静音 Zoom 会议。适用于 Zoom 客户端及浏览器视频通话。",
+      "h1": "如何在 Mac 上用 AirPods 或快捷键将 Zoom 静音",
+      "intro": [
+        "Zoom 自带的快捷键 Command-Shift-A 只有在 Zoom 处于最前端时才起作用。当你在记录笔记或共享其他窗口时，寻找静音按钮难免会耽误几秒尴尬的时间。",
+        "Muffle 为 Zoom 及其他所有 App 提供了统一的静音控制方式：通过 AirPods、全局快捷键或菜单栏。它直接在硬件层面静音麦克风，因此无论是 Zoom 客户端还是网页端 Zoom 会议均可使用。"
+      ],
+      "steps_title": "随时随地将 Zoom 静音",
+      "steps": [
+        "安装 Muffle 并允许访问麦克风。",
+        "照常加入你的 Zoom 会议。",
+        "在任何 App 中，按压 AirPods 耳机柄或按下 Control-Option-M 即可静音。",
+        "静音状态下，按住 Control-Option-M 即可说话，松开后会再次静音。"
+      ],
+      "tips": [
+        "如果你的 Mac 上由 Zoom 自行接管了 AirPods 按压手势，你依然可以通过 Muffle 的快捷键和菜单栏快速静音。",
+        "Muffle 关闭麦克风时，Zoom 界面可能仍显示未静音，但参会人员完全听不到任何声音。"
+      ],
+      "faq": [
+        {
+          "q": "Muffle 会取代 Zoom 的静音按钮吗？",
+          "a": "两者协同工作。Muffle 会关闭所有 App 的麦克风，因此无需切回 Zoom 窗口就能将其静音。"
+        },
+        {
+          "q": "可以在 Zoom 中使用按住说话功能吗？",
+          "a": "可以。在静音状态下，按住 Muffle 的快捷键即可说话。该功能在 Zoom 以及其他所有 App 中均可使用。"
+        }
+      ]
+    },
+    {
+      "slug": "mute-microsoft-teams-with-airpods",
+      "title": "如何在 Mac 上用 AirPods 将 Microsoft Teams 静音",
+      "description": "在 Mac 上使用 AirPods、全局快捷键或菜单栏快速将 Microsoft Teams 会议静音。适用于 Teams 客户端及网页版远程办公通话。",
+      "h1": "如何在 Mac 上用 AirPods 将 Microsoft Teams 静音",
+      "intro": [
+        "Teams 自带的快捷键 Command-Shift-M 只有在 Teams 窗口处于活动状态时才生效。然而开会时你往往在查看其他内容：文档、浏览器或共享屏幕。",
+        "Muffle 让你可以在任何地方将麦克风静音，无论是在 Teams 客户端还是网页版中。只需按压 AirPods、按下快捷键或点按菜单栏即可。"
+      ],
+      "steps_title": "随时随地将 Teams 静音",
+      "steps": [
+        "安装 Muffle 并允许访问麦克风。",
+        "加入你的 Teams 会议。",
+        "按下 Control-Option-M 或按压 AirPods 耳机柄即可静音，菜单栏图标会变为红色。",
+        "再按一次取消静音，或在静音时按住快捷键说话。"
+      ],
+      "tips": [
+        "通过 Muffle，浏览器标签页中的 Teams 也能获得与 Google Meet 相同的 AirPods 耳机控制支持。",
+        "开启“锁定屏幕时静音”，离开电脑时麦克风绝不会处于未静音状态。"
+      ],
+      "faq": [
+        {
+          "q": "AirPods 按压手势在 Teams 客户端中有效吗？",
+          "a": "这取决于 Teams 的具体版本，因为部分版本会自行接管按压手势。无论哪种情况，Muffle 的快捷键和菜单栏按钮始终可用。"
+        },
+        {
+          "q": "Teams 会显示为已静音吗？",
+          "a": "不一定。Muffle 直接静音麦克风，因此 Teams 界面可能仍显示麦克风开启，但其他参会者听不到任何声音。"
+        }
+      ]
+    },
+    {
+      "slug": "mute-slack-huddles",
+      "title": "如何在 Mac 上用快捷键将 Slack 抱团通话静音",
+      "description": "在 Mac 上的任何 App 中，都能使用全局快捷键或 AirPods 将 Slack 抱团通话静音，无需在杂乱的窗口中翻找静音按钮。",
+      "h1": "如何在 Mac 上从任何 App 将 Slack 抱团通话静音",
+      "intro": [
+        "Slack 的抱团通话控件通常停留在小窗口中，很容易被正在处理的工作遮挡，而且其自带的静音快捷键只有在 Slack 处于前台时才有效。",
+        "Muffle 为 Slack 和其他所有 App 带来统一的控制：无论当前在 Mac 上进行什么操作，只需一个快捷键或按一下 AirPods，即可静音麦克风。"
+      ],
+      "steps_title": "随时随地将抱团通话静音",
+      "steps": [
+        "安装 Muffle 并允许访问麦克风。",
+        "在 Slack 中发起或加入抱团通话。",
+        "按下 Control-Option-M 或按压 AirPods 耳机柄即可静音。",
+        "看一眼菜单栏：红色即表示没有人能听到你的声音。"
+      ],
+      "tips": [
+        "悬浮的迷你控制器会在每次抱团通话期间显示你的麦克风状态。",
+        "静音时按住快捷键即可快速说话，松开后会恢复静音。"
+      ],
+      "faq": [
+        {
+          "q": "它是否适用于 Slack 客户端和网页版 Slack？",
+          "a": "是的。Muffle 直接静音麦克风本身，因此对两者都有效。"
+        },
+        {
+          "q": "同事能看到我已经静音了吗？",
+          "a": "Slack 界面可能仍显示麦克风开启。但只要 Muffle 处于静音状态，他们就听不到任何声音。"
+        }
+      ]
+    },
+    {
+      "slug": "mute-discord-on-mac",
+      "title": "Mac 上 Discord 按住说话与麦克风静音快捷键设置",
+      "description": "在 Mac 上使用全局按住说话与静音快捷键控制 Discord 通话，或直接轻捏 AirPods 耳机柄静音。支持 Discord 客户端及网页版。",
+      "h1": "在 Mac 上为 Discord 设置按住说话与全局静音快捷键",
+      "intro": [
+        "Discord 的按住说话功能在 Mac 上需要额外的系统权限，而且在网页版 Discord 中完全无法使用。如果你同时还会参加 Google Meet 或 Zoom 会议，每款 App 都有不同的静音按键，极易混淆。",
+        "Muffle 为所有通话提供统一的控制方式。点按快捷键即可切换静音，静音时按住即可说话，也可以直接按压 AirPods 耳机柄。"
+      ],
+      "steps_title": "为 Discord 设置按住说话",
+      "steps": [
+        "安装 Muffle 并允许访问麦克风。",
+        "加入 Discord 语音频道。",
+        "按 Control-Option-M 即可静音或取消静音。静音时按住即可说话。",
+        "在“Muffle 设置”中选择你偏好的按键，例如某个 F 键。"
+      ],
+      "tips": [
+        "Muffle 的快捷键无需任何辅助功能权限。",
+        "锁定麦克风音量，防止 Discord 的自动增益控制不断改变麦克风音量。"
+      ],
+      "faq": [
+        {
+          "q": "这和 Discord 自带的按住说话功能一样吗？",
+          "a": "使用方式相同，但它能一次性适用于所有 App。Muffle 会直接将麦克风静音，因此在按住按键之前，Discord 只能接收到完全无声的状态。"
+        },
+        {
+          "q": "我可以用 AirPods 将 Discord 静音吗？",
+          "a": "可以。在语音通话中，按压 AirPods 耳机柄即可切换静音状态。"
+        }
+      ]
+    },
+    {
+      "slug": "mute-webex-on-mac",
+      "title": "如何在 Mac 上从任何 App 将 Webex 会议静音",
+      "description": "在 Mac 上使用全局快捷键或 AirPods 将 Webex 视频会议快速静音，即使 Webex 处于后台窗口也能一键搞定。",
+      "h1": "如何在 Mac 上从任何 App 将 Webex 会议静音",
+      "intro": [
+        "Webex 自带的静音快捷键只有在其窗口处于最前端时才有效，而且在共享屏幕时控制条往往会被遮挡或隐藏。",
+        "Muffle 让你在 Mac 上的任何界面都能将麦克风静音，无需切换窗口即可快速静音 Webex 会议。"
+      ],
+      "steps_title": "随时随地将 Webex 静音",
+      "steps": [
+        "安装 Muffle 并允许访问麦克风。",
+        "加入你的 Webex 会议。",
+        "按 Control-Option-M 或按压 AirPods 耳机柄即可静音。",
+        "共享屏幕时，可以通过悬浮的迷你控制器随时确认麦克风状态。"
+      ],
+      "tips": [
+        "Webex 界面中可能仍会显示你处于未静音状态。但只要 Muffle 图标呈红色，通话中就完全没有声音传出。",
+        "参加大型会议时，建议开启“每次通话开始时都静音”。"
+      ],
+      "faq": [
+        {
+          "q": "Muffle 支持网页版 Webex 吗？",
+          "a": "支持。Muffle 会直接将麦克风静音，因此适用于任何版本的 Webex 客户端。"
+        },
+        {
+          "q": "我可以用 AirPods 将 Webex 静音吗？",
+          "a": "可以，在会议中按压耳机柄即可。键盘快捷键则适用于任何耳机。"
+        }
+      ]
+    },
+    {
+      "slug": "mute-browser-calls",
+      "title": "在 Mac 上的 Chrome、Safari 和 Arc 中静音网页通话",
+      "description": "在 Chrome、Safari、Arc、Edge 和 Firefox 中用 AirPods 或统一快捷键将通话静音。支持 Google Meet、SoWork、Gather 等。",
+      "h1": "如何在 Mac 上的任意浏览器标签页中静音通话",
+      "intro": [
+        "越来越多的会议和通话直接在浏览器中进行，例如 Google Meet、网页版 Teams，以及 SoWork、Gather、Whereby、Jitsi 等远程办公虚拟空间。每个平台都有各自的静音按钮和快捷键，而且只有在当前标签页处于最前端时才起作用。",
+        "此外，Mac 上的浏览器也会忽略 AirPods 的耳机柄静音按压操作。Muffle 可以截获该操作或使用全局快捷键，一次性将所有标签页的麦克风直接静音。"
+      ],
+      "steps_title": "静音任意网页通话",
+      "steps": [
+        "安装 Muffle 并允许访问麦克风。",
+        "在任意浏览器标签页中进入通话或会议。",
+        "在任何 App 或标签页中，按压 AirPods 耳机柄或按 Control-Option-M 即可静音。",
+        "观察菜单栏图标：红色即代表麦克风已关闭。"
+      ],
+      "tips": [
+        "远程办公虚拟办公室往往需要持续打开麦克风数小时。建议开启悬浮迷你控制器，随时掌握自己的发声状态。",
+        "“静音时说话提醒我”功能会在你处于静音状态开口讲话时发出提醒。"
+      ],
+      "faq": [
+        {
+          "q": "为什么在 Chrome 中按压 AirPods 耳机柄无法静音？",
+          "a": "Chrome 不支持针对网页调用 macOS 原生的 AirPods 静音手势。Muffle 会代替浏览器接收该按压操作，并直接将麦克风静音。"
+        },
+        {
+          "q": "它支持 SoWork 和 Gather 吗？",
+          "a": "支持。只要 Muffle 关闭麦克风，任何正在调用麦克风的网页都会完全静音。"
+        }
+      ]
+    },
+    {
+      "slug": "airpods-mute-not-working-on-mac",
+      "title": "Mac 上 AirPods 无法静音？解决“无法控制麦克风”问题",
+      "description": "按压 AirPods 耳机柄时响起错误提示音且无法静音？了解 Mac 上该问题的成因，并使用 Muffle 让按压手势轻松静音任何 App 通话。",
+      "h1": "Mac 上 AirPods 无法静音？这里有解决方案",
+      "intro": [
+        "macOS 允许通过按压 AirPods 耳机柄来静音通话，但前提是通话 App 必须支持该功能。许多 App 并不支持，包括 Chrome 以及其中的各种网页会议。此时按压耳机柄会听到短促的错误提示音，系统弹出“无法控制麦克风”提示，通话对方依然能听到你的声音。",
+        "Muffle 为所有 App 补齐了这项支持。它会接收该按压操作，将 Mac 麦克风直接静音，并播放正常的静音提示音。"
+      ],
+      "steps_title": "让 AirPods 按压手势支持静音所有 App",
+      "steps": [
+        "安装 Muffle 并允许访问麦克风。macOS 只会将按压操作传递给可以使用麦克风的 App。",
+        "在“Muffle 设置”中确认已勾选“按压 AirPods 即可切换静音”。",
+        "加入通话。仅当有 App 正在使用麦克风时，按压操作才会触发静音。",
+        "按压耳机柄一次即可静音，再按一次即可取消静音。"
+      ],
+      "tips": [
+        "在通话以外的时间，按压耳机柄依然像往常一样用于播放和暂停音乐。",
+        "如果你的 AirPods 采用了不同的通话控制按压设置，请在“系统设置”的 AirPods 设置中进行检查。"
+      ],
+      "faq": [
+        {
+          "q": "为什么按压 AirPods 时 Mac 会播放错误提示音？",
+          "a": "因为当前进行通话的 App 不支持 AirPods 静音按压手势，macOS 因而拒绝了该操作。运行 Muffle 后，该按压操作将直接用于静音麦克风。"
+        },
+        {
+          "q": "哪些 AirPods 机型支持静音按压手势？",
+          "a": "AirPods Pro、AirPods 3 及后续机型、AirPods Max，以及支持通话控制的 Beats 机型。"
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-keyboard-shortcut-mac",
+      "title": "Mac 麦克风静音快捷键设置：一键快速静音",
+      "description": "设置一个全局键盘快捷键，即可在所有 App 中轻松切换 Mac 麦克风静音，无需辅助功能权限。视频会议与远程办公通话更从容。",
+      "h1": "如何使用键盘快捷键在 Mac 上将麦克风静音",
+      "intro": [
+        "macOS 提供了听写按键，却没有用于麦克风静音的快捷键。各类通话和视频会议 App 都有各自的快捷键，而且只有在当前 App 处于前台时才有效。",
+        "Muffle 带来了一个全局快捷键，能直接将麦克风本身静音，同时对所有 App 生效。默认快捷键为 Control-Option-M，你也可以设置任意组合。"
+      ],
+      "steps_title": "用一个快捷键实现静音",
+      "steps": [
+        "安装 Muffle。",
+        "按 Control-Option-M 即可静音。菜单栏图标会变红，并显示“已静音”小提示。",
+        "再次按下即可取消静音。",
+        "如需更改，请打开 Muffle 设置，点按快捷键并按下新的按键组合。"
+      ],
+      "tips": [
+        "静音时按住快捷键即可说话，松开后会再次静音。",
+        "用鼠标右键点按 Muffle 菜单栏图标，也可以立即静音。"
+      ],
+      "faq": [
+        {
+          "q": "通话 App 不在前台时，快捷键还能用吗？",
+          "a": "可以。快捷键在任何 App 中均可使用，包括全屏运行的 App。"
+        },
+        {
+          "q": "我能使用单个按键吗，比如 F5？",
+          "a": "可以。功能键可以直接单独使用，其他按键则需要配合 Control、Option 或 Command。"
+        }
+      ]
+    },
+    {
+      "slug": "push-to-talk-on-mac",
+      "title": "Mac 按住说话功能：适用于所有视频会议和通话 App",
+      "description": "在 Zoom、Google Meet、Teams、Discord 等所有 App 中使用 Mac 按住说话功能。按住按键即可通话，松开立即静音，远程办公更方便。",
+      "h1": "Mac 全局按住说话，适用于所有 App",
+      "intro": [
+        "按住说话功能会让你保持静音，直到按住按键才开启话筒。这是在大型会议或嘈杂环境中保持安静最简单的方式，但目前支持此功能的 App 寥寥无几，且各自的快捷键各不相同。",
+        "Muffle 为 Mac 上的所有 App 带来了按住说话功能。平时保持麦克风静音，说话时按住快捷键，松开即可再次静音。"
+      ],
+      "steps_title": "使用按住说话功能",
+      "steps": [
+        "安装 Muffle。",
+        "使用 Control-Option-M 或通过 AirPods 进行静音。",
+        "说话时按住 Control-Option-M。",
+        "松开按键，麦克风将再次静音。"
+      ],
+      "tips": [
+        "点按快捷键依然是切换静音状态，按住不放则是按住说话。",
+        "可以在 Muffle 设置中选择顺手的按键，例如某个 F 功能键。"
+      ],
+      "faq": [
+        {
+          "q": "按住说话功能适用于 Google Meet 吗？",
+          "a": "适用。Muffle 会直接将麦克风本身静音，因此按住说话功能在 Meet、Zoom、Teams、Discord 及任何其他 App 中都能正常工作。"
+        },
+        {
+          "q": "是否支持按住静音？",
+          "a": "支持。在未静音状态下，按住快捷键会保持静音，松开后即可恢复通话。"
+        }
+      ]
+    },
+    {
+      "slug": "stop-apps-changing-mic-volume",
+      "title": "禁止 Chrome 和 Zoom 自动调整 Mac 麦克风音量",
+      "description": "Google Meet、Chrome、Zoom 和 Teams 总是自动更改 Mac 麦克风音量？锁定你的话筒音量，防止任何会议软件擅自调整。",
+      "h1": "如何防止各类 App 擅自更改 Mac 麦克风音量",
+      "intro": [
+        "许多通话和视频会议 App 都会自动调整输入音量，这项功能被称为自动增益控制。你明明在“系统设置”中调好了合适的音量，一加入 Google Meet 通话，几分钟后滑块就自己变动了，别人甚至反映你的声音太小或失真。",
+        "Muffle 可以锁定你的麦克风音量。无论哪个 App 擅自更改，Muffle 都会立即将其恢复原位。"
+      ],
+      "steps_title": "锁定麦克风音量",
+      "steps": [
+        "安装 Muffle。",
+        "点按菜单栏中的 Muffle 图标，使用麦克风滑块调整音量。",
+        "点按滑块旁边的锁定图标。",
+        "开始进行通话和会议。麦克风音量将始终保持在你的设定值。"
+      ],
+      "tips": [
+        "通话期间如果麦克风音量过低，Muffle 会在控制面板中发出提醒。",
+        "锁定功能会单独记住每个麦克风的音量，因此你的 AirPods 和 Mac 内建麦克风可以各自保留独立的音量设置。"
+      ],
+      "faq": [
+        {
+          "q": "为什么我的 Mac 麦克风音量总会自动变动？",
+          "a": "Chrome、Zoom 和 Teams 等 App 会使用自动增益控制功能，在你说话时自动调整系统输入音量。"
+        },
+        {
+          "q": "我还能自己调节麦克风音量吗？",
+          "a": "可以。只要在 Muffle 面板中使用滑块调节，锁定的音量数值就会随之更新。"
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-on-mac",
+      "title": "Mac 麦克风静音的 4 种方法：快捷键、AirPods 与系统设置",
+      "description": "汇总 Mac 麦克风静音的 4 种方法：会议软件按钮、系统设置、全局快捷键和 AirPods 耳机柄按压。全面解决视频通话静音难题。",
+      "h1": "如何在 Mac 上将麦克风静音",
+      "intro": [
+        "Mac 键盘上没有专用的麦克风静音键。根据你使用的 App 和具体场景，有几种不同的静音方式可选，但其中只有少数能做到全局通用。"
+      ],
+      "steps_title": "可选方式",
+      "steps": [
+        "使用通话 App 自带的按钮或快捷键。这种方式仅在该 App 内部有效，而且只有在该 App 处于前台时才能起作用。",
+        "前往“系统设置”中的“声音”>“输入”。将输入音量拖到零并不是对所有麦克风都有效的真正静音，而且其他 App 还可能随时再次将其调高。",
+        "使用 Muffle 的全局快捷键。一个按键直接将麦克风本身静音，并在所有 App 中同时生效。",
+        "按压你的 AirPods。配合 Muffle，按压耳机柄即可在任何通话中静音，包括 Chrome 中的 Google Meet。"
+      ],
+      "tips": [
+        "无论你在使用哪个 App，只要麦克风关闭，Muffle 菜单栏图标就会变为红色。",
+        "退出 Muffle 时始终会重新开启你的麦克风。"
+      ],
+      "faq": [
+        {
+          "q": "Mac 有自带的麦克风静音功能吗？",
+          "a": "没有全局静音功能。macOS 只能在支持的 App 内部将麦克风静音。Muffle 则提供了真正的系统级全局静音。"
+        },
+        {
+          "q": "在 Muffle 中静音会让所有 App 都静音吗？",
+          "a": "会。Muffle 会在硬件层面关闭所有麦克风，在你取消静音之前，任何 App 都无法接收到你的声音。"
+        }
+      ]
+    },
+    {
+      "slug": "youre-muted-reminder",
+      "title": "在 Mac 上的各类 App 中获取“你已静音”提醒",
+      "description": "静音时说话了？Muffle 能够敏锐识别，并在 Google Meet、Zoom、Teams、Slack 以及 Mac 上的其他所有通话 App 中显示“你已静音”提醒。",
+      "h1": "适用于各款通话 App 的“你已静音”提醒",
+      "intro": [
+        "Zoom 会在你处于静音状态说话时发出警告，但大多数其他 App 并不会提醒，网页端视频通话更是几乎从不提醒。你可能解释了一整分钟，才发现大家都在默默等你开麦。",
+        "Muffle 能在你静音时侦测语音，并在任何 App 中显示提醒。当通话使用 AirPods 或耳机时，它会通过 Mac 内建麦克风检测音量，绝不会录制任何内容。"
+      ],
+      "steps_title": "开启提醒",
+      "steps": [
+        "安装 Muffle 并允许访问麦克风。",
+        "确保在“Muffle 设置”中开启“静音时说话提醒我”。",
+        "戴上 AirPods 或耳机加入通话并静音。",
+        "开始说话，屏幕上就会出现“你已静音”提醒。"
+      ],
+      "tips": [
+        "上一场通话结束后还处于静音状态就加入了新通话？Muffle 会在通话开始时提醒你。",
+        "敲击键盘不会触发提醒，只有持续说话才会触发。"
+      ],
+      "faq": [
+        {
+          "q": "提醒功能适用于 Mac 内建麦克风吗？",
+          "a": "此功能适用于通话使用 AirPods 或耳机的情况。如果通话使用的是 Mac 内建麦克风，由于该麦克风已被静音，因此无法接收到声音。"
+        },
+        {
+          "q": "会录制我的音频吗？",
+          "a": "不会。Muffle 只会检测音量大小，绝不会保留或发送任何音频。"
+        }
+      ]
+    }
+  ],
+  "support": {
+    "title": "Muffle 技术支持",
+    "description": "获取 Muffle for Mac 使用帮助：设置 AirPods 按压静音、配置键盘快捷键、管理购买项目等。",
+    "h1": "技术支持",
+    "sections": [
+      {
+        "h": "新手入门",
+        "items": [
+          "Muffle 常驻在菜单栏中。点按麦克风图标可打开控制面板，右键点按即可立即静音。",
+          "通话中按压耳机柄可静音，再按一次可取消静音。",
+          "默认快捷键为 Control-Option-M。点按可切换静音，静音时按住即可说话。"
+        ]
+      },
+      {
+        "h": "按压 AirPods 无法静音",
+        "items": [
+          "该功能仅在通话进行中且有 App 正在使用麦克风时有效。",
+          "在“系统设置”的“隐私与安全性”下的“麦克风”中，为 Muffle 开启麦克风访问权限。",
+          "在 Muffle 设置中确认“按压 AirPods 即可切换静音”已开启。",
+          "耳机需要支持通话控制功能：适用于 AirPods Pro、AirPods 3 及更新机型，或 AirPods Max。"
+        ]
+      },
+      {
+        "h": "通话软件中仍显示麦克风处于开启状态",
+        "items": [
+          "这是正常现象。Muffle 关闭的是麦克风硬件本身，即使 App 界面显示麦克风开启，传入的声音也是完全静音的。请以菜单栏中的 Muffle 图标为准：显示红色即表示没有人能听到你的声音。"
+        ]
+      },
+      {
+        "h": "购买说明",
+        "items": [
+          "Muffle 可免费试用 3 天。之后只需一次性购买即可解锁，无需订阅。",
+          "如需在另一台 Mac 上恢复购买，请打开 Muffle 设置并选择“恢复购买项目”。"
+        ]
+      }
+    ],
+    "contact_title": "联系我们",
+    "contact_text": "发送电子邮件至"
+  },
+  "privacy_page": {
+    "title": "Muffle 隐私政策",
+    "description": "Muffle 绝不录制、存储或发送任何音频，也不收集任何个人数据。详细了解 Muffle 的麦克风使用机制。",
+    "h1": "隐私政策",
+    "updated": "最后更新于 2026 年 9 月 29 日。",
+    "intro": "Muffle 用于将 Mac 麦克风静音。它的设计初衷是确保你说的每句话绝不离开你的 Mac 本地设备。",
+    "sections": [
+      {
+        "h": "Muffle 如何使用你的麦克风",
+        "p": [
+          "在通话期间，Muffle 会与麦克风保持一条静音连接。由于 macOS 只会将 AirPods 的静音按压操作传递给正在使用麦克风的 App，因此需要这条连接来确保按压操作生效。",
+          "如果你开启了“静音时说话提醒我”，Muffle 会在静音状态下检测 Mac 内建麦克风的音量大小，以便在察觉你开始讲话时发出提醒。",
+          "Muffle 仅会读取音量数值，绝不会对音频进行录制、存储、转写或传输。"
+        ]
+      },
+      {
+        "h": "我们收集的数据",
+        "p": [
+          "无。Muffle 没有用户账号系统，不包含任何数据统计分析、广告投放或追踪代码，也不会连接我们的任何服务器。"
+        ]
+      },
+      {
+        "h": "购买事宜",
+        "p": [
+          "免费试用和一次性购买均通过 Apple 的 App Store 进行处理。所有支付详情均由 Apple 管理，我们无法查看相关信息。相关交易均适用 Apple 的隐私政策。"
+        ]
+      },
+      {
+        "h": "保存在 Mac 上的设置",
+        "p": [
+          "你的偏好设置（例如键盘快捷键）均保存在 Mac 本地 Muffle 的独立存储区域中。卸载删除 Muffle 时，这些设置也会一并删除。"
+        ]
+      }
+    ],
+    "contact": "隐私问题咨询："
+  }
+}

@@ -1,0 +1,643 @@
+{
+  "meta": {
+    "home_title": "Muffle: silenciar el micrófono del Mac con AirPods o atajo",
+    "home_description": "Silencia tu micrófono en Google Meet, Zoom, Teams y cualquier app del Mac. Pulsa tus AirPods o un atajo. Ideal para teletrabajo. Gratis 3 días.",
+    "og_title": "Silencia el micrófono de tu Mac desde cualquier lugar.",
+    "og_subtitle": "Pulsa tus AirPods o un atajo de teclado. Funciona con cualquier app."
+  },
+  "nav": {
+    "features": "Funciones",
+    "guides": "Guías",
+    "support": "Soporte",
+    "download": "Obtener Muffle",
+    "home": "Inicio",
+    "menu": "Menú"
+  },
+  "cta": {
+    "download": "Descargar en Mac App Store",
+    "coming_soon": "Próximamente en Mac App Store",
+    "trial": "Prueba gratis 3 días. Luego pago único, sin suscripción.",
+    "requirements": "Para macOS 14 Sonoma y posterior."
+  },
+  "hero": {
+    "title": "Silencia el micrófono de tu Mac desde cualquier lugar.",
+    "subtitle": "Pulsa tus AirPods o un atajo de teclado. Muffle desactiva el micrófono directamente, para que Google Meet, Zoom, Teams, Slack y cualquier otra app solo reciban silencio.",
+    "image_alt": "El panel de Muffle en la barra de menús del Mac durante una videollamada de Google Meet en Chrome"
+  },
+  "works_with": {
+    "title": "Funciona con cualquier app que use tu micro",
+    "apps": [
+      "Google Meet",
+      "Zoom",
+      "Microsoft Teams",
+      "Slack",
+      "Discord",
+      "FaceTime",
+      "Webex",
+      "WhatsApp",
+      "Skype",
+      "SoWork",
+      "Gather",
+      "Chrome",
+      "Safari",
+      "Arc",
+      "Edge",
+      "Firefox"
+    ],
+    "note": "Muffle silencia el micrófono a nivel de hardware, así que da igual qué app, navegador o pestaña estés usando en tu llamada."
+  },
+  "features": {
+    "title": "Todo lo que tu Mac debería hacer en una llamada",
+    "items": [
+      {
+        "title": "Pulsa tus AirPods para silenciar",
+        "text": "Durante cualquier llamada, pulsa la varilla una vez para silenciar y otra para activar. Funciona incluso en Chrome, donde Google Meet y otras llamadas web ignoran la pulsación de los auriculares."
+      },
+      {
+        "title": "Un atajo para todas las apps",
+        "text": "Control-Opción-M te silencia en todas partes, incluso con la reunión en una pestaña en segundo plano. Mantenlo pulsado para hablar y suéltalo para silenciar de nuevo."
+      },
+      {
+        "title": "Un aviso de «Estás silenciado»",
+        "text": "Si empiezas a hablar estando silenciado, Muffle te avisa antes de que expliques toda tu idea a nadie."
+      },
+      {
+        "title": "Llamadas en piloto automático",
+        "text": "Inicia todas las llamadas silenciado, vuelve a activar el micro al terminar la conferencia y silencia cada vez que bloquees tu Mac."
+      },
+      {
+        "title": "Ten siempre claro si estás activo",
+        "text": "Un pequeño botón flotante muestra el estado del micrófono durante las llamadas. Haz clic para silenciar o activar."
+      },
+      {
+        "title": "Tu nivel de micro no cambia",
+        "text": "Chrome, Zoom y Teams modifican el volumen de tu micrófono por su cuenta. Bloquéalo y Muffle lo restablece al instante."
+      },
+      {
+        "title": "Protección si tus AirPods se quedan sin batería",
+        "text": "Si tus auriculares se desconectan a mitad de reunión, Muffle silencia antes de que la llamada pase al micro integrado del Mac y emita todo el sonido de la sala."
+      },
+      {
+        "title": "Atajos y Centro de control",
+        "text": "Silencia desde la app Atajos, Siri, Stream Deck, Raycast o con un botón en el Centro de control."
+      }
+    ],
+    "image_reminder_alt": "El aviso «Estás silenciado» en la parte inferior de la pantalla",
+    "image_pills_alt": "El mini controlador flotante en estado silenciado y activo",
+    "image_automation_alt": "Ajustes de Muffle para iniciar llamadas silenciado y otras automatizaciones"
+  },
+  "how": {
+    "title": "Configuración en un minuto",
+    "steps": [
+      "Instala Muffle desde Mac App Store y permite el acceso al micrófono.",
+      "Entra en una videollamada o reunión en cualquier app, como siempre.",
+      "Pulsa tus AirPods, pulsa Control-Opción-M o haz clic en el icono de la barra de menús para silenciar."
+    ]
+  },
+  "privacy": {
+    "title": "Privacidad desde el diseño",
+    "text": "Muffle nunca graba, guarda ni envía audio. Solo activa o desactiva tu micrófono y comprueba su volumen. Sin cuentas, sin analíticas y sin rastreo."
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "q": "¿Funciona Muffle con Google Meet en Chrome?",
+        "a": "Sí. Chrome no pasa la pulsación de silenciar de los AirPods a las llamadas web, así que Muffle la intercepta y silencia el micrófono directamente. Lo mismo ocurre con cualquier llamada en una pestaña del navegador."
+      },
+      {
+        "q": "¿Los demás me verán como silenciado?",
+        "a": "Es posible que la app de tu llamada muestre tu micro como activado, porque Muffle apaga el micrófono en lugar de pulsar el botón de la app. Los demás escucharán silencio en cualquier caso. El icono de Muffle en la barra de menús se pone rojo cuando estás silenciado."
+      },
+      {
+        "q": "¿Qué modelos de AirPods son compatibles?",
+        "a": "AirPods Pro, AirPods de 3.ª generación o posterior y AirPods Max, además de los modelos Beats compatibles con controles de llamada. El atajo de teclado y la barra de menús funcionan con cualquier micrófono."
+      },
+      {
+        "q": "¿Funciona con Zoom, Teams, Slack y Discord?",
+        "a": "Sí. Muffle funciona con cualquier app de tu Mac que use el micrófono, tanto aplicaciones de escritorio como llamadas en el navegador web."
+      },
+      {
+        "q": "¿Hay suscripción?",
+        "a": "No. Prueba todas las funciones gratis durante 3 días y luego desbloquea Muffle con una compra única."
+      },
+      {
+        "q": "¿Por qué necesita Muffle acceso al micrófono?",
+        "a": "macOS solo transmite la pulsación de los AirPods a las apps que están usando el micrófono, así que Muffle mantiene abierta una conexión silenciosa durante las llamadas. No se graba absolutamente nada."
+      },
+      {
+        "q": "¿Qué pasa si salgo de Muffle mientras estoy silenciado?",
+        "a": "Muffle vuelve a activar el micrófono al cerrarse, para que nunca te quedes sin voz sin darte cuenta."
+      },
+      {
+        "q": "¿Qué versiones de macOS son compatibles?",
+        "a": "macOS 14 Sonoma y posterior. El botón del Centro de control requiere macOS 26 o posterior."
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Deja de buscar el botón para silenciar.",
+    "text": "Prueba Muffle gratis durante 3 días."
+  },
+  "footer": {
+    "guides": "Guías",
+    "product": "Muffle",
+    "support": "Soporte",
+    "privacy": "Política de privacidad",
+    "language": "Idioma",
+    "contact": "Contacto",
+    "copyright": "© 2026 Muffle. AirPods y Mac son marcas comerciales de Apple Inc."
+  },
+  "guides_index": {
+    "title": "Guías Muffle: silenciar Meet, Zoom y Teams en Mac",
+    "description": "Guías paso a paso para silenciar Google Meet, Zoom, Teams, Slack y videollamadas en el Mac con AirPods o atajos de teclado. Ideal para teletrabajo.",
+    "h1": "Guías",
+    "intro": "Respuestas directas y prácticas para silenciar tu micrófono en el Mac en cualquier app."
+  },
+  "guide_labels": {
+    "on_this_page": "En esta página",
+    "faq": "Preguntas frecuentes",
+    "related": "Más guías",
+    "try": "Prueba Muffle gratis durante 3 días",
+    "read": "Leer la guía"
+  },
+  "guides": [
+    {
+      "slug": "mute-google-meet-with-airpods",
+      "title": "Cómo silenciar Google Meet con los AirPods en el Mac",
+      "description": "Pulsar los AirPods no silencia Google Meet en Chrome en Mac. Aprende a silenciar Meet con tus AirPods, un atajo o la barra de menús en cualquier pestaña.",
+      "h1": "Cómo silenciar Google Meet con los AirPods en el Mac",
+      "intro": [
+        "En un iPhone, pulsar la varilla de los AirPods silencia la llamada. En el Mac, Google Meet se ejecuta en Chrome, y Chrome no traslada esa pulsación a las páginas web. Pulsas, oyes un sonido de error y Meet sigue transmitiendo tu voz.",
+        "Muffle soluciona esto en cada llamada de Meet. Recibe la pulsación de los AirPods directamente y silencia el micrófono de tu Mac, para que en Meet solo haya silencio aunque la pestaña esté en segundo plano."
+      ],
+      "steps_title": "Silencia Google Meet con tus AirPods",
+      "steps": [
+        "Instala Muffle y permite el acceso al micrófono cuando te lo pida.",
+        "Únete a tu videollamada de Google Meet en Chrome, Safari, Arc o Edge.",
+        "Pulsa la varilla de los AirPods una vez para silenciar. El icono de Muffle se pondrá en rojo.",
+        "Vuelve a pulsar para activar el sonido. También puedes pulsar Control-Opción-M desde cualquier app."
+      ],
+      "tips": [
+        "Meet puede seguir mostrando que tu micro está activado, porque Muffle silencia el micrófono directamente y no el botón de Meet. Todo el mundo oirá silencio mientras el icono de Muffle esté en rojo.",
+        "Activa «Iniciar todas las llamadas silenciado» para entrar a cada reunión de Meet con el micro apagado."
+      ],
+      "faq": [
+        {
+          "q": "¿Por qué al pulsar los AirPods no se silencia Google Meet?",
+          "a": "Chrome no es compatible con el gesto de silenciar con los AirPods en llamadas web en macOS, por lo que el sistema no tiene ninguna app a la que enviar la pulsación. Muffle se convierte en esa app."
+        },
+        {
+          "q": "¿No basta con el atajo de teclado de Meet?",
+          "a": "El atajo Comando-D de Meet solo funciona mientras la pestaña de Meet está en primer plano. El atajo y la pulsación de los AirPods de Muffle funcionan desde cualquier app."
+        }
+      ]
+    },
+    {
+      "slug": "mute-zoom-with-airpods",
+      "title": "Cómo silenciar Zoom con AirPods o un atajo en el Mac",
+      "description": "Silencia Zoom en tu Mac pulsando los AirPods o con un atajo global, aunque Zoom no esté en primer plano. Válido para la app y reuniones en el navegador.",
+      "h1": "Cómo silenciar Zoom con los AirPods o un atajo en el Mac",
+      "intro": [
+        "El atajo propio de Zoom, Comando-Mayúsculas-A, solo funciona mientras Zoom es la app en primer plano. Cuando estás tomando notas o compartiendo otra ventana, buscar el botón para silenciar te hace perder unos segundos incómodos.",
+        "Muffle te ofrece un único control para silenciar Zoom y cualquier otra app: tus AirPods, un atajo global o la barra de menús. Silencia el micrófono directamente, por lo que funciona tanto en la app de Zoom como en videollamadas desde el navegador."
+      ],
+      "steps_title": "Silencia Zoom desde cualquier lugar",
+      "steps": [
+        "Instala Muffle y permite el acceso al micrófono.",
+        "Únete a tu reunión de Zoom como de costumbre.",
+        "Pulsa la varilla de tus AirPods o Control-Opción-M para silenciar, desde cualquier app.",
+        "Mantén pulsado Control-Opción-M estando silenciado para hablar, y suéltalo para volver a silenciar."
+      ],
+      "tips": [
+        "Si Zoom captura directamente la pulsación de los AirPods en tu Mac, el atajo y la barra de menús te seguirán silenciando a través de Muffle.",
+        "Zoom puede mostrarte como no silenciado mientras Muffle tiene el micro desactivado. Quienes estén en la llamada solo oirán silencio."
+      ],
+      "faq": [
+        {
+          "q": "¿Muffle sustituye al botón de silenciar de Zoom?",
+          "a": "Funciona a su lado. Muffle desactiva el micrófono para todas las apps, para que puedas silenciar Zoom sin tener que cambiar a su ventana."
+        },
+        {
+          "q": "¿Puedo pulsar para hablar en Zoom?",
+          "a": "Sí. Estando silenciado, mantén pulsado el atajo de Muffle para hablar. Funciona en Zoom y en cualquier otra app."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microsoft-teams-with-airpods",
+      "title": "Cómo silenciar Microsoft Teams con AirPods en el Mac",
+      "description": "Silencia Microsoft Teams en el Mac con los AirPods, un atajo global o la barra de menús. Funciona en la app de Teams y en el navegador para cada llamada.",
+      "h1": "Cómo silenciar Microsoft Teams con los AirPods en el Mac",
+      "intro": [
+        "El atajo de Teams, Comando-Mayúsculas-M, solo funciona cuando la ventana de Teams está activa. En una reunión sueles estar en otra parte: un documento, el navegador o una pantalla compartida.",
+        "Muffle silencia tu micrófono desde cualquier lugar, tanto en la app de Teams como en Teams web. Pulsa tus AirPods, pulsa un solo atajo o haz clic en la barra de menús."
+      ],
+      "steps_title": "Silencia Teams desde cualquier lugar",
+      "steps": [
+        "Instala Muffle y permite el acceso al micrófono.",
+        "Únete a tu reunión de Teams.",
+        "Pulsa Control-Opción-M o la varilla de tus AirPods para silenciar. El icono de la barra de menús se pondrá en rojo.",
+        "Vuelve a pulsar para activar el sonido, o mantén pulsado el atajo para hablar mientras estés silenciado."
+      ],
+      "tips": [
+        "Teams en una pestaña del navegador recibe la misma compatibilidad con AirPods que Google Meet a través de Muffle.",
+        "Activa «Silenciar al bloquear la pantalla» para no dejar nunca tu micro abierto al levantarte de tu puesto de teletrabajo."
+      ],
+      "faq": [
+        {
+          "q": "¿Funciona pulsar los AirPods en la app de Teams?",
+          "a": "Depende de tu versión de Teams, ya que Teams puede capturar la pulsación directamente. El atajo de Muffle y el botón de la barra de menús funcionan en cualquier caso."
+        },
+        {
+          "q": "¿Teams mostrará que estoy silenciado?",
+          "a": "No siempre. Muffle silencia el micrófono directamente, por lo que Teams puede seguir mostrando el micro activo mientras el resto de participantes escucha silencio."
+        }
+      ]
+    },
+    {
+      "slug": "mute-slack-huddles",
+      "title": "Cómo silenciar huddles de Slack con un atajo en Mac",
+      "description": "Silencia los huddles de Slack en tu Mac desde cualquier app con un atajo global o tus AirPods. Ya no tendrás que buscar la ventana de la conversación.",
+      "h1": "Cómo silenciar un huddle de Slack desde cualquier app en el Mac",
+      "intro": [
+        "Los controles de los huddles de Slack se quedan en una ventana pequeña fácil de perder entre tus documentos, y su atajo para silenciar solo funciona cuando Slack está en primer plano.",
+        "Muffle silencia tu micrófono en Slack y en cualquier otra app con un solo atajo o una pulsación de tus AirPods, estés donde estés en tu Mac."
+      ],
+      "steps_title": "Silencia una llamada desde cualquier lugar",
+      "steps": [
+        "Instala Muffle y permite el acceso al micrófono.",
+        "Inicia un huddle en Slack o únete a él.",
+        "Pulsa Control-Opción-M o la varilla de tus AirPods para silenciar.",
+        "Echa un vistazo a la barra de menús: el icono rojo indica que nadie te oye."
+      ],
+      "tips": [
+        "El mini controlador flotante muestra el estado de tu micro durante cada llamada.",
+        "Mantén pulsado el atajo para intervenir rápidamente y seguir silenciado al soltarlo."
+      ],
+      "faq": [
+        {
+          "q": "¿Funciona tanto con la app de Slack como con Slack en el navegador?",
+          "a": "Sí. Muffle silencia el micrófono directamente a nivel de hardware, así que funciona en ambas opciones."
+        },
+        {
+          "q": "¿Verán mis compañeros que estoy silenciado?",
+          "a": "Slack puede seguir mostrando tu micro como activado. Tus compañeros oirán silencio mientras Muffle te mantenga silenciado."
+        }
+      ]
+    },
+    {
+      "slug": "mute-discord-on-mac",
+      "title": "Atajo para silenciar Discord y pulsar para hablar en Mac",
+      "description": "Usa un atajo global para silenciar Discord y pulsar para hablar en el Mac, o silencia con tus AirPods. Funciona en la app y el navegador.",
+      "h1": "Pulsar para hablar y atajo global para silenciar Discord en Mac",
+      "intro": [
+        "La función de pulsar para hablar de Discord necesita permisos adicionales en el Mac y no funciona en el navegador. Si además te unes a llamadas de Google Meet o Zoom, acabas con una tecla distinta para silenciar cada app.",
+        "Muffle te ofrece una sola tecla para todas ellas. Tócala para silenciar, mantenla pulsada para hablar o pulsa tus AirPods."
+      ],
+      "steps_title": "Configurar pulsar para hablar en Discord",
+      "steps": [
+        "Instala Muffle y permite el acceso al micrófono.",
+        "Únete a un canal de voz de Discord.",
+        "Pulsa Control-Opción-M para silenciar o activar. Mantenlo pulsado mientras esté silenciado para hablar.",
+        "Elige tu propia tecla en Ajustes de Muffle, por ejemplo una tecla F."
+      ],
+      "tips": [
+        "El atajo de Muffle no necesita ningún permiso de Accesibilidad.",
+        "Bloquea el nivel del micro para que la ganancia automática de Discord no lo cambie constantemente."
+      ],
+      "faq": [
+        {
+          "q": "¿Es lo mismo que pulsar para hablar de Discord?",
+          "a": "Funciona de la misma manera, pero para todas las apps a la vez. Muffle silencia el micrófono directamente, por lo que Discord solo recibe silencio hasta que mantienes pulsada la tecla."
+        },
+        {
+          "q": "¿Puedo silenciar Discord con los AirPods?",
+          "a": "Sí. Durante una llamada de voz, pulsa la varilla de los AirPods para silenciar o activar."
+        }
+      ]
+    },
+    {
+      "slug": "mute-webex-on-mac",
+      "title": "Cómo silenciar Webex desde cualquier app en Mac",
+      "description": "Silencia reuniones de Webex en tu Mac con un atajo global o con los AirPods, incluso si Webex no es la ventana activa.",
+      "h1": "Cómo silenciar Webex desde cualquier app en Mac",
+      "intro": [
+        "El atajo para silenciar de Webex solo funciona cuando la ventana de Webex está en primer plano, y sus controles se ocultan al compartir pantalla en una reunión de teletrabajo.",
+        "Muffle silencia tu micrófono desde cualquier lugar de tu Mac, para que puedas silenciar una conferencia de Webex sin salir de lo que estás haciendo."
+      ],
+      "steps_title": "Silenciar Webex desde cualquier lugar",
+      "steps": [
+        "Instala Muffle y permite el acceso al micrófono.",
+        "Únete a tu reunión de Webex.",
+        "Pulsa Control-Opción-M o la varilla de tus AirPods para silenciar.",
+        "Usa el mini controlador flotante para ver el estado del micro mientras compartes pantalla."
+      ],
+      "tips": [
+        "Webex puede seguir mostrándote como no silenciado. Las personas en la llamada solo oirán silencio mientras el icono de Muffle esté en rojo.",
+        "Activa «Iniciar todas las llamadas silenciado» para reuniones grandes."
+      ],
+      "faq": [
+        {
+          "q": "¿Funciona Muffle con Webex en el navegador?",
+          "a": "Sí. Silencia el micrófono directamente, así que funciona con cualquier cliente de Webex."
+        },
+        {
+          "q": "¿Puedo silenciar Webex con los AirPods?",
+          "a": "Sí, pulsa la varilla durante la reunión. El atajo de teclado funciona con cualquier modelo de auriculares."
+        }
+      ]
+    },
+    {
+      "slug": "mute-browser-calls",
+      "title": "Silenciar llamadas web en Chrome, Safari y Arc en Mac",
+      "description": "Silencia llamadas en Chrome, Safari, Arc, Edge y Firefox con tus AirPods o un solo atajo. Funciona en Google Meet, SoWork y más.",
+      "h1": "Cómo silenciar llamadas en cualquier pestaña del navegador en Mac",
+      "intro": [
+        "Cada vez se hacen más videollamadas en el navegador: Google Meet, Teams en la web, oficinas virtuales como SoWork y Gather, Whereby o Jitsi. Cada una tiene su propio botón y atajo para silenciar, y solo funcionan si esa pestaña está en primer plano.",
+        "Los navegadores también ignoran la pulsación para silenciar de los AirPods en el Mac. Muffle aprovecha esa pulsación, o un único atajo global, y silencia el micrófono para todas las pestañas a la vez."
+      ],
+      "steps_title": "Silenciar cualquier llamada web",
+      "steps": [
+        "Instala Muffle y permite el acceso al micrófono.",
+        "Abre tu llamada en cualquier pestaña del navegador.",
+        "Pulsa la varilla de tus AirPods o Control-Opción-M para silenciar, desde cualquier app o pestaña.",
+        "Fíjate en el icono de la barra de menús: en rojo significa que el micro está desactivado."
+      ],
+      "tips": [
+        "Las oficinas virtuales mantienen tu micro abierto durante horas. Activa el mini controlador flotante para ver siempre su estado.",
+        "El aviso «Estás silenciado» te avisa cuando empiezas a hablar estando silenciado."
+      ],
+      "faq": [
+        {
+          "q": "¿Por qué no funciona la pulsación de los AirPods en Chrome?",
+          "a": "Chrome no es compatible con el gesto de silenciar de los AirPods de macOS para páginas web. Muffle recibe la pulsación en su lugar y silencia el micro directamente."
+        },
+        {
+          "q": "¿Funciona en SoWork y Gather?",
+          "a": "Sí. Cualquier sitio web que use tu micrófono se silencia cuando Muffle desactiva el micro."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-mute-not-working-on-mac",
+      "title": "Los AirPods no silencian en Mac: solución al error",
+      "description": "¿Al pulsar tus AirPods suena un tono de error y no silencia la llamada? Descubre por qué ocurre en el Mac y cómo solucionarlo en cualquier app.",
+      "h1": "¿No funciona silenciar con los AirPods en el Mac? Esta es la solución",
+      "intro": [
+        "macOS te permite silenciar una llamada pulsando la varilla de tus AirPods, pero solo si la app de la videollamada es compatible. Muchas no lo son, como Chrome y las reuniones web que abres en él. Al pulsar, suena un tono de error, aparece un mensaje que indica que no se puede controlar el micro y en la llamada te siguen oyendo.",
+        "Muffle añade esa compatibilidad a cualquier app. Recibe la pulsación, silencia el micrófono de tu Mac y reproduce el sonido habitual de silenciar."
+      ],
+      "steps_title": "Hacer que la pulsación de los AirPods silencie cualquier app",
+      "steps": [
+        "Instala Muffle y permite el acceso al micrófono. macOS solo transmite la pulsación a las apps que pueden usar el micrófono.",
+        "Comprueba que la opción «Silencia y activa con una pulsación de AirPods» esté activada en Ajustes de Muffle.",
+        "Únete a una llamada. La pulsación solo silencia mientras una app esté usando el micrófono.",
+        "Pulsa la varilla una vez para silenciar y vuelve a pulsarla para activar."
+      ],
+      "tips": [
+        "Fuera de las llamadas, la pulsación sigue reproduciendo y pausando la música como siempre.",
+        "Si tus auriculares usan una pulsación diferente para los controles de llamada, revisa los ajustes de tus AirPods en Ajustes del Sistema."
+      ],
+      "faq": [
+        {
+          "q": "¿Por qué mi Mac reproduce un sonido de error cuando pulso mis AirPods?",
+          "a": "La app desde la que estás llamando no es compatible con la pulsación para silenciar de los AirPods, por lo que macOS la rechaza. Con Muffle en marcha, la pulsación silencia tu micrófono en su lugar."
+        },
+        {
+          "q": "¿Qué modelos de AirPods admiten la pulsación para silenciar?",
+          "a": "Los AirPods Pro, los AirPods 3 y posteriores y los AirPods Max, además de los modelos Beats compatibles con controles de llamada."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-keyboard-shortcut-mac",
+      "title": "Silenciar el micrófono en Mac con un atajo de teclado",
+      "description": "Configura un atajo de teclado global para silenciar el micrófono de tu Mac en cualquier llamada o app, sin permisos de accesibilidad.",
+      "h1": "Cómo silenciar el micrófono en el Mac con un atajo de teclado",
+      "intro": [
+        "macOS incluye una tecla para dictado, pero ninguna para silenciar el micro. Cada app de videollamadas tiene su propio atajo y solo funciona cuando la ventana está en primer plano.",
+        "Muffle añade un atajo que silencia el micrófono directamente, en todas las apps a la vez. Por omisión es Control-Opción-M, pero puedes elegir cualquier combinación."
+      ],
+      "steps_title": "Silencia con un solo atajo",
+      "steps": [
+        "Instala Muffle.",
+        "Pulsa Control-Opción-M para silenciar. El icono de la barra de menús se pondrá rojo y aparecerá una pequeña confirmación de «Silenciado».",
+        "Vuelve a pulsarlo para activar el micro.",
+        "Para cambiarlo, abre Ajustes de Muffle, haz clic en el atajo y pulsa la nueva combinación."
+      ],
+      "tips": [
+        "Mantén pulsado el atajo estando silenciado para hablar y suéltalo para silenciar de nuevo.",
+        "Haz clic con el botón derecho en el icono de Muffle en la barra de menús para silenciar al instante con el ratón."
+      ],
+      "faq": [
+        {
+          "q": "¿Funciona el atajo si la app de la videollamada no está en primer plano?",
+          "a": "Sí. Funciona desde cualquier app, incluso con ventanas a pantalla completa."
+        },
+        {
+          "q": "¿Puedo usar una sola tecla, como F5?",
+          "a": "Sí. Las teclas de función sirven por sí solas; las demás teclas requieren pulsar Control, Opción o Comando."
+        }
+      ]
+    },
+    {
+      "slug": "push-to-talk-on-mac",
+      "title": "Push to talk en Mac para cualquier app y videollamada",
+      "description": "Usa pulsar para hablar en tu Mac con Zoom, Google Meet, Teams o Discord. Mantén una tecla para hablar y suéltala para silenciar.",
+      "h1": "Pulsar para hablar en el Mac, en cualquier app",
+      "intro": [
+        "La función de pulsar para hablar te mantiene silenciado hasta que mantienes pulsada una tecla. Es la forma más cómoda de evitar ruidos en reuniones de teletrabajo, pero muy pocas apps la ofrecen y cada una usa una tecla diferente.",
+        "Muffle añade la función de pulsar para hablar a todas las apps de tu Mac. Permanece en silencio, mantén pulsado el atajo para hablar y suéltalo para volver a silenciarte."
+      ],
+      "steps_title": "Cómo usar pulsar para hablar",
+      "steps": [
+        "Instala Muffle.",
+        "Silencia el micro con Control-Opción-M o pulsando tus AirPods.",
+        "Mantén pulsado Control-Opción-M mientras hablas.",
+        "Suéltalo. Volverás a estar silenciado."
+      ],
+      "tips": [
+        "Pulsar el atajo una vez sigue alternando entre silenciar y activar. Mantenerlo pulsado activa la voz mientras hablas.",
+        "Elige una tecla que te resulte cómoda en Ajustes de Muffle, por ejemplo una tecla de función."
+      ],
+      "faq": [
+        {
+          "q": "¿Funciona pulsar para hablar en Google Meet?",
+          "a": "Sí. Muffle silencia el micrófono directamente, así que funciona en Google Meet, Zoom, Teams, Discord y cualquier otra app."
+        },
+        {
+          "q": "¿Se puede pulsar para silenciar?",
+          "a": "Sí. Cuando el micro está activado, mantener pulsado el atajo te silencia hasta que lo sueltas."
+        }
+      ]
+    },
+    {
+      "slug": "stop-apps-changing-mic-volume",
+      "title": "Evitar que Chrome y Zoom cambien el volumen del micro en Mac",
+      "description": "Google Meet, Chrome, Zoom y Teams cambian solos el volumen del micrófono en Mac. Bloquea el nivel de entrada para que nadie lo altere.",
+      "h1": "Cómo evitar que las apps cambien el volumen del micrófono en Mac",
+      "intro": [
+        "Muchas apps de llamadas ajustan el volumen de entrada por su cuenta mediante el control automático de ganancia. Ajustas un buen nivel en Ajustes del Sistema, entras en una llamada de Google Meet y, a los pocos minutos, el control se ha movido y te dicen que se te oye bajo o distorsionado.",
+        "Muffle te permite bloquear el nivel del micrófono. En cuanto una app intenta modificarlo, Muffle lo devuelve al instante a su posición."
+      ],
+      "steps_title": "Bloquea el nivel del micrófono",
+      "steps": [
+        "Instala Muffle.",
+        "Haz clic en el icono de Muffle en la barra de menús y ajusta el nivel con el control deslizante del micro.",
+        "Haz clic en el candado situado junto al deslizador.",
+        "Entra en tus reuniones. El volumen se mantendrá exactamente donde lo dejaste."
+      ],
+      "tips": [
+        "Muffle te avisa en su panel si el nivel del micro es demasiado bajo durante una llamada.",
+        "El bloqueo recuerda el nivel de cada micrófono, de modo que tus auriculares AirPods y el micro del Mac conservan cada uno su propio ajuste."
+      ],
+      "faq": [
+        {
+          "q": "¿Por qué cambia solo el volumen del micrófono en mi Mac?",
+          "a": "Apps como Chrome, Zoom y Teams usan control automático de ganancia y modifican el nivel de entrada del sistema mientras hablas."
+        },
+        {
+          "q": "¿Puedo seguir ajustando el volumen manualmente?",
+          "a": "Sí. Mueve el deslizador en el panel de Muffle y se actualizará el nivel bloqueado."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-on-mac",
+      "title": "Cómo silenciar el micrófono en Mac: 4 formas eficaces",
+      "description": "Cuatro formas de silenciar el micrófono en Mac: en la app, en Ajustes del Sistema, con atajo o con tus AirPods, y cuál funciona siempre.",
+      "h1": "Cómo silenciar el micrófono en un Mac",
+      "intro": [
+        "No hay ninguna tecla para silenciar el micrófono en el teclado del Mac. Según la app y la situación dispones de varias alternativas, pero solo algunas funcionan en todas partes."
+      ],
+      "steps_title": "Tus opciones",
+      "steps": [
+        "El botón o atajo de la propia app de videollamada. Solo funciona dentro de esa app y únicamente mientras su ventana esté en primer plano.",
+        "Ajustes del Sistema, Sonido, Entrada. Bajar el volumen de entrada a cero no silencia de verdad en todos los micrófonos y las apps pueden volver a subirlo.",
+        "Un atajo global con Muffle. Una sola tecla silencia el micrófono directamente, en cualquier app.",
+        "Tus AirPods. Con Muffle, pulsar la varilla silencia cualquier llamada o conferencia, incluso Google Meet en Chrome."
+      ],
+      "tips": [
+        "El icono de Muffle en la barra de menús se muestra en rojo mientras el micro está apagado, sin importar qué app estés usando.",
+        "Salir de Muffle siempre vuelve a activar el micrófono."
+      ],
+      "faq": [
+        {
+          "q": "¿Existe una opción integrada para silenciar el micro en Mac?",
+          "a": "No a nivel de todo el sistema. macOS solo permite silenciar dentro de apps compatibles. Muffle añade un silenciado global de verdad."
+        },
+        {
+          "q": "¿Silenciar con Muffle afecta a todas las apps?",
+          "a": "Sí. Muffle desactiva todos los micrófonos a nivel de hardware, así que nadie en la llamada puede oírte hasta que vuelvas a activar el micro."
+        }
+      ]
+    },
+    {
+      "slug": "youre-muted-reminder",
+      "title": "Aviso de «Estás silenciado» en cualquier app en el Mac",
+      "description": "¿Hablas estando silenciado? Muffle lo detecta y muestra el aviso «Estás silenciado» en Google Meet, Zoom, Teams, Slack y cualquier otra app en el Mac.",
+      "h1": "Un aviso de «Estás silenciado» para cualquier app de llamada",
+      "intro": [
+        "Zoom te avisa cuando hablas estando silenciado. La mayoría de las demás apps no lo hacen, y en las llamadas web casi nunca ocurre. Te pasas un minuto explicando algo y luego te das cuenta de que todo el mundo te estaba esperando.",
+        "Muffle detecta si hablas mientras tienes el micrófono silenciado y muestra un aviso en cualquier app. Cuando la llamada usa AirPods o unos auriculares, escucha a través del micro integrado de tu Mac, fijándose solo en el nivel de volumen. No se graba nada."
+      ],
+      "steps_title": "Activa el aviso",
+      "steps": [
+        "Instala Muffle y permite el acceso al micrófono.",
+        "Asegúrate de que la opción «Avisarme si hablo estando silenciado» esté activada en los Ajustes de Muffle.",
+        "Únete a una llamada con AirPods o unos auriculares y silencia el micrófono.",
+        "Empieza a hablar. Aparecerá el aviso «Estás silenciado»."
+      ],
+      "tips": [
+        "¿Entras a una reunión todavía silenciado de la anterior? Muffle te avisa nada más empezar la llamada.",
+        "Teclear no activa el aviso. Solo se activa si hablas de forma continuada."
+      ],
+      "faq": [
+        {
+          "q": "¿El aviso funciona con el micrófono integrado del Mac?",
+          "a": "Funciona cuando la llamada usa AirPods o unos auriculares. Si la llamada usa el propio micrófono del Mac, ese micro estará silenciado y no podrá oírte."
+        },
+        {
+          "q": "¿Se graba mi audio?",
+          "a": "No. Muffle solo mide el volumen y nunca guarda ni envía ningún audio."
+        }
+      ]
+    }
+  ],
+  "support": {
+    "title": "Soporte de Muffle",
+    "description": "Ayuda para Muffle en Mac: configuración de AirPods, atajo de teclado para silenciar llamadas, compras y resolución de problemas.",
+    "h1": "Soporte",
+    "sections": [
+      {
+        "h": "Primeros pasos",
+        "items": [
+          "Muffle vive en tu barra de menús. Haz clic en el icono del micrófono para ver los controles, o haz clic con el botón derecho para silenciar al instante.",
+          "Durante una llamada, pulsa la varilla de tus AirPods para silenciar y vuelve a pulsarla para activar.",
+          "El atajo predeterminado es Control-Opción-M. Tócalo para silenciar o activar. Estando silenciado, mantenlo pulsado para hablar."
+        ]
+      },
+      {
+        "h": "Pulsar los AirPods no silencia",
+        "items": [
+          "Solo funciona durante una llamada, mientras una app esté usando tu micrófono.",
+          "Permite el acceso al micrófono para Muffle en Ajustes del Sistema > Privacidad y seguridad > Micrófono.",
+          "Comprueba que la opción «Silencia y activa con una pulsación de AirPods» esté activada en los Ajustes de Muffle.",
+          "Tus AirPods deben tener controles de llamada: AirPods Pro, AirPods de 3.ª generación o posterior, o AirPods Max."
+        ]
+      },
+      {
+        "h": "La app de la llamada sigue mostrando mi micro activado",
+        "items": [
+          "Es totalmente normal. Muffle desactiva el micrófono en sí, por lo que las apps reciben silencio aunque crean que el micro sigue activo. Confía en el icono de Muffle en la barra de menús: en rojo significa que nadie te oye."
+        ]
+      },
+      {
+        "h": "Compras",
+        "items": [
+          "Muffle es gratis durante 3 días. Después, puedes desbloquearlo con una compra única. No hay ninguna suscripción.",
+          "Para restaurar una compra en otro Mac, abre los Ajustes de Muffle y selecciona Restaurar compra."
+        ]
+      }
+    ],
+    "contact_title": "Contacto",
+    "contact_text": "Escríbenos a"
+  },
+  "privacy_page": {
+    "title": "Política de privacidad de Muffle",
+    "description": "Muffle nunca graba, guarda ni transmite audio, ni recopila datos personales. Descubre cómo gestiona el micrófono en macOS.",
+    "h1": "Política de privacidad",
+    "updated": "Última actualización: 29 de septiembre de 2026.",
+    "intro": "Muffle silencia el micrófono de tu Mac. Está diseñado para que nada de lo que digas salga jamás de tu Mac.",
+    "sections": [
+      {
+        "h": "Qué hace Muffle con tu micrófono",
+        "p": [
+          "Durante las llamadas, Muffle mantiene una conexión silenciosa con tu micrófono. macOS solo transmite la pulsación de silenciar de los AirPods a las apps que están usando el micro, por lo que esta conexión es necesaria para que funcione la pulsación de los AirPods.",
+          "Si activas la opción «Avisarme si hablo estando silenciado», Muffle también mide el nivel de volumen del micrófono integrado de tu Mac mientras estás silenciado, con el fin de detectar cuándo empiezas a hablar.",
+          "Muffle solo analiza valores numéricos de volumen. Nunca graba, guarda, transcribe ni envía audio."
+        ]
+      },
+      {
+        "h": "Datos que recopilamos",
+        "p": [
+          "Ninguno. Muffle no utiliza cuentas de usuario, analíticas, publicidad ni herramientas de rastreo. No se conecta con ningún servidor nuestro."
+        ]
+      },
+      {
+        "h": "Compras",
+        "p": [
+          "La prueba gratuita y la compra única se gestionan a través de la App Store de Apple. Apple procesa los datos de pago y nosotros nunca tenemos acceso a ellos. La política de privacidad de Apple es la aplicable a dichas compras."
+        ]
+      },
+      {
+        "h": "Ajustes guardados en tu Mac",
+        "p": [
+          "Tus preferencias, como tu atajo de teclado, se guardan localmente en tu Mac en el almacenamiento propio de Muffle. Si eliminas Muffle, estos ajustes también se eliminan."
+        ]
+      }
+    ],
+    "contact": "Preguntas sobre privacidad:"
+  }
+}

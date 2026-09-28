@@ -1,0 +1,643 @@
+{
+  "meta": {
+    "home_title": "Muffle: Wyciszenie mikrofonu na Macu przez AirPods lub skrót",
+    "home_description": "Wycisz mikrofon na Macu w Google Meet, Zoom, Teams, Slack i Discord. Naciśnij AirPods lub jeden skrót klawiszowy podczas rozmowy. Bezpłatnie przez 3 dni.",
+    "og_title": "Wycisz mikrofon Maca z dowolnego miejsca.",
+    "og_subtitle": "Naciśnij AirPods lub jeden skrót. Działa w każdej aplikacji."
+  },
+  "nav": {
+    "features": "Funkcje",
+    "guides": "Poradniki",
+    "support": "Wsparcie",
+    "download": "Pobierz Muffle",
+    "home": "Strona główna",
+    "menu": "Menu"
+  },
+  "cta": {
+    "download": "Pobierz z Mac App Store",
+    "coming_soon": "Wkrótce w Mac App Store",
+    "trial": "Bezpłatny przez 3 dni. Potem jednorazowy zakup, bez subskrypcji.",
+    "requirements": "Dla systemu macOS 14 Sonoma i nowszych."
+  },
+  "hero": {
+    "title": "Wycisz mikrofon Maca z dowolnego miejsca.",
+    "subtitle": "Naciśnij AirPods lub jeden skrót klawiszowy. Muffle wyłącza sam mikrofon, więc Google Meet, Zoom, Teams, Slack i wszystkie inne aplikacje słyszą ciszę.",
+    "image_alt": "Panel Muffle na pasku menu Maca podczas połączenia Google Meet w Chrome"
+  },
+  "works_with": {
+    "title": "Działa z każdą aplikacją, która korzysta z mikrofonu",
+    "apps": [
+      "Google Meet",
+      "Zoom",
+      "Microsoft Teams",
+      "Slack",
+      "Discord",
+      "FaceTime",
+      "Webex",
+      "WhatsApp",
+      "Skype",
+      "SoWork",
+      "Gather",
+      "Chrome",
+      "Safari",
+      "Arc",
+      "Edge",
+      "Firefox"
+    ],
+    "note": "Muffle wycisza mikrofon na poziomie sprzętowym, więc nie ma znaczenia, która aplikacja, przeglądarka czy karta z niego korzysta."
+  },
+  "features": {
+    "title": "Wszystko, co Twój Mac powinien robić podczas połączenia",
+    "items": [
+      {
+        "title": "Naciśnij AirPods, aby wyciszyć",
+        "text": "Podczas dowolnego połączenia naciśnij trzonek raz, aby wyciszyć, i ponownie, aby włączyć mikrofon. Działa to nawet w Chrome, gdzie Google Meet i inne połączenia w przeglądarce ignorują naciśnięcie AirPods."
+      },
+      {
+        "title": "Jeden skrót do każdej aplikacji",
+        "text": "Skrót Control-Opcja-M wycisza mikrofon wszędzie, nawet gdy rozmowa toczy się w karcie w tle. Przytrzymaj go, aby mówić, gdy mikrofon jest wyciszony, i puść, aby wyciszyć go ponownie."
+      },
+      {
+        "title": "Przypomnienie „Masz wyciszony mikrofon”",
+        "text": "Zacznij mówić z wyciszonym mikrofonem, a Muffle Cię powiadomi, zanim wygłosisz cały pomysł w pustkę."
+      },
+      {
+        "title": "Połączenia na autopilocie",
+        "text": "Rozpoczynaj każde połączenie z wyciszonym mikrofonem, włączaj mikrofon ponownie po zakończeniu rozmowy i wyciszaj go po zablokowaniu Maca."
+      },
+      {
+        "title": "Zawsze wiesz, czy mikrofon jest aktywny",
+        "text": "Niewielki ruchomy przycisk pokazuje stan mikrofonu podczas połączeń. Kliknij go, aby wyciszyć lub włączyć mikrofon."
+      },
+      {
+        "title": "Stały poziom głośności mikrofonu",
+        "text": "Chrome, Zoom i Teams potrafią same zmieniać poziom mikrofonu. Zablokuj go, a Muffle przywróci właściwe ustawienie."
+      },
+      {
+        "title": "Bezpieczeństwo, gdy rozładują się AirPods",
+        "text": "Jeśli Twoje słuchawki rozłączą się w trakcie rozmowy, Muffle wyciszy dźwięk, zanim aplikacja przełączy się na mikrofon Maca i wyśle dźwięki z całego pokoju."
+      },
+      {
+        "title": "Skróty i Centrum sterowania",
+        "text": "Wyciszaj z aplikacji Skróty, przez Siri, ze Stream Decka, z Raycast lub za pomocą przycisku w Centrum sterowania."
+      }
+    ],
+    "image_reminder_alt": "Przypomnienie „Masz wyciszony mikrofon” na dole ekranu",
+    "image_pills_alt": "Ruchomy ministerownik w stanie wyciszonym i aktywnym",
+    "image_automation_alt": "Ustawienia Muffle dotyczące rozpoczynania połączeń z wyciszonym mikrofonem i innych automatyzacji"
+  },
+  "how": {
+    "title": "Konfiguracja w minutę",
+    "steps": [
+      "Zainstaluj Muffle z Mac App Store i zezwól na dostęp do mikrofonu.",
+      "Dołącz do rozmowy w dowolnej aplikacji, tak jak zwykle.",
+      "Naciśnij AirPods, naciśnij Control-Opcja-M lub kliknij ikonę na pasku menu, aby wyciszyć mikrofon."
+    ]
+  },
+  "privacy": {
+    "title": "Prywatność z założenia",
+    "text": "Muffle nigdy nie nagrywa, nie przechowuje ani nie wysyła dźwięku. Jedynie włącza i wyłącza mikrofon oraz odczytuje poziom jego głośności. Żadnych kont, żadnej analityki i żadnego śledzenia."
+  },
+  "faq": {
+    "title": "Pytania",
+    "items": [
+      {
+        "q": "Czy Muffle działa z Google Meet w Chrome?",
+        "a": "Tak. Chrome nie przekazuje naciśnięcia AirPods do połączeń w przeglądarce, dlatego Muffle je przechwytuje i wycisza sam mikrofon. To samo dotyczy każdej rozmowy w karcie przeglądarki."
+      },
+      {
+        "q": "Czy inni uczestnicy zobaczą, że mam wyciszony mikrofon?",
+        "a": "Aplikacja do połączeń może nadal pokazywać włączony mikrofon, ponieważ Muffle wyłącza fizyczny mikrofon, a nie przycisk w aplikacji. Uczestnicy i tak słyszą ciszę. Gdy mikrofon jest wyciszony, ikona Muffle na pasku menu zmienia kolor na czerwony."
+      },
+      {
+        "q": "Które modele AirPods są obsługiwane?",
+        "a": "AirPods Pro, AirPods 3 i nowsze oraz AirPods Max, a także modele Beats obsługujące sterowanie połączeniami. Skrót klawiszowy i pasek menu działają z każdym mikrofonem."
+      },
+      {
+        "q": "Czy to działa z Zoom, Teams, Slack i Discord?",
+        "a": "Tak. Muffle działa z każdą aplikacją na Macu korzystającą z mikrofonu, zarówno z programami biurkowymi, jak i połączeniami w przeglądarce."
+      },
+      {
+        "q": "Czy wymagana jest subskrypcja?",
+        "a": "Nie. Wypróbuj wszystkie funkcje bezpłatnie przez 3 dni, a potem odblokuj Muffle jednorazowym zakupem."
+      },
+      {
+        "q": "Dlaczego Muffle wymaga dostępu do mikrofonu?",
+        "a": "macOS przekazuje naciśnięcie AirPods tylko aplikacjom, które korzystają z mikrofonu, dlatego Muffle utrzymuje ciche połączenie podczas rozmów. Nic nie jest nagrywane."
+      },
+      {
+        "q": "Co się stanie, jeśli zamknę Muffle przy wyciszonym mikrofonie?",
+        "a": "Muffle włącza mikrofon ponownie przy zamykaniu, więc nie pozostaniesz bez głosu."
+      },
+      {
+        "q": "Które wersje systemu macOS są obsługiwane?",
+        "a": "macOS 14 Sonoma i nowsze. Przycisk w Centrum sterowania wymaga systemu macOS 26 lub nowszego."
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Koniec z szukaniem przycisku wyciszania.",
+    "text": "Możesz wypróbować Muffle bezpłatnie przez 3 dni."
+  },
+  "footer": {
+    "guides": "Poradniki",
+    "product": "Muffle",
+    "support": "Wsparcie",
+    "privacy": "Polityka prywatności",
+    "language": "Język",
+    "contact": "Kontakt",
+    "copyright": "© 2026 Muffle. AirPods i Mac są znakami towarowymi firmy Apple Inc."
+  },
+  "guides_index": {
+    "title": "Poradniki Muffle: Wyciszanie Meet, Zoom i Teams na Macu",
+    "description": "Przewodniki krok po kroku: wyciszanie Google Meet, Zoom, Teams i połączeń na Macu za pomocą AirPods lub skrótu klawiszowego. Wygodna praca zdalna.",
+    "h1": "Poradniki",
+    "intro": "Krótkie, praktyczne wskazówki dotyczące wyciszania mikrofonu na Macu w każdej aplikacji."
+  },
+  "guide_labels": {
+    "on_this_page": "Na tej stronie",
+    "faq": "Pytania",
+    "related": "Więcej poradników",
+    "try": "Wypróbuj Muffle bezpłatnie przez 3 dni",
+    "read": "Przeczytaj poradnik"
+  },
+  "guides": [
+    {
+      "slug": "mute-google-meet-with-airpods",
+      "title": "Wyciszenie Google Meet z AirPods na Macu",
+      "description": "Naciśnięcie AirPods nie wycisza Google Meet w Chrome na Macu. Sprawdź, jak wyciszyć mikrofon na spotkaniu przez AirPods, skrót klawiszowy lub pasek menu.",
+      "h1": "Jak wyciszyć Google Meet za pomocą AirPods na Macu",
+      "intro": [
+        "Na iPhonie naciśnięcie trzonka AirPods wycisza rozmowę. Na Macu Google Meet działa w Chrome, a Chrome nie przekazuje tego naciśnięcia do stron internetowych. Naciskasz słuchawkę, słyszysz dźwięk błędu, a Meet nadal przesyła Twój głos.",
+        "Muffle rozwiązuje ten problem podczas każdego spotkania w Meet. Sam odbiera naciśnięcie AirPods i wycisza mikrofon Maca, więc w Meet panuje cisza, nawet gdy karta z konferencją działa w tle."
+      ],
+      "steps_title": "Wycisz Google Meet za pomocą AirPods",
+      "steps": [
+        "Zainstaluj Muffle i zezwól na dostęp do mikrofonu, gdy pojawi się monit.",
+        "Dołącz do spotkania Google Meet w Chrome, Safari, Arc lub Edge.",
+        "Naciśnij trzonek AirPods raz, aby wyciszyć. Ikona Muffle zmieni kolor na czerwony.",
+        "Naciśnij ponownie, aby włączyć mikrofon. Możesz też nacisnąć Control-Option-M z poziomu dowolnej aplikacji."
+      ],
+      "tips": [
+        "Meet może nadal pokazywać mikrofon jako włączony, ponieważ Muffle wycisza sam mikrofon, a nie przycisk w usłudze Meet. Wszyscy słyszą ciszę, dopóki ikona Muffle jest czerwona.",
+        "Włącz opcję „Rozpoczynaj każde połączenie z wyciszonym mikrofonem”, aby dołączać do każdego spotkania w Meet bez obaw."
+      ],
+      "faq": [
+        {
+          "q": "Dlaczego naciśnięcie moich AirPods nie wycisza Google Meet?",
+          "a": "Chrome nie obsługuje gestu wyciszania AirPods w macOS dla połączeń internetowych, przez co macOS nie ma aplikacji, do której mógłby przekazać naciśnięcie. Muffle staje się tą aplikacją."
+        },
+        {
+          "q": "Czy skrót w samym Meet nie wystarczy?",
+          "a": "Skrót Command-D w Meet działa tylko wtedy, gdy karta z Meet znajduje się na wierzchu. Skrót Muffle i naciśnięcie AirPods działają z poziomu dowolnej aplikacji."
+        }
+      ]
+    },
+    {
+      "slug": "mute-zoom-with-airpods",
+      "title": "Wyciszenie Zoom z AirPods lub skrótem na Macu",
+      "description": "Wycisz mikrofon w Zoom na Macu przez AirPods lub globalny skrót klawiszowy, nawet gdy okno jest w tle. Idealne rozwiązanie, gdy trwa praca zdalna i konferencja.",
+      "h1": "Jak wyciszyć Zoom za pomocą AirPods lub skrótu na Macu",
+      "intro": [
+        "Własny skrót programu Zoom, Command-Shift-A, działa tylko wtedy, gdy Zoom jest aktywną aplikacją na wierzchu. Kiedy robisz notatki lub udostępniasz inne okno, szukanie przycisku wyciszenia zabiera cenne sekundy.",
+        "Muffle daje Ci jedno sterowanie wyciszeniem dla Zoom i każdej innej aplikacji: przez słuchawki AirPods, globalny skrót klawiszowy lub pasek menu. Wycisza sam mikrofon, więc działa w aplikacji Zoom oraz podczas rozmowy w przeglądarce."
+      ],
+      "steps_title": "Wycisz Zoom z dowolnego miejsca",
+      "steps": [
+        "Zainstaluj Muffle i zezwól na dostęp do mikrofonu.",
+        "Dołącz do spotkania w Zoom jak zwykle.",
+        "Naciśnij trzonek AirPods lub skrót Control-Option-M, aby wyciszyć mikrofon z dowolnej aplikacji.",
+        "Przytrzymaj Control-Option-M, gdy mikrofon jest wyciszony, aby mówić, i puść, aby ponownie wyciszyć."
+      ],
+      "tips": [
+        "Jeśli Zoom na Twoim Macu sam przechwytuje naciśnięcie AirPods, skrót klawiszowy i pasek menu nadal wyciszają Cię przez Muffle.",
+        "Zoom może pokazywać mikrofon jako włączony, podczas gdy Muffle go wyłącza. Uczestnicy spotkania słyszą ciszę."
+      ],
+      "faq": [
+        {
+          "q": "Czy Muffle zastępuje przycisk wyciszenia w Zoom?",
+          "a": "Działa równolegle z nim. Muffle wyłącza mikrofon dla każdej aplikacji, więc możesz wyciszyć Zoom bez przełączania się na jego okno."
+        },
+        {
+          "q": "Czy mogę używać funkcji naciśnij i mów (push to talk) w Zoom?",
+          "a": "Tak. Gdy mikrofon jest wyciszony, przytrzymaj skrót Muffle, aby mówić. Działa to w Zoom i w każdej innej aplikacji."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microsoft-teams-with-airpods",
+      "title": "Wyciszenie Microsoft Teams z AirPods na Macu",
+      "description": "Wycisz mikrofon w Microsoft Teams na Macu przez AirPods, skrót klawiszowy lub pasek menu. Działa w aplikacji Teams oraz w przeglądarce podczas każdej rozmowy.",
+      "h1": "Jak wyciszyć Microsoft Teams za pomocą AirPods na Macu",
+      "intro": [
+        "Skrót Teams, Command-Shift-M, działa tylko wtedy, gdy okno Teams jest aktywne. Podczas spotkania zwykle przeglądasz coś innego: dokument, przeglądarkę lub udostępniany ekran.",
+        "Muffle wycisza mikrofon z dowolnego miejsca, w aplikacji Teams i w Teams w przeglądarce. Naciśnij AirPods, użyj skrótu klawiszowego lub kliknij pasek menu."
+      ],
+      "steps_title": "Wycisz Teams z dowolnego miejsca",
+      "steps": [
+        "Zainstaluj Muffle i zezwól na dostęp do mikrofonu.",
+        "Dołącz do spotkania w Teams.",
+        "Naciśnij Control-Option-M lub trzonek AirPods, aby wyciszyć mikrofon. Ikona na pasku menu zmieni kolor na czerwony.",
+        "Naciśnij ponownie, aby włączyć, lub przytrzymaj skrót, aby mówić, gdy mikrofon jest wyciszony."
+      ],
+      "tips": [
+        "Teams w karcie przeglądarki zyskuje taką samą obsługę AirPods jak Google Meet dzięki Muffle.",
+        "Włącz opcję „Wycisz po zablokowaniu ekranu”, aby odejście od biurka nigdy nie zostawiło aktywnego mikrofonu."
+      ],
+      "faq": [
+        {
+          "q": "Czy naciśnięcie AirPods działa w aplikacji Teams?",
+          "a": "To zależy od wersji aplikacji Teams, ponieważ Teams potrafi samodzielnie przejąć to naciśnięcie. Skrót Muffle i przycisk na pasku menu działają w każdym przypadku."
+        },
+        {
+          "q": "Czy Teams pokaże, że mam wyciszony mikrofon?",
+          "a": "Nie zawsze. Muffle wycisza sam mikrofon, więc Teams może nadal pokazywać go jako włączony, podczas gdy nikt w połączeniu Cię nie słyszy."
+        }
+      ]
+    },
+    {
+      "slug": "mute-slack-huddles",
+      "title": "Wyciszenie Slack Huddle skrótem na Macu",
+      "description": "Wycisz mikrofon w Slack Huddle na Macu z dowolnej aplikacji przez skrót klawiszowy lub AirPods. Koniec ze szukaniem małego okna rozmowy, gdy trwa praca zdalna.",
+      "h1": "Jak wyciszyć Slack Huddle z dowolnej aplikacji na Macu",
+      "intro": [
+        "Elementy sterujące rozmową w Slack Huddle znajdują się w małym oknie, które łatwo zgubić pod innymi dokumentami, a skrót wyciszania działa tylko wtedy, gdy Slack jest na wierzchu.",
+        "Muffle wycisza mikrofon w Slacku i każdej innej aplikacji za pomocą jednego skrótu lub naciśnięcia AirPods, niezależnie od tego, w jakim programie pracujesz na Macu."
+      ],
+      "steps_title": "Wycisz Huddle z dowolnego miejsca",
+      "steps": [
+        "Zainstaluj Muffle i zezwól na dostęp do mikrofonu.",
+        "Rozpocznij spotkanie Huddle w Slacku lub dołącz do niego.",
+        "Naciśnij Control-Option-M lub trzonek AirPods, aby wyciszyć.",
+        "Rzuć okiem na pasek menu: kolor czerwony oznacza, że nikt Cię nie słyszy."
+      ],
+      "tips": [
+        "Pływający ministerownik pokazuje stan mikrofonu podczas każdego spotkania Huddle.",
+        "Przytrzymaj skrót, aby powiedzieć coś szybko, zachowując wyciszenie przez resztę czasu."
+      ],
+      "faq": [
+        {
+          "q": "Czy to działa z aplikacją Slack i ze Slackiem w przeglądarce?",
+          "a": "Tak. Muffle wycisza sam mikrofon, więc działa bez problemu w obu wersjach."
+        },
+        {
+          "q": "Czy współpracownicy zobaczą, że mam wyciszony mikrofon?",
+          "a": "Slack może nadal pokazywać mikrofon jako włączony. Gdy Muffle wycisza dźwięk, inni słyszą wyłącznie ciszę."
+        }
+      ]
+    },
+    {
+      "slug": "mute-discord-on-mac",
+      "title": "Discord: przycisk Naciśnij i mów i skrót wyciszenia na Macu",
+      "description": "Globalny skrót klawiszowy i przycisk Naciśnij i mów dla Discorda na Macu. Wycisz mikrofon słuchawkami AirPods w aplikacji i przeglądarce.",
+      "h1": "Naciśnij i mów oraz globalny skrót wyciszania dla Discorda na Macu",
+      "intro": [
+        "Funkcja Naciśnij i mów w Discordzie wymaga dodatkowych uprawnień na Macu i nie działa w przeglądarce. Gdy dołączasz też do spotkań w Meet lub Zoomie, dla każdej aplikacji musisz pamiętać inny skrót.",
+        "Muffle daje Ci jeden klawisz do wszystkich aplikacji. Stuknij, aby wyciszyć, przytrzymaj, aby mówić, lub naciśnij AirPods."
+      ],
+      "steps_title": "Skonfiguruj Naciśnij i mów dla Discorda",
+      "steps": [
+        "Zainstaluj Muffle i zezwól na dostęp do mikrofonu.",
+        "Dołącz do kanału głosowego w Discordzie.",
+        "Naciśnij Control-Option-M, aby wyciszyć lub włączyć mikrofon. Przytrzymaj go, gdy mikrofon jest wyciszony, aby mówić.",
+        "Wybierz własny klawisz w oknie Ustawienia Muffle, na przykład jeden z klawiszy F."
+      ],
+      "tips": [
+        "Skrót Muffle nie wymaga uprawnień w sekcji Dostępność.",
+        "Zablokuj poziom mikrofonu, aby funkcja automatycznego wzmocnienia w Discordzie stale go nie zmieniała."
+      ],
+      "faq": [
+        {
+          "q": "Czy to to samo co funkcja Naciśnij i mów w Discordzie?",
+          "a": "Działa tak samo, ale we wszystkich aplikacjach naraz. Muffle wycisza sam mikrofon, więc Discord słyszy ciszę, dopóki nie przytrzymasz klawisza."
+        },
+        {
+          "q": "Czy mogę wyciszyć Discorda za pomocą AirPods?",
+          "a": "Tak. Podczas połączenia głosowego naciśnij trzonek AirPods, aby wyciszyć lub włączyć mikrofon."
+        }
+      ]
+    },
+    {
+      "slug": "mute-webex-on-mac",
+      "title": "Jak wyciszyć Webex z dowolnej aplikacji na Macu",
+      "description": "Wycisz spotkanie Webex na Macu jednym globalnym skrótem lub przez AirPods, nawet gdy Webex nie jest aktywnym oknem.",
+      "h1": "Jak wyciszyć Webex z dowolnej aplikacji na Macu",
+      "intro": [
+        "Skrót wyciszania w Webex działa tylko wtedy, gdy okno Webex jest na pierwszym planie, a jego elementy sterujące znikają podczas udostępniania ekranu.",
+        "Muffle wycisza mikrofon z dowolnego miejsca na Macu, więc możesz wyciszyć spotkanie Webex bez przerywania bieżącej pracy."
+      ],
+      "steps_title": "Wycisz Webex z dowolnego miejsca",
+      "steps": [
+        "Zainstaluj Muffle i zezwól na dostęp do mikrofonu.",
+        "Dołącz do spotkania w Webex.",
+        "Naciśnij Control-Option-M lub trzonek AirPods, aby wyciszyć mikrofon.",
+        "Włącz ruchomy ministerownik, aby widzieć stan mikrofonu podczas udostępniania ekranu."
+      ],
+      "tips": [
+        "Webex może nadal pokazywać, że mikrofon jest włączony. Uczestnicy słyszą ciszę, dopóki ikona Muffle jest czerwona.",
+        "Włącz opcję „Rozpoczynaj każde połączenie z wyciszonym mikrofonem” na potrzeby dużych spotkań."
+      ],
+      "faq": [
+        {
+          "q": "Czy Muffle działa z Webex w przeglądarce?",
+          "a": "Tak. Wycisza sam mikrofon, więc działa z każdym klientem Webex."
+        },
+        {
+          "q": "Czy mogę wyciszyć Webex za pomocą AirPods?",
+          "a": "Tak, naciśnij trzonek podczas spotkania. Skrót klawiszowy działa z dowolnymi słuchawkami."
+        }
+      ]
+    },
+    {
+      "slug": "mute-browser-calls",
+      "title": "Wyciszanie rozmów w Chrome, Safari i Arc na Macu",
+      "description": "Wycisz rozmowy w Chrome, Safari, Arc, Edge i Firefox przez AirPods lub jeden skrót. Działa z Google Meet, SoWork, Gather i innymi.",
+      "h1": "Jak wyciszyć rozmowę w dowolnej karcie przeglądarki na Macu",
+      "intro": [
+        "Coraz więcej rozmów odbywa się w przeglądarce: Google Meet, Teams w przeglądarce, wirtualne biura jak SoWork i Gather, Whereby czy Jitsi. Każde narzędzie ma własny przycisk i skrót wyciszania, które działają tylko wtedy, gdy dana karta jest na wierzchu.",
+        "Przeglądarki na Macu ignorują też naciśnięcie trzonka AirPods. Muffle odbiera to naciśnięcie lub jeden globalny skrót i wycisza mikrofon we wszystkich kartach naraz."
+      ],
+      "steps_title": "Wycisz dowolne połączenie w przeglądarce",
+      "steps": [
+        "Zainstaluj Muffle i zezwól na dostęp do mikrofonu.",
+        "Otwórz połączenie w dowolnej karcie przeglądarki.",
+        "Naciśnij trzonek AirPods lub Control-Option-M, aby wyciszyć mikrofon z poziomu dowolnej aplikacji lub karty.",
+        "Obserwuj ikonę na pasku menu: kolor czerwony oznacza, że mikrofon jest wyłączony."
+      ],
+      "tips": [
+        "Wirtualne biura trzymają mikrofon otwarty przez wiele godzin. Włącz ruchomy ministerownik, aby zawsze widzieć swój stan.",
+        "Przypomnienie „Masz wyciszony mikrofon” informuje Cię, gdy zaczynasz mówić z wyciszonym mikrofonem."
+      ],
+      "faq": [
+        {
+          "q": "Dlaczego naciśnięcie AirPods nie działa w Chrome?",
+          "a": "Chrome nie obsługuje gestu wyciszania AirPods w macOS na stronach internetowych. Muffle przechwytuje to naciśnięcie i wycisza sam mikrofon."
+        },
+        {
+          "q": "Czy to działa w SoWork i Gather?",
+          "a": "Tak. Każda strona korzystająca z mikrofonu zostanie wyciszona, gdy Muffle wyłączy mikrofon."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-mute-not-working-on-mac",
+      "title": "AirPods nie wyciszają na Macu? Błąd Cannot Control Mic",
+      "description": "Naciśnięcie AirPods odtwarza dźwięk błędu i nie wycisza rozmowy? Zobacz, dlaczego tak się dzieje na Macu i jak wyciszać dowolną aplikację.",
+      "h1": "Wyciszanie AirPods nie działa na Macu? Oto rozwiązanie",
+      "intro": [
+        "macOS pozwala wyciszyć połączenie przez naciśnięcie trzonka AirPods, ale tylko jeśli aplikacja do rozmów to obsługuje. Wiele aplikacji tego nie robi, w tym Chrome i uruchamiane w nim połączenia internetowe. Naciskasz trzonek, słyszysz krótki dźwięk błędu, pojawia się komunikat „Cannot Control Mic”, a uczestnicy nadal Cię słyszą.",
+        "Muffle dodaje tę obsługę do każdej aplikacji. Odbiera naciśnięcie, wycisza mikrofon Maca i odtwarza standardowy dźwięk wyciszenia."
+      ],
+      "steps_title": "Wyciszaj dowolną aplikację naciśnięciem AirPods",
+      "steps": [
+        "Zainstaluj Muffle i zezwól na dostęp do mikrofonu. macOS przekazuje naciśnięcie tylko do aplikacji, które mogą korzystać z mikrofonu.",
+        "Upewnij się, że opcja „Wyciszanie i włączanie mikrofonu naciśnięciem AirPods” jest włączona w oknie Ustawienia Muffle.",
+        "Dołącz do połączenia. Naciśnięcie wycisza tylko wtedy, gdy aplikacja korzysta z mikrofonu.",
+        "Naciśnij trzonek raz, aby wyciszyć mikrofon, i ponownie, aby go włączyć."
+      ],
+      "tips": [
+        "Poza połączeniami naciśnięcie nadal odtwarza i wstrzymuje muzykę jak zwykle.",
+        "Jeśli Twoje AirPods używają innego naciśnięcia do sterowania połączeniami, sprawdź ustawienia AirPods w Ustawieniach systemowych."
+      ],
+      "faq": [
+        {
+          "q": "Dlaczego mój Mac odtwarza dźwięk błędu, gdy naciskam AirPods?",
+          "a": "Aplikacja, w której prowadzisz rozmowę, nie obsługuje wyciszania przez AirPods, więc macOS odrzuca ten gest. Gdy Muffle działa w tle, naciśnięcie wycisza Twój mikrofon."
+        },
+        {
+          "q": "Które modele AirPods obsługują naciśnięcie wyciszające?",
+          "a": "AirPods Pro, AirPods 3 i nowsze oraz AirPods Max, a także modele Beats ze sterowaniem połączeniami."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-keyboard-shortcut-mac",
+      "title": "Wyciszenie mikrofonu na Macu: prosty skrót klawiszowy",
+      "description": "Jeden globalny skrót klawiszowy na Macu: wycisz mikrofon w każdej aplikacji. Bez zbędnych uprawnień Dostępności.",
+      "h1": "Jak wyciszyć mikrofon na Macu za pomocą skrótu klawiszowego",
+      "intro": [
+        "System macOS ma klawisz do dyktowania, ale nie ma żadnego do wyciszania mikrofonu. Każda aplikacja do połączeń ma własny skrót i każdy z nich działa tylko wtedy, gdy dane okno jest na pierwszym planie.",
+        "Muffle dodaje jeden skrót, który wycisza sam mikrofon, we wszystkich aplikacjach jednocześnie. Domyślny skrót to Control-Option-M i możesz wybrać dowolną kombinację."
+      ],
+      "steps_title": "Wyciszaj jednym skrótem",
+      "steps": [
+        "Zainstaluj Muffle.",
+        "Naciśnij Control-Option-M, aby wyciszyć. Ikona na pasku menu zmieni kolor na czerwony i pojawi się małe potwierdzenie „Wyciszony”.",
+        "Naciśnij go ponownie, aby włączyć mikrofon.",
+        "Aby zmienić kombinację, otwórz Ustawienia Muffle, kliknij skrót i naciśnij nowy."
+      ],
+      "tips": [
+        "Gdy mikrofon jest wyciszony, przytrzymaj skrót, aby mówić, i puść, aby ponownie wyciszyć.",
+        "Kliknij ikonę Muffle na pasku menu prawym przyciskiem myszy, aby natychmiast wyciszyć mikrofon myszą."
+      ],
+      "faq": [
+        {
+          "q": "Czy skrót działa, gdy aplikacja do rozmów nie jest na pierwszym planie?",
+          "a": "Tak. Działa z dowolnej aplikacji, w tym z programów uruchomionych na pełnym ekranie."
+        },
+        {
+          "q": "Czy mogę użyć pojedynczego klawisza, na przykład F5?",
+          "a": "Tak. Klawisze funkcyjne działają samodzielnie; inne klawisze wymagają klawisza Control, Option lub Command."
+        }
+      ]
+    },
+    {
+      "slug": "push-to-talk-on-mac",
+      "title": "Push to talk na Maca dla każdej aplikacji do rozmów",
+      "description": "Funkcja push to talk na Macu w Zoom, Google Meet, Teams i Discordzie. Przytrzymaj klawisz, aby mówić, puść, aby wyciszyć.",
+      "h1": "Push to talk na Macu w każdej aplikacji",
+      "intro": [
+        "Funkcja push to talk utrzymuje mikrofon wyciszony, dopóki nie przytrzymasz klawisza. To najwygodniejszy sposób na ciszę podczas dużych spotkań lub w hałaśliwych miejscach, ale ma go tylko kilka aplikacji i każda wymaga innego klawisza.",
+        "Muffle wprowadza push to talk do każdej aplikacji na Macu. Zachowaj wyciszenie, przytrzymaj skrót, aby zabrać głos, i puść go, aby natychmiast znowu się wyciszyć."
+      ],
+      "steps_title": "Jak korzystać z push to talk",
+      "steps": [
+        "Zainstaluj Muffle.",
+        "Wycisz mikrofon za pomocą skrótu Control-Option-M lub słuchawek AirPods.",
+        "Przytrzymaj Control-Option-M, kiedy mówisz.",
+        "Puść klawisze. Twój mikrofon znów jest wyciszony."
+      ],
+      "tips": [
+        "Zwykłe naciśnięcie skrótu nadal przełącza wyciszenie. Jego przytrzymanie działa jak push to talk.",
+        "Wybierz wygodny klawisz w Ustawieniach Muffle, na przykład jeden z klawiszy F."
+      ],
+      "faq": [
+        {
+          "q": "Czy funkcja push to talk działa w Google Meet?",
+          "a": "Tak. Muffle wycisza sam mikrofon, więc push to talk działa w Meet, Zoom, Teams, Discordzie i każdej innej aplikacji."
+        },
+        {
+          "q": "Czy jest dostępna funkcja push to mute?",
+          "a": "Tak. Gdy mikrofon jest włączony, przytrzymanie skrótu wycisza Cię do momentu zwolnienia klawiszy."
+        }
+      ]
+    },
+    {
+      "slug": "stop-apps-changing-mic-volume",
+      "title": "Zablokuj głośność mikrofonu w Chrome i Zoom na Macu",
+      "description": "Google Meet, Chrome, Zoom i Teams zmieniają głośność mikrofonu na Macu? Zablokuj poziom wejściowy raz na zawsze.",
+      "h1": "Jak zablokować samoczynne zmiany głośności mikrofonu na Macu",
+      "intro": [
+        "Wiele aplikacji do połączeń samodzielnie modyfikuje poziom wejściowy za sprawą automatycznej regulacji wzmocnienia. Ustawiasz odpowiednią głośność w Ustawieniach systemowych, dołączasz do rozmowy w Google Meet, a po paru minutach suwak sam się przesuwa, przez co inni słyszą Cię zbyt cicho lub ze zniekształceniami.",
+        "Muffle potrafi zablokować poziom mikrofonu. Kiedy jakakolwiek aplikacja go zmieni, Muffle natychmiast przywraca właściwe ustawienie."
+      ],
+      "steps_title": "Zablokuj poziom mikrofonu",
+      "steps": [
+        "Zainstaluj Muffle.",
+        "Kliknij ikonę Muffle na pasku menu i ustaw poziom suwakiem mikrofonu.",
+        "Kliknij kłódkę obok suwaka.",
+        "Dołącz do rozmów. Poziom głośności pozostanie dokładnie taki, jak ustawiono."
+      ],
+      "tips": [
+        "Muffle ostrzega w panelu, jeśli podczas połączenia poziom sygnału jest zbyt niski.",
+        "Blokada zapamiętuje poziom dla każdego mikrofonu z osobna, więc AirPods i wbudowany mikrofon Maca zachowują własne ustawienia."
+      ],
+      "faq": [
+        {
+          "q": "Dlaczego głośność mikrofonu na Macu stale się zmienia?",
+          "a": "Aplikacje takie jak Chrome, Zoom i Teams korzystają z automatycznej regulacji wzmocnienia i zmieniają systemowy poziom wejściowy podczas Twojej mowy."
+        },
+        {
+          "q": "Czy nadal mogę samodzielnie zmienić poziom mikrofonu?",
+          "a": "Tak. Użyj suwaka w panelu Muffle; zaktualizuje on zablokowany poziom."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-on-mac",
+      "title": "Jak wyciszyć mikrofon na Macu: 4 skuteczne sposoby",
+      "description": "4 sposoby na wyciszenie mikrofonu na Macu: aplikacje, Ustawienia systemowe, globalny skrót i AirPods. Sprawdź, co działa wszędzie.",
+      "h1": "Jak wyciszyć mikrofon na Macu",
+      "intro": [
+        "Na Macu nie ma dedykowanego klawisza do wyciszania mikrofonu. W zależności od używanej aplikacji i sytuacji masz do wyboru kilka opcji, lecz tylko część z nich działa w każdym miejscu."
+      ],
+      "steps_title": "Twoje możliwości",
+      "steps": [
+        "Przycisk lub skrót w samej aplikacji do rozmów. Działa tylko w tym jednym programie i tylko wtedy, gdy jego okno jest aktywne.",
+        "Ustawienia systemowe, Dźwięk, Wejście. Przeciągnięcie suwaka do zera nie wycisza w pełni każdego mikrofonu, a programy mogą same zwiększyć głośność.",
+        "Globalny skrót klawiszowy w Muffle. Jeden klawisz wycisza sam mikrofon w każdej aplikacji.",
+        "Twoje słuchawki AirPods. Z Muffle naciśnięcie trzonka wycisza dowolne połączenie, w tym spotkanie w Google Meet w Chrome."
+      ],
+      "tips": [
+        "Ikona Muffle na pasku menu staje się czerwona, gdy mikrofon jest wyłączony, bez względu na aktywną aplikację.",
+        "Zamknięcie Muffle zawsze ponownie włącza mikrofon."
+      ],
+      "faq": [
+        {
+          "q": "Czy Mac ma wbudowane wyciszenie mikrofonu dla całego systemu?",
+          "a": "Nie ma rozwiązania ogólnosystemowego. macOS pozwala wyciszać mikrofon wyłącznie w aplikacjach, które to obsługują. Muffle zapewnia prawdziwe wyciszenie w całym systemie."
+        },
+        {
+          "q": "Czy wyciszenie w Muffle wycisza każdą aplikację?",
+          "a": "Tak. Muffle wyłącza każdy mikrofon na poziomie sprzętowym, więc żadna aplikacja Cię nie usłyszy, dopóki go nie włączysz."
+        }
+      ]
+    },
+    {
+      "slug": "youre-muted-reminder",
+      "title": "Przypomnienie „Masz wyciszony mikrofon” w aplikacjach na Macu",
+      "description": "Mówisz przy wyciszonym mikrofonie? Muffle wyświetla przypomnienie „Masz wyciszony mikrofon” w Google Meet, Zoom, Teams, Slack i innych aplikacjach na Macu.",
+      "h1": "Przypomnienie „Masz wyciszony mikrofon” w każdej aplikacji do połączeń",
+      "intro": [
+        "Zoom ostrzega, gdy mówisz z wyciszonym mikrofonem. Większość innych aplikacji tego nie robi, a rozmowy w przeglądarce prawie nigdy. Tłumaczysz coś przez minutę i dopiero po chwili zauważasz, że wszyscy czekają.",
+        "Muffle wykrywa mowę, gdy mikrofon jest wyciszony, i wyświetla przypomnienie w dowolnej aplikacji. Gdy połączenie korzysta z AirPods lub słuchawek, Muffle nasłuchuje przez wbudowany mikrofon Maca i sprawdza wyłącznie poziom głośności. Nic nie jest nagrywane."
+      ],
+      "steps_title": "Włącz przypomnienie",
+      "steps": [
+        "Zainstaluj Muffle i zezwól na dostęp do mikrofonu.",
+        "Upewnij się, że opcja „Przypomnij, gdy mówię z wyciszonym mikrofonem” jest włączona w Ustawieniach Muffle.",
+        "Dołącz do rozmowy z AirPods lub słuchawkami i wycisz mikrofon.",
+        "Zacznij mówić. Pojawi się przypomnienie „Masz wyciszony mikrofon”."
+      ],
+      "tips": [
+        "Dołączasz do rozmowy, mając wyciszony mikrofon po poprzednim spotkaniu? Muffle przypomni Ci o tym na samym początku połączenia.",
+        "Pisanie na klawiaturze nie wywołuje przypomnienia. Reaguje ono tylko na wyraźną mowę."
+      ],
+      "faq": [
+        {
+          "q": "Czy przypomnienie działa z wbudowanym mikrofonem Maca?",
+          "a": "Działa, gdy połączenie korzysta z AirPods lub słuchawek. Jeśli rozmowa korzysta z wbudowanego mikrofonu Maca, mikrofon ten jest wyciszony i nie może Cię słyszeć."
+        },
+        {
+          "q": "Czy mój dźwięk jest nagrywany?",
+          "a": "Nie. Muffle mierzy wyłącznie poziom głośności i nigdy nie przechowuje ani nie wysyła żadnego dźwięku."
+        }
+      ]
+    }
+  ],
+  "support": {
+    "title": "Wsparcie Muffle",
+    "description": "Pomoc dotycząca Muffle na Maca: konfiguracja naciśnięcia AirPods, skrót klawiszowy, zakupy i inne informacje.",
+    "h1": "Wsparcie",
+    "sections": [
+      {
+        "h": "Pierwsze kroki",
+        "items": [
+          "Muffle znajduje się na pasku menu. Kliknij ikonę mikrofonu, aby zobaczyć elementy sterujące, lub kliknij ją prawym przyciskiem myszy, aby od razu wyciszyć.",
+          "Podczas połączenia naciśnij trzonek AirPods, aby wyciszyć, i naciśnij ponownie, aby włączyć mikrofon.",
+          "Domyślny skrót to Control-Opcja-M. Naciśnij go, aby wyciszyć lub włączyć. Gdy mikrofon jest wyciszony, przytrzymaj go, aby mówić."
+        ]
+      },
+      {
+        "h": "Naciśnięcie AirPods nie wycisza mikrofonu",
+        "items": [
+          "Działa to tylko podczas połączenia, gdy aplikacja korzysta z mikrofonu.",
+          "Zezwól na dostęp do mikrofonu dla Muffle w Ustawieniach systemowych, w sekcji Prywatność i ochrona, Mikrofon.",
+          "Sprawdź, czy opcja „Wyciszanie i włączanie mikrofonu naciśnięciem AirPods” jest włączona w Ustawieniach Muffle.",
+          "Twoje AirPods muszą obsługiwać sterowanie połączeniami: AirPods Pro, AirPods 3 i nowsze lub AirPods Max."
+        ]
+      },
+      {
+        "h": "Aplikacja nadal pokazuje, że mikrofon jest włączony",
+        "items": [
+          "To normalne zachowanie. Muffle wyłącza sam mikrofon, więc każda aplikacja otrzymuje ciszę, mimo że nadal traktuje mikrofon jako aktywny. Zwracaj uwagę na ikonę Muffle na pasku menu: czerwony kolor oznacza, że nikt Cię nie słyszy."
+        ]
+      },
+      {
+        "h": "Zakupy",
+        "items": [
+          "Możesz wypróbować Muffle bezpłatnie przez 3 dni. Potem odblokujesz go jednorazowym zakupem. Brak subskrypcji.",
+          "Aby przywrócić zakup na innym Macu, otwórz Ustawienia Muffle i wybierz Przywróć zakup."
+        ]
+      }
+    ],
+    "contact_title": "Kontakt",
+    "contact_text": "Napisz do nas na adres"
+  },
+  "privacy_page": {
+    "title": "Polityka prywatności Muffle",
+    "description": "Muffle nigdy nie nagrywa, nie przechowuje ani nie wysyła dźwięku i nie gromadzi danych. Zobacz, jak aplikacja korzysta z mikrofonu.",
+    "h1": "Polityka prywatności",
+    "updated": "Ostatnia aktualizacja: 29 września 2026 r.",
+    "intro": "Muffle wycisza mikrofon Maca. Aplikacja została stworzona tak, aby nic, co mówisz, nigdy nie opuściło Twojego Maca.",
+    "sections": [
+      {
+        "h": "Jak Muffle korzysta z Twojego mikrofonu",
+        "p": [
+          "Podczas połączeń Muffle utrzymuje ciche połączenie z mikrofonem. macOS przekazuje naciśnięcie wyciszenia AirPods tylko do aplikacji, które korzystają z mikrofonu, dlatego to połączenie jest niezbędne do działania naciśnięcia AirPods.",
+          "Jeśli włączysz przypomnienie o mówieniu przy wyciszonym mikrofonie, Muffle mierzy także poziom głośności wbudowanego mikrofonu Maca podczas wyciszenia, aby zauważyć, kiedy zaczynasz mówić.",
+          "Muffle sprawdza wyłącznie wartości liczbowe głośności. Nigdy nie nagrywa, nie przechowuje, nie transkrybuje ani nie przesyła dźwięku."
+        ]
+      },
+      {
+        "h": "Gromadzone dane",
+        "p": [
+          "Żadne. Muffle nie ma kont użytkowników, nie korzysta z analityki, reklam ani śledzenia. Nie łączy się też z żadnymi naszymi serwerami."
+        ]
+      },
+      {
+        "h": "Zakupy",
+        "p": [
+          "Bezpłatny okres próbny oraz jednorazowy zakup są realizowane przez App Store firmy Apple. Apple obsługuje szczegóły płatności i nigdy nie mamy do nich dostępu. Do tych zakupów stosuje się polityka prywatności firmy Apple."
+        ]
+      },
+      {
+        "h": "Ustawienia przechowywane na Macu",
+        "p": [
+          "Twoje preferencje, takie jak skrót klawiszowy, pozostają na Macu w pamięci Muffle. Usunięcie Muffle usuwa je."
+        ]
+      }
+    ],
+    "contact": "Pytania dotyczące prywatności:"
+  }
+}

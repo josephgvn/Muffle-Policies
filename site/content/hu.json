@@ -1,0 +1,643 @@
+{
+  "meta": {
+    "home_title": "Muffle: Mac mikrofon némítása AirPods vagy gyorsbillentyű révén",
+    "home_description": "Mikrofon némítása Google Meet, Zoom, Teams és más hívásokban a Macen. AirPods megnyomása vagy egyetlen billentyűparancs. 3 napig ingyenes.",
+    "og_title": "Némítsa el a Mac mikrofonját bárhonnan.",
+    "og_subtitle": "Nyomja meg az AirPodsot vagy egy billentyűparancsot. Minden appban működik."
+  },
+  "nav": {
+    "features": "Funkciók",
+    "guides": "Útmutatók",
+    "support": "Támogatás",
+    "download": "Muffle letöltése",
+    "home": "Kezdőlap",
+    "menu": "Menü"
+  },
+  "cta": {
+    "download": "Letöltés a Mac App Store-ból",
+    "coming_soon": "Hamarosan a Mac App Store-ban",
+    "trial": "3 napig ingyenes. Utána egyszeri fizetés, nincs előfizetés.",
+    "requirements": "macOS 14 Sonoma és újabb rendszerekhez."
+  },
+  "hero": {
+    "title": "Némítsa el a Mac mikrofonját bárhonnan.",
+    "subtitle": "Nyomja meg az AirPodsot vagy egyetlen billentyűparancsot. A Muffle magát a mikrofont kapcsolja ki, így a Google Meet, a Zoom, a Teams, a Slack és az összes többi alkalmazás csak csendet hall.",
+    "image_alt": "A Muffle panelje a Mac menüsorában egy Google Meet hívás közben a Chrome-ban"
+  },
+  "works_with": {
+    "title": "Minden alkalmazással működik, amely használja a mikrofont",
+    "apps": [
+      "Google Meet",
+      "Zoom",
+      "Microsoft Teams",
+      "Slack",
+      "Discord",
+      "FaceTime",
+      "Webex",
+      "WhatsApp",
+      "Skype",
+      "SoWork",
+      "Gather",
+      "Chrome",
+      "Safari",
+      "Arc",
+      "Edge",
+      "Firefox"
+    ],
+    "note": "A Muffle hardverszinten némítja a mikrofont, így mindegy, melyik app, böngésző vagy lap használja éppen."
+  },
+  "features": {
+    "title": "Minden, amire a Macnek szüksége van egy hívás közben",
+    "items": [
+      {
+        "title": "Nyomja meg az AirPodsot a némításhoz",
+        "text": "Hívás közben nyomja meg egyszer a szárat a némításhoz, majd újra a visszakapcsoláshoz. Még a Chrome-ban is működik, ahol a Google Meet és más webes hívások figyelmen kívül hagyják az AirPods megnyomását."
+      },
+      {
+        "title": "Egyetlen billentyűparancs minden apphoz",
+        "text": "A Control-Option-M billentyűkombináció mindenhol némít, még akkor is, ha a hívás egy háttérben futó lapon van. Tartsa lenyomva a beszédhez, és engedje el az újbóli némításhoz."
+      },
+      {
+        "title": "„Némítva van” emlékeztető",
+        "text": "Ha némítás közben kezd el beszélni, a Muffle azonnal figyelmezteti, még mielőtt a semminek mondaná el a gondolatait."
+      },
+      {
+        "title": "Hívások robotpilótán",
+        "text": "Indítson minden hívást némítva, kapcsolja vissza a mikrofont a hívás végén, és némítson automatikusan, amikor zárolja a Mac képernyőjét."
+      },
+      {
+        "title": "Mindig tudhatja, hogy hallható-e",
+        "text": "Egy kis lebegő gomb mutatja a mikrofon állapotát a hívások során. Kattintson rá a némításhoz vagy a visszakapcsoláshoz."
+      },
+      {
+        "title": "A mikrofonszint nem állítódik el",
+        "text": "A Chrome, a Zoom és a Teams maguktól módosítják a mikrofonszintet. Rögzítse az értéket, és a Muffle azonnal visszaállítja."
+      },
+      {
+        "title": "Biztonság, ha lemerül az AirPods",
+        "text": "Ha a headset hívás közben lekapcsolódik, a Muffle még azelőtt némít, hogy a hívás átváltana a Mac mikrofonjára és beengedné a szoba teljes zaját."
+      },
+      {
+        "title": "Parancsikonok és Vezérlőközpont",
+        "text": "Némítson a Parancsikonok alkalmazásból, a Siri segítségével, Stream Deckről, Raycastből vagy a Vezérlőközpont egyetlen gombjával."
+      }
+    ],
+    "image_reminder_alt": "A „Némítva van” emlékeztető a képernyő alján",
+    "image_pills_alt": "A lebegő mini vezérlő némított és élő állapotban",
+    "image_automation_alt": "Muffle beállítások a hívások némított indításához és az automatizáláshoz"
+  },
+  "how": {
+    "title": "Beállítás egy perc alatt",
+    "steps": [
+      "Telepítse a Muffle appot a Mac App Store-ból, és engedélyezze a mikrofonhozzáférést.",
+      "Csatlakozzon egy híváshoz bármelyik alkalmazásban, a megszokott módon.",
+      "A némításhoz nyomja meg az AirPodsot, nyomja le a Control-Option-M billentyűket, vagy kattintson a menüsor ikonjára."
+    ]
+  },
+  "privacy": {
+    "title": "Alapértelmezetten privát",
+    "text": "A Muffle soha nem rögzít, nem tárol és nem küld hangot. Kizárólag be- és kikapcsolja a mikrofont, valamint leolvassa a hangerőt. Nincsenek fiókok, nincs analitika és nincs nyomkövetés."
+  },
+  "faq": {
+    "title": "Gyakori kérdések",
+    "items": [
+      {
+        "q": "Működik a Muffle a Google Meettel a Chrome-ban?",
+        "a": "Igen. A Chrome nem adja át az AirPods némítási parancsát a webes hívásoknak, ezért a Muffle fogadja a jelzést, és magát a mikrofont némítja le. Ugyanez igaz minden böngészőlapon futó hívásra."
+      },
+      {
+        "q": "Mások látni fogják, hogy némítva vagyok?",
+        "a": "A hívásalkalmazás továbbra is mutathatja a mikrofont bekapcsolva, mivel a Muffle magát a mikrofont kapcsolja ki, nem az app gombját. A többiek így is csendet hallanak. A Muffle ikonja a menüsorban pirosra vált, amíg némítva van."
+      },
+      {
+        "q": "Melyik AirPods modellekkel működik?",
+        "a": "Az AirPods Pro, az AirPods 3 és újabb típusokkal, valamint az AirPods Max modellel, továbbá a hívásvezérlést támogató Beats eszközökkel. A billentyűparancs és a menüsor bármilyen mikrofonnal működik."
+      },
+      {
+        "q": "Működik Zoom, Teams, Slack és Discord alatt?",
+        "a": "Igen. A Muffle minden olyan alkalmazással működik a Macen, amely mikrofont használ, legyen szó asztali alkalmazásról vagy böngészős hívásról."
+      },
+      {
+        "q": "Van előfizetési díj?",
+        "a": "Nincs. Próbáljon ki minden funkciót ingyenesen 3 napig, majd oldja fel a Muffle-t egyetlen egyszeri vásárlással."
+      },
+      {
+        "q": "Miért van szüksége a Muffle-nek mikrofonhozzáférésre?",
+        "a": "A macOS csak azoknak az alkalmazásoknak továbbítja az AirPods megnyomását, amelyek használják a mikrofont, így a Muffle hívások közben nyitva tart egy néma kapcsolatot. Semmit nem rögzít."
+      },
+      {
+        "q": "Mi történik, ha kilépek a Muffle-ből, miközben némítva vagyok?",
+        "a": "A Muffle kilépéskor automatikusan visszakapcsolja a mikrofont, így soha nem marad némítva a rendszer."
+      },
+      {
+        "q": "Melyik macOS verziók támogatottak?",
+        "a": "A macOS 14 Sonoma és újabb verziók. A Vezérlőközpont gombhoz macOS 26 vagy újabb verzió szükséges."
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Ne keresse többé a némítás gombot.",
+    "text": "A Muffle 3 napig ingyenesen kipróbálható."
+  },
+  "footer": {
+    "guides": "Útmutatók",
+    "product": "Muffle",
+    "support": "Támogatás",
+    "privacy": "Adatvédelmi szabályzat",
+    "language": "Nyelv",
+    "contact": "Kapcsolat",
+    "copyright": "© 2026 Muffle. Az AirPods és a Mac az Apple Inc. védjegyei."
+  },
+  "guides_index": {
+    "title": "Muffle útmutatók: Meet, Zoom és Teams némítása Macen",
+    "description": "Lépésről lépésre szóló útmutatók a Google Meet, Zoom, Teams, Slack és más hívások némításához Macen AirPods vagy billentyűparancs segítségével.",
+    "h1": "Útmutatók",
+    "intro": "Rövid, gyakorlati válaszok a Mac mikrofonjának némításához, minden alkalmazásban."
+  },
+  "guide_labels": {
+    "on_this_page": "Ezen az oldalon",
+    "faq": "Kérdések",
+    "related": "További útmutatók",
+    "try": "Próbálja ki a Muffle-t ingyen 3 napig",
+    "read": "Útmutató elolvasása"
+  },
+  "guides": [
+    {
+      "slug": "mute-google-meet-with-airpods",
+      "title": "Google Meet némítása AirPods segítségével Macen",
+      "description": "Az AirPods megnyomása Macen nem némítja a Google Meet hívást Chrome-ban. Így némíthatja a Meetet AirPods, billentyűparancs vagy a menüsor segítségével.",
+      "h1": "A Google Meet némítása AirPods segítségével Macen",
+      "intro": [
+        "iPhone-on az AirPods szárának megnyomása elnémítja a hívást. Macen a Google Meet a Chrome-ban fut, a Chrome pedig nem továbbítja ezt a megnyomást a weboldalaknak. Megnyomja, megszólal a hibajelzés, a Meet pedig továbbra is közvetíti a hangját.",
+        "A Muffle minden Meet-hívásnál megoldja ezt a problémát. Maga fogadja az AirPods megnyomását, és elnémítja a Mac mikrofonját, így a Meetben teljes a csend még akkor is, ha a lap a háttérben van."
+      ],
+      "steps_title": "A Google Meet némítása AirPods segítségével",
+      "steps": [
+        "Telepítse a Muffle alkalmazást, és kérésre engedélyezze a mikrofonhozzáférést.",
+        "Csatlakozzon a Google Meet híváshoz a Chrome, a Safari, az Arc vagy az Edge böngészőben.",
+        "A némításhoz nyomja meg egyszer az AirPods szárát. A Muffle ikonja pirosra vált.",
+        "A visszakapcsoláshoz nyomja meg újra. Bármelyik alkalmazásból megnyomhatja a Control-Option-M billentyűparancsot is."
+      ],
+      "tips": [
+        "A Meet továbbra is bekapcsolva mutathatja a mikrofont, mivel a Muffle magát a mikrofont némítja le, nem pedig a Meet gombját. Amíg a Muffle ikonja piros, a többiek semmit sem hallanak.",
+        "Kapcsolja be a „Minden hívás indítása némítva” beállítást, hogy minden Meet-híváshoz némítva csatlakozhasson."
+      ],
+      "faq": [
+        {
+          "q": "Miért nem némítja a Google Meetet az AirPods megnyomása?",
+          "a": "A Chrome nem támogatja a macOS AirPods-némítási kézmozdulatát webes hívásokhoz, így a macOS nem tudja melyik alkalmazásnak átadni a megnyomást. A Muffle lesz ez az alkalmazás."
+        },
+        {
+          "q": "Nem elég a Meet saját billentyűparancsa?",
+          "a": "A Meet Command-D parancsa csak akkor működik, ha a Meet lapja van elöl. A Muffle billentyűparancsa és az AirPods megnyomása bármelyik alkalmazásból működik."
+        }
+      ]
+    },
+    {
+      "slug": "mute-zoom-with-airpods",
+      "title": "Zoom némítása Macen AirPods vagy billentyűparancs révén",
+      "description": "Némítsa a Zoomot a Macen AirPods-megnyomással vagy globális billentyűparanccsal, akár a háttérből is. Működik az alkalmazásban és a böngészőben is.",
+      "h1": "A Zoom némítása AirPods vagy billentyűparancs segítségével Macen",
+      "intro": [
+        "A Zoom saját billentyűparancsa, a Command-Shift-A csak akkor működik, ha a Zoom ablaka aktív. Amikor jegyzetel vagy egy másik ablakot oszt meg, a némítás gomb keresgélése kellemetlen másodpercekbe telhet.",
+        "A Muffle egyetlen némítási lehetőséget ad a Zoomhoz és minden más alkalmazáshoz: az AirPodsot, egy globális billentyűparancsot vagy a menüsort. Magát a mikrofont némítja le, így működik a Zoom alkalmazásban és a böngészős Zoom-hívásokban is."
+      ],
+      "steps_title": "A Zoom némítása bárhonnan",
+      "steps": [
+        "Telepítse a Muffle-t, és engedélyezze a mikrofonhozzáférést.",
+        "Csatlakozzon a Zoom-értekezlethez a szokásos módon.",
+        "A némításhoz nyomja meg az AirPods szárát vagy a Control-Option-M billentyűparancsot bármelyik alkalmazásból.",
+        "Némítás közben tartsa lenyomva a Control-Option-M billentyűparancsot a beszédhez, majd engedje fel az ismételt némításhoz."
+      ],
+      "tips": [
+        "Ha a Zoom a Macen maga kezeli az AirPods megnyomását, a billentyűparancs és a menüsor továbbra is elnémítja a mikrofont a Muffle-ön keresztül.",
+        "A Zoom bekapcsolva mutathatja a mikrofont, miközben a Muffle kikapcsolta azt. A résztvevők semmit sem hallanak."
+      ],
+      "faq": [
+        {
+          "q": "A Muffle helyettesíti a Zoom némítás gombját?",
+          "a": "Párhuzamosan működik vele. A Muffle minden alkalmazásban kikapcsolja a mikrofont, így anélkül némíthatja a Zoomot, hogy át kellene váltania rá."
+        },
+        {
+          "q": "Használható az adó-vevő funkció a Zoomban?",
+          "a": "Igen. Némítás közben tartsa lenyomva a Muffle billentyűparancsát a beszédhez. Ez a Zoomban és minden más alkalmazásban is működik."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microsoft-teams-with-airpods",
+      "title": "Microsoft Teams némítása AirPods segítségével Macen",
+      "description": "Némítsa a Microsoft Teams hívásait Macen AirPods, globális billentyűparancs vagy a menüsor segítségével. Működik az alkalmazásban és a böngészőben is.",
+      "h1": "A Microsoft Teams némítása AirPods segítségével Macen",
+      "intro": [
+        "A Teams billentyűparancsa, a Command-Shift-M csak akkor működik, ha a Teams ablaka aktív. Egy értekezlet közben általában máshol jár a kurzor: egy dokumentumban, a böngészőben vagy a megosztott képernyőn.",
+        "A Muffle bárhonnan elnémítja a mikrofont, a Teams alkalmazásban és a webes Teamsben egyaránt. Nyomja meg az AirPodsot, üssön le egy billentyűparancsot, vagy kattintson a menüsorra."
+      ],
+      "steps_title": "A Teams némítása bárhonnan",
+      "steps": [
+        "Telepítse a Muffle-t, és engedélyezze a mikrofonhozzáférést.",
+        "Csatlakozzon a Teams-értekezlethez.",
+        "A némításhoz nyomja meg a Control-Option-M billentyűparancsot vagy az AirPods szárát. A menüsor ikonja pirosra vált.",
+        "Nyomja meg újra a visszakapcsoláshoz, vagy tartsa lenyomva a parancsot, ha némítás közben beszélne."
+      ],
+      "tips": [
+        "A böngészőlapon futó Teams a Muffle révén ugyanolyan AirPods-támogatást kap, mint a Google Meet.",
+        "Kapcsolja be a „Némítás a képernyő zárolásakor” funkciót, hogy távozáskor a mikrofon soha ne maradjon nyitva."
+      ],
+      "faq": [
+        {
+          "q": "Működik az AirPods megnyomása a Teams alkalmazásban?",
+          "a": "Ez a Teams verziójától függ, mivel a Teams maga is kezelheti a megnyomást. A Muffle billentyűparancsa és menüsoros gombja minden esetben működik."
+        },
+        {
+          "q": "A Teams némítottként fog mutatni?",
+          "a": "Nem feltétlenül. A Muffle magát a mikrofont némítja le, így a Teams bekapcsolt mikrofont jelezhet, miközben a többiek semmit sem hallanak."
+        }
+      ]
+    },
+    {
+      "slug": "mute-slack-huddles",
+      "title": "Slack huddle némítása billentyűparanccsal Macen",
+      "description": "Némítsa a Slack huddle beszélgetéseket Macen bármelyik alkalmazásból egy globális billentyűparanccsal vagy AirPodsszal. Nem kell keresgélni az ablakot.",
+      "h1": "Slack huddle némítása bármelyik alkalmazásból Macen",
+      "intro": [
+        "A Slack huddle vezérlői egy kisméretű ablakban találhatók, amely könnyen eltűnik a munkaablakok mögött, a némítási billentyűparancs pedig csak akkor működik, ha a Slack van előtérben.",
+        "A Muffle egyetlen billentyűparanccsal vagy egy AirPods-megnyomással némítja a mikrofont a Slackhez és minden más alkalmazáshoz, bárhol is jár a Macen."
+      ],
+      "steps_title": "Huddle némítása bárhonnan",
+      "steps": [
+        "Telepítse a Muffle-t, és engedélyezze a mikrofonhozzáférést.",
+        "Indítson el egy huddle beszélgetést a Slackben, vagy csatlakozzon hozzá.",
+        "A némításhoz nyomja meg a Control-Option-M billentyűparancsot vagy az AirPods szárát.",
+        "Vessen egy pillantást a menüsorra: a piros szín azt jelenti, hogy senki sem hallja."
+      ],
+      "tips": [
+        "A lebegő mini vezérlő minden huddle során mutatja a mikrofon állapotát.",
+        "Tartsa lenyomva a billentyűparancsot egy gyors hozzászóláshoz, miközben egyébként némítva marad."
+      ],
+      "faq": [
+        {
+          "q": "Működik a Slack alkalmazással és a böngészős Slackkel is?",
+          "a": "Igen. A Muffle magát a mikrofont némítja le, így mindkét esetben működik."
+        },
+        {
+          "q": "A csapattársak látni fogják, hogy némítva vagyok?",
+          "a": "Előfordulhat, hogy a Slack bekapcsolva mutatja a mikrofont. A többiek csendet hallanak, amíg a Muffle némítva tartja a mikrofont."
+        }
+      ]
+    },
+    {
+      "slug": "mute-discord-on-mac",
+      "title": "Discord gombnyomásos beszéd és némítási parancs Macen",
+      "description": "Használjon egyetlen billentyűparancsot a Discord némításához és a beszédhez Macen, vagy némítson az AirPodsszal. Alkalmazásban és böngészőben is működik.",
+      "h1": "Gombnyomásos beszéd és globális némítási billentyűparancs Discordhoz Macen",
+      "intro": [
+        "A Discord gombnyomásos beszéd funkciója extra engedélyeket igényel Macen, böngészős Discord esetén pedig egyáltalán nem működik. Ha közben Meet- vagy Zoom-hívásokhoz is csatlakozik, minden alkalmazáshoz külön némítási billentyűt kell megjegyeznie.",
+        "A Muffle egyetlen billentyűt biztosít mindegyikhez. Koppintson rá a némításhoz, tartsa lenyomva a beszédhez, vagy nyomja meg az AirPodsot."
+      ],
+      "steps_title": "A gombnyomásos beszéd beállítása Discordhoz",
+      "steps": [
+        "Telepítse a Muffle-t, és engedélyezze a mikrofonhozzáférést.",
+        "Csatlakozzon egy Discord-hangcsatornához.",
+        "A némításhoz vagy a visszakapcsoláshoz nyomja meg a Control-Option-M billentyűkombinációt. Némítás közben tartsa lenyomva a beszédhez.",
+        "Válasszon saját billentyűt a Muffle beállításaiban, például egy F-billentyűt."
+      ],
+      "tips": [
+        "A Muffle billentyűparancsa nem igényel Kisegítő lehetőségek engedélyt.",
+        "Zárolja a mikrofonszintet, hogy a Discord automatikus hangerőszabályzása ne módosítsa folyamatosan."
+      ],
+      "faq": [
+        {
+          "q": "Ez ugyanaz, mint a Discord gombnyomásos beszéd funkciója?",
+          "a": "Ugyanúgy működik, de egyszerre az összes alkalmazásban. A Muffle magát a mikrofont némítja le, így a Discord csendet érzékel, amíg le nem nyomja a billentyűt."
+        },
+        {
+          "q": "Elnémítható a Discord az AirPodsszal?",
+          "a": "Igen. Hanghívás közben nyomja meg az AirPods szárát a némításhoz vagy a visszakapcsoláshoz."
+        }
+      ]
+    },
+    {
+      "slug": "mute-webex-on-mac",
+      "title": "A Webex némítása bármelyik alkalmazásból Macen",
+      "description": "Némítsa el a Webex-értekezleteket a Macen egyetlen billentyűparanccsal vagy az AirPodsszal, még akkor is, ha nem a Webex az aktív ablak.",
+      "h1": "Hogyan némítható a Webex bármelyik alkalmazásból Macen",
+      "intro": [
+        "A Webex saját némítási billentyűparancsa csak akkor működik, ha a Webex ablaka van elöl, képernyőmegosztás közben pedig a vezérlői el is tűnnek.",
+        "A Muffle a Macen bárhonnan elnémítja a mikrofont, így anélkül némíthatja a Webex-értekezletet, hogy félbehagyná az aktuális munkáját."
+      ],
+      "steps_title": "Webex némítása bárhonnan",
+      "steps": [
+        "Telepítse a Muffle-t, és engedélyezze a mikrofonhozzáférést.",
+        "Csatlakozzon a Webex-értekezlethez.",
+        "A némításhoz nyomja meg a Control-Option-M billentyűkombinációt vagy az AirPods szárát.",
+        "Használja a lebegő mini vezérlőt a mikrofonszint és az állapot figyeléséhez képernyőmegosztás közben."
+      ],
+      "tips": [
+        "Előfordulhat, hogy a Webex továbbra is bekapcsolt mikrofont jelez. A résztvevők csendet hallanak, amíg a Muffle ikonja piros.",
+        "Nagyobb értekezletekhez kapcsolja be a „Minden hívás indítása némítva” beállítást."
+      ],
+      "faq": [
+        {
+          "q": "Működik a Muffle a böngészős Webexszel?",
+          "a": "Igen. Magát a mikrofont némítja le, ezért bármelyik Webex-klienssel működik."
+        },
+        {
+          "q": "Elnémítható a Webex az AirPodsszal?",
+          "a": "Igen, nyomja meg a szárat az értekezlet közben. A billentyűparancs bármilyen headsettel használható."
+        }
+      ]
+    },
+    {
+      "slug": "mute-browser-calls",
+      "title": "Webes hívások némítása Chrome, Safari és Arc böngészőben",
+      "description": "Némítson hívásokat Chrome, Safari, Arc, Edge és Firefox böngészőben az AirPodsszal vagy egy billentyűparanccsal. Google Meet, SoWork, Gather és más platformokhoz.",
+      "h1": "Hogyan némíthatók a hívások bármelyik böngészőlapon Macen",
+      "intro": [
+        "Egyre több hívás fut böngészőben: a Google Meet, a webes Teams, az olyan virtuális irodák, mint a SoWork és a Gather, valamint a Whereby és a Jitsi. Mindegyik saját némítási gombbal és billentyűparanccsal rendelkezik, és ezek csak akkor működnek, ha az adott lap van elöl.",
+        "A böngészők figyelmen kívül hagyják az AirPods szárának megnyomását is Macen. A Muffle fogadja a megnyomást, vagy egyetlen billentyűparancsot használva az összes lapon egyszerre némítja el a mikrofont."
+      ],
+      "steps_title": "Bármilyen webes hívás némítása",
+      "steps": [
+        "Telepítse a Muffle-t, és engedélyezze a mikrofonhozzáférést.",
+        "Nyissa meg a hívást bármelyik böngészőlapon.",
+        "A némításhoz nyomja meg az AirPods szárát vagy a Control-Option-M billentyűkombinációt bármelyik alkalmazásból vagy lapról.",
+        "Figyelje a menüsor ikont: a piros szín azt jelzi, hogy a mikrofon ki van kapcsolva."
+      ],
+      "tips": [
+        "A virtuális irodák órákon át nyitva tartják a mikrofont. Kapcsolja be a lebegő mini vezérlőt, hogy mindig lássa az állapotot.",
+        "Az „Emlékeztető, ha némítás közben beszél” figyelmezteti, ha némított mikrofonnal kezdene el beszélni."
+      ],
+      "faq": [
+        {
+          "q": "Miért nem működik az AirPods megnyomása a Chrome-ban?",
+          "a": "A Chrome weboldalak esetén nem támogatja a macOS AirPods-némítási kézmozdulatát. A Muffle átveszi a megnyomást, és magát a mikrofont némítja le."
+        },
+        {
+          "q": "Működik a SoWork és a Gather szolgáltatással?",
+          "a": "Igen. Minden olyan webhely elnémul, amely a mikrofont használja, amikor a Muffle kikapcsolja a mikrofont."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-mute-not-working-on-mac",
+      "title": "Nem működik az AirPods némítás Macen? Megoldás a hibára",
+      "description": "Az AirPods szárának megnyomásakor hibajelzés szólal meg, és nem némul el a hívás? Így némíthat el vele bármilyen hívást és alkalmazást Macen egyszerűen.",
+      "h1": "Nem működik az AirPods némítása a Macen? Itt a megoldás",
+      "intro": [
+        "A macOS lehetővé teszi a hívások némítását az AirPods szárának megnyomásával, de csak akkor, ha a hívásalkalmazás támogatja ezt. Sok alkalmazás nem támogatja, beleértve a Chrome-ot és a benne futó webes hívásokat is. Megnyomja a szárat, egy rövid hibajelzést hall, megjelenik egy hibaüzenet, a hívásban pedig továbbra is mindenki hallja Önt.",
+        "A Muffle elhozza ezt a támogatást minden alkalmazásba. Fogadja a megnyomást, elnémítja a Mac mikrofonját, és lejátssza a megszokott némítási hangjelzést."
+      ],
+      "steps_title": "Az AirPods megnyomásának beállítása bármelyik alkalmazáshoz",
+      "steps": [
+        "Telepítse a Muffle-t, és engedélyezze a mikrofonhozzáférést. A macOS csak olyan alkalmazásoknak adja át a megnyomást, amelyek használhatják a mikrofont.",
+        "Ellenőrizze, hogy a „Némítás és visszakapcsolás AirPods-megnyomással” be van-e kapcsolva a Muffle beállításaiban.",
+        "Csatlakozzon egy híváshoz. A megnyomás csak akkor némít, ha egy alkalmazás éppen használja a mikrofont.",
+        "Nyomja meg a szárat egyszer a némításhoz, majd még egyszer a visszakapcsoláshoz."
+      ],
+      "tips": [
+        "Hívásokon kívül a szár megnyomása továbbra is a megszokott módon indítja el vagy állítja le a zenelejátszást.",
+        "Ha az AirPods más gombnyomást használ a hívásvezérléshez, ellenőrizze az AirPods beállításait a Rendszerbeállítások menüben."
+      ],
+      "faq": [
+        {
+          "q": "Miért játszik le hibahangot a Mac az AirPods megnyomásakor?",
+          "a": "Az az alkalmazás, amelyből a hívást indította, nem támogatja az AirPods némítási kézmozdulatát, ezért a macOS elutasítja. Amikor a Muffle fut, a megnyomás megbízhatóan elnémítja a mikrofont."
+        },
+        {
+          "q": "Mely AirPods modellek támogatják a némítási megnyomást?",
+          "a": "Az AirPods Pro, az AirPods 3 és újabb modellek, az AirPods Max, valamint a hívásvezérlést támogató Beats modellek."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-keyboard-shortcut-mac",
+      "title": "Mac mikrofon némítása billentyűparanccsal",
+      "description": "Állítson be egy globális billentyűparancsot a Mac mikrofonjának némításához minden alkalmazásban. Nem szükséges Kisegítő lehetőségek engedély.",
+      "h1": "Mikrofon némítása Macen billentyűparancs segítségével",
+      "intro": [
+        "A macOS külön billentyűvel rendelkezik a diktáláshoz, a mikrofon némításához viszont nincs beépített gomb. Minden hívásalkalmazás saját billentyűparancsot használ, amely ráadásul csak akkor működik, ha az adott ablak van elöl.",
+        "A Muffle egyetlen billentyűparancsot biztosít, amely magát a mikrofont némítja le, egyszerre minden alkalmazásban. Az alapértelmezett beállítás a Control-Option-M, de bármilyen kombinációt választhat."
+      ],
+      "steps_title": "Némítás egyetlen billentyűparanccsal",
+      "steps": [
+        "Telepítse a Muffle alkalmazást.",
+        "Nyomja meg a Control-Option-M billentyűkombinációt a némításhoz. A menüsor ikonja pirosra vált, és megjelenik a kis „Némítva” visszajelzés.",
+        "Nyomja meg újra a visszakapcsoláshoz.",
+        "A módosításhoz nyissa meg a Muffle beállításait, kattintson a billentyűparancsra, és üsse le az új kombinációt."
+      ],
+      "tips": [
+        "Némítás közben tartsa lenyomva a billentyűparancsot a beszédhez, majd engedje el az ismételt némításhoz.",
+        "Kattintson jobb gombbal a Muffle menüsor ikonjára az azonnali némításhoz az egérrel."
+      ],
+      "faq": [
+        {
+          "q": "Működik a billentyűparancs akkor is, ha nem a hívás ablaka van elöl?",
+          "a": "Igen. Bármelyik alkalmazásból működik, beleértve a teljes képernyős appokat is."
+        },
+        {
+          "q": "Használhatok egyetlen billentyűt, például az F5-öt?",
+          "a": "Igen. A funkcióbillentyűk önmagukban is működnek; a többi billentyűhöz a Control, az Option vagy a Command módosító szükséges."
+        }
+      ]
+    },
+    {
+      "slug": "push-to-talk-on-mac",
+      "title": "Push-to-talk funkció Macen minden alkalmazáshoz",
+      "description": "Használjon push-to-talk funkciót Macen a Zoom, Google Meet, Teams, Discord és más appokban. Tartsa lenyomva a gombot a beszédhez.",
+      "h1": "Push-to-talk Macen, minden alkalmazásban",
+      "intro": [
+        "A push-to-talk funkció némítva tartja a mikrofont, amíg le nem nyom egy billentyűt. Ez a legkényelmesebb megoldás nagy értekezleteken vagy zajos szobákban, mégis kevés alkalmazás támogatja, és mindegyik más gombot használ.",
+        "A Muffle push-to-talk funkciót ad a Mac összes alkalmazásához. Maradjon némítva, tartsa lenyomva a billentyűparancsot a beszédhez, majd engedje el a némításhoz."
+      ],
+      "steps_title": "A push-to-talk használata",
+      "steps": [
+        "Telepítse a Muffle alkalmazást.",
+        "Némítsa el a mikrofont a Control-Option-M kombinációval vagy az AirPods megnyomásával.",
+        "Beszéd közben tartsa lenyomva a Control-Option-M billentyűparancsot.",
+        "Engedje el a gombot, és a mikrofon újra némítva lesz."
+      ],
+      "tips": [
+        "A billentyűparancs egyszeri megnyomása átkapcsolja a némítást. A lenyomva tartása pedig a push-to-talk.",
+        "Válasszon egy kényelmes gombot a Muffle beállításaiban, például az egyik F billentyűt."
+      ],
+      "faq": [
+        {
+          "q": "Működik a push-to-talk a Google Meet alatt?",
+          "a": "Igen. A Muffle magát a mikrofont némítja le, így a push-to-talk működik a Meet, Zoom, Teams, Discord és bármely más alkalmazásban."
+        },
+        {
+          "q": "Létezik push-to-mute funkció is?",
+          "a": "Igen. Ha a mikrofon be van kapcsolva, a billentyűparancs lenyomva tartása elnémítja a mikrofont, amíg el nem engedi."
+        }
+      ]
+    },
+    {
+      "slug": "stop-apps-changing-mic-volume",
+      "title": "Mikrofon hangerejének zárolása Macen Chrome és Zoom mellett",
+      "description": "A Google Meet, a Chrome és a Zoom állandóan módosítja a mikrofon szintjét Macen. Zárolja a mikrofonszintet, hogy semelyik app ne állíthassa el.",
+      "h1": "Hogyan akadályozható meg a mikrofon hangerejének elállítása Macen",
+      "intro": [
+        "Számos hívásalkalmazás magától módosítja a bemeneti szintet az automatikus erősítésszabályozás révén. Beállít egy jó szintet a Rendszerbeállítások menüben, csatlakozik egy Google Meet híváshoz, pár perc múlva pedig a csúszka elmozdul, és a többiek panaszkodnak, hogy halk vagy torz a hangja.",
+        "A Muffle képes zárolni a mikrofonszintet. Ha bármelyik alkalmazás módosítja, a Muffle azonnal visszaállítja az eredeti értékre."
+      ],
+      "steps_title": "A mikrofonszint zárolása",
+      "steps": [
+        "Telepítse a Muffle alkalmazást.",
+        "Kattintson a Muffle ikonjára a menüsorban, és állítsa be a kívánt szintet a mikrofoncsúszkával.",
+        "Kattintson a csúszka melletti lakat ikonra.",
+        "Csatlakozzon a hívásokhoz. A hangerő pontosan ott marad, ahol beállította."
+      ],
+      "tips": [
+        "A Muffle figyelmezteti a panelen, ha a mikrofonszint túl alacsony egy hívás közben.",
+        "A zárolás minden mikrofonhoz külön megjegyzi a szintet, így az AirPods és a Mac beépített mikrofonja is a saját értékét őrzi meg."
+      ],
+      "faq": [
+        {
+          "q": "Miért változik folyamatosan a Mac mikrofonjának hangereje?",
+          "a": "Az olyan alkalmazások, mint a Chrome, a Zoom vagy a Teams automatikus erősítésszabályozást használnak, és beszéd közben módosítják a rendszer bemeneti szintjét."
+        },
+        {
+          "q": "Ettől függetlenül én magam még tudom módosítani a szintet?",
+          "a": "Igen. Használja a Muffle paneljén lévő csúszkát; ez automatikusan frissíti a zárolt szintet."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-on-mac",
+      "title": "Mac mikrofon némítása: 4 egyszerű módszer",
+      "description": "Négy módszer a Mac mikrofonjának némítására: hívásapp gombja, Rendszerbeállítások, globális billentyűparancs és AirPods. Melyik működik mindenhol?",
+      "h1": "Hogyan némítható el a mikrofon Macen",
+      "intro": [
+        "A Mac billentyűzetén nincs külön gomb a mikrofon némítására. Az alkalmazástól és a helyzettől függően több lehetőség is létezik, de ezek közül csak néhány működik mindenhol."
+      ],
+      "steps_title": "A választható lehetőségek",
+      "steps": [
+        "A hívásalkalmazás saját gombja vagy billentyűparancsa. Ez kizárólag az adott appban működik, és csak akkor, ha az ablak van elöl.",
+        "Rendszerbeállítások, Hang, Bemenet. A bemeneti szint nullára húzása nem minden mikrofonnál jelent valódi némítást, és az alkalmazások újra felhangosíthatják.",
+        "Globális billentyűparancs a Muffle segítségével. Egyetlen billentyű magát a mikrofont némítja le, minden alkalmazásban.",
+        "Az AirPods fülhallgató. A Muffle használatával a szár megnyomása bármelyik hívást elnémítja, beleértve a Google Meet hívásokat is Chrome-ban."
+      ],
+      "tips": [
+        "A Muffle menüsor ikonja pirosra vált, amíg a mikrofon ki van kapcsolva, függetlenül attól, hogy melyik alkalmazást használja éppen.",
+        "A Muffle bezárása mindig visszakapcsolja a mikrofont."
+      ],
+      "faq": [
+        {
+          "q": "Van beépített mikrofongomb a némításhoz a Macen?",
+          "a": "Rendszerszintű megoldás nincs. A macOS csak azokban az alkalmazásokban némítja el a mikrofont, amelyek ezt támogatják. A Muffle valódi rendszerszintű némítást nyújt."
+        },
+        {
+          "q": "A Muffle általi némítás minden alkalmazást elnémít?",
+          "a": "Igen. A Muffle minden mikrofont hardverszinten kapcsol ki, így semelyik alkalmazás nem hallja önt, amíg vissza nem kapcsolja a némítást."
+        }
+      ]
+    },
+    {
+      "slug": "youre-muted-reminder",
+      "title": "„Némítva van” emlékeztető minden Mac-alkalmazásban",
+      "description": "Némítás közben beszél? A Muffle észleli, és megjeleníti a „Némítva van” emlékeztetőt a Google Meet, Zoom, Teams és egyéb hívásokban.",
+      "h1": "„Némítva van” emlékeztető minden hívásalkalmazáshoz",
+      "intro": [
+        "A Zoom figyelmeztet, ha némítás közben beszél. A legtöbb más alkalmazás nem teszi ezt, a webes videohívás pedig szinte soha. Egy perce magyaráz valamit, mire észreveszi, hogy mindenki csak vár Önre az értekezleten.",
+        "A Muffle figyeli a beszédet, amíg a mikrofon némítva van, és emlékeztetőt jelenít meg bármelyik alkalmazásban. Amikor a hívás AirPodsot vagy headsetet használ, a Mac saját mikrofonját figyeli, és kizárólag a hangerőt méri. Semmi nem kerül rögzítésre."
+      ],
+      "steps_title": "Az emlékeztető bekapcsolása",
+      "steps": [
+        "Telepítse a Muffle-t, és engedélyezze a mikrofonhozzáférést.",
+        "Győződjön meg róla, hogy az „Emlékeztessen, ha némítás közben beszélek” be van kapcsolva a Muffle beállításaiban.",
+        "Csatlakozzon egy híváshoz AirPodsszal vagy headsettel, majd némítsa el a mikrofont.",
+        "Kezdjen el beszélni. Megjelenik a „Némítva van” emlékeztető."
+      ],
+      "tips": [
+        "Úgy csatlakozik egy híváshoz, hogy az előző konferencia után némítva maradt? A Muffle azonnal emlékezteti, amint a hívás elindul.",
+        "A gépelés nem aktiválja az emlékeztetőt. Csak a folyamatos beszéd váltja ki a távmunka során."
+      ],
+      "faq": [
+        {
+          "q": "Működik az emlékeztető a Mac beépített mikrofonjával?",
+          "a": "Akkor működik, ha a hívás AirPodsot vagy headsetet használ. Ha a hívás a Mac saját mikrofonját használja, az a mikrofon némítva van, így nem hallja Önt."
+        },
+        {
+          "q": "Rögzítésre kerül a hangom?",
+          "a": "Nem. A Muffle kizárólag a hangerőt méri, és soha nem tárol vagy küld el semmilyen hanganyagot."
+        }
+      ]
+    }
+  ],
+  "support": {
+    "title": "Muffle támogatás",
+    "description": "Segítség a Muffle Maces használatához: AirPods beállítása, billentyűparancsok, vásárlás és egyebek.",
+    "h1": "Támogatás",
+    "sections": [
+      {
+        "h": "Kezdeti lépések",
+        "items": [
+          "A Muffle a menüsorban él. Kattintson a mikrofon ikonra a vezérlőkhöz, vagy kattintson rá jobb gombbal az azonnali némításhoz.",
+          "Hívás közben nyomja meg az AirPods szárát a némításhoz, majd nyomja meg újra a visszakapcsoláshoz.",
+          "Az alapértelmezett billentyűparancs a Control-Option-M. Nyomja meg a némításhoz vagy a visszakapcsoláshoz. Némítás közben tartsa lenyomva a beszédhez."
+        ]
+      },
+      {
+        "h": "Az AirPods megnyomása nem némít",
+        "items": [
+          "Csak hívás közben működik, miközben egy alkalmazás aktívan használja a mikrofont.",
+          "Engedélyezze a mikrofonhozzáférést a Muffle számára a Rendszerbeállítások, Adatvédelem és biztonság, Mikrofon menüpontban.",
+          "Ellenőrizze, hogy a „Némítás és visszakapcsolás AirPods-megnyomással” beállítás be van-e kapcsolva a Muffle beállításaiban.",
+          "Az AirPods modellnek támogatnia kell a hívásvezérlést: AirPods Pro, AirPods 3 és újabb típusok, illetve AirPods Max."
+        ]
+      },
+      {
+        "h": "A hívásalkalmazás még mindig bekapcsolva mutatja a mikrofont",
+        "items": [
+          "Ez a várt működés. A Muffle magát a mikrofont kapcsolja ki, így minden app csendet kap, miközben azt hiszi, a mikrofon aktív. Figyelje a menüsorban lévő Muffle ikont: ha piros, senki sem hallja önt."
+        ]
+      },
+      {
+        "h": "Vásárlások",
+        "items": [
+          "A Muffle 3 napig ingyenesen kipróbálható. Utána egyetlen egyszeri vásárlással oldhatja fel. Nincs előfizetés.",
+          "A vásárlás másik Macen való visszaállításához nyissa meg a Muffle beállításait, és válassza a Vásárlás visszaállítása lehetőséget."
+        ]
+      }
+    ],
+    "contact_title": "Kapcsolat",
+    "contact_text": "Írjon nekünk e-mailt:"
+  },
+  "privacy_page": {
+    "title": "Muffle adatvédelmi szabályzat",
+    "description": "A Muffle soha nem rögzít, nem tárol és nem továbbít hangot, és semmilyen adatot nem gyűjt. Tudja meg, hogyan használja a mikrofont.",
+    "h1": "Adatvédelmi szabályzat",
+    "updated": "Utolsó frissítés: 2026. szeptember 29.",
+    "intro": "A Muffle a Mac mikrofonját némítja le. Úgy lett megtervezve, hogy semmi, amit mond, soha ne hagyhassa el a Macet.",
+    "sections": [
+      {
+        "h": "Mit tesz a Muffle a mikrofonnal?",
+        "p": [
+          "Hívások közben a Muffle egy néma kapcsolatot tart fenn a mikrofonnal. A macOS csak olyan alkalmazásoknak adja át az AirPods némítási megnyomását, amelyek használják a mikrofont, ezért ez a kapcsolat teszi lehetővé az AirPods vezérlés működését.",
+          "Ha bekapcsolja az „Emlékeztető, ha némítás közben beszél” funkciót, a Muffle némítás alatt méri a Mac beépített mikrofonjának hangerejét is, hogy érzékelje, mikor kezdett el beszélni.",
+          "A Muffle kizárólag a hangerőértékeket vizsgálja. Soha nem rögzíti, nem tárolja, nem írja át szöveggé és nem továbbítja a hangot."
+        ]
+      },
+      {
+        "h": "Gyűjtött adatok",
+        "p": [
+          "Egyetlen adatot sem gyűjtünk. A Muffle nem használ felhasználói fiókokat, analitikát, hirdetéseket vagy nyomkövetést. Semmilyen saját szerverünkkel nem lép kapcsolatba."
+        ]
+      },
+      {
+        "h": "Vásárlások",
+        "p": [
+          "Az ingyenes próbaidőszak és az egyszeri vásárlás az Apple App Store-ján keresztül történik. A fizetési adatokat az Apple kezeli, mi soha nem látjuk azokat. Ezekre a vásárlásokra az Apple adatvédelmi szabályzata érvényes."
+        ]
+      },
+      {
+        "h": "A Macen tárolt beállítások",
+        "p": [
+          "A beállítások, például a megadott billentyűparancs, helyben, a Macen maradnak a Muffle saját tárhelyén. A Muffle törlésével ezek a beállítások is törlődnek."
+        ]
+      }
+    ],
+    "contact": "Kérdések az adatvédelemmel kapcsolatban:"
+  }
+}

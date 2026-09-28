@@ -1,0 +1,643 @@
+{
+  "meta": {
+    "home_title": "Muffle: Mac-Mikrofon stummschalten mit AirPods oder Hotkey",
+    "home_description": "Mikrofon stummschalten in Google Meet, Zoom, Teams und jeder Mac-App. Per AirPods-Druck oder Hotkey. Push-to-Talk fürs Homeoffice. 3 Tage kostenlos.",
+    "og_title": "Schalte dein Mac-Mikrofon von überall aus stumm.",
+    "og_subtitle": "Per AirPods-Druck oder Tastenkürzel. Funktioniert in jeder App."
+  },
+  "nav": {
+    "features": "Funktionen",
+    "guides": "Anleitungen",
+    "support": "Support",
+    "download": "Muffle laden",
+    "home": "Startseite",
+    "menu": "Menü"
+  },
+  "cta": {
+    "download": "Laden im Mac App Store",
+    "coming_soon": "Bald im Mac App Store erhältlich",
+    "trial": "3 Tage kostenlos testen. Danach einmalige Zahlung, kein Abo.",
+    "requirements": "Für macOS 14 Sonoma und neuer."
+  },
+  "hero": {
+    "title": "Schalte dein Mac-Mikrofon von überall aus stumm.",
+    "subtitle": "Drücke deine AirPods oder ein Tastenkürzel. Muffle schaltet das Mikrofon selbst aus, damit Google Meet, Zoom, Teams, Slack und jede andere App Stille hören.",
+    "image_alt": "Das Muffle-Bedienfeld in der Mac-Menüleiste während eines Google Meet Anrufs in Chrome"
+  },
+  "works_with": {
+    "title": "Funktioniert mit jeder App, die dein Mikrofon nutzt",
+    "apps": [
+      "Google Meet",
+      "Zoom",
+      "Microsoft Teams",
+      "Slack",
+      "Discord",
+      "FaceTime",
+      "Webex",
+      "WhatsApp",
+      "Skype",
+      "SoWork",
+      "Gather",
+      "Chrome",
+      "Safari",
+      "Arc",
+      "Edge",
+      "Firefox"
+    ],
+    "note": "Muffle schaltet das Mikrofon auf Hardware-Ebene stumm. Es spielt also keine Rolle, welche App, welcher Browser oder welcher Tab aktiv ist."
+  },
+  "features": {
+    "title": "Alles, was dein Mac im Anruf können sollte",
+    "items": [
+      {
+        "title": "Mit einem AirPods-Druck stummschalten",
+        "text": "Drücke während eines Anrufs einmal auf den Stiel, um stummzuschalten, und noch einmal, um es aufzuheben. Funktioniert auch in Chrome, wo Google Meet und andere Webanrufe den AirPods-Druck ignorieren."
+      },
+      {
+        "title": "Ein Tastenkürzel für jede App",
+        "text": "Control-Wahltaste-M schaltet dich überall stumm, selbst wenn der Anruf in einem Hintergrund-Tab läuft. Halte die Tasten für Push-to-Talk einfach gedrückt und lass los, um wieder stumm zu sein."
+      },
+      {
+        "title": "Eine Erinnerung: „Du bist stummgeschaltet“",
+        "text": "Wenn du bei Stummschaltung sprichst, erinnert dich Muffle sofort daran, bevor du deinen ganzen Gedanken ins Leere sprichst."
+      },
+      {
+        "title": "Anrufe auf Autopilot",
+        "text": "Jeden Anruf stummgeschaltet starten, das Mikrofon nach Gesprächsende wieder einschalten und sofort stummschalten, wenn du deinen Mac sperrst."
+      },
+      {
+        "title": "Immer wissen, ob du live bist",
+        "text": "Ein kleiner schwebender Button zeigt den Mikrofonstatus bei Anrufen. Klicke darauf, um stumm- oder freizuschalten."
+      },
+      {
+        "title": "Dein Mikrofonpegel bleibt fest",
+        "text": "Chrome, Zoom und Teams verstellen deinen Mikrofonpegel oft eigenmächtig. Fixiere ihn und Muffle setzt ihn sofort zurück."
+      },
+      {
+        "title": "Sicherheit bei leerem Akku",
+        "text": "Wenn dein Kopfhörer mitten im Meeting die Verbindung verliert, schaltet Muffle sofort stumm, bevor das Mac-Mikrofon übernimmt und den ganzen Raum überträgt."
+      },
+      {
+        "title": "Kurzbefehle und Kontrollzentrum",
+        "text": "Stummschalten über die App Kurzbefehle, Siri, ein Stream Deck, Raycast oder eine Taste im Kontrollzentrum."
+      }
+    ],
+    "image_reminder_alt": "Die Erinnerung „Du bist stummgeschaltet“ am unteren Bildschirmrand",
+    "image_pills_alt": "Der schwebende Mini-Controller im stummgeschalteten und aktiven Zustand",
+    "image_automation_alt": "Muffle-Einstellungen für automatische Stummschaltung bei Anrufen"
+  },
+  "how": {
+    "title": "In einer Minute eingerichtet",
+    "steps": [
+      "Installiere Muffle aus dem Mac App Store und erlaube den Mikrofonzugriff.",
+      "Tritt wie gewohnt einem Anruf in einer beliebigen App bei.",
+      "Drücke deine AirPods, drücke Control-Wahltaste-M oder klicke auf das Menüleistensymbol zum Stummschalten."
+    ]
+  },
+  "privacy": {
+    "title": "Datenschutz von Grund auf",
+    "text": "Muffle zeichnet niemals Audio auf, speichert es nicht und sendet es nicht. Die App schaltet nur dein Mikrofon ein oder aus und liest die Lautstärke ab. Keine Benutzerkonten, keine Analyse, kein Tracking."
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "items": [
+      {
+        "q": "Funktioniert Muffle mit Google Meet in Chrome?",
+        "a": "Ja. Chrome leitet den AirPods-Druck nicht an Webanrufe weiter. Muffle nimmt den Tastendruck entgegen und schaltet das Mikrofon selbst stumm. Das gilt für jeden Anruf in einem Browser-Tab."
+      },
+      {
+        "q": "Sehen andere Teilnehmer, dass ich stummgeschaltet bin?",
+        "a": "Deine Konferenz-App zeigt das Mikrofon eventuell noch als aktiv an, weil Muffle die Hardware ausschaltet statt des App-Buttons. Die anderen hören in jedem Fall Stille. Das Muffle-Symbol in der Menüleiste wird rot, wenn du stummgeschaltet bist."
+      },
+      {
+        "q": "Welche AirPods werden unterstützt?",
+        "a": "AirPods Pro, AirPods 3 und neuer sowie AirPods Max, außerdem Beats-Modelle mit Anrufsteuerung. Das Tastenkürzel und die Menüleiste funktionieren mit jedem Mikrofon."
+      },
+      {
+        "q": "Funktioniert Muffle mit Zoom, Teams, Slack und Discord?",
+        "a": "Ja. Muffle funktioniert mit jeder Mac-App, die das Mikrofon nutzt, egal ob Desktop-Programm oder Videoanruf im Browser."
+      },
+      {
+        "q": "Gibt es ein Abo?",
+        "a": "Nein. Teste alle Funktionen 3 Tage kostenlos. Danach kannst du Muffle mit einem einmaligen Kauf dauerhaft freischalten."
+      },
+      {
+        "q": "Warum benötigt Muffle Zugriff auf das Mikrofon?",
+        "a": "macOS leitet den AirPods-Druck nur an Apps weiter, die das Mikrofon verwenden dürfen. Muffle hält daher während Anrufen eine stille Verbindung offen. Es wird nichts aufgezeichnet."
+      },
+      {
+        "q": "Was passiert, wenn ich Muffle beende, während ich stumm bin?",
+        "a": "Muffle aktiviert dein Mikrofon beim Beenden automatisch wieder, damit du nie versehentlich stumm bleibst."
+      },
+      {
+        "q": "Welche macOS-Versionen werden unterstützt?",
+        "a": "macOS 14 Sonoma und neuer. Für die Taste im Kontrollzentrum ist macOS 26 oder neuer erforderlich."
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Schluss mit der Suche nach dem Stummschalt-Button.",
+    "text": "Muffle kannst du 3 Tage kostenlos testen."
+  },
+  "footer": {
+    "guides": "Anleitungen",
+    "product": "Muffle",
+    "support": "Support",
+    "privacy": "Datenschutz",
+    "language": "Sprache",
+    "contact": "Kontakt",
+    "copyright": "© 2026 Muffle. AirPods und Mac sind Marken von Apple Inc."
+  },
+  "guides_index": {
+    "title": "Muffle Anleitungen: Mikrofon stummschalten am Mac",
+    "description": "Anleitungen zum Stummschalten von Google Meet, Zoom, Teams, Slack und Discord am Mac mit AirPods oder Hotkey. Push-to-Talk leicht gemacht.",
+    "h1": "Anleitungen",
+    "intro": "Kurze, praktische Antworten zum Stummschalten deines Mikrofons am Mac in jeder App."
+  },
+  "guide_labels": {
+    "on_this_page": "Auf dieser Seite",
+    "faq": "Häufige Fragen",
+    "related": "Weitere Anleitungen",
+    "try": "Muffle 3 Tage kostenlos testen",
+    "read": "Anleitung lesen"
+  },
+  "guides": [
+    {
+      "slug": "mute-google-meet-with-airpods",
+      "title": "Google Meet mit AirPods stummschalten auf dem Mac",
+      "description": "AirPods stummschalten in Google Meet klappt in Chrome nicht direkt. So schaltest du dein Mikrofon per Tastenkürzel, AirPods oder Menüleiste stumm.",
+      "h1": "So schaltest du Google Meet mit AirPods auf dem Mac stumm",
+      "intro": [
+        "Auf dem iPhone schaltet ein Druck auf den AirPods-Stiel deinen Anruf stumm. Auf dem Mac läuft Google Meet in Chrome, und Chrome leitet diesen Druck nicht an Webseiten weiter. Du drückst, hörst einen Fehlerton und Meet überträgt deine Stimme einfach weiter.",
+        "Muffle löst das für jedes Meet-Meeting. Es empfängt den AirPods-Druck selbst und schaltet das Mikrofon deines Mac stumm. So hört Meet nichts mehr, selbst wenn der Tab im Hintergrund liegt."
+      ],
+      "steps_title": "Google Meet mit deinen AirPods stummschalten",
+      "steps": [
+        "Installiere Muffle und erlaube den Mikrofonzugriff, wenn du gefragt wirst.",
+        "Tritt deinem Google Meet Anruf in Chrome, Safari, Arc oder Edge bei.",
+        "Drücke einmal auf den AirPods-Stiel, um stummzuschalten. Das Muffle-Symbol wird rot.",
+        "Drücke noch einmal, um das Mikrofon zu aktivieren. Du kannst auch aus jeder App heraus Control-Wahltaste-M drücken."
+      ],
+      "tips": [
+        "Meet zeigt dein Mikrofon eventuell noch als aktiv an, weil Muffle direkt das Mikrofon stummschaltet und nicht die Schaltfläche in Meet. Alle hören Stille, solange das Muffle-Symbol rot ist.",
+        "Aktiviere „Jeden Anruf stummgeschaltet starten“, um jedem Meet-Anruf direkt stumm beizutreten."
+      ],
+      "faq": [
+        {
+          "q": "Warum schaltet mein AirPods-Druck Google Meet nicht stumm?",
+          "a": "Chrome unterstützt die macOS-Geste zum Stummschalten per AirPods für Web-Anrufe nicht. Daher hat macOS keine App, an die es den Druck weiterleiten kann. Muffle übernimmt genau diese Aufgabe."
+        },
+        {
+          "q": "Reicht nicht das eigene Tastenkürzel von Meet?",
+          "a": "Das Tastenkürzel Befehlstaste-D von Meet funktioniert nur, wenn der Meet-Tab im Vordergrund ist. Das Tastenkürzel und der AirPods-Druck von Muffle funktionieren aus jeder App heraus."
+        }
+      ]
+    },
+    {
+      "slug": "mute-zoom-with-airpods",
+      "title": "Zoom mit AirPods oder Tastenkürzel auf dem Mac stummschalten",
+      "description": "Schalte Zoom auf dem Mac per AirPods-Druck oder globalem Tastenkürzel stumm, auch im Hintergrund. Funktioniert in der Zoom App und im Browser.",
+      "h1": "So schaltest du Zoom mit AirPods oder Tastenkürzel auf dem Mac stumm",
+      "intro": [
+        "Zooms eigenes Tastenkürzel, Befehlstaste-Umschalttaste-A, funktioniert nur, wenn Zoom das aktive Fenster ist. Wenn du Notizen machst oder ein anderes Fenster teilst, kostet das Suchen der Stummschalttaste wertvolle Sekunden.",
+        "Muffle gibt dir eine einheitliche Steuerung für Zoom und jede andere App: deine AirPods, ein globales Tastenkürzel oder die Menüleiste. Es schaltet das Mikrofon selbst stumm, sodass es in der Zoom App genauso funktioniert wie bei Videoanrufen im Browser."
+      ],
+      "steps_title": "Zoom von überall aus stummschalten",
+      "steps": [
+        "Installiere Muffle und erlaube den Mikrofonzugriff.",
+        "Tritt deinem Zoom Meeting wie gewohnt bei.",
+        "Drücke den AirPods-Stiel oder Control-Wahltaste-M, um aus jeder App stummzuschalten.",
+        "Halte bei Stummschaltung Control-Wahltaste-M gedrückt, um per Push-to-Talk zu sprechen, und lass los, um wieder stummzuschalten."
+      ],
+      "tips": [
+        "Falls Zoom den AirPods-Druck auf deinem Mac selbst erfasst, schalten dich das Tastenkürzel und die Menüleiste über Muffle trotzdem stumm.",
+        "Zoom zeigt dich möglicherweise als aktiv an, während Muffle das Mikrofon ausgeschaltet hat. Die anderen Teilnehmer hören Stille."
+      ],
+      "faq": [
+        {
+          "q": "Ersetzt Muffle die Stummschalttaste von Zoom?",
+          "a": "Es arbeitet Hand in Hand damit. Muffle schaltet das Mikrofon für jede App aus, sodass du Zoom stummschalten kannst, ohne zum Fenster zu wechseln."
+        },
+        {
+          "q": "Kann ich Push-to-Talk in Zoom nutzen?",
+          "a": "Ja. Halte bei Stummschaltung einfach das Muffle-Kürzel gedrückt, um zu sprechen. Das funktioniert in Zoom und in jeder anderen App."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microsoft-teams-with-airpods",
+      "title": "Microsoft Teams mit AirPods auf dem Mac stummschalten",
+      "description": "Schalte Microsoft Teams auf dem Mac per AirPods, Tastenkürzel oder Menüleiste stumm. Funktioniert in der Teams App und im Web-Meeting.",
+      "h1": "So schaltest du Microsoft Teams mit AirPods auf dem Mac stumm",
+      "intro": [
+        "Das Tastenkürzel von Teams, Befehlstaste-Umschalttaste-M, funktioniert nur, wenn das Teams-Fenster aktiv ist. Im Meeting bist du aber meist woanders: in einem Dokument, im Browser oder auf einem geteilten Bildschirm.",
+        "Muffle schaltet dein Mikrofon von überall aus stumm, in der Teams App und bei Teams im Web. Drücke deine AirPods, nutze ein Hotkey-Tastenkürzel oder klicke in die Menüleiste."
+      ],
+      "steps_title": "Teams von überall aus stummschalten",
+      "steps": [
+        "Installiere Muffle und erlaube den Mikrofonzugriff.",
+        "Tritt deiner Teams-Konferenz bei.",
+        "Drücke Control-Wahltaste-M oder deinen AirPods-Stiel, um stummzuschalten. Das Symbol in der Menüleiste wird rot.",
+        "Drücke noch einmal, um die Stummschaltung aufzuheben, oder halte das Tastenkürzel gedrückt, um kurz zu sprechen."
+      ],
+      "tips": [
+        "Teams in einem Browser-Tab erhält über Muffle die gleiche AirPods-Unterstützung wie Google Meet.",
+        "Aktiviere „Stummschalten, wenn der Bildschirm gesperrt wird“, damit dein Mikrofon im Homeoffice nie versehentlich offen bleibt, wenn du den Platz verlässt."
+      ],
+      "faq": [
+        {
+          "q": "Funktioniert der AirPods-Druck in der Teams App?",
+          "a": "Das hängt von deiner Teams-Version ab, da Teams den Druck manchmal selbst abfängt. Das Tastenkürzel und die Menüleiste von Muffle funktionieren in jedem Fall."
+        },
+        {
+          "q": "Zeigt Teams mich als stummgeschaltet an?",
+          "a": "Nicht immer. Muffle schaltet das Mikrofon auf Systemebene stumm, daher zeigt Teams das Mikrofon eventuell noch als aktiv an, während alle anderen Stille hören."
+        }
+      ]
+    },
+    {
+      "slug": "mute-slack-huddles",
+      "title": "Slack Huddles per Tastenkürzel auf dem Mac stummschalten",
+      "description": "Schalte Slack Huddles auf dem Mac aus jeder App per Tastenkürzel oder AirPods stumm. Du musst nie wieder nach dem kleinen Fenster suchen.",
+      "h1": "So schaltest du einen Slack Huddle aus jeder App auf dem Mac stumm",
+      "intro": [
+        "Die Steuerung für Slack Huddles liegt in einem winzigen Fenster, das schnell hinter deinen anderen Fenstern verschwindet. Zudem funktioniert das Slack-Tastenkürzel nur, wenn Slack im Vordergrund ist.",
+        "Muffle schaltet dein Mikrofon für Slack und jede andere App mit einem einzigen Tastenkürzel oder AirPods-Druck stumm, ganz egal, wo du gerade auf deinem Mac arbeitest."
+      ],
+      "steps_title": "Einen Huddle von überall aus stummschalten",
+      "steps": [
+        "Installiere Muffle und erlaube den Mikrofonzugriff.",
+        "Starte einen Huddle in Slack oder tritt einem bei.",
+        "Drücke Control-Wahltaste-M oder deinen AirPods-Stiel zum Stummschalten.",
+        "Ein Blick auf die Menüleiste genügt: Rot bedeutet, dass dich niemand hört."
+      ],
+      "tips": [
+        "Der schwebende Mini-Controller zeigt deinen Mikrofonstatus während jedes Huddles übersichtlich an.",
+        "Halte das Tastenkürzel gedrückt, um kurz etwas zu sagen, während du sonst stummgeschaltet bleibst."
+      ],
+      "faq": [
+        {
+          "q": "Funktioniert das mit der Slack App und mit Slack im Browser?",
+          "a": "Ja. Muffle schaltet das Mikrofon selbst stumm, daher funktioniert es in beiden Varianten."
+        },
+        {
+          "q": "Sehen Kolleginnen und Kollegen, dass ich stummgeschaltet bin?",
+          "a": "Slack zeigt dein Mikrofon möglicherweise noch als eingeschaltet an. Andere hören jedoch Stille, solange Muffle dein Mikrofon stummgeschaltet hat."
+        }
+      ]
+    },
+    {
+      "slug": "mute-discord-on-mac",
+      "title": "Discord Push-to-Talk und Stummschalten auf dem Mac",
+      "description": "Nutze Discord Push-to-Talk und einen globalen Hotkey zum Mikrofon stummschalten auf dem Mac oder nutze AirPods. Für die Discord-App und im Browser.",
+      "h1": "Push-to-Talk und ein globales Tastenkürzel für Discord auf dem Mac",
+      "intro": [
+        "Discord Push-to-Talk benötigt auf dem Mac zusätzliche Berechtigungen und funktioniert nicht für Discord im Browser. Wenn du auch an Google Meet oder Zoom Anrufen teilnimmst, hast du für jede App eine andere Taste zum Stummschalten.",
+        "Muffle gibt dir eine Taste für alle Apps. Einmal drücken zum Stummschalten, gedrückt halten zum Sprechen oder einfach deine AirPods drücken."
+      ],
+      "steps_title": "Push-to-Talk für Discord einrichten",
+      "steps": [
+        "Installiere Muffle und erlaube den Mikrofonzugriff.",
+        "Tritt einem Discord Sprachkanal bei.",
+        "Tippe Control-Option-M, um stumm- oder freizuschalten. Halte die Tastenkombination bei Stummschaltung gedrückt, um zu sprechen.",
+        "Wähle dein eigenes Tastenkürzel in den Muffle-Einstellungen, zum Beispiel eine F-Taste."
+      ],
+      "tips": [
+        "Das Tastenkürzel von Muffle benötigt keine Berechtigung für Bedienungshilfen.",
+        "Sperre deinen Mikrofonpegel, damit die automatische Verstärkung von Discord ihn nicht ständig verstellt."
+      ],
+      "faq": [
+        {
+          "q": "Ist das dasselbe wie Push-to-Talk in Discord?",
+          "a": "Es funktioniert genauso, aber für jede App gleichzeitig. Muffle schaltet das Mikrofon selbst stumm, sodass Discord keinen Ton empfängt, bis du die Taste gedrückt hältst."
+        },
+        {
+          "q": "Kann ich Discord mit AirPods stummschalten?",
+          "a": "Ja. Drücke während eines Sprachanrufs auf den AirPods-Stiel, um stumm- oder freizuschalten."
+        }
+      ]
+    },
+    {
+      "slug": "mute-webex-on-mac",
+      "title": "Webex stummschalten auf dem Mac aus jeder App",
+      "description": "Schalte Webex Meetings auf dem Mac mit einem globalen Tastenkürzel oder deinen AirPods stumm, auch wenn Webex im Hintergrund läuft.",
+      "h1": "Webex auf dem Mac aus jeder App stummschalten",
+      "intro": [
+        "Das Webex-Tastenkürzel zum Stummschalten funktioniert nur, wenn Webex im Vordergrund ist, und die Steuerelemente verschwinden bei der Bildschirmfreigabe.",
+        "Muffle schaltet dein Mikrofon von überall auf deinem Mac stumm, damit du ein Webex Meeting stummschalten kannst, ohne deine Arbeit zu unterbrechen."
+      ],
+      "steps_title": "Webex von überall stummschalten",
+      "steps": [
+        "Installiere Muffle und erlaube den Mikrofonzugriff.",
+        "Tritt deinem Webex Meeting bei.",
+        "Drücke Control-Option-M oder deinen AirPods-Stiel zum Stummschalten.",
+        "Nutze den schwebenden Mini-Controller, um deinen Mikrofonstatus während einer Freigabe im Blick zu behalten."
+      ],
+      "tips": [
+        "Webex zeigt dich möglicherweise weiterhin als aktiv an. Teilnehmer hören jedoch nichts, solange das Muffle-Symbol rot ist.",
+        "Aktiviere „Jeden Anruf stummgeschaltet starten“ für große Meetings."
+      ],
+      "faq": [
+        {
+          "q": "Funktioniert Muffle mit Webex im Browser?",
+          "a": "Ja. Muffle schaltet das Mikrofon selbst stumm und funktioniert daher mit jedem Webex Client."
+        },
+        {
+          "q": "Kann ich Webex mit den AirPods stummschalten?",
+          "a": "Ja, drücke während des Meetings auf den Stiel. Das Tastenkürzel funktioniert mit jedem Kopfhörer und Headset."
+        }
+      ]
+    },
+    {
+      "slug": "mute-browser-calls",
+      "title": "Browser-Anrufe in Chrome, Safari und Arc stummschalten",
+      "description": "Mikrofon in Chrome, Safari, Arc, Edge und Firefox mit AirPods oder Hotkey stummschalten. Für Google Meet, SoWork, Gather, Whereby und Jitsi.",
+      "h1": "Anrufe in jedem Browser-Tab auf dem Mac stummschalten",
+      "intro": [
+        "Immer mehr Anrufe und Konferenzen laufen im Browser: Google Meet, Teams im Web, virtuelle Büros wie SoWork und Gather, Whereby oder Jitsi. Jeder Dienst hat eigene Tasten und Shortcuts, die nur im aktiven Tab funktionieren.",
+        "Browser ignorieren zudem den AirPods-Druck zum Stummschalten auf dem Mac. Muffle erkennt den Druck oder einen globalen Hotkey und schaltet das Mikrofon für jeden Tab gleichzeitig stumm."
+      ],
+      "steps_title": "Jeden Web-Anruf stummschalten",
+      "steps": [
+        "Installiere Muffle und erlaube den Mikrofonzugriff.",
+        "Öffne deinen Videoanruf in einem beliebigen Browser-Tab.",
+        "Drücke deinen AirPods-Stiel oder Control-Option-M zum Stummschalten aus jeder App und jedem Tab.",
+        "Achte auf das Symbol in der Menüleiste: Rot bedeutet, dass das Mikrofon aus ist."
+      ],
+      "tips": [
+        "Virtuelle Büros halten dein Mikrofon stundenlang aktiv. Aktiviere den schwebenden Mini-Controller, um deinen Status immer zu sehen.",
+        "Die Erinnerung „Du bist stummgeschaltet“ weist dich darauf hin, wenn du bei Stummschaltung sprichst."
+      ],
+      "faq": [
+        {
+          "q": "Warum funktioniert der AirPods-Druck nicht in Chrome?",
+          "a": "Chrome unterstützt die macOS AirPods-Geste zum Stummschalten auf Webseiten nicht. Muffle empfängt den Druck stattdessen und schaltet das Mikrofon direkt stumm."
+        },
+        {
+          "q": "Funktioniert das in SoWork und Gather?",
+          "a": "Ja. Jede Website, die dein Mikrofon nutzt, wird stummgeschaltet, sobald Muffle das Mikrofon deaktiviert."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-mute-not-working-on-mac",
+      "title": "AirPods Stummschalten geht nicht auf dem Mac? Lösung",
+      "description": "AirPods-Druck spielt Fehlerton und schaltet nicht stumm? Warum das auf dem Mac passiert und wie der Druck dein Mikrofon in jeder App stummschaltet.",
+      "h1": "AirPods Stummschalten funktioniert auf dem Mac nicht? Die Lösung",
+      "intro": [
+        "macOS erlaubt es dir, einen Anruf durch Drücken des AirPods-Stiels stummzuschalten, aber nur, wenn die App dies unterstützt. Viele tun das nicht, darunter Chrome und Web-Meetings. Du drückst, hörst einen kurzen Fehlerton, siehst eine Fehlermeldung und das Gespräch hört dich weiter.",
+        "Muffle bringt diese Unterstützung in jede App. Es fängt den Druck ab, schaltet das Mikrofon deines Mac stumm und spielt den gewohnten Ton zum Stummschalten ab."
+      ],
+      "steps_title": "Mit dem AirPods-Druck jede App stummschalten",
+      "steps": [
+        "Installiere Muffle und erlaube den Mikrofonzugriff. macOS sendet den Druck nur an Apps, die das Mikrofon verwenden dürfen.",
+        "Vergewissere dich, dass „Mit einem AirPods-Druck stumm- und freischalten“ in den Muffle-Einstellungen aktiviert ist.",
+        "Tritt einem Anruf bei. Der Druck schaltet das Mikrofon nur stumm, während eine App es tatsächlich nutzt.",
+        "Drücke den Stiel einmal zum Stummschalten und erneut zum Freischalten."
+      ],
+      "tips": [
+        "Außerhalb von Anrufen steuert der Druck wie gewohnt die Wiedergabe von Musik.",
+        "Falls deine AirPods eine andere Geste für die Anrufsteuerung nutzen, überprüfe die AirPods-Einstellungen in den Systemeinstellungen."
+      ],
+      "faq": [
+        {
+          "q": "Warum spielt mein Mac einen Fehlerton, wenn ich meine AirPods drücke?",
+          "a": "Die genutzte App unterstützt die AirPods-Geste zum Stummschalten nicht, daher lehnt macOS sie ab. Wenn Muffle läuft, schaltet der Druck stattdessen dein Mikrofon stumm."
+        },
+        {
+          "q": "Welche AirPods unterstützen die Stummschaltung per Druck?",
+          "a": "AirPods Pro, AirPods 3 und neuer sowie AirPods Max, außerdem Beats Modelle mit Anrufsteuerung."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-keyboard-shortcut-mac",
+      "title": "Mikrofon am Mac per Tastenkürzel stummschalten",
+      "description": "Ein globales Tastenkürzel für dein Mac-Mikrofon in jeder App. Mikrofon stummschalten im Meeting ohne extra Bedienungshilfen-Rechte.",
+      "h1": "So schaltest du dein Mikrofon am Mac per Tastenkürzel stumm",
+      "intro": [
+        "macOS hat eine Taste für die Diktierfunktion, aber keine zum Stummschalten deines Mikrofons. Jede Meeting-App nutzt ein eigenes Kürzel, das nur funktioniert, wenn das Fenster im Vordergrund ist.",
+        "Muffle bringt einen systemweiten Hotkey, der das Mikrofon direkt stummschaltet, in jeder App gleichzeitig. Standardmäßig drückst du Control-Wahltaste-M, kannst aber jede beliebige Tastenkombination wählen."
+      ],
+      "steps_title": "Mit einem Tastenkürzel stummschalten",
+      "steps": [
+        "Installiere Muffle.",
+        "Drücke Control-Wahltaste-M zum Stummschalten. Das Symbol in der Menüleiste wird rot und der Hinweis „Stumm“ erscheint kurz.",
+        "Drücke die Tastenkombination erneut, um das Mikrofon wieder zu aktivieren.",
+        "Zum Anpassen öffnest du die Muffle-Einstellungen, klickst auf das Tastenkürzel und drückst deine neue Kombination."
+      ],
+      "tips": [
+        "Halte das Tastenkürzel bei Stummschaltung einfach gedrückt, um kurz zu sprechen, und lass es los, um wieder stumm zu sein.",
+        "Klicke mit der rechten Maustaste auf das Menüleistensymbol von Muffle, um das Mikrofon sofort stummzuschalten."
+      ],
+      "faq": [
+        {
+          "q": "Funktioniert das Tastenkürzel auch, wenn die Anruf-App im Hintergrund läuft?",
+          "a": "Ja. Es funktioniert aus jeder App heraus, sogar bei Vollbild-Apps."
+        },
+        {
+          "q": "Kann ich auch eine einzelne Taste wie F5 nutzen?",
+          "a": "Ja. Funktionstasten funktionieren allein, andere Tasten benötigen die Control-, Wahl- oder Befehlstaste."
+        }
+      ]
+    },
+    {
+      "slug": "push-to-talk-on-mac",
+      "title": "Push-to-Talk am Mac für alle Konferenzen und Apps",
+      "description": "Nutze Push-to-Talk am Mac in Zoom, Google Meet, Teams und Discord. Taste gedrückt halten zum Sprechen, loslassen zum Stummschalten.",
+      "h1": "Push-to-Talk am Mac, in jeder App",
+      "intro": [
+        "Mit Push-to-Talk bleibst du stummgeschaltet, bis du eine Taste gedrückt hältst. Das ist ideal für große Meetings oder laute Umgebungen im Homeoffice, wird aber nur von wenigen Apps unterstützt und jede nutzt eine andere Taste.",
+        "Muffle rüstet Push-to-Talk für jede App auf deinem Mac nach. Bleib stumm, halte dein Tastenkürzel zum Sprechen gedrückt und lass einfach los, um wieder stumm zu sein."
+      ],
+      "steps_title": "So nutzt du Push-to-Talk",
+      "steps": [
+        "Installiere Muffle.",
+        "Schalte dein Mikrofon mit Control-Wahltaste-M oder über deine AirPods stumm.",
+        "Halte Control-Wahltaste-M gedrückt, während du sprichst.",
+        "Lass die Tasten los. Dein Mikrofon ist sofort wieder stummgeschaltet."
+      ],
+      "tips": [
+        "Ein kurzes Antippen schaltet das Mikrofon um. Gedrückt halten aktiviert Push-to-Talk.",
+        "Wähle in den Muffle-Einstellungen eine Taste, die für dich angenehm erreichbar ist, zum Beispiel eine F-Taste."
+      ],
+      "faq": [
+        {
+          "q": "Funktioniert Push-to-Talk auch in Google Meet?",
+          "a": "Ja. Muffle schaltet das Mikrofon direkt auf Systemebene stumm. Push-to-Talk funktioniert deshalb in Meet, Zoom, Teams, Discord und jeder anderen App."
+        },
+        {
+          "q": "Gibt es auch Push-to-Mute?",
+          "a": "Ja. Wenn dein Mikrofon aktiv ist, wirst du durch Gedrückthalten des Kürzels stummgeschaltet, bis du wieder loslässt."
+        }
+      ]
+    },
+    {
+      "slug": "stop-apps-changing-mic-volume",
+      "title": "Mikrofon-Lautstärke am Mac sperren für Zoom und Meet",
+      "description": "Verhindere, dass Chrome, Google Meet, Zoom oder Teams deinen Mikrofonpegel am Mac selbstständig verstellen. Sperre deine Lautstärke fest.",
+      "h1": "So verhinderst du, dass Apps deinen Mikrofonpegel am Mac verändern",
+      "intro": [
+        "Viele Konferenz-Apps passen deinen Eingangspegel automatisch an, eine Funktion namens automatische Verstärkungsregelung. Du stellst in den Systemeinstellungen alles passend ein, startest ein Google Meet und kurz darauf verstellt sich der Regler, sodass dich andere im Anruf kaum noch oder verzerrt hören.",
+        "Muffle kann deinen Mikrofonpegel sperren. Sobald eine App den Pegel ändert, setzt Muffle ihn augenblicklich wieder zurück."
+      ],
+      "steps_title": "Mikrofonpegel sperren",
+      "steps": [
+        "Installiere Muffle.",
+        "Klicke auf das Muffle-Symbol in der Menüleiste und stelle deinen Wunschpegel mit dem Schieberegler ein.",
+        "Klicke auf das Schlosssymbol neben dem Regler.",
+        "Starte deine Videoanrufe. Dein Mikrofonpegel bleibt exakt so, wie du ihn eingestellt hast."
+      ],
+      "tips": [
+        "Muffle weist dich im Menü darauf hin, wenn dein Pegel während eines Anrufs zu niedrig eingestellt ist.",
+        "Die Sperre speichert den Pegel für jedes Mikrofon separat, sodass deine AirPods, dein Kopfhörer und das interne Mac-Mikrofon jeweils eigene Werte behalten."
+      ],
+      "faq": [
+        {
+          "q": "Warum verstellt sich mein Mac-Mikrofonpegel ständig von selbst?",
+          "a": "Programme wie Chrome, Zoom und Teams nutzen automatische Verstärkungsregelung und ändern die Systemeinstellung für den Eingangspegel während des Gesprächs."
+        },
+        {
+          "q": "Kann ich den Pegel trotzdem noch manuell anpassen?",
+          "a": "Ja. Nutze einfach den Schieberegler in Muffle, dadurch wird der gesperrte Wert direkt aktualisiert."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-on-mac",
+      "title": "Mikrofon am Mac stummschalten: 4 Möglichkeiten",
+      "description": "Vier Wege, um dein Mac-Mikrofon stummzuschalten: App-Taste, Systemeinstellungen, globales Tastenkürzel und AirPods im Vergleich.",
+      "h1": "So schaltest du dein Mikrofon am Mac stumm",
+      "intro": [
+        "Auf der Mac-Tastatur gibt es keine eigene Taste, um das Mikrofon stummzuschalten. Je nach App und Situation stehen dir verschiedene Optionen zur Verfügung, doch nicht jede funktioniert zuverlässig überall."
+      ],
+      "steps_title": "Deine Optionen",
+      "steps": [
+        "Die Taste oder das Tastenkürzel der jeweiligen Meeting-App. Das funktioniert nur innerhalb dieser App und auch nur, solange sie im Vordergrund aktiv ist.",
+        "Systemeinstellungen unter Ton bei der Eingabe. Den Eingangspegel auf null zu ziehen ist bei manchen Mikrofonen keine echte Stummschaltung und Apps können den Wert wieder erhöhen.",
+        "Ein globales Tastenkürzel mit Muffle. Eine einzige Tastenkombination schaltet das Mikrofon selbst stumm, quer durch alle Apps.",
+        "Deine AirPods. Mit Muffle genügt ein Druck auf den Stiel, um jedes Telefonat stummzuschalten, selbst bei Google Meet in Chrome."
+      ],
+      "tips": [
+        "Das Muffle-Symbol in der Menüleiste färbt sich rot, sobald das Mikrofon aus ist, ganz gleich in welcher App du arbeitest.",
+        "Wenn du Muffle beendest, wird dein Mikrofon automatisch wieder aktiviert."
+      ],
+      "faq": [
+        {
+          "q": "Gibt es am Mac eine integrierte Stummschaltung für das Mikrofon?",
+          "a": "Nicht systemweit für alle Anwendungen. macOS schaltet das Mikrofon nur innerhalb unterstützter Apps stumm. Muffle ergänzt eine echte, systemweite Stummschaltung."
+        },
+        {
+          "q": "Schaltet Muffle das Mikrofon wirklich in jeder App stumm?",
+          "a": "Ja. Muffle schaltet jedes Mikrofon auf Hardware-Ebene ab, sodass dich kein Programm hören kann, bis du die Stummschaltung wieder aufhebst."
+        }
+      ]
+    },
+    {
+      "slug": "youre-muted-reminder",
+      "title": "„Du bist stummgeschaltet“-Erinnerung in jeder Mac-App",
+      "description": "Du sprichst bei Stummschaltung? Muffle zeigt eine „Du bist stummgeschaltet“-Erinnerung in Google Meet, Zoom, Teams, Slack und jeder Mac-App.",
+      "h1": "Eine „Du bist stummgeschaltet“-Erinnerung für jede Anruf-App",
+      "intro": [
+        "Zoom warnt dich, wenn du bei Stummschaltung sprichst. Die meisten anderen Apps tun das nicht, und Anrufe im Browser fast nie. Du erklärst eine Minute lang etwas und bemerkst erst dann, dass alle nur auf dich warten.",
+        "Muffle erkennt Sprache bei aktiver Stummschaltung und zeigt eine Erinnerung an, in jeder App. Wenn der Anruf AirPods oder ein Headset nutzt, lauscht Muffle am internen Mac-Mikrofon, und zwar nur auf die Lautstärke. Es wird nichts aufgezeichnet."
+      ],
+      "steps_title": "Erinnerung aktivieren",
+      "steps": [
+        "Installiere Muffle und erlaube den Mikrofonzugriff.",
+        "Vergewissere dich, dass „Erinnern, wenn ich bei Stummschaltung spreche“ in den Muffle-Einstellungen aktiv ist.",
+        "Tritt einem Meeting mit AirPods oder einem Headset bei und schalte dich stumm.",
+        "Beginne zu sprechen. Die Erinnerung „Du bist stummgeschaltet“ erscheint."
+      ],
+      "tips": [
+        "Trittst du einem Anruf bei und bist noch vom letzten Meeting stummgeschaltet? Muffle erinnert dich direkt zu Beginn des Gesprächs.",
+        "Tippen auf der Tastatur löst die Erinnerung nicht aus. Nur kontinuierliches Sprechen schlägt an."
+      ],
+      "faq": [
+        {
+          "q": "Funktioniert die Erinnerung auch mit dem internen Mac-Mikrofon?",
+          "a": "Sie funktioniert, wenn für den Anruf AirPods oder Kopfhörer genutzt werden. Nutzt der Anruf das interne Mac-Mikrofon, ist dieses stummgeschaltet und kann dich nicht hören."
+        },
+        {
+          "q": "Wird mein Audio aufgezeichnet?",
+          "a": "Nein. Muffle misst ausschließlich die Lautstärke und speichert oder überträgt zu keinem Zeitpunkt Audiodaten."
+        }
+      ]
+    }
+  ],
+  "support": {
+    "title": "Muffle Support",
+    "description": "Hilfe zu Muffle für Mac: AirPods-Steuerung einrichten, Tastenkürzel anpassen, In-App-Kauf und Fehlerbehebung.",
+    "h1": "Support",
+    "sections": [
+      {
+        "h": "Erste Schritte",
+        "items": [
+          "Muffle befindet sich in deiner Menüleiste. Klicke auf das Mikrofonsymbol für die Steuerung, oder klicke mit der rechten Maustaste, um sofort stummzuschalten.",
+          "Drücke während eines Anrufs auf den Stiel deiner AirPods, um stummzuschalten, und noch einmal, um es aufzuheben.",
+          "Das Standardkürzel ist Control-Wahltaste-M. Tippe darauf, um stumm- oder freizuschalten. Halte es bei Stummschaltung gedrückt, um zu sprechen."
+        ]
+      },
+      {
+        "h": "Der AirPods-Druck schaltet nicht stumm",
+        "items": [
+          "Das funktioniert nur während eines Anrufs, während eine App dein Mikrofon verwendet.",
+          "Erlaube den Mikrofonzugriff für Muffle in den Systemeinstellungen unter Datenschutz & Sicherheit im Bereich Mikrofon.",
+          "Überprüfe, ob „Mit einem AirPods-Druck stumm- und freischalten“ in den Muffle-Einstellungen aktiviert ist.",
+          "Deine AirPods müssen Anrufsteuerung unterstützen: AirPods Pro, AirPods 3 und neuer oder AirPods Max."
+        ]
+      },
+      {
+        "h": "Die Anruf-App zeigt mein Mikrofon noch als aktiv an",
+        "items": [
+          "Das ist normal. Muffle schaltet das Mikrofon selbst aus. Jede App empfängt Stille, obwohl sie das Mikrofon noch als aktiv anzeigt. Verlasse dich auf das Muffle-Symbol in der Menüleiste: Rot bedeutet, dass dich niemand hört."
+        ]
+      },
+      {
+        "h": "Käufe",
+        "items": [
+          "Muffle ist 3 Tage kostenlos. Danach schaltest du es mit einem einmaligen Kauf frei. Es gibt kein Abo.",
+          "Um einen Kauf auf einem anderen Mac wiederherzustellen, öffne die Muffle-Einstellungen und wähle „Kauf wiederherstellen“."
+        ]
+      }
+    ],
+    "contact_title": "Kontakt",
+    "contact_text": "Schreib uns per E-Mail an"
+  },
+  "privacy_page": {
+    "title": "Muffle Datenschutzrichtlinie",
+    "description": "Muffle zeichnet kein Audio auf, speichert keine Gespräche und erfasst keine Daten. Erfahre, wie Muffle dein Mikrofon schützt.",
+    "h1": "Datenschutzrichtlinie",
+    "updated": "Zuletzt aktualisiert am 29. September 2026.",
+    "intro": "Muffle schaltet das Mikrofon deines Mac stumm. Die App ist so gebaut, dass nichts von dem, was du sagst, jemals deinen Mac verlässt.",
+    "sections": [
+      {
+        "h": "Wie Muffle dein Mikrofon nutzt",
+        "p": [
+          "Während Anrufen hält Muffle eine stille Verbindung zu deinem Mikrofon offen. macOS leitet den AirPods-Druck nur an Apps weiter, die das Mikrofon verwenden dürfen. Diese Verbindung sorgt dafür, dass der AirPods-Druck funktioniert.",
+          "Wenn du die Option „Erinnern, wenn ich bei Stummschaltung spreche“ aktivierst, misst Muffle bei Stummschaltung die Lautstärke des eingebauten Mac-Mikrofons, um Sprache zu erkennen.",
+          "Muffle wertet nur Lautstärkewerte aus. Es werden zu keinem Zeitpunkt Audiodaten aufgezeichnet, gespeichert, transkribiert oder gesendet."
+        ]
+      },
+      {
+        "h": "Erfasste Daten",
+        "p": [
+          "Keine. Muffle hat keine Benutzerkonten, nutzt keine Analysedienste, blendet keine Werbung ein und betreibt kein Tracking. Die App nimmt keinen Kontakt zu eigenen Servern auf."
+        ]
+      },
+      {
+        "h": "Käufe",
+        "p": [
+          "Die kostenlose Testversion und der einmalige Kauf laufen über den App Store von Apple. Apple wickelt die Zahlungsdaten ab; wir bekommen sie nie zu sehen. Für diese Käufe gilt die Datenschutzrichtlinie von Apple."
+        ]
+      },
+      {
+        "h": "Auf deinem Mac gespeicherte Einstellungen",
+        "p": [
+          "Deine Einstellungen wie dein Tastenkürzel bleiben lokal auf deinem Mac im Speicher von Muffle. Wenn du Muffle entfernst, werden auch diese Einstellungen gelöscht."
+        ]
+      }
+    ],
+    "contact": "Fragen zum Datenschutz:"
+  }
+}

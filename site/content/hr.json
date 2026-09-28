@@ -1,0 +1,643 @@
+{
+  "meta": {
+    "home_title": "Muffle: Utišajte mikrofon na Macu uz AirPods ili prečac",
+    "home_description": "Utišajte mikrofon u aplikacijama Google Meet, Zoom, Teams, Slack i svakom pozivu na Macu. Pritisnite AirPods ili prečac. Besplatno 3 dana.",
+    "og_title": "Utišajte mikrofon na Macu odakle god želite.",
+    "og_subtitle": "Pritisnite AirPods ili jedan tipkovni prečac. Radi u svakoj aplikaciji."
+  },
+  "nav": {
+    "features": "Značajke",
+    "guides": "Vodiči",
+    "support": "Podrška",
+    "download": "Preuzmite Muffle",
+    "home": "Naslovnica",
+    "menu": "Izbornik"
+  },
+  "cta": {
+    "download": "Preuzmite s Mac App Storea",
+    "coming_soon": "Uskoro na Mac App Storeu",
+    "trial": "Besplatno 3 dana. Zatim jednokratno plaćanje, bez pretplate.",
+    "requirements": "Za macOS 14 Sonoma i noviji."
+  },
+  "hero": {
+    "title": "Utišajte mikrofon na Macu odakle god želite.",
+    "subtitle": "Pritisnite AirPods ili jedan tipkovni prečac. Muffle isključuje sam mikrofon, pa Google Meet, Zoom, Teams, Slack i svaka druga aplikacija čuju tišinu.",
+    "image_alt": "Ploča Muffle u traci s izbornicima na Macu tijekom poziva u Google Meetu u Chromeu"
+  },
+  "works_with": {
+    "title": "Radi sa svakom aplikacijom koja upotrebljava mikrofon",
+    "apps": [
+      "Google Meet",
+      "Zoom",
+      "Microsoft Teams",
+      "Slack",
+      "Discord",
+      "FaceTime",
+      "Webex",
+      "WhatsApp",
+      "Skype",
+      "SoWork",
+      "Gather",
+      "Chrome",
+      "Safari",
+      "Arc",
+      "Edge",
+      "Firefox"
+    ],
+    "note": "Muffle isključuje mikrofon na razini hardvera, pa nije važno koja ga aplikacija, preglednik ili kartica upotrebljava."
+  },
+  "features": {
+    "title": "Sve što vaš Mac treba raditi tijekom poziva",
+    "items": [
+      {
+        "title": "Pritisnite AirPods da biste utišali mikrofon",
+        "text": "Tijekom bilo kojeg poziva pritisnite stapku jednom da biste utišali mikrofon i ponovno da biste ga uključili. Radi čak i u Chromeu, gdje Google Meet i drugi web pozivi ignoriraju pritisak na AirPods."
+      },
+      {
+        "title": "Jedan tipkovni prečac za svaku aplikaciju",
+        "text": "Control-Option-M utišava vas posvuda, čak i kad je poziv u pozadinskoj kartici. Držite pritisnuto da biste govorili dok je mikrofon utišan, a otpustite da biste ga ponovno utišali."
+      },
+      {
+        "title": "Podsjetnik „Utišani ste”",
+        "text": "Počnite govoriti dok je mikrofon utišan i Muffle će vas upozoriti, prije nego što cijelu ideju ispričate u prazno."
+      },
+      {
+        "title": "Pozivi na autopilotu",
+        "text": "Započnite svaki poziv s utišanim mikrofonom, ponovno uključite mikrofon kada poziv završi i utišajte ga kad god zaključate Mac."
+      },
+      {
+        "title": "Uvijek znajte kada je mikrofon uključen",
+        "text": "Mali plutajući gumb prikazuje stanje mikrofona tijekom poziva. Kliknite ga da biste ga utišali ili uključili."
+      },
+      {
+        "title": "Razina mikrofona ostaje nepromijenjena",
+        "text": "Chrome, Zoom i Teams sami mijenjaju razinu mikrofona. Zaključajte je i Muffle će je vratiti na prethodnu vrijednost."
+      },
+      {
+        "title": "Sigurno kada se AirPods isprazne",
+        "text": "Ako se slušalice odspoje usred poziva, Muffle utišava zvuk prije nego što se poziv prebaci na mikrofon Maca i prenese sve zvukove iz sobe."
+      },
+      {
+        "title": "Prečaci i Kontrolni centar",
+        "text": "Utišajte zvuk iz aplikacije Prečaci, putem Siri, uređaja Stream Deck, aplikacije Raycast ili gumbom u Kontrolnom centru."
+      }
+    ],
+    "image_reminder_alt": "Podsjetnik „Utišani ste” pri dnu zaslona",
+    "image_pills_alt": "Plutajući mini kontroler u utišanom i uključenom stanju",
+    "image_automation_alt": "Postavke za Muffle za pokretanje poziva s utišanim mikrofonom i druge automatizacije poziva"
+  },
+  "how": {
+    "title": "Postavljanje u jednoj minuti",
+    "steps": [
+      "Instalirajte Muffle s Mac App Storea i dopustite pristup mikrofonu.",
+      "Pridružite se pozivu u bilo kojoj aplikaciji, kao i obično.",
+      "Pritisnite AirPods, pritisnite Control-Option-M ili kliknite ikonu u traci s izbornicima da biste utišali mikrofon."
+    ]
+  },
+  "privacy": {
+    "title": "Privatnost na prvom mjestu",
+    "text": "Muffle nikada ne snima, ne pohranjuje niti ne šalje zvuk. Samo uključuje i isključuje mikrofon te mjeri njegovu glasnoću. Nema korisničkih računa, analitike niti praćenja."
+  },
+  "faq": {
+    "title": "Česta pitanja",
+    "items": [
+      {
+        "q": "Radi li Muffle s aplikacijom Google Meet u Chromeu?",
+        "a": "Da. Chrome ne prosljeđuje pritisak na AirPods za utišavanje web pozivima, pa ga Muffle preuzima i sam utišava mikrofon. Isto vrijedi za svaki poziv u kartici preglednika."
+      },
+      {
+        "q": "Hoće li drugi sudionici vidjeti da sam utišan?",
+        "a": "Vaša aplikacija za pozive može i dalje prikazivati mikrofon kao uključen jer Muffle isključuje sam mikrofon, a ne gumb u aplikaciji. Drugi u svakom slučaju čuju tišinu. Ikona Muffle u traci s izbornicima postaje crvena dok je mikrofon utišan."
+      },
+      {
+        "q": "Koji modeli AirPods rade?",
+        "a": "AirPods Pro, AirPods 3 i noviji modeli te AirPods Max, kao i modeli Beats s kontrolama poziva. Tipkovni prečac i traka s izbornicima rade sa svakim mikrofonom."
+      },
+      {
+        "q": "Radi li sa servisima Zoom, Teams, Slack i Discord?",
+        "a": "Da. Muffle radi sa svakom aplikacijom na Macu koja upotrebljava mikrofon, kako sa stolnim aplikacijama tako i s pozivima u pregledniku."
+      },
+      {
+        "q": "Postoji li pretplata?",
+        "a": "Ne. Isprobajte sve značajke besplatno 3 dana, a zatim otključajte Muffle jednokratnom kupnjom."
+      },
+      {
+        "q": "Zašto Muffle treba pristup mikrofonu?",
+        "a": "macOS prosljeđuje pritisak na AirPods samo aplikacijama koje upotrebljavaju mikrofon, pa Muffle tijekom poziva održava nečujnu vezu otvorenom. Ništa se ne snima."
+      },
+      {
+        "q": "Što se događa ako zatvorim Muffle dok je mikrofon utišan?",
+        "a": "Muffle ponovno uključuje mikrofon pri izlasku, pa nikada nećete ostati bez tona."
+      },
+      {
+        "q": "Koje su verzije sustava macOS podržane?",
+        "a": "macOS 14 Sonoma i novije verzije. Za gumb u Kontrolnom centru potreban je macOS 26 ili noviji."
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Prestanite tražiti gumb za utišavanje.",
+    "text": "Muffle možete besplatno isprobavati 3 dana."
+  },
+  "footer": {
+    "guides": "Vodiči",
+    "product": "Muffle",
+    "support": "Podrška",
+    "privacy": "Pravila privatnosti",
+    "language": "Jezik",
+    "contact": "Kontakt",
+    "copyright": "© 2026 Muffle. AirPods i Mac zaštitni su znakovi tvrtke Apple Inc."
+  },
+  "guides_index": {
+    "title": "Vodiči za Muffle: Utišajte Meet, Zoom i Teams na Macu",
+    "description": "Vodiči korak po korak za utišavanje poziva u Google Meet, Zoom, Teams, Slack i web poziva na Macu uz AirPods ili tipkovni prečac.",
+    "h1": "Vodiči",
+    "intro": "Kratki i praktični odgovori za utišavanje mikrofona na Macu, u svakoj aplikaciji."
+  },
+  "guide_labels": {
+    "on_this_page": "Na ovoj stranici",
+    "faq": "Pitanja",
+    "related": "Više vodiča",
+    "try": "Isprobajte Muffle besplatno 3 dana",
+    "read": "Pročitajte vodič"
+  },
+  "guides": [
+    {
+      "slug": "mute-google-meet-with-airpods",
+      "title": "Kako utišati Google Meet uz AirPods na Macu",
+      "description": "Pritisak na AirPods ne utišava Google Meet u Chromeu na Macu. Utišajte mikrofon za Meet uz AirPods, tipkovni prečac ili traku s izbornicima.",
+      "h1": "Kako utišati Google Meet uz AirPods na Macu",
+      "intro": [
+        "Na iPhoneu pritisak na stapku slušalica AirPods utišava poziv. Na Macu se Google Meet pokreće u Chromeu, a Chrome taj pritisak ne prenosi web-stranicama. Pritisnete, čujete zvuk pogreške, a Meet nastavlja prenositi vaš glas.",
+        "Muffle to rješava za svaki Meet poziv. Sam prima pritisak na AirPods i utišava mikrofon Maca, pa Meet prima samo tišinu čak i kada je kartica u pozadini."
+      ],
+      "steps_title": "Utišajte Google Meet uz AirPods",
+      "steps": [
+        "Instalirajte Muffle i dopustite pristup mikrofonu kada se zatraži.",
+        "Pridružite se pozivu za Google Meet u Chromeu, Safariju, pregledniku Arc ili Edge.",
+        "Pritisnite stapku AirPods slušalica jednom za utišavanje. Ikona Muffle postaje crvena.",
+        "Pritisnite ponovno da biste ga uključili. Možete pritisnuti i Control-Option-M iz bilo koje aplikacije."
+      ],
+      "tips": [
+        "Meet može i dalje prikazivati da je mikrofon uključen jer Muffle utišava sam mikrofon, a ne gumb u Meetu. Svi čuju tišinu dok je ikona Muffle crvena.",
+        "Uključite opciju „Započni svaki poziv s utišanim mikrofonom” kako biste ušli u svaki Meet poziv s utišanim mikrofonom."
+      ],
+      "faq": [
+        {
+          "q": "Zašto pritisak na AirPods ne utišava Google Meet?",
+          "a": "Chrome ne podržava gestu utišavanja za AirPods u sustavu macOS za web-pozive, pa macOS nema aplikaciju kojoj bi poslao pritisak. Muffle postaje ta aplikacija."
+        },
+        {
+          "q": "Nije li dovoljan prečac unutar Meeta?",
+          "a": "Prečac Command-D u Meetu radi samo dok je kartica Meeta u prvom planu. Prečac aplikacije Muffle i pritisak na AirPods rade iz bilo koje aplikacije."
+        }
+      ]
+    },
+    {
+      "slug": "mute-zoom-with-airpods",
+      "title": "Kako utišati Zoom uz AirPods ili prečac na Macu",
+      "description": "Utišajte Zoom na Macu pritiskom na AirPods ili globalnim prečacem, čak i kada prozor nije aktivan. Radi u aplikaciji Zoom i u pregledniku.",
+      "h1": "Kako utišati Zoom uz AirPods ili tipkovni prečac na Macu",
+      "intro": [
+        "Zoomov vlastiti tipkovni prečac, Command-Shift-A, radi samo dok je prozor Zooma u prvom planu. Kada pišete bilješke ili dijelite drugi prozor, traženje gumba za utišavanje oduzima dragocjeno vrijeme.",
+        "Muffle vam pruža jedno upravljanje utišavanjem za Zoom i sve druge aplikacije: vaše slušalice AirPods, globalni tipkovni prečac ili traka s izbornicima. Utišava sam mikrofon, pa radi u aplikaciji Zoom i u pozivima putem preglednika."
+      ],
+      "steps_title": "Utišajte Zoom s bilo kojeg mjesta",
+      "steps": [
+        "Instalirajte Muffle i dopustite pristup mikrofonu.",
+        "Pridružite se Zoom sastanku kao i obično.",
+        "Pritisnite stapku AirPods slušalica ili Control-Option-M za utišavanje, iz bilo koje aplikacije.",
+        "Dok je mikrofon utišan, držite Control-Option-M da biste govorili, a otpustite da biste ga ponovno utišali."
+      ],
+      "tips": [
+        "Ako Zoom na vašem Macu sam preuzima pritisak na AirPods, tipkovni prečac i traka s izbornicima i dalje vas utišavaju putem aplikacije Muffle.",
+        "Zoom može prikazivati da niste utišani dok je u aplikaciji Muffle mikrofon isključen. Sudionici čuju samo tišinu."
+      ],
+      "faq": [
+        {
+          "q": "Zamjenjuje li Muffle gumb za utišavanje u Zoomu?",
+          "a": "Radi usporedo s njim. Muffle isključuje mikrofon za sve aplikacije, pa možete utišati Zoom bez prebacivanja na njegov prozor."
+        },
+        {
+          "q": "Mogu li upotrebljavati držanje za govor u Zoomu?",
+          "a": "Da. Dok je mikrofon utišan, držite prečac za Muffle kako biste govorili. To radi u Zoomu i u svakoj drugoj aplikaciji."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microsoft-teams-with-airpods",
+      "title": "Kako utišati Microsoft Teams uz AirPods na Macu",
+      "description": "Utišajte Microsoft Teams na Macu uz AirPods, globalni tipkovni prečac ili traku s izbornicima. Radi u aplikaciji Teams i u pregledniku.",
+      "h1": "Kako utišati Microsoft Teams uz AirPods na Macu",
+      "intro": [
+        "Prečac za Teams, Command-Shift-M, radi samo kada je prozor aplikacije Teams aktivan. Tijekom sastanka obično radite u drugom programu: u dokumentu, pregledniku ili na dijeljenom zaslonu.",
+        "Muffle utišava mikrofon odakle god želite, u aplikaciji Teams i na webu. Pritisnite AirPods, upotrijebite tipkovni prečac ili kliknite traku s izbornicima."
+      ],
+      "steps_title": "Utišajte Teams s bilo kojeg mjesta",
+      "steps": [
+        "Instalirajte Muffle i dopustite pristup mikrofonu.",
+        "Pridružite se sastanku u aplikaciji Teams.",
+        "Pritisnite Control-Option-M ili stapku AirPods slušalica za utišavanje. Ikona u traci s izbornicima postaje crvena.",
+        "Pritisnite ponovno da biste uključili mikrofon ili držite prečac za govor dok je utišan."
+      ],
+      "tips": [
+        "Teams u kartici preglednika dobiva jednaku podršku za AirPods kao i Google Meet uz Muffle.",
+        "Uključite opciju „Utišaj kada se zaslon zaključa” kako mikrofon ne bi ostao uključen kada se udaljite od računala."
+      ],
+      "faq": [
+        {
+          "q": "Radi li pritisak na AirPods u aplikaciji Teams?",
+          "a": "To ovisi o vašoj verziji aplikacije Teams jer Teams može sam preuzeti pritisak. Tipkovni prečac i gumb aplikacije Muffle u traci s izbornicima rade u svakom slučaju."
+        },
+        {
+          "q": "Hoće li Teams prikazivati da sam utišan?",
+          "a": "Ne uvijek. Muffle isključuje sam mikrofon, pa Teams može prikazivati da je mikrofon uključen dok ostali sudionici čuju tišinu."
+        }
+      ]
+    },
+    {
+      "slug": "mute-slack-huddles",
+      "title": "Kako utišati Slack Huddle uz prečac na Macu",
+      "description": "Utišajte Slack pozive na Macu iz bilo koje aplikacije jednim prečacem ili slušalicama AirPods. Nema potrebe za traženjem prozora za Huddle.",
+      "h1": "Kako utišati Slack Huddle iz bilo koje aplikacije na Macu",
+      "intro": [
+        "Kontrole za Slack Huddle nalaze se u malom prozoru koji se lako izgubi iza vašeg rada, a prečac za utišavanje radi samo dok je Slack u prvom planu.",
+        "Muffle utišava mikrofon za Slack i svaku drugu aplikaciju jednim prečacem ili pritiskom na AirPods, gdje god se nalazili na Macu."
+      ],
+      "steps_title": "Utišajte Huddle s bilo kojeg mjesta",
+      "steps": [
+        "Instalirajte Muffle i dopustite pristup mikrofonu.",
+        "Pokrenite Huddle ili se pridružite razgovoru u aplikaciji Slack.",
+        "Pritisnite Control-Option-M ili stapku AirPods slušalica za utišavanje.",
+        "Pogledajte traku s izbornicima: crvena boja znači da vas nitko ne čuje."
+      ],
+      "tips": [
+        "Plutajući mini kontroler prikazuje stanje mikrofona tijekom svakog Huddle razgovora.",
+        "Držite tipkovni prečac pritisnutim kako biste rekli nešto nakratko, dok inače ostajete utišani."
+      ],
+      "faq": [
+        {
+          "q": "Radi li ovo s aplikacijom Slack i sa Slackom u pregledniku?",
+          "a": "Da. Muffle isključuje sam mikrofon, pa radi u oba slučaja."
+        },
+        {
+          "q": "Hoće li suradnici vidjeti da sam utišan?",
+          "a": "Slack može i dalje prikazivati da je mikrofon uključen. Oni čuju tišinu dok vas Muffle drži utišanima."
+        }
+      ]
+    },
+    {
+      "slug": "mute-discord-on-mac",
+      "title": "Discord push to talk i prečac za utišavanje na Macu",
+      "description": "Univerzalni tipkovni prečac i push to talk za Discord na Macu ili utišavanje putem AirPods slušalica. Radi u aplikaciji Discord i u pregledniku.",
+      "h1": "Push to talk i globalni tipkovni prečac za Discord na Macu",
+      "intro": [
+        "Discordov push to talk zahtijeva dodatna dopuštenja na Macu i ne radi za Discord u pregledniku. Ako sudjelujete i u pozivima na platformama Meet ili Zoom, na kraju imate drukčiju tipku za utišavanje u svakoj aplikaciji.",
+        "Muffle vam nudi jednu tipku za sve njih. Dodirnite je da biste utišali mikrofon, držite je pritisnutom za govor ili pritisnite AirPods."
+      ],
+      "steps_title": "Postavite push to talk za Discord",
+      "steps": [
+        "Instalirajte Muffle i dopustite pristup mikrofonu.",
+        "Pridružite se glasovnom kanalu na Discordu.",
+        "Dodirnite Control-Option-M za utišavanje ili uključivanje. Držite pritisnuto dok je mikrofon utišan da biste govorili.",
+        "Odaberite vlastitu tipku u izborniku Postavke Muffle, primjerice neku tipku F."
+      ],
+      "tips": [
+        "Prečac za Muffle ne zahtijeva dopuštenje za Pristupačnost.",
+        "Zaključajte razinu mikrofona kako automatsko prilagođavanje u Discordu ne bi stalno mijenjalo glasnoću."
+      ],
+      "faq": [
+        {
+          "q": "Je li ovo isto što i Discordov push to talk?",
+          "a": "Radi na isti način, ali u svim aplikacijama istovremeno. Muffle isključuje sam mikrofon, pa Discord čuje tišinu sve dok ne držite tipku pritisnutom."
+        },
+        {
+          "q": "Mogu li utišati Discord putem AirPods slušalica?",
+          "a": "Da. Tijekom glasovnog poziva pritisnite stapku slušalica AirPods da biste utišali ili uključili mikrofon."
+        }
+      ]
+    },
+    {
+      "slug": "mute-webex-on-mac",
+      "title": "Kako utišati Webex iz bilo koje aplikacije na Macu",
+      "description": "Utišajte Webex sastanak na Macu globalnim prečacem ili AirPods slušalicama, čak i kada Webex prozor nije u prvom planu.",
+      "h1": "Kako utišati Webex iz bilo koje aplikacije na Macu",
+      "intro": [
+        "Webex prečac za utišavanje radi samo dok je prozor Webex u prvom planu, a njegove kontrole se skrivaju tijekom dijeljenja zaslona.",
+        "Muffle utišava mikrofon odakle god želite na svojem Macu, pa možete utišati Webex sastanak bez napuštanja onoga što trenutačno radite."
+      ],
+      "steps_title": "Utišajte Webex s bilo kojeg mjesta",
+      "steps": [
+        "Instalirajte Muffle i dopustite pristup mikrofonu.",
+        "Pridružite se svojem Webex sastanku.",
+        "Pritisnite Control-Option-M ili stapku na AirPods slušalicama za utišavanje.",
+        "Upotrijebite plutajući mini kontroler kako biste vidjeli stanje mikrofona dok dijelite zaslon."
+      ],
+      "tips": [
+        "Webex vas može i dalje prikazivati kao aktivne. Sudionici poziva čuju tišinu sve dok je ikona Muffle crvene boje.",
+        "Uključite opciju „Započni svaki poziv s utišanim mikrofonom” za velike sastanke."
+      ],
+      "faq": [
+        {
+          "q": "Radi li Muffle s Webexom u pregledniku?",
+          "a": "Da. Muffle isključuje sam mikrofon, pa radi sa svakom verzijom aplikacije Webex."
+        },
+        {
+          "q": "Mogu li utišati Webex putem AirPods slušalica?",
+          "a": "Da, pritisnite stapku tijekom sastanka. Tipkovni prečac radi s bilo kojim modelom slušalica."
+        }
+      ]
+    },
+    {
+      "slug": "mute-browser-calls",
+      "title": "Utišajte poziv u Chromeu, Safariju i Arc pregledniku",
+      "description": "Utišajte poziv u preglednicima Chrome, Safari ili Arc prečacem ili AirPods slušalicama. Radi za Google Meet, SoWork i druge servise.",
+      "h1": "Kako utišati pozive u bilo kojoj kartici preglednika na Macu",
+      "intro": [
+        "Sve više poziva odvija se u pregledniku: Google Meet, Teams na webu, virtualni uredi poput SoWork i Gather, Whereby ili Jitsi. Svaki servis ima svoj gumb i prečac, a oni rade samo dok je ta kartica u prvom planu.",
+        "Preglednici također ignoriraju pritisak na AirPods za utišavanje na Macu. Muffle preuzima taj pritisak ili jedan globalni tipkovni prečac te utišava mikrofon za sve kartice odjednom."
+      ],
+      "steps_title": "Utišajte bilo koji web poziv",
+      "steps": [
+        "Instalirajte Muffle i dopustite pristup mikrofonu.",
+        "Otvorite poziv u bilo kojoj kartici preglednika.",
+        "Pritisnite stapku na AirPods slušalicama ili tipkovni prečac Control-Option-M, iz bilo koje aplikacije ili kartice.",
+        "Pogledajte ikonu u traci s izbornicima: crvena boja znači da je mikrofon isključen."
+      ],
+      "tips": [
+        "Virtualni uredi drže mikrofon otvorenim satima. Uključite plutajući mini kontroler kako biste uvijek vidjeli stanje mikrofona.",
+        "Podsjetnik „Utišani ste” obavještava vas kada počnete govoriti dok je mikrofon utišan."
+      ],
+      "faq": [
+        {
+          "q": "Zašto pritisak na AirPods ne radi u Chromeu?",
+          "a": "Chrome ne podržava gestu utišavanja za AirPods u sustavu macOS za web stranice. Muffle umjesto toga preuzima pritisak i sam utišava mikrofon."
+        },
+        {
+          "q": "Radi li u servisima SoWork i Gather?",
+          "a": "Da. Svaka web stranica koja upotrebljava mikrofon bit će utišana kada Muffle isključi mikrofon."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-mute-not-working-on-mac",
+      "title": "AirPods utišavanje ne radi na Macu? Popravite problem",
+      "description": "Pritisak na AirPods stapku ne utišava poziv na Macu? Saznajte zašto se javlja zvuk pogreške i kako omogućiti utišavanje u svakoj aplikaciji.",
+      "h1": "AirPods utišavanje ne radi na Macu? Evo rješenja",
+      "intro": [
+        "macOS vam omogućuje utišavanje poziva pritiskom na stapku slušalica AirPods, ali samo ako aplikacija za pozive to podržava. Mnoge aplikacije to ne podržavaju, uključujući Chrome i web pozive unutar njega. Pritisnete stapku, čujete kratki zvuk pogreške, vidite poruku „Cannot Control Mic”, a sugovornici u pozivu vas i dalje čuju.",
+        "Muffle donosi tu podršku u svaku aplikaciju. Preuzima pritisak, utišava mikrofon na vašem Macu i reproducira uobičajeni zvuk za utišavanje."
+      ],
+      "steps_title": "Omogućite utišavanje svake aplikacije pritiskom na AirPods",
+      "steps": [
+        "Instalirajte Muffle i dopustite pristup mikrofonu. macOS šalje pritisak samo onim aplikacijama koje mogu upotrebljavati mikrofon.",
+        "Provjerite je li uključena opcija „Utišajte i uključujte pritiskom na AirPods” u izborniku Postavke Muffle.",
+        "Pridružite se pozivu. Pritisak utišava zvuk samo dok neka aplikacija aktivno upotrebljava mikrofon.",
+        "Pritisnite stapku jednom da biste utišali mikrofon i ponovno da biste ga uključili."
+      ],
+      "tips": [
+        "Izvan poziva, pritisak i dalje reproducira i pauzira glazbu kao i obično.",
+        "Ako vaše AirPods slušalice upotrebljavaju drukčiji pritisak za upravljanje pozivima, provjerite postavke slušalica AirPods u aplikaciji Postavke sustava."
+      ],
+      "faq": [
+        {
+          "q": "Zašto moj Mac reproducira zvuk pogreške kada pritisnem AirPods?",
+          "a": "Aplikacija u kojoj vodite poziv ne podržava pritisak za utišavanje na slušalicama AirPods, pa ga macOS odbacuje. Dok Muffle radi u pozadini, taj pritisak umjesto toga utišava mikrofon."
+        },
+        {
+          "q": "Koji modeli AirPods slušalica podržavaju pritisak za utišavanje?",
+          "a": "AirPods Pro, AirPods 3 i noviji modeli, kao i AirPods Max te modeli Beats koji nude kontrole poziva."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-keyboard-shortcut-mac",
+      "title": "Utišajte mikrofon na Macu uz tipkovni prečac",
+      "description": "Postavite jedan globalni tipkovni prečac za utišavanje mikrofona na Macu u svakoj aplikaciji. Dozvola za pristupačnost nije potrebna.",
+      "h1": "Kako utišati mikrofon na Macu uz tipkovni prečac",
+      "intro": [
+        "macOS ima tipku za diktiranje, ali nema za utišavanje mikrofona. Svaka aplikacija za pozive ima vlastiti prečac koji radi samo dok je ta aplikacija u prvom planu.",
+        "Muffle dodaje jedan prečac koji isključuje sam mikrofon, u svim aplikacijama odjednom. Zadani prečac je Control-Option-M, a možete odabrati bilo koju kombinaciju."
+      ],
+      "steps_title": "Utišajte uz jedan prečac",
+      "steps": [
+        "Instalirajte Muffle.",
+        "Pritisnite Control-Option-M da biste utišali mikrofon. Ikona u traci s izbornicima postaje crvena i prikazuje se kratka potvrda „Utišan”.",
+        "Pritisnite ga ponovno da biste ga uključili.",
+        "Da biste ga promijenili, otvorite Postavke Muffle, kliknite prečac i pritisnite novi."
+      ],
+      "tips": [
+        "Držite prečac dok je mikrofon utišan da biste govorili, a otpustite ga da biste ga ponovno utišali.",
+        "Kliknite desnom tipkom miša na ikonu Muffle u traci s izbornicima da biste odmah utišali mikrofon mišem."
+      ],
+      "faq": [
+        {
+          "q": "Radi li prečac kada aplikacija za poziv nije u prvom planu?",
+          "a": "Da. Radi iz bilo koje aplikacije, uključujući aplikacije preko cijelog zaslona."
+        },
+        {
+          "q": "Mogu li upotrijebiti samo jednu tipku, primjerice F5?",
+          "a": "Da. Funkcijske tipke rade samostalno, dok ostale tipke zahtijevaju Control, Option ili Command."
+        }
+      ]
+    },
+    {
+      "slug": "push-to-talk-on-mac",
+      "title": "Push to talk na Macu za svaku aplikaciju",
+      "description": "Upotrijebite push to talk na Macu u aplikacijama Zoom, Google Meet, Teams, Discord i drugima. Držite tipku za govor, otpustite za utišavanje.",
+      "h1": "Push to talk na Macu, u svakoj aplikaciji",
+      "intro": [
+        "Push to talk drži mikrofon utišanim sve dok držite tipku. To je najlakši način da ostanete tihi na velikim sastancima ili u bučnim prostorijama, no rijetke aplikacije to nude i svaka rabi drukčiju tipku.",
+        "Muffle donosi push to talk u svaku aplikaciju na Macu. Ostanite utišani, držite prečac za govor i otpustite ga da biste se ponovno utišali."
+      ],
+      "steps_title": "Upotrijebite push to talk",
+      "steps": [
+        "Instalirajte Muffle.",
+        "Utišajte mikrofon kombinacijom Control-Option-M ili putem AirPods slušalica.",
+        "Držite Control-Option-M dok govorite.",
+        "Otpustite tipku i ponovno ste utišani."
+      ],
+      "tips": [
+        "Pritisak na prečac i dalje uključuje ili isključuje mikrofon. Držanje prečaca služi za push to talk.",
+        "Odaberite prikladnu tipku u Postavkama Muffle, primjerice neku od tipki F."
+      ],
+      "faq": [
+        {
+          "q": "Radi li push to talk u usluzi Google Meet?",
+          "a": "Da. Muffle isključuje sam mikrofon, pa push to talk radi u aplikacijama Meet, Zoom, Teams, Discord i bilo kojoj drugoj."
+        },
+        {
+          "q": "Postoji li opcija pritiska za utišavanje?",
+          "a": "Da. Kada mikrofon nije utišan, držanje prečaca utišava vas dok ga ne otpustite."
+        }
+      ]
+    },
+    {
+      "slug": "stop-apps-changing-mic-volume",
+      "title": "Kako spriječiti Chrome i Zoom da mijenjaju mikrofon na Macu",
+      "description": "Google Meet, Chrome, Zoom i Teams sami mijenjaju razinu mikrofona na Macu. Zaključajte glasnoću mikrofona kako je nijedna aplikacija ne bi mijenjala.",
+      "h1": "Kako spriječiti aplikacije da mijenjaju glasnoću mikrofona na Macu",
+      "intro": [
+        "Mnoge aplikacije za pozive same prilagođavaju ulaznu razinu mikrofona putem automatske kontrole pojačanja. Postavite dobru razinu u Postavkama sustava, uđete u poziv u usluzi Google Meet, a nekoliko minuta kasnije klizač se pomakne i sugovornici kažu da se slabo čujete.",
+        "Muffle može zaključati razinu mikrofona. Kada je bilo koja aplikacija promijeni, Muffle je odmah vraća natrag."
+      ],
+      "steps_title": "Zaključajte razinu mikrofona",
+      "steps": [
+        "Instalirajte Muffle.",
+        "Kliknite ikonu Muffle u traci s izbornicima i postavite željenu razinu klizačem za mikrofon.",
+        "Kliknite lokot pokraj klizača.",
+        "Pridružite se pozivima. Razina ostaje točno onakva kakvu ste postavili."
+      ],
+      "tips": [
+        "Muffle vas upozorava na ploči ako je razina mikrofona preniska tijekom poziva.",
+        "Lokot pamti razinu za svaki mikrofon, pa AirPods i mikrofon na Macu zadržavaju vlastite vrijednosti."
+      ],
+      "faq": [
+        {
+          "q": "Zašto se glasnoća mikrofona na mom Macu stalno mijenja?",
+          "a": "Aplikacije poput Chrome, Zoom i Teams rabe automatsku kontrolu pojačanja i mijenjaju ulaznu razinu u sustavu dok govorite."
+        },
+        {
+          "q": "Mogu li i dalje samostalno promijeniti razinu?",
+          "a": "Da. Upotrijebite klizač na ploči Muffle, on ažurira zaključanu razinu."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-on-mac",
+      "title": "Kako utišati mikrofon na Macu: 4 jednostavna načina",
+      "description": "Četiri načina za utišavanje mikrofona na Macu: tipka u aplikaciji, Postavke sustava, globalni prečac i AirPods, te koji način radi u svakoj aplikaciji.",
+      "h1": "Kako utišati mikrofon na Macu",
+      "intro": [
+        "Na Macu ne postoji ugrađena tipka za utišavanje mikrofona. Ovisno o aplikaciji i trenutku imate nekoliko opcija, a samo neke od njih rade posvuda."
+      ],
+      "steps_title": "Vaše opcije",
+      "steps": [
+        "Gumb ili prečac u samoj aplikaciji za pozive. Radi samo u toj aplikaciji i samo dok je ona u prvom planu.",
+        "Postavke sustava, Zvuk, Ulaz. Povlačenje ulazne razine na nulu nije pravo utišavanje na svakom mikrofonu, a aplikacije je mogu ponovno povisiti.",
+        "Globalni tipkovni prečac uz Muffle. Jedna tipka isključuje sam mikrofon, u svakoj aplikaciji.",
+        "Vaše AirPods slušalice. Uz Muffle pritisak na stapku utišava svaki poziv, uključujući Google Meet u pregledniku Chrome."
+      ],
+      "tips": [
+        "Ikona Muffle u traci s izbornicima postaje crvena dok je mikrofon isključen, u bilo kojoj aplikaciji.",
+        "Zatvaranje aplikacije Muffle uvijek ponovno uključuje mikrofon."
+      ],
+      "faq": [
+        {
+          "q": "Postoji li ugrađeno utišavanje mikrofona na Macu?",
+          "a": "Ne za cijeli sustav. macOS utišava mikrofon samo unutar aplikacija koje to podržavaju. Muffle dodaje pravo utišavanje na razini cijelog sustava."
+        },
+        {
+          "q": "Utišava li Muffle mikrofon u svakoj aplikaciji?",
+          "a": "Da. Muffle isključuje svaki mikrofon na razini hardvera, pa vas nijedna aplikacija ne može čuti dok ga ponovno ne uključite."
+        }
+      ]
+    },
+    {
+      "slug": "youre-muted-reminder",
+      "title": "Podsjetnik „Utišani ste” u svakoj aplikaciji na Macu",
+      "description": "Govorite dok je mikrofon utišan? Muffle to prepoznaje i prikazuje podsjetnik „Utišani ste” u Google Meetu, Zoomu, Teamsu, Slacku i svim ostalim aplikacijama.",
+      "h1": "Podsjetnik „Utišani ste” za svaki poziv i sastanak",
+      "intro": [
+        "Zoom vas upozorava kada govorite dok je mikrofon utišan. Većina drugih aplikacija to ne radi, a pozivi u pregledniku gotovo nikada. Objašnjavate nešto cijelu minutu i tek tada primijetite da vas svi čekaju.",
+        "Muffle prepoznaje govor dok je mikrofon utišan i prikazuje podsjetnik u bilo kojoj aplikaciji. Kada se u pozivu upotrebljavaju AirPods ili slušalice s mikrofonom, Muffle osluškuje ugrađeni mikrofon Maca, i to samo njegovu glasnoću. Ništa se ne snima."
+      ],
+      "steps_title": "Uključite podsjetnik",
+      "steps": [
+        "Instalirajte Muffle i dopustite pristup mikrofonu.",
+        "Provjerite je li u izborniku Postavke Muffle uključena opcija „Podsjeti me kada govorim dok je mikrofon utišan”.",
+        "Pridružite se pozivu uz AirPods ili slušalice i utišajte mikrofon.",
+        "Počnite govoriti. Prikazat će se podsjetnik „Utišani ste”."
+      ],
+      "tips": [
+        "Ulazite u poziv dok je mikrofon još utišan od prethodnog? Muffle vas podsjeća čim poziv započne.",
+        "Tipkanje neće aktivirati podsjetnik. Aktivira ga isključivo govor."
+      ],
+      "faq": [
+        {
+          "q": "Radi li podsjetnik s ugrađenim mikrofonom Maca?",
+          "a": "Radi kada se u pozivu upotrebljavaju AirPods ili slušalice s mikrofonom. Ako poziv upotrebljava ugrađeni mikrofon Maca, taj je mikrofon utišan i ne može vas čuti."
+        },
+        {
+          "q": "Snima li se moj zvuk?",
+          "a": "Ne. Muffle mjeri samo glasnoću i nikada ne pohranjuje niti šalje zvuk."
+        }
+      ]
+    }
+  ],
+  "support": {
+    "title": "Podrška za Muffle",
+    "description": "Pomoć za Muffle za Mac: postavljanje pritiska na AirPods, tipkovnog prečaca, kupnje i više.",
+    "h1": "Podrška",
+    "sections": [
+      {
+        "h": "Početak rada",
+        "items": [
+          "Muffle se nalazi u traci s izbornicima. Kliknite ikonu mikrofona za upravljanje ili kliknite desnom tipkom miša da biste ga odmah utišali.",
+          "Tijekom poziva pritisnite stapku slušalica AirPods da biste utišali mikrofon, i ponovno da biste ga uključili.",
+          "Zadani prečac je Control-Option-M. Pritisnite ga da biste utišali ili uključili mikrofon. Dok je utišan, držite ga pritisnutim za govor."
+        ]
+      },
+      {
+        "h": "Pritisak na AirPods ne utišava mikrofon",
+        "items": [
+          "Radi samo tijekom poziva, dok neka aplikacija upotrebljava vaš mikrofon.",
+          "Dopustite pristup mikrofonu za Muffle u Postavke sustava, Privatnost i sigurnost, Mikrofon.",
+          "Provjerite je li stavka „Utišajte i uključujte pritiskom na AirPods” uključena u Postavke Muffle.",
+          "Vaše AirPods slušalice moraju podržavati upravljanje pozivima: AirPods Pro, AirPods 3 i noviji modeli ili AirPods Max."
+        ]
+      },
+      {
+        "h": "Aplikacija za pozive i dalje prikazuje mikrofon uključenim",
+        "items": [
+          "To je očekivano. Muffle isključuje sam mikrofon, pa svaka aplikacija prima tišinu iako i dalje smatra da je mikrofon uključen. Pouzdajte se u ikonu Muffle u traci s izbornicima: crvena boja znači da vas nitko ne čuje."
+        ]
+      },
+      {
+        "h": "Kupnje",
+        "items": [
+          "Muffle je besplatan za isprobavanje 3 dana. Nakon toga ga otključajte jednokratnom kupnjom. Nema pretplate.",
+          "Da biste vratili kupnju na drugom Macu, otvorite Postavke Muffle i odaberite „Vrati kupnju”."
+        ]
+      }
+    ],
+    "contact_title": "Kontakt",
+    "contact_text": "Pošaljite nam e-poruku na"
+  },
+  "privacy_page": {
+    "title": "Pravila privatnosti za Muffle",
+    "description": "Muffle nikada ne snima, ne pohranjuje niti ne šalje zvuk i ne prikuplja podatke. Saznajte kako Muffle upotrebljava mikrofon.",
+    "h1": "Pravila privatnosti",
+    "updated": "Posljednja izmjena: 29. rujna 2026.",
+    "intro": "Muffle utišava mikrofon vašeg Maca. Izrađen je tako da ništa što izgovorite nikada ne napusti vaš Mac.",
+    "sections": [
+      {
+        "h": "Što Muffle radi s vašim mikrofonom",
+        "p": [
+          "Tijekom poziva Muffle održava nečujnu vezu s mikrofonom. macOS prosljeđuje pritisak na AirPods za utišavanje samo aplikacijama koje upotrebljavaju mikrofon, pa upravo ta veza omogućuje rad pritiska na AirPods.",
+          "Ako uključite podsjetnik za govor dok je mikrofon utišan, Muffle također mjeri glasnoću ugrađenog mikrofona vašeg Maca dok je utišan kako bi prepoznao da ste počeli govoriti.",
+          "Muffle analizira isključivo brojčane vrijednosti glasnoće. Nikada ne snima, ne pohranjuje, ne transkribira niti ne šalje zvuk."
+        ]
+      },
+      {
+        "h": "Podaci koje prikupljamo",
+        "p": [
+          "Nijedan. Muffle nema korisničke račune, analitiku, oglase niti praćenje. Ne komunicira ni s jednim našim poslužiteljem."
+        ]
+      },
+      {
+        "h": "Kupnje",
+        "p": [
+          "Besplatno probno razdoblje i jednokratna kupnja odvijaju se putem servisa Apple App Store. Apple upravlja podacima o plaćanju; mi ih nikada ne vidimo. Na te se kupnje primjenjuju Appleova pravila privatnosti."
+        ]
+      },
+      {
+        "h": "Postavke pohranjene na Macu",
+        "p": [
+          "Vaše postavke, kao što je tipkovni prečac, ostaju na Macu u vlastitoj pohrani aplikacije Muffle. Ako izbrišete Muffle, brišu se i one."
+        ]
+      }
+    ],
+    "contact": "Pitanja o privatnosti:"
+  }
+}

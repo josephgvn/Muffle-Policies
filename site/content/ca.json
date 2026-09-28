@@ -1,0 +1,643 @@
+{
+  "meta": {
+    "home_title": "Muffle: silencia el micròfon del Mac amb AirPods o drecera",
+    "home_description": "Silencia el micròfon a Google Meet, Zoom, Teams, Slack i qualsevol app del Mac. Prem els AirPods o una drecera de teclat. Prova gratuïta de 3 dies.",
+    "og_title": "Silencia el micròfon del teu Mac des de qualsevol lloc.",
+    "og_subtitle": "Prem els AirPods o una drecera. Funciona a totes les apps."
+  },
+  "nav": {
+    "features": "Funcions",
+    "guides": "Guies",
+    "support": "Assistència",
+    "download": "Aconsegueix Muffle",
+    "home": "Inici",
+    "menu": "Menú"
+  },
+  "cta": {
+    "download": "Descarrega a la Mac App Store",
+    "coming_soon": "Properament a la Mac App Store",
+    "trial": "Gratis durant 3 dies. Després un pagament únic, sense subscripció.",
+    "requirements": "Per a macOS 14 Sonoma i posterior."
+  },
+  "hero": {
+    "title": "Silencia el micròfon del teu Mac des de qualsevol lloc.",
+    "subtitle": "Prem els AirPods o una drecera de teclat. Muffle desactiva el micròfon mateix perquè Google Meet, Zoom, Teams, Slack i les altres apps només rebin silenci.",
+    "image_alt": "El tauler de Muffle a la barra de menús del Mac durant una trucada de Google Meet a Chrome"
+  },
+  "works_with": {
+    "title": "Funciona amb qualsevol app que utilitzi el micròfon",
+    "apps": [
+      "Google Meet",
+      "Zoom",
+      "Microsoft Teams",
+      "Slack",
+      "Discord",
+      "FaceTime",
+      "Webex",
+      "WhatsApp",
+      "Skype",
+      "SoWork",
+      "Gather",
+      "Chrome",
+      "Safari",
+      "Arc",
+      "Edge",
+      "Firefox"
+    ],
+    "note": "Muffle silencia el micròfon a nivell de maquinari, així que no importa quina app, navegador o pestanya estiguis fent servir."
+  },
+  "features": {
+    "title": "Tot el que el teu Mac hauria de fer en una trucada",
+    "items": [
+      {
+        "title": "Prem els AirPods per silenciar",
+        "text": "Durant qualsevol trucada, prem la vareta una vegada per silenciar i una altra per activar el so. Funciona fins i tot a Chrome, on Google Meet i altres videotrucades web ignoren la premuda dels AirPods."
+      },
+      {
+        "title": "Una drecera per a cada app",
+        "text": "Control-Opció-M et silencia a tot arreu, fins i tot quan la trucada és en una pestanya en segon pla. Mantén-la premuda per parlar mentre estàs silenciat i deixa-la anar per tornar a silenciar."
+      },
+      {
+        "title": "Un avís d'«Estàs silenciat»",
+        "text": "Si comences a parlar mentre estàs silenciat, Muffle t'avisa abans que expliquis tota la teva idea a ningú."
+      },
+      {
+        "title": "Trucades en pilot automàtic",
+        "text": "Inicia totes les trucades silenciades, torna a activar el micròfon quan acabi una trucada i silencia quan la pantalla es bloquegi."
+      },
+      {
+        "title": "Sabràs sempre si el micròfon està obert",
+        "text": "Un botó flotant et mostra l'estat del micròfon durant les trucades. Fes-hi clic per silenciar o activar el so."
+      },
+      {
+        "title": "El volum del micròfon no es mou",
+        "text": "Chrome, Zoom i Teams canvien el nivell del micròfon pel seu compte. Bloqueja'l i Muffle el tornarà a posar al seu lloc."
+      },
+      {
+        "title": "Sense ensurts si es desconnecten els AirPods",
+        "text": "Si els auriculars es desconnecten a mitja trucada, Muffle silencia abans que el Mac canviï al micròfon integrat i se senti tota l'habitació."
+      },
+      {
+        "title": "Dreceres i Centre de control",
+        "text": "Silencia des de l'app Dreceres, Siri, un Stream Deck, Raycast o un botó al Centre de control."
+      }
+    ],
+    "image_reminder_alt": "L'avís d'«Estàs silenciat» a la part inferior de la pantalla",
+    "image_pills_alt": "El mini controlador flotant en estat silenciat i activat",
+    "image_automation_alt": "Configuració de Muffle per iniciar trucades silenciades i altres automatitzacions"
+  },
+  "how": {
+    "title": "A punt en un minut",
+    "steps": [
+      "Instal·la Muffle des de la Mac App Store i permet l'accés al micròfon.",
+      "Uneix-te a una trucada des de qualsevol app, com de costum.",
+      "Prem els AirPods, prem Control-Opció-M o fes clic a la icona de la barra de menús per silenciar."
+    ]
+  },
+  "privacy": {
+    "title": "Privadesa des del disseny",
+    "text": "Muffle mai enregistra, emmagatzema ni envia àudio. Només activa o desactiva el micròfon i en mesura el volum. Sense comptes, sense analítiques i sense seguiment."
+  },
+  "faq": {
+    "title": "Preguntes",
+    "items": [
+      {
+        "q": "Muffle funciona amb Google Meet a Chrome?",
+        "a": "Sí. Chrome no trasllada la premuda de silenciar dels AirPods a les trucades web, de manera que Muffle la rep i silencia el micròfon mateix. El mateix passa amb qualsevol trucada en una pestanya del navegador."
+      },
+      {
+        "q": "Les altres persones veuran que estic silenciat?",
+        "a": "És possible que l'app de la trucada continuï mostrant el micròfon com a activat, perquè Muffle apaga el micròfon físic i no pas el botó de l'aplicació. Tothom sentirà silenci igualment. La icona de Muffle a la barra de menús es posa vermella mentre estàs silenciat."
+      },
+      {
+        "q": "Quins AirPods són compatibles?",
+        "a": "AirPods Pro, AirPods 3 i posteriors, i AirPods Max, a més dels models Beats compatibles amb els controls de trucada. La drecera de teclat i la barra de menús funcionen amb qualsevol micròfon."
+      },
+      {
+        "q": "Funciona amb Zoom, Teams, Slack i Discord?",
+        "a": "Sí. Muffle funciona amb totes les apps del teu Mac que utilitzen el micròfon, tant aplicacions d'escriptori com trucades al navegador web."
+      },
+      {
+        "q": "Hi ha cap subscripció?",
+        "a": "No. Prova totes les funcions gratis durant 3 dies i després desbloqueja Muffle amb una sola compra."
+      },
+      {
+        "q": "Per què necessita Muffle accés al micròfon?",
+        "a": "macOS només envia les premudes dels AirPods a les apps que poden utilitzar el micròfon, de manera que Muffle manté oberta una connexió silenciosa durant les trucades. No es grava res."
+      },
+      {
+        "q": "Què passa si surto de Muffle mentre estic silenciat?",
+        "a": "Muffle torna a activar el micròfon quan surts de l'app, així que mai et quedaràs sense veu."
+      },
+      {
+        "q": "Quines versions de macOS són compatibles?",
+        "a": "macOS 14 Sonoma i posterior. El botó del Centre de control requereix macOS 26 o posterior."
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Prou de buscar el botó de silenciar.",
+    "text": "Muffle és gratuït per provar durant 3 dies."
+  },
+  "footer": {
+    "guides": "Guies",
+    "product": "Muffle",
+    "support": "Assistència",
+    "privacy": "Política de privadesa",
+    "language": "Idioma",
+    "contact": "Contacte",
+    "copyright": "© 2026 Muffle. AirPods i Mac són marques comercials d'Apple Inc."
+  },
+  "guides_index": {
+    "title": "Guies de Muffle: silencia Meet, Zoom i Teams al Mac",
+    "description": "Guies pas a pas per silenciar Google Meet, Zoom, Microsoft Teams, Slack i trucades web al Mac amb els AirPods o una drecera de teclat.",
+    "h1": "Guies",
+    "intro": "Respostes curtes i pràctiques per silenciar el micròfon al Mac, a qualsevol app."
+  },
+  "guide_labels": {
+    "on_this_page": "En aquesta pàgina",
+    "faq": "Preguntes",
+    "related": "Més guies",
+    "try": "Prova Muffle gratis durant 3 dies",
+    "read": "Llegeix la guia"
+  },
+  "guides": [
+    {
+      "slug": "mute-google-meet-with-airpods",
+      "title": "Com silenciar Google Meet amb els AirPods al Mac",
+      "description": "Prémer els AirPods no silencia Google Meet a Chrome al Mac. Descobreix com silenciar el micròfon a Meet amb els AirPods o una drecera a qualsevol pestanya.",
+      "h1": "Com silenciar Google Meet amb els AirPods al Mac",
+      "intro": [
+        "A l'iPhone, prémer la vareta dels AirPods silencia una trucada. Al Mac, Google Meet s'executa a Chrome, i Chrome no transmet aquest gest a les pàgines web. Prems la vareta, sents un to d'error i Meet continua enviant la teva veu.",
+        "Muffle soluciona aquest problema a cada reunió de Meet. Rep directament la pressió dels AirPods i silencia el micròfon del Mac, de manera que a Meet només se sent silenci fins i tot si la pestanya està en segon pla."
+      ],
+      "steps_title": "Silencia Google Meet amb els AirPods",
+      "steps": [
+        "Instal·la Muffle i permet l'accés al micròfon quan se't demani.",
+        "Uneix-te a la trucada de Google Meet a Chrome, Safari, Arc o Edge.",
+        "Prem la vareta dels AirPods una vegada per silenciar. La icona de Muffle es tornarà vermella.",
+        "Torna a prémer per activar el so. També pots prémer Control-Opció-M des de qualsevol app."
+      ],
+      "tips": [
+        "És possible que Meet continuï mostrant el micròfon com a activat, perquè Muffle silencia el mateix micròfon i no pas el botó de Meet. Tothom sentirà silenci mentre la icona de Muffle sigui vermella.",
+        "Activa «Inicia totes les trucades silenciades» per entrar a cada reunió de Meet amb el micròfon silenciat."
+      ],
+      "faq": [
+        {
+          "q": "Per què prémer els AirPods no silencia Google Meet?",
+          "a": "Chrome no admet el gest de silenciament dels AirPods de macOS a les trucades web, de manera que macOS no té cap app a la qual enviar la pulsació. Muffle es converteix en aquesta app."
+        },
+        {
+          "q": "No n'hi ha prou amb la drecera de Meet?",
+          "a": "La drecera Ordre-D de Meet només funciona quan la pestanya de Meet està en primer pla. La drecera de Muffle i la pulsació dels AirPods funcionen des de qualsevol app."
+        }
+      ]
+    },
+    {
+      "slug": "mute-zoom-with-airpods",
+      "title": "Com silenciar Zoom amb els AirPods o una drecera al Mac",
+      "description": "Silencia el micròfon a Zoom al Mac prement els AirPods o amb una drecera global, fins i tot si la finestra no està activa. Funciona a l'app i al navegador.",
+      "h1": "Com silenciar Zoom amb els AirPods o una drecera al Mac",
+      "intro": [
+        "La drecera de Zoom, Ordre-Majúscules-A, només funciona quan Zoom és l'app en primer pla. Quan estàs prenent notes o compartint una altra finestra, buscar el botó per silenciar-te et fa perdre uns segons incòmodes.",
+        "Muffle et proporciona un únic control de silenciament per a Zoom i qualsevol altra app: els AirPods, una drecera global o la barra de menús. Silencia el mateix micròfon, de manera que funciona a l'app Zoom i a les videotrucades de Zoom al navegador."
+      ],
+      "steps_title": "Silencia Zoom des de qualsevol lloc",
+      "steps": [
+        "Instal·la Muffle i permet l'accés al micròfon.",
+        "Uneix-te a la reunió de Zoom com de costum.",
+        "Prem la vareta dels AirPods o Control-Opció-M per silenciar, des de qualsevol app.",
+        "Mentre estiguis silenciat, mantén premut Control-Opció-M per parlar i deixa'l anar per tornar a silenciar."
+      ],
+      "tips": [
+        "Si Zoom rep directament la pulsació dels AirPods al teu Mac, la drecera i la barra de menús et continuaran silenciant a través de Muffle.",
+        "És possible que Zoom et mostri amb el so activat mentre Muffle té el micròfon desactivat. Els participants sentiran silenci."
+      ],
+      "faq": [
+        {
+          "q": "Muffle substitueix el botó de silenciament de Zoom?",
+          "a": "Funciona en paral·lel. Muffle desactiva el micròfon per a totes les apps, de manera que pots silenciar Zoom sense haver de canviar de finestra."
+        },
+        {
+          "q": "Puc prémer per parlar a Zoom?",
+          "a": "Sí. Mentre estiguis silenciat, mantén premuda la drecera de Muffle per parlar. Funciona a Zoom i a qualsevol altra app."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microsoft-teams-with-airpods",
+      "title": "Com silenciar Microsoft Teams amb els AirPods al Mac",
+      "description": "Silencia Microsoft Teams al Mac amb els AirPods, una drecera global o la barra de menús. Funciona a l'app de Teams i a les trucades des del navegador.",
+      "h1": "Com silenciar Microsoft Teams amb els AirPods al Mac",
+      "intro": [
+        "La drecera de Teams, Ordre-Majúscules-M, només funciona quan la finestra de Teams està activa. Durant una reunió normalment fas altres coses: consultar un document, mirar el navegador o compartir la pantalla.",
+        "Muffle silencia el micròfon des de qualsevol lloc, tant a l'app de Teams com a Teams al web. Prem els AirPods, prem una sola drecera o fes clic a la barra de menús."
+      ],
+      "steps_title": "Silencia Teams des de qualsevol lloc",
+      "steps": [
+        "Instal·la Muffle i permet l'accés al micròfon.",
+        "Uneix-te a la reunió de Teams.",
+        "Prem Control-Opció-M o la vareta dels AirPods per silenciar. La icona de la barra de menús es tornarà vermella.",
+        "Torna a prémer per activar el so, o mantén premuda la drecera per parlar mentre estiguis silenciat."
+      ],
+      "tips": [
+        "Si utilitzes Teams en una pestanya del navegador, obtens la mateixa compatibilitat amb els AirPods que a Google Meet gràcies a Muffle.",
+        "Activa «Silencia quan la pantalla es bloquegi» perquè el micròfon mai quedi obert si t'aixeques del Mac."
+      ],
+      "faq": [
+        {
+          "q": "Funciona la pulsació dels AirPods a l'app de Teams?",
+          "a": "Depèn de la versió de Teams, ja que Teams pot rebre la pulsació directament. La drecera de Muffle i el botó de la barra de menús funcionen en tots els casos."
+        },
+        {
+          "q": "Teams mostrarà que estic silenciat?",
+          "a": "No sempre. Muffle silencia el micròfon, de manera que Teams pot continuar mostrant-lo com a actiu mentre tothom sent silenci."
+        }
+      ]
+    },
+    {
+      "slug": "mute-slack-huddles",
+      "title": "Com silenciar converses de Slack amb una drecera al Mac",
+      "description": "Silencia les converses de Slack al Mac des de qualsevol app amb una drecera global o els AirPods. Sense haver de buscar la finestra de la trucada.",
+      "h1": "Com silenciar una conversa de Slack des de qualsevol app al Mac",
+      "intro": [
+        "Els controls de les converses de Slack es troben en una petita finestra que es perd fàcilment darrere de la feina, i la seva drecera de silenciament només funciona quan Slack està en primer pla.",
+        "Muffle silencia el micròfon per a Slack i qualsevol altra app amb una drecera o prement els AirPods, siguis on siguis al Mac."
+      ],
+      "steps_title": "Silencia una conversa des de qualsevol lloc",
+      "steps": [
+        "Instal·la Muffle i permet l'accés al micròfon.",
+        "Inicia una conversa a Slack o uneix-t'hi.",
+        "Prem Control-Opció-M o la vareta dels AirPods per silenciar.",
+        "Fes un cop d'ull a la barra de menús: el color vermell indica que ningú et pot sentir."
+      ],
+      "tips": [
+        "El mini controlador flotant mostra l'estat del micròfon durant cada conversa de Slack.",
+        "Mantén premuda la drecera per dir alguna cosa ràpidament sense deixar d'estar silenciat."
+      ],
+      "faq": [
+        {
+          "q": "Funciona amb l'app de Slack i amb Slack al navegador?",
+          "a": "Sí. Muffle silencia el micròfon mateix, per la qual cosa funciona en tots dos casos."
+        },
+        {
+          "q": "Els companys d'equip veuran que estic silenciat?",
+          "a": "Slack pot continuar mostrant el micròfon com a activat. Els altres sentiran silenci mentre Muffle et mantingui silenciat."
+        }
+      ]
+    },
+    {
+      "slug": "mute-discord-on-mac",
+      "title": "Prémer per parlar i drecera per silenciar Discord al Mac",
+      "description": "Utilitza una drecera global per prémer per parlar i silenciar Discord al Mac, o silencia amb els AirPods. Funciona a l'app i al navegador.",
+      "h1": "Prémer per parlar i drecera global per silenciar Discord al Mac",
+      "intro": [
+        "La funció de prémer per parlar de Discord necessita permisos addicionals al Mac i no funciona a Discord al navegador. Si a més fas trucades a Meet o Zoom, acabes amb una tecla per silenciar diferent per a cada app.",
+        "Muffle et dona una sola tecla per a totes. Toca-la per silenciar, mantén-la premuda per parlar o prem els AirPods."
+      ],
+      "steps_title": "Configura prémer per parlar a Discord",
+      "steps": [
+        "Instal·la Muffle i permet l'accés al micròfon.",
+        "Entra a un canal de veu de Discord.",
+        "Prem Control-Opció-M per silenciar o activar el so. Mantén-lo premut mentre estiguis silenciat per parlar.",
+        "Tria la teva pròpia tecla a la Configuració de Muffle, per exemple una tecla F."
+      ],
+      "tips": [
+        "La drecera de Muffle no necessita permís d'Accessibilitat.",
+        "Bloqueja el nivell del micròfon perquè el guany automàtic de Discord no el canviï constantment."
+      ],
+      "faq": [
+        {
+          "q": "És el mateix que prémer per parlar de Discord?",
+          "a": "Funciona de la mateixa manera, però per a totes les apps alhora. Muffle silencia el mateix micròfon, de manera que Discord sent silenci fins que mantens la tecla premuda."
+        },
+        {
+          "q": "Puc silenciar Discord amb els AirPods?",
+          "a": "Sí. Durant una trucada de veu, prem la vareta dels AirPods per silenciar o activar el so."
+        }
+      ]
+    },
+    {
+      "slug": "mute-webex-on-mac",
+      "title": "Com silenciar Webex des de qualsevol app al Mac",
+      "description": "Silencia les reunions de Webex al Mac amb una drecera global o amb els AirPods, fins i tot si Webex no és la finestra activa.",
+      "h1": "Com silenciar Webex des de qualsevol app al Mac",
+      "intro": [
+        "La drecera per silenciar de Webex només funciona mentre Webex està en primer pla, i els seus controls s'amaguen quan comparteixes la pantalla.",
+        "Muffle silencia el micròfon des de qualsevol lloc del Mac, per poder silenciar una reunió de Webex sense sortir del que estàs fent."
+      ],
+      "steps_title": "Silencia Webex des de qualsevol lloc",
+      "steps": [
+        "Instal·la Muffle i permet l'accés al micròfon.",
+        "Uneix-te a la reunió de Webex.",
+        "Prem Control-Opció-M o la vareta dels AirPods per silenciar.",
+        "Utilitza el mini controlador flotant per veure l'estat del micròfon mentre comparteixes."
+      ],
+      "tips": [
+        "És possible que Webex continuï mostrant que tens el so activat. Els participants sentiran silenci mentre la icona de Muffle estigui vermella.",
+        "Activa «Inicia totes les trucades silenciades» per a reunions grans."
+      ],
+      "faq": [
+        {
+          "q": "Funciona Muffle amb Webex al navegador?",
+          "a": "Sí. Silencia el micròfon, de manera que funciona amb qualsevol client de Webex."
+        },
+        {
+          "q": "Puc silenciar Webex amb els AirPods?",
+          "a": "Sí, prem la vareta durant la reunió. La drecera de teclat funciona amb qualsevol auricular."
+        }
+      ]
+    },
+    {
+      "slug": "mute-browser-calls",
+      "title": "Silenciar trucades a Chrome, Safari i Arc al Mac",
+      "description": "Silencia trucades a Chrome, Safari, Arc, Edge i Firefox amb els AirPods o una drecera. Funciona a Google Meet, SoWork, Gather, Whereby i Jitsi.",
+      "h1": "Com silenciar trucades a qualsevol pestanya del navegador al Mac",
+      "intro": [
+        "Cada vegada es fan més trucades al navegador: Google Meet, Teams al web, oficines virtuals com SoWork i Gather, Whereby o Jitsi. Cadascuna té el seu propi botó i drecera per silenciar, i només funcionen mentre aquella pestanya està en primer pla.",
+        "A més, els navegadors ignoren la premuda dels AirPods per silenciar al Mac. Muffle rep la premuda, o una sola drecera global, i silencia el micròfon per a totes les pestanyes alhora."
+      ],
+      "steps_title": "Silencia qualsevol trucada web",
+      "steps": [
+        "Instal·la Muffle i permet l'accés al micròfon.",
+        "Obre la trucada a qualsevol pestanya del navegador.",
+        "Prem la vareta dels AirPods o Control-Opció-M per silenciar, des de qualsevol app o pestanya.",
+        "Fixa't en la icona de la barra de menús: en vermell vol dir que el micròfon està desactivat."
+      ],
+      "tips": [
+        "Les oficines virtuals mantenen el micròfon obert durant hores. Activa el mini controlador flotant per veure sempre el teu estat.",
+        "L'avís «Estàs silenciat» t'avisa si comences a parlar mentre estàs silenciat."
+      ],
+      "faq": [
+        {
+          "q": "Per què no funciona prémer els AirPods a Chrome?",
+          "a": "Chrome no és compatible amb el gest de silenciar dels AirPods de macOS a les pàgines web. Muffle rep la premuda i silencia el mateix micròfon."
+        },
+        {
+          "q": "Funciona a SoWork i Gather?",
+          "a": "Sí. Qualsevol lloc web que utilitzi el micròfon es silencia quan Muffle desactiva el micròfon."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-mute-not-working-on-mac",
+      "title": "Els AirPods no silencien al Mac? Arregla l'error de control",
+      "description": "Prem la vareta dels AirPods i sona un to d'error sense silenciar la trucada? Descobreix per què passa al Mac i com fer que silenciï qualsevol app.",
+      "h1": "Els AirPods no silencien al teu Mac? Aquí tens la solució",
+      "intro": [
+        "macOS permet silenciar una trucada prement la vareta dels AirPods, però només si l'app de la trucada ho admet. Moltes no ho fan, incloent-hi Chrome i les videotrucades web. Prems, sents un so breu d'error, veus el missatge «No es pot controlar el micròfon» i a la trucada et continuen sentint.",
+        "Muffle afegeix aquesta compatibilitat a qualsevol app. Rep la premuda, silencia el micròfon del Mac i reprodueix el so habitual de silenciament."
+      ],
+      "steps_title": "Fes que prémer els AirPods silenciï qualsevol app",
+      "steps": [
+        "Instal·la Muffle i permet l'accés al micròfon. macOS només envia les premudes a les apps que poden utilitzar el micròfon.",
+        "Comprova que «Silencia i activa el so prement els AirPods» estigui activat a la Configuració de Muffle.",
+        "Entra a una trucada. Prémer només silencia mentre una app estigui utilitzant el micròfon.",
+        "Prem la vareta una vegada per silenciar i torna a prémer per activar el so."
+      ],
+      "tips": [
+        "Fora de les trucades, prémer continua reproduint i posant en pausa la música com sempre.",
+        "Si els teus AirPods utilitzen una premuda diferent per als controls de trucada, comprova la configuració dels AirPods a la Configuració del sistema."
+      ],
+      "faq": [
+        {
+          "q": "Per què el meu Mac reprodueix un so d'error en prémer els AirPods?",
+          "a": "L'app des d'on fas la trucada no és compatible amb la premuda per silenciar dels AirPods, de manera que macOS la rebutja. Amb Muffle obert, la premuda silencia el micròfon."
+        },
+        {
+          "q": "Quins AirPods admeten la premuda per silenciar?",
+          "a": "AirPods Pro, AirPods 3 i posteriors, i AirPods Max, a més dels models de Beats amb controls de trucada."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-keyboard-shortcut-mac",
+      "title": "Silenciar el micròfon al Mac amb una drecera de teclat",
+      "description": "Configura una drecera global per silenciar i activar el micròfon del Mac a qualsevol app. Sense permisos d'accessibilitat.",
+      "h1": "Com silenciar el micròfon al Mac amb una drecera de teclat",
+      "intro": [
+        "macOS té una tecla per al dictat, però cap per silenciar el micròfon. Cada app de trucada té la seva drecera i només funciona quan aquella app està en primer pla.",
+        "Muffle afegeix una sola drecera que silencia el mateix micròfon a totes les apps alhora. La combinació per omissió és Control-Opció-M i pots triar la que vulguis."
+      ],
+      "steps_title": "Silencia amb una sola drecera",
+      "steps": [
+        "Instal·la Muffle.",
+        "Prem Control-Opció-M per silenciar. La icona de la barra de menús es posa vermella i apareix una petita confirmació «Silenciat».",
+        "Torna a prémer per activar el so.",
+        "Per canviar-la, obre la Configuració de Muffle, fes clic a la drecera i prem-ne una de nova."
+      ],
+      "tips": [
+        "Mentre estiguis silenciat, mantén premuda la drecera per parlar i deixa-la anar per tornar a silenciar.",
+        "Fes clic amb el botó dret a la icona de Muffle a la barra de menús per silenciar a l'instant amb el ratolí."
+      ],
+      "faq": [
+        {
+          "q": "La drecera funciona quan l'app de la trucada no està en primer pla?",
+          "a": "Sí. Funciona des de qualsevol app, incloses les apps a pantalla completa."
+        },
+        {
+          "q": "Puc utilitzar una sola tecla, com ara F5?",
+          "a": "Sí. Les tecles de funció funcionen soles; les altres tecles necessiten Control, Opció o Ordre."
+        }
+      ]
+    },
+    {
+      "slug": "push-to-talk-on-mac",
+      "title": "Prem per parlar al Mac a qualsevol app",
+      "description": "Fes servir el push to talk al Mac a Zoom, Google Meet, Teams i Discord. Mantén premuda una tecla per parlar i deixa-la anar per silenciar.",
+      "h1": "Prem per parlar al Mac a qualsevol app",
+      "intro": [
+        "La funció de prémer per parlar et manté silenciat fins que mantens premuda una tecla. És la manera més senzilla de mantenir el silenci en reunions grans o llocs sorollosos, però molt poques apps la tenen i cadascuna fa servir una tecla diferent.",
+        "Muffle afegeix la funció de prémer per parlar a totes les apps del teu Mac. Queda't en silenci, mantén premuda la drecera per parlar i deixa-la anar per tornar a silenciar."
+      ],
+      "steps_title": "Fes servir la funció de prémer per parlar",
+      "steps": [
+        "Instal·la Muffle.",
+        "Silencia amb Control-Opció-M o amb els AirPods.",
+        "Mantén premut Control-Opció-M mentre parles.",
+        "Deixa anar la tecla. Tornes a estar silenciat."
+      ],
+      "tips": [
+        "Prémer la drecera una vegada canvia l'estat del micròfon. Mantenir-la premuda és per parlar.",
+        "Tria una tecla còmoda a la Configuració de Muffle, com ara una tecla F."
+      ],
+      "faq": [
+        {
+          "q": "La funció de prémer per parlar funciona a Google Meet?",
+          "a": "Sí. Muffle silencia el mateix micròfon, de manera que prémer per parlar funciona a Meet, Zoom, Teams, Discord i qualsevol altra app."
+        },
+        {
+          "q": "Hi ha una opció de prémer per silenciar?",
+          "a": "Sí. Quan tinguis el so activat, mantenir premuda la drecera et silencia fins que la deixis anar."
+        }
+      ]
+    },
+    {
+      "slug": "stop-apps-changing-mic-volume",
+      "title": "Evita que Chrome i Zoom canviïn el volum del micròfon",
+      "description": "Google Meet, Chrome, Zoom i Teams canvien el volum del micròfon al Mac. Bloqueja el nivell del micròfon perquè cap app el modifiqui.",
+      "h1": "Com evitar que les apps canviïn el volum del micròfon al Mac",
+      "intro": [
+        "Moltes apps de trucades ajusten el nivell d'entrada pel seu compte amb el control automàtic de guany. Configures un bon nivell a la Configuració del sistema, entres a Google Meet i uns minuts després el lliscador s'ha mogut i la gent et diu que se't sent fluix o distorsionat.",
+        "Muffle pot bloquejar el nivell del micròfon. Quan una app el canvia, Muffle el torna a ajustar immediatament."
+      ],
+      "steps_title": "Bloqueja el nivell del micròfon",
+      "steps": [
+        "Instal·la Muffle.",
+        "Fes clic a la icona de Muffle a la barra de menús i ajusta el volum amb el lliscador del micròfon.",
+        "Fes clic al cadenat que hi ha al costat del lliscador.",
+        "Entra a les trucades. El nivell es mantindrà exactament on l'hagis deixat."
+      ],
+      "tips": [
+        "Muffle t'avisa al tauler si el teu nivell és massa baix durant una trucada.",
+        "El bloqueig recorda el nivell de cada micròfon, així que els AirPods i el micròfon del Mac conserven cadascun el seu valor."
+      ],
+      "faq": [
+        {
+          "q": "Per què canvia constantment el volum del micròfon al meu Mac?",
+          "a": "Apps com ara Chrome, Zoom i Teams utilitzen el control automàtic de guany i alteren el nivell d'entrada del sistema mentre parles."
+        },
+        {
+          "q": "Puc continuar canviant el nivell manualment?",
+          "a": "Sí. Fes servir el lliscador al tauler de Muffle, que actualitza directament el nivell bloquejat."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-on-mac",
+      "title": "Com silenciar el micròfon al Mac: 4 mètodes",
+      "description": "Com silenciar el micròfon al Mac: el botó de l'app, la Configuració del sistema, una drecera global o els AirPods. Descobreix què funciona sempre.",
+      "h1": "Com silenciar el micròfon al Mac",
+      "intro": [
+        "Al Mac no hi ha cap tecla per silenciar el micròfon. Segons l'app i la situació tens diverses opcions, però només algunes funcionen a tot arreu."
+      ],
+      "steps_title": "Les teves opcions",
+      "steps": [
+        "El botó o la drecera de la mateixa app de trucades. Només funciona en aquesta app i només mentre la tinguis en primer pla.",
+        "Configuració del sistema, So, Entrada. Arrossegar el nivell d'entrada a zero no és un silenciament real en tots els micròfons, i les apps poden tornar a apujar-lo.",
+        "Una drecera global amb Muffle. Una sola tecla silencia el mateix micròfon a totes les apps.",
+        "Els teus AirPods. Amb Muffle, prémer la vareta silencia qualsevol trucada, inclòs Google Meet a Chrome."
+      ],
+      "tips": [
+        "La icona de Muffle a la barra de menús es posa vermella quan el micròfon està desactivat, independentment de l'app on siguis.",
+        "Sortir de Muffle sempre torna a activar el micròfon."
+      ],
+      "faq": [
+        {
+          "q": "Hi ha una opció integrada al Mac per silenciar el micròfon?",
+          "a": "No per a tot el sistema. macOS només permet silenciar el micròfon dins de les apps que ho admeten. Muffle afegeix un silenciament real a tot el sistema."
+        },
+        {
+          "q": "Silenciar des de Muffle silencia totes les apps?",
+          "a": "Sí. Muffle desactiva tots els micròfons a nivell de maquinari perquè ningú a la trucada et pugui sentir fins que activis el so."
+        }
+      ]
+    },
+    {
+      "slug": "youre-muted-reminder",
+      "title": "Avís d'«Estàs silenciat» en qualsevol app al Mac",
+      "description": "Parles mentre estàs silenciat? Muffle ho detecta i mostra l'avís «Estàs silenciat» a Google Meet, Zoom, Teams, Slack i qualsevol app al Mac.",
+      "h1": "Un avís d'«Estàs silenciat» per a qualsevol app de trucades",
+      "intro": [
+        "Zoom t'avisa quan parles mentre estàs silenciat. La majoria d'altres apps no ho fan, i les trucades web gairebé mai. Expliques una cosa durant un minut i després t'adones que tothom està esperant.",
+        "Muffle detecta la veu mentre estàs silenciat i mostra un avís en qualsevol app. Quan la trucada utilitza AirPods o uns auriculars, escolta el micròfon integrat del Mac, i només el nivell de volum. No es grava res."
+      ],
+      "steps_title": "Activa l'avís",
+      "steps": [
+        "Instal·la Muffle i permet l'accés al micròfon.",
+        "Assegura't que l'opció «Avisa'm quan parli mentre estic silenciat» estigui activada a la Configuració de Muffle.",
+        "Uneix-te a una trucada amb AirPods o uns auriculars i silencia el micròfon.",
+        "Comença a parlar. Apareixerà l'avís «Estàs silenciat»."
+      ],
+      "tips": [
+        "T'uneixes a una trucada mentre encara estàs silenciat de l'anterior? Muffle t'avisa tan bon punt comença la trucada.",
+        "Escriure amb el teclat no activa l'avís. Només ho fa la veu continuada."
+      ],
+      "faq": [
+        {
+          "q": "L'avís funciona amb el micròfon integrat del Mac?",
+          "a": "Funciona quan la trucada utilitza AirPods o uns auriculars. Si la trucada fa servir el micròfon del mateix Mac, aquest micròfon està silenciat i no et pot sentir."
+        },
+        {
+          "q": "S'enregistra el meu àudio?",
+          "a": "No. Muffle només mesura el nivell de volum i mai enregistra, emmagatzema ni envia cap àudio."
+        }
+      ]
+    }
+  ],
+  "support": {
+    "title": "Assistència de Muffle",
+    "description": "Ajuda amb Muffle per al Mac: configuració de la premuda dels AirPods, la drecera de teclat, compres i més.",
+    "h1": "Assistència",
+    "sections": [
+      {
+        "h": "Primers passos",
+        "items": [
+          "Muffle es troba a la barra de menús. Fes clic a la icona del micròfon per als controls, o fes clic amb el botó dret per silenciar a l'instant.",
+          "Durant una trucada, prem la vareta dels AirPods per silenciar i torna a prémer per activar el so.",
+          "La drecera per defecte és Control-Opció-M. Toca-la per silenciar o activar el so. Mentre estigui silenciat, mantén-la premuda per parlar."
+        ]
+      },
+      {
+        "h": "La premuda dels AirPods no silencia",
+        "items": [
+          "Només funciona durant una trucada, mentre una app estigui utilitzant el micròfon.",
+          "Permet l'accés al micròfon per a Muffle a Configuració del sistema, Privadesa i seguretat, Micròfon.",
+          "Comprova que «Silencia i activa el so prement els AirPods» estigui activat a la Configuració de Muffle.",
+          "Els teus AirPods han de tenir controls de trucada: AirPods Pro, AirPods 3 i posteriors, o AirPods Max."
+        ]
+      },
+      {
+        "h": "L'app de la trucada continua mostrant el micròfon obert",
+        "items": [
+          "És el comportament previst. Muffle desactiva el micròfon mateix, de manera que cada app rep silenci tot i que continuï pensant que el micròfon està activat. Fia't de la icona de Muffle a la barra de menús: en vermell vol dir que ningú et sent."
+        ]
+      },
+      {
+        "h": "Compres",
+        "items": [
+          "Muffle és gratuït per provar durant 3 dies. Després, desbloqueja'l amb una compra única. No hi ha cap subscripció.",
+          "Per restaurar una compra en un altre Mac, obre la Configuració de Muffle i tria Restaura la compra."
+        ]
+      }
+    ],
+    "contact_title": "Contacte",
+    "contact_text": "Escriu-nos a"
+  },
+  "privacy_page": {
+    "title": "Política de privadesa de Muffle",
+    "description": "Muffle mai enregistra, emmagatzema ni envia àudio i no recopila dades. Llegeix com Muffle utilitza el micròfon.",
+    "h1": "Política de privadesa",
+    "updated": "Darrera actualització: 29 de setembre de 2026.",
+    "intro": "Muffle silencia el micròfon del teu Mac. Està dissenyat perquè res del que diguis surti mai del teu Mac.",
+    "sections": [
+      {
+        "h": "Què fa Muffle amb el micròfon",
+        "p": [
+          "Durant les trucades, Muffle manté una connexió silenciosa amb el micròfon. macOS només envia les premudes dels AirPods per silenciar a les apps que utilitzen el micròfon; per tant, aquesta connexió és el que fa possible prémer els AirPods.",
+          "Si actives l'avís de parlar mentre estàs silenciat, Muffle també mesura el volum del micròfon integrat del Mac mentre estàs silenciat, per adonar-se que comences a parlar.",
+          "Muffle només consulta xifres de volum sonor. Mai enregistra, emmagatzema, transcriu ni envia àudio."
+        ]
+      },
+      {
+        "h": "Dades que recopilem",
+        "p": [
+          "Cap. Muffle no té comptes d'usuari, ni analítiques, ni publicitat ni seguiment. No contacta amb cap servidor nostre."
+        ]
+      },
+      {
+        "h": "Compres",
+        "p": [
+          "La prova gratuïta i la compra única es gestionen mitjançant l'App Store d'Apple. Apple gestiona les dades de pagament; nosaltres no les veiem mai. S'aplica la política de privadesa d'Apple a aquestes compres."
+        ]
+      },
+      {
+        "h": "Ajustos desats al teu Mac",
+        "p": [
+          "Les teves preferències, com ara la drecera de teclat, es mantenen al teu Mac a l'emmagatzematge propi de Muffle. Si elimines Muffle, s'eliminen."
+        ]
+      }
+    ],
+    "contact": "Preguntes sobre privadesa:"
+  }
+}

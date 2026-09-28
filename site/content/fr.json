@@ -1,0 +1,643 @@
+{
+  "meta": {
+    "home_title": "Muffle : coupez le micro du Mac avec vos AirPods ou raccourci",
+    "home_description": "Coupez votre micro sur Google Meet, Zoom, Teams ou Slack d'un appui sur vos AirPods ou par raccourci clavier. Idéal en télétravail. Essai gratuit de 3 jours.",
+    "og_title": "Coupez le micro de votre Mac où que vous soyez.",
+    "og_subtitle": "Appuyez sur vos AirPods ou un raccourci. Fonctionne avec toutes les apps."
+  },
+  "nav": {
+    "features": "Fonctionnalités",
+    "guides": "Guides",
+    "support": "Assistance",
+    "download": "Obtenir Muffle",
+    "home": "Accueil",
+    "menu": "Menu"
+  },
+  "cta": {
+    "download": "Télécharger sur le Mac App Store",
+    "coming_soon": "Bientôt disponible sur le Mac App Store",
+    "trial": "Essai gratuit de 3 jours. Puis un achat unique, sans abonnement.",
+    "requirements": "Pour macOS 14 Sonoma et versions ultérieures."
+  },
+  "hero": {
+    "title": "Coupez le micro de votre Mac où que vous soyez.",
+    "subtitle": "Appuyez sur vos AirPods ou utilisez un raccourci clavier. Muffle coupe directement le micro au niveau matériel : Google Meet, Zoom, Teams, Slack et vos autres apps ne reçoivent plus aucun son.",
+    "image_alt": "Le panneau Muffle dans la barre des menus du Mac pendant un appel Google Meet dans Chrome"
+  },
+  "works_with": {
+    "title": "Fonctionne avec toutes les apps qui utilisent votre micro",
+    "apps": [
+      "Google Meet",
+      "Zoom",
+      "Microsoft Teams",
+      "Slack",
+      "Discord",
+      "FaceTime",
+      "Webex",
+      "WhatsApp",
+      "Skype",
+      "SoWork",
+      "Gather",
+      "Chrome",
+      "Safari",
+      "Arc",
+      "Edge",
+      "Firefox"
+    ],
+    "note": "Muffle coupe le micro directement au niveau matériel, peu importe l'app, le navigateur ou l'onglet que vous utilisez en réunion."
+  },
+  "features": {
+    "title": "Tout ce que votre Mac devrait faire en appel",
+    "items": [
+      {
+        "title": "Appuyez sur vos AirPods pour couper le micro",
+        "text": "Pendant un appel, appuyez sur la tige pour couper le son, puis appuyez à nouveau pour le réactiver. Cela fonctionne même dans Chrome, où Google Meet et les autres conférences web ignorent l'appui sur les AirPods."
+      },
+      {
+        "title": "Un seul raccourci pour toutes vos apps",
+        "text": "Contrôle-Option-M coupe votre micro partout, même si l'appel se trouve dans un onglet en arrière-plan. Maintenez le raccourci pour parler en sourdine, puis relâchez pour couper à nouveau."
+      },
+      {
+        "title": "Un rappel « Vous êtes en sourdine »",
+        "text": "Si vous commencez à parler alors que votre micro est coupé, Muffle vous avertit immédiatement, avant que vous n'expliquiez toute votre idée dans le vide."
+      },
+      {
+        "title": "Vos appels en pilote automatique",
+        "text": "Activez l'option « Couper le micro au début de chaque appel », réactivez le micro dès qu'un appel se termine et passez automatiquement en sourdine quand vous verrouillez votre Mac."
+      },
+      {
+        "title": "Gardez toujours un œil sur votre micro",
+        "text": "Un mini-contrôleur flottant discret affiche l'état de votre micro pendant vos appels vidéo. Cliquez dessus pour couper ou activer le son à tout moment."
+      },
+      {
+        "title": "Votre niveau de micro ne bouge plus",
+        "text": "Chrome, Zoom et Teams modifient souvent le volume d'entrée de votre micro sans prévenir. Muffle verrouille votre niveau et le rétablit automatiquement."
+      },
+      {
+        "title": "Sécurité garantie si la batterie faiblit",
+        "text": "Si votre casque ou vos AirPods se déconnectent en pleine réunion, Muffle coupe le son avant que l'appel ne bascule sur le micro intégré du Mac et ne diffuse toute la pièce."
+      },
+      {
+        "title": "Raccourcis et Centre de contrôle",
+        "text": "Coupez votre micro depuis l'app Raccourcis, avec Siri, un Stream Deck, Raycast ou directement avec un bouton dans le Centre de contrôle."
+      }
+    ],
+    "image_reminder_alt": "Le rappel « Vous êtes en sourdine » affiché en bas de l'écran",
+    "image_pills_alt": "Le mini-contrôleur flottant avec le micro coupé et le micro activé",
+    "image_automation_alt": "Réglages de Muffle pour couper le micro au début de chaque appel et gérer les automatisations"
+  },
+  "how": {
+    "title": "Prêt en une minute",
+    "steps": [
+      "Installez Muffle depuis le Mac App Store et autorisez l'accès au micro.",
+      "Rejoignez un appel dans n'importe quelle app, comme d'habitude.",
+      "Appuyez sur vos AirPods, tapez Contrôle-Option-M ou cliquez dans la barre des menus pour couper le micro."
+    ]
+  },
+  "privacy": {
+    "title": "Conçu pour respecter votre vie privée",
+    "text": "Muffle n'enregistre, ne stocke ni ne transmet aucun contenu audio. L'application se contente d'activer ou de couper votre micro et de mesurer son niveau sonore. Aucun compte, aucune analyse, aucun suivi."
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "items": [
+      {
+        "q": "Est-ce que Muffle fonctionne avec Google Meet dans Chrome ?",
+        "a": "Oui. Chrome ne transmet pas l'appui de coupure des AirPods aux appels web. Muffle prend donc le relais et coupe directement le micro au niveau système. Cela fonctionne de la même manière pour tout appel dans un navigateur."
+      },
+      {
+        "q": "Les autres participants verront-ils que je suis en sourdine ?",
+        "a": "Votre logiciel de visioconférence peut afficher votre micro comme activé, car Muffle désactive le micro physique plutôt que le bouton de l'app. Les participants n'entendent aucun son dans tous les cas. L'icône de Muffle dans la barre des menus devient rouge quand le micro est coupé."
+      },
+      {
+        "q": "Quels modèles d'AirPods sont compatibles ?",
+        "a": "Les AirPods Pro, les AirPods 3 et versions ultérieures, ainsi que les AirPods Max, sans oublier les modèles Beats dotés de commandes d'appel. Le raccourci clavier et la barre des menus fonctionnent avec n'importe quel micro ou casque."
+      },
+      {
+        "q": "L'app fonctionne-t-elle avec Zoom, Teams, Slack et Discord ?",
+        "a": "Oui. Muffle fonctionne avec toutes les applications de votre Mac qui exploitent le micro, qu'il s'agisse de logiciels installés ou de réunions dans un navigateur web."
+      },
+      {
+        "q": "Faut-il payer un abonnement ?",
+        "a": "Non. Essayez toutes les fonctionnalités gratuitement pendant 3 jours, puis débloquez Muffle par un achat unique, sans abonnement."
+      },
+      {
+        "q": "Pourquoi Muffle a-t-il besoin de l'accès au micro ?",
+        "a": "macOS ne transmet l'appui sur les AirPods qu'aux apps qui utilisent le micro. Muffle garde donc une connexion silencieuse ouverte pendant vos appels. Rien n'est jamais enregistré."
+      },
+      {
+        "q": "Que se passe-t-il si je quitte Muffle alors que mon micro est coupé ?",
+        "a": "Muffle réactive automatiquement votre micro dès que vous quittez l'application. Vous ne risquez jamais de rester bloqué sans son."
+      },
+      {
+        "q": "Quelles versions de macOS sont compatibles ?",
+        "a": "macOS 14 Sonoma et versions ultérieures. Le bouton dans le Centre de contrôle requiert macOS 26 ou une version plus récente."
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Ne cherchez plus le bouton pour couper votre micro.",
+    "text": "Essayez Muffle gratuitement pendant 3 jours."
+  },
+  "footer": {
+    "guides": "Guides",
+    "product": "Muffle",
+    "support": "Assistance",
+    "privacy": "Confidentialité",
+    "language": "Langue",
+    "contact": "Contact",
+    "copyright": "© 2026 Muffle. AirPods et Mac sont des marques déposées d'Apple Inc."
+  },
+  "guides_index": {
+    "title": "Guides Muffle : couper le micro sur Meet, Zoom, Teams sur Mac",
+    "description": "Guides pratiques pour couper votre micro sur Google Meet, Zoom, Teams, Slack et vos conférences web sur Mac, avec vos AirPods ou un raccourci clavier.",
+    "h1": "Guides",
+    "intro": "Des réponses claires et concrètes pour couper facilement votre micro sur Mac dans toutes vos applications."
+  },
+  "guide_labels": {
+    "on_this_page": "Sur cette page",
+    "faq": "Questions fréquentes",
+    "related": "Autres guides",
+    "try": "Essayer Muffle gratuitement pendant 3 jours",
+    "read": "Lire le guide"
+  },
+  "guides": [
+    {
+      "slug": "mute-google-meet-with-airpods",
+      "title": "Couper le micro Google Meet avec les AirPods sur Mac",
+      "description": "L'appui AirPods ne coupe pas Google Meet dans Chrome sur Mac. Voici comment couper le micro en réunion avec vos AirPods, un raccourci ou la barre des menus.",
+      "h1": "Comment couper le micro Google Meet avec les AirPods sur Mac",
+      "intro": [
+        "Sur un iPhone, un appui sur la tige des AirPods coupe le son d'un appel. Sur un Mac, Google Meet fonctionne dans Chrome, et Chrome ne transmet pas cet appui aux pages web. Vous appuyez, vous entendez un signal sonore d'erreur, et Meet continue d'émettre votre voix.",
+        "Muffle résout ce problème pour chaque réunion Meet. L'application intercepte elle-même l'appui AirPods et coupe le micro de votre Mac, garantissant le silence dans Meet même lorsque l'onglet est en arrière-plan."
+      ],
+      "steps_title": "Couper le micro dans Google Meet avec vos AirPods",
+      "steps": [
+        "Installez Muffle et autorisez l'accès au micro lorsque le système vous le demande.",
+        "Rejoignez votre appel Google Meet dans Chrome, Safari, Arc ou Edge.",
+        "Appuyez une fois sur la tige des AirPods pour couper le micro. L'icône de Muffle passe au rouge.",
+        "Appuyez à nouveau pour réactiver le micro. Vous pouvez aussi appuyer sur Contrôle-Option-M depuis n'importe quelle app."
+      ],
+      "tips": [
+        "Meet peut encore indiquer que votre micro est ouvert, car Muffle coupe directement le micro matériel plutôt que le bouton de Meet. Les autres participants n'entendent aucun son tant que l'icône de Muffle est rouge.",
+        "Activez « Couper le micro au début de chaque appel » pour rejoindre chaque réunion Meet en sourdine."
+      ],
+      "faq": [
+        {
+          "q": "Pourquoi l'appui sur mes AirPods ne coupe-t-il pas le son dans Google Meet ?",
+          "a": "Chrome ne gère pas le geste de mise en sourdine des AirPods de macOS pour les conférences web, donc macOS ne trouve aucune app vers laquelle relayer l'appui. Muffle devient cette app."
+        },
+        {
+          "q": "Le raccourci clavier de Meet ne suffit-il pas ?",
+          "a": "Le raccourci Commande-D de Meet ne fonctionne que si l'onglet Meet est au premier plan. Le raccourci clavier de Muffle et l'appui AirPods fonctionnent depuis n'importe quelle app."
+        }
+      ]
+    },
+    {
+      "slug": "mute-zoom-with-airpods",
+      "title": "Couper le micro Zoom avec des AirPods ou raccourci sur Mac",
+      "description": "Mettez Zoom en sourdine sur Mac avec vos AirPods ou un raccourci global, même en arrière-plan. Fonctionne dans l'app Zoom et sur le navigateur web.",
+      "h1": "Comment couper le micro Zoom avec des AirPods ou un raccourci sur Mac",
+      "intro": [
+        "Le raccourci clavier de Zoom, Commande-Maj-A, ne fonctionne que lorsque Zoom est au premier plan. Si vous prenez des notes ou partagez une autre fenêtre, retrouver le bouton pour couper le son fait perdre de précieuses secondes.",
+        "Muffle vous offre une commande unique pour couper le son dans Zoom et toutes vos autres apps : vos AirPods, un raccourci global ou la barre des menus. Il coupe le micro au niveau matériel, aussi bien dans l'application Zoom que dans les réunions Zoom sur le web."
+      ],
+      "steps_title": "Couper le micro dans Zoom depuis n'importe où",
+      "steps": [
+        "Installez Muffle et autorisez l'accès au micro.",
+        "Rejoignez votre réunion Zoom habituelle.",
+        "Appuyez sur la tige de vos AirPods ou sur Contrôle-Option-M pour couper le micro, depuis n'importe quelle app.",
+        "En sourdine, maintenez Contrôle-Option-M pour parler, puis relâchez pour couper à nouveau."
+      ],
+      "tips": [
+        "Si Zoom prend en charge l'appui AirPods directement sur votre Mac, le raccourci et la barre des menus continuent de couper votre micro via Muffle.",
+        "Zoom peut afficher votre micro comme activé alors que Muffle l'a coupé. Les participants entendent un silence parfait."
+      ],
+      "faq": [
+        {
+          "q": "Muffle remplace-t-il le bouton de sourdine de Zoom ?",
+          "a": "Il fonctionne en parallèle. Muffle coupe le micro pour l'ensemble du système, ce qui vous permet de couper le son dans Zoom sans changer d'application active."
+        },
+        {
+          "q": "Puis-je parler temporairement en maintenant une touche dans Zoom ?",
+          "a": "Oui. En sourdine, maintenez le raccourci de Muffle enfoncé pour parler. Cela fonctionne dans Zoom ainsi que dans toutes vos autres apps."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microsoft-teams-with-airpods",
+      "title": "Couper le micro Teams avec des AirPods sur Mac | Muffle",
+      "description": "Mettez Microsoft Teams en sourdine sur Mac avec vos AirPods, un raccourci global ou la barre des menus. Compatible avec l'app Teams et sa version web.",
+      "h1": "Comment couper le micro Microsoft Teams avec des AirPods sur Mac",
+      "intro": [
+        "Le raccourci de Teams, Commande-Maj-M, fonctionne uniquement lorsque la fenêtre de Teams est active. Durant un appel vidéo, vous consultez souvent autre chose : un document, un navigateur ou un écran partagé.",
+        "Muffle coupe votre micro depuis n'importe où, dans l'application Teams comme sur Teams en ligne. Appuyez sur vos AirPods, utilisez un raccourci clavier ou cliquez dans la barre des menus."
+      ],
+      "steps_title": "Couper le micro dans Teams depuis n'importe où",
+      "steps": [
+        "Installez Muffle et autorisez l'accès au micro.",
+        "Rejoignez votre réunion Teams.",
+        "Appuyez sur Contrôle-Option-M ou sur la tige de vos AirPods pour couper le micro. L'icône de la barre des menus passe au rouge.",
+        "Appuyez à nouveau pour réactiver le micro, ou maintenez le raccourci pour parler quand vous êtes en sourdine."
+      ],
+      "tips": [
+        "Teams dans un onglet web prend en charge les AirPods exactement de la même manière que Google Meet grâce à Muffle.",
+        "Activez « Couper le micro au verrouillage de l'écran » pour ne jamais laisser votre micro allumé lorsque vous vous absentez."
+      ],
+      "faq": [
+        {
+          "q": "L'appui AirPods fonctionne-t-il dans l'application Teams ?",
+          "a": "Cela dépend de votre version de Teams, car Teams peut gérer l'appui lui-même. Le raccourci et le bouton de barre des menus de Muffle restent toujours opérationnels."
+        },
+        {
+          "q": "Teams affichera-t-il que je suis en sourdine ?",
+          "a": "Pas toujours. Muffle coupe le micro directement : Teams peut afficher le micro comme actif alors que personne ne vous entend dans la conférence."
+        }
+      ]
+    },
+    {
+      "slug": "mute-slack-huddles",
+      "title": "Couper le micro d'un huddle Slack avec un raccourci Mac",
+      "description": "Coupez le micro d'un huddle Slack depuis n'importe quelle app sur Mac avec un raccourci global ou vos AirPods. Inutile de chercher la fenêtre Slack.",
+      "h1": "Comment couper le micro d'un huddle Slack depuis n'importe où sur Mac",
+      "intro": [
+        "Les commandes de huddle dans Slack se trouvent dans une petite fenêtre flottante facile à égarer derrière votre travail, et son raccourci ne répond que lorsque Slack est au premier plan.",
+        "Muffle coupe votre micro pour Slack et tous vos autres logiciels avec un seul raccourci ou un appui AirPods, où que vous soyez sur votre Mac."
+      ],
+      "steps_title": "Couper le micro d'un huddle depuis n'importe où",
+      "steps": [
+        "Installez Muffle et autorisez l'accès au micro.",
+        "Lancez ou rejoignez un huddle dans Slack.",
+        "Appuyez sur Contrôle-Option-M ou sur la tige de vos AirPods pour couper le micro.",
+        "Regardez la barre des menus : l'icône rouge signifie que personne ne vous entend."
+      ],
+      "tips": [
+        "Le mini-contrôleur flottant indique l'état de votre micro durant chaque huddle.",
+        "Maintenez le raccourci pour intervenir brièvement tout en restant en sourdine le reste du temps."
+      ],
+      "faq": [
+        {
+          "q": "Est-ce compatible avec l'application Slack et Slack sur le web ?",
+          "a": "Oui. Muffle coupe le micro au niveau matériel, donc le fonctionnement est identique dans les deux cas."
+        },
+        {
+          "q": "Mes collègues verront-ils que mon micro est coupé ?",
+          "a": "Slack peut continuer d'indiquer que votre micro est actif. Vos collègues n'entendent aucun son tant que Muffle garde le micro coupé."
+        }
+      ]
+    },
+    {
+      "slug": "mute-discord-on-mac",
+      "title": "Raccourci micro et push to talk pour Discord sur Mac",
+      "description": "Un raccourci global et push to talk pour couper le micro sur Discord sur Mac, ou via vos AirPods. Dans l'app ou le navigateur.",
+      "h1": "Push to talk et raccourci global pour Discord sur Mac",
+      "intro": [
+        "Le push to talk de Discord demande des autorisations supplémentaires sur Mac et ne fonctionne pas pour Discord dans le navigateur. Si vous participez aussi à des réunions sur Meet ou Zoom, vous devez mémoriser une touche différente pour chaque app.",
+        "Muffle vous offre un raccourci unique pour toutes vos conversations. Appuyez pour couper le micro, maintenez pour parler, ou appuyez sur vos AirPods."
+      ],
+      "steps_title": "Configurer le push to talk pour Discord",
+      "steps": [
+        "Installez Muffle et choisissez Autoriser l'accès au micro.",
+        "Rejoignez un salon vocal Discord.",
+        "Appuyez sur Contrôle-Option-M pour couper ou activer le micro. En sourdine, maintenez la combinaison pour parler.",
+        "Choisissez votre propre touche dans les Réglages de Muffle, par exemple une touche de fonction."
+      ],
+      "tips": [
+        "Le raccourci de Muffle ne nécessite aucune autorisation d'accessibilité.",
+        "Verrouillez le niveau de votre micro pour éviter que le réglage automatique de Discord ne le modifie en permanence."
+      ],
+      "faq": [
+        {
+          "q": "Est-ce identique au push to talk de Discord ?",
+          "a": "Le principe est le même, mais il s'applique à toutes vos applications en même temps. Muffle coupe directement le micro au niveau matériel, de sorte que Discord ne reçoit aucun son tant que vous ne maintenez pas la touche."
+        },
+        {
+          "q": "Puis-je couper Discord avec mes AirPods ?",
+          "a": "Oui. Pendant un appel vocal, appuyez sur la tige de vos AirPods pour couper ou activer le micro."
+        }
+      ]
+    },
+    {
+      "slug": "mute-webex-on-mac",
+      "title": "Couper le micro sur Webex depuis toute app sur Mac",
+      "description": "Coupez le son de vos réunions Webex sur Mac avec un raccourci global ou vos AirPods, même sans être sur la fenêtre Webex.",
+      "h1": "Comment couper Webex depuis n'importe quelle app sur Mac",
+      "intro": [
+        "Le raccourci de coupure de Webex fonctionne uniquement quand la fenêtre est au premier plan, et ses commandes disparaissent lors du partage d'écran.",
+        "Muffle coupe votre micro de partout sur votre Mac, ce qui vous permet de gérer une réunion Webex sans quitter votre tâche en cours."
+      ],
+      "steps_title": "Couper le micro sur Webex de n'importe où",
+      "steps": [
+        "Installez Muffle et choisissez Autoriser l'accès au micro.",
+        "Rejoignez votre réunion Webex.",
+        "Appuyez sur Contrôle-Option-M ou sur la tige de vos AirPods pour couper le micro.",
+        "Utilisez le mini-contrôleur flottant pour vérifier l'état de votre micro pendant vos partages d'écran."
+      ],
+      "tips": [
+        "Webex peut continuer à vous afficher comme actif. Vos collègues n'entendent aucun son tant que l'icône de Muffle reste rouge.",
+        "Activez « Couper le micro au début de chaque appel » pour vos grandes conférences."
+      ],
+      "faq": [
+        {
+          "q": "Muffle fonctionne-t-il avec Webex dans un navigateur ?",
+          "a": "Oui. Il coupe le micro au niveau du système, ce qui le rend compatible avec tous les clients Webex."
+        },
+        {
+          "q": "Puis-je couper Webex avec mes AirPods ?",
+          "a": "Oui, appuyez sur la tige pendant la réunion. Le raccourci clavier fonctionne également avec n'importe quel casque."
+        }
+      ]
+    },
+    {
+      "slug": "mute-browser-calls",
+      "title": "Couper le micro sur le web : Chrome, Safari et Arc sur Mac",
+      "description": "Coupez vos appels sur Chrome, Safari ou Arc avec un raccourci ou vos AirPods. Compatible Google Meet, SoWork, Gather et Jitsi.",
+      "h1": "Couper le micro pour les appels web sur Mac",
+      "intro": [
+        "De plus en plus d'appels vidéo se déroulent dans un navigateur : Google Meet, Teams sur le web, bureaux virtuels comme SoWork ou Gather, Whereby, Jitsi. Chacun dispose de ses propres commandes, actives seulement si l'onglet reste affiché.",
+        "De plus, les navigateurs ignorent l'appui sur la tige des AirPods sur Mac. Muffle intercepte ce geste ou utilise un raccourci global pour couper le micro sur tous vos onglets à la fois."
+      ],
+      "steps_title": "Gérer la sourdine de n'importe quel appel web",
+      "steps": [
+        "Installez Muffle et choisissez Autoriser l'accès au micro.",
+        "Lancez votre appel dans l'onglet de votre navigateur.",
+        "Appuyez sur la tige de vos AirPods ou faites Contrôle-Option-M pour couper le micro, depuis n'importe quelle app ou fenêtre.",
+        "Surveillez l'icône dans la barre des menus : rouge signifie que le micro est coupé."
+      ],
+      "tips": [
+        "Les espaces de télétravail virtuels gardent le micro ouvert pendant des heures. Activez le mini-contrôleur flottant pour toujours connaître votre état.",
+        "La notification « Vous êtes en sourdine » vous avertit quand vous commencez à parler alors que le micro est coupé."
+      ],
+      "faq": [
+        {
+          "q": "Pourquoi l'appui sur les AirPods ne fonctionne-t-il pas dans Chrome ?",
+          "a": "Chrome ne prend pas en charge le geste de sourdine des AirPods de macOS pour les pages web. Muffle reçoit l'appui à sa place et coupe directement le micro."
+        },
+        {
+          "q": "L'application fonctionne-t-elle avec SoWork et Gather ?",
+          "a": "Oui. Tout site web utilisant votre micro est rendu silencieux dès que Muffle désactive le microphone."
+        }
+      ]
+    },
+    {
+      "slug": "airpods-mute-not-working-on-mac",
+      "title": "Sourdine AirPods inactive sur Mac ? La solution simple",
+      "description": "L'appui sur vos AirPods n'active pas la sourdine sur Mac ? Découvrez pourquoi et coupez le micro dans tous vos appels et réunions.",
+      "h1": "La sourdine des AirPods ne fonctionne pas sur Mac ? Voici la solution",
+      "intro": [
+        "macOS permet de couper un appel en appuyant sur la tige des AirPods, mais uniquement si le logiciel de conférence prend en charge cette option. Beaucoup l'ignorent, notamment Chrome et les services en ligne. Vous appuyez, vous entendez un signal d'erreur, et vos interlocuteurs continuent de vous entendre.",
+        "Muffle apporte cette prise en charge à toutes vos applications. Il capte l'appui, coupe le micro de votre Mac et émet le son habituel de confirmation."
+      ],
+      "steps_title": "Utiliser l'appui des AirPods avec toutes les applications",
+      "steps": [
+        "Installez Muffle et sélectionnez Autoriser l'accès au micro. macOS ne transmet ce geste qu'aux apps habilitées à gérer le micro.",
+        "Vérifiez que l'option « Couper et activer le micro avec un appui AirPods » est bien cochée dans les Réglages de Muffle.",
+        "Rejoignez un appel. L'appui fonctionne uniquement lorsqu'une app utilise activement le micro.",
+        "Appuyez une fois sur la tige pour couper le son, puis réappuyez pour le réactiver."
+      ],
+      "tips": [
+        "En dehors des appels, cet appui continue de lancer ou de mettre en pause votre musique comme d'habitude.",
+        "Si vos écouteurs utilisent un réglage différent pour les appels, consultez les options de vos AirPods dans Réglages Système."
+      ],
+      "faq": [
+        {
+          "q": "Pourquoi mon Mac émet-il un son d'erreur quand j'appuie sur mes AirPods ?",
+          "a": "L'app utilisée pour votre appel ne gère pas la commande de sourdine des AirPods, ce qui pousse macOS à rejeter l'action. Avec Muffle en arrière-plan, l'appui coupe bien votre micro."
+        },
+        {
+          "q": "Quels modèles d'AirPods prennent en charge ce raccourci ?",
+          "a": "Les AirPods Pro, les AirPods 3 et versions ultérieures, les AirPods Max, ainsi que les modèles de casque Beats avec commandes d'appel."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-keyboard-shortcut-mac",
+      "title": "Couper le micro sur Mac avec un raccourci clavier",
+      "description": "Définissez un raccourci clavier global pour couper et activer le micro de votre Mac dans chaque app. Aucune autorisation d'accessibilité requise.",
+      "h1": "Comment couper votre micro sur un Mac avec un raccourci clavier",
+      "intro": [
+        "macOS propose une touche pour la dictée mais aucune pour couper votre micro. Chaque app d'appel a son propre raccourci, et chacun ne fonctionne que si l'app est au premier plan.",
+        "Muffle ajoute un raccourci unique qui coupe directement le micro, dans toutes les apps à la fois. Le raccourci par défaut est Contrôle-Option-M, et vous pouvez choisir la combinaison de votre choix."
+      ],
+      "steps_title": "Couper le micro avec un seul raccourci",
+      "steps": [
+        "Installez Muffle.",
+        "Appuyez sur Contrôle-Option-M pour couper le micro. L'icône de la barre des menus devient rouge et une brève confirmation « Coupé » apparaît.",
+        "Appuyez à nouveau pour réactiver le micro.",
+        "Pour le modifier, ouvrez les Réglages de Muffle, cliquez sur le raccourci et appuyez sur une nouvelle combinaison."
+      ],
+      "tips": [
+        "Maintenez le raccourci enfoncé en sourdine pour parler, puis relâchez-le pour couper à nouveau le micro.",
+        "Cliquez avec le bouton droit sur l'icône de Muffle dans la barre des menus pour couper instantanément le micro à la souris."
+      ],
+      "faq": [
+        {
+          "q": "Le raccourci fonctionne-t-il si l'app d'appel n'est pas au premier plan ?",
+          "a": "Oui. Il fonctionne depuis n'importe quelle app, y compris les apps en plein écran."
+        },
+        {
+          "q": "Puis-je utiliser une seule touche, comme F5 ?",
+          "a": "Oui. Les touches de fonction fonctionnent seules ; les autres touches nécessitent Contrôle, Option ou Commande."
+        }
+      ]
+    },
+    {
+      "slug": "push-to-talk-on-mac",
+      "title": "Push-to-talk sur Mac pour toutes vos apps d'appel",
+      "description": "Utilisez le push-to-talk sur Mac dans Zoom, Google Meet, Teams et Discord. Maintenez une touche pour parler en réunion, relâchez pour couper le son.",
+      "h1": "Le push-to-talk sur Mac, dans toutes vos applications",
+      "intro": [
+        "Le push-to-talk vous laisse en sourdine jusqu'à ce que vous mainteniez une touche. C'est le moyen le plus simple de garder le silence lors de grandes réunions ou dans des pièces bruyantes, pourtant peu d'apps le proposent, et chacune utilise une touche différente.",
+        "Muffle ajoute le push-to-talk à chaque app sur votre Mac. Restez en sourdine, maintenez le raccourci pour parler et relâchez pour couper à nouveau le son."
+      ],
+      "steps_title": "Utiliser le push-to-talk",
+      "steps": [
+        "Installez Muffle.",
+        "Coupez le micro avec Contrôle-Option-M ou vos AirPods.",
+        "Maintenez Contrôle-Option-M enfoncé pendant que vous parlez.",
+        "Relâchez la touche. Vous êtes de nouveau en sourdine."
+      ],
+      "tips": [
+        "Appuyer brièvement sur le raccourci coupe ou active le micro. Le maintenir enfoncé active le push-to-talk.",
+        "Choisissez une touche pratique dans les Réglages de Muffle, par exemple une touche F."
+      ],
+      "faq": [
+        {
+          "q": "Le push-to-talk fonctionne-t-il dans Google Meet ?",
+          "a": "Oui. Muffle coupe directement le micro, de sorte que le push-to-talk fonctionne dans Meet, Zoom, Teams, Discord et n'importe quelle autre app."
+        },
+        {
+          "q": "Existe-t-il une option pour couper temporairement le micro ?",
+          "a": "Oui. Lorsque votre micro est activé, maintenir le raccourci coupe votre son jusqu'à ce que vous relâchiez la touche."
+        }
+      ]
+    },
+    {
+      "slug": "stop-apps-changing-mic-volume",
+      "title": "Empêcher Chrome et Zoom de changer le volume micro Mac",
+      "description": "Google Meet, Chrome, Zoom et Teams modifient le niveau de votre micro sur Mac. Verrouillez le volume de votre micro pour qu'aucune app ne le change.",
+      "h1": "Comment empêcher les apps de modifier le volume de votre micro sur Mac",
+      "intro": [
+        "De nombreuses apps d'appel ajustent automatiquement votre niveau d'entrée grâce au contrôle automatique du gain. Vous réglez un niveau optimal dans Réglages Système, vous rejoignez une réunion Google Meet, et quelques minutes plus tard le curseur a bougé et vos collègues vous disent que votre son est faible ou déformé.",
+        "Muffle peut verrouiller le niveau de votre micro. Si une app le modifie, Muffle le remet immédiatement en place."
+      ],
+      "steps_title": "Verrouiller le niveau de votre micro",
+      "steps": [
+        "Installez Muffle.",
+        "Cliquez sur l'icône de Muffle dans la barre des menus et ajustez votre niveau avec le curseur du micro.",
+        "Cliquez sur le cadenas situé à côté du curseur.",
+        "Rejoignez vos réunions. Votre niveau reste exactement là où vous l'avez réglé."
+      ],
+      "tips": [
+        "Muffle vous avertit dans le panneau lorsque votre niveau est trop faible pendant un appel.",
+        "Le verrouillage mémorise un réglage pour chaque micro, afin que vos AirPods et le micro intégré de votre Mac conservent chacun leur propre niveau."
+      ],
+      "faq": [
+        {
+          "q": "Pourquoi le volume du micro de mon Mac change-t-il tout seul ?",
+          "a": "Des apps comme Chrome, Zoom et Teams utilisent un contrôle automatique du gain et ajustent le niveau d'entrée du système pendant que vous parlez."
+        },
+        {
+          "q": "Puis-je quand même modifier le niveau moi-même ?",
+          "a": "Oui. Utilisez le curseur dans le panneau de Muffle ; il met à jour la valeur verrouillée."
+        }
+      ]
+    },
+    {
+      "slug": "mute-microphone-on-mac",
+      "title": "Comment couper le micro sur un Mac : 4 méthodes",
+      "description": "Quatre façons de couper le micro sur Mac : app d'appel, Réglages Système, raccourci global et AirPods. Découvrez laquelle fonctionne dans toutes les apps.",
+      "h1": "Comment couper votre micro sur un Mac",
+      "intro": [
+        "Il n'existe aucune touche dédiée pour couper le micro sur Mac. Selon l'app et la situation, plusieurs options existent, mais seules certaines fonctionnent partout."
+      ],
+      "steps_title": "Vos options",
+      "steps": [
+        "Le bouton ou le raccourci intégré à l'app d'appel. Il fonctionne uniquement dans cette app, et seulement lorsqu'elle est au premier plan.",
+        "Réglages Système, Son, Entrée. Mettre le curseur au minimum ne coupe pas réellement tous les micros, et les applications peuvent le remonter toutes seules.",
+        "Un raccourci global avec Muffle. Une seule touche coupe directement le micro, dans toutes les apps.",
+        "Vos AirPods. Avec Muffle, appuyer sur la tige coupe le micro dans n'importe quel appel, y compris Google Meet dans Chrome."
+      ],
+      "tips": [
+        "L'icône de Muffle dans la barre des menus devient rouge quand le micro est coupé, peu importe l'app ouverte.",
+        "Quitter Muffle réactive systématiquement votre micro."
+      ],
+      "faq": [
+        {
+          "q": "Existe-t-il une commande intégrée pour couper le micro sur Mac ?",
+          "a": "Pas pour l'ensemble du système. macOS coupe uniquement le micro au sein des apps prévues pour cela. Muffle ajoute une véritable sourdine globale au niveau du système."
+        },
+        {
+          "q": "La coupure avec Muffle agit-elle sur toutes les applications ?",
+          "a": "Oui. Muffle désactive chaque micro au niveau matériel, pour qu'aucune app ne puisse vous entendre tant que vous ne l'avez pas réactivé."
+        }
+      ]
+    },
+    {
+      "slug": "youre-muted-reminder",
+      "title": "Rappel « Vous êtes en sourdine » sur Mac dans chaque app",
+      "description": "Vous parlez en sourdine ? Muffle affiche un rappel « Vous êtes en sourdine » dans Google Meet, Zoom, Teams, Slack et toutes vos réunions sur Mac.",
+      "h1": "Un rappel « Vous êtes en sourdine » pour chaque app d'appel",
+      "intro": [
+        "Zoom vous avertit quand vous parlez en sourdine. La plupart des autres apps ne le font pas, et les appels sur le Web presque jamais. Vous expliquez quelque chose pendant une minute avant de vous apercevoir que tout le monde attend.",
+        "Muffle détecte la parole quand votre micro est coupé et affiche un rappel, dans n'importe quelle app. Lorsque l'appel utilise des AirPods ou un casque, il écoute le micro intégré de votre Mac, uniquement pour en mesurer le volume. Rien n'est enregistré."
+      ],
+      "steps_title": "Activer le rappel",
+      "steps": [
+        "Installez Muffle et autorisez l'accès au micro.",
+        "Vérifiez que l'option « Me rappeler si je parle en sourdine » est activée dans les Réglages de Muffle.",
+        "Rejoignez un appel avec des AirPods ou un casque et coupez le micro.",
+        "Commencez à parler. Un rappel « Vous êtes en sourdine » apparaît."
+      ],
+      "tips": [
+        "Vous rejoignez un appel alors que le micro était resté coupé lors du précédent ? Muffle vous le rappelle dès le début de la réunion.",
+        "Le bruit du clavier ne déclenche pas le rappel. Seule une prise de parole continue le fait."
+      ],
+      "faq": [
+        {
+          "q": "Le rappel fonctionne-t-il avec le micro intégré du Mac ?",
+          "a": "Il fonctionne lorsque l'appel utilise des AirPods ou un casque. Si l'appel utilise le micro intégré du Mac, ce micro est coupé et ne peut pas vous entendre."
+        },
+        {
+          "q": "Mon audio est-il enregistré ?",
+          "a": "Non. Muffle mesure uniquement le niveau sonore et ne conserve ni ne transmet jamais aucun son."
+        }
+      ]
+    }
+  ],
+  "support": {
+    "title": "Assistance Muffle",
+    "description": "Aide pour Muffle sur Mac : configuration de l'appui AirPods, raccourci clavier pour couper le son, achats et dépannage.",
+    "h1": "Assistance",
+    "sections": [
+      {
+        "h": "Prise en main",
+        "items": [
+          "Muffle se trouve dans votre barre des menus. Cliquez sur l'icône du micro pour les commandes, ou cliquez avec le bouton droit pour couper le son instantanément.",
+          "Pendant un appel, appuyez sur la tige de vos AirPods pour couper le micro, puis appuyez à nouveau pour le réactiver.",
+          "Le raccourci par défaut est Contrôle-Option-M. Appuyez dessus pour couper ou activer le micro. En sourdine, maintenez-le pour parler."
+        ]
+      },
+      {
+        "h": "L'appui sur les AirPods ne coupe pas le micro",
+        "items": [
+          "Cette fonction n'est active que pendant un appel, lorsqu'une app utilise effectivement votre micro.",
+          "Autorisez l'accès au micro pour Muffle dans Réglages Système > Confidentialité et sécurité > Micro.",
+          "Vérifiez que l'option « Couper et activer le micro avec un appui AirPods » est bien cochée dans les Réglages de Muffle.",
+          "Vos AirPods doivent disposer de commandes d'appel : AirPods Pro, AirPods 3 ou ultérieurs, ou AirPods Max."
+        ]
+      },
+      {
+        "h": "L'app d'appel indique toujours que mon micro est ouvert",
+        "items": [
+          "Ce comportement est normal. Muffle coupe directement le micro physique : chaque app reçoit un silence parfait même si elle pense que le micro fonctionne. Fiez-vous à l'icône Muffle dans la barre des menus : lorsqu'elle est rouge, personne ne vous entend."
+        ]
+      },
+      {
+        "h": "Achats",
+        "items": [
+          "Muffle est gratuit à l'essai pendant 3 jours. Ensuite, débloquez-le par un achat unique. Il n'y a aucun abonnement.",
+          "Pour restaurer un achat sur un autre Mac, ouvrez les Réglages de Muffle et choisissez « Restaurer l'achat »."
+        ]
+      }
+    ],
+    "contact_title": "Contact",
+    "contact_text": "Écrivez-nous à"
+  },
+  "privacy_page": {
+    "title": "Politique de confidentialité de Muffle",
+    "description": "Muffle n'enregistre, ne stocke ni ne transmet aucun audio et ne collecte aucune donnée. Découvrez comment Muffle gère votre micro sur Mac.",
+    "h1": "Politique de confidentialité",
+    "updated": "Dernière mise à jour le 29 septembre 2026.",
+    "intro": "Muffle gère la coupure du micro de votre Mac. L'application est pensée pour que rien de ce que vous dites ne quitte jamais votre ordinateur.",
+    "sections": [
+      {
+        "h": "L'utilisation de votre micro par Muffle",
+        "p": [
+          "Pendant les appels, Muffle maintient une connexion silencieuse avec votre microphone. macOS ne transmettant l'appui de sourdine des AirPods qu'aux apps qui utilisent le micro, cette connexion est nécessaire pour que les commandes AirPods fonctionnent.",
+          "Si vous activez le rappel en cas de prise de parole en sourdine, Muffle mesure également le volume sonore capté par le micro intégré de votre Mac pendant la coupure, afin de déceler si vous vous mettez à parler.",
+          "Muffle analyse exclusivement des mesures d'amplitude sonore. L'application n'enregistre, ne stocke, ne transcrit et ne diffuse aucun son."
+        ]
+      },
+      {
+        "h": "Données collectées",
+        "p": [
+          "Aucune. Muffle ne propose aucun compte utilisateur, ne contient aucune publicité, n'embarque aucun outil de mesure d'audience et n'effectue aucun suivi. L'application ne communique avec aucun de nos serveurs."
+        ]
+      },
+      {
+        "h": "Achats",
+        "p": [
+          "La période d'essai gratuit et l'achat unique sont gérés par le Mac App Store d'Apple. Apple prend en charge le règlement ; nous n'avons jamais accès à vos données bancaires. La politique de confidentialité d'Apple s'applique à ces transactions."
+        ]
+      },
+      {
+        "h": "Réglages enregistrés sur votre Mac",
+        "p": [
+          "Vos préférences, telles que votre raccourci clavier, restent stockées localement sur votre Mac dans les données de Muffle. La suppression de Muffle entraîne la suppression de ces réglages."
+        ]
+      }
+    ],
+    "contact": "Des questions concernant la confidentialité ?"
+  }
+}
