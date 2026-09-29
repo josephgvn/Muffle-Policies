@@ -713,7 +713,7 @@
   ],
   "support": {
     "title": "Muffle 支援",
-    "description": "Muffle for Mac 的使用說明：設定 AirPods 按壓、鍵盤快速鍵、購買項目等。",
+    "description": "Muffle for Mac 的完整使用說明：設定 AirPods 按壓與鍵盤快速鍵、通話自動化、試用與購買，以及常見問題解答。",
     "h1": "支援",
     "sections": [
       {
@@ -752,7 +752,7 @@
   },
   "privacy_page": {
     "title": "Muffle 隱私權政策",
-    "description": "Muffle 絕不錄製、儲存或傳送音訊，也不收集任何資料。了解 Muffle 如何使用你的麥克風。",
+    "description": "Muffle 絕不錄製、儲存或傳送音訊，也不收集任何個人資料。了解 Muffle 如何在你的 Mac 上使用麥克風。",
     "h1": "隱私權政策",
     "updated": "上次更新日期：2026 年 9 月 29 日。",
     "intro": "Muffle 負責將你的 Mac 麥克風靜音。其設計確保你所說的任何話絕不會離開你的 Mac。",
