@@ -39,15 +39,17 @@
 
   // ---------- Opening: the real panel, drawn on a canvas ----------
   // The panel rises, the page zooms into the mute button, which dips as it turns red, zooms back out, then
-  // points at the microphones, the level and the quick switches in turn. Every frame is drawn straight from the
-  // app's own renders (2x, with 8x and 4x close-ups) at the screen's own resolution, so no zoom is ever soft:
-  // a scaled page layer would be left to the browser, which may draw it from a low-resolution copy.
+  // points at the microphones, the level and the quick switches in turn. Each frame is drawn from the app's own
+  // renders at the screen's resolution, so no zoom is soft. The pictures are decoded once, off the main thread;
+  // the 8x close-ups are kept at half size for the middle zooms and decoded at full size only when the page zooms
+  // in that far, so every frame draws close to 1:1 and memory stays small. While the page moves it draws fast,
+  // and once it stops it draws again at full quality.
   const cinema = d.querySelector(".cinema");
   if (cinema && motion) {
     const pin = cinema.querySelector(".cinema-pin");
     const scene = cinema.querySelector(".scene");
     const canvas = scene.querySelector("canvas");
-    const ctx = canvas.getContext("2d");
+    const ctx = canvas.getContext("2d", { alpha: true });
     const caps = [...cinema.querySelectorAll(".cap")];
     const L = JSON.parse(scene.dataset.layout || "{}");
     // Captions: headline, one press, every control, microphones, level, switches.
@@ -56,30 +58,57 @@
     const SPOTS = [["mics", 0.6, 0.72], ["level", 0.72, 0.84], ["toggles", 0.84, 0.97]];
     const middle = (r) => [r[0] + r[2] / 2, r[1] + r[3] / 2];
     const dark = matchMedia("(prefers-color-scheme: dark)");
+    const bitmaps = "createImageBitmap" in window;
     let stages = [];
     let vw = 0, vh = 0, dpr = 1;
     let cam = { x: 0, y: 0, s: 1 };            // where the panel's (0, 0) lands, in CSS pixels, and its scale
     let mix = 0, mixFrom = 0, mixTo = 0, mixStart = 0, dipStart = -1;   // live 0 … muted 1, and the press
     let spot = null, spotAlpha = 0;
     let plate = null;                             // the colour around the mute button, read from its picture
+    let moving = false, settle = 0, lastCam = "", drawn = "", version = 0;
+    const capState = caps.map(() => "");
 
     // The pictures come from <picture> elements, so the browser picks light or dark (and swaps on a change).
-    const pictures = {};
-    const usable = (img) => img && img.complete && img.naturalWidth > 0;
+    const art = {};
+    const changed = () => { version++; plate = null; request(); };
+    const prepare = (name, img) => {
+      if (!img.complete || !img.naturalWidth) return;
+      const old = art[name];
+      if (old) [old.full, old.half].forEach((b) => b && b.close && b.close());
+      const entry = { img, full: null, half: null, loading: false };
+      art[name] = entry;
+      if (!bitmaps) { entry.full = img; changed(); return; }
+      const keep = (key) => (b) => { if (art[name] === entry) { entry[key] = b; changed(); } else b.close(); };
+      if (/^(head|call)-/.test(name)) {
+        createImageBitmap(img, { resizeWidth: Math.round(img.naturalWidth / 2), resizeHeight: Math.round(img.naturalHeight / 2),
+                                 resizeQuality: "high" }).then(keep("half")).catch(() => { entry.full = img; changed(); });
+      } else {
+        createImageBitmap(img).then(keep("full")).catch(() => { entry.full = img; changed(); });
+      }
+    };
+    // An 8x close-up at full size, only once the page zooms in that far.
+    const needFull = (name) => {
+      const entry = art[name];
+      if (!entry || entry.full || entry.loading || !bitmaps) return;
+      entry.loading = true;
+      createImageBitmap(entry.img).then((b) => { if (art[name] === entry) { entry.full = b; changed(); } else b.close(); })
+        .catch(() => { entry.loading = false; });
+    };
     scene.querySelectorAll("[data-layer] img").forEach((img) => {
-      pictures[img.closest("[data-layer]").dataset.layer] = img;
-      const ready = () => (img.decode ? img.decode() : Promise.resolve()).catch(() => {}).then(() => { plate = null; request(); });
-      img.addEventListener("load", ready);
-      if (usable(img)) ready();
+      const name = img.closest("[data-layer]").dataset.layer;
+      img.addEventListener("load", () => prepare(name, img));
+      prepare(name, img);
     });
+    const ready = (name) => art[name] && (art[name].full || art[name].half);
 
     const measure = () => {
       vw = pin.clientWidth;
       vh = pin.clientHeight;
-      // The screen's own resolution, kept under about 16 megapixels on very large displays.
-      dpr = Math.min(window.devicePixelRatio || 1, 3, Math.sqrt(16e6 / Math.max(1, vw * vh)));
+      // The screen's resolution (at most 2x: sharp enough, and light), kept under ~12 megapixels on big displays.
+      dpr = Math.min(window.devicePixelRatio || 1, 2, Math.sqrt(12e6 / Math.max(1, vw * vh)));
       canvas.width = Math.round(vw * dpr);
       canvas.height = Math.round(vh * dpr);
+      drawn = "";
       if (!L.head) return;
       const head = L.head, foot = L.footer, mute = L.mute;
       // The popover itself, without its shadow: what "the whole panel" means for framing.
@@ -90,16 +119,9 @@
       pin.style.setProperty("--band", `${Math.round(band)}px`);
       const heroBottom = top + caps[0].offsetHeight;
       const fit = Math.min((vh - band - 36) / box[3], (vw - 40) / box[2], 1.6);
-      // The press: wide windows show the whole mute part, narrow ones the button with as much of its label as fits
-      // (the label sits right of the button, or left in right-to-left languages).
-      let zoomMute = Math.min((vw - 64) / head[2], (vh - band - 48) / head[3], 4.4);
-      let pressAt = middle(head);
-      if (zoomMute < 2.6) {
-        zoomMute = Math.min(4.4, Math.max(fit * 2.2, (0.36 * Math.min(vw, vh)) / mute[2]));
-        const seen = vw / zoomMute, lead = mute[2] / 2 + 16;
-        const [hx] = middle(head), [bx, by] = middle(mute);
-        pressAt = [bx < hx ? Math.min(hx, bx - lead + seen / 2) : Math.max(hx, bx + lead - seen / 2), by];
-      }
+      // The press: the mute button large, in the middle of the view.
+      const zoomMute = Math.min(4.4, Math.max(fit * 2.2, (0.36 * Math.min(vw, vh)) / mute[2]));
+      const pressAt = middle(mute);
       const y = band + (vh - band) / 2;
       const peek = clamp(vh - heroBottom - 28, 0, 150);
       const aim = (name) => {
@@ -137,20 +159,23 @@
       cam = { x: x0 + (x1 - x0) * t - fx * s, y: y0 + (y1 - y0) * t - fy * s, s };
     };
 
-    // A picture over part of the panel (rect in panel points), optionally cut from its pixels (src).
-    const put = (name, rect, alpha = 1, src = null) => {
-      const img = pictures[name];
-      if (!usable(img) || alpha <= 0) return;
+    // Part `rect` of the panel (points) from a picture that covers `area` of it, using the copy that is closest
+    // to 1:1 at k device pixels per point (the half-size one while it is enough).
+    const put = (name, area, rect = area, alpha = 1, k = 0) => {
+      const a = art[name];
+      if (!a || alpha <= 0) return;
+      const density = a.img.naturalWidth / area[2];    // the picture's own pixels per point
+      let bmp = a.full;
+      if (a.half && (!bmp || k <= density * 0.575)) {
+        if (!bmp && k > density * 0.575) needFull(name);
+        bmp = a.half;
+      }
+      if (!bmp) return;
+      const f = ((bmp.naturalWidth || bmp.width) / a.img.naturalWidth) * density;
       ctx.globalAlpha = alpha;
-      if (src) ctx.drawImage(img, src[0], src[1], src[2], src[3], rect[0], rect[1], rect[2], rect[3]);
-      else ctx.drawImage(img, rect[0], rect[1], rect[2], rect[3]);
+      ctx.drawImage(bmp, (rect[0] - area[0]) * f, (rect[1] - area[1]) * f, rect[2] * f, rect[3] * f,
+                    rect[0], rect[1], rect[2], rect[3]);
       ctx.globalAlpha = 1;
-    };
-    // The pixels of a picture that covers `area` (panel points) which show the rect `r` of the panel.
-    const cut = (name, area, r) => {
-      const img = pictures[name];
-      const f = usable(img) ? img.naturalWidth / area[2] : 1;
-      return [(r[0] - area[0]) * f, (r[1] - area[1]) * f, r[2] * f, r[3] * f];
     };
     const whole = () => [0, 0, L.size[0], L.size[1]];
     const around = (r) => [r[0] - 4, r[1] - 4, r[2] + 8, r[3] + 8];
@@ -162,37 +187,37 @@
       return [["head-live", a, [a[0], a[1], a[2], a[3]]], ["call-live", b, [b[0], y1, b[2], y2 - y1]],
               ["lower", c, [c[0], y2, c[2], c[1] + c[3] - y2]]];
     };
-    const sharpReady = () => ["head-live", "call-live", "lower"].every((name) => usable(pictures[name]));
     // What changes when muted (the mute part and the call row), faded in over the live picture.
-    const drawMuted = (close) => {
+    const drawMuted = (close, k) => {
       if (mix <= 0) return;
       const head = around(L.head), call = around(L.call);
-      if (close && usable(pictures["head-muted"]) && usable(pictures["call-muted"])) {
-        put("head-muted", head, mix, cut("head-muted", L.crop, head));
-        put("call-muted", call, mix, cut("call-muted", L.callCrop, call));
+      if (close && ready("head-muted") && ready("call-muted")) {
+        put("head-muted", L.crop, head, mix, k);
+        put("call-muted", L.callCrop, call, mix, k);
       } else {
-        put("panel-muted", head, mix, cut("panel-muted", whole(), head));
-        put("panel-muted", call, mix, cut("panel-muted", whole(), call));
+        put("panel-muted", whole(), head, mix, k);
+        put("panel-muted", whole(), call, mix, k);
       }
     };
     // The colour of the plate the mute button sits on, read once from the picture right next to the button.
     const plateColor = () => {
       if (plate) return plate;
-      const img = pictures["head-live"];
-      if (!usable(img)) return null;
+      const a = art["head-live"];
+      const bmp = a && (a.half || a.full);
+      if (!bmp) return null;
       const [mx, my, mw, mh] = L.mute;
       const beside = mx < L.head[0] + L.head[2] / 2 ? mx + mw + 7 : mx - 7;   // the label side is left in RTL
-      const [sx, sy] = cut("head-live", L.crop, [beside, my + mh / 2, 1, 1]);
+      const f = (bmp.naturalWidth || bmp.width) / L.crop[2];
       const probe = d.createElement("canvas");
       probe.width = probe.height = 1;
       const pc = probe.getContext("2d", { willReadFrequently: true });
-      pc.drawImage(img, sx, sy, 1, 1, 0, 0, 1, 1);
+      pc.drawImage(bmp, (beside - L.crop[0]) * f, (my + mh / 2 - L.crop[1]) * f, 1, 1, 0, 0, 1, 1);
       const [r, g, b] = pc.getImageData(0, 0, 1, 1).data;
       plate = `rgb(${r}, ${g}, ${b})`;
       return plate;
     };
     // The press: only the button dips, like a real click.
-    const press = (scale, close) => {
+    const press = (scale, close, k) => {
       const color = plateColor();
       if (!color) return;
       const [mx, my, mw, mh] = L.mute;
@@ -207,9 +232,9 @@
       ctx.scale(scale, scale);
       ctx.translate(-cx, -cy);
       const head = around(L.head);
-      if (close) put("head-live", head, 1, cut("head-live", L.crop, head));
-      else put("panel-live", head, 1, cut("panel-live", whole(), head));
-      drawMuted(close);
+      if (close) put("head-live", L.crop, head, 1, k);
+      else put("panel-live", whole(), head, 1, k);
+      drawMuted(close, k);
       ctx.restore();
     };
     const roundRect = (x, y, w, h, r) => {
@@ -221,17 +246,16 @@
       ctx.closePath();
     };
 
-    const draw = (now) => {
+    const draw = (dip) => {
       ctx.setTransform(1, 0, 0, 1, 0, 0);
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-      if (!usable(pictures["panel-live"])) return;
+      if (!ready("panel-live")) return;
       const k = dpr * cam.s;                      // device pixels per panel point
       ctx.setTransform(k, 0, 0, k, dpr * cam.x, dpr * cam.y);
       ctx.imageSmoothingEnabled = true;
-      ctx.imageSmoothingQuality = "high";
-      // Closer than the 2x picture holds: the 8x and 4x close-ups take over the popover, and the 2x picture
-      // only shows around them (the far shadow).
-      const close = k > 2.3 && sharpReady();
+      ctx.imageSmoothingQuality = moving ? "low" : "high";
+      // Closer than the 2x picture holds: the close-ups take over the popover, the 2x picture only shows around it.
+      const close = k > 2.3 && ready("head-live") && ready("call-live") && ready("lower");
       if (close) {
         const a = L.crop, c = L.lower;
         ctx.save();
@@ -239,15 +263,14 @@
         ctx.rect(0, 0, L.size[0], L.size[1]);
         ctx.rect(a[0], a[1], a[2], c[1] + c[3] - a[1]);
         ctx.clip("evenodd");
-        put("panel-live", whole());
+        put("panel-live", whole(), whole(), 1, k);
         ctx.restore();
-        for (const [name, area, r] of bands()) put(name, r, 1, cut(name, area, r));
+        for (const [name, area, r] of bands()) put(name, area, r, 1, k);
       } else {
-        put("panel-live", whole());
+        put("panel-live", whole(), whole(), 1, k);
       }
-      drawMuted(close);
-      const t = dipStart < 0 ? 1 : clamp((now - dipStart) / 520);
-      if (t < 1) press(t < 0.3 ? 1 - 0.05 * ease(t / 0.3) : 0.95 + 0.05 * ease((t - 0.3) / 0.7), close);
+      drawMuted(close, k);
+      if (dip < 1) press(dip < 0.3 ? 1 - 0.05 * ease(dip / 0.3) : 0.95 + 0.05 * ease((dip - 0.3) / 0.7), close, k);
       // Guided tour: everything but one part fades back.
       if (spot && spotAlpha > 0.001) {
         ctx.setTransform(1, 0, 0, 1, 0, 0);
@@ -260,7 +283,7 @@
         ctx.globalAlpha = 1;
       }
     };
-    if (dark.addEventListener) dark.addEventListener("change", () => { plate = null; request(); });
+    if (dark.addEventListener) dark.addEventListener("change", () => { plate = null; drawn = ""; request(); });
 
     parts.push({
       measure,
@@ -270,6 +293,16 @@
         if (r.bottom <= 0 || r.top >= innerHeight) return false;   // out of view: nothing to draw
         const p = progress(cinema, vh);
         place(p);
+        // The full-size close-ups decode while the panel is still rising, so the zoom never waits for them.
+        if (p > 0.06) ["head-live", "head-muted", "call-live", "call-muted"].forEach(needFull);
+        // Moving: draw fast now, and once more at full quality when it stops.
+        const where = `${cam.x.toFixed(1)},${cam.y.toFixed(1)},${cam.s.toFixed(4)}`;
+        if (where !== lastCam) {
+          lastCam = where;
+          moving = true;
+          clearTimeout(settle);
+          settle = setTimeout(() => { moving = false; request(); }, 160);
+        }
         const want = p >= 0.33 ? 1 : 0;
         if (want !== mixTo) {
           mixFrom = mix;
@@ -279,6 +312,7 @@
         }
         const tm = clamp((now - mixStart) / 280);
         mix = mixFrom + (mixTo - mixFrom) * ease(tm);
+        const dip = dipStart < 0 ? 1 : clamp((now - dipStart) / 520);
         spot = null;
         spotAlpha = 0;
         for (const [name, a, b] of SPOTS) {
@@ -288,64 +322,66 @@
         caps.forEach((cap, i) => {
           const [a, b, c, e] = RANGES[i] || [2, 3, 4, 5];
           const o = i === 0 ? 1 - smooth(c, e, p) : Math.min(smooth(a, b, p), 1 - smooth(c, e, p));
-          cap.style.opacity = o.toFixed(3);
+          const state = o.toFixed(3);
+          if (state === capState[i]) return;          // untouched captions cost nothing
+          capState[i] = state;
+          cap.style.opacity = state;
           cap.style.transform = `translateY(${((1 - o) * (i === 0 ? -24 : 22)).toFixed(1)}px)`;
           cap.style.visibility = o < 0.01 ? "hidden" : "visible";
           cap.style.pointerEvents = o > 0.5 ? "auto" : "none";
         });
-        draw(now);
-        return tm < 1 || (dipStart >= 0 && now - dipStart < 520);   // still fading or pressing: keep drawing
+        // Draw only when something on the canvas changed.
+        const look = `${where}|${mix.toFixed(3)}|${dip.toFixed(3)}|${spotAlpha.toFixed(3)}|${spot ? spot[1] : ""}|${moving}|${version}`;
+        if (look !== drawn) {
+          drawn = look;
+          draw(dip);
+        }
+        return tm < 1 || dip < 1;                      // still fading or pressing: keep drawing
       },
     });
   }
 
-  // ---------- Settings tour: plays by itself, pane by pane ----------
-  // Each pane stays six seconds while the bar beside its step fills; a click or tap picks one, and pointing
-  // at the steps holds the one on screen.
+  // ---------- Settings tour: the window changes pane as the page scrolls ----------
+  // The bar beside each step fills as the page scrolls through it, so the scroll always shows where it is;
+  // a click on a step (or a tap on a dot) scrolls to it.
   const tour = d.querySelector(".tour");
   if (tour && motion) {
+    const tourPin = tour.querySelector(".tour-pin");
     const steps = [...tour.querySelectorAll(".ts")];
     const shots = [...tour.querySelectorAll(".tf")];
     const dots = [...tour.querySelectorAll(".tour-dots button")];
-    const DURATION = 6000;
-    let current = 0, elapsed = 0, last = 0, visible = !observe, held = false, ticking = 0;
-    const show = (i) => {
-      current = i;
-      elapsed = 0;
-      [steps, shots, dots].forEach((list) => list.forEach((el, k) => el.classList.toggle("on", k === i)));
-      steps.forEach((el, k) => el.setAttribute("aria-selected", String(k === i)));
-      tour.style.setProperty("--tour-p", "0");
-    };
-    const tick = (now) => {
-      ticking = 0;
-      if (!visible) return;
-      if (!held && last) elapsed += Math.min(500, now - last);
-      last = now;
-      if (elapsed >= DURATION) show((current + 1) % steps.length);
-      tour.style.setProperty("--tour-p", (elapsed / DURATION).toFixed(4));
-      ticking = requestAnimationFrame(tick);
+    const n = steps.length;
+    const fills = steps.map(() => -1);
+    let current = -1;
+    const go = (i) => {
+      const run = tour.offsetHeight - (tourPin.clientHeight || innerHeight);
+      scrollTo({ top: tour.offsetTop + run * ((i + 0.05) / n), behavior: "smooth" });
     };
     steps.forEach((el, i) => {
-      el.addEventListener("click", () => show(i));
+      el.addEventListener("click", () => go(i));
       el.addEventListener("keydown", (ev) => {
-        if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); show(i); }
+        if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); go(i); }
       });
     });
-    dots.forEach((el, i) => el.addEventListener("click", () => show(i)));
-    const list = tour.querySelector(".tour-text");
-    list.addEventListener("pointerenter", (ev) => { if (ev.pointerType === "mouse") held = true; });
-    list.addEventListener("pointerleave", () => { held = false; });
-    d.addEventListener("visibilitychange", () => { last = 0; });   // no jump after the tab was in the background
-    if (observe) {
-      new IntersectionObserver(([entry]) => {
-        visible = entry.isIntersecting;
-        last = 0;
-        if (visible && !ticking) ticking = requestAnimationFrame(tick);
-      }, { threshold: 0.35 }).observe(tour);
-    } else {
-      ticking = requestAnimationFrame(tick);
-    }
-    show(0);
+    dots.forEach((el, i) => el.addEventListener("click", () => go(i)));
+    parts.push({
+      update() {
+        const p = progress(tour, tourPin.clientHeight || innerHeight) * n;
+        const step = Math.min(n - 1, Math.floor(p));
+        if (step !== current) {
+          current = step;
+          [steps, shots, dots].forEach((list) => list.forEach((el, k) => el.classList.toggle("on", k === step)));
+          steps.forEach((el, k) => el.setAttribute("aria-selected", String(k === step)));
+        }
+        steps.forEach((el, i) => {
+          const fill = clamp(p - i);                   // steps behind: full, this one: filling, the rest: empty
+          if (Math.abs(fill - fills[i]) < 0.002) return;
+          fills[i] = fill;
+          el.style.setProperty("--fill", fill.toFixed(3));
+          if (dots[i]) dots[i].style.setProperty("--fill", fill.toFixed(3));
+        });
+      },
+    });
   }
 
   // ---------- Statement: words light up as it scrolls past ----------

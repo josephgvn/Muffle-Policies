@@ -368,7 +368,7 @@ def scene_html(lang, c):
 
 
 def tour_html(lang, c):
-    """The Settings window, pane by pane: it plays by itself, and each step can be picked."""
+    """The Settings window, pane by pane as the page scrolls; each step can be picked."""
     tour = c["tour"]
     panes = ["general", "calls", "keyboard", "panel"]
     texts = "".join(
@@ -382,8 +382,10 @@ def tour_html(lang, c):
     )
     dots = "".join(f'<button type="button" aria-label="{e(step["title"])}"></button>' for step in tour["steps"])
     return f"""<section class="tour" id="settings">
-<div class="wrap"><h2 class="headline reveal">{e(tour["title"])}</h2></div>
+<div class="tour-pin">
+<div class="wrap"><h2 class="headline">{e(tour["title"])}</h2></div>
 <div class="wrap tour-grid"><div class="tour-text" role="tablist">{texts}</div><div class="tour-shots">{shots}<div class="tour-dots">{dots}</div></div></div>
+</div>
 </section>"""
 
 

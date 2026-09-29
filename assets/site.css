@@ -147,16 +147,19 @@ html:not(.motion) .cinema-still img { margin: 0 auto; width: min(430px, 88vw); h
 .ts p { color: var(--text-2); margin: 8px 0 0; font-size: 17px; }
 .tour-shots { display: grid; gap: 28px; }
 .tf img { width: 100%; height: auto; }
+.motion .tour { height: 340vh; padding: 0; }
+.motion .tour-pin { position: sticky; top: 0; height: 100vh; height: 100svh; padding-top: 52px; display: flex; flex-direction: column; justify-content: center; overflow: hidden; }
+.motion .tour .headline { font-size: clamp(28px, min(4.4vw, 6.2vh), 56px); margin-bottom: min(44px, 4.5vh); }
+.motion .tf img { max-height: calc(100svh - 52px - min(44px, 4.5vh) - 2 * clamp(28px, min(4.4vw, 6.2vh), 56px) - 64px); width: auto; max-width: 100%; margin: 0 auto; }
 .motion .ts { position: relative; opacity: .32; cursor: pointer; }
 .motion .ts:hover { opacity: .6; }
 .motion .ts.on { opacity: 1; }
 .motion .ts:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 4px; }
-/* The step on screen: its bar fills while the pane stays, then the next one comes. */
+/* The bar beside the steps fills as the page scrolls: full for the steps behind, filling for this one. */
 .motion .ts::before {
   content: ""; position: absolute; inset-block: -1px; inset-inline-start: -3px; width: 3px; background: var(--accent);
-  transform-origin: top; transform: scaleY(0);
+  transform-origin: top; transform: scaleY(var(--fill, 0));
 }
-.motion .ts.on::before { transform: scaleY(var(--tour-p, 0)); }
 .tour-dots { display: none; }
 /* Only the step on screen opens up; the others keep just their titles, so long languages still fit. */
 .motion .ts p { max-height: 0; margin-top: 0; opacity: 0; overflow: hidden; transition: max-height .5s var(--ease), margin-top .5s var(--ease), opacity .35s; }
@@ -180,17 +183,17 @@ html:not(.motion) .tf[data-step="3"] { order: 7; }
   .motion .ts.on { display: block; }
   .motion .ts::before { display: none; }
   .motion .ts p { transition: none; }
-  /* Phones: dots under the window, the one on screen stretched and filling. */
+  /* Phones: dots under the window, the one on screen stretched; they fill as the page scrolls. */
   .motion .tour-dots { display: flex; justify-content: center; gap: 8px; margin-top: 22px; }
   .tour-dots button {
     position: relative; width: 8px; height: 8px; padding: 0; border: 0; border-radius: 4px; overflow: hidden;
     background: var(--line); cursor: pointer; transition: width .35s var(--ease);
   }
   .tour-dots button.on { width: 34px; }
-  .tour-dots button.on::after {
-    content: ""; position: absolute; inset: 0; background: var(--accent); transform-origin: left; transform: scaleX(var(--tour-p, 0));
+  .tour-dots button::after {
+    content: ""; position: absolute; inset: 0; background: var(--accent); transform-origin: left; transform: scaleX(var(--fill, 0));
   }
-  [dir="rtl"] .tour-dots button.on::after { transform-origin: right; }
+  [dir="rtl"] .tour-dots button::after { transform-origin: right; }
 }
 
 /* ---------- The statement: words light up as you scroll ---------- */
