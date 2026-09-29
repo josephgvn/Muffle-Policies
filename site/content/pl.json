@@ -87,7 +87,7 @@
       },
       {
         "title": "Ponowne wyciszenie, gdy przestajesz mówić",
-        "text": "Włączasz mikrofon, aby powiedzieć jedno zdanie? Jeśli przez wybrany czas nic nie powiesz, Muffle ponownie go wyciszy."
+        "text": "Włączasz mikrofon, aby powiedzieć jedną rzecz? Jeśli potem zamilkniesz na wybrany czas, Muffle ponownie go wyciszy. Liczy się tylko Twój głos, a nie pisanie na klawiaturze czy hałas w tle."
       },
       {
         "title": "Najlepszy mikrofon dla Twojego otoczenia",
@@ -95,7 +95,7 @@
       },
       {
         "title": "Nie sposób tego przeoczyć",
-        "text": "Zielona lub czerwona poświata na krawędziach ekranu, kolorowa ikona na pasku menu, dźwięk i pływający przycisk. Włącz te wskaźniki, które najbardziej Ci odpowiadają."
+        "text": "Zielona lub czerwona poświata wokół ekranu, kolorowa ikona na pasku menu, pływający przycisk oraz dźwięk, który możesz wyłączyć dla każdego mikrofonu. Włącz te wskaźniki, które najbardziej Ci odpowiadają."
       }
     ],
     "image_reminder_alt": "Przypomnienie „Masz wyciszony mikrofon” na dole ekranu",
@@ -157,6 +157,10 @@
       {
         "q": "Dlaczego słuchawki AirPods brzmią gorzej podczas połączeń?",
         "a": "Gdy aplikacja korzysta z mikrofonu AirPods, słuchawki przełączają się w tryb połączenia, który odtwarza dźwięk w niższej jakości. W cichym pomieszczeniu Muffle sugeruje mikrofon Maca, dzięki czemu AirPods zachowują pełną jakość dźwięku."
+      },
+      {
+        "q": "Czy hałas w tle sprawi, że mikrofon pozostanie włączony?",
+        "a": "Nie. Muffle rozpoznaje mowę dzięki analizie dźwięku Apple wykonywanej na urządzeniu, więc liczy się tylko mówienie. Pisanie na klawiaturze, kliknięcia i hałas w tle się nie liczą, a nic nie jest nagrywane."
       }
     ]
   },

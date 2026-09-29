@@ -87,7 +87,7 @@
       },
       {
         "title": "Diredam semula apabila anda senyap",
-        "text": "Nyahredam untuk bercakap seketika? Jika anda kemudian kekal senyap selama tempoh yang anda pilih, Muffle meredam anda semula."
+        "text": "Nyahredam untuk bercakap seketika? Jika anda kemudian kekal senyap mengikut tempoh masa yang anda pilih, Muffle meredam anda semula. Hanya suara anda diambil kira, bukan menaip atau hingar latar belakang."
       },
       {
         "title": "Mik terbaik untuk bilik",
@@ -95,7 +95,7 @@
       },
       {
         "title": "Pasti tidak terlepas pandang",
-        "text": "Kilauan hijau atau merah di sekeliling skrin, ikon bar menu berwarna, bunyi dan butang terapung. Aktifkan mana-mana yang anda suka."
+        "text": "Sinar hijau atau merah di sekeliling skrin, ikon bar menu berwarna, butang terapung dan bunyi yang boleh anda matikan bagi setiap mik. Hidupkan pilihan yang anda suka."
       }
     ],
     "image_reminder_alt": "Peringatan “Anda diredam” di bahagian bawah skrin",
@@ -157,6 +157,10 @@
       {
         "q": "Mengapa bunyi AirPods saya kurang baik semasa panggilan?",
         "a": "Apabila panggilan menggunakan mik AirPods, AirPods bertukar ke mod panggilan yang memainkan bunyi dalam kualiti lebih rendah. Di dalam bilik yang sunyi, Muffle sebaliknya mencadangkan mik Mac anda supaya AirPods terus bermain dalam kualiti penuh."
+      },
+      {
+        "q": "Adakah hingar latar belakang akan mengekalkan mik saya aktif?",
+        "a": "Tidak. Muffle mengecam pertuturan dengan analisis bunyi pada peranti Apple, jadi hanya percakapan diambil kira. Menaip, klik dan hingar latar belakang tidak diambil kira, serta tiada apa yang dirakam."
       }
     ]
   },

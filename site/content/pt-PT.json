@@ -87,7 +87,7 @@
       },
       {
         "title": "Silenciado novamente quando ficas em silêncio",
-        "text": "Ativaste o microfone para dizer apenas uma coisa? Se ficares em silêncio durante o tempo que escolheres, o Muffle silencia-te novamente."
+        "text": "Ativaste o microfone para dizer apenas uma coisa? Se ficares em silêncio durante o tempo que escolheres, o Muffle silencia-te novamente. Só a tua voz conta, não o ruído de fundo nem as teclas."
       },
       {
         "title": "O melhor microfone para a sala",
@@ -95,7 +95,7 @@
       },
       {
         "title": "Impossível não reparar",
-        "text": "Um brilho verde ou vermelho à volta do ecrã, um ícone colorido na barra de menus, um som e um botão flutuante. Ativa os que preferires."
+        "text": "Um brilho verde ou vermelho à volta do ecrã, um ícone colorido na barra de menus, um botão flutuante e um som que podes desativar para cada microfone. Ativa os que preferires."
       }
     ],
     "image_reminder_alt": "O aviso «Estás silenciado» na parte inferior do ecrã",
@@ -157,6 +157,10 @@
       {
         "q": "Porque é que o som dos meus AirPods piora durante as chamadas?",
         "a": "Quando uma chamada utiliza o microfone dos AirPods, os AirPods mudam para o modo de chamada, que reproduz áudio com qualidade inferior. Numa sala silenciosa, o Muffle sugere antes o microfone do teu Mac, para que os AirPods continuem a tocar com qualidade máxima."
+      },
+      {
+        "q": "O ruído de fundo vai manter o meu microfone ativo?",
+        "a": "Não. O Muffle reconhece a fala através da análise de som no dispositivo da Apple, por isso apenas a voz conta. As teclas, os cliques e o ruído de fundo não contam e nada é gravado."
       }
     ]
   },

@@ -87,7 +87,7 @@
       },
       {
         "title": "À nouveau coupé quand vous ne parlez plus",
-        "text": "Vous avez réactivé le micro pour dire un mot ? Si vous ne parlez plus pendant la durée choisie, Muffle coupe à nouveau votre micro."
+        "text": "Vous avez réactivé le micro pour dire un mot ? Si vous ne parlez plus pendant la durée choisie, Muffle coupe à nouveau votre micro. Seule votre voix compte, pas la frappe ni les bruits de fond."
       },
       {
         "title": "Le meilleur micro pour la pièce",
@@ -95,7 +95,7 @@
       },
       {
         "title": "Impossible à manquer",
-        "text": "Une lueur verte ou rouge sur les bords de l'écran, une icône colorée dans la barre des menus, un son et un bouton flottant. Activez les options de votre choix."
+        "text": "Une lueur verte ou rouge autour de l'écran, une icône colorée dans la barre des menus, un bouton flottant et un son désactivable pour chaque micro. Activez les options qui vous conviennent."
       }
     ],
     "image_reminder_alt": "Le rappel « Vous êtes en sourdine » affiché en bas de l'écran",
@@ -157,6 +157,10 @@
       {
         "q": "Pourquoi le son de mes AirPods se dégrade-t-il en appel ?",
         "a": "Quand un appel utilise le micro des AirPods, ceux-ci basculent en mode appel, ce qui diffuse le son dans une qualité inférieure. Dans une pièce calme, Muffle vous suggère plutôt le micro de votre Mac, afin que les AirPods continuent de diffuser en pleine qualité."
+      },
+      {
+        "q": "Les bruits de fond risquent-ils de laisser mon micro activé ?",
+        "a": "Non. Muffle reconnaît la parole grâce à l'analyse sonore sur l'appareil d'Apple, seule la voix compte donc. La frappe, les clics et les bruits de fond sont ignorés, et rien n'est enregistré."
       }
     ]
   },

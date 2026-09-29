@@ -87,7 +87,7 @@
       },
       {
         "title": "Mykistetty uudelleen, kun hiljenet",
-        "text": "Poistitko mykistyksen sanoaksesi yhden asian? Jos olet sen jälkeen hiljaa valitsemasi ajan, Muffle mykistää sinut uudelleen."
+        "text": "Poistitko mykistyksen sanoaksesi yhden asian? Jos olet sen jälkeen hiljaa valitsemasi ajan, Muffle mykistää sinut uudelleen. Vain äänesi lasketaan, ei näppäilyä tai taustamelua."
       },
       {
         "title": "Paras mikrofoni huoneeseen",
@@ -95,7 +95,7 @@
       },
       {
         "title": "Mahdoton olla huomaamatta",
-        "text": "Vihreä tai punainen hehku näytön reunoilla, värillinen valikkorivin kuvake, äänimerkki ja kelluva painike. Ota käyttöön haluamasi."
+        "text": "Vihreä tai punainen hehku näytön ympärillä, värillinen valikkorivin kuvake, kelluva painike ja ääni, jonka voit kytkeä pois päältä kullekin mikrofonille. Ota käyttöön haluamasi."
       }
     ],
     "image_reminder_alt": "”Olet mykistetty” -muistutus näytön alareunassa",
@@ -157,6 +157,10 @@
       {
         "q": "Miksi AirPods-kuulokkeet kuulostavat huonommilta puheluissa?",
         "a": "Kun puhelu käyttää AirPodsin mikrofonia, AirPods siirtyy puhelutilaan, joka toistaa äänen heikommalla laadulla. Hiljaisessa huoneessa Muffle ehdottaa tilalle Macin mikrofonia, jolloin AirPods toistaa äänen edelleen täydellä laadulla."
+      },
+      {
+        "q": "Pitääkö taustamelu mikrofonini päällä?",
+        "a": "Ei. Muffle tunnistaa puheen Applen laitteessa tehtävällä äänianalyysillä, joten vain puhuminen lasketaan. Näppäilyä, napsautuksia tai taustamelua ei lasketa, eikä mitään tallenneta."
       }
     ]
   },

@@ -87,7 +87,7 @@
       },
       {
         "title": "Ponovno utišavanje kada prestanete govoriti",
-        "text": "Uključili ste mikrofon kako biste rekli jednu stvar? Ako nakon toga ostanete tihi onoliko dugo koliko odaberete, Muffle vas ponovno utišava."
+        "text": "Uključili ste mikrofon samo da nešto kažete? Ako potom ostanete tihi onoliko dugo koliko odaberete, Muffle vas ponovno utišava. Računa se samo vaš glas, a ne tipkanje ili pozadinska buka."
       },
       {
         "title": "Najbolji mikrofon za prostoriju",
@@ -95,7 +95,7 @@
       },
       {
         "title": "Nemoguće je ne primijetiti",
-        "text": "Zeleni ili crveni sjaj oko zaslona, obojena ikona u traci s izbornicima, zvuk i plutajući gumb. Uključite one koje želite."
+        "text": "Zeleni ili crveni sjaj oko zaslona, ikona trake s izbornicima u boji, plutajući gumb i zvuk koji možete isključiti za svaki mikrofon. Uključite one koji vam odgovaraju."
       }
     ],
     "image_reminder_alt": "Podsjetnik „Utišani ste” pri dnu zaslona",
@@ -157,6 +157,10 @@
       {
         "q": "Zašto AirPods zvuče lošije tijekom poziva?",
         "a": "Kada poziv upotrebljava mikrofon AirPods slušalica, AirPods se prebacuju u način rada za poziv koji reproducira zvuk u nižoj kvaliteti. U tihoj prostoriji Muffle umjesto toga predlaže mikrofon vašeg Maca, pa AirPods nastavljaju reproducirati zvuk u punoj kvaliteti."
+      },
+      {
+        "q": "Hoće li pozadinska buka držati mikrofon uključenim?",
+        "a": "Neće. Muffle prepoznaje govor uz Appleovu analizu zvuka na uređaju, pa se računa samo govor. Tipkanje, klikovi i pozadinska buka se ne računaju, a ništa se ne snima."
       }
     ]
   },

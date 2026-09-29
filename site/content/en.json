@@ -87,7 +87,7 @@
       },
       {
         "title": "Muted again when you go quiet",
-        "text": "Unmuted to say one thing? If you then stay quiet for the time you pick, Muffle mutes you again."
+        "text": "Unmuted to say one thing? If you then stay quiet for the time you pick, Muffle mutes you again. Only your voice counts, not typing or background noise."
       },
       {
         "title": "The best mic for the room",
@@ -95,7 +95,7 @@
       },
       {
         "title": "Impossible to miss",
-        "text": "A green or red glow around the screen, a colored menu bar icon, a sound and a floating button. Turn on the ones you like."
+        "text": "A green or red glow around the screen, a colored menu bar icon, a floating button and a sound you can switch off for each mic. Turn on the ones you like."
       }
     ],
     "image_reminder_alt": "The “You're muted” reminder at the bottom of the screen",
@@ -157,6 +157,10 @@
       {
         "q": "Why do my AirPods sound worse during calls?",
         "a": "When a call uses the AirPods mic, the AirPods switch to call mode, which plays sound in lower quality. In a quiet room Muffle suggests your Mac's mic instead, so the AirPods keep playing in full quality."
+      },
+      {
+        "q": "Will background noise keep my mic on?",
+        "a": "No. Muffle recognizes speech with Apple's on-device sound analysis, so only talking counts. Typing, clicks and background noise don't, and nothing is recorded."
       }
     ]
   },

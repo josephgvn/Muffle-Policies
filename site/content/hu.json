@@ -87,7 +87,7 @@
       },
       {
         "title": "Újranémítás, ha elcsendesedik",
-        "text": "Csak egyetlen mondatra kapcsolta vissza a mikrofont? Ha a megadott ideig csendben marad, a Muffle automatikusan újra elnémítja."
+        "text": "Csak egy mondatra kapcsolta vissza a mikrofont? Ha utána a kiválasztott ideig csendben marad, a Muffle újra némítja. Csak az Ön hangja számít, a gépelés vagy a háttérzaj nem."
       },
       {
         "title": "A szobához legmegfelelőbb mikrofon",
@@ -95,7 +95,7 @@
       },
       {
         "title": "Lehetetlen eltéveszteni",
-        "text": "Zöld vagy piros fény a képernyő szélein, színes menüsorikon, hangjelzés és lebegő gomb. Kapcsolja be azokat, amelyeket szeretne."
+        "text": "Zöld vagy piros fény a képernyő szélein, színes menüsorikon, lebegő gomb és mikrofononként kikapcsolható hangjelzés. Kapcsolja be azokat, amelyek tetszenek."
       }
     ],
     "image_reminder_alt": "A „Némítva van” emlékeztető a képernyő alján",
@@ -157,6 +157,10 @@
       {
         "q": "Miért szól rosszabbul az AirPods hívások közben?",
         "a": "Amikor egy hívás az AirPods mikrofonját használja, az AirPods hívás módra vált, amely gyengébb minőségben játssza le a hangot. Csendes szobában a Muffle inkább a Mac mikrofonját javasolja, így az AirPods teljes minőségben szólal meg."
+      },
+      {
+        "q": "A háttérzaj miatt bekapcsolva maradhat a mikrofon?",
+        "a": "Nem. A Muffle az Apple eszközön futó hangelemzésével ismeri fel a beszédet, így csak a beszéd számít. A gépelés, a kattintások és a háttérzaj nem, és semmi nem kerül rögzítésre."
       }
     ]
   },

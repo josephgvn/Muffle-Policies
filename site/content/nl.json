@@ -87,7 +87,7 @@
       },
       {
         "title": "Opnieuw gedempt zodra je stil wordt",
-        "text": "Microfoon ingeschakeld om even iets te zeggen? Als je daarna stil blijft gedurende de gekozen tijd, dempt Muffle je weer."
+        "text": "Even ingeschakeld om iets te zeggen? Als je daarna stil blijft gedurende de gekozen tijd, dempt Muffle je weer. Alleen je stem telt, typen of achtergrondgeluid niet."
       },
       {
         "title": "De beste microfoon voor de ruimte",
@@ -95,7 +95,7 @@
       },
       {
         "title": "Niet te missen",
-        "text": "Een groene of rode gloed rond het scherm, een gekleurd menubalkpictogram, een geluid en een zwevende knop. Schakel in wat je prettig vindt."
+        "text": "Een groene of rode gloed langs de schermranden, een gekleurd menubalkpictogram, een zwevende knop en een geluid dat je per microfoon kunt uitzetten. Schakel in wat je prettig vindt."
       }
     ],
     "image_reminder_alt": "De herinnering “Je bent gedempt” onder in het scherm",
@@ -157,6 +157,10 @@
       {
         "q": "Waarom klinken mijn AirPods slechter tijdens gesprekken?",
         "a": "Wanneer een gesprek de microfoon van de AirPods gebruikt, schakelen de AirPods over naar een gespreksmodus met een lagere geluidskwaliteit. In een rustige ruimte stelt Muffle in plaats daarvan de microfoon van je Mac voor, zodat de AirPods blijven afspelen in volledige kwaliteit."
+      },
+      {
+        "q": "Blijft mijn microfoon aanstaan door achtergrondgeluid?",
+        "a": "Nee. Muffle herkent spraak met de geluidsanalyse op het apparaat van Apple, dus alleen praten telt. Typen, klikken en achtergrondgeluid tellen niet mee, en er wordt niets opgenomen."
       }
     ]
   },

@@ -87,7 +87,7 @@
       },
       {
         "title": "Din nou pe mut când nu mai vorbiți",
-        "text": "Ați activat microfonul doar ca să spuneți ceva? Dacă apoi nu mai vorbiți în intervalul ales, Muffle vă dezactivează din nou microfonul."
+        "text": "Ați activat microfonul ca să spuneți ceva? Dacă nu mai vorbiți pe durata aleasă, Muffle vă pune din nou pe mut. Se ia în calcul doar vocea dvs., nu tastarea sau zgomotul de fundal."
       },
       {
         "title": "Cel mai bun microfon pentru încăpere",
@@ -95,7 +95,7 @@
       },
       {
         "title": "Imposibil de ratat",
-        "text": "O lumină verde sau roșie în jurul ecranului, o pictogramă colorată în bara de meniu, un sunet și un buton plutitor. Activați-le pe cele pe care le doriți."
+        "text": "O iluminare verde sau roșie pe marginile ecranului, o pictogramă colorată în bara de meniu, un buton plutitor și un sunet pe care îl puteți dezactiva pentru fiecare microfon. Activați opțiunile dorite."
       }
     ],
     "image_reminder_alt": "Mementoul „Sunteți pe mut” în partea de jos a ecranului",
@@ -157,6 +157,10 @@
       {
         "q": "De ce se aud căștile AirPods mai slab în timpul apelurilor?",
         "a": "Când un apel utilizează microfonul AirPods, căștile AirPods comută la modul de apel, care redă sunetul la o calitate mai scăzută. Într-o încăpere liniștită, Muffle sugerează în schimb microfonul Mac-ului, astfel încât căștile AirPods continuă să redea la calitate maximă."
+      },
+      {
+        "q": "Zgomotul de fundal va menține microfonul activat?",
+        "a": "Nu. Muffle recunoaște vorbirea prin analiza sunetului realizată pe dispozitiv de Apple, astfel că se ia în calcul doar vorbirea. Tastarea, clicurile și zgomotul de fundal nu contează, iar nimic nu este înregistrat."
       }
     ]
   },

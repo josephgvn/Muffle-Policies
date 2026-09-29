@@ -87,7 +87,7 @@
       },
       {
         "title": "Sessiz kalınca tekrar susturma",
-        "text": "Tek bir şey söylemek için sesi açtın mı? Belirlediğin süre boyunca sessiz kalırsan Muffle seni tekrar susturur."
+        "text": "Tek bir şey söylemek için mikrofonu mu açtın? Ardından seçtiğin süre boyunca sessiz kalırsan Muffle seni tekrar susturur. Yalnızca sesin dikkate alınır; klavye ya da arka plan gürültüsü sayılmaz."
       },
       {
         "title": "Ortama en uygun mikrofon",
@@ -95,7 +95,7 @@
       },
       {
         "title": "Gözden kaçırmak imkansız",
-        "text": "Ekran etrafında yeşil veya kırmızı bir ışıma, renkli menü çubuğu simgesi, sesli uyarı ve kayan bir düğme. Dilediklerini aç."
+        "text": "Ekran kenarlarında yeşil veya kırmızı bir parlama, renkli bir menü çubuğu simgesi, ekranda yüzen bir düğme ve her mikrofon için ayrı ayrı kapatabileceğin bir ses. Hoşuna gidenleri aç."
       }
     ],
     "image_reminder_alt": "Ekranın altındaki “Sessizdesin” hatırlatması",
@@ -157,6 +157,10 @@
       {
         "q": "Görüşmeler sırasında AirPods ses kalitesi neden düşüyor?",
         "a": "Bir görüşme AirPods mikrofonunu kullandığında AirPods, sesi daha düşük kalitede çalan arama moduna geçer. Muffle sessiz bir odada bunun yerine Mac'inin mikrofonunu önerir; böylece AirPods görüşmeyi tam kalitede çalmaya devam eder."
+      },
+      {
+        "q": "Arka plan gürültüsü mikrofonumu açık tutar mı?",
+        "a": "Hayır. Muffle konuşmayı Apple'ın aygıt içi ses analiziyle algılar; bu yüzden yalnızca konuşman dikkate alınır. Klavye, tıklamalar ve arka plan gürültüsü sayılmaz ve hiçbir şey kaydedilmez."
       }
     ]
   },

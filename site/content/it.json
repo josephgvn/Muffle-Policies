@@ -87,7 +87,7 @@
       },
       {
         "title": "Di nuovo muto se non parli",
-        "text": "Hai attivato il microfono solo per dire una cosa? Se poi non parli per il tempo che hai scelto, Muffle ti disattiva di nuovo."
+        "text": "Hai attivato il microfono solo per dire una cosa? Se poi non parli per il tempo che scegli, Muffle ti disattiva di nuovo. Conta solo la tua voce, non la digitazione o i rumori di fondo."
       },
       {
         "title": "Il microfono migliore per la stanza",
@@ -95,7 +95,7 @@
       },
       {
         "title": "Impossibile non notarlo",
-        "text": "Una luce verde o rossa sui bordi dello schermo, un'icona colorata nella barra dei menu, un suono e un pulsante mobile. Attiva le notifiche che preferisci."
+        "text": "Un'illuminazione verde o rossa attorno allo schermo, un'icona colorata nella barra dei menu, un pulsante mobile e un suono che puoi disattivare per ciascun microfono. Attiva le opzioni che preferisci."
       }
     ],
     "image_reminder_alt": "Il promemoria “Sei muto” nella parte inferiore dello schermo",
@@ -157,6 +157,10 @@
       {
         "q": "Perché gli AirPods si sentono peggio durante le chiamate?",
         "a": "Quando una chiamata usa il microfono degli AirPods, le cuffie passano alla modalità chiamata, che riproduce l'audio a una qualità inferiore. In una stanza silenziosa Muffle ti consiglia invece il microfono del Mac, così gli AirPods continuano a farti ascoltare l'audio alla massima qualità."
+      },
+      {
+        "q": "I rumori di fondo mantengono attivo il microfono?",
+        "a": "No. Muffle riconosce la voce con l'analisi sonora integrata sul dispositivo di Apple, quindi conta solo quando parli. Digitazione, clic e rumori di fondo vengono ignorati e non viene registrato nulla."
       }
     ]
   },

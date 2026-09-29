@@ -87,7 +87,7 @@
       },
       {
         "title": "Dempet igjen når du blir stille",
-        "text": "Slo du på mikrofonen for å si én ting? Hvis du forblir stille så lenge som du har valgt, demper Muffle deg igjen."
+        "text": "Slo du på lyden for å si én ting? Hvis du deretter er stille i tiden du velger, demper Muffle deg igjen. Bare stemmen din teller, ikke tasting eller bakgrunnsstøy."
       },
       {
         "title": "Den beste mikrofonen for rommet",
@@ -95,7 +95,7 @@
       },
       {
         "title": "Umulig å gå glipp av",
-        "text": "Et grønt eller rødt lys langs skjermkantene, et farget menylinjeikon, en lyd og en flytende knapp. Slå på det du ønsker."
+        "text": "En grønn eller rød glød rundt skjermen, et farget menylinjeikon, en flytende knapp og en lyd du kan slå av for hver mikrofon. Slå på de du liker."
       }
     ],
     "image_reminder_alt": "Påminnelsen «Du er dempet» nederst på skjermen",
@@ -157,6 +157,10 @@
       {
         "q": "Hvorfor høres AirPods verre ut under samtaler?",
         "a": "Når en samtale bruker AirPods-mikrofonen, bytter AirPods til samtalemodus, som spiller av lyd i lavere kvalitet. I et stille rom foreslår Muffle mikrofonen på Mac-en din i stedet, slik at AirPods fortsetter å spille i full kvalitet."
+      },
+      {
+        "q": "Vil bakgrunnsstøy holde mikrofonen min på?",
+        "a": "Nei. Muffle gjenkjenner tale med Apples lydanalyse på enheten, så bare snakking teller. Tasting, klikk og bakgrunnsstøy teller ikke, og ingenting blir tatt opp."
       }
     ]
   },

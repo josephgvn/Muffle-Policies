@@ -87,7 +87,7 @@
       },
       {
         "title": "Tắt tiếng lại khi bạn im lặng",
-        "text": "Bật tiếng để phát biểu nhanh? Nếu sau đó bạn giữ im lặng trong khoảng thời gian đã chọn, Muffle sẽ tắt tiếng bạn trở lại."
+        "text": "Bạn vừa bật tiếng để nói một câu? Nếu sau đó bạn im lặng trong khoảng thời gian đã chọn, Muffle sẽ tắt tiếng bạn trở lại. Ứng dụng chỉ tính giọng nói của bạn, tiếng gõ phím hay tiếng ồn nền đều không tính."
       },
       {
         "title": "Micrô tốt nhất cho căn phòng",
@@ -95,7 +95,7 @@
       },
       {
         "title": "Không bao giờ bỏ sót",
-        "text": "Viền màn hình phát sáng xanh lá hoặc đỏ, biểu tượng thanh menu có màu, âm thanh thông báo và nút nổi. Bạn có thể bật bất kỳ mục nào mình thích."
+        "text": "Viền màn hình phát sáng màu xanh lá hoặc đỏ, biểu tượng thanh menu đổi màu, nút nổi và âm thanh có thể tắt riêng cho từng micrô. Hãy bật những tùy chọn bạn thích."
       }
     ],
     "image_reminder_alt": "Thông báo nhắc nhở “Bạn đang tắt tiếng” ở cuối màn hình",
@@ -157,6 +157,10 @@
       {
         "q": "Tại sao AirPods nghe tệ hơn trong cuộc gọi?",
         "a": "Khi cuộc gọi dùng micrô AirPods, AirPods sẽ chuyển sang chế độ cuộc gọi khiến âm thanh phát ra có chất lượng thấp hơn. Trong phòng yên tĩnh, Muffle sẽ gợi ý micrô của Mac để AirPods tiếp tục phát ở chất lượng đầy đủ."
+      },
+      {
+        "q": "Tiếng ồn nền có khiến micrô tiếp tục bật không?",
+        "a": "Không. Muffle nhận biết giọng nói bằng công nghệ phân tích âm thanh ngay trên thiết bị của Apple, vì vậy chỉ tính khi bạn nói chuyện. Tiếng gõ phím, tiếng nhấp chuột và tiếng ồn nền đều không tính, đồng thời không có gì được ghi âm."
       }
     ]
   },

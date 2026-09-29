@@ -87,7 +87,7 @@
       },
       {
         "title": "Znova stlmené, keď stíchnete",
-        "text": "Zapli ste mikrofón, aby ste niečo povedali? Ak potom zostanete ticho po zvolený čas, Muffle vás znova stlmí."
+        "text": "Zapli ste mikrofón, aby ste niečo povedali? Ak potom zostanete ticho počas zvoleného času, Muffle vás znova stlmí. Počíta sa iba váš hlas, písanie ani hluk na pozadí nie."
       },
       {
         "title": "Najlepší mikrofón pre miestnosť",
@@ -95,7 +95,7 @@
       },
       {
         "title": "Nemožno prehliadnuť",
-        "text": "Zelené alebo červené rozsvietenie okrajov obrazovky, farebná ikona v lište s ponukami, zvuk a plávajúce tlačidlo. Zapnite si tie, ktoré vám vyhovujú."
+        "text": "Zelené alebo červené rozsvietenie okrajov obrazovky, farebná ikona v lište s ponukami, plávajúce tlačidlo a zvuk, ktorý môžete pre každý mikrofón vypnúť. Zapnite si tie, ktoré sa vám páčia."
       }
     ],
     "image_reminder_alt": "Pripomienka „Máte stlmený mikrofón“ v spodnej časti obrazovky",
@@ -157,6 +157,10 @@
       {
         "q": "Prečo majú AirPods počas hovorov horší zvuk?",
         "a": "Keď hovor používa mikrofón AirPods, AirPods sa prepnú do režimu hovoru, ktorý prehráva zvuk v nižšej kvalite. V tichej miestnosti Muffle namiesto toho navrhne mikrofón Macu, takže AirPods naďalej prehrávajú v plnej kvalite."
+      },
+      {
+        "q": "Udrží hluk na pozadí mikrofón zapnutý?",
+        "a": "Nie. Muffle rozpoznáva reč pomocou analýzy zvuku priamo v zariadení od Apple, takže sa počíta iba hovorenie. Písanie, klikanie ani hluk na pozadí nie a nič sa nenahráva."
       }
     ]
   },

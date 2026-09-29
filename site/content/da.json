@@ -87,7 +87,7 @@
       },
       {
         "title": "Dæmpet igen, når du er stille",
-        "text": "Slog du mikrofonen til for at sige en enkelt ting? Hvis du derefter er stille i det tidsrum, du vælger, dæmper Muffle dig igen."
+        "text": "Slog du mikrofonen til for at sige en enkelt ting? Hvis du derefter er stille i den valgte tid, dæmper Muffle dig igen. Kun din stemme tæller, ikke tastetryk eller baggrundsstøj."
       },
       {
         "title": "Den bedste mikrofon til rummet",
@@ -95,7 +95,7 @@
       },
       {
         "title": "Umulig at overse",
-        "text": "Et grønt eller rødt skær omkring skærmen, et farvet menulinjeikon, en lyd og en svævende knap. Slå dem til, du foretrækker."
+        "text": "Et grønt eller rødt skær langs skærmkanterne, et farvet menulinjeikon, en svævende knap og en lyd, du kan slå fra for hver mikrofon. Slå dem til, du bedst kan lide."
       }
     ],
     "image_reminder_alt": "Påmindelsen »Du er dæmpet« nederst på skærmen",
@@ -157,6 +157,10 @@
       {
         "q": "Hvorfor lyder mine AirPods dårligere under opkald?",
         "a": "Når et opkald bruger mikrofonen i AirPods, skifter dine AirPods til opkaldstilstand, som afspiller lyd i lavere kvalitet. I et stille rum foreslår Muffle din Macs mikrofon i stedet, så dine AirPods bliver ved med at afspille i fuld kvalitet."
+      },
+      {
+        "q": "Vil baggrundsstøj holde min mikrofon tændt?",
+        "a": "Nej. Muffle genkender tale med Apples lydanalyse på enheden, så kun tale tæller. Tastetryk, klik og baggrundsstøj gør ikke, og der optages intet."
       }
     ]
   },

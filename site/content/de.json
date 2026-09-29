@@ -87,7 +87,7 @@
       },
       {
         "title": "Wieder stummgeschaltet, wenn du still bist",
-        "text": "Kurz aktiviert, um etwas zu sagen? Wenn du danach für die gewählte Zeit still bist, schaltet Muffle dich automatisch wieder stumm."
+        "text": "Kurz aktiviert, um etwas zu sagen? Wenn du danach für die gewählte Zeit still bist, schaltet Muffle dich wieder stumm. Nur deine Stimme zählt, kein Tippen oder Hintergrundgeräusche."
       },
       {
         "title": "Das beste Mikrofon für den Raum",
@@ -95,7 +95,7 @@
       },
       {
         "title": "Nicht zu übersehen",
-        "text": "Ein grünes oder rotes Leuchten am Bildschirmrand, ein farbiges Menüleistensymbol, ein Ton und ein frei schwebender Button. Aktiviere einfach, was dir gefällt."
+        "text": "Ein grünes oder rotes Leuchten um den Bildschirm, ein farbiges Menüleistensymbol, ein schwebender Button und ein Ton, den du für jedes Mikrofon ausschalten kannst. Schalte einfach ein, was dir gefällt."
       }
     ],
     "image_reminder_alt": "Die Erinnerung „Du bist stummgeschaltet“ am unteren Bildschirmrand",
@@ -157,6 +157,10 @@
       {
         "q": "Warum klingen meine AirPods während Anrufen schlechter?",
         "a": "Wenn ein Anruf das AirPods-Mikrofon verwendet, wechseln die AirPods in den Anrufmodus, der Ton in geringerer Qualität wiedergibt. In einem ruhigen Raum schlägt Muffle stattdessen das Mikrofon deines Mac vor, damit die AirPods den Ton weiter in voller Qualität abspielen."
+      },
+      {
+        "q": "Bleibt mein Mikrofon durch Hintergrundgeräusche aktiv?",
+        "a": "Nein. Muffle erkennt Sprache über Apples Audioanalyse direkt auf dem Gerät, sodass nur Sprechen zählt. Tippen, Klicks und Hintergrundgeräusche zählen nicht, und es wird nichts aufgezeichnet."
       }
     ]
   },

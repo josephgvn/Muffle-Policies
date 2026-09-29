@@ -87,7 +87,7 @@
       },
       {
         "title": "Silenciado de nuevo si dejas de hablar",
-        "text": "¿Has activado el micro para decir algo? Si después no dices nada durante el tiempo que elijas, Muffle vuelve a silenciarte."
+        "text": "¿Has activado el micrófono para decir algo? Si después no hablas durante el tiempo que elijas, Muffle te silencia de nuevo. Solo cuenta tu voz, no teclear ni el ruido de fondo."
       },
       {
         "title": "El mejor micro según la habitación",
@@ -95,7 +95,7 @@
       },
       {
         "title": "Imposible pasarlo por alto",
-        "text": "Un resplandor verde o rojo en los bordes de la pantalla, un icono de color en la barra de menús, un sonido y un botón flotante. Activa los que prefieras."
+        "text": "Un brillo verde o rojo alrededor de la pantalla, un icono en color en la barra de menús, un botón flotante y un sonido que puedes desactivar para cada micro. Activa los que prefieras."
       }
     ],
     "image_reminder_alt": "El aviso «Estás silenciado» en la parte inferior de la pantalla",
@@ -157,6 +157,10 @@
       {
         "q": "¿Por qué mis AirPods suenan peor durante las llamadas?",
         "a": "Cuando una llamada usa el micro de los AirPods, estos cambian al modo de llamada, que reproduce el sonido con menor calidad. En una habitación silenciosa, Muffle sugiere usar el micro de tu Mac para que los AirPods sigan reproduciendo con la máxima calidad."
+      },
+      {
+        "q": "¿El ruido de fondo puede mantener activado mi micrófono?",
+        "a": "No. Muffle reconoce la voz con el análisis de sonido en el dispositivo de Apple, así que solo cuenta cuando hablas. Teclear, los clics y el ruido de fondo no cuentan, y no se graba nada."
       }
     ]
   },

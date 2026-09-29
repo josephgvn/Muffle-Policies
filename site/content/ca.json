@@ -87,7 +87,7 @@
       },
       {
         "title": "Silenciat de nou quan et quedes en silenci",
-        "text": "Has activat el so per dir una sola cosa? Si després et mantens en silenci durant el temps que triïs, Muffle et torna a silenciar."
+        "text": "Has activat el so per dir una sola cosa? Si després et quedes en silenci durant el temps que triïs, Muffle et torna a silenciar. Només compta la teva veu, no teclejar ni el soroll de fons."
       },
       {
         "title": "El millor micròfon per a l'habitació",
@@ -95,7 +95,7 @@
       },
       {
         "title": "Impossible de passar per alt",
-        "text": "Una resplendor verda o vermella a les vores de la pantalla, una icona de color a la barra de menús, un so i un botó flotant. Activa els que prefereixis."
+        "text": "Una resplendor verda o vermella al voltant de la pantalla, una icona de color a la barra de menús, un botó flotant i un so que pots desactivar per a cada micròfon. Activa els que més t'agradin."
       }
     ],
     "image_reminder_alt": "L'avís d'«Estàs silenciat» a la part inferior de la pantalla",
@@ -157,6 +157,10 @@
       {
         "q": "Per què els AirPods sonen pitjor durant les trucades?",
         "a": "Quan una trucada utilitza el micròfon dels AirPods, els AirPods canvien al mode de trucada, que reprodueix el so amb menys qualitat. En una habitació tranquil·la, Muffle suggereix utilitzar el micròfon del Mac perquè els AirPods continuïn reproduint amb màxima qualitat."
+      },
+      {
+        "q": "El soroll de fons mantindrà el micròfon activat?",
+        "a": "No. Muffle reconeix la parla mitjançant l'anàlisi de so al dispositiu d'Apple, de manera que només compta quan parles. Teclejar, els clics i el soroll de fons no compten, i no es grava res."
       }
     ]
   },

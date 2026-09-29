@@ -87,7 +87,7 @@
       },
       {
         "title": "Dibisukan lagi saat Anda diam",
-        "text": "Mengaktifkan suara untuk bicara sebentar? Jika Anda kemudian diam selama durasi yang dipilih, Muffle akan membisukan Anda lagi."
+        "text": "Mengaktifkan suara untuk berbicara sebentar? Jika Anda lalu tetap diam selama waktu yang dipilih, Muffle akan membisukan Anda lagi. Hanya suara Anda yang dihitung, bukan suara mengetik atau kebisingan latar belakang."
       },
       {
         "title": "Mikrofon terbaik untuk ruangan",
@@ -95,7 +95,7 @@
       },
       {
         "title": "Tidak mungkin terlewat",
-        "text": "Pendaran hijau atau merah di sekitar layar, ikon bilah menu berwarna, suara, dan tombol melayang. Aktifkan yang Anda sukai."
+        "text": "Pendar hijau atau merah di sekeliling layar, ikon bilah menu berwarna, tombol mengambang, serta suara yang dapat Anda matikan untuk setiap mik. Nyalakan yang Anda sukai."
       }
     ],
     "image_reminder_alt": "Pengingat “Anda dibisukan” di bagian bawah layar",
@@ -157,6 +157,10 @@
       {
         "q": "Mengapa suara AirPods saya terdengar lebih buruk saat panggilan?",
         "a": "Saat panggilan menggunakan mikrofon AirPods, AirPods beralih ke mode panggilan yang memutar audio dalam kualitas lebih rendah. Di ruangan yang hening, Muffle menyarankan mikrofon Mac Anda sebagai gantinya, sehingga AirPods tetap memutar dalam kualitas penuh."
+      },
+      {
+        "q": "Apakah kebisingan latar belakang akan membuat mik saya tetap aktif?",
+        "a": "Tidak. Muffle mengenali suara bicara dengan analisis suara di perangkat Apple, jadi hanya suara berbicara yang dihitung. Mengetik, klik, dan kebisingan latar belakang tidak berpengaruh, serta tidak ada yang direkam."
       }
     ]
   },

@@ -87,7 +87,7 @@
       },
       {
         "title": "Avstängd igen när du blir tyst",
-        "text": "Slog du på mikrofonen för att säga en sak? Om du sedan är tyst under den tid du väljer stänger Muffle av dig igen."
+        "text": "Slog du på för att säga en sak? Om du sedan är tyst under tiden du valt stänger Muffle av dig igen. Endast din röst räknas, inte tangenttryckningar eller bakgrundsljud."
       },
       {
         "title": "Bästa mikrofonen för rummet",
@@ -95,7 +95,7 @@
       },
       {
         "title": "Omöjlig att missa",
-        "text": "Ett grönt eller rött sken runt skärmen, en färgad menyradsikon, ett ljud och en flytande knapp. Slå på de du vill ha."
+        "text": "Ett grönt eller rött sken runt skärmen, en färgad menyradsikon, en flytande knapp och ett ljud som du kan stänga av för varje mikrofon. Slå på de du vill ha."
       }
     ],
     "image_reminder_alt": "Påminnelsen ”Du är avstängd” längst ner på skärmen",
@@ -157,6 +157,10 @@
       {
         "q": "Varför låter mina AirPods sämre under samtal?",
         "a": "När ett samtal använder mikrofonen i AirPods växlar de till samtalsläge, vilket spelar upp ljud med lägre kvalitet. I ett tyst rum föreslår Muffle din Macs mikrofon i stället, så att dina AirPods fortsätter spela upp i full kvalitet."
+      },
+      {
+        "q": "Håller bakgrundsljud min mikrofon påslagen?",
+        "a": "Nej. Muffle känner igen tal med Apples ljudanalys direkt på enheten, så bara tal räknas. Tangenttryckningar, klick och bakgrundsljud gör det inte, och inget spelas in."
       }
     ]
   },
