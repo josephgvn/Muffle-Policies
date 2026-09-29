@@ -98,9 +98,9 @@ BUILD_DATE = datetime.date.today().isoformat()
 
 
 def asset_version():
-    """Changes whenever the stylesheet or script changes, so browsers never keep an old copy."""
+    """Changes whenever the stylesheet, script or logo changes, so browsers never keep an old copy."""
     digest = hashlib.sha1()
-    for name in ("site.css", "site.js"):
+    for name in ("site.css", "site.js", "icon-64.png", "icon-180.png"):
         with open(os.path.join(ROOT, "assets", name), "rb") as f:
             digest.update(f.read())
     return digest.hexdigest()[:10]
@@ -269,8 +269,8 @@ def page(lang, c, path, title, description, body, jsonld, languages, not_found=F
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 <meta name="format-detection" content="telephone=no">
-{store_banner}<link rel="icon" type="image/png" sizes="64x64" href="{rel}assets/icon-64.png">
-<link rel="apple-touch-icon" href="{rel}assets/icon-180.png">
+{store_banner}<link rel="icon" type="image/png" sizes="64x64" href="{rel}assets/icon-64.png?v={ASSET_VERSION}">
+<link rel="apple-touch-icon" href="{rel}assets/icon-180.png?v={ASSET_VERSION}">
 <link rel="stylesheet" href="{rel}assets/site.css?v={ASSET_VERSION}">
 <script>document.documentElement.classList.add("js");if(!matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("motion")</script>
 <script src="{rel}assets/site.js?v={ASSET_VERSION}" defer></script>
@@ -278,7 +278,7 @@ def page(lang, c, path, title, description, body, jsonld, languages, not_found=F
 </head>
 <body>
 <header class="nav"><div class="wrap">
-<a class="brand" href="{home}"><img src="{rel}assets/icon-64.png" alt="" width="26" height="26">Muffle</a>
+<a class="brand" href="{home}"><img src="{rel}assets/icon-64.png?v={ASSET_VERSION}" alt="" width="26" height="26">Muffle</a>
 <nav aria-label="{e(c['nav']['menu'])}"><a href="{home}#features">{e(c['nav']['features'])}</a><a href="{home}guides/">{e(c['nav']['guides'])}</a><a href="{home}support/">{e(c['nav']['support'])}</a></nav>
 {download_button(c, small=True)}
 </div></header>
@@ -502,7 +502,7 @@ def home_page(lang, c, languages):
 <section class="final">
 <div class="final-inner">
 <div class="wrap center">
-<img class="final-icon" src="{{REL}}assets/icon-180.png" alt="" width="148" height="148" loading="lazy">
+<img class="final-icon" src="{{REL}}assets/icon-180.png?v={ASSET_VERSION}" alt="" width="148" height="148" loading="lazy">
 <h2 class="display">{e(c['final_cta']['title'])}</h2>
 <p class="lead">{e(c['final_cta']['text'])}</p>
 <div class="final-cta">{download_button(c)}</div>
@@ -576,7 +576,7 @@ def guide_page(lang, c, g, languages):
 </header>
 <div class="wrap narrow prose">
 {intro}
-<aside class="cta-box reveal"><img src="{{REL}}assets/icon-64.png" alt="" width="44" height="44"><strong>{e(labels['try'])}</strong>{download_button(c)}</aside>
+<aside class="cta-box reveal"><img src="{{REL}}assets/icon-64.png?v={ASSET_VERSION}" alt="" width="44" height="44"><strong>{e(labels['try'])}</strong>{download_button(c)}</aside>
 <h2 class="reveal">{e(g['steps_title'])}</h2>
 <ol class="how-steps compact">{steps}</ol>
 <figure class="guide-shot reveal{" card" if visual.startswith("card-") else ""}">{theme_picture(lang, visual, g["h1"])}</figure>
