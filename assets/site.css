@@ -326,7 +326,7 @@ details[open] summary::after { transform: translateY(2px) rotate(-135deg); }
 .cta-box p { margin: 0; flex-basis: 100%; color: var(--text-2); }
 .guide-shot { margin: 48px 0 32px; background: var(--bg-alt); border-radius: var(--radius); padding: clamp(20px, 4vw, 48px); display: flex; justify-content: center; }
 .guide-shot img { max-height: 520px; width: auto; }
-.guide-shot.card img { max-height: 380px; filter: var(--lift); }
+.guide-shot.card img { max-height: 380px; max-width: min(100%, 560px); filter: var(--lift); }
 .tips { list-style: none; padding: 0; margin: 28px 0; display: grid; gap: 12px; }
 .tips li { position: relative; background: var(--bg-alt); border-radius: 18px; padding-block: 18px; padding-inline: 48px 22px; }
 .tips li::before { content: ""; position: absolute; inset-inline-start: 22px; top: 27px; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }

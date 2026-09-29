@@ -160,14 +160,14 @@
     };
 
     // Part `rect` of the panel (points) from a picture that covers `area` of it, using the copy that is closest
-    // to 1:1 at k device pixels per point (the half-size one while it is enough).
+    // to 1:1 at k device pixels per point (the half-size one while it needs no enlarging).
     const put = (name, area, rect = area, alpha = 1, k = 0) => {
       const a = art[name];
       if (!a || alpha <= 0) return;
       const density = a.img.naturalWidth / area[2];    // the picture's own pixels per point
       let bmp = a.full;
-      if (a.half && (!bmp || k <= density * 0.575)) {
-        if (!bmp && k > density * 0.575) needFull(name);
+      if (a.half && (!bmp || k <= density * 0.5)) {
+        if (!bmp && k > density * 0.5) needFull(name);
         bmp = a.half;
       }
       if (!bmp) return;
@@ -254,8 +254,9 @@
       ctx.setTransform(k, 0, 0, k, dpr * cam.x, dpr * cam.y);
       ctx.imageSmoothingEnabled = true;
       ctx.imageSmoothingQuality = moving ? "low" : "high";
-      // Closer than the 2x picture holds: the close-ups take over the popover, the 2x picture only shows around it.
-      const close = k > 2.3 && ready("head-live") && ready("call-live") && ready("lower");
+      // Closer than the whole-panel picture holds (its own pixels per point): the close-ups take over the popover,
+      // the whole picture only shows around it.
+      const close = k > art["panel-live"].img.naturalWidth / L.size[0] && ready("head-live") && ready("call-live") && ready("lower");
       if (close) {
         const a = L.crop, c = L.lower;
         ctx.save();

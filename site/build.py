@@ -122,19 +122,30 @@ def image_size(path):
         return None, None
 
 
+def to_webp(png):
+    """Lossless, so every pixel is the app's own: lossy WebP halves the color resolution and softens colored edges
+    and text. For these flat interface pictures it is about as small as lossy quality 90."""
+    from PIL import Image
+    try:
+        Image.open(png).save(png[:-4] + ".webp", "WEBP", lossless=True, quality=80, method=4)
+    except OSError as error:   # still being written by the renderer: the next build converts it
+        return f"skipped {os.path.relpath(png, ROOT)}: {error}"
+    return None
+
+
 def make_webp():
     """Turns the renderer's PNGs into the WebPs the site serves (about a fifth of the size). The PNGs stay out of
     git (.gitignore); every browser that runs these pages shows WebP. og.png stays a PNG for link previews."""
-    from PIL import Image
+    import concurrent.futures
+    todo = []
     for png in glob.glob(os.path.join(ROOT, "assets", "img", "*", "*.png")):
-        if png.endswith("og.png"):
-            continue
         webp = png[:-4] + ".webp"
-        if not os.path.exists(webp) or os.path.getmtime(webp) < os.path.getmtime(png):
-            try:
-                Image.open(png).save(webp, "WEBP", quality=90, method=4)
-            except OSError as error:   # still being written by the renderer: the next build converts it
-                print(f"skipped {os.path.relpath(png, ROOT)}: {error}")
+        if not png.endswith("og.png") and (not os.path.exists(webp) or os.path.getmtime(webp) < os.path.getmtime(png)):
+            todo.append(png)
+    with concurrent.futures.ProcessPoolExecutor() as pool:
+        for note in pool.map(to_webp, todo):
+            if note:
+                print(note)
 
 
 ASSET_VERSION = ""
