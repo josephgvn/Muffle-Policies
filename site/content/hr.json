@@ -22,7 +22,9 @@
   "hero": {
     "title": "Utišajte mikrofon na Macu odakle god želite.",
     "subtitle": "Pritisnite AirPods ili jedan tipkovni prečac. Muffle isključuje sam mikrofon, pa Google Meet, Zoom, Teams, Slack i svaka druga aplikacija čuju tišinu.",
-    "image_alt": "Ploča Muffle u traci s izbornicima na Macu tijekom poziva u Google Meetu u Chromeu"
+    "image_alt": "Ploča Muffle u traci s izbornicima na Macu tijekom poziva u Google Meetu u Chromeu",
+    "eyebrow": "Muffle za Mac",
+    "secondary_cta": "Pogledajte kako radi"
   },
   "works_with": {
     "title": "Radi sa svakom aplikacijom koja upotrebljava mikrofon",
@@ -45,6 +47,27 @@
       "Firefox"
     ],
     "note": "Muffle isključuje mikrofon na razini hardvera, pa nije važno koja ga aplikacija, preglednik ili kartica upotrebljava."
+  },
+  "story": {
+    "title": "Jedan pritisak. Tišina.",
+    "steps": [
+      {
+        "title": "Pritisnite AirPods.",
+        "text": "Tijekom bilo kojeg poziva pritisnite stapku. Muffle isključuje sam mikrofon, pa Meet, Zoom, Teams i svaka druga aplikacija ne čuju ništa."
+      },
+      {
+        "title": "Ili pritisnite Control-Option-M.",
+        "text": "Jedan tipkovni prečac za svaku aplikaciju, čak i kada je poziv u kartici u pozadini. Držite ga za govor ili prebacite na pritisni za govor."
+      },
+      {
+        "title": "Govorite dok je mikrofon utišan?",
+        "text": "Muffle prepoznaje vaš glas i podsjeća vas, prije nego što objasnite cijelu ideju nikome."
+      },
+      {
+        "title": "Uvijek znajte jeste li uključeni.",
+        "text": "Mali plutajući gumb prikazuje stanje mikrofona i utišava jednim klikom. Zeleno je uključeno, crveno je utišano."
+      }
+    ]
   },
   "features": {
     "title": "Sve što vaš Mac treba raditi tijekom poziva",
@@ -101,7 +124,29 @@
     "image_reminder_alt": "Podsjetnik „Utišani ste” pri dnu zaslona",
     "image_pills_alt": "Plutajući mini kontroler u utišanom i uključenom stanju",
     "image_automation_alt": "Postavke za Muffle za pokretanje poziva s utišanim mikrofonom i druge automatizacije poziva",
-    "image_suggestion_alt": "Muffle predlaže mikrofon Maca jer je prostorija tiha"
+    "image_suggestion_alt": "Muffle predlaže mikrofon Maca jer je prostorija tiha",
+    "image_keyboard_alt": "Postavke tipkovnice za Muffle s načinom pritisni za govor i tipkom za govor"
+  },
+  "stats": {
+    "title": "Mala aplikacija. Veliki mir.",
+    "items": [
+      {
+        "value": "0",
+        "label": "bajtova zvuka snimljeno, pohranjeno ili poslano"
+      },
+      {
+        "value": "3",
+        "label": "dana besplatno, sa svim značajkama"
+      },
+      {
+        "value": "1",
+        "label": "plaćanje. Bez pretplate."
+      },
+      {
+        "value": "34",
+        "label": "jezika, uključujući vaš"
+      }
+    ]
   },
   "how": {
     "title": "Postavljanje u jednoj minuti",

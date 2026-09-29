@@ -22,7 +22,9 @@
   "hero": {
     "title": "Demp de microfoon van je Mac overal vandaan.",
     "subtitle": "Druk op je AirPods of gebruik één sneltoets. Muffle schakelt de microfoon zelf uit, zodat Google Meet, Zoom, Teams, Slack en elke andere app alleen stilte horen.",
-    "image_alt": "Het Muffle-venster in de Mac-menubalk tijdens een Google Meet-gesprek in Chrome"
+    "image_alt": "Het Muffle-venster in de Mac-menubalk tijdens een Google Meet-gesprek in Chrome",
+    "eyebrow": "Muffle voor Mac",
+    "secondary_cta": "Bekijk hoe het werkt"
   },
   "works_with": {
     "title": "Werkt met elke app die je microfoon gebruikt",
@@ -45,6 +47,27 @@
       "Firefox"
     ],
     "note": "Muffle dempt de microfoon op hardwareniveau, dus het maakt niet uit welke app, browser of tabblad actief is."
+  },
+  "story": {
+    "title": "Eén druk. Stilte.",
+    "steps": [
+      {
+        "title": "Druk op je AirPods.",
+        "text": "Druk tijdens elk gesprek op het steeltje. Muffle schakelt de microfoon zelf uit, zodat Meet, Zoom, Teams en alle andere apps niets horen."
+      },
+      {
+        "title": "Of druk op Control-Option-M.",
+        "text": "Eén sneltoets voor elke app, zelfs als het gesprek in een tabblad op de achtergrond staat. Houd ingedrukt om te praten, of zet hem om naar Push to talk."
+      },
+      {
+        "title": "Praten terwijl je gedempt bent?",
+        "text": "Muffle herkent je stem en herinnert je eraan, nog voor je je hele idee tegen niemand zit uit te leggen."
+      },
+      {
+        "title": "Weet altijd of je live bent.",
+        "text": "Een kleine zwevende knop toont je microfoonstatus en dempt met één klik. Groen is live, rood is gedempt."
+      }
+    ]
   },
   "features": {
     "title": "Alles wat je Mac zou moeten doen tijdens een gesprek",
@@ -101,7 +124,29 @@
     "image_reminder_alt": "De herinnering “Je bent gedempt” onder in het scherm",
     "image_pills_alt": "De zwevende mini-controller in gedempte en actieve toestand",
     "image_automation_alt": "Muffle-instellingen voor het gedempt starten van gesprekken en andere automatiseringen",
-    "image_suggestion_alt": "Muffle stelt de microfoon van de Mac voor omdat de ruimte rustig is"
+    "image_suggestion_alt": "Muffle stelt de microfoon van de Mac voor omdat de ruimte rustig is",
+    "image_keyboard_alt": "Toetsenbordinstellingen van Muffle met Push to talk en een spreektoets"
+  },
+  "stats": {
+    "title": "Kleine app. Grote gemoedsrust.",
+    "items": [
+      {
+        "value": "0",
+        "label": "bytes aan audio opgenomen, opgeslagen of verzonden"
+      },
+      {
+        "value": "3",
+        "label": "dagen gratis, met elke functie"
+      },
+      {
+        "value": "1",
+        "label": "betaling. Geen abonnement."
+      },
+      {
+        "value": "34",
+        "label": "talen, inclusief de jouwe"
+      }
+    ]
   },
   "how": {
     "title": "Binnen één minuut ingesteld",

@@ -22,7 +22,9 @@
   "hero": {
     "title": "Wycisz mikrofon Maca z dowolnego miejsca.",
     "subtitle": "Naciśnij AirPods lub jeden skrót klawiszowy. Muffle wyłącza sam mikrofon, więc Google Meet, Zoom, Teams, Slack i wszystkie inne aplikacje słyszą ciszę.",
-    "image_alt": "Panel Muffle na pasku menu Maca podczas połączenia Google Meet w Chrome"
+    "image_alt": "Panel Muffle na pasku menu Maca podczas połączenia Google Meet w Chrome",
+    "eyebrow": "Muffle na Maca",
+    "secondary_cta": "Zobacz, jak to działa"
   },
   "works_with": {
     "title": "Działa z każdą aplikacją, która korzysta z mikrofonu",
@@ -45,6 +47,27 @@
       "Firefox"
     ],
     "note": "Muffle wycisza mikrofon na poziomie sprzętowym, więc nie ma znaczenia, która aplikacja, przeglądarka czy karta z niego korzysta."
+  },
+  "story": {
+    "title": "Jedno naciśnięcie. Cisza.",
+    "steps": [
+      {
+        "title": "Naciśnij AirPods.",
+        "text": "Podczas dowolnego połączenia naciśnij trzonek. Muffle wyłącza sam mikrofon, więc Meet, Zoom, Teams i każda inna aplikacja nic nie słyszą."
+      },
+      {
+        "title": "Lub naciśnij Control-Opcja-M.",
+        "text": "Jeden skrót do każdej aplikacji, nawet gdy rozmowa toczy się w karcie w tle. Przytrzymaj go, aby mówić, lub przełącz na Przytrzymaj, aby mówić."
+      },
+      {
+        "title": "Mówisz z wyciszonym mikrofonem?",
+        "text": "Muffle rozpoznaje Twój głos i przypomina o tym, zanim wyjaśnisz cały swój pomysł nikomu."
+      },
+      {
+        "title": "Zawsze wiesz, czy mikrofon jest aktywny.",
+        "text": "Mały pływający przycisk pokazuje stan mikrofonu i wycisza go jednym kliknięciem. Zielony oznacza aktywny, czerwony wyciszony."
+      }
+    ]
   },
   "features": {
     "title": "Wszystko, co Twój Mac powinien robić podczas połączenia",
@@ -101,7 +124,29 @@
     "image_reminder_alt": "Przypomnienie „Masz wyciszony mikrofon” na dole ekranu",
     "image_pills_alt": "Ruchomy ministerownik w stanie wyciszonym i aktywnym",
     "image_automation_alt": "Ustawienia Muffle dotyczące rozpoczynania połączeń z wyciszonym mikrofonem i innych automatyzacji",
-    "image_suggestion_alt": "Muffle sugeruje mikrofon Maca, ponieważ w otoczeniu jest cicho"
+    "image_suggestion_alt": "Muffle sugeruje mikrofon Maca, ponieważ w otoczeniu jest cicho",
+    "image_keyboard_alt": "Ustawienia klawiatury Muffle z funkcją Przytrzymaj, aby mówić i klawiszem mówienia"
+  },
+  "stats": {
+    "title": "Mała aplikacja. Wielki spokój ducha.",
+    "items": [
+      {
+        "value": "0",
+        "label": "bajtów dźwięku nagranych, przechowywanych lub wysłanych"
+      },
+      {
+        "value": "3",
+        "label": "dni bezpłatnie, ze wszystkimi funkcjami"
+      },
+      {
+        "value": "1",
+        "label": "płatność. Bez subskrypcji."
+      },
+      {
+        "value": "34",
+        "label": "języków, w tym Twój"
+      }
+    ]
   },
   "how": {
     "title": "Konfiguracja w minutę",

@@ -22,7 +22,9 @@
   "hero": {
     "title": "Redam mikrofon Mac anda dari mana-mana sahaja.",
     "subtitle": "Tekan AirPods anda atau gunakan satu pintasan papan kekunci. Muffle mematikan mikrofon itu sendiri, jadi Google Meet, Zoom, Teams, Slack dan semua aplikasi lain hanya mendengar kesenyapan.",
-    "image_alt": "Panel Muffle di bar menu Mac semasa panggilan Google Meet dalam Chrome"
+    "image_alt": "Panel Muffle di bar menu Mac semasa panggilan Google Meet dalam Chrome",
+    "eyebrow": "Muffle untuk Mac",
+    "secondary_cta": "Lihat cara ia berfungsi"
   },
   "works_with": {
     "title": "Berfungsi dengan semua aplikasi yang menggunakan mikrofon anda",
@@ -45,6 +47,27 @@
       "Firefox"
     ],
     "note": "Muffle meredam mikrofon pada peringkat perkakasan, jadi tidak kira aplikasi, pelayar atau tab mana yang sedang menggunakannya."
+  },
+  "story": {
+    "title": "Satu tekanan. Senyap.",
+    "steps": [
+      {
+        "title": "Tekan AirPods anda.",
+        "text": "Semasa sebarang panggilan, tekan tangkai. Muffle mematikan mikrofon itu sendiri, jadi Meet, Zoom, Teams dan semua aplikasi lain tidak mendengar apa-apa."
+      },
+      {
+        "title": "Atau tekan Kawalan-Pilihan-M.",
+        "text": "Satu pintasan untuk setiap aplikasi, walaupun semasa panggilan berada di tab latar belakang. Tahan untuk bercakap, atau tukar kepada tekan untuk bercakap."
+      },
+      {
+        "title": "Bercakap semasa diredam?",
+        "text": "Muffle mengecam suara anda dan mengingatkan anda, sebelum anda menjelaskan seluruh idea anda tanpa didengari sesiapa."
+      },
+      {
+        "title": "Sentiasa tahu jika anda aktif.",
+        "text": "Butang terapung kecil menunjukkan status mik anda dan meredam dengan satu klik. Hijau bermakna aktif, merah bermakna diredam."
+      }
+    ]
   },
   "features": {
     "title": "Semua yang sepatutnya Mac anda lakukan dalam panggilan",
@@ -101,7 +124,29 @@
     "image_reminder_alt": "Peringatan “Anda diredam” di bahagian bawah skrin",
     "image_pills_alt": "Pengawal mini terapung dalam keadaan diredam dan aktif",
     "image_automation_alt": "Tetapan Muffle untuk memulakan panggilan dalam keadaan diredam dan automasi panggilan lain",
-    "image_suggestion_alt": "Muffle mencadangkan mikrofon Mac kerana bilik sunyi"
+    "image_suggestion_alt": "Muffle mencadangkan mikrofon Mac kerana bilik sunyi",
+    "image_keyboard_alt": "Tetapan papan kekunci Muffle dengan tekan untuk bercakap dan kekunci bercakap"
+  },
+  "stats": {
+    "title": "Aplikasi kecil. Ketenangan fikiran yang besar.",
+    "items": [
+      {
+        "value": "0",
+        "label": "bait audio dirakam, disimpan atau dihantar"
+      },
+      {
+        "value": "3",
+        "label": "hari percuma, dengan semua ciri"
+      },
+      {
+        "value": "1",
+        "label": "bayaran. Tiada langganan."
+      },
+      {
+        "value": "34",
+        "label": "bahasa, termasuk bahasa anda"
+      }
+    ]
   },
   "how": {
     "title": "Sediakan dalam masa seminit",

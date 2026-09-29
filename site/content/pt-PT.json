@@ -22,7 +22,9 @@
   "hero": {
     "title": "Silencia o microfone do teu Mac em qualquer lugar.",
     "subtitle": "Prime os teus AirPods ou usa um atalho de teclado. O Muffle desliga o microfone diretamente, para que o Google Meet, Zoom, Teams, Slack e todas as outras apps só ouçam silêncio.",
-    "image_alt": "O painel do Muffle na barra de menus do Mac durante uma chamada no Google Meet no Chrome"
+    "image_alt": "O painel do Muffle na barra de menus do Mac durante uma chamada no Google Meet no Chrome",
+    "eyebrow": "Muffle para Mac",
+    "secondary_cta": "Vê como funciona"
   },
   "works_with": {
     "title": "Funciona com qualquer app que utilize o teu microfone",
@@ -45,6 +47,27 @@
       "Firefox"
     ],
     "note": "O Muffle silencia o microfone ao nível do hardware, por isso não importa que app, navegador ou separador estejas a utilizar."
+  },
+  "story": {
+    "title": "Uma pressão. Silêncio.",
+    "steps": [
+      {
+        "title": "Prime os teus AirPods.",
+        "text": "Durante qualquer chamada, prime a haste. O Muffle desliga o microfone diretamente, para que o Meet, o Zoom, o Teams e qualquer outra app não ouçam nada."
+      },
+      {
+        "title": "Ou prime Controlo-Opção-M.",
+        "text": "Um atalho para qualquer app, mesmo quando a chamada está num separador em segundo plano. Mantém premido para falar ou muda para premir para falar."
+      },
+      {
+        "title": "A falar enquanto estás silenciado?",
+        "text": "O Muffle reconhece a tua voz e avisa-te, antes de explicares toda a tua ideia a ninguém."
+      },
+      {
+        "title": "Sabe sempre se estás ativo.",
+        "text": "Um pequeno botão flutuante mostra o estado do teu microfone e silencia com um clique. Verde é ativo, vermelho é silenciado."
+      }
+    ]
   },
   "features": {
     "title": "Tudo o que o teu Mac deve fazer numa chamada",
@@ -101,7 +124,29 @@
     "image_reminder_alt": "O aviso «Estás silenciado» na parte inferior do ecrã",
     "image_pills_alt": "O minicontrolador flutuante nos estados silenciado e ativo",
     "image_automation_alt": "Definições do Muffle para iniciar chamadas silenciado e outras automatizações de chamadas",
-    "image_suggestion_alt": "O Muffle a sugerir o microfone do Mac porque a sala está silenciosa"
+    "image_suggestion_alt": "O Muffle a sugerir o microfone do Mac porque a sala está silenciosa",
+    "image_keyboard_alt": "Definições de teclado do Muffle com premir para falar e uma tecla para falar"
+  },
+  "stats": {
+    "title": "App pequena. Grande tranquilidade.",
+    "items": [
+      {
+        "value": "0",
+        "label": "bytes de áudio gravados, armazenados ou enviados"
+      },
+      {
+        "value": "3",
+        "label": "dias gratuitos, com todas as funcionalidades"
+      },
+      {
+        "value": "1",
+        "label": "pagamento. Sem subscrição."
+      },
+      {
+        "value": "34",
+        "label": "idiomas, incluindo o teu"
+      }
+    ]
   },
   "how": {
     "title": "Configuração num minuto",

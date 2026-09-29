@@ -22,7 +22,9 @@
   "hero": {
     "title": "Coupez le micro de votre Mac où que vous soyez.",
     "subtitle": "Appuyez sur vos AirPods ou utilisez un raccourci clavier. Muffle coupe directement le micro au niveau matériel : Google Meet, Zoom, Teams, Slack et vos autres apps ne reçoivent plus aucun son.",
-    "image_alt": "Le panneau Muffle dans la barre des menus du Mac pendant un appel Google Meet dans Chrome"
+    "image_alt": "Le panneau Muffle dans la barre des menus du Mac pendant un appel Google Meet dans Chrome",
+    "eyebrow": "Muffle pour Mac",
+    "secondary_cta": "Voir comment ça fonctionne"
   },
   "works_with": {
     "title": "Fonctionne avec toutes les apps qui utilisent votre micro",
@@ -45,6 +47,27 @@
       "Firefox"
     ],
     "note": "Muffle coupe le micro directement au niveau matériel, peu importe l'app, le navigateur ou l'onglet que vous utilisez en réunion."
+  },
+  "story": {
+    "title": "Un appui. Le silence.",
+    "steps": [
+      {
+        "title": "Appuyez sur vos AirPods.",
+        "text": "Pendant un appel, appuyez sur la tige. Muffle coupe directement le micro : Meet, Zoom, Teams et toutes les autres apps n'entendent rien."
+      },
+      {
+        "title": "Ou appuyez sur Contrôle-Option-M.",
+        "text": "Un raccourci pour chaque app, même quand l'appel est dans un onglet en arrière-plan. Maintenez-le pour parler, ou passez en maintien pour parler."
+      },
+      {
+        "title": "Vous parlez en sourdine ?",
+        "text": "Muffle reconnaît votre voix et vous prévient, avant que vous n'expliquiez toute votre idée dans le vide."
+      },
+      {
+        "title": "Sachez toujours si vous êtes actif.",
+        "text": "Un petit bouton flottant affiche l'état de votre micro et le coupe en un clic. Vert pour actif, rouge pour coupé."
+      }
+    ]
   },
   "features": {
     "title": "Tout ce que votre Mac devrait faire en appel",
@@ -101,7 +124,29 @@
     "image_reminder_alt": "Le rappel « Vous êtes en sourdine » affiché en bas de l'écran",
     "image_pills_alt": "Le mini-contrôleur flottant avec le micro coupé et le micro activé",
     "image_automation_alt": "Réglages de Muffle pour couper le micro au début de chaque appel et gérer les automatisations",
-    "image_suggestion_alt": "Muffle suggérant le micro du Mac car la pièce est calme"
+    "image_suggestion_alt": "Muffle suggérant le micro du Mac car la pièce est calme",
+    "image_keyboard_alt": "Réglages clavier de Muffle avec maintien pour parler et touche pour parler"
+  },
+  "stats": {
+    "title": "Petite app. Grande tranquillité d'esprit.",
+    "items": [
+      {
+        "value": "0",
+        "label": "octet d'audio enregistré, stocké ou envoyé"
+      },
+      {
+        "value": "3",
+        "label": "jours gratuits, avec toutes les fonctionnalités"
+      },
+      {
+        "value": "1",
+        "label": "paiement. Sans abonnement."
+      },
+      {
+        "value": "34",
+        "label": "langues, dont la vôtre"
+      }
+    ]
   },
   "how": {
     "title": "Prêt en une minute",

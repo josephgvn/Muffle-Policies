@@ -22,7 +22,9 @@
   "hero": {
     "title": "Dezactivați microfonul pe Mac de oriunde.",
     "subtitle": "Apăsați pe AirPods sau o combinație de taste. Muffle oprește chiar microfonul fizic, așa că Google Meet, Zoom, Teams, Slack și orice altă aplicație aud doar liniște.",
-    "image_alt": "Panoul Muffle în bara de meniu pe Mac în timpul unui apel Google Meet în Chrome"
+    "image_alt": "Panoul Muffle în bara de meniu pe Mac în timpul unui apel Google Meet în Chrome",
+    "eyebrow": "Muffle pentru Mac",
+    "secondary_cta": "Vedeți cum funcționează"
   },
   "works_with": {
     "title": "Funcționează cu orice aplicație care vă utilizează microfonul",
@@ -45,6 +47,27 @@
       "Firefox"
     ],
     "note": "Muffle dezactivează microfonul la nivel hardware, așa că nu contează ce aplicație, browser sau filă îl folosește."
+  },
+  "story": {
+    "title": "O apăsare. Liniște.",
+    "steps": [
+      {
+        "title": "Apăsați AirPods.",
+        "text": "În timpul oricărui apel, apăsați tija. Muffle dezactivează chiar microfonul, așa că Meet, Zoom, Teams și orice altă aplicație nu aud nimic."
+      },
+      {
+        "title": "Sau apăsați Control-Opțiune-M.",
+        "text": "O singură combinație de taste pentru orice aplicație, chiar și când apelul este într-o filă din fundal. Țineți apăsat ca să vorbiți sau comutați la apăsare pentru a vorbi."
+      },
+      {
+        "title": "Vorbiți cu microfonul dezactivat?",
+        "text": "Muffle vă recunoaște vocea și vă amintește, înainte de a explica o întreagă idee nimănui."
+      },
+      {
+        "title": "Știți întotdeauna dacă sunteți activ.",
+        "text": "Un mic buton plutitor indică starea microfonului și îl dezactivează cu un clic. Verde înseamnă activ, roșu înseamnă mut."
+      }
+    ]
   },
   "features": {
     "title": "Tot ce ar trebui să facă Mac-ul într-un apel",
@@ -101,7 +124,29 @@
     "image_reminder_alt": "Mementoul „Sunteți pe mut” în partea de jos a ecranului",
     "image_pills_alt": "Mini controlerul plutitor în stările mut și activ",
     "image_automation_alt": "Configurări Muffle pentru începerea apelurilor pe mut și alte automatizări",
-    "image_suggestion_alt": "Muffle sugerează microfonul Mac-ului deoarece în încăpere este liniște"
+    "image_suggestion_alt": "Muffle sugerează microfonul Mac-ului deoarece în încăpere este liniște",
+    "image_keyboard_alt": "Configurări de tastatură Muffle cu apăsare pentru a vorbi și tastă pentru vorbire"
+  },
+  "stats": {
+    "title": "Aplicație mică. Liniște deplină.",
+    "items": [
+      {
+        "value": "0",
+        "label": "octeți de sunet înregistrați, stocați sau trimiși"
+      },
+      {
+        "value": "3",
+        "label": "zile gratuite, cu toate funcțiile"
+      },
+      {
+        "value": "1",
+        "label": "plată. Fără abonament."
+      },
+      {
+        "value": "34",
+        "label": "limbi, inclusiv a dvs."
+      }
+    ]
   },
   "how": {
     "title": "Configurare într-un minut",

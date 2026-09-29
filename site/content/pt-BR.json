@@ -22,7 +22,9 @@
   "hero": {
     "title": "Silencie o microfone do seu Mac de qualquer lugar.",
     "subtitle": "Pressione o AirPods ou use um atalho de teclado. O Muffle desliga o microfone diretamente, para que o Google Meet, Zoom, Teams, Slack e qualquer outro app só recebam silêncio.",
-    "image_alt": "O painel do Muffle na barra de menus do Mac durante uma chamada no Google Meet no Chrome"
+    "image_alt": "O painel do Muffle na barra de menus do Mac durante uma chamada no Google Meet no Chrome",
+    "eyebrow": "Muffle para Mac",
+    "secondary_cta": "Veja como funciona"
   },
   "works_with": {
     "title": "Funciona com qualquer app que use seu microfone",
@@ -45,6 +47,27 @@
       "Firefox"
     ],
     "note": "O Muffle silencia o microfone no nível do hardware, então não importa qual app, navegador ou aba esteja em uso na sua videoconferência."
+  },
+  "story": {
+    "title": "Uma pressão. Silêncio.",
+    "steps": [
+      {
+        "title": "Pressione o AirPods.",
+        "text": "Durante qualquer chamada, pressione a haste. O Muffle desativa o microfone diretamente, para que o Meet, Zoom, Teams e todos os outros apps não ouçam nada."
+      },
+      {
+        "title": "Ou pressione Control-Opção-M.",
+        "text": "Um atalho para qualquer app, mesmo quando a chamada estiver em segundo plano. Segure para falar ou alterne para pressione para falar."
+      },
+      {
+        "title": "Falando silenciado?",
+        "text": "O Muffle reconhece sua voz e avisa você, antes de explicar uma ideia inteira para ninguém."
+      },
+      {
+        "title": "Saiba sempre quando estiver ativo.",
+        "text": "Um pequeno botão flutuante mostra o status do microfone e silencia com um clique. Verde é ativo, vermelho é silenciado."
+      }
+    ]
   },
   "features": {
     "title": "Tudo o que o seu Mac deveria fazer em uma chamada",
@@ -101,7 +124,29 @@
     "image_reminder_alt": "O aviso “Você está silenciado” na parte inferior da tela",
     "image_pills_alt": "O mini controle flutuante nos estados silenciado e ativo",
     "image_automation_alt": "Ajustes do Muffle para iniciar chamadas silenciado e outras automações",
-    "image_suggestion_alt": "Muffle sugerindo o microfone do Mac porque o ambiente está silencioso"
+    "image_suggestion_alt": "Muffle sugerindo o microfone do Mac porque o ambiente está silencioso",
+    "image_keyboard_alt": "Ajustes de teclado do Muffle com pressione para falar e tecla para falar"
+  },
+  "stats": {
+    "title": "App pequeno. Grande tranquilidade.",
+    "items": [
+      {
+        "value": "0",
+        "label": "bytes de áudio gravados, armazenados ou enviados"
+      },
+      {
+        "value": "3",
+        "label": "dias grátis, com todos os recursos"
+      },
+      {
+        "value": "1",
+        "label": "pagamento. Sem assinatura."
+      },
+      {
+        "value": "34",
+        "label": "idiomas, incluindo o seu"
+      }
+    ]
   },
   "how": {
     "title": "Configure em um minuto",

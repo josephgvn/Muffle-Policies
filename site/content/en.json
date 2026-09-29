@@ -22,7 +22,9 @@
   "hero": {
     "title": "Mute your Mac's mic from anywhere.",
     "subtitle": "Press your AirPods or one keyboard shortcut. Muffle turns the microphone itself off, so Google Meet, Zoom, Teams, Slack and every other app hear silence.",
-    "image_alt": "The Muffle panel in the Mac menu bar during a Google Meet call in Chrome"
+    "image_alt": "The Muffle panel in the Mac menu bar during a Google Meet call in Chrome",
+    "eyebrow": "Muffle for Mac",
+    "secondary_cta": "See how it works"
   },
   "works_with": {
     "title": "Works with every app that uses your mic",
@@ -45,6 +47,27 @@
       "Firefox"
     ],
     "note": "Muffle mutes the microphone at the hardware level, so it doesn't matter which app, browser or tab is using it."
+  },
+  "story": {
+    "title": "One press. Silence.",
+    "steps": [
+      {
+        "title": "Press your AirPods.",
+        "text": "During any call, press the stem. Muffle turns the microphone itself off, so Meet, Zoom, Teams and every other app hear nothing."
+      },
+      {
+        "title": "Or press Control-Option-M.",
+        "text": "One shortcut for every app, even when the call is in a background tab. Hold it to talk, or switch to push to talk."
+      },
+      {
+        "title": "Talking while muted?",
+        "text": "Muffle recognizes your voice and reminds you, before you explain your whole idea to nobody."
+      },
+      {
+        "title": "Always know if you're live.",
+        "text": "A small floating button shows your mic state and mutes with one click. Green is live, red is muted."
+      }
+    ]
   },
   "features": {
     "title": "Everything your Mac should do in a call",
@@ -101,7 +124,29 @@
     "image_reminder_alt": "The “You're muted” reminder at the bottom of the screen",
     "image_pills_alt": "The floating mini controller in its muted and live states",
     "image_automation_alt": "Muffle settings for starting calls muted and other call automations",
-    "image_suggestion_alt": "Muffle suggesting the Mac's microphone because the room is quiet"
+    "image_suggestion_alt": "Muffle suggesting the Mac's microphone because the room is quiet",
+    "image_keyboard_alt": "Muffle keyboard settings with push to talk and a talk key"
+  },
+  "stats": {
+    "title": "Small app. Big peace of mind.",
+    "items": [
+      {
+        "value": "0",
+        "label": "bytes of audio recorded, stored or sent"
+      },
+      {
+        "value": "3",
+        "label": "days free, with every feature"
+      },
+      {
+        "value": "1",
+        "label": "payment. No subscription."
+      },
+      {
+        "value": "34",
+        "label": "languages, including yours"
+      }
+    ]
   },
   "how": {
     "title": "Set up in a minute",

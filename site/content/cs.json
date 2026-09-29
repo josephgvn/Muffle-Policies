@@ -22,7 +22,9 @@
   "hero": {
     "title": "Ztlumte mikrofon na Macu odkudkoli.",
     "subtitle": "Stiskněte AirPods nebo jednu klávesovou zkratku. Muffle vypíná přímo samotný mikrofon, takže Google Meet, Zoom, Teams, Slack i každá další aplikace uslyší jen ticho.",
-    "image_alt": "Panel Muffle v řádku nabídek na Macu během hovoru přes Google Meet v Chrome"
+    "image_alt": "Panel Muffle v řádku nabídek na Macu během hovoru přes Google Meet v Chrome",
+    "eyebrow": "Muffle pro Mac",
+    "secondary_cta": "Podívejte se, jak funguje"
   },
   "works_with": {
     "title": "Funguje s každou aplikací, která používá mikrofon",
@@ -45,6 +47,27 @@
       "Firefox"
     ],
     "note": "Muffle vypíná mikrofon na hardwarové úrovni, takže nezáleží na tom, jaká aplikace, prohlížeč nebo panel ho zrovna využívá."
+  },
+  "story": {
+    "title": "Jedno stisknutí. Ticho.",
+    "steps": [
+      {
+        "title": "Stiskněte AirPods.",
+        "text": "Během jakéhokoli hovoru stiskněte stopku. Muffle vypne přímo mikrofon, takže Meet, Zoom, Teams ani žádná jiná aplikace neuslyší vůbec nic."
+      },
+      {
+        "title": "Nebo stiskněte Control-Option-M.",
+        "text": "Jedna klávesová zkratka pro každou aplikaci, i když běží hovor na panelu na pozadí. Podržte ji a mluvte, nebo přepněte na stisknutím mluvit."
+      },
+      {
+        "title": "Mluvíte se ztlumeným mikrofonem?",
+        "text": "Muffle rozpozná váš hlas a upozorní vás dřív, než celou myšlenku vysvětlíte do prázdna."
+      },
+      {
+        "title": "Vždy víte, zda máte mikrofon zapnutý.",
+        "text": "Malé plovoucí tlačítko ukazuje stav mikrofonu a ztlumí ho jedním kliknutím. Zelená znamená zapnuto, červená ztlumeno."
+      }
+    ]
   },
   "features": {
     "title": "Vše, co by váš Mac měl během hovoru umět",
@@ -101,7 +124,29 @@
     "image_reminder_alt": "Připomenutí „Máte ztlumený mikrofon“ ve spodní části obrazovky",
     "image_pills_alt": "Plovoucí mini ovladač ve ztlumeném i aktivním stavu",
     "image_automation_alt": "Nastavení Muffle pro začínání hovorů se ztlumeným mikrofonem a další automatizace",
-    "image_suggestion_alt": "Muffle doporučuje mikrofon Macu, protože v místnosti je ticho"
+    "image_suggestion_alt": "Muffle doporučuje mikrofon Macu, protože v místnosti je ticho",
+    "image_keyboard_alt": "Nastavení klávesnice Muffle s funkcí stisknutím mluvit a klávesou pro mluvení"
+  },
+  "stats": {
+    "title": "Malá aplikace. Naprostý klid.",
+    "items": [
+      {
+        "value": "0",
+        "label": "bajtů zvuku nahráno, uloženo nebo odesláno"
+      },
+      {
+        "value": "3",
+        "label": "dny zdarma se všemi funkcemi"
+      },
+      {
+        "value": "1",
+        "label": "platba. Žádné předplatné."
+      },
+      {
+        "value": "34",
+        "label": "jazyků včetně češtiny"
+      }
+    ]
   },
   "how": {
     "title": "Nastavení za jednu minutu",

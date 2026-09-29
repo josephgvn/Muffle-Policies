@@ -22,7 +22,9 @@
   "hero": {
     "title": "Schalte dein Mac-Mikrofon von überall aus stumm.",
     "subtitle": "Drücke deine AirPods oder ein Tastenkürzel. Muffle schaltet das Mikrofon selbst aus, damit Google Meet, Zoom, Teams, Slack und jede andere App Stille hören.",
-    "image_alt": "Das Muffle-Bedienfeld in der Mac-Menüleiste während eines Google Meet Anrufs in Chrome"
+    "image_alt": "Das Muffle-Bedienfeld in der Mac-Menüleiste während eines Google Meet Anrufs in Chrome",
+    "eyebrow": "Muffle für Mac",
+    "secondary_cta": "So funktioniert es"
   },
   "works_with": {
     "title": "Funktioniert mit jeder App, die dein Mikrofon nutzt",
@@ -45,6 +47,27 @@
       "Firefox"
     ],
     "note": "Muffle schaltet das Mikrofon auf Hardware-Ebene stumm. Es spielt also keine Rolle, welche App, welcher Browser oder welcher Tab aktiv ist."
+  },
+  "story": {
+    "title": "Ein Druck. Stille.",
+    "steps": [
+      {
+        "title": "Drücke deine AirPods.",
+        "text": "Drücke während jedes Anrufs auf den Stiel. Muffle schaltet das Mikrofon selbst aus, sodass Meet, Zoom, Teams und jede andere App nichts hören."
+      },
+      {
+        "title": "Oder drücke Control-Wahltaste-M.",
+        "text": "Ein Tastenkürzel für jede App, selbst wenn der Anruf in einem Hintergrund-Tab liegt. Halte es zum Sprechen gedrückt oder wechsle zu „Drücken zum Sprechen“."
+      },
+      {
+        "title": "Sprichst du bei Stummschaltung?",
+        "text": "Muffle erkennt deine Stimme und erinnert dich rechtzeitig, bevor du deine ganze Idee niemandem erklärst."
+      },
+      {
+        "title": "Immer wissen, ob du aktiv bist.",
+        "text": "Ein kleiner schwebender Button zeigt deinen Mikrofonstatus und schaltet mit einem Klick stumm. Grün ist aktiv, Rot ist stummgeschaltet."
+      }
+    ]
   },
   "features": {
     "title": "Alles, was dein Mac im Anruf können sollte",
@@ -101,7 +124,29 @@
     "image_reminder_alt": "Die Erinnerung „Du bist stummgeschaltet“ am unteren Bildschirmrand",
     "image_pills_alt": "Der schwebende Mini-Controller im stummgeschalteten und aktiven Zustand",
     "image_automation_alt": "Muffle-Einstellungen für automatische Stummschaltung bei Anrufen",
-    "image_suggestion_alt": "Muffle schlägt das Mikrofon des Mac vor, weil es im Raum ruhig ist"
+    "image_suggestion_alt": "Muffle schlägt das Mikrofon des Mac vor, weil es im Raum ruhig ist",
+    "image_keyboard_alt": "Muffle-Tastatureinstellungen mit „Drücken zum Sprechen“ und einer Sprechtaste"
+  },
+  "stats": {
+    "title": "Kleine App. Volle Gelassenheit.",
+    "items": [
+      {
+        "value": "0",
+        "label": "Byte an Audio aufgezeichnet, gespeichert oder gesendet"
+      },
+      {
+        "value": "3",
+        "label": "Tage kostenlos mit allen Funktionen"
+      },
+      {
+        "value": "1",
+        "label": "Zahlung. Kein Abo."
+      },
+      {
+        "value": "34",
+        "label": "Sprachen, inklusive deiner"
+      }
+    ]
   },
   "how": {
     "title": "In einer Minute eingerichtet",

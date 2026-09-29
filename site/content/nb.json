@@ -22,7 +22,9 @@
   "hero": {
     "title": "Demp Mac-mikrofonen uansett hvor du er.",
     "subtitle": "Trykk på AirPods-ene eller én tastatursnarvei. Muffle slår av selve mikrofonen, slik at Google Meet, Zoom, Teams, Slack og alle andre apper bare hører stillhet.",
-    "image_alt": "Muffle-panelet i menylinjen på Mac under en Google Meet-samtale i Chrome"
+    "image_alt": "Muffle-panelet i menylinjen på Mac under en Google Meet-samtale i Chrome",
+    "eyebrow": "Muffle for Mac",
+    "secondary_cta": "Se hvordan det fungerer"
   },
   "works_with": {
     "title": "Fungerer med alle apper som bruker mikrofonen",
@@ -45,6 +47,27 @@
       "Firefox"
     ],
     "note": "Muffle demper mikrofonen på maskinvarenivå, så det spiller ingen rolle hvilken app, nettleser eller fane som bruker den."
+  },
+  "story": {
+    "title": "Ett trykk. Stillhet.",
+    "steps": [
+      {
+        "title": "Trykk på AirPods-ene.",
+        "text": "Trykk på stilken under enhver samtale. Muffle slår av selve mikrofonen, så Meet, Zoom, Teams og alle andre apper ikke hører noe."
+      },
+      {
+        "title": "Eller trykk på Control-Tilvalg-M.",
+        "text": "Én snarvei for alle apper, selv når samtalen er i en fane i bakgrunnen. Hold den inne for å snakke, eller bytt til trykk for å snakke."
+      },
+      {
+        "title": "Snakker du mens du er dempet?",
+        "text": "Muffle gjenkjenner stemmen din og minner deg på det, før du forklarer hele ideen din til ingen."
+      },
+      {
+        "title": "Vit alltid om du er live.",
+        "text": "En liten flytende knapp viser mikrofonstatusen din og demper med ett klikk. Grønt er live, rødt er dempet."
+      }
+    ]
   },
   "features": {
     "title": "Alt Mac-en din burde gjøre under en samtale",
@@ -101,7 +124,29 @@
     "image_reminder_alt": "Påminnelsen «Du er dempet» nederst på skjermen",
     "image_pills_alt": "Den flytende minikontrolleren i dempet og aktiv tilstand",
     "image_automation_alt": "Muffle-innstillinger for å starte samtaler dempet og andre samtaleautomatiseringer",
-    "image_suggestion_alt": "Muffle foreslår Mac-ens mikrofon fordi rommet er stille"
+    "image_suggestion_alt": "Muffle foreslår Mac-ens mikrofon fordi rommet er stille",
+    "image_keyboard_alt": "Tastaturinnstillinger i Muffle med trykk for å snakke og snakketast"
+  },
+  "stats": {
+    "title": "Liten app. Stor trygghet.",
+    "items": [
+      {
+        "value": "0",
+        "label": "byte med lyd tatt opp, lagret eller sendt"
+      },
+      {
+        "value": "3",
+        "label": "dager gratis, med alle funksjoner"
+      },
+      {
+        "value": "1",
+        "label": "betaling. Ikke noe abonnement."
+      },
+      {
+        "value": "34",
+        "label": "språk, inkludert ditt"
+      }
+    ]
   },
   "how": {
     "title": "Klar på ett minutt",

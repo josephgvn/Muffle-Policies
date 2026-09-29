@@ -22,7 +22,9 @@
   "hero": {
     "title": "Stäng av mikrofonen på din Mac var du än är.",
     "subtitle": "Tryck på dina AirPods eller ett kortkommando. Muffle stänger av själva mikrofonen, så Google Meet, Zoom, Teams, Slack och alla andra appar hör bara tystnad.",
-    "image_alt": "Muffle-panelen i menyraden på Mac under ett Google Meet-samtal i Chrome"
+    "image_alt": "Muffle-panelen i menyraden på Mac under ett Google Meet-samtal i Chrome",
+    "eyebrow": "Muffle för Mac",
+    "secondary_cta": "Se hur det fungerar"
   },
   "works_with": {
     "title": "Fungerar med alla appar som använder din mikrofon",
@@ -45,6 +47,27 @@
       "Firefox"
     ],
     "note": "Muffle stänger av mikrofonen på hårdvarunivå, så det spelar ingen roll vilken app, webbläsare eller flik som använder den."
+  },
+  "story": {
+    "title": "En tryckning. Tystnad.",
+    "steps": [
+      {
+        "title": "Tryck på dina AirPods.",
+        "text": "Tryck på skaftet under vilket samtal som helst. Muffle stänger av själva mikrofonen, så Meet, Zoom, Teams och alla andra appar inte hör något."
+      },
+      {
+        "title": "Eller tryck på Control-Alternativ-M.",
+        "text": "Ett kortkommando för alla appar, även när samtalet är i en flik i bakgrunden. Håll det intryckt för att prata, eller ändra till tryck för att prata."
+      },
+      {
+        "title": "Pratar du när du är avstängd?",
+        "text": "Muffle känner igen din röst och påminner dig, innan du förklarar hela din idé för ingen."
+      },
+      {
+        "title": "Ha alltid koll på om du är live.",
+        "text": "En liten flytande knapp visar mikrofonstatus och stänger av med ett klick. Grönt är live, rött är avstängt."
+      }
+    ]
   },
   "features": {
     "title": "Allt din Mac borde göra under ett samtal",
@@ -101,7 +124,29 @@
     "image_reminder_alt": "Påminnelsen ”Du är avstängd” längst ner på skärmen",
     "image_pills_alt": "Den flytande minikontrollen i lägena avstängd och live",
     "image_automation_alt": "Muffle-inställningar för att starta alla samtal avstängda och andra samtalsautomatiseringar",
-    "image_suggestion_alt": "Muffle föreslår mikrofonen på Mac eftersom rummet är tyst"
+    "image_suggestion_alt": "Muffle föreslår mikrofonen på Mac eftersom rummet är tyst",
+    "image_keyboard_alt": "Tangentbordsinställningar i Muffle med tryck för att prata och en prattangent"
+  },
+  "stats": {
+    "title": "Liten app. Stor sinnesro.",
+    "items": [
+      {
+        "value": "0",
+        "label": "byte ljud som spelas in, sparas eller skickas"
+      },
+      {
+        "value": "3",
+        "label": "dagar gratis, med alla funktioner"
+      },
+      {
+        "value": "1",
+        "label": "betalning. Ingen prenumeration."
+      },
+      {
+        "value": "34",
+        "label": "språk, inklusive ditt"
+      }
+    ]
   },
   "how": {
     "title": "Kom igång på en minut",

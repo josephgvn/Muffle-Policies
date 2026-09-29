@@ -18,7 +18,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import translate  # noqa: E402  (reads GEMINI_API_KEY)
 
-SKIP = re.compile(r"\.slug$|^works_with\.apps")
+SKIP = re.compile(r"\.slug$|^works_with\.apps|^stats\.items\[\d+\]\.value$")
 
 
 def flatten(value, path=""):

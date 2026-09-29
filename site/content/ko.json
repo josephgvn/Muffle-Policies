@@ -22,7 +22,9 @@
   "hero": {
     "title": "어디서나 Mac 마이크를 음소거하세요.",
     "subtitle": "AirPods이나 키보드 단축키 하나를 누르세요. Muffle이 마이크 자체를 끄므로 Google Meet, Zoom, Teams, Slack 등 모든 앱에 완벽한 무음 상태가 전달됩니다.",
-    "image_alt": "Chrome의 Google Meet 화상회의 통화 중 Mac 메뉴 막대에 표시된 Muffle 패널"
+    "image_alt": "Chrome의 Google Meet 화상회의 통화 중 Mac 메뉴 막대에 표시된 Muffle 패널",
+    "eyebrow": "Mac용 Muffle",
+    "secondary_cta": "작동 방식 보기"
   },
   "works_with": {
     "title": "마이크를 사용하는 모든 앱에서 작동합니다",
@@ -45,6 +47,27 @@
       "Firefox"
     ],
     "note": "Muffle은 하드웨어 수준에서 마이크를 음소거하므로 어떤 앱, 브라우저, 탭을 사용하든 상관없이 작동합니다."
+  },
+  "story": {
+    "title": "한 번 누르면, 무음.",
+    "steps": [
+      {
+        "title": "AirPods을 누르세요.",
+        "text": "어떤 통화에서든 스템을 누르세요. Muffle이 마이크 자체를 꺼서 Meet, Zoom, Teams 및 기타 모든 앱에 아무 소리도 전달되지 않습니다."
+      },
+      {
+        "title": "또는 Control-Option-M을 누르세요.",
+        "text": "통화가 백그라운드 탭에 있어도 모든 앱에서 단축키 하나로 제어합니다. 길게 눌러 말하거나 눌러서 말하기로 전환할 수 있습니다."
+      },
+      {
+        "title": "음소거 중에 말하고 계신가요?",
+        "text": "아무도 듣지 않는데 혼자 열심히 설명하기 전에, Muffle이 내 목소리를 감지하여 알려 줍니다."
+      },
+      {
+        "title": "마이크 켜짐 상태를 항상 확인하세요.",
+        "text": "화면에 떠 있는 작은 버튼이 마이크 상태를 표시하며 클릭 한 번으로 음소거합니다. 녹색은 켜짐, 빨간색은 음소거됨입니다."
+      }
+    ]
   },
   "features": {
     "title": "통화 중 Mac에 꼭 필요한 모든 기능",
@@ -101,7 +124,29 @@
     "image_reminder_alt": "화면 하단에 표시되는 “음소거 중입니다” 알림",
     "image_pills_alt": "음소거 및 켜짐 상태를 나타내는 플로팅 미니 컨트롤러",
     "image_automation_alt": "통화를 음소거 상태로 시작하는 옵션 및 통화 자동화 기능이 포함된 Muffle 설정 화면",
-    "image_suggestion_alt": "주변이 조용하여 Mac 마이크를 제안하는 Muffle 화면"
+    "image_suggestion_alt": "주변이 조용하여 Mac 마이크를 제안하는 Muffle 화면",
+    "image_keyboard_alt": "눌러서 말하기 및 말하기 키가 포함된 Muffle 키보드 설정"
+  },
+  "stats": {
+    "title": "작은 앱. 완벽한 안심.",
+    "items": [
+      {
+        "value": "0",
+        "label": "바이트의 오디오 녹음, 저장 또는 전송"
+      },
+      {
+        "value": "3",
+        "label": "일 무료, 모든 기능 제공"
+      },
+      {
+        "value": "1",
+        "label": "회 결제. 구독 없음."
+      },
+      {
+        "value": "34",
+        "label": "개 언어 지원, 한국어 포함"
+      }
+    ]
   },
   "how": {
     "title": "1분이면 끝나는 설정",

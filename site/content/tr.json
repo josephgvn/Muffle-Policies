@@ -22,7 +22,9 @@
   "hero": {
     "title": "Mac'inin mikrofonunu her yerden sustur.",
     "subtitle": "AirPods sapına bas veya tek bir klavye kısayolu kullan. Muffle doğrudan mikrofonu kapattığı için Google Meet, Zoom, Teams, Slack ve diğer her uygulama yalnızca sessizlik duyar.",
-    "image_alt": "Chrome'daki bir Google Meet görüşmesi sırasında Mac menü çubuğundaki Muffle paneli"
+    "image_alt": "Chrome'daki bir Google Meet görüşmesi sırasında Mac menü çubuğundaki Muffle paneli",
+    "eyebrow": "Mac için Muffle",
+    "secondary_cta": "Nasıl çalıştığını gör"
   },
   "works_with": {
     "title": "Mikrofonunu kullanan her uygulamayla çalışır",
@@ -45,6 +47,27 @@
       "Firefox"
     ],
     "note": "Muffle mikrofonu donanım seviyesinde susturur; bu yüzden hangi uygulamanın, tarayıcının veya sekmenin kullandığı fark etmez."
+  },
+  "story": {
+    "title": "Tek bir basış. Sessizlik.",
+    "steps": [
+      {
+        "title": "AirPods'una bas.",
+        "text": "Herhangi bir görüşme sırasında sapa bas. Muffle doğrudan mikrofonu kapatır, böylece Meet, Zoom, Teams ve diğer hiçbir uygulama sesini duymaz."
+      },
+      {
+        "title": "Ya da Control-Option-M kısayoluna bas.",
+        "text": "Görüşme arka plandaki bir sekmede olsa bile her uygulama için tek bir kısayol. Konuşmak için basılı tut ya da bas-konuş moduna geç."
+      },
+      {
+        "title": "Sessizdeyken mi konuşuyorsun?",
+        "text": "Muffle sesini tanır ve tüm fikrini boşluğa anlatmadan önce sana hatırlatır."
+      },
+      {
+        "title": "Açık mısın, her an gör.",
+        "text": "Ekranda duran küçük bir düğme mikrofonunun durumunu gösterir ve tek tıkla susturur. Yeşil açık, kırmızı sessiz demek."
+      }
+    ]
   },
   "features": {
     "title": "Bir görüşmede Mac'inin yapması gereken her şey",
@@ -101,7 +124,29 @@
     "image_reminder_alt": "Ekranın altındaki “Sessizdesin” hatırlatması",
     "image_pills_alt": "Sessizde ve açık durumlarında ekranda duran mini kumanda",
     "image_automation_alt": "Görüşmelere sessiz başlama ve diğer görüşme otomasyonları için Muffle ayarları",
-    "image_suggestion_alt": "Oda sessiz olduğu için Muffle'ın Mac mikrofonunu önerdiği an"
+    "image_suggestion_alt": "Oda sessiz olduğu için Muffle'ın Mac mikrofonunu önerdiği an",
+    "image_keyboard_alt": "Bas-konuş ve konuşma tuşu özellikli Muffle klavye ayarları"
+  },
+  "stats": {
+    "title": "Küçük uygulama. Büyük iç rahatlığı.",
+    "items": [
+      {
+        "value": "0",
+        "label": "bayt ses kaydedilir, saklanır ya da gönderilir"
+      },
+      {
+        "value": "3",
+        "label": "gün ücretsiz, tüm özellikler dahil"
+      },
+      {
+        "value": "1",
+        "label": "ödeme. Abonelik yok."
+      },
+      {
+        "value": "34",
+        "label": "dil, seninki dahil"
+      }
+    ]
   },
   "how": {
     "title": "Bir dakikada kur",

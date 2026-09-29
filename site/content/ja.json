@@ -22,7 +22,9 @@
   "hero": {
     "title": "Macのマイクをどこからでもミュート。",
     "subtitle": "AirPodsを押すか、ショートカットキーを1回押すだけ。Muffleはマイク自体をオフにするため、Google Meet、Zoom、Teams、Slackなど、あらゆる会議Appで確実に消音できます。",
-    "image_alt": "ChromeでGoogle Meetの通話中にMacのメニューバーに表示されるMuffleの操作パネル"
+    "image_alt": "ChromeでGoogle Meetの通話中にMacのメニューバーに表示されるMuffleの操作パネル",
+    "eyebrow": "Mac用Muffle",
+    "secondary_cta": "仕組みを見る"
   },
   "works_with": {
     "title": "マイクを使用するすべてのAppに対応",
@@ -45,6 +47,27 @@
       "Firefox"
     ],
     "note": "Muffleはハードウェアレベルでマイクをミュートするため、どのApp、ブラウザ、タブを使っていても関係なく機能します。"
+  },
+  "story": {
+    "title": "ひと押しで、完全ミュート。",
+    "steps": [
+      {
+        "title": "AirPodsを押す。",
+        "text": "オンライン会議や通話中にステムを押すだけ。Muffleがマイク自体をオフにするため、Google Meet、Zoom、Teamsなど、どのAppでも完全に消音されます。"
+      },
+      {
+        "title": "またはControl-Option-Mを押す。",
+        "text": "通話がバックグラウンドにあっても、共通のショートカットキー1つですべてのAppに対応。長押しして話すことも、プッシュ・トゥ・トークへの切り替えも可能です。"
+      },
+      {
+        "title": "ミュートのまま話していませんか？",
+        "text": "誰にも声が届いていない状態で話し続けてしまう前に、Muffleがあなたの声を検知してリマインダーを表示します。"
+      },
+      {
+        "title": "マイクがオンか、いつでも把握。",
+        "text": "小さなフローティングボタンがマイクの状態を表示し、1クリックで消音を切り替えられます。緑はオン、赤はミュート中です。"
+      }
+    ]
   },
   "features": {
     "title": "Macでの通話に必要なすべての機能を",
@@ -101,7 +124,29 @@
     "image_reminder_alt": "画面下部に表示される「ミュート中です」のリマインダー",
     "image_pills_alt": "ミュート中とマイクオンの状態を表示するフローティングミニコントローラー",
     "image_automation_alt": "通話をミュートで開始する設定など、Muffleの通話自動化設定画面",
-    "image_suggestion_alt": "周囲が静かなためMacのマイクを提案するMuffleの画面"
+    "image_suggestion_alt": "周囲が静かなためMacのマイクを提案するMuffleの画面",
+    "image_keyboard_alt": "プッシュ・トゥ・トークとトークキーを設定できるMuffleのキーボード設定"
+  },
+  "stats": {
+    "title": "小さなApp、確かな安心。",
+    "items": [
+      {
+        "value": "0",
+        "label": "バイトの音声録音、保存、送信"
+      },
+      {
+        "value": "3",
+        "label": "日間、すべての機能を無料体験"
+      },
+      {
+        "value": "1",
+        "label": "回限りの買い切り（サブスクリプションなし）"
+      },
+      {
+        "value": "34",
+        "label": "言語に対応（日本語を含む）"
+      }
+    ]
   },
   "how": {
     "title": "1分でセットアップ完了",

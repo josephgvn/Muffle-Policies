@@ -22,7 +22,9 @@
   "hero": {
     "title": "Mykistä Macin mikrofoni missä tahansa.",
     "subtitle": "Paina AirPodsia tai yhtä pikanäppäintä. Muffle sammuttaa itse mikrofonin, joten Google Meet, Zoom, Teams, Slack ja kaikki muut sovellukset saavat pelkkää hiljaisuutta.",
-    "image_alt": "Muffle-paneeli Macin valikkorivillä Google Meet -puhelun aikana Chromessa"
+    "image_alt": "Muffle-paneeli Macin valikkorivillä Google Meet -puhelun aikana Chromessa",
+    "eyebrow": "Muffle Macille",
+    "secondary_cta": "Katso miten se toimii"
   },
   "works_with": {
     "title": "Toimii kaikkien mikrofonia käyttävien sovellusten kanssa",
@@ -45,6 +47,27 @@
       "Firefox"
     ],
     "note": "Muffle mykistää mikrofonin laitteistotasolla, joten ei ole väliä, mikä sovellus, selain tai välilehti sitä käyttää."
+  },
+  "story": {
+    "title": "Yksi painallus. Hiljaisuus.",
+    "steps": [
+      {
+        "title": "Paina AirPodsia.",
+        "text": "Paina vartta minkä tahansa puhelun aikana. Muffle kytkee itse mikrofonin pois päältä, joten Meet, Zoom, Teams ja kaikki muut sovellukset eivät kuule mitään."
+      },
+      {
+        "title": "Tai paina Control-Option-M.",
+        "text": "Yksi pikanäppäin kaikille sovelluksille, vaikka puhelu olisi taustavälilehdellä. Pidä sitä painettuna puhuaksesi tai vaihda paina puhuaksesi -tilaan."
+      },
+      {
+        "title": "Puhutko mykistettynä?",
+        "text": "Muffle tunnistaa äänesi ja muistuttaa sinua, ennen kuin selität koko ideasi kenenkään kuulematta."
+      },
+      {
+        "title": "Tiedä aina, oletko livenä.",
+        "text": "Pieni kelluva painike näyttää mikrofonisi tilan ja mykistää yhdellä napsautuksella. Vihreä on livenä, punainen mykistetty."
+      }
+    ]
   },
   "features": {
     "title": "Kaikki mitä Macin pitäisi osata puheluissa",
@@ -101,7 +124,29 @@
     "image_reminder_alt": "”Olet mykistetty” -muistutus näytön alareunassa",
     "image_pills_alt": "Leijuva minisäädin mykistetyssä ja aktiivisessa tilassa",
     "image_automation_alt": "Mufflen asetukset puheluiden aloittamiseksi mykistettynä ja muut puheluautomaatiot",
-    "image_suggestion_alt": "Muffle ehdottaa Macin mikrofonia, koska huoneessa on hiljaista"
+    "image_suggestion_alt": "Muffle ehdottaa Macin mikrofonia, koska huoneessa on hiljaista",
+    "image_keyboard_alt": "Mufflen näppäimistöasetukset, joissa on paina puhuaksesi -toiminto ja puhenäppäin"
+  },
+  "stats": {
+    "title": "Pieni sovellus. Suuri mielenrauha.",
+    "items": [
+      {
+        "value": "0",
+        "label": "tavua ääntä tallennettu, säilytetty tai lähetetty"
+      },
+      {
+        "value": "3",
+        "label": "päivää ilmaiseksi, kaikki ominaisuudet mukana"
+      },
+      {
+        "value": "1",
+        "label": "kertamaksu. Ei tilausta."
+      },
+      {
+        "value": "34",
+        "label": "kieltä, myös omasi"
+      }
+    ]
   },
   "how": {
     "title": "Käyttökunnossa minuutissa",

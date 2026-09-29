@@ -22,7 +22,9 @@
   "hero": {
     "title": "Bisukan mikrofon Mac Anda dari mana saja.",
     "subtitle": "Tekan AirPods Anda atau satu pintasan keyboard. Muffle mematikan mikrofon itu sendiri, sehingga Google Meet, Zoom, Teams, Slack, dan semua app lain hanya menerima hening.",
-    "image_alt": "Panel Muffle di bilah menu Mac saat panggilan Google Meet di Chrome"
+    "image_alt": "Panel Muffle di bilah menu Mac saat panggilan Google Meet di Chrome",
+    "eyebrow": "Muffle untuk Mac",
+    "secondary_cta": "Lihat cara kerjanya"
   },
   "works_with": {
     "title": "Berfungsi dengan setiap app yang menggunakan mikrofon Anda",
@@ -45,6 +47,27 @@
       "Firefox"
     ],
     "note": "Muffle membisukan mikrofon di tingkat perangkat keras, jadi tidak masalah app, browser, atau tab mana yang menggunakannya."
+  },
+  "story": {
+    "title": "Satu tekanan. Senyap.",
+    "steps": [
+      {
+        "title": "Tekan AirPods Anda.",
+        "text": "Saat panggilan apa pun, tekan batang. Muffle mematikan mikrofon itu sendiri, sehingga Meet, Zoom, Teams, dan app lainnya tidak mendengar apa pun."
+      },
+      {
+        "title": "Atau tekan Control-Option-M.",
+        "text": "Satu pintasan untuk setiap app, bahkan saat panggilan berada di tab latar belakang. Tahan untuk berbicara, atau alihkan ke push to talk."
+      },
+      {
+        "title": "Berbicara saat dibisukan?",
+        "text": "Muffle mengenali suara Anda dan mengingatkan Anda, sebelum Anda menjelaskan seluruh ide tanpa ada yang mendengar."
+      },
+      {
+        "title": "Selalu tahu saat Anda aktif.",
+        "text": "Tombol melayang kecil menampilkan status mik Anda dan membisukan dengan satu klik. Hijau berarti aktif, merah berarti dibisukan."
+      }
+    ]
   },
   "features": {
     "title": "Semua yang seharusnya bisa dilakukan Mac saat panggilan",
@@ -101,7 +124,29 @@
     "image_reminder_alt": "Pengingat “Anda dibisukan” di bagian bawah layar",
     "image_pills_alt": "Kontroler mini melayang dalam status dibisukan dan aktif",
     "image_automation_alt": "Pengaturan Muffle untuk memulai panggilan dalam keadaan dibisukan dan otomatisasi panggilan lainnya",
-    "image_suggestion_alt": "Muffle menyarankan mikrofon Mac karena ruangan hening"
+    "image_suggestion_alt": "Muffle menyarankan mikrofon Mac karena ruangan hening",
+    "image_keyboard_alt": "Pengaturan keyboard Muffle dengan push to talk dan tombol bicara"
+  },
+  "stats": {
+    "title": "App kecil. Ketenangan pikiran yang besar.",
+    "items": [
+      {
+        "value": "0",
+        "label": "byte audio yang direkam, disimpan, atau dikirim"
+      },
+      {
+        "value": "3",
+        "label": "hari gratis, dengan semua fitur"
+      },
+      {
+        "value": "1",
+        "label": "pembayaran. Tanpa langganan."
+      },
+      {
+        "value": "34",
+        "label": "bahasa, termasuk bahasa Anda"
+      }
+    ]
   },
   "how": {
     "title": "Atur dalam satu menit",

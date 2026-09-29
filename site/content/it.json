@@ -22,7 +22,9 @@
   "hero": {
     "title": "Disattiva il microfono del Mac da qualsiasi app.",
     "subtitle": "Premi i tuoi AirPods o usa una scorciatoia da tastiera. Muffle disattiva direttamente il microfono, così Google Meet, Zoom, Teams, Slack e qualsiasi altra app sentiranno solo silenzio.",
-    "image_alt": "Il pannello di Muffle nella barra dei menu del Mac durante una chiamata su Google Meet in Chrome"
+    "image_alt": "Il pannello di Muffle nella barra dei menu del Mac durante una chiamata su Google Meet in Chrome",
+    "eyebrow": "Muffle per Mac",
+    "secondary_cta": "Scopri come funziona"
   },
   "works_with": {
     "title": "Funziona con ogni app che usa il microfono",
@@ -45,6 +47,27 @@
       "Firefox"
     ],
     "note": "Muffle disattiva il microfono a livello hardware, quindi non importa quale app, browser o scheda aperta tu stia usando."
+  },
+  "story": {
+    "title": "Una pressione. Silenzio.",
+    "steps": [
+      {
+        "title": "Premi i tuoi AirPods.",
+        "text": "Durante qualsiasi chiamata, premi lo stelo. Muffle disattiva direttamente il microfono, così Meet, Zoom, Teams e tutte le altre app non sentono nulla."
+      },
+      {
+        "title": "Oppure premi Control-Opzione-M.",
+        "text": "Una scorciatoia per qualsiasi app, anche quando la chiamata è in una scheda in background. Tienila premuta per parlare, oppure passa a premi per parlare."
+      },
+      {
+        "title": "Parli da muto?",
+        "text": "Muffle riconosce la tua voce e ti avvisa, prima che tu spieghi un'intera idea a nessuno."
+      },
+      {
+        "title": "Sai sempre se sei attivo.",
+        "text": "Un piccolo pulsante fluttuante mostra lo stato del microfono e lo disattiva con un clic. Verde è attivo, rosso è muto."
+      }
+    ]
   },
   "features": {
     "title": "Tutto ciò che il tuo Mac dovrebbe fare in chiamata",
@@ -101,7 +124,29 @@
     "image_reminder_alt": "Il promemoria “Sei muto” nella parte inferiore dello schermo",
     "image_pills_alt": "Il mini controller fluttuante con microfono disattivato e attivo",
     "image_automation_alt": "Impostazioni di Muffle per avviare le chiamate da muto e altre automazioni",
-    "image_suggestion_alt": "Muffle suggerisce il microfono del Mac perché la stanza è silenziosa"
+    "image_suggestion_alt": "Muffle suggerisce il microfono del Mac perché la stanza è silenziosa",
+    "image_keyboard_alt": "Impostazioni della tastiera di Muffle con premi per parlare e un tasto per parlare"
+  },
+  "stats": {
+    "title": "Piccola app. Massima tranquillità.",
+    "items": [
+      {
+        "value": "0",
+        "label": "byte di audio registrati, memorizzati o inviati"
+      },
+      {
+        "value": "3",
+        "label": "giorni gratis, con tutte le funzioni"
+      },
+      {
+        "value": "1",
+        "label": "pagamento. Nessun abbonamento."
+      },
+      {
+        "value": "34",
+        "label": "lingue, inclusa la tua"
+      }
+    ]
   },
   "how": {
     "title": "Pronto in un minuto",

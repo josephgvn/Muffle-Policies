@@ -22,7 +22,9 @@
   "hero": {
     "title": "Stlmte mikrofón na Macu odkiaľkoľvek.",
     "subtitle": "Stlačte stopku AirPods alebo jednu klávesovú skratku. Muffle vypína priamo mikrofón, takže Google Meet, Zoom, Teams, Slack aj každá iná aplikácia počujú len ticho.",
-    "image_alt": "Panel Muffle v lište s ponukami na Macu počas hovoru v Google Meet v prehliadači Chrome"
+    "image_alt": "Panel Muffle v lište s ponukami na Macu počas hovoru v Google Meet v prehliadači Chrome",
+    "eyebrow": "Muffle pre Mac",
+    "secondary_cta": "Pozrite sa, ako to funguje"
   },
   "works_with": {
     "title": "Funguje s každou aplikáciou, ktorá používa váš mikrofón",
@@ -45,6 +47,27 @@
       "Firefox"
     ],
     "note": "Muffle vypína mikrofón na hardvérovej úrovni, takže nezáleží na tom, aká aplikácia, prehliadač alebo tab ho práve používa."
+  },
+  "story": {
+    "title": "Jedno stlačenie. Ticho.",
+    "steps": [
+      {
+        "title": "Stlačte AirPods.",
+        "text": "Počas každého hovoru stlačte stopku. Muffle vypne samotný mikrofón, takže Meet, Zoom, Teams a všetky ostatné aplikácie nepočujú vôbec nič."
+      },
+      {
+        "title": "Alebo stlačte Control-Option-M.",
+        "text": "Jedna klávesová skratka pre každú aplikáciu, aj keď je hovor na karte na pozadí. Podržte a hovorte, alebo prepnite na stlačením hovoriť."
+      },
+      {
+        "title": "Hovoríte so stlmeným mikrofónom?",
+        "text": "Muffle rozpozná váš hlas a upozorní vás skôr, než celý svoj nápad poviete do prázdna."
+      },
+      {
+        "title": "Vždy viete, či máte zapnutý mikrofón.",
+        "text": "Malé plávajúce tlačidlo zobrazuje stav mikrofónu a stlmí ho jedným kliknutím. Zelená znamená zapnuté, červená stlmené."
+      }
+    ]
   },
   "features": {
     "title": "Všetko, čo by mal váš Mac počas hovoru dokázať",
@@ -101,7 +124,29 @@
     "image_reminder_alt": "Pripomienka „Máte stlmený mikrofón“ v spodnej časti obrazovky",
     "image_pills_alt": "Plávajúci mini ovládač v stave stlmenia a zapnutia",
     "image_automation_alt": "Nastavenia Muffle pre začínanie hovorov so stlmeným mikrofónom a ďalšie automatizácie hovorov",
-    "image_suggestion_alt": "Muffle navrhuje mikrofón Macu, pretože v miestnosti je ticho"
+    "image_suggestion_alt": "Muffle navrhuje mikrofón Macu, pretože v miestnosti je ticho",
+    "image_keyboard_alt": "Nastavenia klávesnice Muffle s voľbou stlačením hovoriť a klávesom na hovorenie"
+  },
+  "stats": {
+    "title": "Malá aplikácia. Veľký pokoj na duši.",
+    "items": [
+      {
+        "value": "0",
+        "label": "bajtov zvuku nahraných, uložených alebo odoslaných"
+      },
+      {
+        "value": "3",
+        "label": "dní zadarmo so všetkými funkciami"
+      },
+      {
+        "value": "1",
+        "label": "platba. Žiadne predplatné."
+      },
+      {
+        "value": "34",
+        "label": "jazykov vrátane toho vášho"
+      }
+    ]
   },
   "how": {
     "title": "Nastavenie za minútu",

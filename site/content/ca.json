@@ -22,7 +22,9 @@
   "hero": {
     "title": "Silencia el micròfon del teu Mac des de qualsevol lloc.",
     "subtitle": "Prem els AirPods o una drecera de teclat. Muffle desactiva el micròfon mateix perquè Google Meet, Zoom, Teams, Slack i les altres apps només rebin silenci.",
-    "image_alt": "El tauler de Muffle a la barra de menús del Mac durant una trucada de Google Meet a Chrome"
+    "image_alt": "El tauler de Muffle a la barra de menús del Mac durant una trucada de Google Meet a Chrome",
+    "eyebrow": "Muffle per a Mac",
+    "secondary_cta": "Mira com funciona"
   },
   "works_with": {
     "title": "Funciona amb qualsevol app que utilitzi el micròfon",
@@ -45,6 +47,27 @@
       "Firefox"
     ],
     "note": "Muffle silencia el micròfon a nivell de maquinari, així que no importa quina app, navegador o pestanya estiguis fent servir."
+  },
+  "story": {
+    "title": "Una premuda. Silenci.",
+    "steps": [
+      {
+        "title": "Prem els AirPods.",
+        "text": "Durant qualsevol trucada, prem la vareta. Muffle desactiva el mateix micròfon, de manera que Meet, Zoom, Teams i qualsevol altra app no senten res."
+      },
+      {
+        "title": "O prem Control-Opció-M.",
+        "text": "Una drecera per a cada app, fins i tot quan la trucada està en una pestanya en segon pla. Mantén-la premuda per parlar, o canvia a prémer per parlar."
+      },
+      {
+        "title": "Parles mentre estàs silenciat?",
+        "text": "Muffle reconeix la teva veu i t'avisa, abans que expliquis tota la idea a ningú."
+      },
+      {
+        "title": "Sempre sabràs si estàs activat.",
+        "text": "Un petit botó flotant mostra l'estat del micròfon i silencia amb un clic. En verd està activat i en vermell està silenciat."
+      }
+    ]
   },
   "features": {
     "title": "Tot el que el teu Mac hauria de fer en una trucada",
@@ -101,7 +124,29 @@
     "image_reminder_alt": "L'avís d'«Estàs silenciat» a la part inferior de la pantalla",
     "image_pills_alt": "El mini controlador flotant en estat silenciat i activat",
     "image_automation_alt": "Configuració de Muffle per iniciar trucades silenciades i altres automatitzacions",
-    "image_suggestion_alt": "Muffle suggerint el micròfon del Mac perquè l'habitació és tranquil·la"
+    "image_suggestion_alt": "Muffle suggerint el micròfon del Mac perquè l'habitació és tranquil·la",
+    "image_keyboard_alt": "Configuració del teclat de Muffle amb prémer per parlar i una tecla per parlar"
+  },
+  "stats": {
+    "title": "Una app petita. Una gran tranquil·litat.",
+    "items": [
+      {
+        "value": "0",
+        "label": "bytes d'àudio enregistrats, emmagatzemats o enviats"
+      },
+      {
+        "value": "3",
+        "label": "dies gratis, amb totes les funcions"
+      },
+      {
+        "value": "1",
+        "label": "pagament. Sense subscripció."
+      },
+      {
+        "value": "34",
+        "label": "idiomes, inclòs el teu"
+      }
+    ]
   },
   "how": {
     "title": "A punt en un minut",

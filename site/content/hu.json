@@ -22,7 +22,9 @@
   "hero": {
     "title": "Némítsa el a Mac mikrofonját bárhonnan.",
     "subtitle": "Nyomja meg az AirPodsot vagy egyetlen billentyűparancsot. A Muffle magát a mikrofont kapcsolja ki, így a Google Meet, a Zoom, a Teams, a Slack és az összes többi alkalmazás csak csendet hall.",
-    "image_alt": "A Muffle panelje a Mac menüsorában egy Google Meet hívás közben a Chrome-ban"
+    "image_alt": "A Muffle panelje a Mac menüsorában egy Google Meet hívás közben a Chrome-ban",
+    "eyebrow": "Muffle Macre",
+    "secondary_cta": "Nézze meg, hogyan működik"
   },
   "works_with": {
     "title": "Minden alkalmazással működik, amely használja a mikrofont",
@@ -45,6 +47,27 @@
       "Firefox"
     ],
     "note": "A Muffle hardverszinten némítja a mikrofont, így mindegy, melyik app, böngésző vagy lap használja éppen."
+  },
+  "story": {
+    "title": "Egyetlen megnyomás. Csend.",
+    "steps": [
+      {
+        "title": "Nyomja meg az AirPodsot.",
+        "text": "Bármilyen hívás közben nyomja meg a szárat. A Muffle magát a mikrofont kapcsolja ki, így a Meet, a Zoom, a Teams és minden más alkalmazás semmit sem hall."
+      },
+      {
+        "title": "Vagy nyomja meg a Control-Option-M billentyűket.",
+        "text": "Egyetlen billentyűparancs minden alkalmazáshoz, még akkor is, ha a hívás egy háttérben lévő lapon fut. Tartsa lenyomva a beszédhez, vagy váltson át a gombnyomásra beszéd funkcióra."
+      },
+      {
+        "title": "Némítás közben beszél?",
+        "text": "A Muffle felismeri a hangját, és emlékezteti, mielőtt az egész ötletét a semminek magyarázná el."
+      },
+      {
+        "title": "Mindig tudhatja, ha élő.",
+        "text": "Egy kis lebegő gomb mutatja a mikrofon állapotát, és egy kattintással némít. A zöld az élő, a piros a némított állapotot jelzi."
+      }
+    ]
   },
   "features": {
     "title": "Minden, amire a Macnek szüksége van egy hívás közben",
@@ -101,7 +124,29 @@
     "image_reminder_alt": "A „Némítva van” emlékeztető a képernyő alján",
     "image_pills_alt": "A lebegő mini vezérlő némított és élő állapotban",
     "image_automation_alt": "Muffle beállítások a hívások némított indításához és az automatizáláshoz",
-    "image_suggestion_alt": "A Muffle a Mac mikrofonját javasolja, mert a szoba csendes"
+    "image_suggestion_alt": "A Muffle a Mac mikrofonját javasolja, mert a szoba csendes",
+    "image_keyboard_alt": "A Muffle billentyűzet-beállításai a gombnyomásra beszéd funkcióval és a beszédbillentyűvel"
+  },
+  "stats": {
+    "title": "Kis alkalmazás. Nagy nyugalom.",
+    "items": [
+      {
+        "value": "0",
+        "label": "bájtnyi rögzített, tárolt vagy elküldött hang"
+      },
+      {
+        "value": "3",
+        "label": "nap ingyen, minden funkcióval"
+      },
+      {
+        "value": "1",
+        "label": "fizetés. Nincs előfizetés."
+      },
+      {
+        "value": "34",
+        "label": "nyelv, köztük az Öné"
+      }
+    ]
   },
   "how": {
     "title": "Beállítás egy perc alatt",

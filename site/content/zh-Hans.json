@@ -22,7 +22,9 @@
   "hero": {
     "title": "随时随地将 Mac 麦克风静音。",
     "subtitle": "只需按压 AirPods 或按下键盘快捷键。Muffle 会在硬件层面直接关闭麦克风，让 Google Meet、Zoom、Teams、Slack 等所有 App 都听不到任何声音。",
-    "image_alt": "在 Chrome 中进行 Google Meet 视频会议时，Mac 菜单栏中的 Muffle 面板"
+    "image_alt": "在 Chrome 中进行 Google Meet 视频会议时，Mac 菜单栏中的 Muffle 面板",
+    "eyebrow": "Mac 版 Muffle",
+    "secondary_cta": "了解工作原理"
   },
   "works_with": {
     "title": "适用于所有使用麦克风的 App",
@@ -45,6 +47,27 @@
       "Firefox"
     ],
     "note": "Muffle 会在硬件层面将麦克风静音，因此无论哪个 App、浏览器或网页标签页在使用话筒，都能彻底静音。"
+  },
+  "story": {
+    "title": "轻轻一按，瞬间静音。",
+    "steps": [
+      {
+        "title": "按一下 AirPods。",
+        "text": "在任何通话中按压耳机柄，Muffle 会直接关闭麦克风本身，让 Meet、Zoom、Teams 以及其他所有 App 都听不到任何声音。"
+      },
+      {
+        "title": "或者按下 Control-Option-M。",
+        "text": "适用于所有 App 的统一快捷键，即使通话处于后台标签页也同样有效。按住即可说话，或将其切换为按住说话。"
+      },
+      {
+        "title": "静音时在说话？",
+        "text": "Muffle 能识别你的声音并及时提醒，避免你对着空气讲完整段想法。"
+      },
+      {
+        "title": "随时清楚麦克风是否开启。",
+        "text": "小巧的悬浮按钮实时显示麦克风状态，点按一下即可静音。绿色代表麦克风开启，红色代表已静音。"
+      }
+    ]
   },
   "features": {
     "title": "Mac 通话中你所需要的一切功能",
@@ -101,7 +124,29 @@
     "image_reminder_alt": "屏幕底部的“你已静音”提示",
     "image_pills_alt": "处于静音和开启状态的浮动迷你控制器",
     "image_automation_alt": "Muffle 中关于通话开始时静音及其他通话自动化的设置选项",
-    "image_suggestion_alt": "Muffle 检测到周围环境安静，并建议使用 Mac 麦克风"
+    "image_suggestion_alt": "Muffle 检测到周围环境安静，并建议使用 Mac 麦克风",
+    "image_keyboard_alt": "包含按住说话与说话键的 Muffle 键盘设置"
+  },
+  "stats": {
+    "title": "小巧 App，带来十足安心。",
+    "items": [
+      {
+        "value": "0",
+        "label": "字节音频被录制、存储或发送"
+      },
+      {
+        "value": "3",
+        "label": "天免费试用，包含所有功能"
+      },
+      {
+        "value": "1",
+        "label": "次购买，无需订阅。"
+      },
+      {
+        "value": "34",
+        "label": "种语言，包括你的语言"
+      }
+    ]
   },
   "how": {
     "title": "一分钟完成设置",

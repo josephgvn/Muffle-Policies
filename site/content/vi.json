@@ -22,7 +22,9 @@
   "hero": {
     "title": "Tắt tiếng micrô trên Mac từ bất kỳ đâu.",
     "subtitle": "Nhấn AirPods của bạn hoặc một phím tắt bàn phím. Muffle trực tiếp tắt tiếng micrô, giúp Google Meet, Zoom, Teams, Slack và mọi ứng dụng khác hoàn toàn im lặng.",
-    "image_alt": "Bảng điều khiển Muffle trên thanh menu của Mac trong cuộc gọi Google Meet trên Chrome"
+    "image_alt": "Bảng điều khiển Muffle trên thanh menu của Mac trong cuộc gọi Google Meet trên Chrome",
+    "eyebrow": "Muffle dành cho Mac",
+    "secondary_cta": "Xem cách hoạt động"
   },
   "works_with": {
     "title": "Hoạt động với mọi ứng dụng dùng micrô của bạn",
@@ -45,6 +47,27 @@
       "Firefox"
     ],
     "note": "Muffle tắt tiếng micrô ở cấp độ phần cứng, do đó ứng dụng, trình duyệt hay thẻ nào đang dùng micrô đều không quan trọng."
+  },
+  "story": {
+    "title": "Một lần nhấn. Im lặng.",
+    "steps": [
+      {
+        "title": "Nhấn AirPods của bạn.",
+        "text": "Trong bất kỳ cuộc gọi nào, hãy nhấn vào thân tai nghe. Muffle sẽ trực tiếp tắt tiếng micrô, vì vậy Meet, Zoom, Teams và mọi ứng dụng khác đều không nghe thấy gì."
+      },
+      {
+        "title": "Hoặc nhấn Control-Option-M.",
+        "text": "Một phím tắt cho mọi ứng dụng, ngay cả khi cuộc gọi đang ở tab nền. Giữ để nói chuyện, hoặc chuyển sang nhấn để nói chuyện."
+      },
+      {
+        "title": "Nói chuyện lúc đang tắt tiếng?",
+        "text": "Muffle nhận biết giọng nói của bạn và nhắc nhở, trước khi bạn trình bày cả ý tưởng mà không ai nghe thấy."
+      },
+      {
+        "title": "Luôn biết khi nào mic đang bật.",
+        "text": "Một nút nổi nhỏ hiển thị trạng thái micrô và tắt tiếng chỉ với một lần nhấp. Xanh lá là mic đang bật, đỏ là đã tắt tiếng."
+      }
+    ]
   },
   "features": {
     "title": "Mọi thứ chiếc Mac của bạn cần có trong cuộc gọi",
@@ -101,7 +124,29 @@
     "image_reminder_alt": "Thông báo nhắc nhở “Bạn đang tắt tiếng” ở cuối màn hình",
     "image_pills_alt": "Bộ điều khiển thu nhỏ dạng nổi ở trạng thái tắt tiếng và đang bật",
     "image_automation_alt": "Cài đặt Muffle để bắt đầu cuộc gọi ở chế độ tắt tiếng và các tính năng tự động hóa cuộc gọi khác",
-    "image_suggestion_alt": "Muffle gợi ý dùng micrô của Mac vì căn phòng đang yên tĩnh"
+    "image_suggestion_alt": "Muffle gợi ý dùng micrô của Mac vì căn phòng đang yên tĩnh",
+    "image_keyboard_alt": "Cài đặt bàn phím Muffle với tính năng nhấn để nói chuyện và phím nói"
+  },
+  "stats": {
+    "title": "Ứng dụng nhỏ. Yên tâm tuyệt đối.",
+    "items": [
+      {
+        "value": "0",
+        "label": "byte âm thanh được ghi âm, lưu trữ hoặc gửi đi"
+      },
+      {
+        "value": "3",
+        "label": "ngày miễn phí, đầy đủ mọi tính năng"
+      },
+      {
+        "value": "1",
+        "label": "lần thanh toán. Không cần đăng ký thuê bao."
+      },
+      {
+        "value": "34",
+        "label": "ngôn ngữ, bao gồm cả ngôn ngữ của bạn"
+      }
+    ]
   },
   "how": {
     "title": "Thiết lập chỉ trong một phút",
