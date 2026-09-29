@@ -26,6 +26,12 @@
     "eyebrow": "Muffle for Mac",
     "secondary_cta": "See how it works"
   },
+  "cinema": {
+    "panel_title": "Every control in one place.",
+    "panel_text": "Mute, pick your mic, lock its level and switch features on and off, right from the menu bar.",
+    "you": "You",
+    "statement": "Most mute buttons only mute one app. Muffle turns the microphone itself off, so every app on your Mac hears silence."
+  },
   "works_with": {
     "title": "Works with every app that uses your mic",
     "apps": [

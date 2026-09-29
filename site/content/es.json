@@ -26,6 +26,12 @@
     "eyebrow": "Muffle para Mac",
     "secondary_cta": "Descubre cómo funciona"
   },
+  "cinema": {
+    "panel_title": "Todos los controles en un solo lugar.",
+    "panel_text": "Silencia, elige tu micro, bloquea su nivel y activa o desactiva funciones directamente desde la barra de menús.",
+    "you": "Tú",
+    "statement": "La mayoría de botones para silenciar solo silencian una app. Muffle desactiva el propio micrófono, así que todas las apps de tu Mac oyen silencio."
+  },
   "works_with": {
     "title": "Funciona con cualquier app que use tu micro",
     "apps": [

@@ -250,7 +250,7 @@ def page(lang, c, path, title, description, body, jsonld, languages, not_found=F
 {store_banner}<link rel="icon" type="image/png" sizes="64x64" href="{rel}assets/icon-64.png">
 <link rel="apple-touch-icon" href="{rel}assets/icon-180.png">
 {preload_tag}<link rel="stylesheet" href="{rel}assets/site.css?v={ASSET_VERSION}">
-<script>document.documentElement.classList.add("js")</script>
+<script>document.documentElement.classList.add("js");if(!matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("motion")</script>
 <script src="{rel}assets/site.js?v={ASSET_VERSION}" defer></script>
 {ld}
 </head>
@@ -325,43 +325,113 @@ def faq_html(items):
     )
 
 
-# Feature cards: which JSON item, how wide (of 12 columns), and an image or an icon. Wide cards alternate sides.
-BENTO = [
-    (2, 7, "reminder", "image_reminder_alt"), (0, 5, "airpods", None),
-    (1, 5, "keyboard", None), (4, 7, "pills", "image_pills_alt"),
-    (3, 7, "automation", "image_automation_alt"), (9, 5, "timer", None),
-    (5, 5, "sliders", None), (10, 7, "suggestion", "image_suggestion_alt"),
-    (8, 7, "keyboard", "image_keyboard_alt"), (6, 5, "headphones", None),
-    (7, 6, "bolt", None), (11, 6, "glow", None),
+# Feature cards for the sideways strip: which JSON item, and an image or an icon.
+RAIL = [
+    (0, "airpods", None), (2, "reminder", "image_reminder_alt"), (1, "keyboard", None), (4, "pills", "image_pills_alt"),
+    (8, "keyboard", "image_keyboard_alt"), (9, "timer", None), (10, "suggestion", "image_suggestion_alt"), (5, "sliders", None),
+    (3, "automation", "image_automation_alt"), (6, "headphones", None), (7, "bolt", None), (11, "glow", None),
 ]
 
-STORY_IMAGES = ["panel-muted", "panel", "reminder", "pills"]
+APP_UI = {}
+
+
+def ui(lang, key):
+    strings = APP_UI.get(lang) or APP_UI.get("en", {})
+    return strings.get(key, key)
+
+
+# Glyphs for the drawn Mac scene (24 x 24).
+MIC = ('<path d="M12 2.8a3.4 3.4 0 0 0-3.4 3.4v5.6a3.4 3.4 0 0 0 6.8 0V6.2A3.4 3.4 0 0 0 12 2.8z" fill="currentColor"/>'
+       '<path d="M6.2 11.2a5.8 5.8 0 0 0 11.6 0M12 17v3.6" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/>')
+SLASH = '<path d="M4.5 3.8l15 16.4" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/>'
+
+
+def glyph(inner, cls):
+    return f'<svg class="{cls}" viewBox="0 0 24 24" aria-hidden="true">{inner}</svg>'
+
+
+def scene_html(lang, c):
+    you = e(c["cinema"]["you"])
+    shortcut = "⌃⌥M"
+    tiles = [("Anna", "a", "AN"), ("Kenji", "b", "KE"), ("Leo", "c", "LE"), (None, "self", None)]
+    tile_html = []
+    for name, kind, initials in tiles:
+        if kind == "self":
+            tile_html.append(
+                f'<div class="t t-self"><div class="av"><svg viewBox="0 0 24 24"><circle cx="12" cy="8.3" r="4.2" fill="currentColor"/><path d="M3.8 20.5c1.6-4.3 4.7-6.3 8.2-6.3s6.6 2 8.2 6.3" fill="currentColor"/></svg></div><div class="bars"><i></i><i></i><i></i><i></i></div>'
+                f'<span class="nm">{you}</span><span class="badge">{glyph(MIC, "g on")}{glyph(MIC + SLASH, "g off")}</span></div>')
+        else:
+            tile_html.append(f'<div class="t t-{kind}"><div class="av">{initials}</div><span class="nm">{name}</span></div>')
+    toggles = [
+        ("Start Muted", True, '<path d="M5 4l14 16M9 5.5a3 3 0 0 1 6 .5v5M7 11a5 5 0 0 0 8.5 3.5M12 17v3" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/>'),
+        ("Mini Controller", True, '<rect x="3" y="8" width="18" height="8" rx="4" fill="none" stroke="currentColor" stroke-width="1.9"/><circle cx="8" cy="12" r="2.2" fill="currentColor"/>'),
+        ("Talk Reminder", True, '<path d="M5 5h14a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-8l-4 3v-3H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/><path d="M12 8v3.5M12 13.6v.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>'),
+        ("Mute Again", False, '<circle cx="12" cy="13" r="7" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M12 9.5V13l2.3 1.6M10 3h4" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/>'),
+    ]
+    tiles_panel = "".join(
+        f'<div class="qt{" is-on" if on else ""}"><span class="qi"><svg viewBox="0 0 24 24">{icon_path}</svg></span>'
+        f'<span class="qx"><b>{e(ui(lang, title))}</b><small>{e(ui(lang, "On" if on else "Off"))}</small></span></div>'
+        for title, on, icon_path in toggles
+    )
+    using = e(ui(lang, "%@ is using your mic").replace("%@", "Google Chrome"))
+    press = e(ui(lang, "Press your AirPods or %@ to talk").replace("%@", shortcut))
+    return f"""<div class="scene" aria-hidden="true">
+<div class="wall"></div>
+<div class="mb"><span class="mb-app">Google Chrome</span>
+<span class="mb-muffle">{glyph(MIC, "g on")}{glyph(MIC + SLASH, "g off")}</span>
+<span class="mb-i mb-cc"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="6" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17" cy="8" r="1.8" fill="currentColor"/><rect x="3" y="13" width="18" height="6" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="7" cy="16" r="1.8" fill="currentColor"/></svg></span>
+<span class="mb-i mb-wifi"><svg viewBox="0 0 24 24"><path d="M3 9.5a13 13 0 0 1 18 0M6 12.8a8.6 8.6 0 0 1 12 0M9 16a4.2 4.2 0 0 1 6 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="19" r="1.4" fill="currentColor"/></svg></span>
+<span class="mb-i mb-bat"><svg viewBox="0 0 30 24"><rect x="1.5" y="6" width="24" height="12" rx="3.5" fill="none" stroke="currentColor" stroke-width="1.6"/><rect x="4" y="8.5" width="16" height="7" rx="1.6" fill="currentColor"/><path d="M27.5 10v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+<span class="mb-clock">9:41</span></div>
+<div class="win">
+<div class="win-bar"><i class="tl r"></i><i class="tl y"></i><i class="tl g"></i><span class="url"><svg viewBox="0 0 24 24"><rect x="6" y="10.5" width="12" height="9" rx="2" fill="currentColor"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5" fill="none" stroke="currentColor" stroke-width="2"/></svg><i></i></span></div>
+<div class="grid">{"".join(tile_html)}</div>
+<div class="ctrl"><span class="cb cb-mic">{glyph(MIC, "g on")}{glyph(MIC + SLASH, "g off")}</span><span class="cb"><svg viewBox="0 0 24 24"><rect x="3" y="7" width="12" height="10" rx="2.5" fill="currentColor"/><path d="M15.5 10.5 21 7.5v9l-5.5-3z" fill="currentColor"/></svg></span><span class="cb cb-end"><svg viewBox="0 0 24 24"><path d="M3.5 13.5c4.8-4.5 12.2-4.5 17 0l-1.8 2.6-3.6-1.3v-2.3a10 10 0 0 0-6.2 0v2.3l-3.6 1.3z" fill="currentColor"/></svg></span></div>
+</div>
+<div class="pn">
+<div class="pm pm-head"><span class="mute">{glyph(MIC, "g on")}{glyph(MIC + SLASH, "g off")}</span><span class="px"><b><span class="on">{e(ui(lang, "Mic On"))}</span><span class="off">{e(ui(lang, "Muted"))}</span></b><small><span class="on">{e(ui(lang, "People in the call can hear you"))}</span><span class="off">{e(ui(lang, "Nobody in the call can hear you"))}</span></small></span></div>
+<div class="pm pm-call"><span class="app"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="currentColor"/><path d="M2.5 12h19M12 2.5c3 3.2 3 15.8 0 19M12 2.5c-3 3.2-3 15.8 0 19" fill="none" stroke="#fff" stroke-width="1.4"/></svg></span><span class="px"><span>{using}</span><i class="lvl"><i></i></i></span></div>
+<div class="pm pm-mics"><span class="cap-s">{e(ui(lang, "Microphone"))}<i class="chip">3 ⌄</i></span><span class="row"><i class="dot"><svg viewBox="0 0 24 24"><path d="M8 5a3 3 0 0 0-3 3v1a3 3 0 0 0 2 2.8V18a1 1 0 0 0 2 0v-6.2a3 3 0 0 0 2-2.8V8a3 3 0 0 0-3-3zM16 5a3 3 0 0 1 3 3v1a3 3 0 0 1-2 2.8V18a1 1 0 0 1-2 0v-6.2a3 3 0 0 1-2-2.8V8a3 3 0 0 1 3-3z" fill="currentColor"/></svg></i><span>AirPods Pro</span><svg class="check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+<div class="pm pm-level">{glyph(MIC, "g mini")}<i class="slider"><i></i><b></b></i><i class="lock"></i></div>
+<div class="qts">{tiles_panel}</div>
+<div class="pf"><span>{e(ui(lang, "Edit Panel…"))}</span><span>{e(ui(lang, "Settings…"))}</span><span>{e(ui(lang, "Quit Muffle"))}</span></div>
+</div>
+<div class="pill"><span class="on">{glyph(MIC, "g")}{e(ui(lang, "Live"))}</span><span class="off">{glyph(MIC + SLASH, "g")}{e(ui(lang, "Muted"))}</span></div>
+<div class="hud">{glyph(MIC + SLASH, "g")}<b>{e(ui(lang, "Muted"))}</b></div>
+<div class="remind">{glyph(MIC + SLASH, "g")}<span><b>{e(ui(lang, "You're muted"))}</b><small>{press}</small></span></div>
+<div class="edge"></div>
+<div class="pod"><i class="ring"></i><svg viewBox="0 0 160 300"><defs><linearGradient id="podg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset=".55" stop-color="#f1f2f5"/><stop offset="1" stop-color="#cfd2d9"/></linearGradient><linearGradient id="podt" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9da2ad"/><stop offset="1" stop-color="#d9dce3"/></linearGradient></defs>
+<ellipse cx="44" cy="70" rx="26" ry="30" fill="url(#podt)"/>
+<path d="M78 18c33 0 58 24 58 56 0 18-8 32-20 42l-4 150c-.4 14-9 22-21 22s-21-8-21-22l-2-120c-22-4-40-24-40-50 0-44 22-78 50-78z" fill="url(#podg)" stroke="#c9ccd3" stroke-width="1.5"/>
+<rect x="79" y="252" width="22" height="9" rx="4.5" fill="#3a3d44" opacity=".8"/><ellipse cx="110" cy="62" rx="9" ry="6" fill="#2d3036" opacity=".65"/></svg></div>
+</div>"""
 
 
 def home_page(lang, c, languages):
     url = f"{BASE_URL}/{prefix(lang)}"
     hero = c["hero"]
+    cinema = c["cinema"]
+    story = c["story"]["steps"]
     apps = "".join(f"<li>{e(a)}</li>" for a in c["works_with"]["apps"])
     items = c["features"]["items"]
     cards = []
-    for index, span, visual, alt_key in BENTO:
+    for index, visual, alt_key in RAIL:
         f = items[index]
-        text = f'<div class="card-text"><h3>{e(f["title"])}</h3><p>{e(f["text"])}</p></div>'
-        if alt_key:
-            cards.append(f'<article class="card span-{span} media reveal">{text}'
-                         f'<div class="card-media">{picture(lang, visual, c["features"][alt_key])}</div></article>')
-        else:
-            cards.append(f'<article class="card span-{span} reveal">{icon(visual, "ico card-ico")}{text}</article>')
-    story = c["story"]
-    story_alts = [hero["image_alt"], hero["image_alt"], c["features"]["image_reminder_alt"], c["features"]["image_pills_alt"]]
-    steps_html = "\n".join(
-        f'<article class="story-step" data-step="{i}"><span class="story-num">{i + 1}</span><h3>{e(s["title"])}</h3><p>{e(s["text"])}</p>'
-        f'{picture(lang, STORY_IMAGES[i], story_alts[i], cls="story-inline")}</article>'
-        for i, s in enumerate(story["steps"])
-    )
-    visuals = "".join(
-        f'<div class="story-frame" data-step="{i}">{picture(lang, name, "", cls="")}</div>' for i, name in enumerate(STORY_IMAGES)
-    )
+        media = (f'<div class="rc-media">{picture(lang, visual, c["features"][alt_key])}</div>' if alt_key
+                 else f'<div class="rc-icon">{icon(visual, "ico")}</div>')
+        cards.append(f'<article class="rc{" has-media" if alt_key else ""}"><h3>{e(f["title"])}</h3><p>{e(f["text"])}</p>{media}</article>')
+    captions = [
+        (cinema["panel_title"], cinema["panel_text"]),
+        (c["works_with"]["title"], c["works_with"]["note"]),
+        (story[0]["title"], story[0]["text"]),
+        (story[2]["title"], story[2]["text"]),
+    ]
+    caps = "\n".join(f'<div class="cap" data-cap="{i + 1}"><h2>{e(t)}</h2><p>{e(x)}</p></div>' for i, (t, x) in enumerate(captions))
+    statement = cinema["statement"]
+    if " " in statement.strip():
+        words = "".join(f'<span class="w">{e(word)}</span> ' for word in statement.split())
+    else:
+        words = "".join(f'<span class="w">{e(ch)}</span>' for ch in statement)
     stats = "".join(
         f'<div class="stat reveal" style="--d:{i * 90}ms"><span class="num" data-count="{e(s["value"])}">{e(s["value"])}</span>'
         f'<span class="label">{e(s["label"])}</span></div>'
@@ -375,43 +445,33 @@ def home_page(lang, c, languages):
         for g in c["guides"][:6]
     )
     body = f"""<main>
-<section class="hero">
-<div class="wrap hero-text">
-<p class="eyebrow reveal">{e(hero['eyebrow'])}</p>
-<h1 class="display reveal" style="--d:80ms">{e(hero['title'])}</h1>
-<p class="lead reveal" style="--d:160ms">{e(hero['subtitle'])}</p>
-<div class="cta-row reveal" style="--d:240ms">{download_button(c)}<a class="more-link" href="#story">{e(hero['secondary_cta'])}{icon("arrow", "ico chevron")}</a></div>
-<p class="fine reveal" style="--d:300ms">{e(c['cta']['trial'])} {e(c['cta']['requirements'])}</p>
+<section class="cinema" id="top">
+<div class="cinema-pin">
+<div class="cinema-view">{scene_html(lang, c)}</div>
+<div class="caps">
+<div class="cap cap-hero" data-cap="0">
+<p class="eyebrow">{e(hero['eyebrow'])}</p>
+<h1 class="display">{e(hero['title'])}</h1>
+<p class="lead">{e(hero['subtitle'])}</p>
+<div class="cta-row">{download_button(c)}<a class="more-link" href="#statement">{e(hero['secondary_cta'])}{icon("arrow", "ico chevron")}</a></div>
+<p class="fine">{e(c['cta']['trial'])} {e(c['cta']['requirements'])}</p>
 </div>
-<div class="stage reveal" style="--d:360ms">
-<div class="halo" aria-hidden="true"></div>
-{picture(lang, "panel", hero['image_alt'], cls="stage-panel", lazy=False)}
-<div class="float float-pill" data-parallax="-0.06" aria-hidden="true"><div class="bob"><div class="swap">{picture(lang, "pill-muted", "", cls="pill-a")}{picture(lang, "pill-live", "", cls="pill-b")}</div></div></div>
-<div class="float float-toast" data-parallax="-0.1" aria-hidden="true"><div class="bob slow">{picture(lang, "reminder", "")}</div></div>
+{caps}
 </div>
+<div class="scroll-hint" aria-hidden="true"><i></i></div>
+</div>
+<div class="cinema-still">{picture(lang, "panel", hero['image_alt'])}</div>
 </section>
-<section class="works">
-<div class="wrap"><h2 class="kicker reveal">{e(c['works_with']['title'])}</h2></div>
-<div class="marquee reveal"><div class="tracks"><ul>{apps}</ul><ul aria-hidden="true">{apps}</ul></div></div>
-<div class="wrap"><p class="note reveal">{e(c['works_with']['note'])}</p></div>
+<section class="statement" id="statement">
+<div class="wrap narrow"><p class="words">{words}</p></div>
 </section>
-<section class="story" id="story" data-active="0">
-<div class="wrap">
-<h2 class="headline reveal">{e(story['title'])}</h2>
-<div class="story-grid">
-<div class="story-steps">
-{steps_html}
-</div>
-<div class="story-visual" aria-hidden="true"><div class="story-sticky">{visuals}</div></div>
-</div>
-</div>
+<section class="works" aria-label="{e(c['works_with']['title'])}">
+<div class="marquee"><div class="tracks"><ul>{apps}</ul><ul aria-hidden="true">{apps}</ul></div></div>
 </section>
-<section class="features" id="features">
-<div class="wrap">
-<h2 class="headline reveal">{e(c['features']['title'])}</h2>
-<div class="bento">
-{"".join(cards)}
-</div>
+<section class="rail" id="features">
+<div class="rail-pin">
+<div class="wrap"><h2 class="headline">{e(c['features']['title'])}</h2></div>
+<div class="rail-view"><div class="rail-track">{"".join(cards)}</div></div>
 </div>
 </section>
 <section class="stats">
@@ -447,17 +507,18 @@ def home_page(lang, c, languages):
 </div>
 </section>
 <section class="final">
+<div class="final-pin">
 <div class="wrap center">
-<img class="final-icon reveal" src="{{REL}}assets/icon-180.png" alt="" width="128" height="128" loading="lazy">
-<h2 class="display reveal">{e(c['final_cta']['title'])}</h2>
-<p class="lead reveal">{e(c['final_cta']['text'])}</p>
-<div class="reveal">{download_button(c)}</div>
+<img class="final-icon" src="{{REL}}assets/icon-180.png" alt="" width="148" height="148" loading="lazy">
+<h2 class="display">{e(c['final_cta']['title'])}</h2>
+<p class="lead">{e(c['final_cta']['text'])}</p>
+<div class="final-cta">{download_button(c)}</div>
+</div>
 </div>
 </section>
 </main>"""
     ld = [app_ld(lang, c, url), website_ld(lang, c), faq_ld(c["faq"]["items"])]
-    return page(lang, c, "", c["meta"]["home_title"], c["meta"]["home_description"], body, ld, languages,
-                preload=image(lang, "panel"))
+    return page(lang, c, "", c["meta"]["home_title"], c["meta"]["home_description"], body, ld, languages)
 
 
 def guide_cards(guides, c):
@@ -600,6 +661,7 @@ def main():
     global WEBP, ASSET_VERSION
     WEBP = make_webp()
     ASSET_VERSION = asset_version()
+    APP_UI.update(json.load(open(os.path.join(SITE, "content", "app_ui.json"))))
     content = load_content()
     languages = [code for code in LANGS if code in content]
     # Clear earlier output (language folders, guides, support, privacy), keep sources and assets.

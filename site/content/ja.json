@@ -26,6 +26,12 @@
     "eyebrow": "Mac用Muffle",
     "secondary_cta": "仕組みを見る"
   },
+  "cinema": {
+    "panel_title": "すべての操作を1か所に。",
+    "panel_text": "メニューバーから直接、ミュート、マイクの選択、マイクレベルのロック、機能のオン/オフを切り替えられます。",
+    "you": "あなた",
+    "statement": "一般的なミュートボタンの多くは、1つのAppしかミュートできません。Muffleはマイク自体をオフにするため、Mac上のすべてのAppが無音になります。"
+  },
   "works_with": {
     "title": "マイクを使用するすべてのAppに対応",
     "apps": [

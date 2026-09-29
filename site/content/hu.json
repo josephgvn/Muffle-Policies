@@ -26,6 +26,12 @@
     "eyebrow": "Muffle Macre",
     "secondary_cta": "Nézze meg, hogyan működik"
   },
+  "cinema": {
+    "panel_title": "Minden vezérlő egy helyen.",
+    "panel_text": "Némítson, válasszon mikrofont, zárolja a mikrofonszintet, és kapcsolja be vagy ki a funkciókat közvetlenül a menüsorból.",
+    "you": "Ön",
+    "statement": "A legtöbb némítógomb csak egyetlen alkalmazást némít el. A Muffle magát a mikrofont kapcsolja ki, így a Macen minden alkalmazás csak csendet hall."
+  },
   "works_with": {
     "title": "Minden alkalmazással működik, amely használja a mikrofont",
     "apps": [

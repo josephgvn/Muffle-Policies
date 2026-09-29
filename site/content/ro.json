@@ -26,6 +26,12 @@
     "eyebrow": "Muffle pentru Mac",
     "secondary_cta": "Vedeți cum funcționează"
   },
+  "cinema": {
+    "panel_title": "Toate comenzile într-un singur loc.",
+    "panel_text": "Dezactivați microfonul, alegeți microfonul dorit, blocați-i nivelul și activați sau dezactivați funcții, direct din bara de meniu.",
+    "you": "Dvs.",
+    "statement": "Majoritatea butoanelor de dezactivare opresc microfonul doar într-o singură aplicație. Muffle dezactivează chiar microfonul, astfel încât fiecare aplicație de pe Mac aude doar liniște."
+  },
   "works_with": {
     "title": "Funcționează cu orice aplicație care vă utilizează microfonul",
     "apps": [

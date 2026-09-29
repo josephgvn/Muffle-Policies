@@ -26,6 +26,12 @@
     "eyebrow": "Muffle til Mac",
     "secondary_cta": "Se, hvordan det virker"
   },
+  "cinema": {
+    "panel_title": "Al betjening samlet ét sted.",
+    "panel_text": "Dæmp, vælg din mikrofon, lås dens niveau, og slå funktioner til og fra direkte fra menulinjen.",
+    "you": "Du",
+    "statement": "De fleste mute-knapper dæmper kun én app. Muffle slukker selve mikrofonen, så alle apps på din Mac hører stilhed."
+  },
   "works_with": {
     "title": "Virker med alle apps, der bruger din mikrofon",
     "apps": [

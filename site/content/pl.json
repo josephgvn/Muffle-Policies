@@ -26,6 +26,12 @@
     "eyebrow": "Muffle na Maca",
     "secondary_cta": "Zobacz, jak to działa"
   },
+  "cinema": {
+    "panel_title": "Wszystkie elementy sterujące w jednym miejscu.",
+    "panel_text": "Wyciszaj, wybieraj mikrofon, blokuj jego poziom oraz włączaj i wyłączaj funkcje prosto z paska menu.",
+    "you": "Ty",
+    "statement": "Większość przycisków wyciszania działa tylko w jednej aplikacji. Muffle wyłącza sam mikrofon, dzięki czemu każda aplikacja na Twoim Macu słyszy ciszę."
+  },
   "works_with": {
     "title": "Działa z każdą aplikacją, która korzysta z mikrofonu",
     "apps": [

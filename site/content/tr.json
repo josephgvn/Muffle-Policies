@@ -26,6 +26,12 @@
     "eyebrow": "Mac için Muffle",
     "secondary_cta": "Nasıl çalıştığını gör"
   },
+  "cinema": {
+    "panel_title": "Tüm kontroller tek bir yerde.",
+    "panel_text": "Sustur, mikrofonunu seç, seviyesini kilitle ve özellikleri doğrudan menü çubuğundan açıp kapat.",
+    "you": "Sen",
+    "statement": "Çoğu susturma düğmesi yalnızca tek bir uygulamayı susturur. Muffle mikrofonun kendisini kapatır, böylece Mac'indeki her uygulama sessizlik duyar."
+  },
   "works_with": {
     "title": "Mikrofonunu kullanan her uygulamayla çalışır",
     "apps": [

@@ -26,6 +26,12 @@
     "eyebrow": "Muffle za Mac",
     "secondary_cta": "Pogledajte kako radi"
   },
+  "cinema": {
+    "panel_title": "Sve kontrole na jednom mjestu.",
+    "panel_text": "Utišajte, odaberite mikrofon, zaključajte njegovu razinu i uključujte ili isključujte značajke, izravno iz trake s izbornicima.",
+    "you": "Vi",
+    "statement": "Većina gumba za utišavanje utišava samo jednu aplikaciju. Muffle isključuje sam mikrofon, pa svaka aplikacija na vašem Macu čuje tišinu."
+  },
   "works_with": {
     "title": "Radi sa svakom aplikacijom koja upotrebljava mikrofon",
     "apps": [

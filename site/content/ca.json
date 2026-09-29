@@ -26,6 +26,12 @@
     "eyebrow": "Muffle per a Mac",
     "secondary_cta": "Mira com funciona"
   },
+  "cinema": {
+    "panel_title": "Tots els controls en un sol lloc.",
+    "panel_text": "Silencia, tria el micròfon, bloqueja'n el nivell i activa o desactiva funcions, directament des de la barra de menús.",
+    "you": "Tu",
+    "statement": "La majoria de botons per silenciar només silencien una app. Muffle desactiva el mateix micròfon, de manera que totes les apps del Mac senten silenci."
+  },
   "works_with": {
     "title": "Funciona amb qualsevol app que utilitzi el micròfon",
     "apps": [

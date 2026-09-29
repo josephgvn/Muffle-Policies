@@ -26,6 +26,12 @@
     "eyebrow": "Muffle pour Mac",
     "secondary_cta": "Voir comment ça fonctionne"
   },
+  "cinema": {
+    "panel_title": "Toutes les commandes au même endroit.",
+    "panel_text": "Coupez le micro, choisissez votre micro, verrouillez son niveau et activez ou désactivez les fonctionnalités, directement depuis la barre des menus.",
+    "you": "Vous",
+    "statement": "La plupart des boutons de sourdine ne coupent qu'une seule app. Muffle désactive directement le micro, pour que chaque app sur votre Mac n'entende que le silence."
+  },
   "works_with": {
     "title": "Fonctionne avec toutes les apps qui utilisent votre micro",
     "apps": [

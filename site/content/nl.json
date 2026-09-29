@@ -26,6 +26,12 @@
     "eyebrow": "Muffle voor Mac",
     "secondary_cta": "Bekijk hoe het werkt"
   },
+  "cinema": {
+    "panel_title": "Alle bediening op één plek.",
+    "panel_text": "Demp, kies je microfoon, vergrendel het niveau en schakel functies in en uit, direct vanuit de menubalk.",
+    "you": "Jij",
+    "statement": "De meeste dempknoppen dempen maar één app. Muffle schakelt de microfoon zelf uit, zodat elke app op je Mac stilte hoort."
+  },
   "works_with": {
     "title": "Werkt met elke app die je microfoon gebruikt",
     "apps": [

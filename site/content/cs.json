@@ -26,6 +26,12 @@
     "eyebrow": "Muffle pro Mac",
     "secondary_cta": "Podívejte se, jak funguje"
   },
+  "cinema": {
+    "panel_title": "Všechny ovládací prvky na jednom místě.",
+    "panel_text": "Ztlumte mikrofon, vyberte vhodný vstup, uzamkněte jeho úroveň a zapínejte funkce přímo z řádku nabídek.",
+    "you": "Vy",
+    "statement": "Většina tlačítek pro ztlumení funguje jen v jedné aplikaci. Muffle vypíná přímo mikrofon, takže každá aplikace na Macu slyší jen ticho."
+  },
   "works_with": {
     "title": "Funguje s každou aplikací, která používá mikrofon",
     "apps": [

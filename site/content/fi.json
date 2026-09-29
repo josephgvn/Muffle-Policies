@@ -26,6 +26,12 @@
     "eyebrow": "Muffle Macille",
     "secondary_cta": "Katso miten se toimii"
   },
+  "cinema": {
+    "panel_title": "Kaikki säätimet yhdessä paikassa.",
+    "panel_text": "Mykistä, valitse mikrofoni, lukitse sen taso ja kytke ominaisuuksia päälle tai pois suoraan valikkoriviltä.",
+    "you": "Sinä",
+    "statement": "Useimmat mykistyspainikkeet mykistävät vain yhden sovelluksen. Muffle sammuttaa itse mikrofonin, joten jokainen Macisi sovellus kuulee pelkkää hiljaisuutta."
+  },
   "works_with": {
     "title": "Toimii kaikkien mikrofonia käyttävien sovellusten kanssa",
     "apps": [

@@ -26,6 +26,12 @@
     "eyebrow": "Muffle für Mac",
     "secondary_cta": "So funktioniert es"
   },
+  "cinema": {
+    "panel_title": "Alle Steuerelemente an einem Ort.",
+    "panel_text": "Stummschalten, dein Mikrofon auswählen, den Pegel sperren und Funktionen direkt aus der Menüleiste ein- und ausschalten.",
+    "you": "Du",
+    "statement": "Die meisten Stummschalttasten schalten nur eine einzige App stumm. Muffle schaltet das Mikrofon selbst aus, sodass jede App auf deinem Mac Stille hört."
+  },
   "works_with": {
     "title": "Funktioniert mit jeder App, die dein Mikrofon nutzt",
     "apps": [
