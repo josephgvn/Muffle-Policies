@@ -31,7 +31,13 @@
     "panel_text": "Coupez le micro, choisissez votre micro, verrouillez son niveau et activez ou désactivez les fonctionnalités, directement depuis la barre des menus.",
     "statement": "La plupart des boutons de sourdine ne coupent qu'une seule app. Muffle désactive directement le micro, pour que chaque app sur votre Mac n'entende que le silence.",
     "mute_title": "Un appui. Le silence.",
-    "mute_text": "Cliquez sur le bouton, appuyez sur vos AirPods ou utilisez un raccourci. Muffle coupe directement le micro : chaque app n'entend que le silence."
+    "mute_text": "Cliquez sur le bouton, appuyez sur vos AirPods ou utilisez un raccourci. Muffle coupe directement le micro : chaque app n'entend que le silence.",
+    "mics_title": "Changez de micro en un clic.",
+    "mics_text": "Tous les micros de votre Mac sont accessibles directement. Choisissez-en un et toutes les apps s'y adaptent.",
+    "level_title": "Le niveau de votre micro reste stable.",
+    "level_text": "Chrome, Zoom et Teams modifient le niveau de votre micro d'eux-mêmes. Verrouillez-le et Muffle le rétablit.",
+    "toggles_title": "Vos commandes, selon vos besoins.",
+    "toggles_text": "Activez ou désactivez les fonctionnalités directement depuis le panneau et choisissez celles qui y figurent."
   },
   "works_with": {
     "title": "Fonctionne avec toutes les apps qui utilisent votre micro",
@@ -73,6 +79,27 @@
       {
         "title": "Sachez toujours si vous êtes actif.",
         "text": "Un petit bouton flottant affiche l'état de votre micro et le coupe en un clic. Vert pour actif, rouge pour coupé."
+      }
+    ]
+  },
+  "tour": {
+    "title": "Des réglages parfaitement intégrés à votre Mac.",
+    "steps": [
+      {
+        "title": "Adaptez-le à vos envies.",
+        "text": "Choisissez une icône pour la barre des menus : sobre, vert et rouge, ou un simple point. Muffle peut aussi se lancer au démarrage de votre Mac."
+      },
+      {
+        "title": "Vos appels en pilote automatique.",
+        "text": "Coupez le micro au début de chaque appel, réactivez-le à la fin, ou coupez-le dès que votre Mac se verrouille ou que votre casque se déconnecte."
+      },
+      {
+        "title": "Maintenir pour parler, comme vous voulez.",
+        "text": "Appuyez pour basculer, maintenez pour parler ou maintenez pour couper. Définissez des touches distinctes pour couper et réactiver, ou une touche pour parler comme ⌥ droite."
+      },
+      {
+        "title": "Votre panneau, selon vos préférences.",
+        "text": "Choisissez ce qu'affiche le panneau de la barre des menus et quelles commandes rapides se placent en bas."
       }
     ]
   },
@@ -132,7 +159,14 @@
     "image_pills_alt": "Le mini-contrôleur flottant avec le micro coupé et le micro activé",
     "image_automation_alt": "Réglages de Muffle pour couper le micro au début de chaque appel et gérer les automatisations",
     "image_suggestion_alt": "Muffle suggérant le micro du Mac car la pièce est calme",
-    "image_keyboard_alt": "Réglages clavier de Muffle avec maintien pour parler et touche pour parler"
+    "image_keyboard_alt": "Les réglages clavier de Muffle configurés sur « Maintenir pour parler »",
+    "image_airpods_alt": "Les réglages AirPods de Muffle avec l'option « Couper et activer le micro avec un appui AirPods » activée",
+    "image_shortcut_alt": "Les messages « Coupé » et « Micro activé » affichés par Muffle quand vous utilisez le raccourci",
+    "image_level_alt": "Le curseur de niveau du micro dans le panneau de Muffle avec son verrouillage activé",
+    "image_remute_alt": "Le message « À nouveau coupé » après 30 secondes de silence",
+    "image_disconnect_alt": "Le message affiché par Muffle après avoir coupé votre micro car vos AirPods se sont déconnectés",
+    "image_shortcuts_alt": "Les réglages Automatisation de Muffle avec ses liens pour Raccourcis, les lanceurs et le Stream Deck",
+    "image_status_alt": "Les réglages État du micro de Muffle pour l'état à l'écran, l'illumination des bords de l'écran et le mini-contrôleur"
   },
   "stats": {
     "title": "Petite app. Grande tranquillité d'esprit.",

@@ -31,7 +31,13 @@
     "panel_text": "Tắt tiếng, chọn micrô, khóa mức micrô và bật tắt các tính năng ngay từ thanh menu.",
     "statement": "Hầu hết các nút tắt tiếng chỉ tắt tiếng một ứng dụng. Muffle trực tiếp tắt micrô, nhờ đó mọi ứng dụng trên Mac của bạn đều chỉ thu được sự im lặng.",
     "mute_title": "Một lần nhấn. Yên lặng tức thì.",
-    "mute_text": "Nhấp nút, nhấn AirPods hoặc dùng phím tắt. Muffle sẽ trực tiếp tắt tiếng micrô, vì vậy mọi ứng dụng cuộc gọi đều chỉ nghe thấy sự im lặng."
+    "mute_text": "Nhấp nút, nhấn AirPods hoặc dùng phím tắt. Muffle sẽ trực tiếp tắt tiếng micrô, vì vậy mọi ứng dụng cuộc gọi đều chỉ nghe thấy sự im lặng.",
+    "mics_title": "Chuyển đổi micrô chỉ với một lần nhấp.",
+    "mics_text": "Mọi micrô trên Mac đều hiển thị ngay tại đó. Chỉ cần chọn một micrô và mọi ứng dụng sẽ chuyển theo.",
+    "level_title": "Mức micrô của bạn luôn ổn định.",
+    "level_text": "Chrome, Zoom và Teams tự ý thay đổi mức micrô của bạn. Khóa lại và Muffle sẽ khôi phục như cũ.",
+    "toggles_title": "Nút chuyển nhanh theo ý bạn.",
+    "toggles_text": "Bật và tắt các tính năng ngay từ bảng điều khiển, đồng thời chọn những tính năng hiển thị tại đó."
   },
   "works_with": {
     "title": "Hoạt động với mọi ứng dụng dùng micrô của bạn",
@@ -73,6 +79,27 @@
       {
         "title": "Luôn biết khi nào mic đang bật.",
         "text": "Một nút nổi nhỏ hiển thị trạng thái micrô và tắt tiếng chỉ với một lần nhấp. Xanh lá là mic đang bật, đỏ là đã tắt tiếng."
+      }
+    ]
+  },
+  "tour": {
+    "title": "Cài đặt như một phần tự nhiên trên Mac.",
+    "steps": [
+      {
+        "title": "Tùy biến theo ý bạn.",
+        "text": "Chọn biểu tượng thanh menu: tiêu chuẩn, xanh lá và đỏ, hoặc chỉ một chấm tròn. Muffle cũng có thể khởi động cùng với Mac."
+      },
+      {
+        "title": "Tự động hóa cuộc gọi.",
+        "text": "Bắt đầu mọi cuộc gọi ở chế độ tắt tiếng, bật tiếng khi kết thúc, tắt tiếng khi bạn khóa Mac hoặc tai nghe ngắt kết nối."
+      },
+      {
+        "title": "Nhấn để nói chuyện theo cách của bạn.",
+        "text": "Chạm để chuyển đổi, giữ để nói chuyện hoặc giữ để tắt tiếng. Thêm các phím tắt và bật tiếng riêng biệt, hoặc một phím nói như ⌥ bên phải."
+      },
+      {
+        "title": "Bảng điều khiển theo cách của bạn.",
+        "text": "Chọn nội dung hiển thị trong bảng điều khiển thanh menu và các nút chuyển nhanh ở phía dưới."
       }
     ]
   },
@@ -132,7 +159,14 @@
     "image_pills_alt": "Bộ điều khiển thu nhỏ dạng nổi ở trạng thái tắt tiếng và đang bật",
     "image_automation_alt": "Cài đặt Muffle để bắt đầu cuộc gọi ở chế độ tắt tiếng và các tính năng tự động hóa cuộc gọi khác",
     "image_suggestion_alt": "Muffle gợi ý dùng micrô của Mac vì căn phòng đang yên tĩnh",
-    "image_keyboard_alt": "Cài đặt bàn phím Muffle với tính năng nhấn để nói chuyện và phím nói"
+    "image_keyboard_alt": "Cài đặt bàn phím của Muffle được thiết lập thành nhấn để nói chuyện",
+    "image_airpods_alt": "Cài đặt AirPods của Muffle với tùy chọn “Tắt và bật tiếng bằng cách nhấn AirPods” đang bật",
+    "image_shortcut_alt": "Các thông báo Tắt tiếng và Đã bật mic mà Muffle hiển thị khi bạn dùng phím tắt",
+    "image_level_alt": "Thanh trượt mức micrô trong bảng điều khiển Muffle với khóa đang bật",
+    "image_remute_alt": "Thông báo “Đã tắt tiếng trở lại” sau 30 giây im lặng",
+    "image_disconnect_alt": "Thông báo Muffle hiển thị sau khi tắt tiếng micrô vì AirPods của bạn đã ngắt kết nối",
+    "image_shortcuts_alt": "Cài đặt Tự động hóa của Muffle cùng các liên kết cho Phím tắt, trình khởi chạy và Stream Deck",
+    "image_status_alt": "Cài đặt Trạng thái tắt tiếng của Muffle cho trạng thái trên màn hình, phát sáng viền màn hình và bộ điều khiển thu nhỏ"
   },
   "stats": {
     "title": "Ứng dụng nhỏ. Yên tâm tuyệt đối.",

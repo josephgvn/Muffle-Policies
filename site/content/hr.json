@@ -31,7 +31,13 @@
     "panel_text": "Utišajte, odaberite mikrofon, zaključajte njegovu razinu i uključujte ili isključujte značajke, izravno iz trake s izbornicima.",
     "statement": "Većina gumba za utišavanje utišava samo jednu aplikaciju. Muffle isključuje sam mikrofon, pa svaka aplikacija na vašem Macu čuje tišinu.",
     "mute_title": "Jedan pritisak. Tišina.",
-    "mute_text": "Kliknite gumb, pritisnite AirPods ili upotrijebite tipkovni prečac. Muffle isključuje sam mikrofon, pa svaka aplikacija čuje tišinu."
+    "mute_text": "Kliknite gumb, pritisnite AirPods ili upotrijebite tipkovni prečac. Muffle isključuje sam mikrofon, pa svaka aplikacija čuje tišinu.",
+    "mics_title": "Promijenite mikrofone jednim klikom.",
+    "mics_text": "Svaki mikrofon na vašem Macu odmah je pri ruci. Odaberite jedan i svaka ga aplikacija prati.",
+    "level_title": "Razina mikrofona ostaje stabilna.",
+    "level_text": "Chrome, Zoom i Teams sami mijenjaju razinu mikrofona. Zaključajte je i Muffle je vraća natrag.",
+    "toggles_title": "Vaši prekidači, na vaš način.",
+    "toggles_text": "Uključujte i isključujte značajke izravno iz ploče te odaberite koje se ondje nalaze."
   },
   "works_with": {
     "title": "Radi sa svakom aplikacijom koja upotrebljava mikrofon",
@@ -73,6 +79,27 @@
       {
         "title": "Uvijek znajte jeste li uključeni.",
         "text": "Mali plutajući gumb prikazuje stanje mikrofona i utišava jednim klikom. Zeleno je uključeno, crveno je utišano."
+      }
+    ]
+  },
+  "tour": {
+    "title": "Postavke koje savršeno pristaju vašem Macu.",
+    "steps": [
+      {
+        "title": "Prilagodite sebi.",
+        "text": "Odaberite ikonu trake s izbornicima: običnu, zeleno i crveno ili samo točku. Muffle se može pokrenuti s vašim Macom."
+      },
+      {
+        "title": "Pozivi na autopilotu.",
+        "text": "Započnite svaki poziv s utišanim mikrofonom, uključite ga kad završi, utišajte kada zaključate Mac ili se slušalice odspoje."
+      },
+      {
+        "title": "Pritisni za govor, na vaš način.",
+        "text": "Dodirnite za prebacivanje, držite za govor ili držite za utišavanje. Dodajte zasebne tipke za utišavanje i uključivanje ili tipku za govor poput Desni ⌥."
+      },
+      {
+        "title": "Vaša ploča, na vaš način.",
+        "text": "Odaberite što prikazuje ploča trake s izbornicima i koji se brzi prekidači nalaze na dnu."
       }
     ]
   },
@@ -132,7 +159,14 @@
     "image_pills_alt": "Plutajući mini kontroler u utišanom i uključenom stanju",
     "image_automation_alt": "Postavke za Muffle za pokretanje poziva s utišanim mikrofonom i druge automatizacije poziva",
     "image_suggestion_alt": "Muffle predlaže mikrofon Maca jer je prostorija tiha",
-    "image_keyboard_alt": "Postavke tipkovnice za Muffle s načinom pritisni za govor i tipkom za govor"
+    "image_keyboard_alt": "Postavke tipkovnice u aplikaciji Muffle postavljene na pritisni za govor",
+    "image_airpods_alt": "Postavke za AirPods u aplikaciji Muffle s uključenom opcijom „Utišajte i uključujte pritiskom na AirPods”",
+    "image_shortcut_alt": "Poruke „Utišan” i „Mikrofon uključen” koje Muffle prikazuje pri upotrebi tipkovnog prečaca",
+    "image_level_alt": "Klizač razine mikrofona u ploči Muffle s uključenim zaključavanjem",
+    "image_remute_alt": "Poruka „Ponovno utišan” nakon 30 sekundi tišine",
+    "image_disconnect_alt": "Poruka koju Muffle prikazuje nakon utišavanja mikrofona zbog odspajanja AirPods slušalica",
+    "image_shortcuts_alt": "Postavke Automatizacije u aplikaciji Muffle s poveznicama za Prečace, launchere i Stream Deck",
+    "image_status_alt": "Postavke Stanja utišanosti u aplikaciji Muffle za prikaz stanja na zaslonu, sjaj rubova zaslona i mini kontroler"
   },
   "stats": {
     "title": "Mala aplikacija. Veliki mir.",

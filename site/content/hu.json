@@ -31,7 +31,13 @@
     "panel_text": "Némítson, válasszon mikrofont, zárolja a mikrofonszintet, és kapcsolja be vagy ki a funkciókat közvetlenül a menüsorból.",
     "statement": "A legtöbb némítógomb csak egyetlen alkalmazást némít el. A Muffle magát a mikrofont kapcsolja ki, így a Macen minden alkalmazás csak csendet hall.",
     "mute_title": "Egyetlen megnyomás. Csend.",
-    "mute_text": "Kattintson a gombra, nyomja meg az AirPodsot, vagy használjon billentyűparancsot. A Muffle magát a mikrofont kapcsolja ki, így minden alkalmazás csendet hall."
+    "mute_text": "Kattintson a gombra, nyomja meg az AirPodsot, vagy használjon billentyűparancsot. A Muffle magát a mikrofont kapcsolja ki, így minden alkalmazás csendet hall.",
+    "mics_title": "Váltson mikrofont egyetlen kattintással.",
+    "mics_text": "A Mac összes mikrofonja közvetlenül kéznél van. Válasszon egyet, és az összes alkalmazás követi.",
+    "level_title": "A mikrofonszint stabil marad.",
+    "level_text": "A Chrome, a Zoom és a Teams magától módosítja a mikrofonszintet. Zárolja, és a Muffle visszaállítja.",
+    "toggles_title": "Kapcsolók az Ön igényei szerint.",
+    "toggles_text": "Kapcsolja be és ki a funkciókat közvetlenül a panelről, és válassza ki, melyek jelenjenek meg ott."
   },
   "works_with": {
     "title": "Minden alkalmazással működik, amely használja a mikrofont",
@@ -73,6 +79,27 @@
       {
         "title": "Mindig tudhatja, ha élő.",
         "text": "Egy kis lebegő gomb mutatja a mikrofon állapotát, és egy kattintással némít. A zöld az élő, a piros a némított állapotot jelzi."
+      }
+    ]
+  },
+  "tour": {
+    "title": "Beállítások, amelyek tökéletesen illenek a Machez.",
+    "steps": [
+      {
+        "title": "Szabja személyre.",
+        "text": "Válasszon menüsorikont: normál, zöld és piros, vagy csak egy pont. A Muffle elindulhat a Mac bekapcsolásakor is."
+      },
+      {
+        "title": "Hívások automatikusan.",
+        "text": "Indítson minden hívást némítva, kapcsolja vissza a mikrofont a hívás végén, némítson a Mac zárolásakor, vagy ha a headset lecsatlakozik."
+      },
+      {
+        "title": "Gombnyomásra beszéd, ahogy Ön szeretné.",
+        "text": "Érintse meg az átváltáshoz, tartsa lenyomva a beszédhez vagy a némításhoz. Állítson be külön némító és visszakapcsoló billentyűket, vagy egy beszédbillentyűt, mint a Jobb ⌥."
+      },
+      {
+        "title": "Az Ön panelje, az Ön igényei szerint.",
+        "text": "Válassza ki, mi jelenjen meg a menüsorpanelen, és mely gyorskapcsolók kapjanak helyet alul."
       }
     ]
   },
@@ -132,7 +159,14 @@
     "image_pills_alt": "A lebegő mini vezérlő némított és élő állapotban",
     "image_automation_alt": "Muffle beállítások a hívások némított indításához és az automatizáláshoz",
     "image_suggestion_alt": "A Muffle a Mac mikrofonját javasolja, mert a szoba csendes",
-    "image_keyboard_alt": "A Muffle billentyűzet-beállításai a gombnyomásra beszéd funkcióval és a beszédbillentyűvel"
+    "image_keyboard_alt": "A Muffle Billentyűzet beállításai a Gombnyomásra beszéd funkcióra állítva",
+    "image_airpods_alt": "A Muffle AirPods beállításai a „Némítás és visszakapcsolás AirPods-megnyomással” bekapcsolt állapotában",
+    "image_shortcut_alt": "A Muffle által a billentyűparancs használatakor megjelenített Némítva és Mikrofon be üzenetek",
+    "image_level_alt": "A mikrofonszint csúszkája a Muffle panelen bekapcsolt zárolással",
+    "image_remute_alt": "Az „Újra némítva” üzenet 30 másodperc csend után",
+    "image_disconnect_alt": "A Muffle által megjelenített üzenet, miután elnémította a mikrofont az AirPods lecsatlakozása miatt",
+    "image_shortcuts_alt": "A Muffle Automatizálás beállításai a Parancsikonok, az indítók és a Stream Deck linkjeivel",
+    "image_status_alt": "A Muffle Némítási állapot beállításai a képernyőn megjelenő állapotra, a képernyő széleinek világítására és a mini vezérlőre vonatkozóan"
   },
   "stats": {
     "title": "Kis alkalmazás. Nagy nyugalom.",

@@ -2,6 +2,7 @@
 """Translates only what changed in site/content/en.json since the last commit, into every language.
 
     GEMINI_API_KEY=... python3 site/translate_changes.py [lang ...]
+    BASE=saved-en.json GEMINI_API_KEY=... python3 site/translate_changes.py   (compare with a saved copy instead)
 
 Existing translations stay as they are; new and edited English strings are sent to Gemini with the same
 instructions as site/translate.py, and the results are written into each language file.
@@ -61,8 +62,12 @@ def fill_missing(target, english):
 
 
 def changed_paths():
-    old = json.loads(subprocess.run(["git", "show", "HEAD:site/content/en.json"], cwd=os.path.dirname(HERE),
-                                    capture_output=True, text=True, check=True).stdout)
+    # BASE=file compares with a saved copy of en.json instead of the last commit.
+    if os.environ.get("BASE"):
+        old = json.load(open(os.environ["BASE"]))
+    else:
+        old = json.loads(subprocess.run(["git", "show", "HEAD:site/content/en.json"], cwd=os.path.dirname(HERE),
+                                        capture_output=True, text=True, check=True).stdout)
     new = json.load(open(os.path.join(HERE, "content", "en.json")))
     before = dict(flatten(old))
     return new, {path: value for path, value in flatten(new) if before.get(path) != value and not SKIP.search(path)}

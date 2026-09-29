@@ -31,7 +31,13 @@
     "panel_text": "Dezactivați microfonul, alegeți microfonul dorit, blocați-i nivelul și activați sau dezactivați funcții, direct din bara de meniu.",
     "statement": "Majoritatea butoanelor de dezactivare opresc microfonul doar într-o singură aplicație. Muffle dezactivează chiar microfonul, astfel încât fiecare aplicație de pe Mac aude doar liniște.",
     "mute_title": "O singură apăsare. Liniște.",
-    "mute_text": "Faceți clic pe buton, apăsați AirPods sau folosiți o combinație de taste. Muffle dezactivează chiar microfonul, astfel că fiecare aplicație aude doar liniște."
+    "mute_text": "Faceți clic pe buton, apăsați AirPods sau folosiți o combinație de taste. Muffle dezactivează chiar microfonul, astfel că fiecare aplicație aude doar liniște.",
+    "mics_title": "Comutați microfoanele cu un singur clic.",
+    "mics_text": "Fiecare microfon de pe Mac este chiar acolo. Alegeți unul și fiecare aplicație îl va folosi.",
+    "level_title": "Nivelul microfonului rămâne stabil.",
+    "level_text": "Chrome, Zoom și Teams modifică nivelul microfonului de la sine. Blocați-l, iar Muffle îl readuce la loc.",
+    "toggles_title": "Comutatoarele dvs., exact cum doriți.",
+    "toggles_text": "Activați și dezactivați funcții direct din panou și alegeți care dintre ele să fie afișate acolo."
   },
   "works_with": {
     "title": "Funcționează cu orice aplicație care vă utilizează microfonul",
@@ -73,6 +79,27 @@
       {
         "title": "Știți întotdeauna dacă sunteți activ.",
         "text": "Un mic buton plutitor indică starea microfonului și îl dezactivează cu un clic. Verde înseamnă activ, roșu înseamnă mut."
+      }
+    ]
+  },
+  "tour": {
+    "title": "Configurări integrate perfect pe Mac.",
+    "steps": [
+      {
+        "title": "Personalizare completă.",
+        "text": "Alegeți o pictogramă pentru bara de meniu: simplă, verde și roșu sau doar un punct. Muffle poate porni odată cu Mac-ul."
+      },
+      {
+        "title": "Apeluri pe pilot automat.",
+        "text": "Începeți fiecare apel cu microfonul dezactivat, reactivați-l la final, puneți-l pe mut la blocarea Mac-ului sau dacă se deconectează căștile."
+      },
+      {
+        "title": "Apăsați pentru a vorbi, în stilul dvs.",
+        "text": "Atingeți pentru a comuta, țineți apăsat ca să vorbiți sau țineți apăsat pentru a dezactiva. Adăugați taste separate de dezactivare și activare sau o tastă pentru vorbire precum ⌥ dreapta."
+      },
+      {
+        "title": "Panoul dvs., exact cum doriți.",
+        "text": "Alegeți ce afișează panoul din bara de meniu și ce comutatoare rapide se află în partea de jos."
       }
     ]
   },
@@ -132,7 +159,14 @@
     "image_pills_alt": "Mini controlerul plutitor în stările mut și activ",
     "image_automation_alt": "Configurări Muffle pentru începerea apelurilor pe mut și alte automatizări",
     "image_suggestion_alt": "Muffle sugerează microfonul Mac-ului deoarece în încăpere este liniște",
-    "image_keyboard_alt": "Configurări de tastatură Muffle cu apăsare pentru a vorbi și tastă pentru vorbire"
+    "image_keyboard_alt": "Configurările Tastatură din Muffle setate la apăsați pentru a vorbi",
+    "image_airpods_alt": "Configurările AirPods din Muffle cu opțiunea „Dezactivați și activați cu o apăsare AirPods” activată",
+    "image_shortcut_alt": "Mesajele Mut și Microfon pornit afișate de Muffle când utilizați combinația de taste",
+    "image_level_alt": "Glisorul pentru nivelul microfonului din panoul Muffle cu blocarea activată",
+    "image_remute_alt": "Mesajul „Din nou pe mut” după 30 de secunde de liniște",
+    "image_disconnect_alt": "Mesajul afișat de Muffle după dezactivarea microfonului deoarece căștile AirPods s-au deconectat",
+    "image_shortcuts_alt": "Configurările Automatizare din Muffle cu linkurile pentru Comenzi rapide, launchere și Stream Deck",
+    "image_status_alt": "Configurările Stare dezactivare din Muffle pentru starea pe ecran, iluminarea marginilor ecranului și mini controler"
   },
   "stats": {
     "title": "Aplicație mică. Liniște deplină.",

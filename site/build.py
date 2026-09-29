@@ -106,62 +106,60 @@ def asset_version():
     return digest.hexdigest()[:10]
 
 
-def image(lang, name):
-    localized = os.path.join(ROOT, "assets", "img", lang, f"{name}.png")
-    return f"assets/img/{lang if os.path.exists(localized) else 'en'}/{name}.png"
+def image(lang, name, ext="webp"):
+    """The picture in the page's language, or the English one when that language has none."""
+    localized = os.path.join(ROOT, "assets", "img", lang, f"{name}.{ext}")
+    return f"assets/img/{lang if os.path.exists(localized) else 'en'}/{name}.{ext}"
 
 
 def image_size(path):
-    """Width and height (CSS pixels, images are 2x) read from the PNG header."""
+    """Width and height in CSS pixels (pictures are drawn at 2x)."""
     try:
-        with open(os.path.join(ROOT, path), "rb") as f:
-            data = f.read(24)
-        width, height = int.from_bytes(data[16:20], "big"), int.from_bytes(data[20:24], "big")
-        return width // 2, height // 2
-    except OSError:
+        from PIL import Image
+        with Image.open(os.path.join(ROOT, path)) as im:
+            return im.width // 2, im.height // 2
+    except (ImportError, OSError):
         return None, None
 
 
 def make_webp():
-    """A WebP next to every PNG screenshot (about a fifth of the size). Skipped when Pillow is missing."""
-    try:
-        from PIL import Image
-    except ImportError:
-        return False
+    """Turns the renderer's PNGs into the WebPs the site serves (about a fifth of the size). The PNGs stay out of
+    git (.gitignore); every browser that runs these pages shows WebP. og.png stays a PNG for link previews."""
+    from PIL import Image
     for png in glob.glob(os.path.join(ROOT, "assets", "img", "*", "*.png")):
         if png.endswith("og.png"):
             continue
         webp = png[:-4] + ".webp"
         if not os.path.exists(webp) or os.path.getmtime(webp) < os.path.getmtime(png):
-            Image.open(png).save(webp, "WEBP", quality=90, method=6)
-    return True
+            Image.open(png).save(webp, "WEBP", quality=90, method=4)
 
 
-WEBP = False
 ASSET_VERSION = ""
 
 
-def picture(lang, name, alt, cls="", lazy=True):
-    """<picture> with WebP and PNG. Sizes come from the PNG so the page never jumps while loading."""
-    path = image(lang, name)
-    width, height = image_size(path)
+def theme_picture(lang, base, alt, cls="", lazy=True, priority=False):
+    """<picture> that follows the visitor's light or dark mode: base-light / base-dark."""
+    light = image(lang, f"{base}-light")
+    dark = image(lang, f"{base}-dark")
+    width, height = image_size(light)
     size = f' width="{width}" height="{height}"' if width else ""
-    loading = ' loading="lazy" decoding="async"' if lazy else ' fetchpriority="high" decoding="async"'
-    source = f'<source type="image/webp" srcset="{{REL}}{path[:-4]}.webp">' if WEBP else ""
+    loading = ' fetchpriority="high" decoding="async"' if priority else (' loading="lazy" decoding="async"' if lazy else ' decoding="async"')
     klass = f' class="{cls}"' if cls else ""
-    return f'<picture{klass}>{source}<img src="{{REL}}{path}" alt="{e(alt)}"{size}{loading}></picture>'
+    return (f'<picture{klass}><source media="(prefers-color-scheme: dark)" srcset="{{REL}}{dark}">'
+            f'<img src="{{REL}}{light}" alt="{e(alt)}"{size}{loading}></picture>')
+
+
+def panel_layout(lang):
+    """Where each part of the rendered panel sits (points), written by the app's site image renderer."""
+    for code in (lang, "en"):
+        path = os.path.join(ROOT, "assets", "img", code, "ui-panel.json")
+        if os.path.exists(path):
+            return json.load(open(path))
+    raise SystemExit("assets/img/en/ui-panel.json is missing: run Tools/site_images.sh in the app repo")
 
 
 # Line icons drawn for this site, 24 x 24, stroked with the text color.
 ICONS = {
-    "airpods": '<path d="M7.5 4.5a3 3 0 0 0-3 3v1a3 3 0 0 0 2 2.83V18.5a1 1 0 0 0 2 0v-7.17a3 3 0 0 0 2-2.83v-1a3 3 0 0 0-3-3z"/>'
-               '<path d="M16.5 4.5a3 3 0 0 1 3 3v1a3 3 0 0 1-2 2.83V18.5a1 1 0 0 1-2 0v-7.17a3 3 0 0 1-2-2.83v-1a3 3 0 0 1 3-3z"/>',
-    "keyboard": '<rect x="2.5" y="6" width="19" height="12" rx="2.5"/><path d="M6.5 10h.01M10 10h.01M13.5 10h.01M17 10h.01M8 14h8"/>',
-    "sliders": '<path d="M4 7h9M17 7h3M4 17h3M11 17h9"/><circle cx="15" cy="7" r="2"/><circle cx="9" cy="17" r="2"/>',
-    "headphones": '<path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="4.5" height="6" rx="1.8"/><rect x="16.5" y="14" width="4.5" height="6" rx="1.8"/>',
-    "bolt": '<path d="M13.5 2.5 5 13.5h6.5l-1 8 8.5-11h-6.5z"/>',
-    "timer": '<circle cx="12" cy="13.5" r="7.5"/><path d="M12 9.5v4l2.5 2M9.5 2.5h5"/>',
-    "glow": '<rect x="3" y="4" width="18" height="16" rx="3.5"/><rect x="7" y="8" width="10" height="8" rx="1.8"/>',
     "lock": '<rect x="4.5" y="10.5" width="15" height="10.5" rx="2.8"/><path d="M8 10.5V7.8a4 4 0 0 1 8 0v2.7"/>',
     "arrow": '<path d="M9 5l7 7-7 7"/>',
 }
@@ -186,11 +184,10 @@ def app_store_id():
     return match.group(1) if match else ""
 
 
-def page(lang, c, path, title, description, body, jsonld, languages, not_found=False, preload=None):
+def page(lang, c, path, title, description, body, jsonld, languages, not_found=False):
     """path: site path without language prefix, like '' or 'guides/mute-zoom-with-airpods/'.
 
-    not_found: the 404 page, which GitHub Pages serves at any depth, so its links are absolute.
-    preload: an image path to fetch first (the home page's hero)."""
+    not_found: the 404 page, which GitHub Pages serves at any depth, so its links are absolute."""
     name, og_locale, direction = LANGS[lang]
     full = prefix(lang) + path
     rel = f"{BASE_URL}/" if not_found else "../" * full.count("/")
@@ -203,7 +200,7 @@ def page(lang, c, path, title, description, body, jsonld, languages, not_found=F
     og_alternates = "\n".join(
         f'<meta property="og:locale:alternate" content="{LANGS[code][1]}">' for code in languages if code != lang
     )
-    og_image = f"{BASE_URL}/{image(lang, 'og')}"
+    og_image = f"{BASE_URL}/{image(lang, 'og', 'png')}"
     home = f"{rel}{prefix(lang)}"
     guides_links = "\n".join(
         f'<li><a href="{home}guides/{g["slug"]}/">{e(g["h1"])}</a></li>' for g in c["guides"][:7]
@@ -214,11 +211,6 @@ def page(lang, c, path, title, description, body, jsonld, languages, not_found=F
         for code in languages
     )
     ld = "\n".join(f'<script type="application/ld+json">{json.dumps(item, ensure_ascii=False)}</script>' for item in jsonld)
-    preload_tag = ""
-    if preload:
-        kind = ' type="image/webp"' if WEBP else ""
-        target = f"{preload[:-4]}.webp" if WEBP else preload
-        preload_tag = f'<link rel="preload" as="image" href="{rel}{target}"{kind} fetchpriority="high">\n'
     store_banner = f'<meta name="apple-itunes-app" content="app-id={app_store_id()}">\n' if app_store_id() else ""
     return f"""<!doctype html>
 <html lang="{lang}" dir="{direction}">
@@ -249,7 +241,7 @@ def page(lang, c, path, title, description, body, jsonld, languages, not_found=F
 <meta name="format-detection" content="telephone=no">
 {store_banner}<link rel="icon" type="image/png" sizes="64x64" href="{rel}assets/icon-64.png">
 <link rel="apple-touch-icon" href="{rel}assets/icon-180.png">
-{preload_tag}<link rel="stylesheet" href="{rel}assets/site.css?v={ASSET_VERSION}">
+<link rel="stylesheet" href="{rel}assets/site.css?v={ASSET_VERSION}">
 <script>document.documentElement.classList.add("js");if(!matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("motion")</script>
 <script src="{rel}assets/site.js?v={ASSET_VERSION}" defer></script>
 {ld}
@@ -280,7 +272,9 @@ def organization_ld():
 
 
 def app_ld(lang, c, url):
-    shots = [f"{BASE_URL}/{image(lang, name)}" for name in ("panel", "reminder", "pills", "automation", "suggestion", "keyboard")]
+    shots = [f"{BASE_URL}/{image(lang, name)}" for name in ("ui-panel-live-light", "ui-panel-muted-light", "card-reminder-light",
+                                                            "card-pills-light", "card-calls-light", "card-suggestion-light",
+                                                            "card-keyboard-light", "ui-settings-general-light")]
     data = {
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
@@ -290,7 +284,7 @@ def app_ld(lang, c, url):
         "applicationSubCategory": "Productivity",
         "description": c["meta"]["home_description"],
         "url": url,
-        "image": f"{BASE_URL}/{image(lang, 'og')}",
+        "image": f"{BASE_URL}/{image(lang, 'og', 'png')}",
         "screenshot": shots,
         "featureList": [f["title"] for f in c["features"]["items"]],
         "inLanguage": lang,
@@ -325,53 +319,67 @@ def faq_html(items):
     )
 
 
-# Feature cards for the sideways strip: which JSON item, and an image or an icon.
+# Feature cards for the sideways strip: which JSON item, which picture the app rendered for it (card-<name>),
+# and the key of its description. Settings close-ups get a little more room than the small parts.
 RAIL = [
-    (0, "airpods", None), (2, "reminder", "image_reminder_alt"), (1, "keyboard", None), (4, "pills", "image_pills_alt"),
-    (8, "keyboard", "image_keyboard_alt"), (9, "timer", None), (10, "suggestion", "image_suggestion_alt"), (5, "sliders", None),
-    (3, "automation", "image_automation_alt"), (6, "headphones", None), (7, "bolt", None), (11, "glow", None),
+    (0, "airpods", "image_airpods_alt"), (2, "reminder", "image_reminder_alt"), (1, "shortcut", "image_shortcut_alt"),
+    (5, "level", "image_level_alt"), (4, "pills", "image_pills_alt"), (8, "keyboard", "image_keyboard_alt"),
+    (9, "remute", "image_remute_alt"), (10, "suggestion", "image_suggestion_alt"), (3, "calls", "image_automation_alt"),
+    (6, "disconnect", "image_disconnect_alt"), (7, "automation", "image_shortcuts_alt"), (11, "status", "image_status_alt"),
 ]
-
-APP_UI = {}
-
-
-def ui(lang, key):
-    strings = APP_UI.get(lang) or APP_UI.get("en", {})
-    return strings.get(key, key)
-
-
-# Glyphs for the drawn Mac scene (24 x 24).
-MIC = ('<path d="M12 2.8a3.4 3.4 0 0 0-3.4 3.4v5.6a3.4 3.4 0 0 0 6.8 0V6.2A3.4 3.4 0 0 0 12 2.8z" fill="currentColor"/>'
-       '<path d="M6.2 11.2a5.8 5.8 0 0 0 11.6 0M12 17v3.6" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/>')
-SLASH = '<path d="M4.5 3.8l15 16.4" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/>'
-
-
-def glyph(inner, cls):
-    return f'<svg class="{cls}" viewBox="0 0 24 24" aria-hidden="true">{inner}</svg>'
+SETTINGS_CARDS = {"airpods", "keyboard", "calls", "automation", "status"}
 
 
 def scene_html(lang, c):
-    """The Muffle panel, drawn in HTML so it stays sharp while the page zooms into its mute button and out again."""
-    toggles = [
-        ("Start Muted", True, '<path d="M5 4l14 16M9 5.5a3 3 0 0 1 6 .5v5M7 11a5 5 0 0 0 8.5 3.5M12 17v3" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/>'),
-        ("Mini Controller", True, '<rect x="3" y="8" width="18" height="8" rx="4" fill="none" stroke="currentColor" stroke-width="1.9"/><circle cx="8" cy="12" r="2.2" fill="currentColor"/>'),
-        ("Talk Reminder", True, '<path d="M5 5h14a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1h-8l-4 3v-3H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/><path d="M12 8v3.5M12 13.6v.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>'),
-        ("Mute Again", False, '<circle cx="12" cy="13" r="7" fill="none" stroke="currentColor" stroke-width="1.9"/><path d="M12 9.5V13l2.3 1.6M10 3h4" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/>'),
-    ]
-    tiles = "".join(
-        f'<div class="qt{" is-on" if on else ""}"><span class="qi"><svg viewBox="0 0 24 24">{icon_path}</svg></span>'
-        f'<span class="qx"><b>{e(ui(lang, title))}</b><small>{e(ui(lang, "On" if on else "Off"))}</small></span></div>'
-        for title, on, icon_path in toggles
+    """The real panel, rendered by the app, live and muted. Sharper layers sit exactly on top so every close-up
+    stays crisp: the mute part and the call row at 8x, microphones to footer at 4x. data-parts tells the script
+    where everything is."""
+    layout = panel_layout(lang)
+    width, height = layout["size"]
+    mx, my, mw, mh = layout["mute"]
+    parts = {key: layout[key] for key in ("head", "mute", "call", "mics", "level", "toggles", "footer") if key in layout}
+
+    def layer(cls, rect, pictures, extra=""):
+        x, y, w, h = rect
+        return f'<div class="{cls}" style="left:{x}px;top:{y}px;width:{w}px;height:{h}px{extra}">{pictures}</div>'
+
+    def states(base):
+        return (theme_picture(lang, f"{base}-live", "", cls="hi-live", lazy=False)
+                + theme_picture(lang, f"{base}-muted", "", cls="hi-muted", lazy=False))
+
+    cx, cy = layout["crop"][:2]
+    layers = [layer("hi head", layout["crop"], states("ui-head"), f";transform-origin:{mx + mw / 2 - cx}px {my + mh / 2 - cy}px")]
+    if "callCrop" in layout:
+        layers.append(layer("hi call", layout["callCrop"], states("ui-call")))
+    if "lower" in layout:
+        layers.append(layer("lo", layout["lower"], theme_picture(lang, "ui-lower", "", lazy=False)))
+    return f"""<div class="scene" style="width:{width}px;height:{height}px" data-parts='{json.dumps(parts)}'>
+{theme_picture(lang, "ui-panel-live", c["hero"]["image_alt"], cls="lay", lazy=False, priority=True)}
+{theme_picture(lang, "ui-panel-muted", "", cls="lay lay-muted", lazy=False)}
+{chr(10).join(layers)}
+<i class="ring" style="left:{mx}px;top:{my}px;width:{mw}px;height:{mh}px"></i>
+<i class="spot"></i>
+</div>"""
+
+
+def tour_html(lang, c):
+    """The Settings window, pane by pane, while the section is pinned."""
+    tour = c["tour"]
+    panes = ["general", "calls", "keyboard", "panel"]
+    texts = "".join(
+        f'<div class="ts" data-step="{i}"><h3>{e(step["title"])}</h3><p>{e(step["text"])}</p></div>'
+        for i, step in enumerate(tour["steps"])
     )
-    using = e(ui(lang, "%@ is using your mic").replace("%@", "Google Chrome"))
-    return f"""<div class="scene" aria-hidden="true"><div class="pn">
-<div class="pm pm-head"><span class="mute">{glyph(MIC, "g on")}{glyph(MIC + SLASH, "g off")}</span><span class="px"><b><span class="on">{e(ui(lang, "Mic On"))}</span><span class="off">{e(ui(lang, "Muted"))}</span></b><small><span class="on">{e(ui(lang, "People in the call can hear you"))}</span><span class="off">{e(ui(lang, "Nobody in the call can hear you"))}</span></small></span></div>
-<div class="pm pm-call"><span class="app"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="currentColor"/><path d="M2.5 12h19M12 2.5c3 3.2 3 15.8 0 19M12 2.5c-3 3.2-3 15.8 0 19" fill="none" stroke="#fff" stroke-width="1.4"/></svg></span><span class="px"><span>{using}</span><i class="lvl"><i></i></i></span></div>
-<div class="pm pm-mics"><span class="cap-s">{e(ui(lang, "Microphone"))}<i class="chip">3 ⌄</i></span><span class="row"><i class="dot"><svg viewBox="0 0 24 24"><path d="M8 5a3 3 0 0 0-3 3v1a3 3 0 0 0 2 2.8V18a1 1 0 0 0 2 0v-6.2a3 3 0 0 0 2-2.8V8a3 3 0 0 0-3-3zM16 5a3 3 0 0 1 3 3v1a3 3 0 0 1-2 2.8V18a1 1 0 0 1-2 0v-6.2a3 3 0 0 1-2-2.8V8a3 3 0 0 1 3-3z" fill="currentColor"/></svg></i><span>AirPods Pro</span><svg class="check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
-<div class="pm pm-level">{glyph(MIC, "g mini")}<i class="slider"><i></i><b></b></i><i class="lock"></i></div>
-<div class="qts">{tiles}</div>
-<div class="pf"><span>{e(ui(lang, "Edit Panel…"))}</span><span>{e(ui(lang, "Settings…"))}</span><span>{e(ui(lang, "Quit Muffle"))}</span></div>
-</div></div>"""
+    shots = "".join(
+        f'<div class="tf" data-step="{i}">{theme_picture(lang, f"ui-settings-{pane}", tour["steps"][i]["title"])}</div>'
+        for i, pane in enumerate(panes)
+    )
+    return f"""<section class="tour" id="settings">
+<div class="tour-pin">
+<div class="wrap"><h2 class="headline">{e(tour["title"])}</h2></div>
+<div class="wrap tour-grid"><div class="tour-text">{texts}</div><div class="tour-shots">{shots}</div></div>
+</div>
+</section>"""
 
 
 def home_page(lang, c, languages):
@@ -383,12 +391,15 @@ def home_page(lang, c, languages):
     cards = []
     for index, visual, alt_key in RAIL:
         f = items[index]
-        media = (f'<div class="rc-media">{picture(lang, visual, c["features"][alt_key])}</div>' if alt_key
-                 else f'<div class="rc-icon">{icon(visual, "ico")}</div>')
-        cards.append(f'<article class="rc{" has-media" if alt_key else ""}"><h3>{e(f["title"])}</h3><p>{e(f["text"])}</p>{media}</article>')
+        kind = "pane" if visual in SETTINGS_CARDS else "part"
+        media = f'<div class="rc-media {kind}">{theme_picture(lang, f"card-{visual}", c["features"][alt_key])}</div>'
+        cards.append(f'<article class="rc"><h3>{e(f["title"])}</h3><p>{e(f["text"])}</p>{media}</article>')
     captions = [
         (cinema["mute_title"], cinema["mute_text"]),
         (cinema["panel_title"], cinema["panel_text"]),
+        (cinema["mics_title"], cinema["mics_text"]),
+        (cinema["level_title"], cinema["level_text"]),
+        (cinema["toggles_title"], cinema["toggles_text"]),
     ]
     caps = "\n".join(f'<div class="cap" data-cap="{i + 1}"><h2>{e(t)}</h2><p>{e(x)}</p></div>' for i, (t, x) in enumerate(captions))
     statement = cinema["statement"]
@@ -422,9 +433,8 @@ def home_page(lang, c, languages):
 </div>
 {caps}
 </div>
-<div class="scroll-hint" aria-hidden="true"><i></i></div>
 </div>
-<div class="cinema-still">{picture(lang, "panel", hero['image_alt'])}</div>
+<div class="cinema-still">{theme_picture(lang, "ui-panel-live", hero['image_alt'])}</div>
 </section>
 <section class="statement" id="statement">
 <div class="wrap narrow"><p class="words">{words}</p></div>
@@ -432,6 +442,7 @@ def home_page(lang, c, languages):
 <section class="works" aria-label="{e(c['works_with']['title'])}">
 <div class="marquee"><div class="tracks"><ul>{apps}</ul><ul aria-hidden="true">{apps}</ul></div></div>
 </section>
+{tour_html(lang, c)}
 <section class="rail" id="features">
 <div class="rail-pin">
 <div class="wrap"><h2 class="headline">{e(c['features']['title'])}</h2></div>
@@ -513,14 +524,20 @@ def guides_index(lang, c, languages):
 
 
 GUIDE_IMAGE = {
-    "stop-apps-changing-mic-volume": "panel",
-    "youre-muted-reminder": "reminder",
-    "push-to-talk-on-mac": "keyboard",
-    "mute-microphone-keyboard-shortcut-mac": "keyboard",
-    "airpods-mute-not-working-on-mac": "panel-muted",
-    "mute-webex-on-mac": "pills",
-    "mute-slack-huddles": "pills",
-    "airpods-sound-quality-mac-calls": "suggestion",
+    "mute-microphone-on-mac": "ui-panel-muted",
+    "mute-google-meet-with-airpods": "card-airpods",
+    "mute-zoom-with-airpods": "ui-panel-muted",
+    "mute-microsoft-teams-with-airpods": "card-calls",
+    "mute-browser-calls": "ui-panel-live",
+    "mute-discord-on-mac": "card-shortcut",
+    "mute-slack-huddles": "card-pills",
+    "mute-webex-on-mac": "card-pills",
+    "stop-apps-changing-mic-volume": "card-level",
+    "youre-muted-reminder": "card-reminder",
+    "push-to-talk-on-mac": "card-keyboard",
+    "mute-microphone-keyboard-shortcut-mac": "card-shortcut",
+    "airpods-mute-not-working-on-mac": "card-airpods",
+    "airpods-sound-quality-mac-calls": "card-suggestion",
 }
 
 
@@ -533,7 +550,7 @@ def guide_page(lang, c, g, languages):
     others = [o for o in c["guides"] if o["slug"] != g["slug"]]
     start = c["guides"].index(g) % len(others)
     related = (others[start:] + others[:start])[:4]
-    visual = GUIDE_IMAGE.get(g["slug"], "panel")
+    visual = GUIDE_IMAGE.get(g["slug"], "ui-panel-live")
     body = f"""<main class="article">
 <header class="article-head wrap narrow">
 <nav class="crumbs" aria-label="Breadcrumb"><a href="{{HOME}}">Muffle</a><span>›</span><a href="{{HOME}}guides/">{e(c['guides_index']['h1'])}</a></nav>
@@ -544,7 +561,7 @@ def guide_page(lang, c, g, languages):
 <aside class="cta-box reveal"><img src="{{REL}}assets/icon-64.png" alt="" width="44" height="44"><strong>{e(labels['try'])}</strong>{download_button(c)}</aside>
 <h2 class="reveal">{e(g['steps_title'])}</h2>
 <ol class="how-steps compact">{steps}</ol>
-<figure class="guide-shot reveal">{picture(lang, visual, g["h1"])}</figure>
+<figure class="guide-shot reveal{" card" if visual.startswith("card-") else ""}">{theme_picture(lang, visual, g["h1"])}</figure>
 <ul class="tips">{tips}</ul>
 <h2 class="reveal">{e(labels['faq'])}</h2>
 {faq_html(g['faq'])}
@@ -622,10 +639,9 @@ def write(path, text):
 
 
 def main():
-    global WEBP, ASSET_VERSION
-    WEBP = make_webp()
+    global ASSET_VERSION
+    make_webp()
     ASSET_VERSION = asset_version()
-    APP_UI.update(json.load(open(os.path.join(SITE, "content", "app_ui.json"))))
     content = load_content()
     languages = [code for code in LANGS if code in content]
     # Clear earlier output (language folders, guides, support, privacy), keep sources and assets.
@@ -669,7 +685,7 @@ def main():
                            '<main class="article"><header class="article-head wrap narrow center"><h1 class="display">404</h1>'
                            '<p><a class="more-link" href="{HOME}">Muffle</a></p></header></main>', [], languages,
                            not_found=True))
-    print(f"{len(languages)} languages, {len(urls)} pages, WebP {'on' if WEBP else 'off'}")
+    print(f"{len(languages)} languages, {len(urls)} pages")
 
 
 if __name__ == "__main__":

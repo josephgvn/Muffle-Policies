@@ -31,7 +31,13 @@
     "panel_text": "Mykistä, valitse mikrofoni, lukitse sen taso ja kytke ominaisuuksia päälle tai pois suoraan valikkoriviltä.",
     "statement": "Useimmat mykistyspainikkeet mykistävät vain yhden sovelluksen. Muffle sammuttaa itse mikrofonin, joten jokainen Macisi sovellus kuulee pelkkää hiljaisuutta.",
     "mute_title": "Yksi painallus. Hiljaisuus.",
-    "mute_text": "Napsauta painiketta, paina AirPodsia tai käytä pikanäppäintä. Muffle sammuttaa itse mikrofonin, joten jokainen sovellus kuulee hiljaisuutta."
+    "mute_text": "Napsauta painiketta, paina AirPodsia tai käytä pikanäppäintä. Muffle sammuttaa itse mikrofonin, joten jokainen sovellus kuulee hiljaisuutta.",
+    "mics_title": "Vaihda mikrofonia yhdellä napsautuksella.",
+    "mics_text": "Macisi jokainen mikrofoni on heti saatavilla. Valitse yksi, ja jokainen sovellus seuraa perässä.",
+    "level_title": "Mikrofonisi taso pysyy paikallaan.",
+    "level_text": "Chrome, Zoom ja Teams muuttavat mikrofonin tasoa itsestään. Lukitse se, niin Muffle palauttaa sen ennalleen.",
+    "toggles_title": "Kytkimet omalla tavallasi.",
+    "toggles_text": "Kytke ominaisuuksia päälle ja pois suoraan paneelista ja valitse, mitkä niistä näkyvät siellä."
   },
   "works_with": {
     "title": "Toimii kaikkien mikrofonia käyttävien sovellusten kanssa",
@@ -73,6 +79,27 @@
       {
         "title": "Tiedä aina, oletko livenä.",
         "text": "Pieni kelluva painike näyttää mikrofonisi tilan ja mykistää yhdellä napsautuksella. Vihreä on livenä, punainen mykistetty."
+      }
+    ]
+  },
+  "tour": {
+    "title": "Asetukset, jotka tuntuvat kotoisilta Macillasi.",
+    "steps": [
+      {
+        "title": "Muokkaa mieleiseksesi.",
+        "text": "Valitse valikkorivin kuvake: tavallinen, vihreä ja punainen tai pelkkä piste. Muffle voi käynnistyä Macisi kanssa."
+      },
+      {
+        "title": "Puhelut automaattiohjauksella.",
+        "text": "Aloita jokainen puhelu mykistettynä, poista mykistys sen päättyessä, mykistä kun lukitset Macisi tai kun kuulokkeiden yhteys katkeaa."
+      },
+      {
+        "title": "Paina puhuaksesi omalla tavallasi.",
+        "text": "Napauta vaihtaaksesi tilaa, pidä painettuna puhuaksesi tai pidä painettuna mykistääksesi. Lisää erilliset näppäimet mykistykselle ja sen poistolle tai puhenäppäin, kuten oikea optio-näppäin."
+      },
+      {
+        "title": "Paneeli omalla tavallasi.",
+        "text": "Valitse, mitä valikkorivipaneeli näyttää ja mitkä pikakytkimet sijaitsevat alareunassa."
       }
     ]
   },
@@ -132,7 +159,14 @@
     "image_pills_alt": "Leijuva minisäädin mykistetyssä ja aktiivisessa tilassa",
     "image_automation_alt": "Mufflen asetukset puheluiden aloittamiseksi mykistettynä ja muut puheluautomaatiot",
     "image_suggestion_alt": "Muffle ehdottaa Macin mikrofonia, koska huoneessa on hiljaista",
-    "image_keyboard_alt": "Mufflen näppäimistöasetukset, joissa on paina puhuaksesi -toiminto ja puhenäppäin"
+    "image_keyboard_alt": "Mufflen näppäimistöasetukset asetettuna paina puhuaksesi -tilaan",
+    "image_airpods_alt": "Mufflen AirPods-asetukset, joissa valinta ”Mykistä ja poista mykistys AirPodsia painamalla” on päällä",
+    "image_shortcut_alt": "Mufflen näyttämät ilmoitukset ”Mykistetty” ja ”Mikrofoni päällä”, kun käytät pikanäppäintä",
+    "image_level_alt": "Mikrofonin tason liukusäädin Muffle-paneelissa lukitus päällä",
+    "image_remute_alt": "Ilmoitus ”Mykistetty uudelleen”, kun olet ollut hiljaa 30 sekuntia",
+    "image_disconnect_alt": "Mufflen näyttämä ilmoitus, kun mikrofoni mykistettiin AirPods-kuulokkeiden yhteyden katkettua",
+    "image_shortcuts_alt": "Mufflen Automaatio-asetukset ja sen linkit Pikakomennot-sovellusta, launchereita ja Stream Deckiä varten",
+    "image_status_alt": "Mufflen Mykistyksen tila -asetukset näytön tilailmoitukselle, näytön reunojen hehkulle ja minisäätimelle"
   },
   "stats": {
     "title": "Pieni sovellus. Suuri mielenrauha.",

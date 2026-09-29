@@ -31,7 +31,13 @@
     "panel_text": "Dæmp, vælg din mikrofon, lås dens niveau, og slå funktioner til og fra direkte fra menulinjen.",
     "statement": "De fleste mute-knapper dæmper kun én app. Muffle slukker selve mikrofonen, så alle apps på din Mac hører stilhed.",
     "mute_title": "Et tryk. Stilhed.",
-    "mute_text": "Klik på knappen, tryk på dine AirPods eller brug en genvej. Muffle slukker selve mikrofonen, så alle apps hører stilhed."
+    "mute_text": "Klik på knappen, tryk på dine AirPods eller brug en genvej. Muffle slukker selve mikrofonen, så alle apps hører stilhed.",
+    "mics_title": "Skift mikrofon med et klik.",
+    "mics_text": "Alle mikrofoner på din Mac er lige ved hånden. Vælg én, og alle apps følger med.",
+    "level_title": "Dit mikrofonniveau bliver, hvor det skal.",
+    "level_text": "Chrome, Zoom og Teams ændrer dit mikrofonniveau af sig selv. Lås det, så sætter Muffle det tilbage.",
+    "toggles_title": "Dine knapper, på din måde.",
+    "toggles_text": "Slå funktioner til og fra direkte fra panelet, og vælg, hvilke der skal være der."
   },
   "works_with": {
     "title": "Virker med alle apps, der bruger din mikrofon",
@@ -73,6 +79,27 @@
       {
         "title": "Vid altid, om du er live.",
         "text": "En lille svævende knap viser din mikrofontilstand og dæmper med et enkelt klik. Grøn er live, rød er dæmpet."
+      }
+    ]
+  },
+  "tour": {
+    "title": "Indstillinger, der føles helt hjemme på din Mac.",
+    "steps": [
+      {
+        "title": "Gør den til din egen.",
+        "text": "Vælg et menulinjeikon: et almindeligt, grøn og rød eller bare en prik. Muffle kan starte sammen med din Mac."
+      },
+      {
+        "title": "Opkald på autopilot.",
+        "text": "Start alle opkald dæmpet, slå til igen, når det slutter, og dæmp, når du låser din Mac, eller dit headset afbrydes."
+      },
+      {
+        "title": "Tryk for at tale, på din måde.",
+        "text": "Tryk for at dæmpe eller slå til, hold nede for at tale, eller hold nede for at dæmpe. Tilføj separate taster til at dæmpe og slå til, eller en taletast som Højre ⌥."
+      },
+      {
+        "title": "Dit panel, på din måde.",
+        "text": "Vælg, hvad menulinjepanelet viser, og hvilke hurtige knapper der sidder i bunden."
       }
     ]
   },
@@ -132,7 +159,14 @@
     "image_pills_alt": "Den svævende minibetjening i henholdsvis dæmpet og aktiv tilstand",
     "image_automation_alt": "Muffle-indstillinger til at starte opkald dæmpet og andre automatiseringer",
     "image_suggestion_alt": "Muffle foreslår Mac-mikrofonen, fordi rummet er stille",
-    "image_keyboard_alt": "Muffle-tastaturindstillinger med tryk for at tale og en taletast"
+    "image_keyboard_alt": "Muffles tastaturindstillinger indstillet til tryk for at tale",
+    "image_airpods_alt": "Muffles AirPods-indstillinger med ”Dæmp og slå til med et tryk på dine AirPods” slået til",
+    "image_shortcut_alt": "Beskederne Dæmpet og Mikrofon til, som Muffle viser, når du bruger genvejen",
+    "image_level_alt": "Mikrofonniveau-skyderen i Muffle-panelet med låsen slået til",
+    "image_remute_alt": "Beskeden ”Dæmpet igen” efter 30 sekunders stilhed",
+    "image_disconnect_alt": "Beskeden Muffle viser efter at have dæmpet din mikrofon, fordi dine AirPods blev afbrudt",
+    "image_shortcuts_alt": "Muffles automatiseringsindstillinger med links til Genveje, launchers og Stream Deck",
+    "image_status_alt": "Muffles indstillinger for Dæmpestatus for status på skærmen, skærmkanternes lys og minibetjeningen"
   },
   "stats": {
     "title": "Lille app. Stor ro i sindet.",

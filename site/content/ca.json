@@ -31,7 +31,13 @@
     "panel_text": "Silencia, tria el micròfon, bloqueja'n el nivell i activa o desactiva funcions, directament des de la barra de menús.",
     "statement": "La majoria de botons per silenciar només silencien una app. Muffle desactiva el mateix micròfon, de manera que totes les apps del Mac senten silenci.",
     "mute_title": "Una premuda. Silenci.",
-    "mute_text": "Fes clic al botó, prem els AirPods o utilitza una drecera. Muffle desactiva el mateix micròfon, de manera que totes les apps senten silenci."
+    "mute_text": "Fes clic al botó, prem els AirPods o utilitza una drecera. Muffle desactiva el mateix micròfon, de manera que totes les apps senten silenci.",
+    "mics_title": "Canvia de micròfon amb un clic.",
+    "mics_text": "Tots els micròfons del Mac són allà mateix. Tria'n un i totes les apps el seguiran.",
+    "level_title": "El nivell del micròfon no es mou.",
+    "level_text": "Chrome, Zoom i Teams canvien el nivell del micròfon pel seu compte. Bloqueja'l i Muffle el restableix.",
+    "toggles_title": "Els teus controls, a la teva manera.",
+    "toggles_text": "Activa i desactiva funcions directament des del panell i tria quines s'hi mostren."
   },
   "works_with": {
     "title": "Funciona amb qualsevol app que utilitzi el micròfon",
@@ -73,6 +79,27 @@
       {
         "title": "Sempre sabràs si estàs activat.",
         "text": "Un petit botó flotant mostra l'estat del micròfon i silencia amb un clic. En verd està activat i en vermell està silenciat."
+      }
+    ]
+  },
+  "tour": {
+    "title": "Una configuració que sembla pròpia del Mac.",
+    "steps": [
+      {
+        "title": "Personalitza'l al teu gust.",
+        "text": "Tria una icona per a la barra de menús: senzilla, verd i vermell, o només un punt. Muffle pot iniciar-se amb el Mac."
+      },
+      {
+        "title": "Trucades en pilot automàtic.",
+        "text": "Inicia totes les trucades silenciades, activa el so quan acabin i silencia quan bloquegis el Mac o si es desconnecten els auriculars."
+      },
+      {
+        "title": "Prémer per parlar, com tu vulguis.",
+        "text": "Toca per canviar, mantén premut per parlar o mantén premut per silenciar. Afegeix tecles separades per silenciar i activar el so, o una tecla per parlar com ara ⌥ dreta."
+      },
+      {
+        "title": "El teu panell, com més t'agradi.",
+        "text": "Tria què mostra el panell de la barra de menús i quins controls ràpids se situen a la part inferior."
       }
     ]
   },
@@ -132,7 +159,14 @@
     "image_pills_alt": "El mini controlador flotant en estat silenciat i activat",
     "image_automation_alt": "Configuració de Muffle per iniciar trucades silenciades i altres automatitzacions",
     "image_suggestion_alt": "Muffle suggerint el micròfon del Mac perquè l'habitació és tranquil·la",
-    "image_keyboard_alt": "Configuració del teclat de Muffle amb prémer per parlar i una tecla per parlar"
+    "image_keyboard_alt": "Configuració de teclat de Muffle configurada en prémer per parlar",
+    "image_airpods_alt": "Configuració d'AirPods de Muffle amb «Silencia i activa el so prement els AirPods» activat",
+    "image_shortcut_alt": "Els missatges «Silenciat» i «Micròfon activat» que mostra Muffle en utilitzar la drecera",
+    "image_level_alt": "El control lliscant del nivell del micròfon al panell de Muffle amb el bloqueig activat",
+    "image_remute_alt": "El missatge «Silenciat de nou» després de 30 segons de silenci",
+    "image_disconnect_alt": "El missatge que mostra Muffle després de silenciar el micròfon perquè s'han desconnectat els AirPods",
+    "image_shortcuts_alt": "Configuració d'Automatització de Muffle amb els seus enllaços per a Dreceres, launchers i Stream Deck",
+    "image_status_alt": "Configuració d'Estat de silenciament de Muffle per a l'estat a la pantalla, la il·luminació de les vores de la pantalla i el mini controlador"
   },
   "stats": {
     "title": "Una app petita. Una gran tranquil·litat.",

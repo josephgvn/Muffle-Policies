@@ -37,44 +37,71 @@
 
   const parts = [];
 
-  // ---------- Opening: the panel rises, the page zooms into its mute button, presses it, zooms back out ----------
+  // ---------- Opening: a guided tour of the real panel ----------
+  // The panel rises, the page zooms into the mute button and presses it, zooms back out,
+  // then points at the microphones, the level and the quick switches in turn.
   const cinema = d.querySelector(".cinema");
   if (cinema) {
     const pin = cinema.querySelector(".cinema-pin");
     const scene = cinema.querySelector(".scene");
-    const button = scene.querySelector(".mute");
+    const spot = scene.querySelector(".spot");
     const caps = [...cinema.querySelectorAll(".cap")];
-    // When each caption fades in and out: the headline, "One press", "Every control".
-    const RANGES = [[0, 0, 0.03, 0.09], [0.2, 0.26, 0.5, 0.56], [0.6, 0.66, 2, 3]];
+    const layout = JSON.parse(scene.dataset.parts || "{}");
+    // Captions: headline, one press, every control, microphones, level, switches.
+    const RANGES = [[0, 0, 0.03, 0.09], [0.09, 0.14, 0.44, 0.49], [0.5, 0.54, 0.58, 0.61],
+                    [0.61, 0.645, 0.7, 0.73], [0.73, 0.765, 0.82, 0.85], [0.85, 0.885, 2, 3]];
+    const SPOTS = [["mics", 0.6, 0.72], ["level", 0.72, 0.84], ["toggles", 0.84, 0.97]];
+    const middle = (r) => [r[0] + r[2] / 2, r[1] + r[3] / 2];
     let stages = [];
     let vw = 0, vh = 0;
 
     const measure = () => {
       vw = pin.clientWidth;
       vh = pin.clientHeight;
-      if (!motion) {
-        scene.classList.add("is-muted");
-        return;
-      }
-      const W = scene.offsetWidth, H = scene.offsetHeight;
-      const center = [W / 2, H / 2];
-      const mute = [button.offsetLeft + button.offsetWidth / 2, button.offsetTop + button.offsetHeight / 2];
+      if (!motion || !layout.head) return;   // without motion the page shows a still picture instead
+      const head = layout.head, foot = layout.footer, mute = layout.mute;
+      // The popover itself, without its shadow: what "the whole panel" means for framing.
+      const box = [head[0] - 11, head[1] - 23, head[2] + 22, foot[1] + foot[3] + 34 - head[1]];
+      const whole = middle(box);
       const top = parseFloat(getComputedStyle(caps[1]).top) || 90;
-      const band = Math.min(vh * 0.42, top + Math.max(...caps.slice(1).map((c) => c.offsetHeight)) + 28);
+      const band = Math.min(vh * 0.44, top + Math.max(...caps.slice(1).map((c) => c.offsetHeight)) + 40);
       pin.style.setProperty("--band", `${Math.round(band)}px`);
       const heroBottom = top + caps[0].offsetHeight;
-      const fit = Math.min((vh - band - 40) / H, (vw - 48) / W, 1.5);
-      const zoom = Math.max(fit * 2.2, (0.36 * Math.min(vw, vh)) / button.offsetWidth);
+      const fit = Math.min((vh - band - 36) / box[3], (vw - 40) / box[2], 1.6);
+      // The press: wide windows show the whole mute part, narrow ones the button with as much of its label as fits
+      // (the label sits right of the button, or left in right-to-left languages). 4.4 is as far as the 8x
+      // close-up stays sharp on a Retina screen.
+      let zoomMute = Math.min((vw - 64) / head[2], (vh - band - 48) / head[3], 4.4);
+      let pressAt = middle(head);
+      if (zoomMute < 2.6) {
+        zoomMute = Math.min(4.4, Math.max(fit * 2.2, (0.36 * Math.min(vw, vh)) / mute[2]));
+        const seen = vw / zoomMute, lead = mute[2] / 2 + 16;
+        const [hx] = middle(head), [bx, by] = middle(mute);
+        pressAt = [bx < hx ? Math.min(hx, bx - lead + seen / 2) : Math.max(hx, bx + lead - seen / 2), by];
+      }
       const y = band + (vh - band) / 2;
-      // Under the headline the panel only peeks out, if there is room for it.
       const peek = clamp(vh - heroBottom - 28, 0, 150);
+      const aim = (name) => {
+        const r = layout[name];
+        return [middle(r), Math.min(fit * 1.9, (vw - 40) / (r[2] + 40), (vh - band - 40) / (r[3] + 40))];
+      };
+      const [mics, zMics] = aim("mics");
+      const [level, zLevel] = aim("level");
+      const [toggles, zToggles] = aim("toggles");
       stages = [
-        [0, center, vw / 2, vh - peek + (H * fit) / 2, fit],
-        [0.13, center, vw / 2, y, fit],
-        [0.32, mute, vw / 2, y, zoom],
-        [0.46, mute, vw / 2, y, zoom],
-        [0.64, center, vw / 2, y, fit],
-        [1, center, vw / 2, y, fit],
+        [0, whole, vw / 2, vh - peek + (box[3] * fit) / 2, fit],
+        [0.12, whole, vw / 2, y, fit],
+        [0.26, pressAt, vw / 2, y, zoomMute],
+        [0.4, pressAt, vw / 2, y, zoomMute],
+        [0.52, whole, vw / 2, y, fit],
+        [0.57, whole, vw / 2, y, fit],
+        [0.63, mics, vw / 2, y, zMics],
+        [0.69, mics, vw / 2, y, zMics],
+        [0.75, level, vw / 2, y, zLevel],
+        [0.81, level, vw / 2, y, zLevel],
+        [0.87, toggles, vw / 2, y, zToggles],
+        [0.94, toggles, vw / 2, y, zToggles],
+        [1, whole, vw / 2, y, fit],
       ];
     };
 
@@ -93,19 +120,54 @@
     parts.push({
       measure,
       update() {
-        if (!motion) return;
+        if (!motion || !stages.length) return;
         const p = progress(cinema, vh);
         place(p);
-        scene.classList.toggle("is-muted", p >= 0.37);
-        pin.style.setProperty("--hint", (1 - smooth(0, 0.03, p)).toFixed(3));
+        scene.classList.toggle("is-muted", p >= 0.33);
+        let shown = 0, target = null;
+        for (const [name, a, b] of SPOTS) {
+          const o = Math.min(smooth(a, a + 0.025, p), 1 - smooth(b - 0.025, b, p));
+          if (o > shown) { shown = o; target = name; }
+        }
+        if (target && layout[target]) {
+          const r = layout[target];
+          spot.style.left = `${r[0] - 5}px`;
+          spot.style.top = `${r[1] - 5}px`;
+          spot.style.width = `${r[2] + 10}px`;
+          spot.style.height = `${r[3] + 10}px`;
+        }
+        spot.style.opacity = shown.toFixed(3);
         caps.forEach((cap, i) => {
-          const [a, b, c, e] = RANGES[i];
+          const [a, b, c, e] = RANGES[i] || [2, 3, 4, 5];
           const o = i === 0 ? 1 - smooth(c, e, p) : Math.min(smooth(a, b, p), 1 - smooth(c, e, p));
           cap.style.opacity = o.toFixed(3);
           cap.style.transform = `translateY(${((1 - o) * (i === 0 ? -24 : 22)).toFixed(1)}px)`;
           cap.style.visibility = o < 0.01 ? "hidden" : "visible";
           cap.style.pointerEvents = o > 0.5 ? "auto" : "none";
         });
+      },
+    });
+  }
+
+  // ---------- Settings tour: the window changes pane as the page scrolls ----------
+  const tour = d.querySelector(".tour");
+  if (tour && motion) {
+    const tourPin = tour.querySelector(".tour-pin");
+    const texts = [...tour.querySelectorAll(".ts")];
+    const shots = [...tour.querySelectorAll(".tf")];
+    let current = -1;
+    texts.forEach((el, i) => el.addEventListener("click", () => {
+      const run = tour.offsetHeight - (tourPin.clientHeight || innerHeight);
+      scrollTo({ top: tour.offsetTop + run * ((i + 0.5) / texts.length), behavior: "smooth" });
+    }));
+    parts.push({
+      update() {
+        const p = progress(tour, tourPin.clientHeight || innerHeight);
+        const step = Math.min(texts.length - 1, Math.floor(p * texts.length));
+        if (step === current) return;
+        current = step;
+        texts.forEach((el, i) => el.classList.toggle("on", i === step));
+        shots.forEach((el, i) => el.classList.toggle("on", i === step));
       },
     });
   }

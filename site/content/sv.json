@@ -31,7 +31,13 @@
     "panel_text": "Stäng av, välj mikrofon, lås nivån och slå på eller stäng av funktioner direkt från menyraden.",
     "statement": "De flesta mute-knappar stänger bara av en app. Muffle stänger av själva mikrofonen, så att alla appar på din Mac hör tystnad.",
     "mute_title": "Ett tryck. Tystnad.",
-    "mute_text": "Klicka på knappen, tryck på dina AirPods eller använd ett kortkommando. Muffle stänger av själva mikrofonen, så att alla appar hör tystnad."
+    "mute_text": "Klicka på knappen, tryck på dina AirPods eller använd ett kortkommando. Muffle stänger av själva mikrofonen, så att alla appar hör tystnad.",
+    "mics_title": "Byt mikrofon med ett klick.",
+    "mics_text": "Varje mikrofon på din Mac finns direkt till hands. Välj en så följer alla appar med.",
+    "level_title": "Din mikrofonnivå förblir stabil.",
+    "level_text": "Chrome, Zoom och Teams ändrar din mikrofonnivå på egen hand. Lås den så återställer Muffle den.",
+    "toggles_title": "Dina reglage på ditt sätt.",
+    "toggles_text": "Slå på och stäng av funktioner direkt från panelen, och välj vilka som visas där."
   },
   "works_with": {
     "title": "Fungerar med alla appar som använder din mikrofon",
@@ -73,6 +79,27 @@
       {
         "title": "Ha alltid koll på om du är live.",
         "text": "En liten flytande knapp visar mikrofonstatus och stänger av med ett klick. Grönt är live, rött är avstängt."
+      }
+    ]
+  },
+  "tour": {
+    "title": "Inställningar som känns helt hemma på din Mac.",
+    "steps": [
+      {
+        "title": "Gör den till din.",
+        "text": "Välj en menyradsikon: en vanlig, grönt och rött eller bara en punkt. Muffle kan starta med din Mac."
+      },
+      {
+        "title": "Samtal på autopilot.",
+        "text": "Starta alla samtal avstängda, slå på när det avslutas, och stäng av när du låser din Mac eller om headsetet kopplas från."
+      },
+      {
+        "title": "Tryck för att prata på ditt sätt.",
+        "text": "Tryck för att stänga av eller slå på, håll intryckt för att prata eller för att stänga av. Lägg till separata tangenter för att stänga av och slå på, eller en prattangent som Höger Alternativ."
+      },
+      {
+        "title": "Din panel på ditt sätt.",
+        "text": "Välj vad menyradspanelen visar och vilka snabbreglage som sitter längst ner."
       }
     ]
   },
@@ -132,7 +159,14 @@
     "image_pills_alt": "Den flytande minikontrollen i lägena avstängd och live",
     "image_automation_alt": "Muffle-inställningar för att starta alla samtal avstängda och andra samtalsautomatiseringar",
     "image_suggestion_alt": "Muffle föreslår mikrofonen på Mac eftersom rummet är tyst",
-    "image_keyboard_alt": "Tangentbordsinställningar i Muffle med tryck för att prata och en prattangent"
+    "image_keyboard_alt": "Muffles tangentbordsinställningar inställda på tryck för att prata",
+    "image_airpods_alt": "Muffles AirPods-inställningar med ”Stäng av och slå på med en tryckning på dina AirPods” påslaget",
+    "image_shortcut_alt": "Meddelandena Avstängd och Mikrofon på som Muffle visar när du använder kortkommandot",
+    "image_level_alt": "Reglaget för mikrofonnivå i Muffle-panelen med låset påslaget",
+    "image_remute_alt": "Meddelandet ”Avstängd igen” efter 30 sekunders tystnad",
+    "image_disconnect_alt": "Meddelandet som Muffle visar efter att ha stängt av mikrofonen för att dina AirPods kopplades från",
+    "image_shortcuts_alt": "Muffles automatiseringsinställningar med länkar för Genvägar, launchers och Stream Deck",
+    "image_status_alt": "Muffles inställningar för Avstängningsstatus för status på skärmen, lysande skärmkanter och minikontrollen"
   },
   "stats": {
     "title": "Liten app. Stor sinnesro.",

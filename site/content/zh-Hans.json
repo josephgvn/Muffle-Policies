@@ -31,7 +31,13 @@
     "panel_text": "直接在菜单栏中静音、选取麦克风、锁定音量，以及开启或关闭各项功能。",
     "statement": "大多数静音按钮只能将单个 App 静音。Muffle 会直接关闭麦克风本身，让 Mac 上的每个 App 接收到的都是静音。",
     "mute_title": "轻轻一按，瞬间静音。",
-    "mute_text": "点按按钮、按 AirPods 或使用快捷键。Muffle 会直接关闭麦克风本身，让所有 App 接收到的都是静音。"
+    "mute_text": "点按按钮、按 AirPods 或使用快捷键。Muffle 会直接关闭麦克风本身，让所有 App 接收到的都是静音。",
+    "mics_title": "一键切换麦克风。",
+    "mics_text": "Mac 上的所有麦克风尽在眼前。只需选取一个，所有 App 都会随之切换。",
+    "level_title": "麦克风音量始终保持稳定。",
+    "level_text": "Chrome、Zoom 和 Teams 会自动更改麦克风音量。开启锁定后，Muffle 会自动将其复原。",
+    "toggles_title": "快捷开关，随心定义。",
+    "toggles_text": "直接从面板开启或关闭各项功能，并随心选取面板中显示的开关。"
   },
   "works_with": {
     "title": "适用于所有使用麦克风的 App",
@@ -73,6 +79,27 @@
       {
         "title": "随时清楚麦克风是否开启。",
         "text": "小巧的悬浮按钮实时显示麦克风状态，点按一下即可静音。绿色代表麦克风开启，红色代表已静音。"
+      }
+    ]
+  },
+  "tour": {
+    "title": "宛如 Mac 原生的设置体验。",
+    "steps": [
+      {
+        "title": "打造个性化体验。",
+        "text": "随心选取菜单栏图标：普通图标、绿和红，或是圆点。Muffle 还可以随 Mac 一起启动。"
+      },
+      {
+        "title": "通话完全自动化。",
+        "text": "每次通话开始时都静音，通话结束后取消静音，在锁定 Mac 或耳机断开连接时自动静音。"
+      },
+      {
+        "title": "按住说话，随心设定。",
+        "text": "轻按切换静音、按住说话，或按住暂时静音。还可设置独立的静音与取消静音按键，或使用右 ⌥ 等按键作为说话键。"
+      },
+      {
+        "title": "自定你的面板。",
+        "text": "选取菜单栏面板中显示的内容，以及底部放置哪些快捷开关。"
       }
     ]
   },
@@ -132,7 +159,14 @@
     "image_pills_alt": "处于静音和开启状态的浮动迷你控制器",
     "image_automation_alt": "Muffle 中关于通话开始时静音及其他通话自动化的设置选项",
     "image_suggestion_alt": "Muffle 检测到周围环境安静，并建议使用 Mac 麦克风",
-    "image_keyboard_alt": "包含按住说话与说话键的 Muffle 键盘设置"
+    "image_keyboard_alt": "Muffle 的键盘设置，已设为按住说话",
+    "image_airpods_alt": "Muffle 的 AirPods 设置，已开启“按压 AirPods 即可切换静音”",
+    "image_shortcut_alt": "使用快捷键时 Muffle 显示的“已静音”和“麦克风开启”提示信息",
+    "image_level_alt": "Muffle 面板中的麦克风音量滑块，已开启锁定",
+    "image_remute_alt": "保持安静 30 秒后显示的“已再次静音”提示",
+    "image_disconnect_alt": "AirPods 断开连接后，Muffle 将麦克风静音所显示的提示信息",
+    "image_shortcuts_alt": "Muffle 的“自动化”设置，包含适用于“快捷指令”、启动器和 Stream Deck 的链接",
+    "image_status_alt": "Muffle 的“静音状态”设置，包含屏幕状态显示、屏幕边缘闪烁与迷你控制器"
   },
   "stats": {
     "title": "小巧 App，带来十足安心。",

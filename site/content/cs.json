@@ -31,7 +31,13 @@
     "panel_text": "Ztlumte mikrofon, vyberte vhodný vstup, uzamkněte jeho úroveň a zapínejte funkce přímo z řádku nabídek.",
     "statement": "Většina tlačítek pro ztlumení funguje jen v jedné aplikaci. Muffle vypíná přímo mikrofon, takže každá aplikace na Macu slyší jen ticho.",
     "mute_title": "Jedno stisknutí. Ticho.",
-    "mute_text": "Klikněte na tlačítko, stiskněte AirPods nebo použijte klávesovou zkratku. Muffle vypíná přímo mikrofon, takže každá aplikace slyší ticho."
+    "mute_text": "Klikněte na tlačítko, stiskněte AirPods nebo použijte klávesovou zkratku. Muffle vypíná přímo mikrofon, takže každá aplikace slyší ticho.",
+    "mics_title": "Přepínejte mikrofony jedním kliknutím.",
+    "mics_text": "Každý mikrofon na Macu máte hned po ruce. Vyberte jeden a všechny aplikace se přizpůsobí.",
+    "level_title": "Úroveň mikrofonu zůstává stabilní.",
+    "level_text": "Chrome, Zoom a Teams samy mění úroveň mikrofonu. Uzamkněte ji a Muffle ji vrátí zpět.",
+    "toggles_title": "Přepínače podle vás.",
+    "toggles_text": "Zapínejte a vypínejte funkce přímo z panelu a zvolte si, které v něm chcete mít."
   },
   "works_with": {
     "title": "Funguje s každou aplikací, která používá mikrofon",
@@ -73,6 +79,27 @@
       {
         "title": "Vždy víte, zda máte mikrofon zapnutý.",
         "text": "Malé plovoucí tlačítko ukazuje stav mikrofonu a ztlumí ho jedním kliknutím. Zelená znamená zapnuto, červená ztlumeno."
+      }
+    ]
+  },
+  "tour": {
+    "title": "Nastavení, které je na Macu jako doma.",
+    "steps": [
+      {
+        "title": "Přizpůsobte si ho.",
+        "text": "Vyberte si ikonu v řádku nabídek: jednoduchou, zelenou a červenou nebo jen tečku. Muffle se může spouštět spolu s Macem."
+      },
+      {
+        "title": "Hovory na autopilota.",
+        "text": "Začínejte každý hovor se ztlumeným mikrofonem, zapněte ho po skončení a ztlumte při zamknutí Macu nebo odpojení headsetu."
+      },
+      {
+        "title": "Stisknutím mluvit podle vás.",
+        "text": "Klepnutím přepněte, podržením mluvte nebo podržením ztlumte. Přidejte samostatné klávesy pro ztlumení a zapnutí nebo klávesu pro mluvení, jako je Pravý Option."
+      },
+      {
+        "title": "Panel podle vás.",
+        "text": "Zvolte si, co se má zobrazovat v panelu řádku nabídek a které rychlé přepínače budou v dolní části."
       }
     ]
   },
@@ -132,7 +159,14 @@
     "image_pills_alt": "Plovoucí mini ovladač ve ztlumeném i aktivním stavu",
     "image_automation_alt": "Nastavení Muffle pro začínání hovorů se ztlumeným mikrofonem a další automatizace",
     "image_suggestion_alt": "Muffle doporučuje mikrofon Macu, protože v místnosti je ticho",
-    "image_keyboard_alt": "Nastavení klávesnice Muffle s funkcí stisknutím mluvit a klávesou pro mluvení"
+    "image_keyboard_alt": "Nastavení klávesnice v Muffle nastavené na režim Stisknutím mluvit",
+    "image_airpods_alt": "Nastavení AirPods v Muffle se zapnutou volbou „Ztlumujte a zapínejte stisknutím AirPods“",
+    "image_shortcut_alt": "Oznámení „Ztlumeno“ a „Mikrofon zapnut“, která Muffle zobrazuje při použití klávesové zkratky",
+    "image_level_alt": "Posuvník úrovně mikrofonu v panelu Muffle se zapnutým zámkem",
+    "image_remute_alt": "Oznámení „Znovu ztlumeno“ po 30 sekundách ticha",
+    "image_disconnect_alt": "Oznámení, které Muffle zobrazí po ztlumení mikrofonu, když se odpojily AirPods",
+    "image_shortcuts_alt": "Nastavení Automatizace v Muffle s odkazy pro Zkratky, launchery a Stream Deck",
+    "image_status_alt": "Nastavení Stav ztlumení v Muffle pro stav na obrazovce, svícení okrajů obrazovky a mini ovladač"
   },
   "stats": {
     "title": "Malá aplikace. Naprostý klid.",

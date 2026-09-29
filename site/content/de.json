@@ -31,7 +31,13 @@
     "panel_text": "Stummschalten, dein Mikrofon auswählen, den Pegel sperren und Funktionen direkt aus der Menüleiste ein- und ausschalten.",
     "statement": "Die meisten Stummschalttasten schalten nur eine einzige App stumm. Muffle schaltet das Mikrofon selbst aus, sodass jede App auf deinem Mac Stille hört.",
     "mute_title": "Ein Druck. Stille.",
-    "mute_text": "Klicke auf den Button, drücke deine AirPods oder verwende ein Tastenkürzel. Muffle schaltet das Mikrofon selbst aus, sodass jede App Stille hört."
+    "mute_text": "Klicke auf den Button, drücke deine AirPods oder verwende ein Tastenkürzel. Muffle schaltet das Mikrofon selbst aus, sodass jede App Stille hört.",
+    "mics_title": "Mikrofone mit einem Klick wechseln.",
+    "mics_text": "Jedes Mikrofon auf deinem Mac ist direkt da. Wähle eins aus und jede App folgt.",
+    "level_title": "Dein Mikrofonpegel bleibt konstant.",
+    "level_text": "Chrome, Zoom und Teams verändern deinen Mikrofonpegel eigenmächtig. Sperre ihn und Muffle setzt ihn wieder zurück.",
+    "toggles_title": "Deine Schalter ganz wie du willst.",
+    "toggles_text": "Schalte Funktionen direkt im Panel ein und aus und bestimme, welche dort zu finden sind."
   },
   "works_with": {
     "title": "Funktioniert mit jeder App, die dein Mikrofon nutzt",
@@ -73,6 +79,27 @@
       {
         "title": "Immer wissen, ob du aktiv bist.",
         "text": "Ein kleiner schwebender Button zeigt deinen Mikrofonstatus und schaltet mit einem Klick stumm. Grün ist aktiv, Rot ist stummgeschaltet."
+      }
+    ]
+  },
+  "tour": {
+    "title": "Einstellungen wie für deinen Mac gemacht.",
+    "steps": [
+      {
+        "title": "Ganz nach deinen Wünschen.",
+        "text": "Wähle ein Menüleistensymbol: schlicht, Grün und Rot oder nur ein Punkt. Muffle kann direkt mit deinem Mac starten."
+      },
+      {
+        "title": "Anrufe auf Autopilot.",
+        "text": "Starte jeden Anruf stummgeschaltet, aktiviere das Mikrofon nach dem Anruf und schalte stumm, wenn du deinen Mac sperrst oder dein Headset getrennt wird."
+      },
+      {
+        "title": "Push-to-Talk ganz wie du willst.",
+        "text": "Tippen zum Umschalten, Halten zum Sprechen oder Halten zum Stummschalten. Richte separate Tasten für Stumm und Aktiv ein oder eine Sprechtaste wie die Rechte ⌥."
+      },
+      {
+        "title": "Dein Panel ganz wie du willst.",
+        "text": "Wähle, was das Menüleisten-Panel anzeigt und welche Schnellschalter unten platziert sind."
       }
     ]
   },
@@ -132,7 +159,14 @@
     "image_pills_alt": "Der schwebende Mini-Controller im stummgeschalteten und aktiven Zustand",
     "image_automation_alt": "Muffle-Einstellungen für automatische Stummschaltung bei Anrufen",
     "image_suggestion_alt": "Muffle schlägt das Mikrofon des Mac vor, weil es im Raum ruhig ist",
-    "image_keyboard_alt": "Muffle-Tastatureinstellungen mit „Drücken zum Sprechen“ und einer Sprechtaste"
+    "image_keyboard_alt": "Muffles Tastatureinstellungen, eingestellt auf „Drücken zum Sprechen“",
+    "image_airpods_alt": "Muffles AirPods-Einstellungen mit aktiviertem „Mit einem AirPods-Druck stumm- und freischalten“",
+    "image_shortcut_alt": "Die Meldungen „Stumm“ und „Mikro an“, die Muffle beim Verwenden des Tastenkürzels anzeigt",
+    "image_level_alt": "Der Mikrofonpegel-Schieberegler im Muffle-Panel mit aktivierter Sperre",
+    "image_remute_alt": "Die Meldung „Wieder stummgeschaltet“ nach 30 Sekunden Stille",
+    "image_disconnect_alt": "Die Meldung, die Muffle anzeigt, nachdem dein Mikro stummgeschaltet wurde, weil deine AirPods getrennt wurden",
+    "image_shortcuts_alt": "Muffles Automatisierungseinstellungen mit Links für Kurzbefehle, Launcher und Stream Deck",
+    "image_status_alt": "Muffles Stummschaltungsstatus-Einstellungen für den Bildschirmstatus, das Bildschirmleuchten und den Mini-Controller"
   },
   "stats": {
     "title": "Kleine App. Volle Gelassenheit.",

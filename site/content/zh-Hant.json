@@ -31,7 +31,13 @@
     "panel_text": "直接在選單列即可切換靜音、挑選麥克風、鎖定音量，並開啟或關閉各項功能。",
     "statement": "大多數靜音按鈕只能將單一 App 靜音。Muffle 則是直接關閉麥克風本身，讓 Mac 上的所有 App 都接收不到任何聲音。",
     "mute_title": "輕輕一按，完全靜音。",
-    "mute_text": "點一下按鈕、按 AirPods 或使用快速鍵。Muffle 會直接將麥克風關閉，讓所有 App 都聽不到任何聲音。"
+    "mute_text": "點一下按鈕、按 AirPods 或使用快速鍵。Muffle 會直接將麥克風關閉，讓所有 App 都聽不到任何聲音。",
+    "mics_title": "點一下即可切換麥克風。",
+    "mics_text": "Mac 上的所有麥克風都在這裡。只要選取一個，所有 App 就會跟著使用。",
+    "level_title": "麥克風音量始終保持穩定。",
+    "level_text": "Chrome、Zoom 和 Teams 常常會自行調整麥克風音量。只要鎖定，Muffle 就會自動復原。",
+    "toggles_title": "開關功能，隨心自訂。",
+    "toggles_text": "直接在面板中開啟或關閉功能，還能自由選擇要顯示哪些項目。"
   },
   "works_with": {
     "title": "適用於所有使用麥克風的 App",
@@ -73,6 +79,27 @@
       {
         "title": "隨時清楚麥克風是否開啟。",
         "text": "小巧的懸浮按鈕能顯示麥克風狀態，按一下即可靜音。綠色代表開啟，紅色代表已靜音。"
+      }
+    ]
+  },
+  "tour": {
+    "title": "完美融入 Mac 的設定選項。",
+    "steps": [
+      {
+        "title": "打造個人專屬風格。",
+        "text": "挑選選單列圖示：純色圖示、綠色與紅色，或單純一個圓點。Muffle 還能隨 Mac 一同啟動。"
+      },
+      {
+        "title": "通話全自動化。",
+        "text": "每次通話開始時都靜音、通話結束時取消靜音、鎖定 Mac 或耳機中斷連線時自動靜音。"
+      },
+      {
+        "title": "按住說話，隨心自訂。",
+        "text": "點一下切換、按住即可說話，或按住暫時靜音。你也可以加入獨立的靜音與取消靜音按鍵，或是設定像右側 ⌥ 這樣的說話鍵。"
+      },
+      {
+        "title": "選單面板，隨心配置。",
+        "text": "自由選擇選單列面板要顯示的內容，以及底部放置哪些快速切換項目。"
       }
     ]
   },
@@ -132,7 +159,14 @@
     "image_pills_alt": "浮動迷你控制器處於已靜音與開啟狀態",
     "image_automation_alt": "Muffle 設定：包含每次通話開始時都靜音等通話自動化設定",
     "image_suggestion_alt": "Muffle 因周圍環境安靜而建議使用 Mac 麥克風",
-    "image_keyboard_alt": "包含按住說話與說話鍵的 Muffle 鍵盤設定"
+    "image_keyboard_alt": "Muffle 的鍵盤設定，已設為「按住說話」",
+    "image_airpods_alt": "Muffle 的 AirPods 設定，已開啟「按壓 AirPods 即可切換靜音」",
+    "image_shortcut_alt": "使用快速鍵時，Muffle 顯示的「已靜音」與「麥克風開啟」訊息",
+    "image_level_alt": "Muffle 面板中的麥克風音量滑桿，且鎖定功能已開啟",
+    "image_remute_alt": "保持安靜 30 秒後顯示的「已再次靜音」訊息",
+    "image_disconnect_alt": "因 AirPods 中斷連線而將麥克風靜音後，Muffle 所顯示的訊息",
+    "image_shortcuts_alt": "Muffle 的「自動化」設定，包含適用於「捷徑」、啟動器與 Stream Deck 的連結",
+    "image_status_alt": "Muffle 的「靜音狀態」設定，包含螢幕狀態提示、螢幕邊緣光暈與迷你控制器"
   },
   "stats": {
     "title": "輕巧 App，無比安心。",

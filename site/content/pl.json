@@ -31,7 +31,13 @@
     "panel_text": "Wyciszaj, wybieraj mikrofon, blokuj jego poziom oraz włączaj i wyłączaj funkcje prosto z paska menu.",
     "statement": "Większość przycisków wyciszania działa tylko w jednej aplikacji. Muffle wyłącza sam mikrofon, dzięki czemu każda aplikacja na Twoim Macu słyszy ciszę.",
     "mute_title": "Jedno naciśnięcie. Cisza.",
-    "mute_text": "Kliknij przycisk, naciśnij AirPods lub użyj skrótu klawiszowego. Muffle wyłącza sam mikrofon, więc każda aplikacja słyszy ciszę."
+    "mute_text": "Kliknij przycisk, naciśnij AirPods lub użyj skrótu klawiszowego. Muffle wyłącza sam mikrofon, więc każda aplikacja słyszy ciszę.",
+    "mics_title": "Przełączaj mikrofony jednym kliknięciem.",
+    "mics_text": "Każdy mikrofon na Twoim Macu masz pod ręką. Wybierz jeden, a każda aplikacja przełączy się na niego.",
+    "level_title": "Poziom mikrofonu się nie zmienia.",
+    "level_text": "Chrome, Zoom i Teams same zmieniają poziom mikrofonu. Zablokuj go, a Muffle go przywróci.",
+    "toggles_title": "Twoje przełączniki, na Twój sposób.",
+    "toggles_text": "Włączaj i wyłączaj funkcje bezpośrednio z panelu i decyduj, co ma się w nim znaleźć."
   },
   "works_with": {
     "title": "Działa z każdą aplikacją, która korzysta z mikrofonu",
@@ -73,6 +79,27 @@
       {
         "title": "Zawsze wiesz, czy mikrofon jest aktywny.",
         "text": "Mały pływający przycisk pokazuje stan mikrofonu i wycisza go jednym kliknięciem. Zielony oznacza aktywny, czerwony wyciszony."
+      }
+    ]
+  },
+  "tour": {
+    "title": "Ustawienia, które idealnie pasują do Twojego Maca.",
+    "steps": [
+      {
+        "title": "Dopasuj do siebie.",
+        "text": "Wybierz ikonę na pasku menu: standardową, zieloną i czerwoną lub po prostu kropkę. Muffle może uruchamiać się razem z Makiem."
+      },
+      {
+        "title": "Spotkania na autopilocie.",
+        "text": "Rozpoczynaj każde spotkanie z wyciszonym mikrofonem, włączaj go po zakończeniu rozmowy i wyciszaj, gdy zablokujesz Maca lub odłączysz słuchawki."
+      },
+      {
+        "title": "Przytrzymaj, aby mówić, tak jak lubisz.",
+        "text": "Naciśnij, aby przełączyć, przytrzymaj, aby mówić lub przytrzymaj, aby wyciszyć. Dodaj osobne klawisze wyciszania i włączania albo klawisz mówienia, taki jak prawy ⌥."
+      },
+      {
+        "title": "Twój panel, na Twój sposób.",
+        "text": "Wybierz, co pokazuje panel paska menu i jakie szybkie przełączniki znajdą się na samym dole."
       }
     ]
   },
@@ -132,7 +159,14 @@
     "image_pills_alt": "Ruchomy ministerownik w stanie wyciszonym i aktywnym",
     "image_automation_alt": "Ustawienia Muffle dotyczące rozpoczynania połączeń z wyciszonym mikrofonem i innych automatyzacji",
     "image_suggestion_alt": "Muffle sugeruje mikrofon Maca, ponieważ w otoczeniu jest cicho",
-    "image_keyboard_alt": "Ustawienia klawiatury Muffle z funkcją Przytrzymaj, aby mówić i klawiszem mówienia"
+    "image_keyboard_alt": "Ustawienia klawiatury w Muffle z wybraną opcją „Przytrzymaj, aby mówić”",
+    "image_airpods_alt": "Ustawienia AirPods w Muffle z włączoną opcją „Wyciszanie i włączanie mikrofonu naciśnięciem AirPods”",
+    "image_shortcut_alt": "Komunikaty „Wyciszony” i „Mikrofon włączony”, które Muffle wyświetla po użyciu skrótu klawiszowego",
+    "image_level_alt": "Suwak poziomu mikrofonu w panelu Muffle z włączoną blokadą",
+    "image_remute_alt": "Komunikat „Ponownie wyciszono” po 30 sekundach ciszy",
+    "image_disconnect_alt": "Komunikat wyświetlany przez Muffle po wyciszeniu mikrofonu z powodu odłączenia słuchawek AirPods",
+    "image_shortcuts_alt": "Ustawienia automatyzacji w Muffle z linkami dla aplikacji Skróty, launcherów i Stream Deck",
+    "image_status_alt": "Ustawienia stanu wyciszenia w Muffle dla wskaźnika na ekranie, podświetlenia krawędzi ekranu i ministerownika"
   },
   "stats": {
     "title": "Mała aplikacja. Wielki spokój ducha.",

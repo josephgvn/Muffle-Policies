@@ -31,7 +31,13 @@
     "panel_text": "Demp, velg mikrofon, lås nivået og slå funksjoner av og på, rett fra menylinjen.",
     "statement": "De fleste dempeknapper demper bare én app. Muffle slår av selve mikrofonen, så alle apper på Mac-en din hører stillhet.",
     "mute_title": "Ett trykk. Stillhet.",
-    "mute_text": "Klikk på knappen, trykk på AirPods-ene eller bruk en snarvei. Muffle slår av selve mikrofonen, så alle apper hører stillhet."
+    "mute_text": "Klikk på knappen, trykk på AirPods-ene eller bruk en snarvei. Muffle slår av selve mikrofonen, så alle apper hører stillhet.",
+    "mics_title": "Bytt mikrofon med ett klikk.",
+    "mics_text": "Alle mikrofoner på Mac-en din er samlet her. Velg én, så følger alle apper etter.",
+    "level_title": "Mikrofonnivået ditt holder seg stabilt.",
+    "level_text": "Chrome, Zoom og Teams endrer mikrofonnivået ditt av seg selv. Lås det, så stiller Muffle det tilbake.",
+    "toggles_title": "Dine brytere, på din måte.",
+    "toggles_text": "Slå funksjoner av og på rett fra panelet, og velg hvilke som skal vises der."
   },
   "works_with": {
     "title": "Fungerer med alle apper som bruker mikrofonen",
@@ -73,6 +79,27 @@
       {
         "title": "Vit alltid om du er live.",
         "text": "En liten flytende knapp viser mikrofonstatusen din og demper med ett klikk. Grønt er live, rødt er dempet."
+      }
+    ]
+  },
+  "tour": {
+    "title": "Innstillinger som føles helt hjemme på Mac-en din.",
+    "steps": [
+      {
+        "title": "Gjør den til din egen.",
+        "text": "Velg et menylinjeikon: et vanlig, grønt og rødt, eller bare en prikk. Muffle kan starte med Mac-en din."
+      },
+      {
+        "title": "Samtaler på autopilot.",
+        "text": "Start hver samtale dempet, slå på igjen når den avsluttes, demp når du låser Mac-en eller hodetelefonene kobles fra."
+      },
+      {
+        "title": "Trykk for å snakke, på din måte.",
+        "text": "Trykk for å dempe eller slå på, hold inne for å snakke, eller hold inne for å dempe. Legg til egne taster for å dempe og slå på, eller en snakketast som Høyre ⌥."
+      },
+      {
+        "title": "Ditt panel, på din måte.",
+        "text": "Velg hva menylinjepanelet viser, og hvilke hurtigbrytere som skal ligge nederst."
       }
     ]
   },
@@ -132,7 +159,14 @@
     "image_pills_alt": "Den flytende minikontrolleren i dempet og aktiv tilstand",
     "image_automation_alt": "Muffle-innstillinger for å starte samtaler dempet og andre samtaleautomatiseringer",
     "image_suggestion_alt": "Muffle foreslår Mac-ens mikrofon fordi rommet er stille",
-    "image_keyboard_alt": "Tastaturinnstillinger i Muffle med trykk for å snakke og snakketast"
+    "image_keyboard_alt": "Muffles tastaturinnstillinger satt til trykk for å snakke",
+    "image_airpods_alt": "Muffles AirPods-innstillinger med «Demp og slå på med et trykk på AirPods-ene» slått på",
+    "image_shortcut_alt": "Meldingene «Dempet» og «Mikrofon på» som Muffle viser når du bruker snarveien",
+    "image_level_alt": "Glidebryteren for mikrofonnivå i Muffle-panelet med låsen slått på",
+    "image_remute_alt": "Meldingen «Dempet igjen» etter 30 sekunders stillhet",
+    "image_disconnect_alt": "Meldingen Muffle viser etter å ha dempet mikrofonen fordi AirPods-ene ble koblet fra",
+    "image_shortcuts_alt": "Muffles innstillinger for Automatisering med lenker for Snarveier, launchere og Stream Deck",
+    "image_status_alt": "Muffles innstillinger for Dempestatus for status på skjermen, glødende skjermkanter og minikontrolleren"
   },
   "stats": {
     "title": "Liten app. Stor trygghet.",

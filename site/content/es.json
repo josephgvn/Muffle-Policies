@@ -31,7 +31,13 @@
     "panel_text": "Silencia, elige tu micro, bloquea su nivel y activa o desactiva funciones directamente desde la barra de menús.",
     "statement": "La mayoría de botones para silenciar solo silencian una app. Muffle desactiva el propio micrófono, así que todas las apps de tu Mac oyen silencio.",
     "mute_title": "Una pulsación. Silencio.",
-    "mute_text": "Haz clic en el botón, pulsa tus AirPods o usa un atajo. Muffle desactiva el propio micrófono para que todas las apps solo oigan silencio."
+    "mute_text": "Haz clic en el botón, pulsa tus AirPods o usa un atajo. Muffle desactiva el propio micrófono para que todas las apps solo oigan silencio.",
+    "mics_title": "Cambia de micro en un clic.",
+    "mics_text": "Todos los micrófonos de tu Mac están ahí mismo. Elige uno y todas las apps lo usarán.",
+    "level_title": "El nivel de tu micro no se mueve.",
+    "level_text": "Chrome, Zoom y Teams cambian el nivel del micrófono por su cuenta. Bloquéalo y Muffle lo restablece.",
+    "toggles_title": "Tus controles, a tu manera.",
+    "toggles_text": "Activa o desactiva funciones directamente desde el panel y elige cuáles tener a mano."
   },
   "works_with": {
     "title": "Funciona con cualquier app que use tu micro",
@@ -73,6 +79,27 @@
       {
         "title": "Sabrás siempre si estás activo.",
         "text": "Un pequeño botón flotante muestra el estado del micro y silencia con un clic. En verde si está activo, en rojo si está silenciado."
+      }
+    ]
+  },
+  "tour": {
+    "title": "Ajustes integrados a la perfección en tu Mac.",
+    "steps": [
+      {
+        "title": "Personalízalo a tu gusto.",
+        "text": "Elige un icono para la barra de menús: estándar, verde y rojo o solo un punto. Muffle puede iniciarse con tu Mac."
+      },
+      {
+        "title": "Llamadas en piloto automático.",
+        "text": "Inicia todas las llamadas silenciado, activa el micro al terminar, silencia al bloquear tu Mac o si se desconectan los auriculares."
+      },
+      {
+        "title": "Pulsar para hablar, a tu manera.",
+        "text": "Toca para alternar, mantén pulsado para hablar o para silenciar. Añade teclas independientes para silenciar y activar, o una tecla para hablar como ⌥ derecha."
+      },
+      {
+        "title": "Tu panel, a tu manera.",
+        "text": "Elige qué muestra el panel de la barra de menús y qué controles rápidos aparecen en la parte inferior."
       }
     ]
   },
@@ -132,7 +159,14 @@
     "image_pills_alt": "El mini controlador flotante en estado silenciado y activo",
     "image_automation_alt": "Ajustes de Muffle para iniciar llamadas silenciado y otras automatizaciones",
     "image_suggestion_alt": "Muffle sugiriendo el micrófono del Mac porque la habitación está en silencio",
-    "image_keyboard_alt": "Ajustes de teclado de Muffle con pulsar para hablar y una tecla para hablar"
+    "image_keyboard_alt": "Ajustes de teclado de Muffle configurados para pulsar para hablar",
+    "image_airpods_alt": "Ajustes de AirPods de Muffle con la opción «Silencia y activa con una pulsación de AirPods» activada",
+    "image_shortcut_alt": "Mensajes de «Silenciado» y «Micro activado» que muestra Muffle al usar el atajo",
+    "image_level_alt": "Control deslizable del nivel del micro en el panel de Muffle con el bloqueo activado",
+    "image_remute_alt": "Mensaje «Silenciado de nuevo» tras 30 segundos de silencio",
+    "image_disconnect_alt": "Mensaje que muestra Muffle tras silenciar el micro porque se han desconectado los AirPods",
+    "image_shortcuts_alt": "Ajustes de automatización de Muffle con enlaces para Atajos, lanzadores y Stream Deck",
+    "image_status_alt": "Ajustes de «Estado del micrófono» de Muffle para el estado en pantalla, la iluminación de bordes y el mini controlador"
   },
   "stats": {
     "title": "Una app pequeña. Una gran tranquilidad.",

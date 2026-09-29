@@ -1,2 +1,5 @@
 __pycache__/
 .DS_Store
+# The renderer writes PNGs; the site serves the WebPs build.py makes from them (og.png stays for link previews).
+assets/img/*/*.png
+!assets/img/*/og.png

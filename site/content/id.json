@@ -31,7 +31,13 @@
     "panel_text": "Bisukan, pilih mik Anda, kunci tingkatnya, dan nyalakan atau matikan fitur, langsung dari bilah menu.",
     "statement": "Sebagian besar tombol bisukan hanya membisukan satu app. Muffle mematikan mikrofon itu sendiri, sehingga setiap app di Mac Anda hanya mendengar keheningan.",
     "mute_title": "Satu tekanan. Hening.",
-    "mute_text": "Klik tombol, tekan AirPods Anda, atau gunakan pintasan. Muffle mematikan mikrofon itu sendiri, sehingga setiap app mendengar keheningan."
+    "mute_text": "Klik tombol, tekan AirPods Anda, atau gunakan pintasan. Muffle mematikan mikrofon itu sendiri, sehingga setiap app mendengar keheningan.",
+    "mics_title": "Alihkan mik dalam satu klik.",
+    "mics_text": "Setiap mikrofon di Mac Anda tersedia di sana. Pilih satu dan semua app langsung mengikutinya.",
+    "level_title": "Tingkat mik Anda tetap stabil.",
+    "level_text": "Chrome, Zoom, dan Teams sering mengubah tingkat mik Anda sendiri. Kunci tingkat mik dan Muffle akan mengembalikannya.",
+    "toggles_title": "Pengalih Anda, sesuai kebutuhan.",
+    "toggles_text": "Nyalakan dan matikan fitur langsung dari panel, lalu pilih fitur mana saja yang tampil di sana."
   },
   "works_with": {
     "title": "Berfungsi dengan setiap app yang menggunakan mikrofon Anda",
@@ -73,6 +79,27 @@
       {
         "title": "Selalu tahu saat Anda aktif.",
         "text": "Tombol melayang kecil menampilkan status mik Anda dan membisukan dengan satu klik. Hijau berarti aktif, merah berarti dibisukan."
+      }
+    ]
+  },
+  "tour": {
+    "title": "Pengaturan yang terasa begitu alami di Mac Anda.",
+    "steps": [
+      {
+        "title": "Sesuaikan dengan Anda.",
+        "text": "Pilih ikon bilah menu: polos, hijau dan merah, atau sekadar titik. Muffle juga dapat dimulai otomatis bersama Mac Anda."
+      },
+      {
+        "title": "Panggilan otomatis.",
+        "text": "Mulai setiap panggilan dalam keadaan dibisukan, aktifkan suara saat berakhir, serta bisukan saat layar Mac terkunci atau headset terputus."
+      },
+      {
+        "title": "Push to talk, sesuai keinginan Anda.",
+        "text": "Ketuk untuk mengalihkan, tahan untuk berbicara, atau tahan untuk membisukan. Tambahkan tombol bisukan dan aktifkan suara terpisah, atau tombol bicara seperti ⌥ Kanan."
+      },
+      {
+        "title": "Panel Anda, sesuai kebutuhan.",
+        "text": "Pilih apa saja yang ditampilkan panel bilah menu dan pengalih cepat mana yang berada di bagian bawah."
       }
     ]
   },
@@ -132,7 +159,14 @@
     "image_pills_alt": "Kontroler mini melayang dalam status dibisukan dan aktif",
     "image_automation_alt": "Pengaturan Muffle untuk memulai panggilan dalam keadaan dibisukan dan otomatisasi panggilan lainnya",
     "image_suggestion_alt": "Muffle menyarankan mikrofon Mac karena ruangan hening",
-    "image_keyboard_alt": "Pengaturan keyboard Muffle dengan push to talk dan tombol bicara"
+    "image_keyboard_alt": "Pengaturan keyboard Muffle yang diatur ke tekan untuk berbicara",
+    "image_airpods_alt": "Pengaturan AirPods Muffle dengan “Bisukan dan aktifkan suara dengan menekan AirPods” dinyalakan",
+    "image_shortcut_alt": "Pesan Dibisukan dan Mik Aktif yang ditampilkan Muffle saat Anda menggunakan pintasan",
+    "image_level_alt": "Penggeser tingkat mik di panel Muffle dengan kuncinya yang dinyalakan",
+    "image_remute_alt": "Pesan “Dibisukan lagi” setelah diam selama 30 detik",
+    "image_disconnect_alt": "Pesan yang ditampilkan Muffle setelah membisukan mik Anda karena AirPods Anda terputus",
+    "image_shortcuts_alt": "Pengaturan Otomatisasi Muffle dengan tautannya untuk Pintasan, launcher, dan Stream Deck",
+    "image_status_alt": "Pengaturan Status Bisukan Muffle untuk status di layar, pendaran tepi layar, dan kontroler mini"
   },
   "stats": {
     "title": "App kecil. Ketenangan pikiran yang besar.",

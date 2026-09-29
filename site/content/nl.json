@@ -31,7 +31,13 @@
     "panel_text": "Demp, kies je microfoon, vergrendel het niveau en schakel functies in en uit, direct vanuit de menubalk.",
     "statement": "De meeste dempknoppen dempen maar één app. Muffle schakelt de microfoon zelf uit, zodat elke app op je Mac stilte hoort.",
     "mute_title": "Eén druk. Stilte.",
-    "mute_text": "Klik op de knop, druk op je AirPods of gebruik een sneltoets. Muffle schakelt de microfoon zelf uit, zodat elke app stilte hoort."
+    "mute_text": "Klik op de knop, druk op je AirPods of gebruik een sneltoets. Muffle schakelt de microfoon zelf uit, zodat elke app stilte hoort.",
+    "mics_title": "Wissel van microfoon met één klik.",
+    "mics_text": "Elke microfoon op je Mac staat er direct bij. Kies er een en elke app volgt.",
+    "level_title": "Je microfoonniveau blijft gelijk.",
+    "level_text": "Chrome, Zoom en Teams passen je microfoonniveau zelf aan. Vergrendel het en Muffle zet het weer terug.",
+    "toggles_title": "Jouw schakelaars, op jouw manier.",
+    "toggles_text": "Schakel functies direct in of uit vanuit het paneel en kies zelf welke er staan."
   },
   "works_with": {
     "title": "Werkt met elke app die je microfoon gebruikt",
@@ -73,6 +79,27 @@
       {
         "title": "Weet altijd of je live bent.",
         "text": "Een kleine zwevende knop toont je microfoonstatus en dempt met één klik. Groen is live, rood is gedempt."
+      }
+    ]
+  },
+  "tour": {
+    "title": "Instellingen die zich thuis voelen op je Mac.",
+    "steps": [
+      {
+        "title": "Helemaal naar wens.",
+        "text": "Kies een menubalkpictogram: een neutraal pictogram, groen en rood, of alleen een stip. Muffle kan starten met je Mac."
+      },
+      {
+        "title": "Gesprekken op de automatische piloot.",
+        "text": "Start elk gesprek gedempt, schakel weer in als het eindigt en demp wanneer je je Mac vergrendelt of je koptelefoon loskoppelt."
+      },
+      {
+        "title": "Push to talk, op jouw manier.",
+        "text": "Tik om in of uit te schakelen, houd ingedrukt om te praten, of houd ingedrukt om te dempen. Voeg aparte toetsen voor dempen en inschakelen toe, of een spreektoets zoals Rechter-Option."
+      },
+      {
+        "title": "Jouw paneel, op jouw manier.",
+        "text": "Kies wat het menubalkpaneel toont en welke snelle schakelaars er onderaan staan."
       }
     ]
   },
@@ -132,7 +159,14 @@
     "image_pills_alt": "De zwevende mini-controller in gedempte en actieve toestand",
     "image_automation_alt": "Muffle-instellingen voor het gedempt starten van gesprekken en andere automatiseringen",
     "image_suggestion_alt": "Muffle stelt de microfoon van de Mac voor omdat de ruimte rustig is",
-    "image_keyboard_alt": "Toetsenbordinstellingen van Muffle met Push to talk en een spreektoets"
+    "image_keyboard_alt": "De toetsenbordinstellingen van Muffle ingesteld op Push to talk",
+    "image_airpods_alt": "De AirPods-instellingen van Muffle met “Dempen en inschakelen met een druk op je AirPods” ingeschakeld",
+    "image_shortcut_alt": "De meldingen Gedempt en Microfoon aan die Muffle toont wanneer je de sneltoets gebruikt",
+    "image_level_alt": "De schuifknop voor het microfoonniveau in het Muffle-paneel met de vergrendeling ingeschakeld",
+    "image_remute_alt": "Het bericht “Opnieuw gedempt” na 30 seconden stilte",
+    "image_disconnect_alt": "Het bericht dat Muffle toont na het dempen van je microfoon omdat je AirPods zijn losgekoppeld",
+    "image_shortcuts_alt": "De automatiseringsinstellingen van Muffle met links voor Opdrachten, launchers en Stream Deck",
+    "image_status_alt": "De Dempstatus-instellingen van Muffle voor de status op het scherm, de oplichtende schermranden en de mini-controller"
   },
   "stats": {
     "title": "Kleine app. Grote gemoedsrust.",

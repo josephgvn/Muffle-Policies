@@ -31,7 +31,13 @@
     "panel_text": "Redam, pilih mik anda, kunci tahapnya serta hidupkan dan matikan ciri, terus dari bar menu.",
     "statement": "Kebanyakan butang redam hanya meredam satu aplikasi. Muffle mematikan mikrofon itu sendiri, jadi setiap aplikasi pada Mac anda hanya mendengar kesunyian.",
     "mute_title": "Satu tekanan. Senyap.",
-    "mute_text": "Klik butang, tekan AirPods anda atau gunakan pintasan. Muffle mematikan mikrofon itu sendiri, jadi setiap aplikasi mendengar kesenyapan."
+    "mute_text": "Klik butang, tekan AirPods anda atau gunakan pintasan. Muffle mematikan mikrofon itu sendiri, jadi setiap aplikasi mendengar kesenyapan.",
+    "mics_title": "Tukar mik dengan satu klik.",
+    "mics_text": "Setiap mikrofon pada Mac anda ada di situ. Pilih satu dan setiap aplikasi mengikutinya.",
+    "level_title": "Tahap mik anda kekal stabil.",
+    "level_text": "Chrome, Zoom dan Teams mengubah tahap mik anda dengan sendiri. Kuncikannya dan Muffle mengembalikannya semula.",
+    "toggles_title": "Suis anda, cara anda.",
+    "toggles_text": "Hidupkan dan matikan ciri terus daripada panel, serta pilih ciri yang berada di situ."
   },
   "works_with": {
     "title": "Berfungsi dengan semua aplikasi yang menggunakan mikrofon anda",
@@ -73,6 +79,27 @@
       {
         "title": "Sentiasa tahu jika anda aktif.",
         "text": "Butang terapung kecil menunjukkan status mik anda dan meredam dengan satu klik. Hijau bermakna aktif, merah bermakna diredam."
+      }
+    ]
+  },
+  "tour": {
+    "title": "Tetapan yang serasi pada Mac anda.",
+    "steps": [
+      {
+        "title": "Jadikannya milik anda.",
+        "text": "Pilih ikon bar menu: standard, hijau dan merah, atau sekadar titik. Muffle boleh bermula dengan Mac anda."
+      },
+      {
+        "title": "Panggilan secara automatik.",
+        "text": "Mulakan setiap panggilan dalam keadaan diredam, nyahredam apabila ia tamat, redam apabila anda mengunci Mac atau set kepala terputus sambungan."
+      },
+      {
+        "title": "Tekan untuk bercakap, cara anda.",
+        "text": "Ketik untuk menogol, tahan untuk bercakap atau tahan untuk meredam. Tambah kekunci redam dan nyahredam yang berasingan, atau kekunci bercakap seperti ⌥ Kanan."
+      },
+      {
+        "title": "Panel anda, cara anda.",
+        "text": "Pilih apa yang ditunjukkan oleh panel bar menu dan togol pantas mana yang terletak di bahagian bawah."
       }
     ]
   },
@@ -132,7 +159,14 @@
     "image_pills_alt": "Pengawal mini terapung dalam keadaan diredam dan aktif",
     "image_automation_alt": "Tetapan Muffle untuk memulakan panggilan dalam keadaan diredam dan automasi panggilan lain",
     "image_suggestion_alt": "Muffle mencadangkan mikrofon Mac kerana bilik sunyi",
-    "image_keyboard_alt": "Tetapan papan kekunci Muffle dengan tekan untuk bercakap dan kekunci bercakap"
+    "image_keyboard_alt": "Tetapan papan kekunci Muffle ditetapkan kepada tekan untuk bercakap",
+    "image_airpods_alt": "Tetapan AirPods Muffle dengan “Redam dan nyahredam dengan tekanan AirPods” dihidupkan",
+    "image_shortcut_alt": "Mesej Diredam dan Mik Aktif yang ditunjukkan oleh Muffle apabila anda menggunakan pintasan",
+    "image_level_alt": "Gelangsar tahap mik dalam panel Muffle dengan kuncinya dihidupkan",
+    "image_remute_alt": "Mesej “Diredam semula” selepas senyap selama 30 saat",
+    "image_disconnect_alt": "Mesej yang ditunjukkan oleh Muffle selepas meredam mik anda kerana AirPods anda terputus sambungan",
+    "image_shortcuts_alt": "Tetapan Automasi Muffle dengan pautannya untuk Pintasan, pelancar dan Stream Deck",
+    "image_status_alt": "Tetapan Status Redam Muffle untuk status pada skrin, sinaran pinggir skrin dan pengawal mini"
   },
   "stats": {
     "title": "Aplikasi kecil. Ketenangan fikiran yang besar.",

@@ -31,6 +31,12 @@
     "mute_text": "Click the button, press your AirPods or use a shortcut. Muffle turns the microphone itself off, so every app hears silence.",
     "panel_title": "Every control in one place.",
     "panel_text": "Mute, pick your mic, lock its level and switch features on and off, right from the menu bar.",
+    "mics_title": "Switch mics in one click.",
+    "mics_text": "Every microphone on your Mac is right there. Pick one and every app follows.",
+    "level_title": "Your mic level stays put.",
+    "level_text": "Chrome, Zoom and Teams change your mic level on their own. Lock it and Muffle puts it back.",
+    "toggles_title": "Your switches, your way.",
+    "toggles_text": "Turn features on and off right from the panel, and choose which ones sit there.",
     "statement": "Most mute buttons only mute one app. Muffle turns the microphone itself off, so every app on your Mac hears silence."
   },
   "works_with": {
@@ -73,6 +79,27 @@
       {
         "title": "Always know if you're live.",
         "text": "A small floating button shows your mic state and mutes with one click. Green is live, red is muted."
+      }
+    ]
+  },
+  "tour": {
+    "title": "Settings that feel at home on your Mac.",
+    "steps": [
+      {
+        "title": "Make it yours.",
+        "text": "Pick a menu bar icon: a plain one, green and red, or just a dot. Muffle can start with your Mac."
+      },
+      {
+        "title": "Calls on autopilot.",
+        "text": "Start every call muted, unmute when it ends, mute when you lock your Mac or your headset disconnects."
+      },
+      {
+        "title": "Push to talk, your way.",
+        "text": "Tap to toggle, hold to talk, or hold to mute. Add separate mute and unmute keys, or a talk key like Right Option."
+      },
+      {
+        "title": "Your panel, your way.",
+        "text": "Choose what the menu bar panel shows and which quick switches sit at the bottom."
       }
     ]
   },
@@ -132,7 +159,14 @@
     "image_pills_alt": "The floating mini controller in its muted and live states",
     "image_automation_alt": "Muffle settings for starting calls muted and other call automations",
     "image_suggestion_alt": "Muffle suggesting the Mac's microphone because the room is quiet",
-    "image_keyboard_alt": "Muffle keyboard settings with push to talk and a talk key"
+    "image_keyboard_alt": "Muffle's keyboard settings set to push to talk",
+    "image_airpods_alt": "Muffle's AirPods settings with “Mute and unmute with an AirPods press” turned on",
+    "image_shortcut_alt": "The Muted and Mic On messages Muffle shows when you use the shortcut",
+    "image_level_alt": "The mic level slider in the Muffle panel with its lock turned on",
+    "image_remute_alt": "The “Muted again” message after 30 seconds of quiet",
+    "image_disconnect_alt": "The message Muffle shows after muting your mic because your AirPods disconnected",
+    "image_shortcuts_alt": "Muffle's Automation settings with its links for Shortcuts, launchers and Stream Deck",
+    "image_status_alt": "Muffle's Mute Status settings for the on-screen status, the screen edge glow and the mini controller"
   },
   "stats": {
     "title": "Small app. Big peace of mind.",

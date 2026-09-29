@@ -5,6 +5,7 @@
   --line: rgba(0, 0, 0, .09); --accent: #0071e3; --accent-2: #0077ed;
   --red: #ff3b30; --green: #28cd41;
   --radius: 28px; --track: -.03em; --ease: cubic-bezier(.2, .7, .2, 1);
+  --lift: drop-shadow(0 12px 24px rgba(0, 0, 0, .13));
   color-scheme: light dark;
 }
 @media (prefers-color-scheme: dark) {
@@ -12,6 +13,7 @@
     --bg: #000; --bg-alt: #0e0e10; --card: #17171a;
     --text: #f5f5f7; --text-2: #a1a1a6; --text-3: #86868b;
     --line: rgba(255, 255, 255, .12); --accent: #2997ff; --accent-2: #47a6ff;
+    --lift: drop-shadow(0 14px 28px rgba(0, 0, 0, .6));
   }
 }
 html[lang="ja"], html[lang="ko"], html[lang^="zh"], html[lang="th"], html[lang="ar"], html[lang="he"], html[lang="hi"] { --track: 0; }
@@ -102,20 +104,23 @@ section { padding: clamp(88px, 12vw, 160px) 0; }
 .cinema { position: relative; padding: 0 0 clamp(48px, 7vw, 96px); }
 .cinema-still { display: none; }
 .cinema-pin, .cinema-view { position: relative; }
-.scroll-hint { display: none; }
 .cta-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 18px 32px; margin-top: 36px; }
 .cinema .caps { text-align: center; padding: clamp(64px, 9vw, 120px) 24px 0; }
 .cap h2 { font-size: clamp(32px, 4.6vw, 60px); line-height: 1.05; letter-spacing: var(--track); max-width: 900px; margin: 0 auto; }
 .cap p { font-size: clamp(17px, 1.9vw, 22px); line-height: 1.4; color: var(--text-2); max-width: 700px; margin: 14px auto 0; font-weight: 500; }
 html:not(.motion) .cap:not(.cap-hero) { display: none; }
-html:not(.js) .cinema-view { display: none; }
-html:not(.js) .cinema-still { display: block; padding: 48px 24px 0; }
-html:not(.js) .cinema-still img { margin: 0 auto; width: min(430px, 80vw); }
-.js:not(.motion) .cinema-view { display: flex; justify-content: center; margin-top: 56px; }
+/* Without motion (no script, or Reduce Motion): the headline, then the panel as a still picture. */
+html:not(.motion) .cinema-view { display: none; }
+html:not(.motion) .cinema-still { display: block; padding: 48px 24px 0; }
+html:not(.motion) .cinema-still img { margin: 0 auto; width: min(430px, 88vw); height: auto; }
 
-.motion .cinema { height: 380vh; padding: 0; }
+.motion .cinema { height: 660vh; padding: 0; }
 .motion .cinema-pin { position: sticky; top: 0; height: 100vh; height: 100svh; overflow: hidden; }
 .motion .cinema-view { position: absolute; inset: 0; }
+/* Close-ups run past the edges of a phone: let them fade out instead of stopping hard. */
+@media (max-width: 700px) {
+  .motion .cinema-view { -webkit-mask-image: linear-gradient(90deg, transparent, #000 22px, #000 calc(100% - 22px), transparent); mask-image: linear-gradient(90deg, transparent, #000 22px, #000 calc(100% - 22px), transparent); }
+}
 .motion .cinema .caps { position: absolute; inset: 0 0 auto; padding: 0; z-index: 3; pointer-events: none; }
 .motion .cap { position: absolute; inset-inline: 0; top: calc(52px + clamp(18px, 4.5vh, 52px)); padding: 0 24px; opacity: 0; visibility: hidden; will-change: opacity, transform; }
 .motion .cap-hero { opacity: 1; visibility: visible; pointer-events: auto; }
@@ -123,72 +128,67 @@ html:not(.js) .cinema-still img { margin: 0 auto; width: min(430px, 80vw); }
 .motion .cap-hero .lead { font-size: clamp(17px, min(2.3vw, 2.8vh), 26px); margin-top: min(24px, 2.6vh); }
 .motion .cap-hero .cta-row { margin-top: min(36px, 3.6vh); }
 .motion .cinema-pin::before {
-  content: ""; position: absolute; inset: 0 0 auto; height: calc(var(--band, 40vh) + 30px); z-index: 2; pointer-events: none;
-  background: linear-gradient(var(--bg) calc(100% - 70px), color-mix(in srgb, var(--bg) 0%, transparent));
+  content: ""; position: absolute; inset: 0 0 auto; height: calc(var(--band, 40vh) + 14px); z-index: 2; pointer-events: none;
+  background: linear-gradient(var(--bg) calc(100% - 22px), color-mix(in srgb, var(--bg) 0%, transparent));
 }
-.motion .scroll-hint { display: block; position: absolute; left: 50%; bottom: 26px; width: 24px; height: 38px; margin-left: -12px; border: 2px solid var(--text-3); border-radius: 14px; z-index: 3; opacity: var(--hint, 1); }
-.scroll-hint i { position: absolute; left: 50%; top: 7px; width: 4px; height: 8px; margin-left: -2px; border-radius: 2px; background: var(--text-3); animation: hint 1.8s var(--ease) infinite; }
-@keyframes hint { 0% { transform: translateY(0); opacity: 0; } 30% { opacity: 1; } 100% { transform: translateY(12px); opacity: 0; } }
 
-/* The panel itself, 336 pixels wide like in the app */
-.scene {
-  --pn: #f5f5f7; --pn-mod: rgba(0, 0, 0, .05); --pn-text: #1d1d1f; --pn-2: #6e6e73; --pn-line: rgba(0, 0, 0, .08);
-  position: absolute; left: 0; top: 0; width: 336px; transform-origin: 0 0;
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  letter-spacing: 0; color: var(--pn-text); user-select: none;
+/* The panel: renders from the app itself (light or dark with the visitor), live and muted, and an 8x close-up
+   of the mute area laid exactly on top so the zoom stays sharp. */
+.scene { position: absolute; left: 0; top: 0; transform-origin: 0 0; --dim: color-mix(in srgb, var(--bg) 86%, transparent); }
+.scene .lay, .scene .lay img, .hi picture, .hi img, .lo picture, .lo img { position: absolute; inset: 0; width: 100%; height: 100%; }
+.scene img { max-width: none; }
+.hi, .lo { position: absolute; }
+.lay-muted, .hi-muted { opacity: 0; transition: opacity .28s ease; }
+.scene.is-muted .lay-muted, .scene.is-muted .hi-muted { opacity: 1; }
+.scene.is-muted .hi.head { animation: dip .5s var(--ease); }
+@keyframes dip { 0% { transform: scale(1); } 30% { transform: scale(.965); } 100% { transform: scale(1); } }
+.ring { position: absolute; border-radius: 50%; border: 3px solid #ff3b30; opacity: 0; pointer-events: none; }
+.scene.is-muted .ring { animation: ring .9s ease-out; }
+@keyframes ring { 0% { opacity: .9; transform: scale(1); } 100% { opacity: 0; transform: scale(1.9); } }
+/* Guided tour: everything but one part fades back */
+.spot {
+  position: absolute; border-radius: 16px; opacity: 0; pointer-events: none;
+  box-shadow: 0 0 0 4000px var(--dim);
+  transition: left .55s var(--ease), top .55s var(--ease), width .55s var(--ease), height .55s var(--ease);
 }
-.js:not(.motion) .scene { position: relative; }
-@media (prefers-color-scheme: dark) {
-  .scene { --pn: #1e1e21; --pn-mod: rgba(255, 255, 255, .07); --pn-text: #f5f5f7; --pn-2: #a1a1a6; --pn-line: rgba(255, 255, 255, .1); }
-}
-.scene svg { display: block; }
-.scene .g { width: 100%; height: 100%; }
-.pn {
-  width: 336px; padding: 10px; border-radius: 22px; background: var(--pn); display: grid; gap: 8px; font-size: 13px;
-  box-shadow: 0 0 0 1px var(--pn-line), 0 50px 100px -40px rgba(0, 0, 0, .4);
-}
-.pm { background: var(--pn-mod); border-radius: 16px; padding: 12px; }
-.pm-head { display: flex; align-items: center; gap: 14px; }
-.mute { width: 58px; height: 58px; border-radius: 50%; background: rgba(127, 127, 127, .16); display: grid; place-items: center; flex: none; position: relative; transition: background .35s, color .35s; }
-.mute .g { width: 25px; height: 25px; position: absolute; transition: opacity .25s; }
-.px { display: grid; gap: 3px; min-width: 0; }
-.px b { font-size: 18px; position: relative; }
-.px small { font-size: 13px; color: var(--pn-2); position: relative; }
-.pm-call { display: flex; align-items: center; gap: 10px; }
-.app { width: 28px; height: 28px; color: #2f7ef6; flex: none; } .app svg { width: 28px; height: 28px; }
-.pm-call .px { flex: 1; gap: 7px; font-size: 13px; }
-.lvl { display: block; height: 5px; border-radius: 3px; background: rgba(127, 127, 127, .2); overflow: hidden; }
-.lvl i { display: block; height: 100%; width: 62%; border-radius: 3px; background: #34c759; transition: width .35s, background .35s; }
-.cap-s { display: flex; justify-content: space-between; align-items: center; font-size: 11px; font-weight: 600; color: var(--pn-2); padding: 0 2px 6px; }
-.chip { font-style: normal; font-size: 11px; padding: 2px 8px; border-radius: 9px; background: rgba(127, 127, 127, .14); }
-.row { display: flex; align-items: center; gap: 10px; font-size: 14px; }
-.dot { width: 26px; height: 26px; border-radius: 50%; background: #0a84ff; color: #fff; display: grid; place-items: center; } .dot svg { width: 15px; height: 15px; }
-.row span { flex: 1; }
-.check { width: 16px; height: 16px; color: #0a84ff; }
-.pm-level { display: flex; align-items: center; gap: 10px; }
-.g.mini { width: 16px; height: 16px; color: var(--pn-2); flex: none; }
-.slider { flex: 1; height: 4px; border-radius: 2px; background: rgba(127, 127, 127, .3); position: relative; }
-.slider i { position: absolute; left: 0; top: 0; bottom: 0; width: 68%; border-radius: 2px; background: rgba(127, 127, 127, .55); }
-.slider b { position: absolute; left: 68%; top: 50%; width: 18px; height: 18px; margin: -9px 0 0 -9px; border-radius: 50%; background: #fff; box-shadow: 0 1px 4px rgba(0, 0, 0, .3); }
-.lock { width: 26px; height: 26px; border-radius: 50%; background: rgba(127, 127, 127, .16); flex: none; }
-.qts { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
-.qt { background: var(--pn-mod); border-radius: 14px; padding: 9px; display: flex; align-items: center; gap: 9px; min-height: 52px; }
-.qi { width: 30px; height: 30px; border-radius: 50%; background: rgba(127, 127, 127, .18); display: grid; place-items: center; flex: none; color: var(--pn-text); }
-.qi svg { width: 16px; height: 16px; }
-.qt.is-on .qi { background: #0a84ff; color: #fff; }
-.qx { display: grid; line-height: 1.2; min-width: 0; } .qx b { font-size: 12px; } .qx small { font-size: 11px; color: var(--pn-2); }
-.pf { display: flex; justify-content: space-between; padding: 2px 8px; color: var(--pn-2); font-size: 13px; }
 
-/* Live and muted */
-.scene .off { opacity: 0; }
-.scene .on { opacity: 1; }
-.scene.is-muted .off { opacity: 1; }
-.scene.is-muted .on { opacity: 0; }
-.px b > span, .px small > span { transition: opacity .25s; }
-.px b .off, .px small .off { position: absolute; left: 0; top: 0; white-space: nowrap; }
-.scene.is-muted .mute { background: #ff3b30; color: #fff; animation: press .55s var(--ease); }
-@keyframes press { 0% { transform: scale(1); } 35% { transform: scale(.88); } 100% { transform: scale(1); } }
-.scene.is-muted .lvl i { width: 0; background: #ff3b30; }
+/* ---------- Settings tour ---------- */
+.tour { background: var(--bg-alt); padding: clamp(88px, 12vw, 160px) 0; }
+.tour .headline { margin-bottom: clamp(28px, 4.5vh, 56px); }
+.tour-grid { display: grid; grid-template-columns: minmax(250px, .75fr) 1.7fr; gap: clamp(28px, 4vw, 64px); align-items: center; }
+.ts { padding-block: 16px; padding-inline: 22px 0; border-inline-start: 3px solid var(--line); transition: opacity .45s var(--ease), border-color .45s; }
+.ts h3 { font-size: clamp(21px, 2vw, 27px); line-height: 1.15; letter-spacing: calc(var(--track) * .6); }
+.ts p { color: var(--text-2); margin: 8px 0 0; font-size: 17px; }
+.tour-shots { display: grid; gap: 28px; }
+.tf img { width: 100%; height: auto; }
+.motion .tour { height: 440vh; padding: 0; }
+.motion .tour-pin { position: sticky; top: 0; height: 100vh; height: 100svh; padding-top: 52px; display: flex; flex-direction: column; justify-content: center; overflow: hidden; }
+.motion .tour .headline { font-size: clamp(28px, min(4.4vw, 6.2vh), 56px); margin-bottom: min(44px, 4.5vh); }
+.motion .tf img { max-height: calc(100svh - 52px - min(44px, 4.5vh) - 2 * clamp(28px, min(4.4vw, 6.2vh), 56px) - 64px); width: auto; max-width: 100%; margin: 0 auto; }
+.motion .ts { opacity: .32; cursor: pointer; }
+.motion .ts.on { opacity: 1; border-color: var(--accent); }
+/* Only the step on screen opens up; the others keep just their titles, so long languages still fit. */
+.motion .ts p { max-height: 0; margin-top: 0; opacity: 0; overflow: hidden; transition: max-height .5s var(--ease), margin-top .5s var(--ease), opacity .35s; }
+.motion .ts.on p { max-height: 16em; margin-top: 8px; opacity: 1; }
+.motion .tour-shots { gap: 0; }
+.motion .tf { grid-area: 1 / 1; opacity: 0; transform: scale(.965) translateY(14px); transition: opacity .6s var(--ease), transform .9s var(--ease); }
+.motion .tf.on { opacity: 1; transform: none; }
+/* Without motion: each step's text right above its window. */
+html:not(.motion) .tour-grid { display: flex; flex-direction: column; align-items: center; gap: 22px; }
+html:not(.motion) .tour-text, html:not(.motion) .tour-shots { display: contents; }
+html:not(.motion) .ts { border: 0; padding: 0; text-align: center; max-width: 620px; margin-top: 36px; }
+html:not(.motion) .tf img { width: min(100%, 820px); margin: 0 auto; }
+html:not(.motion) .tf[data-step="0"] { order: 1; } html:not(.motion) .ts[data-step="1"] { order: 2; }
+html:not(.motion) .tf[data-step="1"] { order: 3; } html:not(.motion) .ts[data-step="2"] { order: 4; }
+html:not(.motion) .tf[data-step="2"] { order: 5; } html:not(.motion) .ts[data-step="3"] { order: 6; }
+html:not(.motion) .tf[data-step="3"] { order: 7; }
+@media (max-width: 900px) {
+  .tour-grid { grid-template-columns: 1fr; }
+  .motion .tour-text { order: 2; min-height: 7.5em; }
+  .motion .ts { display: none; border: 0; padding: 0; text-align: center; }
+  .motion .ts.on { display: block; }
+  .motion .ts p { transition: none; }
+}
 
 /* ---------- The statement: words light up as you scroll ---------- */
 .statement { padding: clamp(120px, 20vh, 240px) 0; }
@@ -214,16 +214,17 @@ html:not(.js) .cinema-still img { margin: 0 auto; width: min(430px, 80vw); }
 .rail-view::-webkit-scrollbar { display: none; }
 .rail-track { display: flex; gap: 22px; width: max-content; padding-inline: max(24px, calc((100vw - 1120px) / 2 + 24px)); }
 .rc {
-  flex: none; width: clamp(280px, 29vw, 390px); height: clamp(400px, 58vh, 540px); scroll-snap-align: center;
-  background: var(--bg-alt); border-radius: 30px; padding: clamp(26px, 2.6vw, 36px); display: flex; flex-direction: column; overflow: hidden;
+  --pad: clamp(26px, 2.6vw, 36px);
+  flex: none; width: clamp(280px, 29vw, 390px); height: clamp(420px, 60vh, 560px); scroll-snap-align: center;
+  background: var(--bg-alt); border-radius: 30px; padding: var(--pad); display: flex; flex-direction: column; overflow: hidden;
 }
 .rc h3 { font-size: clamp(22px, 2vw, 28px); line-height: 1.15; letter-spacing: calc(var(--track) * .6); }
 .rc p { color: var(--text-2); margin: 12px 0 0; }
-.rc-media { flex: 1; min-height: 0; margin: 18px -22px -26px; display: flex; align-items: flex-end; justify-content: center; }
-.rc-media picture, .rc-media img { max-height: 100%; }
-.rc-media img { width: auto; object-fit: contain; }
-.rc-icon { margin-top: auto; color: var(--accent); }
-.rc-icon .ico { width: 96px; height: 96px; stroke-width: 1.2; }
+/* The pictures come from the app without shadows; the page adds one, so nothing is cut at the image edge. */
+.rc-media { flex: 1; min-height: 0; margin: 22px calc(14px - var(--pad)) calc(20px - var(--pad)); display: flex; align-items: center; justify-content: center; }
+.rc-media.pane { align-items: flex-end; }
+.rc-media picture { display: contents; }
+.rc-media img { width: auto; height: auto; max-width: 100%; max-height: 100%; object-fit: contain; filter: var(--lift); }
 .motion .rail { padding: 0; }
 .motion .rail-pin { position: sticky; top: 0; height: 100vh; height: 100svh; display: flex; flex-direction: column; justify-content: center; overflow: hidden; }
 .motion .rail-view { overflow: visible; }
@@ -311,6 +312,7 @@ details[open] summary::after { transform: translateY(2px) rotate(-135deg); }
 .cta-box p { margin: 0; flex-basis: 100%; color: var(--text-2); }
 .guide-shot { margin: 48px 0 32px; background: var(--bg-alt); border-radius: var(--radius); padding: clamp(20px, 4vw, 48px); display: flex; justify-content: center; }
 .guide-shot img { max-height: 520px; width: auto; }
+.guide-shot.card img { max-height: 380px; filter: var(--lift); }
 .tips { list-style: none; padding: 0; margin: 28px 0; display: grid; gap: 12px; }
 .tips li { position: relative; background: var(--bg-alt); border-radius: 18px; padding-block: 18px; padding-inline: 48px 22px; }
 .tips li::before { content: ""; position: absolute; inset-inline-start: 22px; top: 27px; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
@@ -336,6 +338,6 @@ footer .langs a[aria-current] { color: var(--text); font-weight: 600; }
   .tracks ul { flex-wrap: wrap; justify-content: center; row-gap: 14px; }
   .tracks ul[aria-hidden] { display: none; }
   .marquee { -webkit-mask-image: none; mask-image: none; }
-  .scroll-hint i, .scene.is-talking .bars i { animation: none; }
   .guide-list a, .btn { transition: none; }
+  .scene, .scene * { animation: none !important; transition: none !important; }
 }
