@@ -29,8 +29,9 @@
   "cinema": {
     "panel_title": "Kaikki säätimet yhdessä paikassa.",
     "panel_text": "Mykistä, valitse mikrofoni, lukitse sen taso ja kytke ominaisuuksia päälle tai pois suoraan valikkoriviltä.",
-    "you": "Sinä",
-    "statement": "Useimmat mykistyspainikkeet mykistävät vain yhden sovelluksen. Muffle sammuttaa itse mikrofonin, joten jokainen Macisi sovellus kuulee pelkkää hiljaisuutta."
+    "statement": "Useimmat mykistyspainikkeet mykistävät vain yhden sovelluksen. Muffle sammuttaa itse mikrofonin, joten jokainen Macisi sovellus kuulee pelkkää hiljaisuutta.",
+    "mute_title": "Yksi painallus. Hiljaisuus.",
+    "mute_text": "Napsauta painiketta, paina AirPodsia tai käytä pikanäppäintä. Muffle sammuttaa itse mikrofonin, joten jokainen sovellus kuulee hiljaisuutta."
   },
   "works_with": {
     "title": "Toimii kaikkien mikrofonia käyttävien sovellusten kanssa",

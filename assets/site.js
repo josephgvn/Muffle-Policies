@@ -37,18 +37,15 @@
 
   const parts = [];
 
-  // ---------- Opening scene ----------
+  // ---------- Opening: the panel rises, the page zooms into its mute button, presses it, zooms back out ----------
   const cinema = d.querySelector(".cinema");
   if (cinema) {
     const pin = cinema.querySelector(".cinema-pin");
-    const view = cinema.querySelector(".cinema-view");
     const scene = cinema.querySelector(".scene");
+    const button = scene.querySelector(".mute");
     const caps = [...cinema.querySelectorAll(".cap")];
-    const hero = caps[0];
-    // Scene points the camera looks at.
-    const ICON = [1236, 16], PANEL = [1236, 318], SCREEN = [720, 450], PRESS = [1110, 392], CALL = [600, 520];
-    // When each caption fades in and out.
-    const RANGES = [[0, 0, 0.02, 0.08], [0.19, 0.24, 0.35, 0.4], [0.43, 0.48, 0.56, 0.6], [0.62, 0.66, 0.77, 0.81], [0.82, 0.86, 2, 3]];
+    // When each caption fades in and out: the headline, "One press", "Every control".
+    const RANGES = [[0, 0, 0.03, 0.09], [0.2, 0.26, 0.5, 0.56], [0.6, 0.66, 2, 3]];
     let stages = [];
     let vw = 0, vh = 0;
 
@@ -56,41 +53,28 @@
       vw = pin.clientWidth;
       vh = pin.clientHeight;
       if (!motion) {
-        const fit = Math.min(1, (view.clientWidth - 48) / 1440);
-        scene.style.setProperty("--fit", fit.toFixed(4));
-        scene.classList.add("is-open", "is-muted");
-        scene.style.setProperty("--pod", "1");
+        scene.classList.add("is-muted");
         return;
       }
-      const wide = vw >= 980 && vh >= 560;
-      cinema.classList.toggle("wide", wide);
-      const top = parseFloat(getComputedStyle(caps[2]).top) || 90;
-      const band = Math.min(vh * 0.4, top + Math.max(...caps.slice(wide ? 2 : 1).map((c) => c.offsetHeight)) + 24);
-      const heroBottom = top + hero.offsetHeight;   // used for the top fade
-      const fit = Math.min((vw - 32) / 1440, (vh - band - 20) / 900);
-      // The giant icon waits just below the screen, then rises into the middle once the headline has gone.
-      const iconSize = clamp(0.42 * Math.min(vw, vh), 120, 420);
-      const yIcon = vh * 0.56;
-      const yIconStart = vh + iconSize * 0.62;
-      const yBelow = band + (vh - band) / 2;
-      pin.style.setProperty("--band", `${Math.round(Math.max(band, heroBottom * 0.55))}px`);
-      // Wide screens: the panel caption sits on the left and the panel fills the right half.
-      if (wide) caps[1].style.top = `${Math.max(80, (vh - caps[1].offsetHeight) / 2)}px`;
-      else caps[1].style.top = "";
-      const panelScale = wide ? Math.min((vh - 110) / 590, (vw * 0.46) / 356) : Math.min((vh - band - 36) / 590, (vw - 40) / 356);
-      const panelX = wide ? vw * (rtl ? 0.34 : 0.66) : vw / 2;
-      const panelY = wide ? vh / 2 + 24 : yBelow;
+      const W = scene.offsetWidth, H = scene.offsetHeight;
+      const center = [W / 2, H / 2];
+      const mute = [button.offsetLeft + button.offsetWidth / 2, button.offsetTop + button.offsetHeight / 2];
+      const top = parseFloat(getComputedStyle(caps[1]).top) || 90;
+      const band = Math.min(vh * 0.42, top + Math.max(...caps.slice(1).map((c) => c.offsetHeight)) + 28);
+      pin.style.setProperty("--band", `${Math.round(band)}px`);
+      const heroBottom = top + caps[0].offsetHeight;
+      const fit = Math.min((vh - band - 40) / H, (vw - 48) / W, 1.5);
+      const zoom = Math.max(fit * 2.2, (0.36 * Math.min(vw, vh)) / button.offsetWidth);
+      const y = band + (vh - band) / 2;
+      // Under the headline the panel only peeks out, if there is room for it.
+      const peek = clamp(vh - heroBottom - 28, 0, 150);
       stages = [
-        [0, ICON, vw / 2, yIconStart, iconSize / 17],
-        [0.09, ICON, vw / 2, yIcon, iconSize / 17],
-        [0.13, ICON, vw / 2, yIcon, iconSize / 17],
-        [0.3, PANEL, panelX, panelY, panelScale],
-        [0.47, SCREEN, vw / 2, yBelow, fit],
-        [0.57, SCREEN, vw / 2, yBelow, fit],
-        [0.66, PRESS, vw / 2, yBelow, Math.min(fit * 1.55, (vh - band - 10) / 700)],
-        [0.78, PRESS, vw / 2, yBelow, Math.min(fit * 1.55, (vh - band - 10) / 700)],
-        [0.88, CALL, vw / 2, yBelow, fit * 1.3],
-        [1, CALL, vw / 2, yBelow, fit * 1.3],
+        [0, center, vw / 2, vh - peek + (H * fit) / 2, fit],
+        [0.13, center, vw / 2, y, fit],
+        [0.32, mute, vw / 2, y, zoom],
+        [0.46, mute, vw / 2, y, zoom],
+        [0.64, center, vw / 2, y, fit],
+        [1, center, vw / 2, y, fit],
       ];
     };
 
@@ -112,12 +96,7 @@
         if (!motion) return;
         const p = progress(cinema, vh);
         place(p);
-        scene.style.setProperty("--open", smooth(0.12, 0.24, p).toFixed(3));
-        scene.style.setProperty("--pod", smooth(0.58, 0.66, p).toFixed(3));
-        scene.style.setProperty("--press", (smooth(0.66, 0.69, p) * (1 - smooth(0.7, 0.76, p))).toFixed(3));
-        scene.classList.toggle("is-open", p > 0.12);
-        scene.classList.toggle("is-muted", p >= 0.69);
-        scene.classList.toggle("is-talking", p >= 0.845);
+        scene.classList.toggle("is-muted", p >= 0.37);
         pin.style.setProperty("--hint", (1 - smooth(0, 0.03, p)).toFixed(3));
         caps.forEach((cap, i) => {
           const [a, b, c, e] = RANGES[i];
@@ -126,12 +105,6 @@
           cap.style.transform = `translateY(${((1 - o) * (i === 0 ? -24 : 22)).toFixed(1)}px)`;
           cap.style.visibility = o < 0.01 ? "hidden" : "visible";
           cap.style.pointerEvents = o > 0.5 ? "auto" : "none";
-          if (i === 1) {
-            // The side caption brings its own backdrop; the top fade steps aside so the panel stays clear.
-            const side = cinema.classList.contains("wide") ? o : 0;
-            pin.style.setProperty("--side", side.toFixed(3));
-            pin.style.setProperty("--scrim", (1 - side).toFixed(3));
-          }
         });
       },
     });

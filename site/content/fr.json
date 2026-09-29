@@ -29,8 +29,9 @@
   "cinema": {
     "panel_title": "Toutes les commandes au même endroit.",
     "panel_text": "Coupez le micro, choisissez votre micro, verrouillez son niveau et activez ou désactivez les fonctionnalités, directement depuis la barre des menus.",
-    "you": "Vous",
-    "statement": "La plupart des boutons de sourdine ne coupent qu'une seule app. Muffle désactive directement le micro, pour que chaque app sur votre Mac n'entende que le silence."
+    "statement": "La plupart des boutons de sourdine ne coupent qu'une seule app. Muffle désactive directement le micro, pour que chaque app sur votre Mac n'entende que le silence.",
+    "mute_title": "Un appui. Le silence.",
+    "mute_text": "Cliquez sur le bouton, appuyez sur vos AirPods ou utilisez un raccourci. Muffle coupe directement le micro : chaque app n'entend que le silence."
   },
   "works_with": {
     "title": "Fonctionne avec toutes les apps qui utilisent votre micro",

@@ -27,9 +27,10 @@
     "secondary_cta": "See how it works"
   },
   "cinema": {
+    "mute_title": "One press. Silence.",
+    "mute_text": "Click the button, press your AirPods or use a shortcut. Muffle turns the microphone itself off, so every app hears silence.",
     "panel_title": "Every control in one place.",
     "panel_text": "Mute, pick your mic, lock its level and switch features on and off, right from the menu bar.",
-    "you": "You",
     "statement": "Most mute buttons only mute one app. Muffle turns the microphone itself off, so every app on your Mac hears silence."
   },
   "works_with": {

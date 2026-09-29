@@ -29,8 +29,9 @@
   "cinema": {
     "panel_title": "Semua kontrol di satu tempat.",
     "panel_text": "Bisukan, pilih mik Anda, kunci tingkatnya, dan nyalakan atau matikan fitur, langsung dari bilah menu.",
-    "you": "Anda",
-    "statement": "Sebagian besar tombol bisukan hanya membisukan satu app. Muffle mematikan mikrofon itu sendiri, sehingga setiap app di Mac Anda hanya mendengar keheningan."
+    "statement": "Sebagian besar tombol bisukan hanya membisukan satu app. Muffle mematikan mikrofon itu sendiri, sehingga setiap app di Mac Anda hanya mendengar keheningan.",
+    "mute_title": "Satu tekanan. Hening.",
+    "mute_text": "Klik tombol, tekan AirPods Anda, atau gunakan pintasan. Muffle mematikan mikrofon itu sendiri, sehingga setiap app mendengar keheningan."
   },
   "works_with": {
     "title": "Berfungsi dengan setiap app yang menggunakan mikrofon Anda",

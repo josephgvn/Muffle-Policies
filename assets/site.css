@@ -97,17 +97,13 @@ html[lang="ja"] .headline, html[lang="ko"] .headline, html[lang^="zh"] .headline
 
 section { padding: clamp(88px, 12vw, 160px) 0; }
 
-/* ---------- Opening scene ----------
-   A Mac drawn in HTML, so it stays sharp at any zoom. While the section is pinned, the script moves a camera
-   over it: from the menu bar icon, to the panel, to the whole screen, then an AirPods press mutes everything. */
+/* ---------- Opening: the Muffle panel ----------
+   Drawn in HTML so it stays sharp while the page zooms into its mute button, presses it and zooms back out. */
 .cinema { position: relative; padding: 0 0 clamp(48px, 7vw, 96px); }
 .cinema-still { display: none; }
-.cinema-pin { position: relative; }
-.cinema-view { position: relative; }
+.cinema-pin, .cinema-view { position: relative; }
 .scroll-hint { display: none; }
 .cta-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 18px 32px; margin-top: 36px; }
-
-/* Without the moving camera (no script, or reduced motion) the scene sits still under the headline */
 .cinema .caps { text-align: center; padding: clamp(64px, 9vw, 120px) 24px 0; }
 .cap h2 { font-size: clamp(32px, 4.6vw, 60px); line-height: 1.05; letter-spacing: var(--track); max-width: 900px; margin: 0 auto; }
 .cap p { font-size: clamp(17px, 1.9vw, 22px); line-height: 1.4; color: var(--text-2); max-width: 700px; margin: 14px auto 0; font-weight: 500; }
@@ -115,9 +111,9 @@ html:not(.motion) .cap:not(.cap-hero) { display: none; }
 html:not(.js) .cinema-view { display: none; }
 html:not(.js) .cinema-still { display: block; padding: 48px 24px 0; }
 html:not(.js) .cinema-still img { margin: 0 auto; width: min(430px, 80vw); }
-.js:not(.motion) .cinema-view { height: calc(min(900px, (100vw - 48px) * .625) + 80px); margin-top: 56px; overflow: hidden; }
+.js:not(.motion) .cinema-view { display: flex; justify-content: center; margin-top: 56px; }
 
-.motion .cinema { height: 600vh; padding: 0; }
+.motion .cinema { height: 380vh; padding: 0; }
 .motion .cinema-pin { position: sticky; top: 0; height: 100vh; height: 100svh; overflow: hidden; }
 .motion .cinema-view { position: absolute; inset: 0; }
 .motion .cinema .caps { position: absolute; inset: 0 0 auto; padding: 0; z-index: 3; pointer-events: none; }
@@ -127,87 +123,29 @@ html:not(.js) .cinema-still img { margin: 0 auto; width: min(430px, 80vw); }
 .motion .cap-hero .lead { font-size: clamp(17px, min(2.3vw, 2.8vh), 26px); margin-top: min(24px, 2.6vh); }
 .motion .cap-hero .cta-row { margin-top: min(36px, 3.6vh); }
 .motion .cinema-pin::before {
-  content: ""; position: absolute; inset: 0 0 auto; height: calc(var(--band, 46vh) + 36px); z-index: 2; pointer-events: none;
-  background: linear-gradient(var(--bg) calc(100% - 90px), color-mix(in srgb, var(--bg) 0%, transparent)); opacity: var(--scrim, 1);
+  content: ""; position: absolute; inset: 0 0 auto; height: calc(var(--band, 40vh) + 30px); z-index: 2; pointer-events: none;
+  background: linear-gradient(var(--bg) calc(100% - 70px), color-mix(in srgb, var(--bg) 0%, transparent));
 }
-.motion .cinema-pin::after {
-  content: ""; position: absolute; inset: 0; z-index: 2; pointer-events: none; opacity: var(--side, 0);
-  background: linear-gradient(90deg, var(--bg) 34%, color-mix(in srgb, var(--bg) 0%, transparent) 58%);
-}
-[dir="rtl"].motion .cinema-pin::after { background: linear-gradient(270deg, var(--bg) 34%, color-mix(in srgb, var(--bg) 0%, transparent) 58%); }
-.motion .cinema.wide .cap[data-cap="1"] { inset-inline-start: max(40px, calc(50vw - 580px)); inset-inline-end: auto; width: min(36vw, 440px); padding: 0; text-align: start; }
-.motion .cinema.wide .cap[data-cap="1"] h2, .motion .cinema.wide .cap[data-cap="1"] p { margin-inline: 0; }
 .motion .scroll-hint { display: block; position: absolute; left: 50%; bottom: 26px; width: 24px; height: 38px; margin-left: -12px; border: 2px solid var(--text-3); border-radius: 14px; z-index: 3; opacity: var(--hint, 1); }
 .scroll-hint i { position: absolute; left: 50%; top: 7px; width: 4px; height: 8px; margin-left: -2px; border-radius: 2px; background: var(--text-3); animation: hint 1.8s var(--ease) infinite; }
 @keyframes hint { 0% { transform: translateY(0); opacity: 0; } 30% { opacity: 1; } 100% { transform: translateY(12px); opacity: 0; } }
 
-/* The Mac screen: 1440 x 900 scene pixels, scaled by the script */
+/* The panel itself, 336 pixels wide like in the app */
 .scene {
-  --wall: radial-gradient(900px 620px at 14% 18%, #cddcff 0%, transparent 62%), radial-gradient(900px 720px at 88% 86%, #ffd6e2 0%, transparent 60%), linear-gradient(180deg, #edf1fa, #f7f1f5);
-  --mb: rgba(255, 255, 255, .6); --mb-text: #1d1d1f;
-  --pn: rgba(246, 246, 248, .9); --pn-mod: rgba(0, 0, 0, .05); --pn-text: #1d1d1f; --pn-2: #6e6e73; --pn-line: rgba(0, 0, 0, .1);
-  --glass: rgba(255, 255, 255, .78);
-  position: absolute; left: 0; top: 0; width: 1440px; height: 900px; transform-origin: 0 0;
-  border-radius: 22px; overflow: hidden; background: var(--wall);
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, .06), 0 70px 140px -50px rgba(0, 0, 0, .45);
+  --pn: #f5f5f7; --pn-mod: rgba(0, 0, 0, .05); --pn-text: #1d1d1f; --pn-2: #6e6e73; --pn-line: rgba(0, 0, 0, .08);
+  position: absolute; left: 0; top: 0; width: 336px; transform-origin: 0 0;
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 0; color: var(--pn-text); user-select: none;
 }
-.js:not(.motion) .scene { left: 50%; transform: translateX(-50%) scale(var(--fit, .6)); transform-origin: 50% 0; }
+.js:not(.motion) .scene { position: relative; }
 @media (prefers-color-scheme: dark) {
-  .scene {
-    --wall: radial-gradient(900px 620px at 14% 18%, #1b2d63 0%, transparent 62%), radial-gradient(900px 720px at 88% 86%, #4d1c3c 0%, transparent 60%), linear-gradient(180deg, #0b1020, #140c17);
-    --mb: rgba(28, 28, 32, .62); --mb-text: #f2f2f7;
-    --pn: rgba(36, 36, 40, .9); --pn-mod: rgba(255, 255, 255, .07); --pn-text: #f5f5f7; --pn-2: #a1a1a6; --pn-line: rgba(255, 255, 255, .12);
-    --glass: rgba(44, 44, 48, .8);
-    box-shadow: 0 0 0 1px rgba(255, 255, 255, .08), 0 70px 140px -50px rgba(0, 0, 0, .8);
-  }
+  .scene { --pn: #1e1e21; --pn-mod: rgba(255, 255, 255, .07); --pn-text: #f5f5f7; --pn-2: #a1a1a6; --pn-line: rgba(255, 255, 255, .1); }
 }
 .scene svg { display: block; }
 .scene .g { width: 100%; height: 100%; }
-.wall { position: absolute; inset: 0; }
-
-/* Menu bar */
-.mb { position: absolute; left: 0; right: 0; top: 0; height: 32px; background: var(--mb); -webkit-backdrop-filter: blur(24px) saturate(180%); backdrop-filter: blur(24px) saturate(180%); color: var(--mb-text); font-size: 14px; }
-.mb-app { position: absolute; left: 22px; top: 8px; font-weight: 700; }
-.mb-muffle, .mb-i { position: absolute; top: 4px; width: 24px; height: 24px; display: grid; place-items: center; }
-.mb-muffle { left: 1224px; border-radius: 6px; transition: background .3s; }
-.mb-muffle .g { width: 17px; height: 17px; position: absolute; transition: opacity .25s, color .25s; }
-.mb-cc { left: 1266px; } .mb-wifi { left: 1302px; } .mb-bat { left: 1338px; width: 30px; }
-.mb-i svg { width: 18px; height: 18px; } .mb-bat svg { width: 28px; height: 22px; }
-.mb-clock { position: absolute; right: 22px; top: 8px; font-weight: 600; font-variant-numeric: tabular-nums; }
-.scene.is-open .mb-muffle { background: rgba(127, 127, 127, .22); }
-
-/* The call, in a browser window */
-.win { position: absolute; left: 96px; top: 74px; width: 920px; height: 640px; border-radius: 16px; overflow: hidden; background: #1c1c1f; box-shadow: 0 0 0 1px rgba(0, 0, 0, .25), 0 40px 90px -30px rgba(0, 0, 0, .55); }
-.win-bar { height: 42px; background: #2a2a2e; position: relative; }
-.tl { position: absolute; top: 15px; width: 12px; height: 12px; border-radius: 50%; }
-.tl.r { left: 16px; background: #ff5f57; } .tl.y { left: 36px; background: #febc2e; } .tl.g { left: 56px; background: #28c840; }
-.url { position: absolute; left: 50%; top: 9px; width: 380px; height: 24px; margin-left: -190px; border-radius: 12px; background: #3a3a3f; display: flex; align-items: center; gap: 8px; padding: 0 12px; color: #9a9aa2; }
-.url svg { width: 12px; height: 12px; } .url i { flex: 1; height: 6px; border-radius: 3px; background: #55555c; max-width: 170px; }
-.grid { position: absolute; left: 14px; right: 14px; top: 56px; bottom: 76px; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 10px; }
-.t { position: relative; border-radius: 14px; overflow: hidden; display: grid; place-items: center; }
-.t-a { background: linear-gradient(135deg, #1f6f73, #164b58); } .t-b { background: linear-gradient(135deg, #8a4f22, #5c3317); }
-.t-c { background: linear-gradient(135deg, #5a3d8c, #3a2860); } .t-self { background: linear-gradient(135deg, #25518f, #183662); }
-.av { width: 96px; height: 96px; border-radius: 50%; background: rgba(255, 255, 255, .16); color: #fff; display: grid; place-items: center; font-size: 34px; font-weight: 600; }
-.av svg { width: 54px; height: 54px; opacity: .9; }
-.nm { position: absolute; left: 14px; bottom: 12px; color: #fff; font-size: 15px; font-weight: 600; text-shadow: 0 1px 2px rgba(0, 0, 0, .4); }
-.badge { position: absolute; right: 12px; top: 12px; width: 34px; height: 34px; border-radius: 50%; background: rgba(0, 0, 0, .35); color: #fff; display: grid; place-items: center; transition: background .3s; }
-.badge .g { width: 18px; height: 18px; position: absolute; }
-.bars { position: absolute; left: 50%; bottom: 44px; display: flex; gap: 5px; height: 26px; align-items: flex-end; margin-left: -24px; opacity: 0; transition: opacity .3s; }
-.bars i { width: 7px; border-radius: 4px; background: rgba(255, 255, 255, .85); height: 30%; }
-.ctrl { position: absolute; left: 0; right: 0; bottom: 14px; display: flex; justify-content: center; gap: 16px; }
-.cb { width: 48px; height: 48px; border-radius: 50%; background: #3c3c42; color: #fff; display: grid; place-items: center; position: relative; transition: background .3s; }
-.cb svg { width: 22px; height: 22px; } .cb .g { position: absolute; width: 22px; height: 22px; }
-.cb-end { background: #ea4335; width: 64px; border-radius: 24px; }
-
-/* The Muffle panel under the menu bar icon */
 .pn {
-  position: absolute; left: 1068px; top: 40px; width: 336px; padding: 10px; border-radius: 20px;
-  background: var(--pn); -webkit-backdrop-filter: blur(30px) saturate(180%); backdrop-filter: blur(30px) saturate(180%);
-  box-shadow: 0 0 0 1px var(--pn-line), 0 30px 70px -20px rgba(0, 0, 0, .35);
-  opacity: var(--open, 1); transform: translateY(calc((1 - var(--open, 1)) * -12px)) scale(calc(.97 + var(--open, 1) * .03)); transform-origin: 168px 0;
-  display: grid; gap: 8px; color: var(--pn-text); font-size: 13px;
+  width: 336px; padding: 10px; border-radius: 22px; background: var(--pn); display: grid; gap: 8px; font-size: 13px;
+  box-shadow: 0 0 0 1px var(--pn-line), 0 50px 100px -40px rgba(0, 0, 0, .4);
 }
 .pm { background: var(--pn-mod); border-radius: 16px; padding: 12px; }
 .pm-head { display: flex; align-items: center; gap: 14px; }
@@ -241,47 +179,16 @@ html:not(.js) .cinema-still img { margin: 0 auto; width: min(430px, 80vw); }
 .qx { display: grid; line-height: 1.2; min-width: 0; } .qx b { font-size: 12px; } .qx small { font-size: 11px; color: var(--pn-2); }
 .pf { display: flex; justify-content: space-between; padding: 2px 8px; color: var(--pn-2); font-size: 13px; }
 
-/* Mini controller, toasts, screen glow */
-.pill { position: absolute; left: 1286px; top: 842px; height: 40px; min-width: 128px; padding: 0 16px; border-radius: 20px; background: var(--glass); -webkit-backdrop-filter: blur(20px); backdrop-filter: blur(20px); box-shadow: 0 10px 30px -10px rgba(0, 0, 0, .35), 0 0 0 1px var(--pn-line); display: grid; place-items: center; font-weight: 600; font-size: 14px; color: var(--pn-text); transition: background .35s, color .35s; }
-.pill > span { grid-area: 1 / 1; display: flex; align-items: center; gap: 7px; transition: opacity .25s; }
-.pill .g { width: 16px; height: 16px; }
-.pill .on .g { color: #28cd41; }
-.hud, .remind { position: absolute; left: 50%; border-radius: 30px; background: var(--glass); -webkit-backdrop-filter: blur(24px); backdrop-filter: blur(24px); box-shadow: 0 20px 50px -18px rgba(0, 0, 0, .45), 0 0 0 1px var(--pn-line); display: flex; align-items: center; gap: 12px; color: var(--pn-text); opacity: 0; transform: translate(-50%, 16px) scale(.96); transition: opacity .35s, transform .45s var(--ease); }
-.hud { top: 770px; height: 56px; padding: 0 24px 0 18px; font-size: 18px; }
-.remind { top: 752px; height: 72px; padding: 0 28px 0 20px; }
-.hud .g, .remind .g { width: 26px; height: 26px; color: #ff3b30; flex: none; }
-.remind b { display: block; font-size: 18px; } .remind small { display: block; font-size: 14px; color: var(--pn-2); margin-top: 2px; white-space: nowrap; }
-.edge { position: absolute; inset: 0; border-radius: inherit; pointer-events: none; opacity: 0; box-shadow: inset 0 0 90px 24px rgba(255, 59, 48, .6); }
-
-/* The AirPod that gets pressed */
-.pod { position: absolute; left: 1150px; top: 430px; width: 160px; height: 300px; opacity: var(--pod, 0); transform: translateY(calc((1 - var(--pod, 0)) * 460px)) rotate(-14deg); filter: drop-shadow(0 30px 40px rgba(0, 0, 0, .35)); }
-.pod svg { width: 100%; height: 100%; transform: scaleY(calc(1 - var(--press, 0) * .035)); transform-origin: 50% 100%; }
-.ring { position: absolute; left: 62px; top: 220px; width: 60px; height: 60px; margin: -30px 0 0 -30px; border-radius: 50%; border: 3px solid #0a84ff; opacity: var(--press, 0); transform: scale(calc(.6 + var(--press, 0) * 1.6)); }
-
-/* Live and muted states */
+/* Live and muted */
 .scene .off { opacity: 0; }
 .scene .on { opacity: 1; }
 .scene.is-muted .off { opacity: 1; }
 .scene.is-muted .on { opacity: 0; }
 .px b > span, .px small > span { transition: opacity .25s; }
 .px b .off, .px small .off { position: absolute; left: 0; top: 0; white-space: nowrap; }
-.mb-muffle .g.on { color: var(--mb-text); }
-.mb-muffle .g.off { color: #ff3b30; }
-.scene.is-muted .mute { background: #ff3b30; color: #fff; }
+.scene.is-muted .mute { background: #ff3b30; color: #fff; animation: press .55s var(--ease); }
+@keyframes press { 0% { transform: scale(1); } 35% { transform: scale(.88); } 100% { transform: scale(1); } }
 .scene.is-muted .lvl i { width: 0; background: #ff3b30; }
-.scene.is-muted .badge { background: #ea4335; }
-.scene.is-muted .cb-mic { background: #ea4335; }
-.scene.is-muted .pill { background: #ff3b30; color: #fff; }
-.scene.is-muted .hud { animation: hud 1.7s var(--ease) both; }
-@keyframes hud { 0% { opacity: 0; transform: translate(-50%, 16px) scale(.96); } 18%, 70% { opacity: 1; transform: translate(-50%, 0) scale(1); } 100% { opacity: 0; transform: translate(-50%, 8px) scale(.98); } }
-.scene.is-muted .edge { animation: glow 1.5s ease-out both; }
-@keyframes glow { 0% { opacity: 0; } 15% { opacity: 1; } 100% { opacity: 0; } }
-.scene.is-talking .bars { opacity: 1; }
-.scene.is-talking .bars i { animation: talk .9s ease-in-out infinite; }
-.scene.is-talking .bars i:nth-child(2) { animation-delay: -.3s; } .scene.is-talking .bars i:nth-child(3) { animation-delay: -.6s; } .scene.is-talking .bars i:nth-child(4) { animation-delay: -.15s; }
-@keyframes talk { 0%, 100% { height: 25%; } 50% { height: 100%; } }
-.scene.is-talking .hud { animation: none; opacity: 0; }
-.scene.is-talking .remind { opacity: 1; transform: translate(-50%, 0) scale(1); }
 
 /* ---------- The statement: words light up as you scroll ---------- */
 .statement { padding: clamp(120px, 20vh, 240px) 0; }

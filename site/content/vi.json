@@ -29,8 +29,9 @@
   "cinema": {
     "panel_title": "Mọi bộ điều khiển ở cùng một nơi.",
     "panel_text": "Tắt tiếng, chọn micrô, khóa mức micrô và bật tắt các tính năng ngay từ thanh menu.",
-    "you": "Bạn",
-    "statement": "Hầu hết các nút tắt tiếng chỉ tắt tiếng một ứng dụng. Muffle trực tiếp tắt micrô, nhờ đó mọi ứng dụng trên Mac của bạn đều chỉ thu được sự im lặng."
+    "statement": "Hầu hết các nút tắt tiếng chỉ tắt tiếng một ứng dụng. Muffle trực tiếp tắt micrô, nhờ đó mọi ứng dụng trên Mac của bạn đều chỉ thu được sự im lặng.",
+    "mute_title": "Một lần nhấn. Yên lặng tức thì.",
+    "mute_text": "Nhấp nút, nhấn AirPods hoặc dùng phím tắt. Muffle sẽ trực tiếp tắt tiếng micrô, vì vậy mọi ứng dụng cuộc gọi đều chỉ nghe thấy sự im lặng."
   },
   "works_with": {
     "title": "Hoạt động với mọi ứng dụng dùng micrô của bạn",

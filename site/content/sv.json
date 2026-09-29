@@ -29,8 +29,9 @@
   "cinema": {
     "panel_title": "Alla kontroller på ett ställe.",
     "panel_text": "Stäng av, välj mikrofon, lås nivån och slå på eller stäng av funktioner direkt från menyraden.",
-    "you": "Du",
-    "statement": "De flesta mute-knappar stänger bara av en app. Muffle stänger av själva mikrofonen, så att alla appar på din Mac hör tystnad."
+    "statement": "De flesta mute-knappar stänger bara av en app. Muffle stänger av själva mikrofonen, så att alla appar på din Mac hör tystnad.",
+    "mute_title": "Ett tryck. Tystnad.",
+    "mute_text": "Klicka på knappen, tryck på dina AirPods eller använd ett kortkommando. Muffle stänger av själva mikrofonen, så att alla appar hör tystnad."
   },
   "works_with": {
     "title": "Fungerar med alla appar som använder din mikrofon",

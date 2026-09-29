@@ -29,8 +29,9 @@
   "cinema": {
     "panel_title": "Tüm kontroller tek bir yerde.",
     "panel_text": "Sustur, mikrofonunu seç, seviyesini kilitle ve özellikleri doğrudan menü çubuğundan açıp kapat.",
-    "you": "Sen",
-    "statement": "Çoğu susturma düğmesi yalnızca tek bir uygulamayı susturur. Muffle mikrofonun kendisini kapatır, böylece Mac'indeki her uygulama sessizlik duyar."
+    "statement": "Çoğu susturma düğmesi yalnızca tek bir uygulamayı susturur. Muffle mikrofonun kendisini kapatır, böylece Mac'indeki her uygulama sessizlik duyar.",
+    "mute_title": "Tek basış. Sessizlik.",
+    "mute_text": "Düğmeye tıkla, AirPods sapına bas ya da kısayol kullan. Muffle doğrudan mikrofonu kapatır, böylece her uygulamaya yalnızca sessizlik gider."
   },
   "works_with": {
     "title": "Mikrofonunu kullanan her uygulamayla çalışır",

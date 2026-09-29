@@ -29,8 +29,9 @@
   "cinema": {
     "panel_title": "Tutti i controlli in un unico posto.",
     "panel_text": "Disattiva il microfono, scegli quale usare, blocca il livello e gestisci le funzioni direttamente dalla barra dei menu.",
-    "you": "Tu",
-    "statement": "La maggior parte dei pulsanti disattiva una sola app. Muffle disattiva direttamente il microfono, così ogni app sul tuo Mac sente solo il silenzio."
+    "statement": "La maggior parte dei pulsanti disattiva una sola app. Muffle disattiva direttamente il microfono, così ogni app sul tuo Mac sente solo il silenzio.",
+    "mute_title": "Una pressione. Silenzio.",
+    "mute_text": "Clicca sul pulsante, premi i tuoi AirPods o usa una scorciatoia. Muffle disattiva direttamente il microfono, così ogni app sente solo silenzio."
   },
   "works_with": {
     "title": "Funziona con ogni app che usa il microfono",

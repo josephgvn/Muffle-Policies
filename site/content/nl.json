@@ -29,8 +29,9 @@
   "cinema": {
     "panel_title": "Alle bediening op één plek.",
     "panel_text": "Demp, kies je microfoon, vergrendel het niveau en schakel functies in en uit, direct vanuit de menubalk.",
-    "you": "Jij",
-    "statement": "De meeste dempknoppen dempen maar één app. Muffle schakelt de microfoon zelf uit, zodat elke app op je Mac stilte hoort."
+    "statement": "De meeste dempknoppen dempen maar één app. Muffle schakelt de microfoon zelf uit, zodat elke app op je Mac stilte hoort.",
+    "mute_title": "Eén druk. Stilte.",
+    "mute_text": "Klik op de knop, druk op je AirPods of gebruik een sneltoets. Muffle schakelt de microfoon zelf uit, zodat elke app stilte hoort."
   },
   "works_with": {
     "title": "Werkt met elke app die je microfoon gebruikt",

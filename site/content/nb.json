@@ -29,8 +29,9 @@
   "cinema": {
     "panel_title": "Alle kontroller på ett sted.",
     "panel_text": "Demp, velg mikrofon, lås nivået og slå funksjoner av og på, rett fra menylinjen.",
-    "you": "Du",
-    "statement": "De fleste dempeknapper demper bare én app. Muffle slår av selve mikrofonen, så alle apper på Mac-en din hører stillhet."
+    "statement": "De fleste dempeknapper demper bare én app. Muffle slår av selve mikrofonen, så alle apper på Mac-en din hører stillhet.",
+    "mute_title": "Ett trykk. Stillhet.",
+    "mute_text": "Klikk på knappen, trykk på AirPods-ene eller bruk en snarvei. Muffle slår av selve mikrofonen, så alle apper hører stillhet."
   },
   "works_with": {
     "title": "Fungerer med alle apper som bruker mikrofonen",

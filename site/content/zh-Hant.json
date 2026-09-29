@@ -29,8 +29,9 @@
   "cinema": {
     "panel_title": "所有控制項目集中一處。",
     "panel_text": "直接在選單列即可切換靜音、挑選麥克風、鎖定音量，並開啟或關閉各項功能。",
-    "you": "你",
-    "statement": "大多數靜音按鈕只能將單一 App 靜音。Muffle 則是直接關閉麥克風本身，讓 Mac 上的所有 App 都接收不到任何聲音。"
+    "statement": "大多數靜音按鈕只能將單一 App 靜音。Muffle 則是直接關閉麥克風本身，讓 Mac 上的所有 App 都接收不到任何聲音。",
+    "mute_title": "輕輕一按，完全靜音。",
+    "mute_text": "點一下按鈕、按 AirPods 或使用快速鍵。Muffle 會直接將麥克風關閉，讓所有 App 都聽不到任何聲音。"
   },
   "works_with": {
     "title": "適用於所有使用麥克風的 App",

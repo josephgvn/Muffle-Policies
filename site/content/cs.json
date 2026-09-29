@@ -29,8 +29,9 @@
   "cinema": {
     "panel_title": "Všechny ovládací prvky na jednom místě.",
     "panel_text": "Ztlumte mikrofon, vyberte vhodný vstup, uzamkněte jeho úroveň a zapínejte funkce přímo z řádku nabídek.",
-    "you": "Vy",
-    "statement": "Většina tlačítek pro ztlumení funguje jen v jedné aplikaci. Muffle vypíná přímo mikrofon, takže každá aplikace na Macu slyší jen ticho."
+    "statement": "Většina tlačítek pro ztlumení funguje jen v jedné aplikaci. Muffle vypíná přímo mikrofon, takže každá aplikace na Macu slyší jen ticho.",
+    "mute_title": "Jedno stisknutí. Ticho.",
+    "mute_text": "Klikněte na tlačítko, stiskněte AirPods nebo použijte klávesovou zkratku. Muffle vypíná přímo mikrofon, takže každá aplikace slyší ticho."
   },
   "works_with": {
     "title": "Funguje s každou aplikací, která používá mikrofon",

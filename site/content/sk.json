@@ -29,8 +29,9 @@
   "cinema": {
     "panel_title": "Všetky ovládacie prvky na jednom mieste.",
     "panel_text": "Stlmte mikrofón, zvoľte si mikrofón, uzamknite úroveň a zapínajte či vypínajte funkcie priamo z lišty s ponukami.",
-    "you": "Vy",
-    "statement": "Väčšina tlačidiel na stlmenie stlmí iba jednu aplikáciu. Muffle vypína priamo mikrofón, takže každá aplikácia na vašom Macu počuje iba ticho."
+    "statement": "Väčšina tlačidiel na stlmenie stlmí iba jednu aplikáciu. Muffle vypína priamo mikrofón, takže každá aplikácia na vašom Macu počuje iba ticho.",
+    "mute_title": "Jedno stlačenie. Ticho.",
+    "mute_text": "Kliknite na tlačidlo, stlačte AirPods alebo použite klávesovú skratku. Muffle vypína priamo mikrofón, takže každá aplikácia počuje iba ticho."
   },
   "works_with": {
     "title": "Funguje s každou aplikáciou, ktorá používa váš mikrofón",

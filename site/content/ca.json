@@ -29,8 +29,9 @@
   "cinema": {
     "panel_title": "Tots els controls en un sol lloc.",
     "panel_text": "Silencia, tria el micròfon, bloqueja'n el nivell i activa o desactiva funcions, directament des de la barra de menús.",
-    "you": "Tu",
-    "statement": "La majoria de botons per silenciar només silencien una app. Muffle desactiva el mateix micròfon, de manera que totes les apps del Mac senten silenci."
+    "statement": "La majoria de botons per silenciar només silencien una app. Muffle desactiva el mateix micròfon, de manera que totes les apps del Mac senten silenci.",
+    "mute_title": "Una premuda. Silenci.",
+    "mute_text": "Fes clic al botó, prem els AirPods o utilitza una drecera. Muffle desactiva el mateix micròfon, de manera que totes les apps senten silenci."
   },
   "works_with": {
     "title": "Funciona amb qualsevol app que utilitzi el micròfon",

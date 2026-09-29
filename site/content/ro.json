@@ -29,8 +29,9 @@
   "cinema": {
     "panel_title": "Toate comenzile într-un singur loc.",
     "panel_text": "Dezactivați microfonul, alegeți microfonul dorit, blocați-i nivelul și activați sau dezactivați funcții, direct din bara de meniu.",
-    "you": "Dvs.",
-    "statement": "Majoritatea butoanelor de dezactivare opresc microfonul doar într-o singură aplicație. Muffle dezactivează chiar microfonul, astfel încât fiecare aplicație de pe Mac aude doar liniște."
+    "statement": "Majoritatea butoanelor de dezactivare opresc microfonul doar într-o singură aplicație. Muffle dezactivează chiar microfonul, astfel încât fiecare aplicație de pe Mac aude doar liniște.",
+    "mute_title": "O singură apăsare. Liniște.",
+    "mute_text": "Faceți clic pe buton, apăsați AirPods sau folosiți o combinație de taste. Muffle dezactivează chiar microfonul, astfel că fiecare aplicație aude doar liniște."
   },
   "works_with": {
     "title": "Funcționează cu orice aplicație care vă utilizează microfonul",
