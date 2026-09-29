@@ -131,7 +131,10 @@ def make_webp():
             continue
         webp = png[:-4] + ".webp"
         if not os.path.exists(webp) or os.path.getmtime(webp) < os.path.getmtime(png):
-            Image.open(png).save(webp, "WEBP", quality=90, method=4)
+            try:
+                Image.open(png).save(webp, "WEBP", quality=90, method=4)
+            except OSError as error:   # still being written by the renderer: the next build converts it
+                print(f"skipped {os.path.relpath(png, ROOT)}: {error}")
 
 
 ASSET_VERSION = ""
@@ -203,7 +206,7 @@ def page(lang, c, path, title, description, body, jsonld, languages, not_found=F
     og_image = f"{BASE_URL}/{image(lang, 'og', 'png')}"
     home = f"{rel}{prefix(lang)}"
     guides_links = "\n".join(
-        f'<li><a href="{home}guides/{g["slug"]}/">{e(g["h1"])}</a></li>' for g in c["guides"][:7]
+        f'<li><a href="{home}guides/{g["slug"]}/">{e(g["h1"])}</a></li>' for g in c["guides"][:5]
     )
     current = ' aria-current="page"'
     lang_links = "\n".join(
@@ -212,12 +215,28 @@ def page(lang, c, path, title, description, body, jsonld, languages, not_found=F
     )
     ld = "\n".join(f'<script type="application/ld+json">{json.dumps(item, ensure_ascii=False)}</script>' for item in jsonld)
     store_banner = f'<meta name="apple-itunes-app" content="app-id={app_store_id()}">\n' if app_store_id() else ""
+    # The English home page is also the door for everyone: it opens the visitor's language, or the one they last
+    # picked in the footer. Search engines read it in English and find every language through hreflang.
+    choose_language = ""
+    if lang == "en" and path == "" and not not_found:
+        codes = json.dumps([prefix(code).rstrip("/") for code in languages])
+        choose_language = (
+            "<script>(function(){var codes=" + codes + ",saved;try{saved=localStorage.getItem('muffle-lang')}catch(e){}"
+            "function pick(tag){var t=String(tag||'').toLowerCase();if(!t)return null;"
+            "if(t.indexOf('zh')===0)return /hant|tw|hk|mo/.test(t)?'zh-hant':'zh-hans';"
+            "if(t.indexOf('pt')===0)return t.indexOf('pt-pt')===0?'pt-pt':'pt-br';"
+            "var base=t.split('-')[0];base={'no':'nb','nn':'nb','iw':'he','in':'id'}[base]||base;"
+            "return codes.indexOf(t)>=0?t:(codes.indexOf(base)>=0?base:null)}"
+            "var wanted=saved?[saved]:(navigator.languages||[navigator.language]);"
+            "for(var i=0;i<wanted.length;i++){var code=pick(wanted[i]);"
+            "if(code){if(code!=='en')location.replace(code+'/'+location.search+location.hash);return}}})()</script>\n"
+        )
     return f"""<!doctype html>
 <html lang="{lang}" dir="{direction}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{e(title)}</title>
+{choose_language}<title>{e(title)}</title>
 <meta name="description" content="{e(description)}">
 <meta name="robots" content="{robots}">
 {head_links}
@@ -331,54 +350,40 @@ SETTINGS_CARDS = {"airpods", "keyboard", "calls", "automation", "status"}
 
 
 def scene_html(lang, c):
-    """The real panel, rendered by the app, live and muted. Sharper layers sit exactly on top so every close-up
-    stays crisp: the mute part and the call row at 8x, microphones to footer at 4x. data-parts tells the script
-    where everything is."""
+    """The real panel, rendered by the app, as the sources of a canvas the script draws on: the whole panel live
+    and muted at 2x, and sharper close-ups for the zoom (the mute part and the call row at 8x, microphones to
+    footer at 4x). data-layout tells the script where everything sits."""
     layout = panel_layout(lang)
-    width, height = layout["size"]
-    mx, my, mw, mh = layout["mute"]
-    parts = {key: layout[key] for key in ("head", "mute", "call", "mics", "level", "toggles", "footer") if key in layout}
-
-    def layer(cls, rect, pictures, extra=""):
-        x, y, w, h = rect
-        return f'<div class="{cls}" style="left:{x}px;top:{y}px;width:{w}px;height:{h}px{extra}">{pictures}</div>'
-
-    def states(base):
-        return (theme_picture(lang, f"{base}-live", "", cls="hi-live", lazy=False)
-                + theme_picture(lang, f"{base}-muted", "", cls="hi-muted", lazy=False))
-
-    cx, cy = layout["crop"][:2]
-    layers = [layer("hi head", layout["crop"], states("ui-head"), f";transform-origin:{mx + mw / 2 - cx}px {my + mh / 2 - cy}px")]
-    if "callCrop" in layout:
-        layers.append(layer("hi call", layout["callCrop"], states("ui-call")))
-    if "lower" in layout:
-        layers.append(layer("lo", layout["lower"], theme_picture(lang, "ui-lower", "", lazy=False)))
-    return f"""<div class="scene" style="width:{width}px;height:{height}px" data-parts='{json.dumps(parts)}'>
-{theme_picture(lang, "ui-panel-live", c["hero"]["image_alt"], cls="lay", lazy=False, priority=True)}
-{theme_picture(lang, "ui-panel-muted", "", cls="lay lay-muted", lazy=False)}
-{chr(10).join(layers)}
-<i class="ring" style="left:{mx}px;top:{my}px;width:{mw}px;height:{mh}px"></i>
-<i class="spot"></i>
+    sources = [("panel-live", "ui-panel-live"), ("panel-muted", "ui-panel-muted"), ("head-live", "ui-head-live"),
+               ("head-muted", "ui-head-muted"), ("call-live", "ui-call-live"), ("call-muted", "ui-call-muted"),
+               ("lower", "ui-lower")]
+    pictures = "".join(
+        f'<div data-layer="{name}">{theme_picture(lang, base, "", lazy=False, priority=name == "panel-live")}</div>'
+        for name, base in sources
+    )
+    return f"""<div class="scene" data-layout='{json.dumps(layout)}'>
+<canvas role="img" aria-label="{e(c["hero"]["image_alt"])}"></canvas>
+<div class="scene-src" hidden>{pictures}</div>
 </div>"""
 
 
 def tour_html(lang, c):
-    """The Settings window, pane by pane, while the section is pinned."""
+    """The Settings window, pane by pane: it plays by itself, and each step can be picked."""
     tour = c["tour"]
     panes = ["general", "calls", "keyboard", "panel"]
     texts = "".join(
-        f'<div class="ts" data-step="{i}"><h3>{e(step["title"])}</h3><p>{e(step["text"])}</p></div>'
+        f'<div class="ts" data-step="{i}" role="tab" tabindex="0" aria-controls="tour-{i}" aria-selected="{"true" if i == 0 else "false"}">'
+        f'<h3>{e(step["title"])}</h3><p>{e(step["text"])}</p></div>'
         for i, step in enumerate(tour["steps"])
     )
     shots = "".join(
-        f'<div class="tf" data-step="{i}">{theme_picture(lang, f"ui-settings-{pane}", tour["steps"][i]["title"])}</div>'
+        f'<div class="tf" data-step="{i}" id="tour-{i}" role="tabpanel">{theme_picture(lang, f"ui-settings-{pane}", tour["steps"][i]["title"])}</div>'
         for i, pane in enumerate(panes)
     )
+    dots = "".join(f'<button type="button" aria-label="{e(step["title"])}"></button>' for step in tour["steps"])
     return f"""<section class="tour" id="settings">
-<div class="tour-pin">
-<div class="wrap"><h2 class="headline">{e(tour["title"])}</h2></div>
-<div class="wrap tour-grid"><div class="tour-text">{texts}</div><div class="tour-shots">{shots}</div></div>
-</div>
+<div class="wrap"><h2 class="headline reveal">{e(tour["title"])}</h2></div>
+<div class="wrap tour-grid"><div class="tour-text" role="tablist">{texts}</div><div class="tour-shots">{shots}<div class="tour-dots">{dots}</div></div></div>
 </section>"""
 
 
@@ -482,7 +487,7 @@ def home_page(lang, c, languages):
 </div>
 </section>
 <section class="final">
-<div class="final-pin">
+<div class="final-inner">
 <div class="wrap center">
 <img class="final-icon" src="{{REL}}assets/icon-180.png" alt="" width="148" height="148" loading="lazy">
 <h2 class="display">{e(c['final_cta']['title'])}</h2>
@@ -512,7 +517,7 @@ def guides_index(lang, c, languages):
 <h1 class="display reveal">{e(gi['h1'])}</h1>
 <p class="lead reveal">{e(gi['intro'])}</p>
 </header>
-<div class="wrap"><ul class="guide-list">{guide_cards(c["guides"], c)}</ul></div>
+<div class="wrap guides-body"><ul class="guide-list">{guide_cards(c["guides"], c)}</ul></div>
 </main>"""
     ld = [{
         "@context": "https://schema.org", "@type": "CollectionPage", "name": gi["title"], "description": gi["description"],
