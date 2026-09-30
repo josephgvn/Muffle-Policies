@@ -22,6 +22,8 @@ SITE = os.path.join(ROOT, "site")
 BASE_URL = "https://muffle.spendryapp.com"
 APP_STORE_URL = ""  # set once the app is live, e.g. https://apps.apple.com/app/id1234567890
 SUPPORT_EMAIL = "hello@spendryapp.com"
+# Cloudflare Web Analytics site token. The beacon counts visits without cookies; the privacy page says so.
+WEB_ANALYTICS_TOKEN = "cf5fc12b7de143a4b77c64f10462a98d"
 
 # code: (native name, Open Graph locale, text direction)
 LANGS = {
@@ -226,6 +228,10 @@ def page(lang, c, path, title, description, body, jsonld, languages, not_found=F
     )
     ld = "\n".join(f'<script type="application/ld+json">{json.dumps(item, ensure_ascii=False)}</script>' for item in jsonld)
     store_banner = f'<meta name="apple-itunes-app" content="app-id={app_store_id()}">\n' if app_store_id() else ""
+    analytics = (
+        f"<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js\" data-cf-beacon='{{\"token\": \"{WEB_ANALYTICS_TOKEN}\"}}'></script>\n"
+        if WEB_ANALYTICS_TOKEN else ""
+    )
     # The English home page is also the door for everyone: it opens the visitor's language, or the one they last
     # picked in the footer. Search engines read it in English and find every language through hreflang.
     choose_language = ""
@@ -274,7 +280,7 @@ def page(lang, c, path, title, description, body, jsonld, languages, not_found=F
 <link rel="stylesheet" href="{rel}assets/site.css?v={ASSET_VERSION}">
 <script>document.documentElement.classList.add("js");if(!matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("motion")</script>
 <script src="{rel}assets/site.js?v={ASSET_VERSION}" defer></script>
-{ld}
+{analytics}{ld}
 </head>
 <body>
 <header class="nav"><div class="wrap">

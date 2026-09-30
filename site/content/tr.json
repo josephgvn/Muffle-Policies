@@ -199,7 +199,7 @@
   },
   "privacy": {
     "title": "Tasarımı gereği gizli",
-    "text": "Muffle hiçbir sesi kaydetmez, saklamaz ya da göndermez. Yalnızca mikrofonunu açıp kapatır ve ses şiddetini okur. Hesap yok, analiz yok, takip yok."
+    "text": "Muffle hiçbir sesi kaydetmez, saklamaz ya da göndermez. Yalnızca mikrofonunu açıp kapatır ve ses seviyesini okur. Uygulamada hesap, analiz ve takip yoktur."
   },
   "faq": {
     "title": "Sorular",
@@ -754,7 +754,7 @@
     "title": "Muffle Gizlilik Politikası",
     "description": "Muffle hiçbir sesi kaydetmez, saklamaz veya göndermez ve hiçbir veri toplamaz. Mikrofon kullanımını buradan incele.",
     "h1": "Gizlilik Politikası",
-    "updated": "Son güncelleme: 29 Eylül 2026.",
+    "updated": "Son güncelleme: 30 Eylül 2026.",
     "intro": "Muffle, Mac'inin mikrofonunu susturur. Söylediğin hiçbir şeyin Mac'inden asla çıkmaması üzerine kurulmuştur.",
     "sections": [
       {
@@ -781,6 +781,12 @@
         "h": "Mac'inde saklanan ayarlar",
         "p": [
           "Klavye kısayolun gibi tercihler Mac'inde, Muffle'ın kendi saklama alanında kalır. Muffle'ı silmek bu ayarları da siler."
+        ]
+      },
+      {
+        "h": "Bu web sitesi",
+        "p": [
+          "Bu web sitesi, kaç kişinin okuduğunu ve hangi sayfaların faydalı olduğunu görebilmemiz için ziyaretleri Cloudflare Web Analytics ile sayar. Çerez kullanmaz, cihazında hiçbir şey saklamaz ve seni diğer sitelerde takip etmez. Bu sayım için Cloudflare'in gizlilik politikası geçerlidir."
         ]
       }
     ],

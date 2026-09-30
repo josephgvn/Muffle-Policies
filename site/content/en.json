@@ -199,7 +199,7 @@
   },
   "privacy": {
     "title": "Private by design",
-    "text": "Muffle never records, stores or sends audio. It only switches your microphone on and off and reads its loudness. No accounts, no analytics, no tracking."
+    "text": "Muffle never records, stores or sends audio. It only switches your microphone on and off and reads its loudness. The app has no accounts, no analytics and no tracking."
   },
   "faq": {
     "title": "Questions",
@@ -754,7 +754,7 @@
     "title": "Muffle Privacy Policy",
     "description": "Muffle never records, stores or sends audio and collects no data. Read how Muffle uses your microphone.",
     "h1": "Privacy Policy",
-    "updated": "Last updated September 29, 2026.",
+    "updated": "Last updated September 30, 2026.",
     "intro": "Muffle mutes your Mac's microphone. It is built so that nothing you say ever leaves your Mac.",
     "sections": [
       {
@@ -781,6 +781,12 @@
         "h": "Settings stored on your Mac",
         "p": [
           "Your preferences, such as your keyboard shortcut, stay on your Mac in Muffle's own storage. Deleting Muffle deletes them."
+        ]
+      },
+      {
+        "h": "This website",
+        "p": [
+          "This website counts visits with Cloudflare Web Analytics, so we can see how many people read it and which pages are useful. It uses no cookies, stores nothing on your device and does not follow you across other sites. Cloudflare's privacy policy applies to this count."
         ]
       }
     ],

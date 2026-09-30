@@ -199,7 +199,7 @@
   },
   "privacy": {
     "title": "Privacidad desde el diseño",
-    "text": "Muffle nunca graba, guarda ni envía audio. Solo activa o desactiva tu micrófono y comprueba su volumen. Sin cuentas, sin analíticas y sin rastreo."
+    "text": "Muffle nunca graba, guarda ni envía audio. Solo activa y desactiva tu micrófono y lee su nivel de volumen. La app no tiene cuentas, analíticas ni seguimiento."
   },
   "faq": {
     "title": "Preguntas frecuentes",
@@ -754,7 +754,7 @@
     "title": "Política de privacidad de Muffle",
     "description": "Muffle nunca graba, guarda ni transmite audio, ni recopila datos personales. Descubre cómo gestiona el micrófono en macOS.",
     "h1": "Política de privacidad",
-    "updated": "Última actualización: 29 de septiembre de 2026.",
+    "updated": "Última actualización: 30 de septiembre de 2026.",
     "intro": "Muffle silencia el micrófono de tu Mac. Está diseñado para que nada de lo que digas salga jamás de tu Mac.",
     "sections": [
       {
@@ -781,6 +781,12 @@
         "h": "Ajustes guardados en tu Mac",
         "p": [
           "Tus preferencias, como tu atajo de teclado, se guardan localmente en tu Mac en el almacenamiento propio de Muffle. Si eliminas Muffle, estos ajustes también se eliminan."
+        ]
+      },
+      {
+        "h": "Este sitio web",
+        "p": [
+          "Este sitio web cuenta las visitas con Cloudflare Web Analytics para saber cuántas personas lo leen y qué páginas resultan útiles. No utiliza cookies, no guarda nada en tu dispositivo y no te rastrea en otros sitios. La política de privacidad de Cloudflare se aplica a este recuento."
         ]
       }
     ],

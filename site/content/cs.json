@@ -199,7 +199,7 @@
   },
   "privacy": {
     "title": "Soukromí na prvním místě",
-    "text": "Muffle nikdy nenahrává, neukládá ani neodesílá zvuk. Pouze zapíná a vypíná váš mikrofon a sleduje úroveň hlasitosti. Žádné účty, žádná analytika ani sledování."
+    "text": "Muffle nikdy nenahrává, neukládá ani neodesílá zvuk. Pouze zapíná a vypíná mikrofon a odečítá jeho hlasitost. Aplikace nemá žádné účty, analytiku ani sledování."
   },
   "faq": {
     "title": "Časté dotazy",
@@ -754,7 +754,7 @@
     "title": "Zásady ochrany osobních údajů aplikace Muffle",
     "description": "Muffle nikdy nenahrává, neukládá ani neposílá zvuk a neshromažďuje žádná data. Přečtěte si, jak Muffle pracuje s mikrofonem.",
     "h1": "Zásady ochrany osobních údajů",
-    "updated": "Poslední aktualizace 29. září 2026.",
+    "updated": "Poslední aktualizace 30. září 2026.",
     "intro": "Muffle ztlumuje mikrofon na Macu. Je navržen tak, aby nic z toho, co řeknete, váš Mac nikdy neopustilo.",
     "sections": [
       {
@@ -781,6 +781,12 @@
         "h": "Nastavení uložená na vašem Macu",
         "p": [
           "Vaše předvolby, například nastavená klávesová zkratka, zůstávají uloženy přímo na Macu v rámci aplikace Muffle. Smazáním aplikace Muffle se smažou i tato data."
+        ]
+      },
+      {
+        "h": "Tento web",
+        "p": [
+          "Tento web počítá návštěvy pomocí nástroje Cloudflare Web Analytics, abychom věděli, kolik lidí si ho čte a které stránky jsou užitečné. Nepoužívá žádné soubory cookie, do vašeho zařízení nic neukládá a nesleduje vás na jiných webech. Na toto počítání návštěv se vztahují zásady ochrany osobních údajů společnosti Cloudflare."
         ]
       }
     ],

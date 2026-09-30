@@ -199,7 +199,7 @@
   },
   "privacy": {
     "title": "Integritet från grunden",
-    "text": "Muffle spelar aldrig in, sparar eller skickar ljud. Appen slår bara på och stänger av din mikrofon och läser av ljudnivån. Inga konton, ingen analys, ingen spårning."
+    "text": "Muffle spelar aldrig in, sparar eller skickar ljud. Den slår bara på och stänger av din mikrofon och läser av dess ljudnivå. Appen har inga konton, ingen analys och ingen spårning."
   },
   "faq": {
     "title": "Frågor",
@@ -754,7 +754,7 @@
     "title": "Integritetspolicy för Muffle",
     "description": "Muffle spelar aldrig in, sparar eller skickar ljud och samlar ingen data. Läs om hur Muffle använder din mikrofon.",
     "h1": "Integritetspolicy",
-    "updated": "Senast uppdaterad 29 september 2026.",
+    "updated": "Senast uppdaterad 30 september 2026.",
     "intro": "Muffle stänger av din Macs mikrofon. Appen är byggd så att ingenting du säger någonsin lämnar din Mac.",
     "sections": [
       {
@@ -781,6 +781,12 @@
         "h": "Inställningar som sparas på din Mac",
         "p": [
           "Dina inställningar, till exempel ditt kortkommando, stannar på din Mac i Muffles eget lagringsutrymme. Om du raderar Muffle raderas även inställningarna."
+        ]
+      },
+      {
+        "h": "Den här webbplatsen",
+        "p": [
+          "Den här webbplatsen räknar besök med Cloudflare Web Analytics, så att vi kan se hur många som läser den och vilka sidor som är användbara. Den använder inga cookies, sparar ingenting på din enhet och spårar dig inte över andra webbplatser. Cloudflares integritetspolicy gäller för denna mätning."
         ]
       }
     ],

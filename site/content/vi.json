@@ -199,7 +199,7 @@
   },
   "privacy": {
     "title": "Bảo mật ngay từ thiết kế",
-    "text": "Muffle không bao giờ ghi âm, lưu trữ hoặc gửi âm thanh. Ứng dụng chỉ bật tắt micrô của bạn và kiểm tra mức âm lượng. Không cần tài khoản, không theo dõi, không thu thập dữ liệu phân tích."
+    "text": "Muffle không bao giờ ghi âm, lưu trữ hoặc gửi âm thanh. Ứng dụng chỉ bật tắt micrô của bạn và đọc mức âm lượng. Ứng dụng không yêu cầu tài khoản, không có dữ liệu phân tích và không theo dõi."
   },
   "faq": {
     "title": "Câu hỏi thường gặp",
@@ -754,7 +754,7 @@
     "title": "Chính sách quyền riêng tư của Muffle",
     "description": "Muffle không bao giờ ghi âm, lưu trữ hay gửi âm thanh và không thu thập dữ liệu. Tìm hiểu cách Muffle sử dụng micrô của bạn.",
     "h1": "Chính sách quyền riêng tư",
-    "updated": "Cập nhật lần cuối vào ngày 29 tháng 9 năm 2026.",
+    "updated": "Cập nhật lần cuối ngày 30 tháng 9 năm 2026.",
     "intro": "Muffle tắt tiếng micrô trên máy Mac của bạn. Ứng dụng được xây dựng để không lời nào bạn nói có thể rời khỏi máy Mac.",
     "sections": [
       {
@@ -781,6 +781,12 @@
         "h": "Cài đặt được lưu trữ trên máy Mac của bạn",
         "p": [
           "Các tùy chọn của bạn, chẳng hạn như phím tắt bàn phím, được lưu trực tiếp trên máy Mac trong bộ nhớ riêng của Muffle. Việc xóa Muffle sẽ xóa toàn bộ các cài đặt này."
+        ]
+      },
+      {
+        "h": "Trang web này",
+        "p": [
+          "Trang web này thống kê lượt truy cập bằng Cloudflare Web Analytics để chúng tôi biết có bao nhiêu người đọc và trang nào hữu ích. Công cụ này không dùng cookie, không lưu bất kỳ nội dung nào trên thiết bị của bạn và không theo dõi bạn trên các trang web khác. Chính sách quyền riêng tư của Cloudflare áp dụng cho việc thống kê này."
         ]
       }
     ],

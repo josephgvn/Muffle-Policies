@@ -199,7 +199,7 @@
   },
   "privacy": {
     "title": "Privatnost na prvom mjestu",
-    "text": "Muffle nikada ne snima, ne pohranjuje niti ne šalje zvuk. Samo uključuje i isključuje mikrofon te mjeri njegovu glasnoću. Nema korisničkih računa, analitike niti praćenja."
+    "text": "Muffle nikada ne snima, ne pohranjuje niti ne šalje zvuk. Samo uključuje i isključuje vaš mikrofon te očitava njegovu glasnoću. Aplikacija nema račune, analitiku niti praćenje."
   },
   "faq": {
     "title": "Česta pitanja",
@@ -754,7 +754,7 @@
     "title": "Pravila privatnosti za Muffle",
     "description": "Muffle nikada ne snima, ne pohranjuje niti ne šalje zvuk i ne prikuplja podatke. Saznajte kako Muffle upotrebljava mikrofon.",
     "h1": "Pravila privatnosti",
-    "updated": "Posljednja izmjena: 29. rujna 2026.",
+    "updated": "Zadnje ažurirano 30. rujna 2026.",
     "intro": "Muffle utišava mikrofon vašeg Maca. Izrađen je tako da ništa što izgovorite nikada ne napusti vaš Mac.",
     "sections": [
       {
@@ -781,6 +781,12 @@
         "h": "Postavke pohranjene na Macu",
         "p": [
           "Vaše postavke, kao što je tipkovni prečac, ostaju na Macu u vlastitoj pohrani aplikacije Muffle. Ako izbrišete Muffle, brišu se i one."
+        ]
+      },
+      {
+        "h": "Ova web-stranica",
+        "p": [
+          "Ova web-stranica broji posjete putem usluge Cloudflare Web Analytics kako bismo vidjeli koliko je ljudi posjećuje i koje su stranice korisne. Ne upotrebljava kolačiće, ne pohranjuje ništa na vaš uređaj i ne prati vas na drugim web-mjestima. Na to se brojanje primjenjuju pravila privatnosti tvrtke Cloudflare."
         ]
       }
     ],

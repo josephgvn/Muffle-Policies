@@ -199,7 +199,7 @@
   },
   "privacy": {
     "title": "Alapértelmezetten privát",
-    "text": "A Muffle soha nem rögzít, nem tárol és nem küld hangot. Kizárólag be- és kikapcsolja a mikrofont, valamint leolvassa a hangerőt. Nincsenek fiókok, nincs analitika és nincs nyomkövetés."
+    "text": "A Muffle soha nem rögzít, tárol vagy küld hangot. Csak ki- és bekapcsolja a mikrofont, valamint leolvassa a hangerejét. Az alkalmazás nem tartalmaz fiókokat, analitikát és nyomkövetést."
   },
   "faq": {
     "title": "Gyakori kérdések",
@@ -754,7 +754,7 @@
     "title": "Muffle adatvédelmi szabályzat",
     "description": "A Muffle soha nem rögzít, nem tárol és nem továbbít hangot, és semmilyen adatot nem gyűjt. Tudja meg, hogyan használja a mikrofont.",
     "h1": "Adatvédelmi szabályzat",
-    "updated": "Utolsó frissítés: 2026. szeptember 29.",
+    "updated": "Legutóbb frissítve: 2026. szeptember 30.",
     "intro": "A Muffle a Mac mikrofonját némítja le. Úgy lett megtervezve, hogy semmi, amit mond, soha ne hagyhassa el a Macet.",
     "sections": [
       {
@@ -781,6 +781,12 @@
         "h": "A Macen tárolt beállítások",
         "p": [
           "A beállítások, például a megadott billentyűparancs, helyben, a Macen maradnak a Muffle saját tárhelyén. A Muffle törlésével ezek a beállítások is törlődnek."
+        ]
+      },
+      {
+        "h": "Ez a webhely",
+        "p": [
+          "Ez a webhely a Cloudflare Web Analytics segítségével számolja a látogatásokat, hogy lássuk, hányan olvassák, és mely oldalak hasznosak. Nem használ sütiket, semmit sem tárol az Ön eszközén, és más webhelyeken sem követi Önt. Erre a mérésre a Cloudflare adatvédelmi szabályzata érvényes."
         ]
       }
     ],

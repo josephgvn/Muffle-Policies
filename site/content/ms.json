@@ -199,7 +199,7 @@
   },
   "privacy": {
     "title": "Peribadi mengikut reka bentuk",
-    "text": "Muffle tidak pernah merakam, menyimpan atau menghantar audio. Ia hanya menghidupkan dan mematikan mikrofon anda serta membaca kelantangannya. Tiada akaun, tiada analitik, tiada penjejakan."
+    "text": "Muffle tidak pernah merakam, menyimpan atau menghantar audio. Ia hanya menghidupkan dan mematikan mikrofon anda serta membaca kelantangannya. Aplikasi ini tidak mempunyai akaun, tiada analitik dan tiada penjejakan."
   },
   "faq": {
     "title": "Soalan lazim",
@@ -754,7 +754,7 @@
     "title": "Dasar Privasi Muffle",
     "description": "Muffle tidak pernah merakam, menyimpan atau menghantar audio dan tidak mengumpul data. Ketahui cara Muffle menggunakan mikrofon anda.",
     "h1": "Dasar Privasi",
-    "updated": "Kemas kini terakhir pada 29 September 2026.",
+    "updated": "Kemas kini terakhir pada 30 September 2026.",
     "intro": "Muffle meredam mikrofon Mac anda. Ia dibina supaya tiada apa yang anda katakan akan keluar dari Mac anda.",
     "sections": [
       {
@@ -781,6 +781,12 @@
         "h": "Tetapan yang disimpan pada Mac anda",
         "p": [
           "Pilihan anda, seperti pintasan papan kekunci anda, kekal pada Mac anda dalam storan Muffle sendiri. Memadam Muffle akan memadamkannya juga."
+        ]
+      },
+      {
+        "h": "Laman web ini",
+        "p": [
+          "Laman web ini mengira lawatan menggunakan Cloudflare Web Analytics, supaya kami dapat melihat bilangan orang yang membacanya dan halaman mana yang berguna. Ia tidak menggunakan kuki, tidak menyimpan apa-apa pada peranti anda dan tidak menjejaki anda merentasi tapak web lain. Dasar privasi Cloudflare terpakai untuk pengiraan ini."
         ]
       }
     ],

@@ -199,7 +199,7 @@
   },
   "privacy": {
     "title": "Yksityinen jo suunnittelultaan",
-    "text": "Muffle ei koskaan tallenna, säilytä tai lähetä ääntä. Se vain kytkee mikrofonin päälle ja pois sekä mittaa sen äänenvoimakkuutta. Ei käyttäjätilejä, ei analytiikkaa, ei seurantaa."
+    "text": "Muffle ei koskaan tallenna, säilytä tai lähetä ääntä. Se vain kytkee mikrofonisi päälle ja pois sekä lukee sen äänenvoimakkuutta. Sovelluksessa ei ole käyttäjätilejä, analytiikkaa eikä seurantaa."
   },
   "faq": {
     "title": "Kysymyksiä ja vastauksia",
@@ -754,7 +754,7 @@
     "title": "Mufflen tietosuojakäytäntö",
     "description": "Muffle ei koskaan tallenna, säilytä tai lähetä ääntä eikä kerää tietoja. Lue, miten Muffle käyttää mikrofoniasi.",
     "h1": "Tietosuojakäytäntö",
-    "updated": "Viimeksi päivitetty 29. syyskuuta 2026.",
+    "updated": "Päivitetty viimeksi 30. syyskuuta 2026.",
     "intro": "Muffle mykistää Macisi mikrofonin. Se on rakennettu niin, ettei mikään sanomasi koskaan poistu Maciltasi.",
     "sections": [
       {
@@ -781,6 +781,12 @@
         "h": "Maciisi tallennetut asetukset",
         "p": [
           "Asetuksesi, kuten pikanäppäimesi, säilytetään Macissasi Mufflen omassa tallennustilassa. Mufflen poistaminen poistaa myös ne."
+        ]
+      },
+      {
+        "h": "Tämä verkkosivusto",
+        "p": [
+          "Tämä verkkosivusto laskee käynnit Cloudflare Web Analyticsin avulla, jotta näemme, kuinka moni lukee sitä ja mitkä sivut ovat hyödyllisiä. Se ei käytä evästeitä, ei tallenna mitään laitteellesi eikä seuraa sinua muille sivustoille. Tähän laskentaan sovelletaan Cloudflaren tietosuojakäytäntöä."
         ]
       }
     ],

@@ -199,7 +199,7 @@
   },
   "privacy": {
     "title": "Privadesa des del disseny",
-    "text": "Muffle mai enregistra, emmagatzema ni envia àudio. Només activa o desactiva el micròfon i en mesura el volum. Sense comptes, sense analítiques i sense seguiment."
+    "text": "Muffle mai enregistra, emmagatzema ni envia àudio. Només activa i desactiva el micròfon i en llegeix el volum. L'app no té comptes, analítiques ni seguiment."
   },
   "faq": {
     "title": "Preguntes",
@@ -754,7 +754,7 @@
     "title": "Política de privadesa de Muffle",
     "description": "Muffle mai enregistra, emmagatzema ni envia àudio i no recopila dades. Llegeix com Muffle utilitza el micròfon.",
     "h1": "Política de privadesa",
-    "updated": "Darrera actualització: 29 de setembre de 2026.",
+    "updated": "Última actualització: 30 de setembre de 2026.",
     "intro": "Muffle silencia el micròfon del teu Mac. Està dissenyat perquè res del que diguis surti mai del teu Mac.",
     "sections": [
       {
@@ -781,6 +781,12 @@
         "h": "Ajustos desats al teu Mac",
         "p": [
           "Les teves preferències, com ara la drecera de teclat, es mantenen al teu Mac a l'emmagatzematge propi de Muffle. Si elimines Muffle, s'eliminen."
+        ]
+      },
+      {
+        "h": "Aquest lloc web",
+        "p": [
+          "Aquest lloc web compta les visites amb Cloudflare Web Analytics perquè puguem veure quanta gent el llegeix i quines pàgines són útils. No utilitza galetes, no emmagatzema res al teu dispositiu i no et segueix per altres llocs web. La política de privacitat de Cloudflare s'aplica a aquest recompte."
         ]
       }
     ],

@@ -199,7 +199,7 @@
   },
   "privacy": {
     "title": "Conçu pour respecter votre vie privée",
-    "text": "Muffle n'enregistre, ne stocke ni ne transmet aucun contenu audio. L'application se contente d'activer ou de couper votre micro et de mesurer son niveau sonore. Aucun compte, aucune analyse, aucun suivi."
+    "text": "Muffle n'enregistre, ne stocke ni n'envoie jamais l'audio. L'app se contente d'activer et de couper votre micro et d'en mesurer le volume. Elle ne comporte aucun compte, aucun outil d'analyse et aucun suivi."
   },
   "faq": {
     "title": "Questions fréquentes",
@@ -754,7 +754,7 @@
     "title": "Politique de confidentialité de Muffle",
     "description": "Muffle n'enregistre, ne stocke ni ne transmet aucun audio et ne collecte aucune donnée. Découvrez comment Muffle gère votre micro sur Mac.",
     "h1": "Politique de confidentialité",
-    "updated": "Dernière mise à jour le 29 septembre 2026.",
+    "updated": "Dernière mise à jour le 30 septembre 2026.",
     "intro": "Muffle gère la coupure du micro de votre Mac. L'application est pensée pour que rien de ce que vous dites ne quitte jamais votre ordinateur.",
     "sections": [
       {
@@ -781,6 +781,12 @@
         "h": "Réglages enregistrés sur votre Mac",
         "p": [
           "Vos préférences, telles que votre raccourci clavier, restent stockées localement sur votre Mac dans les données de Muffle. La suppression de Muffle entraîne la suppression de ces réglages."
+        ]
+      },
+      {
+        "h": "Ce site web",
+        "p": [
+          "Ce site web comptabilise les visites avec Cloudflare Web Analytics afin de nous permettre de savoir combien de personnes le consultent et quelles pages sont utiles. Il n'utilise aucun cookie, ne stocke rien sur votre appareil et ne vous suit pas sur d'autres sites. La politique de confidentialité de Cloudflare s'applique à cette mesure d'audience."
         ]
       }
     ],

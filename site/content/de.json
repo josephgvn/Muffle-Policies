@@ -199,7 +199,7 @@
   },
   "privacy": {
     "title": "Datenschutz von Grund auf",
-    "text": "Muffle zeichnet niemals Audio auf, speichert es nicht und sendet es nicht. Die App schaltet nur dein Mikrofon ein oder aus und liest die Lautstärke ab. Keine Benutzerkonten, keine Analyse, kein Tracking."
+    "text": "Muffle zeichnet niemals Audio auf, speichert es nicht und sendet es nicht. Es schaltet dein Mikrofon nur ein und aus und liest dessen Lautstärke ab. Die App hat keine Accounts, keine Analysen und kein Tracking."
   },
   "faq": {
     "title": "Häufige Fragen",
@@ -754,7 +754,7 @@
     "title": "Muffle Datenschutzrichtlinie",
     "description": "Muffle zeichnet kein Audio auf, speichert keine Gespräche und erfasst keine Daten. Erfahre, wie Muffle dein Mikrofon schützt.",
     "h1": "Datenschutzrichtlinie",
-    "updated": "Zuletzt aktualisiert am 29. September 2026.",
+    "updated": "Zuletzt aktualisiert am 30. September 2026.",
     "intro": "Muffle schaltet das Mikrofon deines Mac stumm. Die App ist so gebaut, dass nichts von dem, was du sagst, jemals deinen Mac verlässt.",
     "sections": [
       {
@@ -781,6 +781,12 @@
         "h": "Auf deinem Mac gespeicherte Einstellungen",
         "p": [
           "Deine Einstellungen wie dein Tastenkürzel bleiben lokal auf deinem Mac im Speicher von Muffle. Wenn du Muffle entfernst, werden auch diese Einstellungen gelöscht."
+        ]
+      },
+      {
+        "h": "Diese Website",
+        "p": [
+          "Diese Website zählt Besuche mit Cloudflare Web Analytics, damit wir sehen können, wie viele Personen sie lesen und welche Seiten nützlich sind. Sie verwendet keine Cookies, speichert nichts auf deinem Gerät und verfolgt dich nicht über andere Websites hinweg. Für diese Zählung gilt die Datenschutzerklärung von Cloudflare."
         ]
       }
     ],

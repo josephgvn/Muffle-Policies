@@ -48,7 +48,9 @@ def resolve(page_path, ref):
     if target.endswith("/") or os.path.isdir(target): target = os.path.join(target, "index.html")
     return (target, u.fragment)
 
-pages = [p for p in glob.glob(os.path.join(ROOT, "**", "*.html"), recursive=True) if "/site/" not in p and "/node_modules/" not in p]
+# Search engine verification files (google<hex>.html) are not pages.
+pages = [p for p in glob.glob(os.path.join(ROOT, "**", "*.html"), recursive=True)
+         if "/site/" not in p and "/node_modules/" not in p and not re.fullmatch(r"google[0-9a-f]+\.html", os.path.basename(p))]
 problems = []
 langs = set()
 for path in pages:

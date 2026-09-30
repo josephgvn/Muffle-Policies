@@ -199,7 +199,7 @@
   },
   "privacy": {
     "title": "Privatliv som standard",
-    "text": "Muffle optager, gemmer eller sender aldrig lyd. Appen tænder og slukker udelukkende din mikrofon og aflæser dens lydstyrke. Ingen konti, ingen analyseværktøjer og ingen sporing."
+    "text": "Muffle optager, gemmer eller sender aldrig lyd. Den slår kun din mikrofon til og fra og aflæser dens lydstyrke. Appen har ingen konti, ingen analyse og ingen sporing."
   },
   "faq": {
     "title": "Spørgsmål og svar",
@@ -754,7 +754,7 @@
     "title": "Anonymitetspolitik for Muffle",
     "description": "Muffle hverken optager, gemmer eller videresender lyd og indsamler ingen data overhovedet. Læs her, hvordan Muffle håndterer din mikrofon.",
     "h1": "Anonymitetspolitik",
-    "updated": "Sidst opdateret den 29. september 2026.",
+    "updated": "Sidst opdateret 30. september 2026.",
     "intro": "Muffle dæmper mikrofonen på din Mac. Appen er bygget op omkring princippet om, at intet af det, du siger, nogensinde forlader din Mac.",
     "sections": [
       {
@@ -781,6 +781,12 @@
         "h": "Indstillinger gemt på din Mac",
         "p": [
           "Dine indstillinger, såsom din tastaturgenvej, forbliver lokalt på din Mac i Muffles eget lagerområde. Sletter du Muffle, slettes de også."
+        ]
+      },
+      {
+        "h": "Dette websted",
+        "p": [
+          "Dette websted tæller besøg med Cloudflare Web Analytics, så vi kan se, hvor mange der læser det, og hvilke sider der er nyttige. Det bruger ingen cookies, gemmer intet på din enhed og følger dig ikke på tværs af andre websteder. Cloudflares privatlivspolitik gælder for denne optælling."
         ]
       }
     ],

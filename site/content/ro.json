@@ -199,7 +199,7 @@
   },
   "privacy": {
     "title": "Gândit pentru confidențialitate",
-    "text": "Muffle nu înregistrează, nu stochează și nu trimite niciodată conținut audio. Doar activează sau dezactivează microfonul și citește nivelul volumului. Fără conturi, fără analitice, fără urmărire."
+    "text": "Muffle nu înregistrează, nu stochează și nu trimite niciodată sunet. Doar pornește și oprește microfonul și măsoară nivelul sonor. Aplicația nu folosește conturi, date analitice sau urmărire."
   },
   "faq": {
     "title": "Întrebări frecvente",
@@ -754,7 +754,7 @@
     "title": "Politica de confidențialitate Muffle",
     "description": "Muffle nu înregistrează, nu stochează și nu trimite date audio și nu colectează date. Aflați cum folosește microfonul.",
     "h1": "Politica de confidențialitate",
-    "updated": "Ultima actualizare: 29 septembrie 2026.",
+    "updated": "Ultima actualizare la 30 septembrie 2026.",
     "intro": "Muffle dezactivează microfonul Mac-ului dumneavoastră. Aplicația este concepută astfel încât nimic din ce spuneți să nu părăsească vreodată Mac-ul.",
     "sections": [
       {
@@ -781,6 +781,12 @@
         "h": "Configurări salvate pe Mac-ul dumneavoastră",
         "p": [
           "Preferințele dumneavoastră, precum combinația de taste aleasă, rămân stocate local pe Mac în fișierele Muffle. Ștergerea aplicației Muffle le elimină complet."
+        ]
+      },
+      {
+        "h": "Acest site web",
+        "p": [
+          "Acest site contorizează vizitele prin Cloudflare Web Analytics, pentru a afla câți vizitatori îl citesc și ce pagini sunt utile. Nu folosește cookie-uri, nu stochează nimic pe dispozitiv și nu vă urmărește pe alte site-uri. Politica de confidențialitate Cloudflare se aplică acestei contorizări."
         ]
       }
     ],

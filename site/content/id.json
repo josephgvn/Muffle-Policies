@@ -199,7 +199,7 @@
   },
   "privacy": {
     "title": "Dirancang menjaga privasi",
-    "text": "Muffle tidak pernah merekam, menyimpan, atau mengirim audio. Muffle hanya menyalakan dan mematikan mikrofon Anda serta membaca tingkat suaranya. Tanpa akun, tanpa analitik, tanpa pelacakan."
+    "text": "Muffle tidak pernah merekam, menyimpan, atau mengirim audio. Muffle hanya menyalakan dan mematikan mikrofon Anda serta membaca tingkat suaranya. App ini tidak memiliki akun, analitik, dan pelacakan."
   },
   "faq": {
     "title": "Pertanyaan umum",
@@ -754,7 +754,7 @@
     "title": "Kebijakan Privasi Muffle",
     "description": "Muffle tidak pernah merekam, menyimpan, atau mengirim audio dan tidak mengumpulkan data. Pelajari cara Muffle menggunakan mikrofon Anda.",
     "h1": "Kebijakan Privasi",
-    "updated": "Terakhir diperbarui pada 29 September 2026.",
+    "updated": "Terakhir diperbarui 30 September 2026.",
     "intro": "Muffle membisukan mikrofon Mac Anda. App ini dibuat agar apa pun yang Anda katakan tidak pernah meninggalkan Mac Anda.",
     "sections": [
       {
@@ -781,6 +781,12 @@
         "h": "Pengaturan yang disimpan di Mac Anda",
         "p": [
           "Preferensi Anda, seperti pintasan keyboard Anda, tetap tersimpan di Mac Anda dalam penyimpanan Muffle sendiri. Menghapus Muffle akan menghapusnya."
+        ]
+      },
+      {
+        "h": "Situs web ini",
+        "p": [
+          "Situs web ini menghitung kunjungan dengan Cloudflare Web Analytics, sehingga kami dapat melihat berapa banyak orang yang membacanya dan halaman mana yang bermanfaat. Layanan ini tidak menggunakan cookie, tidak menyimpan apa pun di perangkat Anda, dan tidak melacak Anda di situs lain. Kebijakan privasi Cloudflare berlaku untuk penghitungan ini."
         ]
       }
     ],

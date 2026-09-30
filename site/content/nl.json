@@ -199,7 +199,7 @@
   },
   "privacy": {
     "title": "Privacy voorop",
-    "text": "Muffle neemt nooit audio op, slaat niets op en verstuurt geen geluid. De app schakelt alleen je microfoon in of uit en meet het geluidsniveau. Geen accounts, geen statistieken en geen tracking."
+    "text": "Muffle neemt nooit audio op, slaat het niet op en verstuurt het niet. Het schakelt alleen je microfoon in en uit en leest het geluidsniveau af. De app heeft geen accounts, geen analytics en geen tracking."
   },
   "faq": {
     "title": "Veelgestelde vragen",
@@ -754,7 +754,7 @@
     "title": "Muffle Privacybeleid",
     "description": "Muffle neemt nooit audio op, bewaart niets en verzamelt geen gegevens. Lees hoe Muffle met je microfoon omgaat.",
     "h1": "Privacybeleid",
-    "updated": "Laatst bijgewerkt op 29 september 2026.",
+    "updated": "Laatst bijgewerkt op 30 september 2026.",
     "intro": "Muffle dempt de microfoon van je Mac. De app is zo ontworpen dat niets van wat je zegt ooit je Mac verlaat.",
     "sections": [
       {
@@ -781,6 +781,12 @@
         "h": "Instellingen die op je Mac worden bewaard",
         "p": [
           "Je voorkeuren, zoals je eigen sneltoets, blijven lokaal op je Mac in de opslag van Muffle bewaard. Als je Muffle verwijdert, worden deze instellingen ook gewist."
+        ]
+      },
+      {
+        "h": "Deze website",
+        "p": [
+          "Deze website telt bezoeken met Cloudflare Web Analytics, zodat we kunnen zien hoeveel mensen de site bezoeken en welke pagina's nuttig zijn. Er worden geen cookies gebruikt, er wordt niets op je apparaat opgeslagen en je wordt niet gevolgd op andere sites. Op deze telling is het privacybeleid van Cloudflare van toepassing."
         ]
       }
     ],

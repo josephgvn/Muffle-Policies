@@ -199,7 +199,7 @@
   },
   "privacy": {
     "title": "Privacy al primo posto",
-    "text": "Muffle non registra, non memorizza e non invia mai l'audio. Si limita ad attivare o disattivare il microfono e a leggerne il volume. Nessun account, nessuna statistica di utilizzo, nessun tracciamento."
+    "text": "Muffle non registra, non memorizza e non invia mai l'audio. Si limita ad attivare e disattivare il microfono e a leggerne il volume. L'app non ha account, né strumenti di analisi o tracciamento."
   },
   "faq": {
     "title": "Domande frequenti",
@@ -754,7 +754,7 @@
     "title": "Informativa sulla privacy di Muffle",
     "description": "Muffle non registra, non memorizza e non invia mai il tuo audio e non raccoglie dati personali. Scopri come gestisce il microfono.",
     "h1": "Informativa sulla privacy",
-    "updated": "Ultimo aggiornamento: 29 settembre 2026.",
+    "updated": "Ultimo aggiornamento: 30 settembre 2026.",
     "intro": "Muffle disattiva il microfono del tuo Mac. L'app è progettata in modo che nessuna parola pronunciata lasci mai il tuo computer.",
     "sections": [
       {
@@ -781,6 +781,12 @@
         "h": "Impostazioni salvate sul Mac",
         "p": [
           "Tutte le preferenze personali, come la scorciatoia da tastiera scelta, rimangono memorizzate localmente sul tuo Mac nello spazio riservato all'applicazione. Se disinstalli Muffle, anche le impostazioni verranno eliminate."
+        ]
+      },
+      {
+        "h": "Questo sito web",
+        "p": [
+          "Questo sito web conta le visite con Cloudflare Web Analytics, così possiamo vedere quante persone lo leggono e quali pagine sono utili. Non usa cookie, non memorizza nulla sul tuo dispositivo e non ti segue su altri siti. A questo conteggio si applica l'informativa sulla privacy di Cloudflare."
         ]
       }
     ],
