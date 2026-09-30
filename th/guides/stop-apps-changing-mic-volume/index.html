@@ -92,11 +92,12 @@
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 <meta name="format-detection" content="telephone=no">
-<link rel="icon" type="image/png" sizes="64x64" href="../../../assets/icon-64.png?v=dc4a58de2d">
-<link rel="apple-touch-icon" href="../../../assets/icon-180.png?v=dc4a58de2d">
-<link rel="stylesheet" href="../../../assets/site.css?v=dc4a58de2d">
+<link rel="icon" type="image/png" sizes="192x192" href="../../../assets/icon-192.png?v=ff19b1b5d0">
+<link rel="icon" type="image/png" sizes="64x64" href="../../../assets/icon-64.png?v=ff19b1b5d0">
+<link rel="apple-touch-icon" href="../../../assets/icon-180.png?v=ff19b1b5d0">
+<link rel="stylesheet" href="../../../assets/site.css?v=ff19b1b5d0">
 <script>document.documentElement.classList.add("js");if(!matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("motion")</script>
-<script src="../../../assets/site.js?v=dc4a58de2d" defer></script>
+<script src="../../../assets/site.js?v=ff19b1b5d0" defer></script>
 <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "cf5fc12b7de143a4b77c64f10462a98d"}'></script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "วิธีป้องกันไม่ให้แอปเปลี่ยนระดับเสียงไมโครโฟนบน Mac", "description": "Google Meet, Chrome, Zoom และ Teams ชอบปรับระดับเสียงไมโครโฟนบน Mac เอง ล็อกระดับเสียงไมค์ไว้ไม่ให้แอปใดเปลี่ยนได้อีกต่อไป", "inLanguage": "th", "url": "https://muffle.spendryapp.com/th/guides/stop-apps-changing-mic-volume/", "mainEntityOfPage": "https://muffle.spendryapp.com/th/guides/stop-apps-changing-mic-volume/", "image": "https://muffle.spendryapp.com/assets/img/en/card-level.webp", "dateModified": "2026-09-30", "author": {"@type": "Organization", "name": "Muffle", "url": "https://muffle.spendryapp.com/", "logo": {"@type": "ImageObject", "url": "https://muffle.spendryapp.com/assets/icon-180.png"}, "email": "hello@spendryapp.com"}, "publisher": {"@type": "Organization", "name": "Muffle", "url": "https://muffle.spendryapp.com/", "logo": {"@type": "ImageObject", "url": "https://muffle.spendryapp.com/assets/icon-180.png"}, "email": "hello@spendryapp.com"}, "about": {"@type": "SoftwareApplication", "name": "Muffle", "operatingSystem": "macOS"}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "HowTo", "name": "วิธีป้องกันไม่ให้แอปเปลี่ยนระดับเสียงไมโครโฟนบน Mac", "description": "Google Meet, Chrome, Zoom และ Teams ชอบปรับระดับเสียงไมโครโฟนบน Mac เอง ล็อกระดับเสียงไมค์ไว้ไม่ให้แอปใดเปลี่ยนได้อีกต่อไป", "inLanguage": "th", "url": "https://muffle.spendryapp.com/th/guides/stop-apps-changing-mic-volume/", "image": "https://muffle.spendryapp.com/assets/img/en/card-level.webp", "step": [{"@type": "HowToStep", "position": 1, "text": "ติดตั้ง Muffle"}, {"@type": "HowToStep", "position": 2, "text": "คลิกไอคอน Muffle ในแถบเมนู แล้วตั้งค่าระดับเสียงด้วยแถบเลื่อนไมค์"}, {"@type": "HowToStep", "position": 3, "text": "คลิกรูปแม่กุญแจข้างแถบเลื่อน"}, {"@type": "HowToStep", "position": 4, "text": "เข้าร่วมการโทร ระดับเสียงของคุณจะคงที่ตามที่ตั้งไว้เสมอ"}]}</script>
@@ -105,7 +106,7 @@
 </head>
 <body>
 <header class="nav"><div class="wrap">
-<a class="brand" href="../../../th/"><img src="../../../assets/icon-64.png?v=dc4a58de2d" alt="" width="26" height="26">Muffle</a>
+<a class="brand" href="../../../th/"><img src="../../../assets/icon-64.png?v=ff19b1b5d0" alt="" width="26" height="26">Muffle</a>
 <nav aria-label="เมนู"><a href="../../../th/#features">ฟีเจอร์</a><a href="../../../th/guides/">คู่มือ</a><a href="../../../th/support/">ฝ่ายสนับสนุน</a></nav>
 <span class="btn small soon">ดาวน์โหลด Muffle</span>
 </div></header>
@@ -117,7 +118,7 @@
 <div class="wrap narrow prose">
 <p class="reveal">แอปโทรหลายแอปจะปรับระดับเสียงอินพุตเองโดยอัตโนมัติผ่านฟีเจอร์ปรับระดับเสียงอัตโนมัติ คุณตั้งระดับเสียงไว้อย่างดีในการตั้งค่าระบบ แต่พอเข้าประชุม Google Meet ไม่กี่นาที แถบเลื่อนก็เลื่อนเองจนคนอื่นทักว่าเสียงเบาหรือเสียงแตก</p>
 <p class="reveal">Muffle สามารถล็อกระดับเสียงไมโครโฟนของคุณได้ หากมีแอปใดพยายามปรับเปลี่ยน Muffle จะคืนค่ากลับมาที่ระดับเดิมทันที</p>
-<aside class="cta-box reveal"><img src="../../../assets/icon-64.png?v=dc4a58de2d" alt="" width="44" height="44"><strong>ทดลองใช้ Muffle ฟรี 3 วัน</strong><span class="btn soon">พบกันเร็วๆ นี้บน Mac App Store</span></aside>
+<aside class="cta-box reveal"><img src="../../../assets/icon-64.png?v=ff19b1b5d0" alt="" width="44" height="44"><strong>ทดลองใช้ Muffle ฟรี 3 วัน</strong><span class="btn soon">พบกันเร็วๆ นี้บน Mac App Store</span></aside>
 <h2 class="reveal">ล็อกระดับเสียงไมโครโฟนของคุณ</h2>
 <ol class="how-steps compact"><li class="reveal"><span class="step-num">1</span><p>ติดตั้ง Muffle</p></li><li class="reveal"><span class="step-num">2</span><p>คลิกไอคอน Muffle ในแถบเมนู แล้วตั้งค่าระดับเสียงด้วยแถบเลื่อนไมค์</p></li><li class="reveal"><span class="step-num">3</span><p>คลิกรูปแม่กุญแจข้างแถบเลื่อน</p></li><li class="reveal"><span class="step-num">4</span><p>เข้าร่วมการโทร ระดับเสียงของคุณจะคงที่ตามที่ตั้งไว้เสมอ</p></li></ol>
 <figure class="guide-shot reveal card"><picture><source media="(prefers-color-scheme: dark)" srcset="../../../assets/img/th/card-level-dark.webp"><img src="../../../assets/img/th/card-level-light.webp" alt="วิธีป้องกันไม่ให้แอปเปลี่ยนระดับเสียงไมโครโฟนบน Mac" width="600" height="126" loading="lazy" decoding="async"></picture></figure>

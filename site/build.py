@@ -102,7 +102,7 @@ BUILD_DATE = datetime.date.today().isoformat()
 def asset_version():
     """Changes whenever the stylesheet, script or logo changes, so browsers never keep an old copy."""
     digest = hashlib.sha1()
-    for name in ("site.css", "site.js", "icon-64.png", "icon-180.png"):
+    for name in ("site.css", "site.js", "icon-64.png", "icon-180.png", "icon-192.png"):
         with open(os.path.join(ROOT, "assets", name), "rb") as f:
             digest.update(f.read())
     return digest.hexdigest()[:10]
@@ -275,7 +275,8 @@ def page(lang, c, path, title, description, body, jsonld, languages, not_found=F
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 <meta name="format-detection" content="telephone=no">
-{store_banner}<link rel="icon" type="image/png" sizes="64x64" href="{rel}assets/icon-64.png?v={ASSET_VERSION}">
+{store_banner}<link rel="icon" type="image/png" sizes="192x192" href="{rel}assets/icon-192.png?v={ASSET_VERSION}">
+<link rel="icon" type="image/png" sizes="64x64" href="{rel}assets/icon-64.png?v={ASSET_VERSION}">
 <link rel="apple-touch-icon" href="{rel}assets/icon-180.png?v={ASSET_VERSION}">
 <link rel="stylesheet" href="{rel}assets/site.css?v={ASSET_VERSION}">
 <script>document.documentElement.classList.add("js");if(!matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("motion")</script>
@@ -334,8 +335,9 @@ def app_ld(lang, c, url):
 
 
 def website_ld(lang, c):
-    return {"@context": "https://schema.org", "@type": "WebSite", "name": "Muffle", "url": f"{BASE_URL}/{prefix(lang)}",
-            "inLanguage": lang, "description": c["meta"]["home_description"], "publisher": organization_ld()}
+    # Google takes the site name from this, on the home page at the root. Every language points at the same site.
+    return {"@context": "https://schema.org", "@type": "WebSite", "name": "Muffle", "alternateName": ["Muffle for Mac", "Muffle Mic Mute"],
+            "url": f"{BASE_URL}/", "description": c["meta"]["home_description"], "publisher": organization_ld()}
 
 
 def faq_ld(items):
