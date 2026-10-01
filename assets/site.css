@@ -357,3 +357,34 @@ footer .langs a[aria-current] { color: var(--text); font-weight: 600; }
   .guide-list a, .btn { transition: none; }
   .scene, .scene * { animation: none !important; transition: none !important; }
 }
+
+/* The film: the App Store preview, 16:9, plays muted while in view; sound and play on request */
+.film { padding: 24px 0 120px; }
+.film .headline { text-align: center; margin-bottom: 40px; }
+.film-frame { position: relative; max-width: 1120px; margin: 0 auto; aspect-ratio: 16 / 9; border-radius: 28px; overflow: hidden;
+  background: #fff; box-shadow: 0 50px 90px -40px rgba(0, 0, 0, .35), 0 0 0 1px var(--line); }
+.film-video { display: block; width: 100%; height: 100%; object-fit: cover; cursor: pointer; }
+.film-btn { position: absolute; display: grid; place-items: center; padding: 0; border: 0; border-radius: 50%; color: #1d1d1f; cursor: pointer;
+  background: rgba(255, 255, 255, .84); -webkit-backdrop-filter: blur(14px) saturate(1.6); backdrop-filter: blur(14px) saturate(1.6);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .16), 0 0 0 1px rgba(0, 0, 0, .06); transition: opacity .35s, transform .2s; }
+.film-btn:hover { transform: scale(1.06); }
+.film-btn svg { display: block; }
+.film-play { left: 50%; top: 50%; width: 84px; height: 84px; margin: -42px 0 0 -42px; }
+.film-play svg { width: 32px; height: 32px; }
+.film-sound { right: 22px; bottom: 22px; width: 50px; height: 50px; }
+[dir="rtl"] .film-sound { right: auto; left: 22px; }
+.film-sound svg { width: 23px; height: 23px; }
+.film-play .pause, .film-sound .on { display: none; }
+.film-frame.playing .film-play .play, .film-frame.sound .film-sound .off { display: none; }
+.film-frame.playing .film-play .pause, .film-frame.sound .film-sound .on { display: block; }
+.film-frame.playing .film-play { opacity: 0; }
+.film-frame.playing:hover .film-play, .film-frame.playing .film-play:focus-visible { opacity: 1; }
+@media (max-width: 700px) {
+  .film { padding-bottom: 80px; }
+  .film-frame { border-radius: 16px; }
+  .film-play { width: 60px; height: 60px; margin: -30px 0 0 -30px; }
+  .film-play svg { width: 24px; height: 24px; }
+  .film-sound { right: 12px; bottom: 12px; width: 40px; height: 40px; }
+  [dir="rtl"] .film-sound { left: 12px; }
+  .film-sound svg { width: 19px; height: 19px; }
+}

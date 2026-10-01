@@ -61,6 +61,15 @@
     ],
     "note": "Muffle silencia el micrófono a nivel de hardware, así que da igual qué app, navegador o pestaña estés usando en tu llamada."
   },
+  "film": {
+    "title": "Míralo en acción.",
+    "name": "Muffle en 28 segundos",
+    "alt": "Un vídeo de 28 segundos que muestra cómo Muffle silencia el micrófono de tu Mac con una pulsación de AirPods o un atajo de teclado.",
+    "sound_on": "Activar sonido",
+    "sound_off": "Desactivar sonido",
+    "play": "Reproducir el vídeo",
+    "pause": "Pausar el vídeo"
+  },
   "story": {
     "title": "Una pulsación. Silencio.",
     "steps": [

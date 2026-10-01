@@ -61,6 +61,15 @@
     ],
     "note": "Muffle mykistää mikrofonin laitteistotasolla, joten ei ole väliä, mikä sovellus, selain tai välilehti sitä käyttää."
   },
+  "film": {
+    "title": "Katso, miten se toimii.",
+    "name": "Muffle 28 sekunnissa",
+    "alt": "28 sekunnin video, joka näyttää, miten Muffle mykistää Macisi mikrofonin AirPodsia painamalla tai pikanäppäimellä.",
+    "sound_on": "Kytke äänet päälle",
+    "sound_off": "Kytke äänet pois päältä",
+    "play": "Toista video",
+    "pause": "Keskeytä video"
+  },
   "story": {
     "title": "Yksi painallus. Hiljaisuus.",
     "steps": [

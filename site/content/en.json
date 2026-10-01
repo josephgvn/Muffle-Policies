@@ -61,6 +61,15 @@
     ],
     "note": "Muffle mutes the microphone at the hardware level, so it doesn't matter which app, browser or tab is using it."
   },
+  "film": {
+    "title": "See it in action.",
+    "name": "Muffle in 28 seconds",
+    "alt": "A 28-second film showing how Muffle mutes your Mac's microphone with an AirPods press or a keyboard shortcut.",
+    "sound_on": "Turn sound on",
+    "sound_off": "Turn sound off",
+    "play": "Play the film",
+    "pause": "Pause the film"
+  },
   "story": {
     "title": "One press. Silence.",
     "steps": [

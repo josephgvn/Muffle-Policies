@@ -61,6 +61,15 @@
     ],
     "note": "A Muffle hardverszinten némítja a mikrofont, így mindegy, melyik app, böngésző vagy lap használja éppen."
   },
+  "film": {
+    "title": "Nézze meg működés közben.",
+    "name": "A Muffle 28 másodpercben",
+    "alt": "Egy 28 másodperces videó, amely bemutatja, hogyan némítja a Muffle a Mac mikrofonját egy AirPods-megnyomással vagy billentyűparanccsal.",
+    "sound_on": "Hang bekapcsolása",
+    "sound_off": "Hang kikapcsolása",
+    "play": "Videó lejátszása",
+    "pause": "Videó szüneteltetése"
+  },
   "story": {
     "title": "Egyetlen megnyomás. Csend.",
     "steps": [

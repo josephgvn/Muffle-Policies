@@ -464,6 +464,48 @@
     counters.forEach((el) => count.observe(el));
   }
 
+  // ---------- The film: plays muted while in view (not with reduced motion), sound and play on request ----------
+  d.querySelectorAll(".film-frame").forEach((frame) => {
+    const video = frame.querySelector("video");
+    const play = frame.querySelector(".film-play");
+    const sound = frame.querySelector(".film-sound");
+    if (!video || !play || !sound) return;
+    let held = false;      // the visitor paused it: scrolling back doesn't restart it
+    let heard = false;     // the first time the sound goes on, the film starts over so the music plays from the top
+    const load = () => { if (!video.getAttribute("src")) video.src = video.dataset.src; };
+    const sync = () => {
+      const playing = !video.paused;
+      frame.classList.toggle("playing", playing);
+      frame.classList.toggle("sound", !video.muted);
+      play.setAttribute("aria-label", playing ? play.dataset.pause : play.dataset.play);
+      sound.setAttribute("aria-pressed", String(!video.muted));
+      sound.setAttribute("aria-label", video.muted ? sound.dataset.on : sound.dataset.off);
+    };
+    const start = () => {
+      load();
+      const promise = video.play();
+      if (promise) promise.catch(sync);
+    };
+    ["play", "pause", "volumechange"].forEach((name) => video.addEventListener(name, sync));
+    play.addEventListener("click", () => {
+      if (video.paused) { held = false; start(); } else { held = true; video.pause(); }
+    });
+    video.addEventListener("click", () => play.click());
+    sound.addEventListener("click", () => {
+      load();
+      video.muted = !video.muted;
+      if (!video.muted && !heard) { heard = true; video.currentTime = 0; }
+      if (!video.muted && video.paused) { held = false; start(); }
+    });
+    if (motion && observe) {
+      new IntersectionObserver(([entry]) => {
+        if (entry.intersectionRatio >= 0.4) { if (!held) start(); }
+        else if (!video.paused) video.pause();
+      }, { threshold: [0, 0.4] }).observe(frame);
+    }
+    sync();
+  });
+
   // ---------- One loop for everything ----------
   let queued = false;
   const frame = (now = performance.now()) => {

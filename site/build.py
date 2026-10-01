@@ -340,6 +340,43 @@ def website_ld(lang, c):
             "url": f"{BASE_URL}/", "description": c["meta"]["home_description"], "publisher": organization_ld()}
 
 
+FILM_DATE = "2026-10-01T12:00:00+03:00"
+
+
+def film_file(lang, ext):
+    """The film in the page's language, or the English one when that language has none."""
+    localized = os.path.join(ROOT, "assets", "video", f"{lang}.{ext}")
+    return f"assets/video/{lang if os.path.exists(localized) else 'en'}.{ext}"
+
+
+def film_html(lang, c):
+    """The App Store preview film: muted while it plays in view (site.js), sound on request, the poster until then."""
+    f = c["film"]
+    speaker = ('<svg class="off" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/>'
+               '<path d="M16.5 9.5l5 5m0-5l-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>'
+               '<svg class="on" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/>'
+               '<path d="M16 8.5a5 5 0 0 1 0 7M18.6 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>')
+    play = ('<svg class="play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg>'
+            '<svg class="pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z" fill="currentColor"/></svg>')
+    return f"""<section class="film" aria-labelledby="film-title">
+<div class="wrap">
+<h2 class="headline reveal" id="film-title">{e(f['title'])}</h2>
+<div class="film-frame reveal">
+<video class="film-video" muted playsinline loop preload="none" width="1920" height="1080" poster="{{REL}}{film_file(lang, 'webp')}" data-src="{{REL}}{film_file(lang, 'mp4')}" aria-label="{e(f['alt'])}"></video>
+<button class="film-btn film-play" type="button" aria-label="{e(f['play'])}" data-play="{e(f['play'])}" data-pause="{e(f['pause'])}">{play}</button>
+<button class="film-btn film-sound" type="button" aria-pressed="false" aria-label="{e(f['sound_on'])}" data-on="{e(f['sound_on'])}" data-off="{e(f['sound_off'])}">{speaker}</button>
+</div>
+</div>
+</section>"""
+
+
+def film_ld(lang, c):
+    f = c["film"]
+    return {"@context": "https://schema.org", "@type": "VideoObject", "name": f["name"], "description": f["alt"],
+            "thumbnailUrl": f"{BASE_URL}/{film_file(lang, 'webp')}", "contentUrl": f"{BASE_URL}/{film_file(lang, 'mp4')}",
+            "uploadDate": FILM_DATE, "duration": "PT28S", "width": 1920, "height": 1080, "inLanguage": lang}
+
+
 def faq_ld(items):
     return {
         "@context": "https://schema.org",
@@ -468,6 +505,7 @@ def home_page(lang, c, languages):
 <section class="works" aria-label="{e(c['works_with']['title'])}">
 <div class="marquee"><div class="tracks"><ul>{apps}</ul><ul aria-hidden="true">{apps}</ul></div></div>
 </section>
+{film_html(lang, c)}
 {tour_html(lang, c)}
 <section class="rail" id="features">
 <div class="rail-pin">
@@ -518,7 +556,7 @@ def home_page(lang, c, languages):
 </div>
 </section>
 </main>"""
-    ld = [app_ld(lang, c, url), website_ld(lang, c), faq_ld(c["faq"]["items"])]
+    ld = [app_ld(lang, c, url), website_ld(lang, c), faq_ld(c["faq"]["items"]), film_ld(lang, c)]
     return page(lang, c, "", c["meta"]["home_title"], c["meta"]["home_description"], body, ld, languages)
 
 

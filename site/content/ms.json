@@ -61,6 +61,15 @@
     ],
     "note": "Muffle meredam mikrofon pada peringkat perkakasan, jadi tidak kira aplikasi, pelayar atau tab mana yang sedang menggunakannya."
   },
+  "film": {
+    "title": "Lihat ia beraksi.",
+    "name": "Muffle dalam 28 saat",
+    "alt": "Filem 28 saat yang menunjukkan cara Muffle meredam mikrofon Mac anda dengan tekanan AirPods atau pintasan papan kekunci.",
+    "sound_on": "Hidupkan bunyi",
+    "sound_off": "Matikan bunyi",
+    "play": "Mainkan filem",
+    "pause": "Jeda filem"
+  },
   "story": {
     "title": "Satu tekanan. Senyap.",
     "steps": [

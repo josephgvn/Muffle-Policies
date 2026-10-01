@@ -61,6 +61,15 @@
     ],
     "note": "Muffle wycisza mikrofon na poziomie sprzętowym, więc nie ma znaczenia, która aplikacja, przeglądarka czy karta z niego korzysta."
   },
+  "film": {
+    "title": "Zobacz w działaniu.",
+    "name": "Muffle w 28 sekund",
+    "alt": "28-sekundowy film pokazujący, jak Muffle wycisza mikrofon Maca naciśnięciem AirPods lub skrótem klawiszowym.",
+    "sound_on": "Włącz dźwięk",
+    "sound_off": "Wyłącz dźwięk",
+    "play": "Odtwórz film",
+    "pause": "Wstrzymaj film"
+  },
   "story": {
     "title": "Jedno naciśnięcie. Cisza.",
     "steps": [

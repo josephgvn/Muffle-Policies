@@ -61,6 +61,15 @@
     ],
     "note": "Muffle stänger av mikrofonen på hårdvarunivå, så det spelar ingen roll vilken app, webbläsare eller flik som använder den."
   },
+  "film": {
+    "title": "Se hur det fungerar.",
+    "name": "Muffle på 28 sekunder",
+    "alt": "En 28 sekunder lång film som visar hur Muffle stänger av din Macs mikrofon med en tryckning på dina AirPods eller ett kortkommando.",
+    "sound_on": "Slå på ljudet",
+    "sound_off": "Stäng av ljudet",
+    "play": "Spela upp filmen",
+    "pause": "Pausa filmen"
+  },
   "story": {
     "title": "En tryckning. Tystnad.",
     "steps": [

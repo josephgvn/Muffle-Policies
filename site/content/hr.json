@@ -61,6 +61,15 @@
     ],
     "note": "Muffle isključuje mikrofon na razini hardvera, pa nije važno koja ga aplikacija, preglednik ili kartica upotrebljava."
   },
+  "film": {
+    "title": "Pogledajte kako radi.",
+    "name": "Muffle u 28 sekundi",
+    "alt": "Videozapis od 28 sekundi koji prikazuje kako Muffle utišava mikrofon vašeg Maca pritiskom na AirPods ili tipkovnim prečacem.",
+    "sound_on": "Uključi zvuk",
+    "sound_off": "Isključi zvuk",
+    "play": "Pokreni videozapis",
+    "pause": "Pauziraj videozapis"
+  },
   "story": {
     "title": "Jedan pritisak. Tišina.",
     "steps": [

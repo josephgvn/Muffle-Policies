@@ -61,6 +61,15 @@
     ],
     "note": "Muffle dezactivează microfonul la nivel hardware, așa că nu contează ce aplicație, browser sau filă îl folosește."
   },
+  "film": {
+    "title": "Vedeți aplicația în acțiune.",
+    "name": "Muffle în 28 de secunde",
+    "alt": "Un videoclip de 28 de secunde care arată cum Muffle dezactivează microfonul Mac-ului cu o apăsare AirPods sau o combinație de taste.",
+    "sound_on": "Activează sunetul",
+    "sound_off": "Dezactivează sunetul",
+    "play": "Redă videoclipul",
+    "pause": "Întrerupe videoclipul"
+  },
   "story": {
     "title": "O apăsare. Liniște.",
     "steps": [

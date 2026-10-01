@@ -61,6 +61,15 @@
     ],
     "note": "Muffle vypína mikrofón na hardvérovej úrovni, takže nezáleží na tom, aká aplikácia, prehliadač alebo tab ho práve používa."
   },
+  "film": {
+    "title": "Pozrite si ho v akcii.",
+    "name": "Muffle za 28 sekúnd",
+    "alt": "28-sekundové video zobrazujúce, ako Muffle stlmí mikrofón Macu stlačením AirPods alebo klávesovou skratkou.",
+    "sound_on": "Zapnúť zvuk",
+    "sound_off": "Vypnúť zvuk",
+    "play": "Prehrať video",
+    "pause": "Pozastaviť video"
+  },
   "story": {
     "title": "Jedno stlačenie. Ticho.",
     "steps": [

@@ -61,6 +61,15 @@
     ],
     "note": "Muffle 会在硬件层面将麦克风静音，因此无论哪个 App、浏览器或网页标签页在使用话筒，都能彻底静音。"
   },
+  "film": {
+    "title": "观看实际效果。",
+    "name": "28 秒了解 Muffle",
+    "alt": "一段 28 秒的短片，演示 Muffle 如何通过按压 AirPods 或键盘快捷键将 Mac 麦克风静音。",
+    "sound_on": "开启声音",
+    "sound_off": "关闭声音",
+    "play": "播放视频",
+    "pause": "暂停视频"
+  },
   "story": {
     "title": "轻轻一按，瞬间静音。",
     "steps": [

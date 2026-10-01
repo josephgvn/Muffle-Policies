@@ -61,6 +61,15 @@
     ],
     "note": "Muffle disattiva il microfono a livello hardware, quindi non importa quale app, browser o scheda aperta tu stia usando."
   },
+  "film": {
+    "title": "Guardalo in azione.",
+    "name": "Muffle in 28 secondi",
+    "alt": "Un video di 28 secondi che mostra come Muffle disattiva il microfono del tuo Mac con una pressione degli AirPods o una scorciatoia da tastiera.",
+    "sound_on": "Attiva l'audio",
+    "sound_off": "Disattiva l'audio",
+    "play": "Riproduci il video",
+    "pause": "Metti in pausa il video"
+  },
   "story": {
     "title": "Una pressione. Silenzio.",
     "steps": [

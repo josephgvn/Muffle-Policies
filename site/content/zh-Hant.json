@@ -61,6 +61,15 @@
     ],
     "note": "Muffle 在硬體層級將麥克風靜音，因此無論使用哪個 App、瀏覽器或分頁都適用。"
   },
+  "film": {
+    "title": "看看實際運作方式。",
+    "name": "28 秒認識 Muffle",
+    "alt": "一段 28 秒的影片，展示 Muffle 如何透過按壓 AirPods 或鍵盤快速鍵將 Mac 的麥克風靜音。",
+    "sound_on": "開啟聲音",
+    "sound_off": "關閉聲音",
+    "play": "播放影片",
+    "pause": "暫停影片"
+  },
   "story": {
     "title": "按一下，瞬間靜音。",
     "steps": [

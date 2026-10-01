@@ -61,6 +61,15 @@
     ],
     "note": "Muffle tắt tiếng micrô ở cấp độ phần cứng, do đó ứng dụng, trình duyệt hay thẻ nào đang dùng micrô đều không quan trọng."
   },
+  "film": {
+    "title": "Xem ứng dụng hoạt động.",
+    "name": "Muffle trong 28 giây",
+    "alt": "Video dài 28 giây cho thấy cách Muffle tắt tiếng micrô của Mac bằng thao tác nhấn AirPods hoặc phím tắt bàn phím.",
+    "sound_on": "Bật âm thanh",
+    "sound_off": "Tắt âm thanh",
+    "play": "Phát video",
+    "pause": "Tạm dừng video"
+  },
   "story": {
     "title": "Một lần nhấn. Im lặng.",
     "steps": [

@@ -61,6 +61,15 @@
     ],
     "note": "Muffle dæmper mikrofonen på hardwareniveau, så det er ligegyldigt, hvilken app, browser eller fane der bruger den."
   },
+  "film": {
+    "title": "Se det i praksis.",
+    "name": "Muffle på 28 sekunder",
+    "alt": "En 28-sekunders film, der viser, hvordan Muffle dæmper din Macs mikrofon med et tryk på AirPods eller en tastaturgenvej.",
+    "sound_on": "Slå lyd til",
+    "sound_off": "Slå lyd fra",
+    "play": "Afspil filmen",
+    "pause": "Sæt filmen på pause"
+  },
   "story": {
     "title": "Et tryk. Stilhed.",
     "steps": [

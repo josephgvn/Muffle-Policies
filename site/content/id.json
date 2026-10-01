@@ -61,6 +61,15 @@
     ],
     "note": "Muffle membisukan mikrofon di tingkat perangkat keras, jadi tidak masalah app, browser, atau tab mana yang menggunakannya."
   },
+  "film": {
+    "title": "Lihat cara kerjanya.",
+    "name": "Muffle dalam 28 detik",
+    "alt": "Video 28 detik yang menunjukkan cara Muffle membisukan mikrofon Mac Anda dengan menekan AirPods atau pintasan keyboard.",
+    "sound_on": "Nyalakan suara",
+    "sound_off": "Matikan suara",
+    "play": "Putar video",
+    "pause": "Jeda video"
+  },
   "story": {
     "title": "Satu tekanan. Senyap.",
     "steps": [

@@ -61,6 +61,15 @@
     ],
     "note": "Muffle dempt de microfoon op hardwareniveau, dus het maakt niet uit welke app, browser of tabblad actief is."
   },
+  "film": {
+    "title": "Bekijk het in actie.",
+    "name": "Muffle in 28 seconden",
+    "alt": "Een video van 28 seconden die toont hoe Muffle de microfoon van je Mac dempt met een druk op je AirPods of een sneltoets.",
+    "sound_on": "Zet geluid aan",
+    "sound_off": "Zet geluid uit",
+    "play": "Speel de video af",
+    "pause": "Pauzeer de video"
+  },
   "story": {
     "title": "Eén druk. Stilte.",
     "steps": [

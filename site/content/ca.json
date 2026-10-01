@@ -61,6 +61,15 @@
     ],
     "note": "Muffle silencia el micròfon a nivell de maquinari, així que no importa quina app, navegador o pestanya estiguis fent servir."
   },
+  "film": {
+    "title": "Mira'l en acció.",
+    "name": "Muffle en 28 segons",
+    "alt": "Un vídeo de 28 segons que mostra com Muffle silencia el micròfon del Mac prement els AirPods o amb una drecera de teclat.",
+    "sound_on": "Activa el so",
+    "sound_off": "Desactiva el so",
+    "play": "Reprodueix el vídeo",
+    "pause": "Pausa el vídeo"
+  },
   "story": {
     "title": "Una premuda. Silenci.",
     "steps": [

@@ -61,6 +61,15 @@
     ],
     "note": "Muffle mikrofonu donanım seviyesinde susturur; bu yüzden hangi uygulamanın, tarayıcının veya sekmenin kullandığı fark etmez."
   },
+  "film": {
+    "title": "İş başında gör.",
+    "name": "28 saniyede Muffle",
+    "alt": "Muffle'ın Mac'inin mikrofonunu bir AirPods basışıyla ya da klavye kısayoluyla nasıl susturduğunu gösteren 28 saniyelik video.",
+    "sound_on": "Sesi aç",
+    "sound_off": "Sesi kapat",
+    "play": "Videoyu oynat",
+    "pause": "Videoyu duraklat"
+  },
   "story": {
     "title": "Tek bir basış. Sessizlik.",
     "steps": [

@@ -61,6 +61,15 @@
     ],
     "note": "Muffle schaltet das Mikrofon auf Hardware-Ebene stumm. Es spielt also keine Rolle, welche App, welcher Browser oder welcher Tab aktiv ist."
   },
+  "film": {
+    "title": "Sieh es in Aktion.",
+    "name": "Muffle in 28 Sekunden",
+    "alt": "Ein 28-sekündiger Film, der zeigt, wie Muffle das Mikrofon deines Mac mit einem AirPods-Druck oder einem Tastenkürzel stummschaltet.",
+    "sound_on": "Ton einschalten",
+    "sound_off": "Ton ausschalten",
+    "play": "Film abspielen",
+    "pause": "Film anhalten"
+  },
   "story": {
     "title": "Ein Druck. Stille.",
     "steps": [
