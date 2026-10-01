@@ -377,7 +377,7 @@ def scene_html(lang, c):
                ("head-muted", "ui-head-muted"), ("call-live", "ui-call-live"), ("call-muted", "ui-call-muted"),
                ("lower", "ui-lower")]
     pictures = "".join(
-        f'<div data-layer="{name}">{theme_picture(lang, base, "", lazy=False, priority=name == "panel-live")}</div>'
+        f'<div data-layer="{name}">{theme_picture(lang, base, c["hero"]["image_alt"], lazy=False, priority=name == "panel-live")}</div>'
         for name, base in sources
     )
     return f"""<div class="scene" data-layout='{json.dumps(layout)}'>
@@ -510,7 +510,7 @@ def home_page(lang, c, languages):
 <section class="final">
 <div class="final-inner">
 <div class="wrap center">
-<img class="final-icon" src="{{REL}}assets/icon-180.png?v={ASSET_VERSION}" alt="" width="148" height="148" loading="lazy">
+<img class="final-icon" src="{{REL}}assets/icon-180.png?v={ASSET_VERSION}" alt="Muffle" width="148" height="148" loading="lazy">
 <h2 class="display">{e(c['final_cta']['title'])}</h2>
 <p class="lead">{e(c['final_cta']['text'])}</p>
 <div class="final-cta">{download_button(c)}</div>
