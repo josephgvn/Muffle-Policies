@@ -20,7 +20,7 @@ import shutil
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = os.path.join(ROOT, "site")
 BASE_URL = "https://muffle.spendryapp.com"
-APP_STORE_URL = ""  # set once the app is live, e.g. https://apps.apple.com/app/id1234567890
+APP_STORE_URL = "https://apps.apple.com/app/muffle-mic-mute-button/id6817455178"
 SUPPORT_EMAIL = "hello@spendryapp.com"
 # Cloudflare Web Analytics site token. The beacon counts visits without cookies; the privacy page says so.
 WEB_ANALYTICS_TOKEN = "cf5fc12b7de143a4b77c64f10462a98d"
@@ -186,11 +186,21 @@ def icon(name, cls="ico"):
             f'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{ICONS[name]}</svg>')
 
 
-def download_button(c, small=False):
+def badge_ratio(lang):
+    """Width over height of Apple's Mac App Store badge in this language (assets/badge, from Apple's marketing tools)."""
+    with open(os.path.join(ROOT, "assets", "badge", f"{lang}.svg")) as f:
+        _, _, width, height = map(float, re.search(r'viewBox="([^"]+)"', f.read()).group(1).split())
+    return width / height
+
+
+def download_button(c, small=False, lang="en"):
     cls = "btn small" if small else "btn"
+    if APP_STORE_URL and small:
+        return f'<a class="{cls}" href="{e(APP_STORE_URL)}">{e(c["nav"]["download"])}</a>'
     if APP_STORE_URL:
-        label = c["nav"]["download"] if small else c["cta"]["download"]
-        return f'<a class="{cls}" href="{e(APP_STORE_URL)}">{e(label)}</a>'
+        # Apple's own badge, unchanged, in the page's language (English where Apple has no Mac App Store badge).
+        return (f'<a class="store-badge" href="{e(APP_STORE_URL)}"><img src="{{REL}}assets/badge/{lang}.svg?v={ASSET_VERSION}" '
+                f'alt="{e(c["cta"]["download"])}" width="{round(badge_ratio(lang) * 56)}" height="56"></a>')
     label = c["nav"]["download"] if small else c["cta"]["coming_soon"]
     return f'<span class="{cls} soon">{e(label)}</span>'
 
@@ -491,7 +501,7 @@ def home_page(lang, c, languages):
 <p class="eyebrow">{e(hero['eyebrow'])}</p>
 <h1 class="display">{e(hero['title'])}</h1>
 <p class="lead">{e(hero['subtitle'])}</p>
-<div class="cta-row">{download_button(c)}<a class="more-link" href="#statement">{e(hero['secondary_cta'])}{icon("arrow", "ico chevron")}</a></div>
+<div class="cta-row">{download_button(c, lang=lang)}<a class="more-link" href="#statement">{e(hero['secondary_cta'])}{icon("arrow", "ico chevron")}</a></div>
 <p class="fine">{e(c['cta']['trial'])} {e(c['cta']['requirements'])}</p>
 </div>
 {caps}
@@ -551,7 +561,7 @@ def home_page(lang, c, languages):
 <img class="final-icon" src="{{REL}}assets/icon-180.png?v={ASSET_VERSION}" alt="Muffle" width="148" height="148" loading="lazy">
 <h2 class="display">{e(c['final_cta']['title'])}</h2>
 <p class="lead">{e(c['final_cta']['text'])}</p>
-<div class="final-cta">{download_button(c)}</div>
+<div class="final-cta">{download_button(c, lang=lang)}</div>
 </div>
 </div>
 </section>
@@ -622,7 +632,7 @@ def guide_page(lang, c, g, languages):
 </header>
 <div class="wrap narrow prose">
 {intro}
-<aside class="cta-box reveal"><img src="{{REL}}assets/icon-64.png?v={ASSET_VERSION}" alt="" width="44" height="44"><strong>{e(labels['try'])}</strong>{download_button(c)}</aside>
+<aside class="cta-box reveal"><img src="{{REL}}assets/icon-64.png?v={ASSET_VERSION}" alt="" width="44" height="44"><strong>{e(labels['try'])}</strong>{download_button(c, lang=lang)}</aside>
 <h2 class="reveal">{e(g['steps_title'])}</h2>
 <ol class="how-steps compact">{steps}</ol>
 <figure class="guide-shot reveal{" card" if visual.startswith("card-") else ""}">{theme_picture(lang, visual, g["h1"])}</figure>

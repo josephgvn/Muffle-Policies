@@ -73,6 +73,10 @@ picture { display: block; }
 .btn:hover { text-decoration: none; background: var(--accent-2); translate: 0 -1px; }
 .btn.small { padding: 7px 15px; font-size: 13px; white-space: nowrap; }
 .btn.soon, .btn.soon:hover { background: var(--text); color: var(--bg); translate: none; cursor: default; }
+.store-badge { display: inline-block; line-height: 0; border-radius: 10px; transition: translate .2s var(--ease), opacity .2s; }
+.store-badge:hover { translate: 0 -1px; opacity: .88; }
+.store-badge:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.store-badge img { display: block; height: 56px; width: auto; }
 .more-link { display: inline-flex; align-items: center; gap: 5px; font-size: 19px; font-weight: 500; }
 .more-link:hover { text-decoration: none; }
 .chevron { width: .78em; height: .78em; transition: translate .25s var(--ease); }
@@ -321,7 +325,8 @@ details[open] summary::after { transform: translateY(2px) rotate(-135deg); }
 .prose h2 { font-size: clamp(26px, 3vw, 34px); letter-spacing: calc(var(--track) * .6); margin: 60px 0 22px; }
 .lead-p { font-size: 21px; color: var(--text-2); }
 .cta-box { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; background: var(--bg-alt); border-radius: 22px; padding: 22px 26px; margin: 40px 0; }
-.cta-box img { border-radius: 11px; }
+.cta-box > img { border-radius: 11px; }
+.cta-box .store-badge img { height: 46px; }
 .cta-box strong { flex: 1; font-size: 19px; min-width: 12em; }
 .cta-box p { margin: 0; flex-basis: 100%; color: var(--text-2); }
 .guide-shot { margin: 48px 0 32px; background: var(--bg-alt); border-radius: var(--radius); padding: clamp(20px, 4vw, 48px); display: flex; justify-content: center; }
@@ -354,7 +359,7 @@ footer .langs a[aria-current] { color: var(--text); font-weight: 600; }
   .tracks ul { flex-wrap: wrap; justify-content: center; row-gap: 14px; }
   .tracks ul[aria-hidden] { display: none; }
   .marquee { -webkit-mask-image: none; mask-image: none; }
-  .guide-list a, .btn { transition: none; }
+  .guide-list a, .btn, .store-badge { transition: none; }
   .scene, .scene * { animation: none !important; transition: none !important; }
 }
 
