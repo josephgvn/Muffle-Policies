@@ -22,6 +22,9 @@ SITE = os.path.join(ROOT, "site")
 BASE_URL = "https://muffle.spendryapp.com"
 APP_STORE_URL = "https://apps.apple.com/app/muffle-mic-mute-button/id6817455178"
 SUPPORT_EMAIL = "hello@spendryapp.com"
+# Spendry, the budget app from the same developer: the footer links to its home page and two free
+# calculators in the visitor's language (texts taken from spendryapp.com's own translations).
+SPENDRY_LINKS = json.load(open(os.path.join(SITE, "spendry_links.json"), encoding="utf-8"))
 # Cloudflare Web Analytics site token. The beacon counts visits without cookies; the privacy page says so.
 WEB_ANALYTICS_TOKEN = "cf5fc12b7de143a4b77c64f10462a98d"
 
@@ -231,6 +234,9 @@ def page(lang, c, path, title, description, body, jsonld, languages, not_found=F
     guides_links = "\n".join(
         f'<li><a href="{home}guides/{g["slug"]}/">{e(g["h1"])}</a></li>' for g in c["guides"][:5]
     )
+    spendry = SPENDRY_LINKS.get(lang) or SPENDRY_LINKS["en"]
+    spendry_links = "".join(f'<li><a href="{spendry[url]}">{e(spendry[text])}</a></li>'
+                            for text, url in (("label", "home"), ("debt", "debt_url"), ("cc", "cc_url")))
     current = ' aria-current="page"'
     lang_links = "\n".join(
         f'<a href="{rel}{prefix(code)}{"" if not_found else path}" hreflang="{code}" lang="{code}"{current if code == lang else ""}>{e(LANGS[code][0])}</a>'
@@ -304,6 +310,7 @@ def page(lang, c, path, title, description, body, jsonld, languages, not_found=F
 <div class="cols">
 <div><h4>{e(c['footer']['product'])}</h4><ul><li><a href="{home}">{e(c['nav']['home'])}</a></li><li><a href="{home}guides/">{e(c['footer']['guides'])}</a></li><li><a href="{home}support/">{e(c['footer']['support'])}</a></li><li><a href="{home}privacy/">{e(c['footer']['privacy'])}</a></li><li><a href="mailto:{SUPPORT_EMAIL}">{e(c['footer']['contact'])}</a></li></ul></div>
 <div><h4>{e(c['footer']['guides'])}</h4><ul>{guides_links}</ul></div>
+<div><h4>Spendry</h4><ul>{spendry_links}</ul></div>
 <div class="wide"><h4>{e(c['footer']['language'])}</h4><div class="langs">{lang_links}</div></div>
 </div>
 <p class="copy">{e(c['footer']['copyright'])}</p>

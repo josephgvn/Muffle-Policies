@@ -1,0 +1,274 @@
+{
+ "en": {
+  "label": "Budget, Debt Payoff and Bill Reminders for iPhone",
+  "home": "https://spendryapp.com/",
+  "debt": "Debt payoff calculator",
+  "debt_url": "https://spendryapp.com/debt-payoff-calculator/",
+  "cc": "Credit card payoff calculator",
+  "cc_url": "https://spendryapp.com/credit-card-payoff-calculator/"
+ },
+ "ar": {
+  "label": "ميزانية وسداد الديون وتذكير الفواتير",
+  "home": "https://spendryapp.com/ar/",
+  "debt": "حاسبة سداد الديون",
+  "debt_url": "https://spendryapp.com/ar/debt-payoff-calculator/",
+  "cc": "حاسبة سداد بطاقة الائتمان",
+  "cc_url": "https://spendryapp.com/ar/credit-card-payoff-calculator/"
+ },
+ "ca": {
+  "label": "pressupostos i control de deutes a l'iPhone",
+  "home": "https://spendryapp.com/ca/",
+  "debt": "Calculadora per amortitzar deutes",
+  "debt_url": "https://spendryapp.com/ca/debt-payoff-calculator/",
+  "cc": "Calculadora per pagar la targeta de crèdit",
+  "cc_url": "https://spendryapp.com/ca/credit-card-payoff-calculator/"
+ },
+ "cs": {
+  "label": "Rozpočty, splácení dluhů a účty pro iPhone",
+  "home": "https://spendryapp.com/cs/",
+  "debt": "Kalkulačka splácení dluhů",
+  "debt_url": "https://spendryapp.com/cs/debt-payoff-calculator/",
+  "cc": "Kalkulačka splácení kreditní karty",
+  "cc_url": "https://spendryapp.com/cs/credit-card-payoff-calculator/"
+ },
+ "da": {
+  "label": "Budget, gældsafvikling og regninger til iPhone",
+  "home": "https://spendryapp.com/da/",
+  "debt": "Beregner til gældsafvikling",
+  "debt_url": "https://spendryapp.com/da/debt-payoff-calculator/",
+  "cc": "Beregner til kreditkortgæld",
+  "cc_url": "https://spendryapp.com/da/credit-card-payoff-calculator/"
+ },
+ "de": {
+  "label": "Budget, Schulden und Erinnerungen für iPhone",
+  "home": "https://spendryapp.com/de/",
+  "debt": "Schulden-Tilgungsrechner",
+  "debt_url": "https://spendryapp.com/de/debt-payoff-calculator/",
+  "cc": "Kreditkarten-Rechner",
+  "cc_url": "https://spendryapp.com/de/credit-card-payoff-calculator/"
+ },
+ "el": {
+  "label": "Προϋπολογισμός και Χρέη στο iPhone",
+  "home": "https://spendryapp.com/el/",
+  "debt": "Υπολογιστής αποπληρωμής χρεών",
+  "debt_url": "https://spendryapp.com/el/debt-payoff-calculator/",
+  "cc": "Υπολογισμός εξόφλησης πιστωτικής κάρτας",
+  "cc_url": "https://spendryapp.com/el/credit-card-payoff-calculator/"
+ },
+ "es": {
+  "label": "Presupuestos, deudas y facturas en iPhone",
+  "home": "https://spendryapp.com/es/",
+  "debt": "Calculadora para pagar deudas",
+  "debt_url": "https://spendryapp.com/es/debt-payoff-calculator/",
+  "cc": "Calculadora de amortización de tarjetas",
+  "cc_url": "https://spendryapp.com/es/credit-card-payoff-calculator/"
+ },
+ "fi": {
+  "label": "Budjetit, velkojen maksu ja laskumuistutukset",
+  "home": "https://spendryapp.com/fi/",
+  "debt": "Velkojen maksulaskin",
+  "debt_url": "https://spendryapp.com/fi/debt-payoff-calculator/",
+  "cc": "Luottokorttilaskuri",
+  "cc_url": "https://spendryapp.com/fi/credit-card-payoff-calculator/"
+ },
+ "fr": {
+  "label": "Budget et suivi des dettes sur iPhone",
+  "home": "https://spendryapp.com/fr/",
+  "debt": "Simulateur de remboursement de dettes",
+  "debt_url": "https://spendryapp.com/fr/debt-payoff-calculator/",
+  "cc": "Calculateur de remboursement de carte de crédit",
+  "cc_url": "https://spendryapp.com/fr/credit-card-payoff-calculator/"
+ },
+ "he": {
+  "label": "תקציב, סגירת חובות ותזכורות ל-iPhone",
+  "home": "https://spendryapp.com/he/",
+  "debt": "מחשבון סגירת חובות",
+  "debt_url": "https://spendryapp.com/he/debt-payoff-calculator/",
+  "cc": "מחשבון סגירת חוב בכרטיס אשראי",
+  "cc_url": "https://spendryapp.com/he/credit-card-payoff-calculator/"
+ },
+ "hi": {
+  "label": "iPhone के लिए बजट, ऋण मुक्ति और बिल अनुस्मारक",
+  "home": "https://spendryapp.com/hi/",
+  "debt": "ऋण मुक्ति कैलकुलेटर",
+  "debt_url": "https://spendryapp.com/hi/debt-payoff-calculator/",
+  "cc": "क्रेडिट कार्ड भुगतान कैलकुलेटर",
+  "cc_url": "https://spendryapp.com/hi/credit-card-payoff-calculator/"
+ },
+ "hr": {
+  "label": "Proračuni, otplata dugova i podsjetnici za iPhone",
+  "home": "https://spendryapp.com/hr/",
+  "debt": "Kalkulator otplate duga",
+  "debt_url": "https://spendryapp.com/hr/debt-payoff-calculator/",
+  "cc": "Kalkulator otplate kreditne kartice",
+  "cc_url": "https://spendryapp.com/hr/credit-card-payoff-calculator/"
+ },
+ "hu": {
+  "label": "Költségvetés és adósságtörlesztés iPhone-ra",
+  "home": "https://spendryapp.com/hu/",
+  "debt": "Adósságtörlesztési kalkulátor",
+  "debt_url": "https://spendryapp.com/hu/debt-payoff-calculator/",
+  "cc": "Hitelkártya törlesztési kalkulátor",
+  "cc_url": "https://spendryapp.com/hu/credit-card-payoff-calculator/"
+ },
+ "id": {
+  "label": "Anggaran, Bebas Utang, Pengingat Tagihan",
+  "home": "https://spendryapp.com/id/",
+  "debt": "Kalkulator pelunasan utang",
+  "debt_url": "https://spendryapp.com/id/debt-payoff-calculator/",
+  "cc": "Kalkulator pelunasan kartu kredit",
+  "cc_url": "https://spendryapp.com/id/credit-card-payoff-calculator/"
+ },
+ "it": {
+  "label": "Budget, Debiti e Promemoria per iPhone",
+  "home": "https://spendryapp.com/it/",
+  "debt": "Calcolatore estinzione debiti",
+  "debt_url": "https://spendryapp.com/it/debt-payoff-calculator/",
+  "cc": "Calcolo estinzione carta di credito",
+  "cc_url": "https://spendryapp.com/it/credit-card-payoff-calculator/"
+ },
+ "ja": {
+  "label": "iPhone向け予算管理・借入返済・支払リマインダー",
+  "home": "https://spendryapp.com/ja/",
+  "debt": "借入返済シミュレーター",
+  "debt_url": "https://spendryapp.com/ja/debt-payoff-calculator/",
+  "cc": "クレジットカード返済シミュレーター",
+  "cc_url": "https://spendryapp.com/ja/credit-card-payoff-calculator/"
+ },
+ "ko": {
+  "label": "iPhone을 위한 예산, 부채 상환 및 청구서 알림",
+  "home": "https://spendryapp.com/ko/",
+  "debt": "부채 상환 계산기",
+  "debt_url": "https://spendryapp.com/ko/debt-payoff-calculator/",
+  "cc": "신용카드 대금 완납 계산기",
+  "cc_url": "https://spendryapp.com/ko/credit-card-payoff-calculator/"
+ },
+ "ms": {
+  "label": "Bajet, Bebas Hutang & Peringatan Bil iPhone",
+  "home": "https://spendryapp.com/ms/",
+  "debt": "Kalkulator bayar hutang",
+  "debt_url": "https://spendryapp.com/ms/debt-payoff-calculator/",
+  "cc": "Kalkulator selesai hutang kad kredit",
+  "cc_url": "https://spendryapp.com/ms/credit-card-payoff-calculator/"
+ },
+ "nb": {
+  "label": "Budsjetter, gjeldsnedbetaling og påminnelser",
+  "home": "https://spendryapp.com/nb/",
+  "debt": "Gjeldsnedbetalingskalkulator",
+  "debt_url": "https://spendryapp.com/nb/debt-payoff-calculator/",
+  "cc": "Kredittkortkalkulator",
+  "cc_url": "https://spendryapp.com/nb/credit-card-payoff-calculator/"
+ },
+ "nl": {
+  "label": "Budget, schulden aflossen en herinneringen voor iPhone",
+  "home": "https://spendryapp.com/nl/",
+  "debt": "Calculator voor schulden aflossen",
+  "debt_url": "https://spendryapp.com/nl/debt-payoff-calculator/",
+  "cc": "Creditcard aflossen calculator",
+  "cc_url": "https://spendryapp.com/nl/credit-card-payoff-calculator/"
+ },
+ "pl": {
+  "label": "Budżet, spłata długów i rachunki na iPhone",
+  "home": "https://spendryapp.com/pl/",
+  "debt": "Kalkulator spłaty długów",
+  "debt_url": "https://spendryapp.com/pl/debt-payoff-calculator/",
+  "cc": "Kalkulator spłaty karty kredytowej",
+  "cc_url": "https://spendryapp.com/pl/credit-card-payoff-calculator/"
+ },
+ "pt-BR": {
+  "label": "Orçamento, Dívidas e Lembretes no iPhone",
+  "home": "https://spendryapp.com/pt-br/",
+  "debt": "Calculadora de quitação de dívidas",
+  "debt_url": "https://spendryapp.com/pt-br/debt-payoff-calculator/",
+  "cc": "Calculadora de quitação de cartão de crédito",
+  "cc_url": "https://spendryapp.com/pt-br/credit-card-payoff-calculator/"
+ },
+ "pt-PT": {
+  "label": "Orçamento e amortização de dívidas no iPhone",
+  "home": "https://spendryapp.com/pt-pt/",
+  "debt": "Calculadora de amortização de dívidas",
+  "debt_url": "https://spendryapp.com/pt-pt/debt-payoff-calculator/",
+  "cc": "Calculadora de liquidação de cartão de crédito",
+  "cc_url": "https://spendryapp.com/pt-pt/credit-card-payoff-calculator/"
+ },
+ "ro": {
+  "label": "Buget, achitare datorii și mementouri pe iPhone",
+  "home": "https://spendryapp.com/ro/",
+  "debt": "Calculator pentru achitarea datoriilor",
+  "debt_url": "https://spendryapp.com/ro/debt-payoff-calculator/",
+  "cc": "Calculator rambursare card de credit",
+  "cc_url": "https://spendryapp.com/ro/credit-card-payoff-calculator/"
+ },
+ "ru": {
+  "label": "Бюджет, выплата долгов и счета на iPhone",
+  "home": "https://spendryapp.com/ru/",
+  "debt": "Калькулятор выплаты долгов",
+  "debt_url": "https://spendryapp.com/ru/debt-payoff-calculator/",
+  "cc": "Калькулятор погашения кредитной карты",
+  "cc_url": "https://spendryapp.com/ru/credit-card-payoff-calculator/"
+ },
+ "sk": {
+  "label": "Rozpočet, splácanie dlhov a pripomienky",
+  "home": "https://spendryapp.com/sk/",
+  "debt": "Kalkulačka splácania dlhov",
+  "debt_url": "https://spendryapp.com/sk/debt-payoff-calculator/",
+  "cc": "Kalkulačka splácania kreditnej karty",
+  "cc_url": "https://spendryapp.com/sk/credit-card-payoff-calculator/"
+ },
+ "sv": {
+  "label": "Budget, skulder och räkningar för iPhone",
+  "home": "https://spendryapp.com/sv/",
+  "debt": "Skuldkalkylator",
+  "debt_url": "https://spendryapp.com/sv/debt-payoff-calculator/",
+  "cc": "Kalkylator för kreditkortsskuld",
+  "cc_url": "https://spendryapp.com/sv/credit-card-payoff-calculator/"
+ },
+ "th": {
+  "label": "วางแผนงบ จัดการหนี้สิน และเตือนบิลสำหรับ iPhone",
+  "home": "https://spendryapp.com/th/",
+  "debt": "เครื่องคำนวณการปลดหนี้",
+  "debt_url": "https://spendryapp.com/th/debt-payoff-calculator/",
+  "cc": "โปรแกรมคำนวณการจ่ายหนี้บัตรเครดิต",
+  "cc_url": "https://spendryapp.com/th/credit-card-payoff-calculator/"
+ },
+ "tr": {
+  "label": "Gelir Gider, Kredi Kartı, Taksit ve Borç Takibi",
+  "home": "https://spendryapp.com/tr/",
+  "debt": "Borç kapatma hesaplama",
+  "debt_url": "https://spendryapp.com/tr/borc-kapatma-hesaplama/",
+  "cc": "Kredi kartı borç hesaplama",
+  "cc_url": "https://spendryapp.com/tr/kredi-karti-borc-hesaplama/"
+ },
+ "uk": {
+  "label": "Бюджет, погашення боргів і рахунки на iPhone",
+  "home": "https://spendryapp.com/uk/",
+  "debt": "Калькулятор погашення боргів",
+  "debt_url": "https://spendryapp.com/uk/debt-payoff-calculator/",
+  "cc": "Калькулятор погашення кредитної картки",
+  "cc_url": "https://spendryapp.com/uk/credit-card-payoff-calculator/"
+ },
+ "vi": {
+  "label": "Ngân sách, trả nợ và nhắc hóa đơn cho iPhone",
+  "home": "https://spendryapp.com/vi/",
+  "debt": "Công cụ tính kế hoạch trả nợ",
+  "debt_url": "https://spendryapp.com/vi/debt-payoff-calculator/",
+  "cc": "Công cụ tính trả nợ thẻ tín dụng",
+  "cc_url": "https://spendryapp.com/vi/credit-card-payoff-calculator/"
+ },
+ "zh-Hans": {
+  "label": "iPhone 预算、债务还清与账单提醒",
+  "home": "https://spendryapp.com/zh-hans/",
+  "debt": "债务还清计算器",
+  "debt_url": "https://spendryapp.com/zh-hans/debt-payoff-calculator/",
+  "cc": "信用卡还款计算器",
+  "cc_url": "https://spendryapp.com/zh-hans/credit-card-payoff-calculator/"
+ },
+ "zh-Hant": {
+  "label": "iPhone 預算、債務還清與帳單提醒工具",
+  "home": "https://spendryapp.com/zh-hant/",
+  "debt": "債務還清計算機",
+  "debt_url": "https://spendryapp.com/zh-hant/debt-payoff-calculator/",
+  "cc": "信用卡還款試算",
+  "cc_url": "https://spendryapp.com/zh-hant/credit-card-payoff-calculator/"
+ }
+}
